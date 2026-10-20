@@ -1,0 +1,178 @@
+[
+    {
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 1,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "**PROJETO DE IDEAÇÃO DE SOFTWARE**  \nProfessora: Jeneffer Cristine Ferreira\n\n**Processo de ideação de software:**  \nDESCOBRIR → DEFINIR → IDEAR → PROTOTIPAR\n\n**Relações entre etapas e ícones:**  \n- DESCOBRIR: lupa.  \n- DEFINIR: alvo.  \n- IDEAR: lâmpada.  \n- PROTOTIPAR: foguete.  \n- Setas indicam a sequência linear das etapas.\n\n**Representações visuais:**  \n- Diagrama no canto superior direito: lâmpada → nuvem com pessoas → balão de fala → engrenagem, conectados por setas tracejadas.  \n- Tela de laptop: wireframe com barra superior, retângulo grande com X, linhas de texto, quadrado menor e botão com ícone de código `</>`; post-it amarelo com lâmpada.  \n- Caderno: wireframes com retângulos com X, setas, pequenos quadrados e círculo.  \n- Seta circular próxima ao laptop."
+    },
+    {
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 5,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "# COMPETÊNCIAS A SEREM DESENVOLVIDAS\n\n## PROJETO DE IDEAÇÃO DE SOFTWARE\n\nProfessora Jenefter Cristine Ferreira\n\n## COMPETÊNCIAS TÉCNICAS — HARD SKILLS\n\n1. **Identificação e análise de problemas**  \n   Capacidade de compreender situações reais, identificar problemas e analisar oportunidades para desenvolvimento de soluções digitais.\n\n2. **Concepção de produtos digitais**  \n   Capacidade de transformar problemas e necessidades dos usuários em propostas estruturadas de produtos digitais.\n\n3. **Pesquisa e investigação**  \n   Capacidade de realizar pesquisas exploratórias utilizando técnicas como Desk Research, análise de Benchmark e investigação com potenciais usuários.\n\n4. **Modelagem de usuários**  \n   Capacidade de representar públicos e usuários por meio da construção de personas e jornadas.\n\n5. **Ideação**  \n   Capacidade de utilizar técnicas estruturadas para geração, organização e seleção de ideias.\n\n6. **Priorização de funcionalidades**  \n   Capacidade de identificar funcionalidades essenciais, desejáveis e futuras de um produto digital.\n\n7. **Desenvolvimento de MVP**  \n   Capacidade de definir a versão mínima de um produto capaz de validar suas principais hipóteses.\n\n8. **Prototipação**  \n   Capacidade de transformar requisitos e ideias em representações visuais e protótipos navegáveis.\n\n9. **Comunicação de produto**  \n   Capacidade de estruturar e apresentar uma proposta de software utilizando técnicas de Pitch."
+    },
+    {
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 20,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "**ETAPAS DO PROCESSO**\n\n1. **IDENTIFICAR**  \n   Identificar o problema ou necessidade que precisa ser resolvido.\n\n→ 2. **IDEAR**  \n   Gerar ideias e possíveis soluções para o problema.\n\n→ 3. **PLANEJAR**  \n   Analisar, selecionar e planejar a melhor solução.\n\n→ 4. **DESENVOLVER**  \n   Desenvolver e implementar a solução.\n\n→ 5. **TESTAR**  \n   Testar a solução para garantir que funciona bem.\n\n→ 6. **IMPLEMENTAR**  \n   Colocar a solução em uso e acompanhar os resultados.\n\n→ 7. **AVALIAR E MELHORAR**  \n   Avaliar os resultados e buscar melhorias contínuas."
+    },
+    {
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 1,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "**Título:** Lean Canvas aplicado à Ideação de Software\n\n**Disciplina:** Projeto de Ideação de Software e Design de Artefatos\n\n**Prof.ª:** Jennefer Ferreira"
+    },
+    {
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 8,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "Título: Estrutura do Lean Canvas\n\nSubtítulo: O Lean Canvas é formado por nove blocos:\n\n1. Problema\n2. Segmentos de clientes\n3. Proposta Única de Valor\n4. Solução\n5. Canais\n6. Fontes de receita\n7. Estrutura de custos\n8. Métricas-chave\n9. Vantagem injusta\n\nOrganização visual: os nove blocos estão numerados e dispostos em três linhas e três colunas.\n\nCada bloco representa uma dimensão importante da ideia."
+    },
+    {
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 20,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "# Bloco 5: Canais\n\nOs Canais representam os meios utilizados para alcançar, atender e manter os usuários.\n\n## Exemplos de canais digitais:\n- Redes sociais\n- Mecanismos de busca\n- Lojas de aplicativos\n- Site\n- E-mail\n- Ambientes virtuais de aprendizagem\n- Comunidades digitais\n- Marketing de conteúdo\n\n## Representação visual\n- No centro, um smartphone e um notebook/laptop.\n- Ao redor, sete avatares de usuários.\n- Linhas tracejadas conectam o smartphone e o notebook/laptop aos avatares, representando a relação entre os dispositivos/canais e os usuários."
+    },
+    {
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 2,
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 195,
+        "desenhos": 3,
+        "motivos": [],
+        "conteudo": "Histórias de Usuário\n•\nAs histórias de usuário são uma ferramenta poderosa no \ndesign centrado no usuário, permitindo que equipes capturem\nnecessidades reais de forma concisa e orientada a valor."
+    },
+    {
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 3,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 44,
+        "desenhos": 3,
+        "motivos": [
+            "texto_muito_curto"
+        ],
+        "conteudo": "# Estrutura Básica de uma História de Usuário\n\nA estrutura é composta por três partes:\n\n- **Como um [tipo de usuário]**: Define a pessoa ou papel do usuário que tem a necessidade específica, como \"cliente novo\", \"usuário frequente\", \"administrador\" ou \"estudante\".\n- **Eu quero [algum objetivo]**: Descreve a ação ou tarefa que o usuário deseja realizar, como \"encontrar um produto\", \"fazer uma reserva\" ou \"editar meu perfil\".\n- **Para que [algum motivo/benefício]**: Explica o valor ou benefício esperado ao realizar a ação, como \"comparar preços\", \"garantir minha vaga\" ou \"manter informações atualizadas\"."
+    },
+    {
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 5,
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 475,
+        "desenhos": 9,
+        "motivos": [],
+        "conteudo": "Exemplo: E-commerce\n1\nTipo de Usuário\nCliente que está comprando pela primeira vez (pode ter mais \nrestrições de orçamento ou estar menos familiarizado com o \ncatálogo).\n2\nObjetivo\nFiltrar produtos por faixa de preço.\n3\nMotivo/Benefício\nEncontrar opções dentro do orçamento.\nHistória completa: \"Como um cliente que está comprando pela primeira vez, eu \nquero poder filtrar os produtos por faixa de preço, para que eu possa encontrar \nopções que se encaixem no meu orçamento.\""
+    },
+    {
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 1,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "Título: Mapa de Navegação e Wireframe  \nDisciplina: Projeto de Ideação de Software  \nProf.ª Jenefter Ferreira\n\nMapa de Navegação\n- Nó superior: ícone de casa.\n- O nó superior ramifica-se em três nós intermediários:\n  1. Ícone com linhas horizontais.\n  2. Ícone de grade com quatro quadrados.\n  3. Ícone de usuário com silhueta de pessoa.\n- Cada nó intermediário possui dois nós filhos, representados por retângulos com linhas horizontais:\n  - Sob o ícone com linhas horizontais: dois retângulos azuis.\n  - Sob o ícone de grade: dois retângulos rosas.\n  - Sob o ícone de usuário: dois retângulos verdes.\n\nWireframes\n- Wireframe desktop: janela de navegador com barra superior contendo três pontos; barra lateral esquerda com ícone de casa e itens de lista; área principal com placeholder de imagem (ícone de montanha), linhas de texto, três placeholders quadrados com X e linhas.\n- Wireframe mobile: tela de smartphone com barra superior contendo ícone de menu (três linhas); placeholder de imagem com X; linhas de texto; botão.\n\nRelações visuais\n- Linhas tracejadas conectam o mapa de navegação aos wireframes:\n  - Do mapa de navegação para o wireframe desktop.\n  - Do mapa de navegação para o wireframe mobile."
+    },
+    {
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 7,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "# Estrutura hierárquica\n\nA navegação parte de uma tela principal para telas secundárias.\n\n## Estrutura de navegação\n\nPágina inicial\n→ Cursos\n   → Detalhes do curso\n   → Conteúdos\n→ Perfil\n   → Dados pessoais\n   → Configurações\n\nEssa estrutura é semelhante a uma árvore."
+    },
+    {
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 20,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "Título: Características de um wireframe\n\nConceito: O foco de um wireframe está na estrutura e no funcionamento, e não na aparência final.\n\nCaracterísticas de um wireframe:\n- Formas geométricas simples\n- Poucos detalhes visuais\n- Cores neutras\n- Textos provisórios\n- Espaços reservados para imagens\n- Indicação de botões e campos\n- Organização dos elementos\n- Hierarquia das informações\n- Possíveis caminhos de navegação\n\nExemplo visual de wireframe (estrutura):\n- Barra superior com três pontos e menu.\n- Área retangular grande com X, indicando espaço reservado para imagem.\n- Linhas horizontais, indicando texto.\n- Duas áreas retangulares menores com X, indicando espaços reservados para imagens.\n- Linhas horizontais adicionais, indicando texto.\n- Campos de formulário; um campo com seta para baixo.\n- Botão retangular.\n\nRelação: O wireframe de exemplo organiza os elementos de cima para baixo e utiliza formas simples, poucos detalhes visuais, cores neutras, textos provisórios, espaços reservados para imagens e indicação de botões e campos, reforçando que seu foco está na estrutura e no funcionamento, e não na aparência final."
+    },
+    {
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 1,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "**Título:** Matriz CSD  \n**Subtítulo:** Certezas, Suposições e Dúvidas  \n\n**Descrição:**  \nComo organizar o conhecimento sobre um projeto e identificar o que precisamos investigar.\n\n**Disciplina:** Projeto de Ideação de Software e Design de Artefatos Digitais  \n**Prof.ª:** Jeneffer Ferreira  \n\n**Elementos visuais e relações:**  \n- Cartão **C**: letra C com ícone de check.  \n- Cartão **S**: letra S com ícone de lâmpada.  \n- Cartão **D**: letra D com ícone de interrogação.  \n\n**Relação indicada:**  \nMatriz CSD → Certezas (C), Suposições (S) e Dúvidas (D)."
+    },
+    {
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 5,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "# Estrutura da matriz\n\nA estrutura é organizada em três categorias:\n\n- **CERTEZAS**\n  - O que sabemos com base em evidências?\n  - Informações documentadas ou observadas.\n\n- **SUPOSIÇÕES**\n  - O que acreditamos, mas precisamos verificar?\n  - Hipóteses sobre o problema e os usuários.\n\n- **DÚVIDAS**\n  - O que precisamos descobrir?\n  - Perguntas que orientam a investigação.\n\nRodapé: UX/UI Design • Prof.ª Jenefler Ferreira — 5/22."
+    },
+    {
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 10,
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "desenhos": 1,
+        "motivos": [
+            "sem_texto_extraivel"
+        ],
+        "conteudo": "# D: Dúvidas\n\nPerguntas sobre informações que a equipe ainda não possui.  \nElas ajudam a definir o que pesquisar.\n\n## Perguntas\n- Como os usuários realizam essa tarefa atualmente?\n- Em qual etapa encontram mais dificuldades?\n- Quais informações precisam consultar primeiro?\n- Que recursos de acessibilidade utilizam?\n- O que os leva a abandonar o cadastro?\n\n## Dica\nPrefira perguntas que permitam descobrir comportamentos e necessidades sem sugerir a resposta.\n\n## Referência\nUX/UI Design • Prof.ª Jennefer Ferreira  \n10/22"
+    }
+]

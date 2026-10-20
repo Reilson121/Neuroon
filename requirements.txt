@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+langchain-community
+pypdf
+pymupdf
+python-pptx
+langchain-text-splitters
+sentence-transformers
