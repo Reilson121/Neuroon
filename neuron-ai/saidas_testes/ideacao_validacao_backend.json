@@ -1,0 +1,82 @@
+{
+  "gerado_em_utc": "2026-10-28T18:27:52.699326+00:00",
+  "checks": [
+    "catalogo_5_assuntos_5_materiais",
+    "abertura_dos_cinco_pdfs_autenticada",
+    "pratica_sem_material_nao_inventa_questoes",
+    "rag_filtrado_nos_5_assuntos_com_ids_relacionais",
+    "monitor_real_com_fontes_sse_e_historico"
+  ],
+  "aprovado": true,
+  "monitor": {
+    "id": 52,
+    "papel": "MONITOR",
+    "conteudo": "Os nove blocos do Lean Canvas são: Problema, Segmentos de clientes, Proposta Única de Valor, Solução, Canais, Fontes de receita, Estrutura de custos, Métricas-chave e Vantagem injusta. [F1]\n\nCada bloco representa uma dimensão importante da ideia, ajudando a estruturar e validar hipóteses sobre o negócio. [F1] [F2]\n\nExemplo visual didático criado pela IA, baseado no conceito em [F1].\n\n| # | Bloco |\n|---|-------|\n| 1 | Problema |\n| 2 | Segmentos de clientes |\n| 3 | Proposta Única de Valor |\n| 4 | Solução |\n| 5 | Canais |\n| 6 | Fontes de receita |\n| 7 | Estrutura de custos |\n| 8 | Métricas-chave |\n| 9 | Vantagem injusta |\n[F1]",
+    "fontes": [
+      {
+        "referencia": "F1",
+        "chunk_id": "599c4df9619830fe775e23e5",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pagina": 8,
+        "assunto": "lean_canvas",
+        "aula": "02",
+        "similaridade": 0.8674569567986675,
+        "assunto_id": 63,
+        "pasta_aula": "aula_02_lean_canvas",
+        "periodo_id": 1,
+        "material_id": 17,
+        "disciplina_id": 11,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Aula 2 — Lean Canvas",
+        "chunk_caracteres": 329,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "total_chunks_pagina": 1,
+        "autorizacao_professor": false,
+        "fonte_monitor_virtual": true,
+        "disponivel_para_pratica": false,
+        "caracteres_texto_original": 0,
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "chunk_index": 1
+      },
+      {
+        "referencia": "F2",
+        "chunk_id": "dbb9c33e63a25298b0ec74dd",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pagina": 2,
+        "assunto": "lean_canvas",
+        "aula": "02",
+        "similaridade": 0.5544004505158008,
+        "assunto_id": 63,
+        "pasta_aula": "aula_02_lean_canvas",
+        "periodo_id": 1,
+        "material_id": 17,
+        "disciplina_id": 11,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Aula 2 — Lean Canvas",
+        "chunk_caracteres": 882,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "total_chunks_pagina": 1,
+        "autorizacao_professor": false,
+        "fonte_monitor_virtual": true,
+        "disponivel_para_pratica": false,
+        "caracteres_texto_original": 0,
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "chunk_index": 1
+      }
+    ],
+    "criadoEm": "2026-10-28T18:35:21.519816Z"
+  },
+  "conta_temporaria_removida": true
+}

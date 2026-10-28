@@ -1,0 +1,137 @@
+{
+  "materiais": {
+    "21": {
+      "chunks_antes": 0,
+      "chunks_depois": 25,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 25,
+      "inseridos": 25,
+      "vinculos_relacionais_atualizados": 25
+    },
+    "22": {
+      "chunks_antes": 0,
+      "chunks_depois": 19,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 19,
+      "inseridos": 19,
+      "vinculos_relacionais_atualizados": 19
+    },
+    "23": {
+      "chunks_antes": 0,
+      "chunks_depois": 43,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 43,
+      "inseridos": 43,
+      "vinculos_relacionais_atualizados": 43
+    },
+    "24": {
+      "chunks_antes": 0,
+      "chunks_depois": 31,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 31,
+      "inseridos": 31,
+      "vinculos_relacionais_atualizados": 31
+    },
+    "25": {
+      "chunks_antes": 0,
+      "chunks_depois": 37,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 37,
+      "inseridos": 37,
+      "vinculos_relacionais_atualizados": 37
+    },
+    "26": {
+      "chunks_antes": 0,
+      "chunks_depois": 37,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 37,
+      "inseridos": 37,
+      "vinculos_relacionais_atualizados": 37
+    },
+    "27": {
+      "chunks_antes": 0,
+      "chunks_depois": 25,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 25,
+      "inseridos": 25,
+      "vinculos_relacionais_atualizados": 25
+    },
+    "28": {
+      "chunks_antes": 0,
+      "chunks_depois": 19,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 19,
+      "inseridos": 19,
+      "vinculos_relacionais_atualizados": 19
+    },
+    "29": {
+      "chunks_antes": 0,
+      "chunks_depois": 33,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 33,
+      "inseridos": 33,
+      "vinculos_relacionais_atualizados": 33
+    },
+    "30": {
+      "chunks_antes": 0,
+      "chunks_depois": 30,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 30,
+      "inseridos": 30,
+      "vinculos_relacionais_atualizados": 30
+    },
+    "31": {
+      "chunks_antes": 0,
+      "chunks_depois": 25,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 25,
+      "inseridos": 25,
+      "vinculos_relacionais_atualizados": 25
+    },
+    "32": {
+      "chunks_antes": 0,
+      "chunks_depois": 29,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 29,
+      "inseridos": 29,
+      "vinculos_relacionais_atualizados": 29
+    }
+  },
+  "total_materiais": 12,
+  "total_chunks": 353,
+  "buscas_por_assunto_conferidas": 12,
+  "pratica": {
+    "aprovado": true,
+    "materiais": 12,
+    "assuntos": 12,
+    "chunks": 353,
+    "questoes_por_assunto": {
+      "sistemas_analogicos_e_digitais": 10,
+      "portas_logicas_e_circuitos_digitais": 10,
+      "algebra_booleana": 5,
+      "circuitos_logicos": 10,
+      "contadores": 10,
+      "logica_sequencial": 10,
+      "maquinas_de_estados_finitos": 10,
+      "memoria_rom": 5,
+      "memorias": 10,
+      "circuitos_logicos_sequenciais": 10,
+      "introducao_a_eletronica_digital": 5,
+      "projetos_de_circuitos_sequenciais": 10
+    },
+    "questoes_verificadas": 105,
+    "lista_e_prova_cadastradas": false
+  }
+}

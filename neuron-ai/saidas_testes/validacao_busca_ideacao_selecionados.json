@@ -1,0 +1,331 @@
+{
+  "executado_em_utc": "2026-10-28T17:33:26.289816+00:00",
+  "disciplina": "projeto_de_ideacao_de_software",
+  "modo": "busca",
+  "transporte": "direto",
+  "corpus_sha256": "f23acbb818ffb61a35118046c845460818062ca946257107373e545b6831afea",
+  "top_k": 5,
+  "similaridade_minima": 0.25,
+  "auditoria": {
+    "compativel": true,
+    "chunks_json": 217,
+    "chunks_banco": 217,
+    "faltantes": [],
+    "extras": [],
+    "conteudos_divergentes": [],
+    "metadados_divergentes": [],
+    "pgvector": "0.8.5",
+    "tipo_embedding": "vector(384)"
+  },
+  "casos": [
+    {
+      "id": "lean_blocos",
+      "pergunta": "Quais são os nove blocos do Lean Canvas?",
+      "filtro_assunto": null,
+      "aula_esperada": "02",
+      "paginas_esperadas": [
+        8,
+        9
+      ],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "599c4df9619830fe775e23e5",
+          "conteudo": "# Estrutura do Lean Canvas\n\nO Lean Canvas é formado por nove blocos:\n\n1. **Problema**\n2. **Segmentos de clientes**\n3. **Proposta Única de Valor**\n4. **Solução**\n5. **Canais**\n6. **Fontes de receita**\n7. **Estrutura de custos**\n8. **Métricas-chave**\n9. **Vantagem injusta**\n\nCada bloco representa uma dimensão importante da ideia.",
+          "metadata": {
+            "assunto_id": 63,
+            "pasta_aula": "aula_02_lean_canvas",
+            "periodo_id": 1,
+            "material_id": 17,
+            "disciplina_id": 11,
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "tipo_material": "SLIDE_AULA",
+            "titulo_material": "Aula 2 — Lean Canvas",
+            "chunk_caracteres": 329,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "autorizacao_professor": false,
+            "fonte_monitor_virtual": true,
+            "disponivel_para_pratica": false,
+            "caracteres_texto_original": 0,
+            "chunk_id": "599c4df9619830fe775e23e5",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 8,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1
+          },
+          "similaridade": 0.8674569567986675,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "dbb9c33e63a25298b0ec74dd",
+          "conteudo": "# Objetivos da aula\n\nAo final desta aula, espera-se que os estudantes sejam capazes de:\n\n1. Compreender o conceito de Lean Canvas\n2. Reconhecer sua importância na ideação de software\n3. Identificar os nove blocos da ferramenta\n4. Formular hipóteses sobre problemas, clientes e soluções\n5. Utilizar o quadro para estruturar uma ideia de software\n\n## Estrutura do Lean Canvas\n\nO quadro Lean Canvas é composto pelos seguintes blocos:\n\n- Problema\n- Solução\n- Proposta de valor\n- Vantagem competitiva\n- Segmentos de clientes\n- Canais\n- Relacionamento com clientes\n- Estrutura de custos\n- Fontes de receita\n\n## Elementos visuais associados\n\n- Lâmpada sobre livros com a inscrição \"Lean Canvas\".\n- Nota adesiva: \"Da ideia ao software real\".\n- Nota adesiva: \"Ideação, testa, aprendizado, software\".\n- Termos laterais: \"IDEIAS, PROBLEMAS, SOLUÇÕES, IMPACTO\" e \"VALIDAR, APRENDER, CONSTRUIR\".",
+          "metadata": {
+            "assunto_id": 63,
+            "pasta_aula": "aula_02_lean_canvas",
+            "periodo_id": 1,
+            "material_id": 17,
+            "disciplina_id": 11,
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "tipo_material": "SLIDE_AULA",
+            "titulo_material": "Aula 2 — Lean Canvas",
+            "chunk_caracteres": 882,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "autorizacao_professor": false,
+            "fonte_monitor_virtual": true,
+            "disponivel_para_pratica": false,
+            "caracteres_texto_original": 0,
+            "chunk_id": "dbb9c33e63a25298b0ec74dd",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 2,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1
+          },
+          "similaridade": 0.5544004505158008,
+          "cobertura_lexical": 1.0
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": true,
+      "verificacao_automatica": true
+    },
+    {
+      "id": "historia_estrutura",
+      "pergunta": "Qual é a estrutura básica de uma história de usuário?",
+      "filtro_assunto": null,
+      "aula_esperada": "03",
+      "paginas_esperadas": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "e6e8597da0b27acdf9efc231",
+          "conteudo": "# Estrutura Básica de uma História de Usuário\n\nA estrutura é composta por três elementos:\n\n- **Como um [tipo de usuário]**\n  - Define a pessoa ou papel do usuário que tem a necessidade específica, como \"cliente novo\", \"usuário frequente\", \"administrador\" ou \"estudante\".\n\n- **Eu quero [algum objetivo]**\n  - Descreve a ação ou tarefa que o usuário deseja realizar, como \"encontrar um produto\", \"fazer uma reserva\" ou \"editar meu perfil\".\n\n- **Para que [algum motivo/benefício]**\n  - Explica o valor ou benefício esperado ao realizar a ação, como \"comparar preços\", \"garantir minha vaga\" ou \"manter informações atualizadas\".",
+          "metadata": {
+            "assunto_id": 64,
+            "pasta_aula": "aula_03_historias_de_usuario",
+            "periodo_id": 1,
+            "material_id": 18,
+            "disciplina_id": 11,
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "tipo_material": "SLIDE_AULA",
+            "titulo_material": "Aula 3 — Histórias de Usuário",
+            "chunk_caracteres": 623,
+            "motivos_deteccao": [
+              "texto_muito_curto"
+            ],
+            "total_chunks_pagina": 1,
+            "autorizacao_professor": false,
+            "fonte_monitor_virtual": true,
+            "disponivel_para_pratica": false,
+            "caracteres_texto_original": 44,
+            "chunk_id": "e6e8597da0b27acdf9efc231",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "historias_de_usuario",
+            "aula": "03",
+            "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+            "pagina": 3,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1
+          },
+          "similaridade": 0.7576949451979975,
+          "cobertura_lexical": 1.0
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": true,
+      "verificacao_automatica": true
+    },
+    {
+      "id": "mapa_fluxo",
+      "pergunta": "Qual é a diferença entre mapa de navegação e fluxo do usuário?",
+      "filtro_assunto": null,
+      "aula_esperada": "04",
+      "paginas_esperadas": [
+        11,
+        12
+      ],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "827560d0daf009bb9438b8d6",
+          "conteudo": "# Mapa de navegação × fluxo do usuário\n\n## Mapa de navegação\n\n- Apresenta a estrutura geral\n- Mostra telas e conexões\n- Oferece uma visão ampla\n- Abrange diferentes funcionalidades\n- Organiza o sistema\n\n## Fluxo do usuário\n\n- Representa uma tarefa específica\n- Mostra etapas e decisões\n- Oferece uma visão detalhada\n- Parte de um objetivo do usuário\n- Explica como uma ação é realizada\n\n## Relação entre os conceitos\n\nO mapa mostra o sistema; o fluxo mostra o caminho para alcançar um objetivo.",
+          "metadata": {
+            "assunto_id": 65,
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "periodo_id": 1,
+            "material_id": 19,
+            "disciplina_id": 11,
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "tipo_material": "SLIDE_AULA",
+            "titulo_material": "Aula 4 — Mapa de Navegação e Wireframe",
+            "chunk_caracteres": 494,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "autorizacao_professor": false,
+            "fonte_monitor_virtual": true,
+            "disponivel_para_pratica": false,
+            "caracteres_texto_original": 0,
+            "chunk_id": "827560d0daf009bb9438b8d6",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 11,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1
+          },
+          "similaridade": 0.6741118631992302,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "7387f3011a392d28c57c5c9a",
+          "conteudo": "# Exemplo da diferença\n\n## Mapa de navegação\n\nMostra as áreas do sistema.\n\nEstrutura de navegação:\n\nSistema\n→ Disciplinas\n→ Atividades\n→ Notas\n→ Calendário\n→ Perfil\n\n## Fluxo do usuário\n\nDetalha o percurso para enviar uma atividade.\n\nEtapas do processo:\n\n1. Entrar\n2. Selecionar disciplina\n3. Acessar atividade\n4. Anexar arquivo\n5. Confirmar envio",
+          "metadata": {
+            "assunto_id": 65,
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "periodo_id": 1,
+            "material_id": 19,
+            "disciplina_id": 11,
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "tipo_material": "SLIDE_AULA",
+            "titulo_material": "Aula 4 — Mapa de Navegação e Wireframe",
+            "chunk_caracteres": 347,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "autorizacao_professor": false,
+            "fonte_monitor_virtual": true,
+            "disponivel_para_pratica": false,
+            "caracteres_texto_original": 0,
+            "chunk_id": "7387f3011a392d28c57c5c9a",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 12,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1
+          },
+          "similaridade": 0.6712859077027981,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "d07e561e3cdeee1e469fed6d",
+          "conteudo": "# Wireframe e fluxo do usuário\n\n## Conceitos\n\n**Fluxo do usuário**\nEtapas necessárias para atingir um objetivo.\n\n**Wireframe**\nTelas utilizadas durante o percurso.\n\n## Exemplo: envio de atividade\n\nO exemplo apresenta um fluxo de usuário composto por 5 etapas sequenciais, cada uma associada a um wireframe de tela:\n\n1. **Login**\n   → Wireframe: tela de Login contendo campos E-mail e Senha, botão Entrar e elementos de texto.\n\n2. **Disciplina**\n   → Wireframe: tela Lista de disciplinas contendo campo de busca, lista de itens com setas de navegação.\n\n3. **Atividade**\n   → Wireframe: tela Detalhes da atividade contendo área de imagem, linhas de texto, item com ícone de documento e botão.\n\n4. **Anexar arquivo**\n   → Wireframe: tela Seleção do arquivo contendo área tracejada com ícone de documento e seta de upload, linhas de texto e botão.\n\n5. **Confirmar envio**\n   → Wireframe: tela Confirmação do envio contendo ícone de check, linhas de texto e botão.\n\n## Relação entre os elementos",
+          "metadata": {
+            "assunto_id": 65,
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "periodo_id": 1,
+            "material_id": 19,
+            "disciplina_id": 11,
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "tipo_material": "SLIDE_AULA",
+            "titulo_material": "Aula 4 — Mapa de Navegação e Wireframe",
+            "chunk_caracteres": 990,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 2,
+            "autorizacao_professor": false,
+            "fonte_monitor_virtual": true,
+            "disponivel_para_pratica": false,
+            "caracteres_texto_original": 0,
+            "chunk_id": "d07e561e3cdeee1e469fed6d",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 28,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1
+          },
+          "similaridade": 0.3372584286861209,
+          "cobertura_lexical": 1.0
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": true,
+      "verificacao_automatica": true
+    },
+    {
+      "id": "certeza_fonte",
+      "pergunta": "Como escrever uma certeza na matriz CSD?",
+      "filtro_assunto": "matriz_csd",
+      "aula_esperada": "05",
+      "paginas_esperadas": [
+        6,
+        7
+      ],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "62db5f0e5e89ddeded587246",
+          "conteudo": "# Como escrever uma certeza\n\nUma certeza deve ser específica e indicar sua fonte.\n\n## Formulação inadequada\n\n\"Os usuários têm dificuldade com o cadastro.\"\n\n## Formulação mais precisa\n\n\"No teste realizado, quatro dos seis participantes não concluíram o cadastro sem ajuda.\"\n\n**Fonte:** registro do teste de usabilidade.\n\n## Atenção\n\nO resultado descreve os participantes e as condições daquele teste. Generalizações exigem evidências adicionais.\n\n---\n\nOs dados dos exemplos desta aula são fictícios.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n7/22",
+          "metadata": {
+            "assunto_id": 66,
+            "pasta_aula": "aula_05_matriz_csd",
+            "periodo_id": 1,
+            "material_id": 20,
+            "disciplina_id": 11,
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "tipo_material": "SLIDE_AULA",
+            "titulo_material": "Aula 5 — Matriz CSD",
+            "chunk_caracteres": 545,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "autorizacao_professor": false,
+            "fonte_monitor_virtual": true,
+            "disponivel_para_pratica": false,
+            "caracteres_texto_original": 0,
+            "chunk_id": "62db5f0e5e89ddeded587246",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "matriz_csd",
+            "aula": "05",
+            "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+            "pagina": 7,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1
+          },
+          "similaridade": 0.3981145206485063,
+          "cobertura_lexical": 1.0
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": true,
+      "verificacao_automatica": true
+    }
+  ]
+}

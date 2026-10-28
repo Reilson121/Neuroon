@@ -1,7 +1,7 @@
 """Índice derivado dos materiais aprovados; banco relacional governa acesso.
 
 Não aceita caminhos enviados pelo cliente. Usa os corpora locais conferidos
-de Estatística, Estrutura de Dados Avançada e Design de Artefatos Digitais.
+de Estatística, Estrutura de Dados Avançada, Design de Artefatos Digitais e Projeto de Ideação de Software.
 """
 import copy
 import hashlib
@@ -17,7 +17,7 @@ MATERIAIS = ROOT / "materiais_academicos" / "periodo_03" / "estatistica"
 
 
 def catalogo(store, disciplina='estatistica'):
-    if disciplina not in {'estatistica', 'estrutura_de_dados_avancada', 'design_de_artefatos_digitais'}:
+    if disciplina not in {'estatistica', 'estrutura_de_dados_avancada', 'design_de_artefatos_digitais', 'projeto_de_ideacao_de_software', 'sistemas_digitais'}:
         raise ValueError('Disciplina sem corpus preparado.')
     with store._conectar() as c:
         c.execute("SET TRANSACTION READ ONLY")
@@ -98,7 +98,7 @@ def preparar(m, assuntos, inventario):
     return chunks
 
 
-def indexar(material_id, store=None):
+def indexar(material_id, store=None, embedder=None):
     store = store or VectorStore()
     with store._conectar() as c:
         linha = c.execute('SELECT d.slug FROM material m JOIN disciplina d ON d.id=m.disciplina_id WHERE m.id=%s', [material_id]).fetchone()
@@ -110,11 +110,17 @@ def indexar(material_id, store=None):
     if m is None:
         raise ValueError("Material não preparado nesta integração.")
     # Escopo por arquivo evita apagar outros materiais do mesmo tipo.
-    if disciplina == 'estrutura_de_dados_avancada':
+    if disciplina == 'sistemas_digitais':
+        from app.rag.sistemas_digitais_corpus import preparar_material
+        chunks = preparar_material(m, assuntos)
+    elif disciplina == 'estrutura_de_dados_avancada':
         from app.rag.ed_avancada_corpus import preparar_material
         chunks = preparar_material(m, assuntos)
     elif disciplina == 'design_de_artefatos_digitais':
         from app.rag.design_corpus import preparar_material
+        chunks = preparar_material(m, assuntos)
+    elif disciplina == 'projeto_de_ideacao_de_software':
+        from app.rag.ideacao_corpus import preparar_material
         chunks = preparar_material(m, assuntos)
     else:
         inventario = json.loads((PROPOSTAS / "inventario.json").read_text(encoding="utf-8"))
@@ -123,6 +129,7 @@ def indexar(material_id, store=None):
         raise ValueError("Material sem conteúdo preparado e conferido.")
     # O sincronizador aceita o filtro de arquivos além do tipo; nenhuma implementação paralela.
     resultado = sincronizar_indice(store, chunks, disciplina, permitir_insercao=True,
+                                  embedder=embedder,
                                   tipos_material=[m["tipo"]], arquivos=[chunks[0]["metadata"]["arquivo"]])
     # O protótipo já tinha colunas relacionais opcionais. Mantém também esses
     # campos preenchidos, além da proveniência integral no JSONB.

@@ -10,9 +10,13 @@ class QuestionRepository:
             store = VectorStore()
         self.store = store
 
-    def buscar_questoes(self, disciplina_id, assunto_id, material_ids, origem):
+    def buscar_questoes(self, disciplina_id, assunto_id, material_ids, origem, usar_teoria=False):
         if not material_ids:
             return []
+        if usar_teoria and origem == 'MISTO':
+            teoria = self.buscar_teoria(disciplina_id, assunto_id, material_ids)
+            if teoria:
+                return teoria
         from psycopg.rows import dict_row
         from psycopg.types.json import Jsonb
         tipos = {"LISTA": ["LISTA_EXERCICIOS"], "PROVA": ["PROVA_ANTIGA"], "MISTO": ["LISTA_EXERCICIOS", "PROVA_ANTIGA"]}[origem]
@@ -67,3 +71,38 @@ class QuestionRepository:
             if gabarito and gabarito.get("arquivo") not in {f["arquivo"] for f in questao["fontes"]}:
                 questao["gabarito_material"] = None
         return list(grupos.values())
+
+    def buscar_teoria(self, disciplina_id, assunto_id, material_ids):
+        """Somente a disciplina habilitada usa teoria; não simula lista ou prova."""
+        from psycopg.rows import dict_row
+        sql = """SELECT c.conteudo,c.metadata,c.pagina,c.arquivo,c.assunto,
+                        m.id AS material_id,m.titulo,a.id AS assunto_id
+                 FROM chunk_documento c
+                 JOIN material m ON m.id=c.material_id
+                 JOIN disciplina d ON d.id=m.disciplina_id
+                 JOIN periodo p ON p.id=d.periodo_id
+                 JOIN assunto a ON a.id=c.assunto_id AND a.disciplina_id=d.id
+                 WHERE d.id=%s AND d.slug='sistemas_digitais' AND c.disciplina=d.slug
+                   AND m.id=ANY(%s) AND m.tipo='SLIDE_AULA' AND c.tipo_material=m.tipo
+                   AND m.assunto_id=a.id AND c.assunto=a.slug
+                   AND d.ativo AND d.possui_prova AND p.ativo AND a.ativo
+                   AND m.ativo AND m.fonte_monitor_virtual
+                   AND (%s::bigint IS NULL OR a.id=%s)
+                 ORDER BY c.arquivo,c.pagina,c.chunk_index"""
+        with self.store._conectar() as c:
+            c.execute('SET TRANSACTION READ ONLY')
+            c.execute("SET LOCAL statement_timeout='10s'")
+            with c.cursor(row_factory=dict_row) as cur:
+                cur.execute(sql,[disciplina_id,list(material_ids),assunto_id,assunto_id])
+                linhas=cur.fetchall()
+        # Reúne chunks da mesma página para não separar a definição da sua explicação.
+        paginas={}
+        for r in linhas:
+            chave=(r['material_id'],r['pagina'])
+            if chave not in paginas:
+                paginas[chave]=dict(disciplina_slug='sistemas_digitais', referencia_teorica=True,
+                    assunto_id=r['assunto_id'], assunto_principal_proposto=r['assunto'],
+                    conteudo='',fontes=[dict(material_id=r['material_id'],titulo_material=r['titulo'],
+                        arquivo=r['arquivo'],pagina=r['pagina'],numero_questao=None)])
+            paginas[chave]['conteudo']+='\n'+r['conteudo']
+        return list(paginas.values())

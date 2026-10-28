@@ -27,7 +27,7 @@ public class PraticaService {
  public record QuestaoResponse(String id,String enunciado,Map<String,String> alternativas,String conceito,String origem,List<FonteResponse> fontes,String aviso,String fingerprint,Map<?,?> visualizacao){}
  public record SessaoResponse(UUID sessaoId,List<QuestaoResponse> questoes,String estado,String mensagem){}
  public record CorrecaoResponse(Boolean correto,String alternativaCorreta,String conceito,String formula,String substituicao,List<String> calculos,String resolucao,List<String> errosComuns,String dica,boolean resolucaoGeradaPorIa,String origemGabarito,String aviso,List<FonteResponse> fontes){}
- private record Contexto(Long usuarioId,Long disciplinaId,Long assuntoId,Set<Long> materiais,Set<String> questoes,long expira){}
+ private record Contexto(Long usuarioId,Long disciplinaId,Long assuntoId,Modo modo,Set<Long> materiais,Set<String> questoes,long expira){}
  private final Map<UUID,Contexto> sessoes=new ConcurrentHashMap<>();
  private final Map<Long,Deque<String>> recentes=new ConcurrentHashMap<>();
  private final CatalogoService catalogo;
@@ -43,21 +43,23 @@ public class PraticaService {
   this.leitura=new TransactionTemplate(tx);this.leitura.setReadOnly(true);
  }
  private record Entrada(Long usuario,Set<Long> materiais){}
- private Entrada validar(Long disciplinaId,Long assuntoId,Origem origem,Authentication auth){
+ private Entrada validar(Long disciplinaId,Long assuntoId,Origem origem,Modo modo,Authentication auth){
   return leitura.execute(status -> {
    var usuario=usuarios.exigir(auth);var d=catalogo.exigirDisciplina(disciplinaId);
    if(!d.oferecePratica())throw new ErroNegocio(409,"DISCIPLINA_SEM_PROVA","Esta disciplina não está habilitada para prática com questões.");
    catalogo.exigirAssunto(assuntoId,d.getId());
    var ids=new HashSet<Long>();
    for(var m:materiais.findByDisciplinaIdAndAtivoTrueOrderByTituloAsc(d.getId())){
-    if(m.podeSerPratica() && (assuntoId==null || m.getAssunto()==null || assuntoId.equals(m.getAssunto().getId())) &&
+    if(m.getAssunto()!=null && !m.getAssunto().isAtivo())continue;
+    boolean teoria=modo==Modo.GERADAS_IA && origem==Origem.MISTO && "sistemas_digitais".equals(d.getSlug()) && m.isAtivo() && m.getTipo()==TipoMaterial.SLIDE_AULA && m.isFonteMonitorVirtual();
+    if((m.podeSerPratica() || teoria) && m.assuntoPertenceADisciplina() && (assuntoId==null || m.getAssunto()==null || assuntoId.equals(m.getAssunto().getId())) &&
        (origem==Origem.MISTO || origem==Origem.LISTA && m.getTipo()==TipoMaterial.LISTA_EXERCICIOS || origem==Origem.PROVA && m.getTipo()==TipoMaterial.PROVA_ANTIGA))ids.add(m.getId());
    }
    return new Entrada(usuario.getId(),ids);
   });
  }
  public SessaoResponse iniciarSessao(PraticaRequest r,Authentication auth){
-  var entrada=validar(r.disciplinaId(),r.assuntoId(),r.origem(),auth);limite.exigir(entrada.usuario(),"pratica_iniciar");
+  var entrada=validar(r.disciplinaId(),r.assuntoId(),r.origem(),r.modo(),auth);limite.exigir(entrada.usuario(),"pratica_iniciar");
   UUID id=UUID.randomUUID();
   if(entrada.materiais().isEmpty())return new SessaoResponse(id,List.of(),"SEM_QUESTOES","Não há materiais autorizados e disponíveis para prática nesta seleção.");
   limparExpiradas();if(sessoes.size()>=capacidade)throw new ErroNegocio(429,"LIMITE_SESSOES","Aguarde antes de iniciar outra prática.");
@@ -81,7 +83,7 @@ public class PraticaService {
    var questao=new QuestaoResponse(texto(q.get("id")),texto(q.get("enunciado")),alternativas,texto(q.get("conceito")),origem,fontes,opcional(q.get("aviso")),texto(q.get("fingerprint")),q.get("visualizacao")==null?null:mapa(q.get("visualizacao")));
    if(!ids.add(questao.id()))throw invalida();questoes.add(questao);
   }
-  if(!questoes.isEmpty())sessoes.put(id,new Contexto(entrada.usuario(),r.disciplinaId(),r.assuntoId(),fontesUsadas,ids,System.currentTimeMillis()+ttl));
+  if(!questoes.isEmpty())sessoes.put(id,new Contexto(entrada.usuario(),r.disciplinaId(),r.assuntoId(),r.modo(),fontesUsadas,ids,System.currentTimeMillis()+ttl));
   synchronized(vistas){for(var q:questoes){vistas.remove(q.fingerprint());vistas.addLast(q.fingerprint());}while(vistas.size()>200)vistas.removeFirst();}
   String estado=questoes.isEmpty()?"SEM_QUESTOES":"DISPONIVEL";
   return new SessaoResponse(id,questoes,estado,questoes.isEmpty()?"Não há novas questões de múltipla escolha disponíveis nesta seleção. Você pode revisar as cadastradas.":"Questões prontas para praticar.");
@@ -90,7 +92,7 @@ public class PraticaService {
   Contexto s=sessoes.get(id);Long usuario=usuarios.exigir(auth).getId();
   if(s==null || s.expira()<System.currentTimeMillis() || !s.usuarioId().equals(usuario))throw new ErroNegocio(404,"SESSAO_NAO_ENCONTRADA","A sessão expirou ou não está disponível.");
   if(!s.questoes().contains(r.questaoId()))throw new ErroNegocio(400,"QUESTAO_FORA_DA_SESSAO","A questão não pertence à sessão.");
-  var atual=validar(s.disciplinaId(),s.assuntoId(),Origem.MISTO,auth);
+  var atual=validar(s.disciplinaId(),s.assuntoId(),Origem.MISTO,s.modo(),auth);
   if(!atual.materiais().containsAll(s.materiais()))throw new ErroNegocio(409,"MATERIAL_INDISPONIVEL","Os materiais desta prática não estão mais disponíveis.");
   limite.exigir(usuario,"pratica_responder");
   var body=new HashMap<String,Object>();body.put("sessao_id",id.toString());body.put("usuario_id",usuario);body.put("questao_id",r.questaoId());body.put("alternativa",r.alternativa().name());body.put("material_ids",atual.materiais());

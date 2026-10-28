@@ -1,3 +1,9 @@
 .env
+backend/demo/build-sistemas-digitais/
+__pycache__/
+neuron-ai/tmp/pdfs/sistemas_digitais/
+neuron-ai/tmp/gradle/sistemas-digitais.init.gradle
 neuron-ai/tmp/backend_estatistica_validado.jar
 neuron-ai/tmp/gradle/estatistica.init.gradle
+.run-logs/
+frontend/.tmp/

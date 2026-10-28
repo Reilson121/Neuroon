@@ -11,12 +11,13 @@ O Monitor Virtual usa RAG (geração de respostas com consulta aos materiais): r
 - Monitor Virtual com referências de arquivo e página, contexto de conversa e histórico persistente por usuário, disciplina e assunto.
 - Exemplos didáticos em tabelas e diagramas textuais, identificados como conteúdo criado pela IA e associados às fontes do conceito.
 - Prática de Estatística com questões dos materiais e questões inéditas geradas por IA, correção explicada e conferência matemática nas famílias implementadas.
+- Sistemas Digitais com 12 PDFs, Monitor Virtual e questões conceituais e contextualizadas de IA, com resolução em etapas. A lista e a prova ainda não foram fornecidas. Veja [a documentação](docs/SISTEMAS_DIGITAIS.md).
 - Abertura dos materiais e das fontes disponíveis pelo servidor.
 - Controle administrativo da disponibilidade de materiais para prática.
 - Avaliação voluntária da plataforma, com nota de 1 a 5 e comentário opcional.
 - Interface adaptada a computador, tablet e celular.
 
-O serviço de IA possui preparação de materiais para Estatística, Estrutura de Dados Avançada, Design de Artefatos Digitais e Projeto de Ideação de Software. O catálogo web depende das migrations e dos materiais integrados ao banco; a existência de um corpus no serviço de IA não significa que todas as funcionalidades estejam disponíveis para aquela disciplina na interface.
+O serviço de IA possui preparação de materiais para Estatística, Estrutura de Dados Avançada, Design de Artefatos Digitais, Projeto de Ideação de Software e Sistemas Digitais. O catálogo web depende das migrations e dos materiais integrados ao banco; a existência de um corpus no serviço de IA não significa que todas as funcionalidades estejam disponíveis para aquela disciplina na interface.
 
 ## Arquitetura e tecnologias
 
@@ -58,7 +59,7 @@ NEURON/
 
 ## Executar localmente
 
-Os exemplos abaixo usam PowerShell e partem da pasta `NEURON`.
+Os exemplos abaixo usam PowerShell e partem da pasta `NEURON`. No VS Code, use **Arquivo → Abrir Pasta** e selecione a pasta `NEURON`, dentro de `Projeto Extensionista 2`.
 
 ### 1. Pré-requisitos
 
@@ -86,7 +87,7 @@ Instale as dependências da interface:
 
 ```powershell
 Set-Location frontend
-npm install
+npm.cmd install
 Set-Location ..
 ```
 
@@ -141,15 +142,19 @@ O catálogo relacional e o índice vetorial são estruturas distintas. Para resp
 
 ### 5. Iniciar os serviços
 
-Abra terminais separados. Para IA e API Java, execute os comandos a partir de `NEURON/neuron-ai`:
+No VS Code, use **Terminal → Novo Terminal** para abrir três terminais PowerShell separados, cada um começando na pasta `NEURON`. Antes de iniciar, confirme que o PostgreSQL está em execução.
+
+Os comandos abaixo usam diretamente o Python de `neuron-ai/.venv`; não é necessário ativar um ambiente virtual nem alterar a política de execução do PowerShell. Se existir também uma pasta `NEURON/.venv`, ela não é o ambiente usado por esses comandos.
 
 ```powershell
 # Terminal 1: serviço de IA
-./.venv/Scripts/python.exe -B -m scripts.servicos_local ia
+Set-Location neuron-ai
+./.venv/Scripts/python.exe -u -B -m scripts.servicos_local ia
 ```
 
 ```powershell
 # Terminal 2: API Java
+Set-Location neuron-ai
 ./.venv/Scripts/python.exe -B -m scripts.servicos_local backend
 ```
 
@@ -157,11 +162,17 @@ O inicializador Java usa o modo offline do Gradle, por isso as dependências dev
 
 O inicializador de IA pré-carrega o Monitor e usa o modelo local `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, com embeddings de 384 dimensões. Por padrão, ele procura o modelo em cache, em modo offline. Se o modelo ainda não estiver disponível, configure `HF_HUB_OFFLINE=0` e `TRANSFORMERS_OFFLINE=0` no `.env` para permitir o primeiro download. Aguarde a conclusão da inicialização antes de consultar o Monitor.
 
-Para a interface, em outro terminal a partir de `NEURON/frontend`:
+Para a interface, use o terceiro terminal, também começando na pasta `NEURON`:
 
 ```powershell
-npm run dev
+# Terminal 3: interface
+Set-Location frontend
+npm.cmd run dev
 ```
+
+No Windows, `npm.cmd` evita o bloqueio do script `npm.ps1` pela política de execução do PowerShell. Deixe os serviços em execução e abra no navegador o endereço exibido pelo Vite.
+
+Na IA, aguarde `Application startup complete` e a confirmação de que o Uvicorn está atendendo em `http://127.0.0.1:8000`. No Java, aguarde a confirmação de que o Tomcat iniciou na porta 8080 e a mensagem `Started DemoApplication`. A tarefa `bootRun` permanece em execução enquanto o servidor está ativo; não é necessário aguardar `BUILD SUCCESSFUL` para abrir a interface.
 
 | Serviço | Endereço padrão |
 | --- | --- |
@@ -173,7 +184,11 @@ npm run dev
 
 O `/health` confirma que o serviço HTTP está ativo; não verifica a disponibilidade do banco ou do provedor de IA. O Vite encaminha `/api` para a API Java durante o desenvolvimento.
 
+Para encerrar um serviço iniciado nesse terminal, pressione **Ctrl+C**. Antes de repetir um comando de inicialização, confira se já existe uma instância funcionando.
+
 ### 6. Primeiro acesso
+
+Na instalação local, a tela inicial oferece **Explorar sem conta**. O visitante pode consultar disciplinas e materiais e conversar com o Monitor Virtual. Não pode administrar materiais, praticar questões nem avaliar a plataforma. Cada visita recebe uma sessão separada; o histórico é apagado ao sair ou na limpeza periódica após um dia. O inicializador habilita esse acesso somente no computador local. Ao iniciar o backend por outro método, ele permanece desabilitado até definir `NEURON_GUEST_ENABLED=true`.
 
 Não há senha padrão nem cadastro público de usuários. Para criar o administrador inicial, defina no `.env`, antes de iniciar o backend:
 
@@ -183,6 +198,53 @@ NEURON_BOOTSTRAP_ADMIN_PASSWORD=SUBSTITUA_POR_UMA_SENHA_COM_12_OU_MAIS_CARACTERE
 ```
 
 O backend cria a conta se o e-mail ainda não existir. Após a criação, remova essas duas variáveis da configuração. Contas de estudantes precisam ser provisionadas separadamente; a administração completa de usuários ainda não está implementada.
+
+#### Por que a opção Praticar não aparece?
+
+Se o canto inferior esquerdo mostrar **Visitante**, o acesso foi feito por **Explorar sem conta**. Nesse perfil, o menu **Praticar** e o cartão **Praticar com IA** ficam ocultos, e a API também bloqueia as rotas de prática.
+
+Para acessar as questões, saia da sessão de visitante e entre com uma conta de **Estudante** ou **Administrador**. Mesmo com uma conta autorizada, a disponibilidade depende da disciplina, dos materiais habilitados e da integração correspondente. O funcionamento do Monitor Virtual, por si só, não confirma que há questões disponíveis naquela seleção.
+
+### 7. Problemas comuns ao iniciar
+
+#### IA parada em Waiting for application startup
+
+O serviço pré-carrega o modelo de embeddings antes de aceitar conexões. As mensagens `Carregando modelo de embeddings` e `Loading weights` indicam essa preparação. Aguarde a conclusão sem interromper o processo. Se o carregamento não avançar, confira as mensagens do terminal e a configuração de cache/download descrita na etapa 5.
+
+#### Aborted! seguido de KeyboardInterrupt
+
+O processo recebeu uma interrupção, geralmente por **Ctrl+C** ou pelo comando de parar do terminal. Esse registro isolado não identifica uma falha do modelo. Confira as mensagens anteriores à interrupção e verifique se já há uma instância ativa antes de iniciar novamente.
+
+#### WinError 10048 na porta 8000
+
+Outra aplicação já está usando a porta da IA. A nova tentativa pode carregar o modelo e mostrar `Application startup complete` antes de falhar ao abrir a porta; por isso, essa mensagem sozinha não confirma que a nova instância ficou disponível.
+
+Abra `http://127.0.0.1:8000/health`. Se a resposta for a seguinte, há uma instância do serviço de IA respondendo e não é necessário iniciar outra:
+
+```json
+{"status":"ok","service":"neuron-ai"}
+```
+
+#### Port 8080 was already in use
+
+Outra aplicação já está usando a porta da API Java. Se já houver um backend NEURON em execução, use essa instância. Para conferir a integração, abra a interface, entre ou escolha **Explorar sem conta** e verifique se as disciplinas carregam.
+
+Para identificar os processos que usam as portas 8000 e 8080, execute no PowerShell:
+
+```powershell
+netstat -ano | findstr :8000
+netstat -ano | findstr :8080
+```
+
+Nas linhas de escuta (`LISTENING`), a última coluna informa o PID do processo, que pode ser consultado na aba **Detalhes** do Gerenciador de Tarefas. Se precisar reiniciar uma instância conhecida, encerre-a com **Ctrl+C** no terminal em que foi iniciada e só então execute o comando novamente.
+
+#### Port 5173 is in use, trying another one...
+
+O Vite tenta automaticamente a próxima porta disponível. Se mostrar `Local: http://127.0.0.1:5174/`, por exemplo, abra esse endereço. Isso não é uma falha de inicialização. Use a mesma porta para acessar a prévia em `/qa/preview.html`.
+
+#### FutureWarning sobre get_sentence_embedding_dimension
+
+O aviso informa que o método foi renomeado para `get_embedding_dimension`. Ele não impede o carregamento do modelo na versão atual. Confira as mensagens seguintes para saber se o serviço concluiu a inicialização ou encontrou outro erro.
 
 ## Testes e conferência visual
 
@@ -226,6 +288,7 @@ Os scripts de validação de integração são separados dos testes acima e pode
 - [Interface e prática de Estatística](docs/FRONTEND_ESTATISTICA.md)
 - [Integração de Estrutura de Dados Avançada](docs/BACKEND_ED_AVANCADA.md)
 - [Integração de Design de Artefatos Digitais](docs/BACKEND_DESIGN.md)
+- [Integração de Projeto de Ideação de Software](docs/BACKEND_IDEACAO.md)
 - [Monitor de Estatística](neuron-ai/MONITOR_ESTATISTICA.md)
 - [Monitor de Estrutura de Dados Avançada](neuron-ai/MONITOR_ED_AVANCADA.md)
 - [Monitor de Design de Artefatos Digitais](neuron-ai/MONITOR_DESIGN.md)

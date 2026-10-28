@@ -178,6 +178,6 @@ Os resultados verificam a amostra declarada; não garantem todas as perguntas
 possíveis. Os parâmetros de busca podem exigir nova calibração com novos
 materiais ou uma amostra maior de perguntas.
 
-Esta entrega conclui a disciplina no monitor básico do serviço de IA. A
-integração da interface e do Spring Boot, streaming e demais módulos do
-produto têm escopo próprio.
+A disciplina também possui integração com o catálogo Spring Boot e a interface
+React pela migration V6 e pelo vínculo dos materiais. Consulte
+`../docs/BACKEND_IDEACAO.md` para aplicar e validar essa integração.

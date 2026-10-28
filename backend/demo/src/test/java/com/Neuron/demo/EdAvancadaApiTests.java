@@ -43,9 +43,9 @@ class EdAvancadaApiTests {
   aula.setReferenciaExterna("local:materiais_academicos/periodo_03/estrutura_de_dados_avancada/Aula_2.pdf");materiais.save(aula);
  }
  @Test void catalogoEntregaDisciplinaAssuntosEMateriaisSemExporCaminhos() throws Exception {
-  mvc.perform(get("/api/v1/periodos/"+ed.getPeriodo().getId()+"/disciplinas").with(user(aluno.getEmail())))
+  mvc.perform(get("/api/v1/periodos/"+ed.getPeriodo().getId()+"/disciplinas").with(user(aluno.getEmail()).roles("ESTUDANTE")))
    .andExpect(status().isOk()).andExpect(jsonPath("$[0].nome").value(ed.getNome())).andExpect(jsonPath("$[0].possuiProva").value(false));
-  mvc.perform(get("/api/v1/disciplinas/"+ed.getId()+"/materiais").with(user(aluno.getEmail())))
+  mvc.perform(get("/api/v1/disciplinas/"+ed.getId()+"/materiais").with(user(aluno.getEmail()).roles("ESTUDANTE")))
    .andExpect(status().isOk()).andExpect(jsonPath("$[0].arquivoDisponivel").value(true)).andExpect(jsonPath("$[0].referenciaExterna").doesNotExist());
   assertEquals(avl.getId(),catalogo.assuntos(ed.getId()).get(0).id());
  }
@@ -60,17 +60,17 @@ class EdAvancadaApiTests {
  @Test void arquivoExigeContaERevogacaoBloqueiaAcesso() throws Exception {
   String url="/api/v1/materiais/"+aula.getId()+"/arquivo";
   mvc.perform(get(url)).andExpect(status().isUnauthorized());
-  mvc.perform(get(url).with(user(aluno.getEmail()))).andExpect(status().isOk()).andExpect(content().contentType("application/pdf"))
+  mvc.perform(get(url).with(user(aluno.getEmail()).roles("ESTUDANTE"))).andExpect(status().isOk()).andExpect(content().contentType("application/pdf"))
    .andExpect(header().string("Cache-Control","no-store"));
   aula.desativar();materiais.save(aula);
-  mvc.perform(get(url).with(user(aluno.getEmail()))).andExpect(status().isNotFound());
+  mvc.perform(get(url).with(user(aluno.getEmail()).roles("ESTUDANTE"))).andExpect(status().isNotFound());
  }
  @Test void arquivoNaoPermiteSairDaPastaDeMateriais() throws Exception {
   aula.setReferenciaExterna("local:materiais_academicos/../../docs/referencias/NEURON_Diagrama_de_Classes.pdf");materiais.save(aula);
-  mvc.perform(get("/api/v1/materiais/"+aula.getId()+"/arquivo").with(user(aluno.getEmail()))).andExpect(status().isNotFound());
+  mvc.perform(get("/api/v1/materiais/"+aula.getId()+"/arquivo").with(user(aluno.getEmail()).roles("ESTUDANTE"))).andExpect(status().isNotFound());
  }
  @Test void praticaRetornaConflitoSemInventarQuestoes() throws Exception {
-  mvc.perform(post("/api/v1/pratica/sessoes").with(user(aluno.getEmail())).with(csrf()).contentType("application/json")
+  mvc.perform(post("/api/v1/pratica/sessoes").with(user(aluno.getEmail()).roles("ESTUDANTE")).with(csrf()).contentType("application/json")
    .content("{\"disciplinaId\":"+ed.getId()+",\"quantidade\":5}"))
    .andExpect(status().isConflict()).andExpect(jsonPath("$.codigo").value("DISCIPLINA_SEM_PROVA"));
  }

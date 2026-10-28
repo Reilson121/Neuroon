@@ -43,9 +43,9 @@ class DesignApiTests {
   aula.setReferenciaExterna("local:materiais_academicos/periodo_03/design_de_artefatos_digitais/aula_01_introducao_ao_design/Aula 01 - Design de Artefatos Digitais.pdf");materiais.save(aula);
  }
  @Test void catalogoEntregaDisciplinaAssuntosEMateriaisSemExporCaminhos() throws Exception {
-  mvc.perform(get("/api/v1/periodos/"+ed.getPeriodo().getId()+"/disciplinas").with(user(aluno.getEmail())))
+  mvc.perform(get("/api/v1/periodos/"+ed.getPeriodo().getId()+"/disciplinas").with(user(aluno.getEmail()).roles("ESTUDANTE")))
    .andExpect(status().isOk()).andExpect(jsonPath("$[0].nome").value(ed.getNome())).andExpect(jsonPath("$[0].possuiProva").value(false));
-  mvc.perform(get("/api/v1/disciplinas/"+ed.getId()+"/materiais").with(user(aluno.getEmail())))
+  mvc.perform(get("/api/v1/disciplinas/"+ed.getId()+"/materiais").with(user(aluno.getEmail()).roles("ESTUDANTE")))
    .andExpect(status().isOk()).andExpect(jsonPath("$[0].arquivoDisponivel").value(true)).andExpect(jsonPath("$[0].referenciaExterna").doesNotExist());
   assertEquals(avl.getId(),catalogo.assuntos(ed.getId()).get(0).id());
  }
@@ -60,21 +60,21 @@ class DesignApiTests {
  @Test void arquivoExigeContaERevogacaoBloqueiaAcesso() throws Exception {
   String url="/api/v1/materiais/"+aula.getId()+"/arquivo";
   mvc.perform(get(url)).andExpect(status().isUnauthorized());
-  mvc.perform(get(url).with(user(aluno.getEmail()))).andExpect(status().isOk()).andExpect(content().contentType("application/pdf"))
+  mvc.perform(get(url).with(user(aluno.getEmail()).roles("ESTUDANTE"))).andExpect(status().isOk()).andExpect(content().contentType("application/pdf"))
    .andExpect(header().string("Cache-Control","no-store"));
   aula.desativar();materiais.save(aula);
-  mvc.perform(get(url).with(user(aluno.getEmail()))).andExpect(status().isNotFound());
+  mvc.perform(get(url).with(user(aluno.getEmail()).roles("ESTUDANTE"))).andExpect(status().isNotFound());
  }
  @Test void arquivoNaoPermiteSairDaPastaDeMateriais() throws Exception {
   aula.setReferenciaExterna("local:materiais_academicos/../../docs/referencias/NEURON_Diagrama_de_Classes.pdf");materiais.save(aula);
-  mvc.perform(get("/api/v1/materiais/"+aula.getId()+"/arquivo").with(user(aluno.getEmail()))).andExpect(status().isNotFound());
+  mvc.perform(get("/api/v1/materiais/"+aula.getId()+"/arquivo").with(user(aluno.getEmail()).roles("ESTUDANTE"))).andExpect(status().isNotFound());
  }
  @Test void reabreFontesDeDesignEContinuaNoMesmoAssuntoSemChamarProvedor() throws Exception {
   var auth=UsernamePasswordAuthenticationToken.authenticated(aluno.getEmail(),null,List.of());
   var entrada=monitor.preparar(new MonitorVirtualService.ChatRequest(ed.getId(),avl.getId(),"O que é design?",null),auth);
   var id=monitor.salvar(entrada,Map.of("resposta","Resposta de teste local. [F1]","fallback",false,
    "fontes",List.of(Map.of("referencia","F1","arquivo","Aula 1.pdf","pagina",1,"material_id",aula.getId()))));
-  mvc.perform(get("/api/v1/monitor/conversas/"+id).with(user(aluno.getEmail())))
+  mvc.perform(get("/api/v1/monitor/conversas/"+id).with(user(aluno.getEmail()).roles("ESTUDANTE")))
    .andExpect(status().isOk()).andExpect(jsonPath("$.mensagens[1].fontes[0].material_id").value(aula.getId()));
   var continuacao=monitor.preparar(new MonitorVirtualService.ChatRequest(ed.getId(),avl.getId(),"Explique melhor",id),auth);
   assertEquals("design_de_artefatos_digitais",continuacao.requisicao().get("disciplina"));
@@ -82,7 +82,7 @@ class DesignApiTests {
   assertEquals(2,((List<?>)continuacao.requisicao().get("historico")).size());
  }
  @Test void praticaRetornaConflitoSemInventarQuestoes() throws Exception {
-  mvc.perform(post("/api/v1/pratica/sessoes").with(user(aluno.getEmail())).with(csrf()).contentType("application/json")
+  mvc.perform(post("/api/v1/pratica/sessoes").with(user(aluno.getEmail()).roles("ESTUDANTE")).with(csrf()).contentType("application/json")
    .content("{\"disciplinaId\":"+ed.getId()+",\"quantidade\":5}"))
    .andExpect(status().isConflict()).andExpect(jsonPath("$.codigo").value("DISCIPLINA_SEM_PROVA"));
  }

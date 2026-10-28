@@ -32,6 +32,7 @@ def main():
         cwd=AI
     else:
         cwd=ROOT/'backend'/'demo'
+        if args.servico=='backend':env.setdefault('NEURON_GUEST_ENABLED','true')
         versao=Path(env.get('JAVA_HOME','')).name.removeprefix('jdk-')
         comando=[str(cwd/'gradlew.bat'),f'-PjavaVersion={versao}', 'migrateLocal' if args.servico=='migrar' else 'bootRun','--offline']
     raise SystemExit(subprocess.call(comando,cwd=cwd,env=env))

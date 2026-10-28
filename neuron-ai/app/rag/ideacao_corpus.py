@@ -130,3 +130,33 @@ def salvar_json(caminho, dados):
         temporario = caminho.with_suffix(".tmp")
         temporario.write_text(texto, encoding="utf-8")
         temporario.replace(caminho)
+
+
+def preparar_material(material, assuntos):
+    """Vincula somente o PDF conferido ao catálogo, preservando texto e IDs."""
+    if (material.get('disciplina_slug') != DISCIPLINA or material['tipo'] != 'SLIDE_AULA'
+            or material['periodo_numero'] != 3):
+        raise ValueError('Material não preparado para Projeto de Ideação de Software.')
+    if not all(material[k] for k in ('ativo', 'disciplina_ativa', 'periodo_ativo', 'fonte_monitor_virtual')):
+        raise ValueError('Fonte indisponível no catálogo.')
+    dados = carregar_validado()
+    origem = next((a for a in dados['arquivos']
+                   if material['referencia_externa'] == 'local:' + a['pdf']), None)
+    if origem is None:
+        raise ValueError('Origem não preparada para Projeto de Ideação de Software.')
+    chunks = copy.deepcopy([c for c in dados['chunks']
+                            if c['metadata']['arquivo'] == origem['arquivo']
+                            and c['metadata']['aula'] == origem['aula']])
+    for chunk in chunks:
+        meta = chunk['metadata']
+        assunto = assuntos.get(meta['assunto'])
+        if (not assunto or not assunto['ativo'] or assunto['disciplina_id'] != material['disciplina_id']
+                or meta['assunto'] != origem['assunto'] or meta['disciplina'] != DISCIPLINA
+                or material['assunto_id'] != assunto['id']):
+            raise ValueError('Assunto indisponível ou incompatível com o material.')
+        meta.update(material_id=material['id'], disciplina_id=material['disciplina_id'],
+                    periodo_id=material['periodo_id'], assunto_id=assunto['id'],
+                    titulo_material=material['titulo'], tipo_material='SLIDE_AULA',
+                    fonte_monitor_virtual=True, disponivel_para_pratica=False,
+                    autorizacao_professor=material['autorizacao_professor'])
+    return chunks

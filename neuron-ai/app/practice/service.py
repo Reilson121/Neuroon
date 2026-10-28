@@ -36,7 +36,8 @@ class PracticeService:
             if len(self.sessoes) >= self.capacidade:
                 raise PracticeError(429, "LIMITE_SESSOES", "Aguarde antes de iniciar outra prática.")
         repository = self.repository or QuestionRepository()
-        refs = repository.buscar_questoes(req["disciplina_id"], req.get("assunto_id"), req["material_ids"], req["origem"])
+        filtros = (req["disciplina_id"], req.get("assunto_id"), req["material_ids"], req["origem"])
+        refs = repository.buscar_questoes(*filtros, usar_teoria=True) if req['modo']=='GERADAS_IA' else repository.buscar_questoes(*filtros)
         for ref in refs:
             if not {f["material_id"] for f in ref["fontes"]}.issubset(set(req["material_ids"])):
                 raise ValueError("Referência fora dos materiais elegíveis.")
@@ -44,6 +45,7 @@ class PracticeService:
             refs = [r for r in refs if req["assunto_id"] in [r["assunto_id"], *r.get("assunto_ids", [])]]
         excluidos = set(req.get("excluir_fingerprints", []))
         if req["modo"] == "CADASTRADAS":
+            refs = [r for r in refs if not r.get('referencia_teorica')]
             questoes = [q for r in refs if (q := preparar_original(r)) is not None and q["fingerprint"] not in excluidos]
             random.Random(secrets.randbits(128)).shuffle(questoes)
             questoes = questoes[:req["quantidade"]]
@@ -65,11 +67,12 @@ class PracticeService:
             for slug in slugs:
                 if cotas[slug]:
                     questoes.extend(self.gerador(slug, grupos[slug], cotas[slug], excluidos))
-            if questoes:
-                contextos = self.narrador(questoes)
-                if len(contextos) != len(questoes):
+            narraveis = [q for q in questoes if q.get('spec', {}).get('motor') != 'sistemas_digitais']
+            if narraveis:
+                contextos = self.narrador(narraveis)
+                if len(contextos) != len(narraveis):
                     raise ValueError("Contextos incompletos.")
-                for q, contexto in zip(questoes, contextos):
+                for q, contexto in zip(narraveis, contextos):
                     q["enunciado"] = contexto + "\n\n" + q["enunciado"]
         publicas = []
         segredos = {}

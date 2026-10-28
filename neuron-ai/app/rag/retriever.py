@@ -5,7 +5,7 @@ import math
 
 # A busca lexical complementa o embedding para definições curtas nos slides.
 DISCIPLINAS_HIBRIDAS = {"design_de_artefatos_digitais", "projeto_de_ideacao_de_software",
-                       "estrutura_de_dados_avancada"}
+                       "estrutura_de_dados_avancada", "sistemas_digitais"}
 
 
 class Retriever:

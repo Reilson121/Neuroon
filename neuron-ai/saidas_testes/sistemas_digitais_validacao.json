@@ -1,0 +1,22 @@
+{
+  "aprovado": true,
+  "materiais": 12,
+  "assuntos": 12,
+  "chunks": 353,
+  "questoes_por_assunto": {
+    "sistemas_analogicos_e_digitais": 10,
+    "portas_logicas_e_circuitos_digitais": 10,
+    "algebra_booleana": 5,
+    "circuitos_logicos": 10,
+    "contadores": 10,
+    "logica_sequencial": 10,
+    "maquinas_de_estados_finitos": 10,
+    "memoria_rom": 5,
+    "memorias": 10,
+    "circuitos_logicos_sequenciais": 10,
+    "introducao_a_eletronica_digital": 5,
+    "projetos_de_circuitos_sequenciais": 10
+  },
+  "questoes_verificadas": 105,
+  "lista_e_prova_cadastradas": false
+}

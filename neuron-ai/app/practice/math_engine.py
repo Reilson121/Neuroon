@@ -228,6 +228,9 @@ def construir(familia,rng):
 
 
 def verificar(q):
+    if q.get('spec', {}).get('motor') == 'sistemas_digitais':
+        from app.practice.digital_engine import verificar as verificar_digitais
+        return verificar_digitais(q)
     correto=mostrar(calcular(q['spec']))
     if set(q['alternativas'])!=set('ABCDE') or len(set(q['alternativas'].values()))!=5:
         raise ValueError('Alternativas ambíguas ou repetidas.')

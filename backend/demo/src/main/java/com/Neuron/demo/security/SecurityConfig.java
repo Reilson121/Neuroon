@@ -1,6 +1,7 @@
 package com.Neuron.demo.security;
 
 import com.Neuron.demo.usuario.UsuarioRepository;
+import com.Neuron.demo.usuario.VisitanteCleanup;
 import org.springframework.context.annotation.*;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
@@ -28,11 +29,13 @@ public class SecurityConfig {
  @Bean SessionAuthenticationStrategy sessionStrategy(CsrfTokenRepository csrf){
   return new CompositeSessionAuthenticationStrategy(List.of(new ChangeSessionIdAuthenticationStrategy(),new CsrfAuthenticationStrategy(csrf)));
  }
- @Bean SecurityFilterChain filterChain(HttpSecurity http, SecurityContextRepository contexts,CsrfTokenRepository csrf) throws Exception {
+ @Bean SecurityFilterChain filterChain(HttpSecurity http, SecurityContextRepository contexts,CsrfTokenRepository csrf,VisitanteCleanup visitantes) throws Exception {
   http.csrf(c -> c.csrfTokenRepository(csrf))
    .securityContext(c -> c.securityContextRepository(contexts))
-   .authorizeHttpRequests(a -> a.requestMatchers("/api/v1/auth/login","/api/v1/auth/csrf").permitAll()
+   .authorizeHttpRequests(a -> a.requestMatchers("/api/v1/auth/login","/api/v1/auth/visitante","/api/v1/auth/csrf").permitAll()
     .requestMatchers("/api/v1/admin/**").hasRole("ADMINISTRADOR")
+    .requestMatchers("/api/v1/pratica/**").hasAnyRole("ESTUDANTE","ADMINISTRADOR")
+    .requestMatchers("/api/v1/avaliacao-plataforma/**").hasRole("ESTUDANTE")
     .anyRequest().authenticated())
    .exceptionHandling(e -> e.authenticationEntryPoint((req,res,error) -> {
      res.setStatus(401);res.setContentType("application/json");res.setCharacterEncoding("UTF-8");res.getWriter().write("{\"status\":401,\"codigo\":\"NAO_AUTENTICADO\",\"mensagem\":\"Entre na sua conta.\"}");
@@ -40,7 +43,11 @@ public class SecurityConfig {
      res.setStatus(403);res.setContentType("application/json");res.setCharacterEncoding("UTF-8");res.getWriter().write("{\"status\":403,\"codigo\":\"ACESSO_NEGADO\",\"mensagem\":\"Operação não autorizada.\"}");
     }))
    .logout(l -> l.logoutUrl("/api/v1/auth/logout").invalidateHttpSession(true).deleteCookies("JSESSIONID")
-    .logoutSuccessHandler((req,res,auth) -> res.setStatus(204)));
+    .logoutSuccessHandler((req,res,auth) -> {
+      if(auth!=null && auth.getAuthorities().stream().anyMatch(a -> a.getAuthority().equals("ROLE_VISITANTE")))
+       visitantes.remover(auth.getName());
+      res.setStatus(204);
+    }));
   return http.build();
  }
 }

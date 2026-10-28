@@ -51,6 +51,9 @@ def _validar_contextos(bruto,quantidade):
 
 
 def gerar(assunto_slug, referencias, quantidade, excluidos, narrar=None):
+    if referencias and referencias[0].get('disciplina_slug') == 'sistemas_digitais':
+        from app.practice.digital_engine import gerar as gerar_digitais
+        return gerar_digitais(assunto_slug, referencias, quantidade, excluidos)
     familias = FAMILIAS.get(assunto_slug)
     if not familias or not referencias:
         return []

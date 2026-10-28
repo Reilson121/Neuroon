@@ -1,0 +1,50 @@
+{
+  "materiais": {
+    "16": {
+      "chunks_antes": 84,
+      "chunks_depois": 84,
+      "removidos": 0,
+      "atualizados": 84,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 84
+    },
+    "17": {
+      "chunks_antes": 54,
+      "chunks_depois": 54,
+      "removidos": 0,
+      "atualizados": 54,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 54
+    },
+    "18": {
+      "chunks_antes": 12,
+      "chunks_depois": 12,
+      "removidos": 0,
+      "atualizados": 12,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 12
+    },
+    "19": {
+      "chunks_antes": 47,
+      "chunks_depois": 47,
+      "removidos": 0,
+      "atualizados": 47,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 47
+    },
+    "20": {
+      "chunks_antes": 20,
+      "chunks_depois": 20,
+      "removidos": 0,
+      "atualizados": 20,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 20
+    }
+  },
+  "outras_disciplinas_preservadas": true
+}

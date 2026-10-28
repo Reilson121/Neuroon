@@ -35,14 +35,14 @@ class SecurityApiTests {
   mvc.perform(put("/api/v1/admin/materiais/1").with(user("estudante@example.test").roles("ESTUDANTE")).with(csrf()).contentType("application/json").content("{\"ativo\":true,\"fonteMonitorVirtual\":false,\"disponivelParaPratica\":true,\"autorizacaoProfessor\":true}")).andExpect(status().isForbidden()).andExpect(jsonPath("$.mensagem").value("Operação não autorizada."));
  }
  @Test void postExigeCsrf() throws Exception {
-  mvc.perform(post("/api/v1/pratica/sessoes").with(user("estudante@example.test")).contentType("application/json").content("{}")).andExpect(status().isForbidden());
+  mvc.perform(post("/api/v1/pratica/sessoes").with(user("estudante@example.test").roles("ESTUDANTE")).contentType("application/json").content("{}")).andExpect(status().isForbidden());
  }
  @Test void disciplinaSemProvaRetorna409() throws Exception {
-  mvc.perform(post("/api/v1/pratica/sessoes").with(user("estudante@example.test")).with(csrf()).contentType("application/json").content("{\"disciplinaId\":"+disciplina.getId()+",\"quantidade\":5}")).andDo(org.springframework.test.web.servlet.result.MockMvcResultHandlers.print()).andExpect(status().isConflict()).andExpect(jsonPath("$.codigo").value("DISCIPLINA_SEM_PROVA"));
+  mvc.perform(post("/api/v1/pratica/sessoes").with(user("estudante@example.test").roles("ESTUDANTE")).with(csrf()).contentType("application/json").content("{\"disciplinaId\":"+disciplina.getId()+",\"quantidade\":5}")).andDo(org.springframework.test.web.servlet.result.MockMvcResultHandlers.print()).andExpect(status().isConflict()).andExpect(jsonPath("$.codigo").value("DISCIPLINA_SEM_PROVA"));
  }
  @Test void ausenciaDeMateriaisRetornaEstadoVazio() throws Exception {
   disciplina.setPossuiProva(true);disciplinas.saveAndFlush(disciplina);
-  mvc.perform(post("/api/v1/pratica/sessoes").with(user("estudante@example.test")).with(csrf()).contentType("application/json").content("{\"disciplinaId\":"+disciplina.getId()+",\"quantidade\":5,\"modo\":\"GERADAS_IA\"}")).andDo(org.springframework.test.web.servlet.result.MockMvcResultHandlers.print()).andExpect(status().isOk()).andExpect(jsonPath("$.questoes").isEmpty()).andExpect(jsonPath("$.estado").value("SEM_QUESTOES"));
+  mvc.perform(post("/api/v1/pratica/sessoes").with(user("estudante@example.test").roles("ESTUDANTE")).with(csrf()).contentType("application/json").content("{\"disciplinaId\":"+disciplina.getId()+",\"quantidade\":5,\"modo\":\"GERADAS_IA\"}")).andDo(org.springframework.test.web.servlet.result.MockMvcResultHandlers.print()).andExpect(status().isOk()).andExpect(jsonPath("$.questoes").isEmpty()).andExpect(jsonPath("$.estado").value("SEM_QUESTOES"));
  }
  @Test void loginNaoExibeHashDaSenha() throws Exception {
   mvc.perform(post("/api/v1/auth/login").with(csrf()).contentType("application/json").content("{\"email\":\"estudante@example.test\",\"senha\":\"senha-de-teste-123\"}")).andExpect(status().isOk()).andExpect(jsonPath("$.perfil").value("ESTUDANTE")).andExpect(jsonPath("$.senhaHash").doesNotExist());

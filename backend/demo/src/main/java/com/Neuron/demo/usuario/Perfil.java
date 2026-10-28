@@ -1,2 +1,2 @@
 package com.Neuron.demo.usuario;
-public enum Perfil { ESTUDANTE, ADMINISTRADOR }
+public enum Perfil { ESTUDANTE, ADMINISTRADOR, VISITANTE }
