@@ -1,0 +1,506 @@
+{
+  "gerado_em_utc": "2026-10-28T05:30:47.464897+00:00",
+  "checks": [
+    "autenticacao_servico_interno",
+    "autenticacao_api_publica",
+    "catalogo_periodo_disciplina_31_assuntos_3_materiais",
+    "rejeita_assunto_de_outra_disciplina",
+    "estudante_nao_altera_permissoes",
+    "seis_originais_sem_vazamento_de_gabarito",
+    "isolamento_usuario_sessao_questao_e_alternativa",
+    "correcao_didatica_idempotencia_e_conflito",
+    "reducao_de_repeticoes_e_estado_vazio",
+    "filtros_por_lista_e_prova",
+    "monitor_bloqueia_fonte_desativada_e_chunk_sem_vinculo",
+    "filtro_por_assunto",
+    "assunto_sem_avaliacao_nao_recebe_questoes_artificiais",
+    "revogacao_bloqueia_inicio_e_correcao_imediatamente",
+    "disciplina_sem_prova_retorna_409",
+    "administrador_sincroniza_material_sem_duplicacao",
+    "geracao_real_e_cinco_correcoes_matematicas",
+    "nova_geracao_reduz_repeticoes",
+    "monitor_publico_sse_com_fontes_corretas",
+    "historico_persiste_pergunta_resposta_e_fontes",
+    "historico_isola_usuario_e_contexto",
+    "historico_continua_conversa_e_preserva_ordem",
+    "historico_reabre_apos_novo_login",
+    "logout_invalida_sessao"
+  ],
+  "aprovado": true,
+  "provedor_real_testado": true,
+  "amostras_geradas": [
+    {
+      "questao": {
+        "id": "5538926e-a421-411b-8db1-91dbbbd18dd1",
+        "enunciado": "Em um estudo sobre tempos de resposta de servidores, você recebeu os registros de latência de cada requisição para calcular a variância populacional das durações observadas.\n\nDados observados: [7, 9, 18, 19, 21]. Trate o conjunto como a população inteira.\n\nQual é a variância populacional?",
+        "alternativas": {
+          "A": "829/25",
+          "B": "1608/25",
+          "C": "854/25",
+          "D": "804/25",
+          "E": "402/25"
+        },
+        "conceito": "Variancia populacional",
+        "origem": "GERADA_IA",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "5"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 1,
+            "numeroQuestao": "5"
+          }
+        ],
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fingerprint": "0df9a19c6872d846a17c637a25316092d80ce2382094a4f13eb3c1a2a5bcd278",
+        "visualizacao": null
+      },
+      "correcao": {
+        "correto": false,
+        "alternativaCorreta": "D",
+        "conceito": "Variancia populacional",
+        "formula": "σ² = Σ(x − média)²/n",
+        "substituicao": "Média=74/5. Quadrados dos desvios: ['1521/25', '841/25', '256/25', '441/25', '961/25']. Soma dos quadrados=804/5; denominador=5. Variância=804/25.",
+        "calculos": [
+          "Média=74/5.",
+          "Quadrados dos desvios: ['1521/25', '841/25', '256/25', '441/25', '961/25'].",
+          "Soma dos quadrados=804/5; denominador=5.",
+          "Variância=804/25.",
+          "Resultado: 804/25."
+        ],
+        "resolucao": "Aplicando σ² = Σ(x − média)²/n, obtemos 804/25.",
+        "errosComuns": [
+          "Use n na população e n−1 na variância amostral.",
+          "O desvio-padrão é a raiz da variância, não a própria variância."
+        ],
+        "dica": "Identifique os dados, a condição e a fórmula antes de calcular. Confira a convenção e arredonde apenas no final.",
+        "resolucaoGeradaPorIa": true,
+        "origemGabarito": "GERADO_IA_VALIDADO_MATEMATICAMENTE",
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "5"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 1,
+            "numeroQuestao": "5"
+          }
+        ]
+      }
+    },
+    {
+      "questao": {
+        "id": "0d643c1d-27c4-468d-889b-819bba55a707",
+        "enunciado": "Ao revisar os logs de execução de um programa em diferentes estações de trabalho, você precisa estimar a variância amostral dos tempos de processamento registrados.\n\nDados observados: [4, 6, 7, 15, 17, 19]. Trate o conjunto como uma amostra.\n\nQual é a variância amostral?",
+        "alternativas": {
+          "A": "1232/15",
+          "B": "616/15",
+          "C": "631/15",
+          "D": "308/15",
+          "E": "646/15"
+        },
+        "conceito": "Variancia amostral",
+        "origem": "GERADA_IA",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "2"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 1,
+            "numeroQuestao": "2"
+          }
+        ],
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fingerprint": "4c0f26da0f04454bc17536dac814a741d19d9cbb013ef44852f6107cb9013fab",
+        "visualizacao": null
+      },
+      "correcao": {
+        "correto": false,
+        "alternativaCorreta": "B",
+        "conceito": "Variancia amostral",
+        "formula": "s² = Σ(x − média)²/(n−1)",
+        "substituicao": "Média=34/3. Quadrados dos desvios: ['484/9', '256/9', '169/9', '121/9', '289/9', '529/9']. Soma dos quadrados=616/3; denominador=5. Variância=616/15.",
+        "calculos": [
+          "Média=34/3.",
+          "Quadrados dos desvios: ['484/9', '256/9', '169/9', '121/9', '289/9', '529/9'].",
+          "Soma dos quadrados=616/3; denominador=5.",
+          "Variância=616/15.",
+          "Resultado: 616/15."
+        ],
+        "resolucao": "Aplicando s² = Σ(x − média)²/(n−1), obtemos 616/15.",
+        "errosComuns": [
+          "Use n na população e n−1 na variância amostral.",
+          "O desvio-padrão é a raiz da variância, não a própria variância."
+        ],
+        "dica": "Identifique os dados, a condição e a fórmula antes de calcular. Confira a convenção e arredonde apenas no final.",
+        "resolucaoGeradaPorIa": true,
+        "origemGabarito": "GERADO_IA_VALIDADO_MATEMATICAMENTE",
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "2"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 1,
+            "numeroQuestao": "2"
+          }
+        ]
+      }
+    },
+    {
+      "questao": {
+        "id": "e84334b6-5931-4315-9a22-17216426bbf2",
+        "enunciado": "Para comparar a consistência de dois algoritmos de ordenação, você deve determinar a amplitude entre os extremos dos tempos de execução coletados em uma bateria de testes.\n\nDados observados: [2, 6, 7, 13, 16, 20, 23].\n\nQual é a amplitude?",
+        "alternativas": {
+          "A": "42",
+          "B": "23",
+          "C": "21/2",
+          "D": "22",
+          "E": "21"
+        },
+        "conceito": "Amplitude",
+        "origem": "GERADA_IA",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "7"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 2,
+            "numeroQuestao": "7"
+          }
+        ],
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fingerprint": "07e4124dde2752c38efc89b3d5a2d417a5f539e041e13efec7a44ff2d225d4f4",
+        "visualizacao": {
+          "tipo": "barras",
+          "titulo": "Valores observados",
+          "rotulos": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "valores": [
+            2,
+            6,
+            7,
+            13,
+            16,
+            20,
+            23
+          ]
+        }
+      },
+      "correcao": {
+        "correto": false,
+        "alternativaCorreta": "E",
+        "conceito": "Amplitude",
+        "formula": "R = máximo − mínimo",
+        "substituicao": "Ordenando: [2, 6, 7, 13, 16, 20, 23]. Quantidade n=7; soma=87; mínimo=2; máximo=23. R=23−2=21.",
+        "calculos": [
+          "Ordenando: [2, 6, 7, 13, 16, 20, 23].",
+          "Quantidade n=7; soma=87; mínimo=2; máximo=23.",
+          "R=23−2=21.",
+          "Resultado: 21."
+        ],
+        "resolucao": "Aplicando R = máximo − mínimo, obtemos 21.",
+        "errosComuns": [
+          "Não confunda média, mediana e moda.",
+          "Para a mediana, ordene os dados antes de procurar o centro."
+        ],
+        "dica": "Identifique os dados, a condição e a fórmula antes de calcular. Confira a convenção e arredonde apenas no final.",
+        "resolucaoGeradaPorIa": true,
+        "origemGabarito": "GERADO_IA_VALIDADO_MATEMATICAMENTE",
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "7"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 2,
+            "numeroQuestao": "7"
+          }
+        ]
+      }
+    },
+    {
+      "questao": {
+        "id": "b4ed4bb4-49f0-4b5f-8dab-3f98e6afffb9",
+        "enunciado": "Em uma análise de distribuição de tamanhos de arquivos em um repositório, você calculou o intervalo interquartil (IQR) para resumir a dispersão central dos dados.\n\nDados observados: [3, 6, 7, 12, 17, 19, 21]. Para os quartis, use h=(n−1)q, com índice iniciado em zero e interpolação linear entre os valores vizinhos.\n\nQual é o intervalo interquartil (IQR)?",
+        "alternativas": {
+          "A": "23/2",
+          "B": "23/4",
+          "C": "25/2",
+          "D": "23",
+          "E": "27/2"
+        },
+        "conceito": "Iqr",
+        "origem": "GERADA_IA",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "5"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 1,
+            "numeroQuestao": "5"
+          }
+        ],
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fingerprint": "f2f4ffa077bf0635f7071b89891c56c00c380874d5b00e541122eb81c3910a57",
+        "visualizacao": null
+      },
+      "correcao": {
+        "correto": true,
+        "alternativaCorreta": "A",
+        "conceito": "Iqr",
+        "formula": "h=(n−1)q, índice iniciado em zero, interpolação linear; IQR=Q3−Q1",
+        "substituicao": "Dados ordenados=[3, 6, 7, 12, 17, 19, 21]. q=1/4: h=3/2; vizinhos nos índices 1 e 2; quartil=13/2. Interpolação: 6+1/2×(7−6)=13/2. q=3/4: h=9/2; vizinhos nos índices 4 e 5; quartil=18. Interpolação: 17+1/2×(19−17)=18. IQR=18−13/2=23/2.",
+        "calculos": [
+          "Dados ordenados=[3, 6, 7, 12, 17, 19, 21].",
+          "q=1/4: h=3/2; vizinhos nos índices 1 e 2; quartil=13/2.",
+          "Interpolação: 6+1/2×(7−6)=13/2.",
+          "q=3/4: h=9/2; vizinhos nos índices 4 e 5; quartil=18.",
+          "Interpolação: 17+1/2×(19−17)=18.",
+          "IQR=18−13/2=23/2.",
+          "Resultado: 23/2."
+        ],
+        "resolucao": "Aplicando h=(n−1)q, índice iniciado em zero, interpolação linear; IQR=Q3−Q1, obtemos 23/2.",
+        "errosComuns": [
+          "Não use (n+1)q nesta questão: ela pede a convenção com índice zero.",
+          "Subtraia Q1 de Q3, não a mediana."
+        ],
+        "dica": "Identifique os dados, a condição e a fórmula antes de calcular. Confira a convenção e arredonde apenas no final.",
+        "resolucaoGeradaPorIa": true,
+        "origemGabarito": "GERADO_IA_VALIDADO_MATEMATICAMENTE",
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "5"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 1,
+            "numeroQuestao": "5"
+          }
+        ]
+      }
+    },
+    {
+      "questao": {
+        "id": "143fe92f-d4d6-4833-a33e-46e1ba30a89c",
+        "enunciado": "Ao avaliar a estabilidade de medições de desempenho de um sistema, você precisa calcular o desvio padrão amostral das taxas de transferência observadas.\n\nDados observados: [6, 7, 10, 12, 14, 17, 20]. Trate o conjunto como a população inteira.\n\nQual é o desvio-padrão populacional, arredondado para duas casas decimais?",
+        "alternativas": {
+          "A": "2,37",
+          "B": "5,74",
+          "C": "4,74",
+          "D": "9,48",
+          "E": "6,74"
+        },
+        "conceito": "Desvio padrao",
+        "origem": "GERADA_IA",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "7"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 2,
+            "numeroQuestao": "7"
+          }
+        ],
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fingerprint": "42bc137df69d02a67343867d10f7e370a33dbca98a4e049dfed25edebf653b4d",
+        "visualizacao": null
+      },
+      "correcao": {
+        "correto": false,
+        "alternativaCorreta": "C",
+        "conceito": "Desvio padrao",
+        "formula": "σ = sqrt(Σ(x − média)²/n)",
+        "substituicao": "Média=86/7. Quadrados dos desvios: ['1936/49', '1369/49', '256/49', '4/49', '144/49', '1089/49', '2916/49']. Soma dos quadrados=1102/7; denominador=7. Variância=1102/49. Desvio-padrão=sqrt(1102/49)≈4,74.",
+        "calculos": [
+          "Média=86/7.",
+          "Quadrados dos desvios: ['1936/49', '1369/49', '256/49', '4/49', '144/49', '1089/49', '2916/49'].",
+          "Soma dos quadrados=1102/7; denominador=7.",
+          "Variância=1102/49.",
+          "Desvio-padrão=sqrt(1102/49)≈4,74.",
+          "Resultado: 4,74."
+        ],
+        "resolucao": "Aplicando σ = sqrt(Σ(x − média)²/n), obtemos 4,74.",
+        "errosComuns": [
+          "Use n na população e n−1 na variância amostral.",
+          "O desvio-padrão é a raiz da variância, não a própria variância."
+        ],
+        "dica": "Identifique os dados, a condição e a fórmula antes de calcular. Confira a convenção e arredonde apenas no final.",
+        "resolucaoGeradaPorIa": true,
+        "origemGabarito": "GERADO_IA_VALIDADO_MATEMATICAMENTE",
+        "aviso": "Questão inédita gerada por IA; não é uma questão oficial do professor.",
+        "fontes": [
+          {
+            "materialId": 2,
+            "tituloMaterial": "Exercissios 1 Unidade.docx",
+            "arquivo": "Exercissios 1 Unidade.docx",
+            "pagina": null,
+            "numeroQuestao": "7"
+          },
+          {
+            "materialId": 3,
+            "tituloMaterial": "prova anterior de estátisitica.pdf",
+            "arquivo": "prova anterior de estátisitica.pdf",
+            "pagina": 2,
+            "numeroQuestao": "7"
+          }
+        ]
+      }
+    }
+  ],
+  "monitor": {
+    "pergunta": "O que representa a mediana e como os valores extremos afetam a escolha da medida central?",
+    "eventos": {
+      "status": {
+        "mensagem": "Consultando os materiais da disciplina…"
+      },
+      "token": {
+        "texto": "A mediana é o valor que fica no meio quando ordenamos os dados. [F1] Ela é a medida central mais adequada quando há outliers ou distribuição muito assimétrica. [F1] Já a média é sensível a valores extremos (outliers), o que pode distorcer a representação do centro dos dados. [F1] Por isso, na presença de valores extremos, a mediana é preferida como medida de tendência central. [F1]"
+      },
+      "sources": {
+        "fontes": [
+          {
+            "referencia": "F1",
+            "chunk_id": "e62c6079634099fc98232d99",
+            "arquivo": "estatistica_novo.pdf",
+            "pagina": 31,
+            "assunto": "medidas_de_tendencia_central",
+            "aula": null,
+            "similaridade": 0.7264562086138863,
+            "assunto_id": 6,
+            "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+            "periodo_id": 1,
+            "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+            "material_id": 1,
+            "disciplina_id": 1,
+            "tipo_material": "SLIDE_AULA",
+            "titulo_material": "Estatística — slides consolidados",
+            "chunk_caracteres": 363,
+            "motivos_deteccao": [
+              "textual_forcado_manualmente",
+              "paginas_curtas_mescladas"
+            ],
+            "paginas_mescladas": [
+              30
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 3,
+            "autorizacao_professor": false,
+            "fonte_monitor_virtual": true,
+            "disponivel_para_pratica": false,
+            "titulo_cadastro_material": "estatistica_novo.pdf",
+            "caracteres_texto_original": 335,
+            "metadados_documento_originais": {
+              "title": "",
+              "author": "Jonatas Junior",
+              "format": "PDF 1.7",
+              "creator": "Microsoft® PowerPoint® para Microsoft 365",
+              "modDate": "D:20261019135537-03'00'",
+              "subject": "",
+              "trapped": "",
+              "keywords": "",
+              "producer": "Microsoft® PowerPoint® para Microsoft 365",
+              "encryption": null,
+              "creationDate": "D:20261019135537-03'00'"
+            },
+            "periodo": "03",
+            "disciplina": "estatistica",
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1
+          }
+        ]
+      },
+      "done": {
+        "fallback": false,
+        "threadId": "a368760f-b33b-46e8-9ec0-910231b22f46"
+      }
+    },
+    "continuacao": {
+      "status": {
+        "mensagem": "Consultando os materiais da disciplina…"
+      },
+      "token": {
+        "texto": "Não encontrei informações suficientes nos materiais da disciplina para responder a essa pergunta."
+      },
+      "sources": {
+        "fontes": []
+      },
+      "done": {
+        "fallback": true,
+        "threadId": "a368760f-b33b-46e8-9ec0-910231b22f46"
+      }
+    }
+  },
+  "contas_temporarias_removidas": true
+}

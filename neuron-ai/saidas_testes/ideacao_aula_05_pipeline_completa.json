@@ -1,0 +1,881 @@
+{
+  "resumo": {
+    "periodo": "03",
+    "disciplina": "projeto_de_ideacao_de_software",
+    "aula": "05",
+    "assunto": "matriz_csd",
+    "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+    "pdf_sha256": "bff09f681d122f74fc9f78d3dcce5a88e7b44fea4c1c250d487a8793b82a2682",
+    "modelo_visual": "deepseek/deepseek-v4.1-flash",
+    "total_paginas": 20,
+    "total_chunks": 20,
+    "chunk_size": 1000,
+    "chunk_overlap": 150,
+    "paginas_multimodais": 20,
+    "paginas_textuais": 0
+  },
+  "paginas": [
+    {
+      "conteudo": "# Matriz CSD\n\n## Certezas, Suposições e Dúvidas\n\nComo organizar o conhecimento sobre um projeto e identificar o que precisamos investigar.\n\n**Disciplina:** Projeto de Ideação de Software e Design de Artefatos Digitais\n**Prof.ª Jeneffer Ferreira**\n\n### Elementos visuais\n\nRepresentação da sigla CSD por meio de três cartões:\n\n- Cartão \"C\": letra C acompanhada de um símbolo de check (✓), associado a Certezas.\n- Cartão \"S\": letra S acompanhada de uma lâmpada, associada a Suposições.\n- Cartão \"D\": letra D acompanhada de um ponto de interrogação (?), associada a Dúvidas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Objetivos da aula\n\nAo final da aula, você deverá ser capaz de:\n\n- Compreender o que é a Matriz CSD.\n- Diferenciar certezas, suposições e dúvidas.\n- Preencher a matriz a partir de um problema de design.\n- Identificar informações que precisam de investigação.\n- Utilizar a matriz para orientar pesquisas e decisões de UX/UI.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n2/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 2,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que é a Matriz CSD?\n\nFerramenta colaborativa que organiza o conhecimento da equipe sobre um projeto, problema ou contexto.\n\n## Estrutura da Matriz CSD\n\n- **C — Certezas**: Informações sustentadas por evidências.\n- **S — Suposições**: Hipóteses que precisam de verificação.\n- **D — Dúvidas**: Perguntas que ainda precisam de respostas.\n\n## Objetivo da Matriz\n\nA matriz ajuda a identificar o que sabemos e o que precisamos investigar.\n\n---\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n3/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 3,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Por que utilizar a Matriz CSD em Projetos de Ideação de Software?\n\nDurante um projeto, a equipe pode ter diferentes interpretações sobre os usuários e suas necessidades.\n\n## A Matriz CSD ajuda a:\n\n- Compartilhar o conhecimento disponível.\n- Tornar explícitas as hipóteses da equipe.\n- Identificar lacunas de informação.\n- Orientar a pesquisa com usuários.\n- Apoiar decisões sobre o produto.\n\nÉ especialmente útil no início de projetos, quando existem muitas incertezas.\n\n## Estrutura da Matriz CSD\n\nA matriz é organizada em três colunas:\n\n- **Certezas** (indicadas com um símbolo de verificação)\n- **Suposições** (indicadas com um símbolo de lâmpada)\n- **Dúvidas** (indicadas com um símbolo de interrogação)\n\nCada coluna contém cartões ou notas adesivas que representam os itens classificados em cada categoria.\n\n## Informações de rodapé\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n4/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Estrutura da matriz\n\nA página apresenta uma matriz estruturada em três categorias, cada uma com um ícone representativo, um título, uma pergunta orientadora e uma descrição:\n\n- **CERTEZAS** (ícone de check)\n  - O que sabemos com base em evidências?\n  - Informações documentadas ou observadas.\n\n- **SUPOSIÇÕES** (ícone de lâmpada)\n  - O que acreditamos, mas precisamos verificar?\n  - Hipóteses sobre o problema e os usuários.\n\n- **DÚVIDAS** (ícone de interrogação)\n  - O que precisamos descobrir?\n  - Perguntas que orientam a investigação.\n\n---\n\nUX/UI Design • Prof.ª Jenefler Ferreira\n5/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# C: Certezas\n\n**Definição:** Informações que possuem evidências identificáveis no contexto do projeto.\n\n## Possíveis fontes:\n- Entrevistas realizadas.\n- Observações de uso.\n- Registros de atendimento.\n- Dados de acesso.\n- Documentos do projeto.\n- Resultados de testes.\n\n## Exemplo didático\n\"Na versão atual do aplicativo, o usuário precisa preencher oito campos para criar uma conta.\"\n\n**Evidência:** inspeção do formulário de cadastro.\n\n---\nUX/UI Design • Prof.ª Jennefer Ferreira\n6/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 6,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Como escrever uma certeza\n\nUma certeza deve ser específica e indicar sua fonte.\n\n## Formulação inadequada\n\n\"Os usuários têm dificuldade com o cadastro.\"\n\n## Formulação mais precisa\n\n\"No teste realizado, quatro dos seis participantes não concluíram o cadastro sem ajuda.\"\n\n**Fonte:** registro do teste de usabilidade.\n\n## Atenção\n\nO resultado descreve os participantes e as condições daquele teste. Generalizações exigem evidências adicionais.\n\n---\n\nOs dados dos exemplos desta aula são fictícios.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n7/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 7,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# S: Suposições\n\n**Definição:**\nIdeias que a equipe considera possíveis, mas ainda não verificou suficientemente.\n\n**Aplicação:**\nPodem envolver necessidades, causas de dificuldades, preferências e efeitos de mudanças na interface.\n\n## Exemplos\n\n- \"Acreditamos que um cadastro mais curto aumentará a conclusão dessa etapa.\"\n- \"Supomos que os estudantes preferem visualizar atividades por data de entrega.\"\n- \"Acreditamos que os usuários não percebem o botão de ajuda.\"\n\n---\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n8/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 8,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Como escrever uma suposição\n\nUma suposição deve permitir investigação.\n\n## Formulação vaga\n\n“O aplicativo precisa ser melhor.”\n\n## Formulação investigável\n\n“Acreditamos que os usuários abandonam o cadastro porque não compreendem quais campos são obrigatórios.”\n\n## Como investigar\n\n- Observar usuários preenchendo o formulário.\n- Identificar em quais campos encontram dificuldades.\n- Testar uma versão com indicações mais claras.\n\nA hipótese também pode ser refutada.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n9/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 9,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# D: Dúvidas\n\nPerguntas sobre informações que a equipe ainda não possui.\nElas ajudam a definir o que pesquisar.\n\n- Como os usuários realizam essa tarefa atualmente?\n- Em qual etapa encontram mais dificuldades?\n- Quais informações precisam consultar primeiro?\n- Que recursos de acessibilidade utilizam?\n- O que os leva a abandonar o cadastro?\n\n## Dica\nPrefira perguntas que permitam descobrir comportamentos e necessidades sem sugerir a resposta.\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n10/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 10,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Certeza, suposição ou dúvida?\n\n**Exemplo: aplicativo de organização acadêmica**\n\n- **CERTEZA**\n  - “O aplicativo atual não envia lembretes de atividades.”\n  - A equipe verificou as funcionalidades disponíveis.\n\n- **SUPOSIÇÃO**\n  - “Lembretes podem ajudar os estudantes a cumprir os prazos.”\n  - O benefício ainda precisa ser investigado.\n\n- **DÚVIDA**\n  - “Com qual antecedência os estudantes precisam receber lembretes?”\n  - A equipe ainda desconhece essa necessidade.\n\n**Uma opinião compartilhada continua sendo suposição quando falta evidência.**\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n11/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Como preencher a Matriz CSD\n\n1. **Definir o desafio**\n   Qual problema será discutido?\n\n2. **Delimitar o contexto**\n   Quem é o público e qual é a situação de uso?\n\n3. **Reunir informações**\n   Consultar materiais e evidências disponíveis.\n\n4. **Registrar os itens**\n   Escrever uma ideia por cartão.\n\n5. **Classificar**\n   Distribuir os cartões entre C, S e D.\n\n6. **Discutir**\n   Verificar clareza e classificação.\n\n7. **Priorizar**\n   Escolher as incertezas mais importantes.\n\n8. **Planejar a investigação**\n   Definir como obter evidências.\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n12/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 12,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo 1: organização acadêmica\n\n## Contexto fictício\nUma instituição deseja melhorar a forma como os estudantes acompanham atividades e prazos.\n\n## Informações disponíveis\n- O ambiente atual apresenta atividades separadas por disciplina.\n- Uma inspeção confirmou a ausência de calendário integrado.\n- Cinco dos oito estudantes entrevistados consultam mais de um local para acompanhar os prazos.\n\n## Suposições\n- Os estudantes gostariam de visualizar todas as atividades em um único calendário.\n- A falta de integração entre os sistemas gera maior esforço e risco de perda de prazos.\n\n## Dúvidas\n- Quais informações são mais importantes para os estudantes?\n- Como os estudantes preferem ser notificados sobre os prazos?\n\n---\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n13/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 13,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Matriz CSD: organização acadêmica\n\nA página apresenta a Matriz CSD (Certezas, Suposições e Dúvidas) aplicada ao contexto de organização acadêmica, estruturada em três colunas:\n\n## CERTEZAS\n- As atividades aparecem separadas por disciplina.\n- A versão atual não possui calendário integrado.\n- Cinco dos oito entrevistados consultam mais de um local para acompanhar prazos.\n\n## SUPOSIÇÕES\n- Reunir prazos em uma tela facilitará o acompanhamento.\n- Um calendário será mais útil que uma lista.\n- Lembretes ajudarão a reduzir esquecimentos.\n\n## DÚVIDAS\n- Como os estudantes organizam seus prazos?\n- Quando preferem calendário ou lista?\n- Quando e por qual canal desejam receber lembretes?\n\n---\n\nExemplo fictício. As certezas se referem às evidências do cenário.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n14/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo 2: agendamento de consultas\n\n**Cenário fictício:** uma clínica recebe agendamentos por telefone e deseja oferecer uma opção digital.\n\n## CERTEZAS\n- A clínica agenda consultas por telefone.\n- Os registros analisados contêm pedidos de reagendamento.\n- A recepção consulta uma agenda interna.\n\n## SUPOSIÇÕES\n- Parte dos pacientes preferirá agendar pelo celular.\n- O reagendamento digital reduzirá ligações.\n- Mostrar horários disponíveis facilitará a escolha.\n\n## DÚVIDAS\n- Como os pacientes escolhem o canal de agendamento?\n- Quais dificuldades encontram ao reagendar?\n- O que precisam saber antes de escolher um horário?\n\n---\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n15/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 15,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo 3: loja virtual\n\n**Cenário fictício:** melhorar a experiência de compra.\n\n## CERTEZAS\n\n- O site exige criar conta para concluir a compra.\n- O frete aparece após o preenchimento do endereço.\n- A tabela de medidas fica em uma seção recolhida.\n\n## SUPOSIÇÕES\n\n- O cadastro obrigatório contribui para o abandono.\n- Ver o frete antes ajudará na decisão de compra.\n- Parte dos usuários não encontra a tabela de medidas.\n\n## DÚVIDAS\n\n- Como o cadastro influencia a decisão de continuar?\n- Quando os usuários procuram o valor do frete?\n- Os usuários localizam e compreendem as medidas?\n\n**Atenção:** registrar um abandono não revela, por si só, sua causa.\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n16/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 16,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que investigar primeiro?\n\n## IMPACTO\nQuanto essa informação pode mudar uma decisão?\n\n## INCERTEZA\nQuanta evidência a equipe já possui?\n\n## DEPENDÊNCIA\nOutras decisões precisam dessa resposta?\n\n## ESFORÇO\nO que será necessário para investigar?\n\n## Exemplo\nAntes de detalhar as cores de um aplicativo acadêmico, pode ser necessário descobrir se os estudantes localizam suas próximas entregas.\n\n**Prioridade sugerida:** alto impacto e pouca evidência.\n\n---\nUX/UI Design • Prof.ª Jeneffer Ferreira\n18/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 17,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Como atualizar a matriz\n\n## Suposição inicial\n“Os estudantes preferem um calendário mensal.”\n\n## Investigação fictícia\nEm um teste com seis estudantes, quatro localizaram a próxima entrega mais rapidamente usando uma lista ordenada por prazo.\n\n## Atualização\n- Registrar o resultado como evidência daquele teste.\n- Revisar a hipótese sobre o calendário.\n- Investigar em quais tarefas o calendário pode ser útil.\n\n## Atenção\nA pesquisa pode apoiar, refutar ou deixar uma hipótese inconclusiva.\n\n---\nUX/UI Design • Prof.ª Jeneffer Ferreira\n19/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 18,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Erros comuns\n\n- Classificar opiniões como certezas.\n- Registrar certezas sem fonte.\n- Usar generalizações sem evidência.\n- Colocar várias ideias no mesmo cartão.\n- Fazer perguntas que induzem respostas.\n- Tratar uma solução desejada como necessidade comprovada.\n- Ignorar resultados que contradizem hipóteses.\n- Preencher a matriz e não investigar.\n\n## Exemplos\n\n- **Pergunta tendenciosa:** \"Você concorda que nosso novo menu é mais fácil?\"\n- **Alternativa:** \"Como você encontraria o histórico de pedidos nesta tela?\"\n\n---\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n21/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 19,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Atividade prática\n\nConsidere o projeto do grupo e elabore uma Matriz CSD contendo:\n\n1. Uma Matriz CSD com as três certezas fornecidas.\n2. Quatro suposições sobre o seu usuário\n3. Quatro dúvidas que precisam ser investigadas.\n4. A seleção de dois itens prioritários, com justificativa.\n5. Um plano de pesquisa para investigar esses dois itens.\n\n**Entrega:** matriz preenchida e descrição de como o grupo pretende obter as evidências.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 20,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "45b094ed980125041cdf082f",
+      "conteudo": "# Matriz CSD\n\n## Certezas, Suposições e Dúvidas\n\nComo organizar o conhecimento sobre um projeto e identificar o que precisamos investigar.\n\n**Disciplina:** Projeto de Ideação de Software e Design de Artefatos Digitais\n**Prof.ª Jeneffer Ferreira**\n\n### Elementos visuais\n\nRepresentação da sigla CSD por meio de três cartões:\n\n- Cartão \"C\": letra C acompanhada de um símbolo de check (✓), associado a Certezas.\n- Cartão \"S\": letra S acompanhada de uma lâmpada, associada a Suposições.\n- Cartão \"D\": letra D acompanhada de um ponto de interrogação (?), associada a Dúvidas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 570,
+        "chunk_id": "45b094ed980125041cdf082f"
+      }
+    },
+    {
+      "chunk_id": "3402b42b5ceae2941bd0b5b6",
+      "conteudo": "# Objetivos da aula\n\nAo final da aula, você deverá ser capaz de:\n\n- Compreender o que é a Matriz CSD.\n- Diferenciar certezas, suposições e dúvidas.\n- Preencher a matriz a partir de um problema de design.\n- Identificar informações que precisam de investigação.\n- Utilizar a matriz para orientar pesquisas e decisões de UX/UI.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n2/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 2,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 370,
+        "chunk_id": "3402b42b5ceae2941bd0b5b6"
+      }
+    },
+    {
+      "chunk_id": "a52aab74bc235a76b53c8898",
+      "conteudo": "# O que é a Matriz CSD?\n\nFerramenta colaborativa que organiza o conhecimento da equipe sobre um projeto, problema ou contexto.\n\n## Estrutura da Matriz CSD\n\n- **C — Certezas**: Informações sustentadas por evidências.\n- **S — Suposições**: Hipóteses que precisam de verificação.\n- **D — Dúvidas**: Perguntas que ainda precisam de respostas.\n\n## Objetivo da Matriz\n\nA matriz ajuda a identificar o que sabemos e o que precisamos investigar.\n\n---\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n3/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 3,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 487,
+        "chunk_id": "a52aab74bc235a76b53c8898"
+      }
+    },
+    {
+      "chunk_id": "884c39238495b21a5e87cf98",
+      "conteudo": "# Por que utilizar a Matriz CSD em Projetos de Ideação de Software?\n\nDurante um projeto, a equipe pode ter diferentes interpretações sobre os usuários e suas necessidades.\n\n## A Matriz CSD ajuda a:\n\n- Compartilhar o conhecimento disponível.\n- Tornar explícitas as hipóteses da equipe.\n- Identificar lacunas de informação.\n- Orientar a pesquisa com usuários.\n- Apoiar decisões sobre o produto.\n\nÉ especialmente útil no início de projetos, quando existem muitas incertezas.\n\n## Estrutura da Matriz CSD\n\nA matriz é organizada em três colunas:\n\n- **Certezas** (indicadas com um símbolo de verificação)\n- **Suposições** (indicadas com um símbolo de lâmpada)\n- **Dúvidas** (indicadas com um símbolo de interrogação)\n\nCada coluna contém cartões ou notas adesivas que representam os itens classificados em cada categoria.\n\n## Informações de rodapé\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n4/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 885,
+        "chunk_id": "884c39238495b21a5e87cf98"
+      }
+    },
+    {
+      "chunk_id": "494977a35165c48237ef6ccd",
+      "conteudo": "# Estrutura da matriz\n\nA página apresenta uma matriz estruturada em três categorias, cada uma com um ícone representativo, um título, uma pergunta orientadora e uma descrição:\n\n- **CERTEZAS** (ícone de check)\n  - O que sabemos com base em evidências?\n  - Informações documentadas ou observadas.\n\n- **SUPOSIÇÕES** (ícone de lâmpada)\n  - O que acreditamos, mas precisamos verificar?\n  - Hipóteses sobre o problema e os usuários.\n\n- **DÚVIDAS** (ícone de interrogação)\n  - O que precisamos descobrir?\n  - Perguntas que orientam a investigação.\n\n---\n\nUX/UI Design • Prof.ª Jenefler Ferreira\n5/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 591,
+        "chunk_id": "494977a35165c48237ef6ccd"
+      }
+    },
+    {
+      "chunk_id": "02e09b8fbcae8b48f5bb7830",
+      "conteudo": "# C: Certezas\n\n**Definição:** Informações que possuem evidências identificáveis no contexto do projeto.\n\n## Possíveis fontes:\n- Entrevistas realizadas.\n- Observações de uso.\n- Registros de atendimento.\n- Dados de acesso.\n- Documentos do projeto.\n- Resultados de testes.\n\n## Exemplo didático\n\"Na versão atual do aplicativo, o usuário precisa preencher oito campos para criar uma conta.\"\n\n**Evidência:** inspeção do formulário de cadastro.\n\n---\nUX/UI Design • Prof.ª Jennefer Ferreira\n6/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 6,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 487,
+        "chunk_id": "02e09b8fbcae8b48f5bb7830"
+      }
+    },
+    {
+      "chunk_id": "62db5f0e5e89ddeded587246",
+      "conteudo": "# Como escrever uma certeza\n\nUma certeza deve ser específica e indicar sua fonte.\n\n## Formulação inadequada\n\n\"Os usuários têm dificuldade com o cadastro.\"\n\n## Formulação mais precisa\n\n\"No teste realizado, quatro dos seis participantes não concluíram o cadastro sem ajuda.\"\n\n**Fonte:** registro do teste de usabilidade.\n\n## Atenção\n\nO resultado descreve os participantes e as condições daquele teste. Generalizações exigem evidências adicionais.\n\n---\n\nOs dados dos exemplos desta aula são fictícios.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n7/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 7,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 545,
+        "chunk_id": "62db5f0e5e89ddeded587246"
+      }
+    },
+    {
+      "chunk_id": "c953ec1fd031e9100cb1a590",
+      "conteudo": "# S: Suposições\n\n**Definição:**\nIdeias que a equipe considera possíveis, mas ainda não verificou suficientemente.\n\n**Aplicação:**\nPodem envolver necessidades, causas de dificuldades, preferências e efeitos de mudanças na interface.\n\n## Exemplos\n\n- \"Acreditamos que um cadastro mais curto aumentará a conclusão dessa etapa.\"\n- \"Supomos que os estudantes preferem visualizar atividades por data de entrega.\"\n- \"Acreditamos que os usuários não percebem o botão de ajuda.\"\n\n---\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n8/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 8,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 519,
+        "chunk_id": "c953ec1fd031e9100cb1a590"
+      }
+    },
+    {
+      "chunk_id": "545d4325a50876f255a81c7e",
+      "conteudo": "# Como escrever uma suposição\n\nUma suposição deve permitir investigação.\n\n## Formulação vaga\n\n“O aplicativo precisa ser melhor.”\n\n## Formulação investigável\n\n“Acreditamos que os usuários abandonam o cadastro porque não compreendem quais campos são obrigatórios.”\n\n## Como investigar\n\n- Observar usuários preenchendo o formulário.\n- Identificar em quais campos encontram dificuldades.\n- Testar uma versão com indicações mais claras.\n\nA hipótese também pode ser refutada.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n9/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 9,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 516,
+        "chunk_id": "545d4325a50876f255a81c7e"
+      }
+    },
+    {
+      "chunk_id": "30349cbe053fc5658db932b8",
+      "conteudo": "# D: Dúvidas\n\nPerguntas sobre informações que a equipe ainda não possui.\nElas ajudam a definir o que pesquisar.\n\n- Como os usuários realizam essa tarefa atualmente?\n- Em qual etapa encontram mais dificuldades?\n- Quais informações precisam consultar primeiro?\n- Que recursos de acessibilidade utilizam?\n- O que os leva a abandonar o cadastro?\n\n## Dica\nPrefira perguntas que permitam descobrir comportamentos e necessidades sem sugerir a resposta.\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n10/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 10,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 492,
+        "chunk_id": "30349cbe053fc5658db932b8"
+      }
+    },
+    {
+      "chunk_id": "f2c035eaeed2e0f78980861d",
+      "conteudo": "# Certeza, suposição ou dúvida?\n\n**Exemplo: aplicativo de organização acadêmica**\n\n- **CERTEZA**\n  - “O aplicativo atual não envia lembretes de atividades.”\n  - A equipe verificou as funcionalidades disponíveis.\n\n- **SUPOSIÇÃO**\n  - “Lembretes podem ajudar os estudantes a cumprir os prazos.”\n  - O benefício ainda precisa ser investigado.\n\n- **DÚVIDA**\n  - “Com qual antecedência os estudantes precisam receber lembretes?”\n  - A equipe ainda desconhece essa necessidade.\n\n**Uma opinião compartilhada continua sendo suposição quando falta evidência.**\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n11/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 598,
+        "chunk_id": "f2c035eaeed2e0f78980861d"
+      }
+    },
+    {
+      "chunk_id": "76810010e557839535f29944",
+      "conteudo": "# Como preencher a Matriz CSD\n\n1. **Definir o desafio**\n   Qual problema será discutido?\n\n2. **Delimitar o contexto**\n   Quem é o público e qual é a situação de uso?\n\n3. **Reunir informações**\n   Consultar materiais e evidências disponíveis.\n\n4. **Registrar os itens**\n   Escrever uma ideia por cartão.\n\n5. **Classificar**\n   Distribuir os cartões entre C, S e D.\n\n6. **Discutir**\n   Verificar clareza e classificação.\n\n7. **Priorizar**\n   Escolher as incertezas mais importantes.\n\n8. **Planejar a investigação**\n   Definir como obter evidências.\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n12/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 12,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 593,
+        "chunk_id": "76810010e557839535f29944"
+      }
+    },
+    {
+      "chunk_id": "f70248b73cc062b00279686c",
+      "conteudo": "# Exemplo 1: organização acadêmica\n\n## Contexto fictício\nUma instituição deseja melhorar a forma como os estudantes acompanham atividades e prazos.\n\n## Informações disponíveis\n- O ambiente atual apresenta atividades separadas por disciplina.\n- Uma inspeção confirmou a ausência de calendário integrado.\n- Cinco dos oito estudantes entrevistados consultam mais de um local para acompanhar os prazos.\n\n## Suposições\n- Os estudantes gostariam de visualizar todas as atividades em um único calendário.\n- A falta de integração entre os sistemas gera maior esforço e risco de perda de prazos.\n\n## Dúvidas\n- Quais informações são mais importantes para os estudantes?\n- Como os estudantes preferem ser notificados sobre os prazos?\n\n---\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n13/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 13,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 774,
+        "chunk_id": "f70248b73cc062b00279686c"
+      }
+    },
+    {
+      "chunk_id": "b5982aaddfb6acdd1509780d",
+      "conteudo": "# Matriz CSD: organização acadêmica\n\nA página apresenta a Matriz CSD (Certezas, Suposições e Dúvidas) aplicada ao contexto de organização acadêmica, estruturada em três colunas:\n\n## CERTEZAS\n- As atividades aparecem separadas por disciplina.\n- A versão atual não possui calendário integrado.\n- Cinco dos oito entrevistados consultam mais de um local para acompanhar prazos.\n\n## SUPOSIÇÕES\n- Reunir prazos em uma tela facilitará o acompanhamento.\n- Um calendário será mais útil que uma lista.\n- Lembretes ajudarão a reduzir esquecimentos.\n\n## DÚVIDAS\n- Como os estudantes organizam seus prazos?\n- Quando preferem calendário ou lista?\n- Quando e por qual canal desejam receber lembretes?\n\n---\n\nExemplo fictício. As certezas se referem às evidências do cenário.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n14/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 806,
+        "chunk_id": "b5982aaddfb6acdd1509780d"
+      }
+    },
+    {
+      "chunk_id": "5efd837ef685ba880cbb3a93",
+      "conteudo": "# Exemplo 2: agendamento de consultas\n\n**Cenário fictício:** uma clínica recebe agendamentos por telefone e deseja oferecer uma opção digital.\n\n## CERTEZAS\n- A clínica agenda consultas por telefone.\n- Os registros analisados contêm pedidos de reagendamento.\n- A recepção consulta uma agenda interna.\n\n## SUPOSIÇÕES\n- Parte dos pacientes preferirá agendar pelo celular.\n- O reagendamento digital reduzirá ligações.\n- Mostrar horários disponíveis facilitará a escolha.\n\n## DÚVIDAS\n- Como os pacientes escolhem o canal de agendamento?\n- Quais dificuldades encontram ao reagendar?\n- O que precisam saber antes de escolher um horário?\n\n---\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n15/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 15,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 681,
+        "chunk_id": "5efd837ef685ba880cbb3a93"
+      }
+    },
+    {
+      "chunk_id": "2cd5069e703ee76b9d5ba23e",
+      "conteudo": "# Exemplo 3: loja virtual\n\n**Cenário fictício:** melhorar a experiência de compra.\n\n## CERTEZAS\n\n- O site exige criar conta para concluir a compra.\n- O frete aparece após o preenchimento do endereço.\n- A tabela de medidas fica em uma seção recolhida.\n\n## SUPOSIÇÕES\n\n- O cadastro obrigatório contribui para o abandono.\n- Ver o frete antes ajudará na decisão de compra.\n- Parte dos usuários não encontra a tabela de medidas.\n\n## DÚVIDAS\n\n- Como o cadastro influencia a decisão de continuar?\n- Quando os usuários procuram o valor do frete?\n- Os usuários localizam e compreendem as medidas?\n\n**Atenção:** registrar um abandono não revela, por si só, sua causa.\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n16/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 16,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 704,
+        "chunk_id": "2cd5069e703ee76b9d5ba23e"
+      }
+    },
+    {
+      "chunk_id": "70c116910ee913a87bc4ffbc",
+      "conteudo": "# O que investigar primeiro?\n\n## IMPACTO\nQuanto essa informação pode mudar uma decisão?\n\n## INCERTEZA\nQuanta evidência a equipe já possui?\n\n## DEPENDÊNCIA\nOutras decisões precisam dessa resposta?\n\n## ESFORÇO\nO que será necessário para investigar?\n\n## Exemplo\nAntes de detalhar as cores de um aplicativo acadêmico, pode ser necessário descobrir se os estudantes localizam suas próximas entregas.\n\n**Prioridade sugerida:** alto impacto e pouca evidência.\n\n---\nUX/UI Design • Prof.ª Jeneffer Ferreira\n18/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 17,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 503,
+        "chunk_id": "70c116910ee913a87bc4ffbc"
+      }
+    },
+    {
+      "chunk_id": "2c7ea8c6d04acd1a2cd66682",
+      "conteudo": "# Como atualizar a matriz\n\n## Suposição inicial\n“Os estudantes preferem um calendário mensal.”\n\n## Investigação fictícia\nEm um teste com seis estudantes, quatro localizaram a próxima entrega mais rapidamente usando uma lista ordenada por prazo.\n\n## Atualização\n- Registrar o resultado como evidência daquele teste.\n- Revisar a hipótese sobre o calendário.\n- Investigar em quais tarefas o calendário pode ser útil.\n\n## Atenção\nA pesquisa pode apoiar, refutar ou deixar uma hipótese inconclusiva.\n\n---\nUX/UI Design • Prof.ª Jeneffer Ferreira\n19/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 18,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 545,
+        "chunk_id": "2c7ea8c6d04acd1a2cd66682"
+      }
+    },
+    {
+      "chunk_id": "b042d916fd6ea3637686e97e",
+      "conteudo": "# Erros comuns\n\n- Classificar opiniões como certezas.\n- Registrar certezas sem fonte.\n- Usar generalizações sem evidência.\n- Colocar várias ideias no mesmo cartão.\n- Fazer perguntas que induzem respostas.\n- Tratar uma solução desejada como necessidade comprovada.\n- Ignorar resultados que contradizem hipóteses.\n- Preencher a matriz e não investigar.\n\n## Exemplos\n\n- **Pergunta tendenciosa:** \"Você concorda que nosso novo menu é mais fácil?\"\n- **Alternativa:** \"Como você encontraria o histórico de pedidos nesta tela?\"\n\n---\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n21/22",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 19,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 573,
+        "chunk_id": "b042d916fd6ea3637686e97e"
+      }
+    },
+    {
+      "chunk_id": "ea2e942cd4b0c49b1fd356c6",
+      "conteudo": "# Atividade prática\n\nConsidere o projeto do grupo e elabore uma Matriz CSD contendo:\n\n1. Uma Matriz CSD com as três certezas fornecidas.\n2. Quatro suposições sobre o seu usuário\n3. Quatro dúvidas que precisam ser investigadas.\n4. A seleção de dois itens prioritários, com justificativa.\n5. Um plano de pesquisa para investigar esses dois itens.\n\n**Entrega:** matriz preenchida e descrição de como o grupo pretende obter as evidências.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "05",
+        "assunto": "matriz_csd",
+        "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+        "pasta_aula": "aula_05_matriz_csd",
+        "pagina": 20,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 434,
+        "chunk_id": "ea2e942cd4b0c49b1fd356c6"
+      }
+    }
+  ]
+}

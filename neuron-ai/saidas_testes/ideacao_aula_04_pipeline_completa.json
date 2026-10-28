@@ -1,0 +1,1919 @@
+{
+  "resumo": {
+    "periodo": "03",
+    "disciplina": "projeto_de_ideacao_de_software",
+    "aula": "04",
+    "assunto": "mapa_de_navegacao_e_wireframe",
+    "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+    "pdf_sha256": "e315b3ff469092f1a3fb79a649bce46e23121c835c18e02a32c7dc9e4b091c45",
+    "modelo_visual": "deepseek/deepseek-v4.1-flash",
+    "total_paginas": 38,
+    "total_chunks": 49,
+    "chunk_size": 1000,
+    "chunk_overlap": 150,
+    "paginas_multimodais": 38,
+    "paginas_textuais": 0
+  },
+  "paginas": [
+    {
+      "conteudo": "# Mapa de Navegação e Wireframe\n\n**Disciplina:** Projeto de Ideação de Software\n**Prof.ª:** Jenefter Ferreira\n\n## Estrutura de Mapa de Navegação (representação visual)\n\nO diagrama central apresenta uma hierarquia de navegação composta por:\n\n- Nó raiz (nível superior): ícone de casa (home)\n  - Nó de primeiro nível: ícone de lista/menu\n    - Nós de segundo nível: dois ícones de lista\n  - Nó de primeiro nível: ícone de grade (grid)\n    - Nós de segundo nível: dois ícones de lista\n  - Nó de primeiro nível: ícone de usuário (perfil)\n    - Nós de segundo nível: dois ícones de lista\n\n## Estrutura de Wireframe (representação visual)\n\nO diagrama à direita apresenta dois wireframes:\n\n- **Wireframe de desktop/navegador:**\n  - Barra superior com três pontos (controles de janela)\n  - Barra lateral esquerda com ícone de casa e itens de lista\n  - Área de conteúdo principal com:\n    - Bloco de imagem (com ícone de imagem)\n    - Linhas de texto\n    - Três blocos de imagem menores na parte inferior\n    - Linhas de texto abaixo dos blocos\n\n- **Wireframe de dispositivo móvel:**\n  - Barra superior com ícone de menu (três linhas)\n  - Bloco de imagem (com ícone de imagem)\n  - Linhas de texto\n  - Botão de ação (retangular)",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que é um mapa de navegação?\n\nÉ uma representação visual da estrutura de um software, site ou aplicativo.\n\nO mapa de navegação abrange os seguintes elementos:\n\n- principais telas ou páginas;\n- organização das funcionalidades;\n- conexões entre as telas;\n- caminhos que o usuário pode percorrer;\n- possibilidades de acesso, avanço e retorno.\n\n**O mapa de navegação mostra como as telas se organizam e se conectam.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 2,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Finalidade do mapa de navegação\n\nO mapa de navegação ajuda a compreender:\n\n- quais telas serão necessárias;\n- como as telas estão relacionadas;\n- onde a navegação começa;\n- como acessar cada funcionalidade;\n- quais decisões alteram o caminho;\n- como o usuário poderá avançar ou retornar;\n- onde determinados percursos terminam.\n\nEle representa visualmente os caminhos possíveis dentro do sistema.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 3,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo: aplicativo acadêmico\n\nUm aplicativo de organização acadêmica pode apresentar:\n\n## Aplicativo acadêmico\n\nO aplicativo acadêmico se ramifica em duas telas:\n\n### Tela inicial\nA Tela inicial se ramifica em:\n- Entrar\n- Criar conta\n- Recuperar senha\n\n### Página principal\nA Página principal se ramifica em:\n- Agenda acadêmica\n- Disciplinas\n- Atividades\n- Notificações\n- Perfil",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Continuação do exemplo\n\nO mapa mostra como o usuário parte da página principal e acessa diferentes áreas do aplicativo.\n\n## Estrutura de navegação\n\nPágina principal\n→ Disciplinas\n   → Disciplinas matriculadas\n   → Materiais de estudo\n   → Atividades\n   → Notas\n   → Frequência\n   → Informações sobre os professores",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Elementos de um mapa de navegação\n\n- **Retângulos**: representam telas ou páginas.\n- **Setas**: indicam os caminhos.\n- **Losangos**: representam decisões ou condições.\n- **Linhas**: demonstram conexões.\n- **Rótulos**: identificam ações e opções.\n- **Início e término**: delimitam o percurso.\n- **Agrupamentos**: representam módulos ou áreas relacionadas.\n\nEsses elementos tornam a estrutura e os percursos do sistema mais fáceis de compreender.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 6,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Estrutura hierárquica\n\nA navegação parte de uma tela principal para telas secundárias.\n\n## Estrutura de navegação\n\nPágina inicial\n→ Cursos\n   → Detalhes do curso\n   → Conteúdos\n→ Perfil\n   → Dados pessoais\n   → Configurações\n\nEssa estrutura é semelhante a uma árvore.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 7,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Estrutura sequencial\n\nNa estrutura sequencial, o usuário precisa seguir uma ordem definida de etapas.\n\n1. Cadastro de uma conta\n→ 2. Realização de uma compra\n→ 3. Inscrição em um curso\n→ 4. Preenchimento de um formulário\n→ 5. Recuperação de senha\n\nO usuário avança de uma etapa para a seguinte até concluir a tarefa.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 8,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Estrutura em rede\n\n## Conceito\nAs telas possuem diferentes possibilidades de conexão.\n\n## Elementos da estrutura\n- Disciplina\n- Página inicial\n- Atividade acadêmica\n- Calendário\n- Notificações\n- Lista de tarefas\n\n## Relações entre os elementos\n- Atividade acadêmica ↔ Disciplina\n- Atividade acadêmica ↔ Página inicial\n- Atividade acadêmica ↔ Calendário\n- Atividade acadêmica ↔ Notificações\n- Atividade acadêmica ↔ Lista de tarefas\n- Disciplina ↔ Página inicial\n- Disciplina ↔ Calendário\n\n## Explicação\nO usuário pode acessar uma mesma tela por caminhos distintos. Essa estrutura oferece maior liberdade de navegação.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 9,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Estrutura híbrida\n\nCombina diferentes modelos de navegação.\n\n## Modelos de navegação\n\n### Hierárquica\norganiza áreas e telas em níveis.\n\n### Sequencial\nconduz o usuário por etapas.\n\n### Em rede\noferece diferentes caminhos de acesso.\n\n## Estrutura híbrida\nintegra os três modelos conforme as necessidades do sistema.\n\nÉ comum em sistemas complexos: algumas áreas seguem uma hierarquia, enquanto determinadas tarefas exigem uma sequência de etapas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 10,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Mapa de navegação × fluxo do usuário\n\n## Mapa de navegação\n\n- Apresenta a estrutura geral\n- Mostra telas e conexões\n- Oferece uma visão ampla\n- Abrange diferentes funcionalidades\n- Organiza o sistema\n\n## Fluxo do usuário\n\n- Representa uma tarefa específica\n- Mostra etapas e decisões\n- Oferece uma visão detalhada\n- Parte de um objetivo do usuário\n- Explica como uma ação é realizada\n\n## Relação entre os conceitos\n\nO mapa mostra o sistema; o fluxo mostra o caminho para alcançar um objetivo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo da diferença\n\n## Mapa de navegação\n\nMostra as áreas do sistema.\n\nEstrutura de navegação:\n\nSistema\n→ Disciplinas\n→ Atividades\n→ Notas\n→ Calendário\n→ Perfil\n\n## Fluxo do usuário\n\nDetalha o percurso para enviar uma atividade.\n\nEtapas do processo:\n\n1. Entrar\n2. Selecionar disciplina\n3. Acessar atividade\n4. Anexar arquivo\n5. Confirmar envio",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 12,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Relação com protótipos\n\n## Mapa de navegação\n\nEstrutura hierárquica representada:\n\n- Nível superior: elemento central com ícone de casa (tela inicial).\n- Nível intermediário: três elementos derivados do nível superior:\n  - elemento com ícone de lista/linhas;\n  - elemento com ícone de imagem;\n  - elemento com ícone de lista com marcadores.\n- Nível inferior: quatro elementos derivados do nível intermediário:\n  - elemento com ícone de lista/linhas;\n  - elemento com ícone de lista com marcadores;\n  - elemento com ícone de imagem;\n  - elemento com ícone de lista/linhas.\n\n## Protótipos\n\nRepresentação de dois dispositivos:\n\n- Notebook: exibe uma tela com elementos de wireframe, incluindo barras laterais, área central com imagem e blocos inferiores.\n- Smartphone: exibe uma tela com elementos de wireframe, incluindo barras, área com imagem e botão.\n\nLegendas associadas:\n\n- Wireframes — Baixa fidelidade\n- Protótipos interativos\n\n## Relação entre mapa de navegação e protótipos\n\nUma seta indica a transição do mapa de navegação para os protótipos.\n\n## Elementos do processo\n\n- Definição de menus\n- Organização dos conteúdos\n- Planejamento das interações\n\n## Observação\n\nCada tela identificada no mapa poderá ser representada no protótipo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 13,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Como elaborar um mapa de navegação\n\nO mapa deve representar a estrutura do sistema e os caminhos de forma clara, lógica e validada.\n\n## Etapas do processo\n\n1. Identificar o público do software.\n2. Definir os objetivos dos usuários.\n3. Listar as principais funcionalidades.\n4. Identificar as telas necessárias.\n5. Agrupar telas relacionadas.\n6. Definir a tela inicial.\n7. Estabelecer as conexões.\n8. Representar os caminhos com setas.\n9. Verificar possibilidades de retorno.\n10. Validar o mapa com usuários e equipe.\n\n## Relações entre as etapas\n\n1 → 2 → 3 → 4 → 5\n5 → 6\n6 → 7 → 8 → 9 → 10",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Boas práticas\n\n## Um bom mapa de navegação deve:\n\n- utilizar nomes claros para as telas;\n- apresentar conexões compreensíveis;\n- evitar caminhos excessivamente longos;\n- manter consistência nos símbolos;\n- destacar a tela inicial;\n- considerar erros e alternativas;\n- permitir avanço e retorno;\n- apresentar apenas detalhes relevantes;\n- ser atualizado quando o projeto mudar.\n\nClareza, consistência e atualização tornam o mapa mais útil para toda a equipe.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 15,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Atividade prática\n\n**Considere a proposta do seu projeto.**\n\nElabore um mapa de navegação contendo, pelo menos, as telas indicadas.\n\n## Estrutura do mapa de navegação\n\nTela de login\n→ Página inicial\n   → Notificações\n   → Perfil\n   → Configurações\n→ Opção de sair\n\n**Utilize formas e setas para representar as telas e suas conexões.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 16,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que é um wireframe?\n\nRepresentação visual simplificada da interface de um software, site ou aplicativo.\n\nO wireframe abrange os seguintes aspectos:\n\n- **Posição dos elementos**\n- **Organização do conteúdo**\n- **Funcionalidades disponíveis**\n- **Interação com a interface**\n- **Caminhos de navegação**\n\nO wireframe funciona como um esqueleto da interface.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 17,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Finalidade do wireframe\n\nPlanejar a interface antes do design visual e do desenvolvimento do software.\n\nO wireframe permite avaliar e ajustar a estrutura da interface antes da implementação.\n\n## Questões norteadoras do wireframe\n\n1. Quais informações serão apresentadas?\n2. Qual conteúdo terá maior destaque?\n3. Onde ficarão os botões e menus?\n4. Como o usuário realizará uma tarefa?\n5. Como as telas estarão conectadas?\n6. A estrutura atende às necessidades dos usuários?\n\n## Estrutura visual do wireframe\n\nO wireframe representado é composto por:\n\n- Barra superior com elementos circulares à esquerda.\n- Coluna lateral esquerda contendo:\n  - um bloco retangular no topo;\n  - uma lista de itens com marcadores circulares e linhas de texto.\n- Área principal contendo:\n  - uma barra horizontal no topo;\n  - um bloco retangular com ícone de imagem (montanha e círculo);\n  - linhas de texto à direita do bloco de imagem;\n  - um botão retangular abaixo das linhas de texto;\n  - três cartões na parte inferior, cada um com:\n    - um quadrado no topo;\n    - linhas de texto abaixo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 18,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que um wireframe representa?\n\nUm wireframe pode representar:\n\n## Estrutura\n- cabeçalho\n- menu de navegação\n- áreas de conteúdo\n- rodapé\n\n## Conteúdo e interação\n- campo de busca\n- botões\n- formulários\n- imagens\n- textos\n- listas\n- tabelas\n- cartões\n\n## Estados e navegação\n- mensagens de erro\n- conexões entre diferentes telas\n\n## Observação\nOs elementos são apresentados de forma simples, sem detalhes visuais definitivos.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 19,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Características de um wireframe\n\nO wireframe é representado por um esboço de interface que contém:\n\n- barra superior com ícones de controle e menu;\n- bloco retangular superior com marcação de imagem (X);\n- linhas horizontais representando textos;\n- dois blocos retangulares menores com marcação de imagem (X);\n- linhas horizontais adicionais representando textos;\n- campos de formulário (retângulos vazios);\n- campo com indicador de seleção (seta para baixo);\n- botão retangular inferior.\n\n## Características\n\n- **Formas geométricas simples**\n- **Poucos detalhes visuais**\n- **Cores neutras**\n- **Textos provisórios**\n- **Espaços reservados para imagens**\n- **Indicação de botões e campos**\n- **Organização dos elementos**\n- **Hierarquia das informações**\n- **Possíveis caminhos de navegação**\n\n## Foco do wireframe\n\nSeu foco está na estrutura e no funcionamento, e não na aparência final.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 20,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo de representação\n## Tela de login\n\nA imagem apresenta um wireframe de uma tela de login com seus elementos constituintes identificados por rótulos.\n\n**Elementos da tela de login (wireframe):**\n\n- **Logotipo do sistema**: representado por um espaço com ícone de imagem no topo da tela.\n- **Título da página**: representado por uma barra horizontal abaixo do logotipo.\n- **E-mail**: campo de entrada com ícone de envelope.\n- **Senha**: campo de entrada com ícone de cadeado e pontos representando caracteres ocultos.\n- **Entrar**: botão de ação principal.\n- **Esqueci minha senha**: link de texto abaixo do botão \"Entrar\".\n- **Mensagem de erro**: área com ícone de exclamação e barra de texto.\n- **Criar uma conta**: link de texto na parte inferior da tela.\n- **Retornar à página inicial**: ícone de casa com barra de texto ao lado, localizado no rodapé da tela.\n\n**Observação:** Não é necessário definir cores, imagens ou efeitos visuais definitivos.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 21,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Níveis de fidelidade\n\nOs wireframes podem apresentar diferentes níveis de detalhamento.\n\n## Baixa fidelidade\n- representação rápida e simples.\n\n## Média fidelidade\n- estrutura mais organizada e detalhada.\n\n## Alta fidelidade\n- representação próxima da interface final.\n\n## Relação entre os níveis\nBaixa fidelidade → Média fidelidade → Alta fidelidade\n\n## Fatores a considerar na escolha do nível de fidelidade\n- Objetivo\n- Tempo disponível\n- Etapa do projeto\n\nO nível de fidelidade deve ser escolhido conforme a necessidade do projeto.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 22,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Wireframe de baixa fidelidade\n\nApresenta a ideia inicial da tela.\n\n## Características\n\n- pode ser feito à mão;\n- utiliza formas simples;\n- possui poucos detalhes;\n- pode conter anotações;\n- é produzido rapidamente;\n- permite alterações com facilidade;\n- favorece a discussão de diferentes ideias.\n\n## Aplicação\n\nÉ muito utilizado nas etapas iniciais da ideação.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 23,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Wireframe de média fidelidade\n\nPermite avaliar a interface com mais clareza, sem definir completamente o design visual.\n\n## Fluxo de telas\n\nTela 1 → Tela 2 → Tela 3\n\n### Tela 1\n- Cabeçalho: \"Olá!\" / \"Encontre o que precisa\" / ícone de perfil\n- Campo de busca: \"Pesquisar\"\n- Seção \"Categorias\" com link \"Ver todas\"\n  - Livros\n  - Cursos\n  - Artigos\n  - Vídeos\n- Seção \"Em destaque\"\n  - Item: \"Título do conteúdo\" com ícone de imagem e seta de navegação\n  - Item: \"Título do conteúdo\" com ícone de imagem e seta de navegação\n- Barra de navegação inferior:\n  - Início\n  - Buscar\n  - Salvos\n  - Perfil\n\n### Tela 2\n- Cabeçalho: seta de voltar / \"Detalhes\" / ícone de salvar\n- Área de imagem (placeholder)\n- \"Título do conteúdo\"\n- Linhas de texto (placeholder)\n- Autor\n- Data de publicação\n- Categoria\n- Botão: \"Iniciar\"\n\n### Tela 3\n- Cabeçalho: seta de voltar / \"Cadastro\"\n- Indicador de etapas: 1 Dados → 2 Perfil → 3 Concluir\n- Campo: \"Nome completo\" — \"Digite seu nome\"\n- Campo: \"E-mail\" — \"Digite seu e-mail\"\n- Campo: \"Senha\" — \"Digite sua senha\" (com ícone de visualização)\n- Botão: \"Continuar\"\n- Texto: \"Já tem uma conta? Entrar\"\n\n## Características do wireframe de média fidelidade\n\n- Estrutura mais organizada\n- Dimensões mais próximas das reais\n- Organização consistente\n- Textos mais representativos\n- Identificação dos componentes\n- Hierarquia das informações\n- Diferentes estados da interface\n- Conexões entre as telas",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 24,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Wireframe de alta fidelidade\n\n## Características\n\n- Conteúdo próximo do real\n- Dimensões precisas\n- Componentes definidos\n- Espaçamentos planejados\n- Comportamento das interações\n- Elementos próximos da versão final\n\n## Comparação visual\n\nA página apresenta uma comparação lado a lado entre dois artefatos:\n\n**Wireframe** (à esquerda)\n→ Barra superior com três círculos\n→ Área de imagem com marcação de \"X\"\n→ Título da seção\n→ Linhas de texto\n→ Botão principal\n→ Indicadores de paginação (quatro pontos)\n→ Seção \"Nossos serviços\"\n   → Três cards, cada um com:\n      → Área de imagem com \"X\"\n      → Título do card\n      → Linhas de texto\n      → Botão \"Saiba mais\"\n→ Seção de destaque\n   → Área de imagem com \"X\"\n   → Título de destaque\n   → Linhas de texto\n   → Botão \"Saiba mais\"\n\n**Mockup ou protótipo de alta fidelidade** (à direita)\n→ Barra superior com três círculos coloridos\n→ Área de imagem (fotografia de montanhas)\n→ Título: \"Soluções digitais para o seu futuro\"\n→ Texto: \"Transforme ideias em experiências incríveis com design e tecnologia.\"\n→ Botão \"Começar agora →\"\n→ Indicadores de paginação (quatro pontos)\n→ Seção \"Nossos serviços\"\n   → Card 1: Design de interfaces\n      → Descrição: \"Experiências intuitivas e eficientes.\"\n      → Link \"Saiba mais →\"\n   → Card 2: Desenvolvimento\n      → Descrição: \"Soluções robustas e escaláveis.\"\n      → Link \"Saiba mais →\"\n   → Card 3: Consultoria\n      → Descrição: \"Estratégia para crescer mais.\"\n      → Link \"Saiba mais →\"\n→ Seção de destaque\n   → Imagem (notebook sobre mesa)\n   → Título: \"Tecnologia que aproxima pessoas\"\n   → Texto: \"Do planejamento ao resultado.\"\n   → Botão \"Saiba mais →\"\n\n## Observação final\n\nCom cores, tipografia, imagens e identidade visual completas, o artefato se aproxima de um mockup ou protótipo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 25,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Wireframe × mockup × protótipo\n\n## Wireframe\n- Representa a estrutura\n- Utiliza elementos simples\n- Prioriza organização e conteúdo\n- Pode não ser interativo\n- É usado no planejamento inicial\n\n## Mockup\n- Representa a aparência\n- Aplica cores e identidade visual\n- Prioriza o design visual\n- Geralmente é estático\n- Mostra como a interface ficará\n\n## Protótipo\n- Simula a interação\n- Permite executar tarefas\n- Prioriza o comportamento\n- Geralmente é interativo\n- Mostra como a interface funcionará\n\n## Relação entre os conceitos\nEstrutura → Aparência → Funcionamento",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 26,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Wireframe e mapa de navegação\n\n## Mapa de navegação\n\nApresenta a organização geral das telas e suas conexões.\n\nEstrutura de navegação representada:\n\nLogin\n→ Página Inicial\n   → Perfil\n   → Configurações\n\n## Wireframe\n\nApresenta a organização dos elementos dentro de cada tela.\n\nElementos representados no wireframe:\n\n- Menu\n- Conteúdos\n- Campos\n- Botões\n\n## Exemplo\n\n1. O mapa indica quais telas fazem parte do sistema.\n2. O wireframe mostra onde cada elemento ficará nas telas.\n\n## Observação\n\nOs dois artefatos são complementares.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 27,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Wireframe e fluxo do usuário\n\n## Conceitos\n\n**Fluxo do usuário**\nEtapas necessárias para atingir um objetivo.\n\n**Wireframe**\nTelas utilizadas durante o percurso.\n\n## Exemplo: envio de atividade\n\nO exemplo apresenta um fluxo de usuário composto por 5 etapas sequenciais, cada uma associada a um wireframe de tela:\n\n1. **Login**\n   → Wireframe: tela de Login contendo campos E-mail e Senha, botão Entrar e elementos de texto.\n\n2. **Disciplina**\n   → Wireframe: tela Lista de disciplinas contendo campo de busca, lista de itens com setas de navegação.\n\n3. **Atividade**\n   → Wireframe: tela Detalhes da atividade contendo área de imagem, linhas de texto, item com ícone de documento e botão.\n\n4. **Anexar arquivo**\n   → Wireframe: tela Seleção do arquivo contendo área tracejada com ícone de documento e seta de upload, linhas de texto e botão.\n\n5. **Confirmar envio**\n   → Wireframe: tela Confirmação do envio contendo ícone de check, linhas de texto e botão.\n\n## Relação entre os elementos\n\nFluxo e wireframes são complementares.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 28,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Vantagens do wireframe\n\nO material apresenta um conjunto de vantagens associadas ao uso de wireframes, organizadas em duas fileiras de tópicos, interligadas por um fluxo central.\n\n**Vantagens listadas:**\n\n*   Desenvolver ideias rapidamente\n*   Alterações com baixo custo\n*   Comparar diferentes soluções\n*   Obter feedback antecipado\n*   Identificar problemas de usabilidade\n*   Validar a organização do conteúdo\n*   Melhorar a comunicação da equipe\n*   Envolver usuários no processo\n*   Planejar o protótipo\n*   Reduzir riscos antes da implementação\n\n**Fluxo central representado:**\n\nIdeia (lâmpada) → Wireframe (representação de tela) → Validação (prancheta com check) → Proteção/Segurança (escudo com check)\n\n**Conclusão do material:**\n\n\"Ideiar, validar e melhorar antes de desenvolver.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 29,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Como elaborar um wireframe\n\nO wireframe deve organizar conteúdo, elementos e ações de acordo com os objetivos do usuário.\n\n## Etapas do processo\n\n1. **Definir o objetivo da tela.**\n2. **Identificar o perfil do usuário.**\n3. **Determinar a tarefa principal.**\n4. **Listar as informações necessárias.**\n5. **Definir os elementos da interface.**\n6. **Organizar a hierarquia do conteúdo.**\n7. **Posicionar menus, campos e botões.**\n8. **Representar as ações disponíveis.**\n9. **Criar as telas relacionadas.**\n10. **Revisar e validar a proposta.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 30,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Hierarquia das informações\n\nA hierarquia visual define a ordem em que os elementos devem ser percebidos.\n\n## O wireframe deve destacar:\n\n- conteúdo principal;\n- ações mais importantes;\n- informações secundárias;\n- opções de navegação;\n- mensagens de confirmação;\n- avisos e mensagens de erro.\n\n## Estrutura do wireframe\n\nO wireframe apresentado é composto pelos seguintes elementos, identificados por rótulos:\n\n- Navegação\n- Confirmação\n- Conteúdo principal\n- Ação principal\n- Informação secundária\n- Aviso ou erro\n\n## Elementos importantes\n\nElementos importantes devem ocupar posições de destaque e possuir identificação clara.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 31,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Navegação no wireframe\n\nO wireframe de uma tela de aplicativo móvel apresenta elementos de navegação e ações, com indicações de suas funções.\n\n## Estrutura da tela (wireframe)\n\n- Cabeçalho:\n  - \"Voltar\" (com seta para a esquerda)\n  - \"Menu\" (com ícone de três linhas)\n- Área de conteúdo:\n  - Bloco de imagem (representado por um retângulo com ícone de montanha e sol)\n  - Linhas de texto (representadas por barras horizontais)\n  - Bloco de alerta/erro (destacado em rosa) contendo:\n    - Ícone de exclamação\n    - Botão \"Corrigir\"\n- Área de ações:\n  - Botão \"Cancelar\"\n  - Botão \"Confirmar\"\n- Barra de navegação inferior:\n  - \"Início\" (com ícone de casa)\n  - \"Sair\" (com ícone de porta e seta)\n\n## Relações entre elementos e ações\n\n- Acessar outras telas → botão \"Voltar\" (canto superior esquerdo)\n- Avançar ou retornar → botão \"Voltar\"\n- Corrigir um erro → botão \"Corrigir\" (dentro do bloco de alerta)\n- Retornar à página inicial → botão \"Início\" (barra inferior)\n- Abrir um menu → botão \"Menu\" (canto superior direito)\n- Cancelar uma operação → botão \"Cancelar\"\n- Confirmar uma ação → botão \"Confirmar\"\n- Sair do sistema → botão \"Sair\" (barra inferior)\n\n## Observação\n\nOs botões e links devem apresentar rótulos claros e coerentes com a ação realizada.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 32,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Estados da interface\n\nUma mesma tela pode apresentar diferentes estados.\n\n## Estado inicial\nInterface com barra lateral de navegação, campo de busca e área de conteúdo com blocos representando elementos ainda não carregados.\n\n## Carregamento\nInterface com barra lateral de navegação, campo de busca e indicador circular de carregamento na área de conteúdo.\n\n## Ausência de conteúdo\nInterface com barra lateral de navegação, campo de busca e representação de documento vazio na área de conteúdo.\n\n## Sucesso\nInterface com barra lateral de navegação, campo de busca e indicador de confirmação (check) na área de conteúdo.\n\n## Erro\nInterface com barra lateral de navegação, campo de busca e indicador de alerta na área de conteúdo.\n\n## Campo obrigatório não preenchido\nInterface com barra lateral de navegação, campo de busca e campo de formulário destacado com indicador de erro.\n\n## Conexão indisponível\nInterface com barra lateral de navegação, campo de busca e indicador de ausência de sinal de rede na área de conteúdo.\n\n## Resultado de uma busca\nInterface com barra lateral de navegação, campo de busca e lista de resultados de busca na área de conteúdo.\n\n## Confirmação de uma ação\nInterface com barra lateral de navegação, campo de busca e caixa de diálogo com indicador de confirmação e botões de ação.\n\nConsiderar esses estados torna a proposta mais completa.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 33,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Boas práticas para wireframes\n\n1. Priorizar as necessidades do usuário.\n2. Apresentar uma tarefa principal por tela.\n3. Utilizar rótulos compreensíveis.\n4. Manter consistência entre as telas.\n5. Evitar excesso de elementos.\n6. Respeitar a hierarquia das informações.\n7. Prever opções de avanço e retorno.\n8. Considerar diferentes estados.\n9. Ser simples de compreender.\n10. Permitir alterações antes da implementação.\n\nUm bom wireframe deve ser claro, consistente, centrado no usuário e fácil de ajustar.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 34,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Erros comuns\n\nEntre os erros mais frequentes estão:\n\n- concentrar-se primeiro nas cores;\n- tentar criar o design final;\n- inserir elementos sem finalidade;\n- apresentar informações em excesso;\n- utilizar rótulos vagos;\n- não indicar os caminhos de navegação;\n- esquecer mensagens de erro;\n- ignorar as necessidades do usuário;\n- criar telas sem relação com os objetivos;\n- não validar o wireframe.\n\nO wireframe deve priorizar estrutura, clareza, navegação e necessidades reais dos usuários.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 35,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Validação do wireframe\n\nA página apresenta um conjunto de perguntas para validação de um wireframe, organizadas em torno da representação visual de uma tela de aplicativo móvel.\n\n## Perguntas de validação\n\n- A finalidade de cada tela está clara?\n- As informações necessárias estão presentes?\n- Os botões possuem rótulos compreensíveis?\n- O usuário consegue identificar a próxima ação?\n- É possível avançar, retornar ou cancelar?\n- Os caminhos de navegação são coerentes?\n- Existem elementos desnecessários?\n- A interface permite concluir a tarefa?\n- Foram considerados erros e situações alternativas?\n\n## Representação visual central\n\nNo centro da página, há a representação de uma tela de aplicativo móvel contendo:\n- uma imagem;\n- linhas de texto;\n- botões;\n- uma barra de navegação inferior com ícones.\n\nSobre a representação da tela, há uma lupa e um ícone de verificação.\n\n## Mensagem final\n\nValidar antes de implementar reduz problemas e retrabalho.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 36,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo prático\n## Aplicativo de organização acadêmica\n\n### Estrutura de navegação e elementos da interface\n\n**Barra superior (cabeçalho):**\n- Perfil\n- Configurações\n- Sair\n\n**Menu principal (barra lateral esquerda):**\n- Identificação do estudante\n- Menu principal\n- Disciplinas\n\n**Área de conteúdo principal:**\n- Próximas atividades\n- Calendário\n- Notificações\n- Disciplinas\n- Desempenho acadêmico\n\n### Relações entre os elementos\n\n- A opção **Perfil** está associada ao ícone de usuário na barra superior.\n- A opção **Configurações** está associada ao ícone de engrenagem na barra superior.\n- A opção **Sair** está associada ao ícone de saída na barra superior.\n- A opção **Notificações** está associada ao ícone de sino no painel de notificações.\n- A opção **Desempenho acadêmico** está associada ao painel de gráficos de desempenho.\n- A opção **Disciplinas** está associada à seção de cards de disciplinas.\n- A opção **Próximas atividades** está associada à lista de tarefas com caixas de seleção.\n- A opção **Calendário** está associada ao painel de calendário mensal.\n\n### Descrição dos componentes visuais\n\n- **Identificação do estudante:** área com ícone de usuário e campos de texto representados por barras.\n- **Menu principal:** lista de itens de navegação representados por ícones e barras de texto.\n- **Próximas atividades:** lista de itens com caixas de seleção e barras de texto.\n- **Calendário:** grade mensal com marcadores de eventos.\n- **Notificações:** lista de itens com ícones circulares e barras de texto.\n- **Disciplinas:** quatro cards com barras de texto e indicadores coloridos.\n- **Desempenho acadêmico:** gráfico de barras e gráfico de rosca acompanhados de lista de indicadores.\n\n### Observação final\n\nA posição dos elementos deve facilitar o acesso às tarefas mais importantes.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 37,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Atividade prática\n\nConsidere a proposta do seu projeto de software.\n\n## Elabore wireframes de, pelo menos:\n\n1. Tela de login ou acesso\n2. Página inicial\n3. Funcionalidade principal\n4. Perfil do usuário\n5. Configurações\n6. Confirmação ou erro\n\nRelação de sequência indicada entre as telas:\nTela de login ou acesso → Página inicial → Funcionalidade principal\nPerfil do usuário → Configurações → Confirmação ou erro\n\n## Para cada tela:\n\n1. Identifique o seu objetivo.\n2. Indique os principais elementos.\n3. Represente os botões e campos.\n4. Mostre as opções de navegação.\n5. Indique a conexão com as demais telas.\n\n## Entrega\n\nConjunto de wireframes conectados e coerentes com os objetivos do projeto.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 38,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "9c7e2bfb8dd2aa322fd099dc",
+      "conteudo": "# Mapa de Navegação e Wireframe\n\n**Disciplina:** Projeto de Ideação de Software\n**Prof.ª:** Jenefter Ferreira\n\n## Estrutura de Mapa de Navegação (representação visual)\n\nO diagrama central apresenta uma hierarquia de navegação composta por:\n\n- Nó raiz (nível superior): ícone de casa (home)\n  - Nó de primeiro nível: ícone de lista/menu\n    - Nós de segundo nível: dois ícones de lista\n  - Nó de primeiro nível: ícone de grade (grid)\n    - Nós de segundo nível: dois ícones de lista\n  - Nó de primeiro nível: ícone de usuário (perfil)\n    - Nós de segundo nível: dois ícones de lista\n\n## Estrutura de Wireframe (representação visual)\n\nO diagrama à direita apresenta dois wireframes:",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 681,
+        "chunk_id": "9c7e2bfb8dd2aa322fd099dc"
+      }
+    },
+    {
+      "chunk_id": "8c101c3291c58c94a47db275",
+      "conteudo": "## Estrutura de Wireframe (representação visual)\n\nO diagrama à direita apresenta dois wireframes:\n\n- **Wireframe de desktop/navegador:**\n  - Barra superior com três pontos (controles de janela)\n  - Barra lateral esquerda com ícone de casa e itens de lista\n  - Área de conteúdo principal com:\n    - Bloco de imagem (com ícone de imagem)\n    - Linhas de texto\n    - Três blocos de imagem menores na parte inferior\n    - Linhas de texto abaixo dos blocos\n\n- **Wireframe de dispositivo móvel:**\n  - Barra superior com ícone de menu (três linhas)\n  - Bloco de imagem (com ícone de imagem)\n  - Linhas de texto\n  - Botão de ação (retangular)",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 634,
+        "chunk_id": "8c101c3291c58c94a47db275"
+      }
+    },
+    {
+      "chunk_id": "1a9e2defba00d6a5c36953d3",
+      "conteudo": "# O que é um mapa de navegação?\n\nÉ uma representação visual da estrutura de um software, site ou aplicativo.\n\nO mapa de navegação abrange os seguintes elementos:\n\n- principais telas ou páginas;\n- organização das funcionalidades;\n- conexões entre as telas;\n- caminhos que o usuário pode percorrer;\n- possibilidades de acesso, avanço e retorno.\n\n**O mapa de navegação mostra como as telas se organizam e se conectam.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 2,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 416,
+        "chunk_id": "1a9e2defba00d6a5c36953d3"
+      }
+    },
+    {
+      "chunk_id": "72ac62becfa0cc524d4d83d7",
+      "conteudo": "# Finalidade do mapa de navegação\n\nO mapa de navegação ajuda a compreender:\n\n- quais telas serão necessárias;\n- como as telas estão relacionadas;\n- onde a navegação começa;\n- como acessar cada funcionalidade;\n- quais decisões alteram o caminho;\n- como o usuário poderá avançar ou retornar;\n- onde determinados percursos terminam.\n\nEle representa visualmente os caminhos possíveis dentro do sistema.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 3,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 398,
+        "chunk_id": "72ac62becfa0cc524d4d83d7"
+      }
+    },
+    {
+      "chunk_id": "a1bd1f056cb92f26ce2dd800",
+      "conteudo": "# Exemplo: aplicativo acadêmico\n\nUm aplicativo de organização acadêmica pode apresentar:\n\n## Aplicativo acadêmico\n\nO aplicativo acadêmico se ramifica em duas telas:\n\n### Tela inicial\nA Tela inicial se ramifica em:\n- Entrar\n- Criar conta\n- Recuperar senha\n\n### Página principal\nA Página principal se ramifica em:\n- Agenda acadêmica\n- Disciplinas\n- Atividades\n- Notificações\n- Perfil",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 381,
+        "chunk_id": "a1bd1f056cb92f26ce2dd800"
+      }
+    },
+    {
+      "chunk_id": "71ab537da26fa4a434cb25b9",
+      "conteudo": "# Continuação do exemplo\n\nO mapa mostra como o usuário parte da página principal e acessa diferentes áreas do aplicativo.\n\n## Estrutura de navegação\n\nPágina principal\n→ Disciplinas\n   → Disciplinas matriculadas\n   → Materiais de estudo\n   → Atividades\n   → Notas\n   → Frequência\n   → Informações sobre os professores",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 316,
+        "chunk_id": "71ab537da26fa4a434cb25b9"
+      }
+    },
+    {
+      "chunk_id": "d3bc073b31a7bcb4d261b6f2",
+      "conteudo": "# Elementos de um mapa de navegação\n\n- **Retângulos**: representam telas ou páginas.\n- **Setas**: indicam os caminhos.\n- **Losangos**: representam decisões ou condições.\n- **Linhas**: demonstram conexões.\n- **Rótulos**: identificam ações e opções.\n- **Início e término**: delimitam o percurso.\n- **Agrupamentos**: representam módulos ou áreas relacionadas.\n\nEsses elementos tornam a estrutura e os percursos do sistema mais fáceis de compreender.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 6,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 446,
+        "chunk_id": "d3bc073b31a7bcb4d261b6f2"
+      }
+    },
+    {
+      "chunk_id": "375b93553bad20e0bb2d1853",
+      "conteudo": "# Estrutura hierárquica\n\nA navegação parte de uma tela principal para telas secundárias.\n\n## Estrutura de navegação\n\nPágina inicial\n→ Cursos\n   → Detalhes do curso\n   → Conteúdos\n→ Perfil\n   → Dados pessoais\n   → Configurações\n\nEssa estrutura é semelhante a uma árvore.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 7,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 269,
+        "chunk_id": "375b93553bad20e0bb2d1853"
+      }
+    },
+    {
+      "chunk_id": "8cf3a7d0f6bc5dd03e9e352f",
+      "conteudo": "# Estrutura sequencial\n\nNa estrutura sequencial, o usuário precisa seguir uma ordem definida de etapas.\n\n1. Cadastro de uma conta\n→ 2. Realização de uma compra\n→ 3. Inscrição em um curso\n→ 4. Preenchimento de um formulário\n→ 5. Recuperação de senha\n\nO usuário avança de uma etapa para a seguinte até concluir a tarefa.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 8,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 318,
+        "chunk_id": "8cf3a7d0f6bc5dd03e9e352f"
+      }
+    },
+    {
+      "chunk_id": "d50b232a257c794cb85c30bd",
+      "conteudo": "# Estrutura em rede\n\n## Conceito\nAs telas possuem diferentes possibilidades de conexão.\n\n## Elementos da estrutura\n- Disciplina\n- Página inicial\n- Atividade acadêmica\n- Calendário\n- Notificações\n- Lista de tarefas\n\n## Relações entre os elementos\n- Atividade acadêmica ↔ Disciplina\n- Atividade acadêmica ↔ Página inicial\n- Atividade acadêmica ↔ Calendário\n- Atividade acadêmica ↔ Notificações\n- Atividade acadêmica ↔ Lista de tarefas\n- Disciplina ↔ Página inicial\n- Disciplina ↔ Calendário\n\n## Explicação\nO usuário pode acessar uma mesma tela por caminhos distintos. Essa estrutura oferece maior liberdade de navegação.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 9,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 618,
+        "chunk_id": "d50b232a257c794cb85c30bd"
+      }
+    },
+    {
+      "chunk_id": "666d89a013a43908b4ea35b3",
+      "conteudo": "# Estrutura híbrida\n\nCombina diferentes modelos de navegação.\n\n## Modelos de navegação\n\n### Hierárquica\norganiza áreas e telas em níveis.\n\n### Sequencial\nconduz o usuário por etapas.\n\n### Em rede\noferece diferentes caminhos de acesso.\n\n## Estrutura híbrida\nintegra os três modelos conforme as necessidades do sistema.\n\nÉ comum em sistemas complexos: algumas áreas seguem uma hierarquia, enquanto determinadas tarefas exigem uma sequência de etapas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 10,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 448,
+        "chunk_id": "666d89a013a43908b4ea35b3"
+      }
+    },
+    {
+      "chunk_id": "827560d0daf009bb9438b8d6",
+      "conteudo": "# Mapa de navegação × fluxo do usuário\n\n## Mapa de navegação\n\n- Apresenta a estrutura geral\n- Mostra telas e conexões\n- Oferece uma visão ampla\n- Abrange diferentes funcionalidades\n- Organiza o sistema\n\n## Fluxo do usuário\n\n- Representa uma tarefa específica\n- Mostra etapas e decisões\n- Oferece uma visão detalhada\n- Parte de um objetivo do usuário\n- Explica como uma ação é realizada\n\n## Relação entre os conceitos\n\nO mapa mostra o sistema; o fluxo mostra o caminho para alcançar um objetivo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 494,
+        "chunk_id": "827560d0daf009bb9438b8d6"
+      }
+    },
+    {
+      "chunk_id": "7387f3011a392d28c57c5c9a",
+      "conteudo": "# Exemplo da diferença\n\n## Mapa de navegação\n\nMostra as áreas do sistema.\n\nEstrutura de navegação:\n\nSistema\n→ Disciplinas\n→ Atividades\n→ Notas\n→ Calendário\n→ Perfil\n\n## Fluxo do usuário\n\nDetalha o percurso para enviar uma atividade.\n\nEtapas do processo:\n\n1. Entrar\n2. Selecionar disciplina\n3. Acessar atividade\n4. Anexar arquivo\n5. Confirmar envio",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 12,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 347,
+        "chunk_id": "7387f3011a392d28c57c5c9a"
+      }
+    },
+    {
+      "chunk_id": "79f3f8caffa509ac0a5d3622",
+      "conteudo": "# Relação com protótipos\n\n## Mapa de navegação\n\nEstrutura hierárquica representada:\n\n- Nível superior: elemento central com ícone de casa (tela inicial).\n- Nível intermediário: três elementos derivados do nível superior:\n  - elemento com ícone de lista/linhas;\n  - elemento com ícone de imagem;\n  - elemento com ícone de lista com marcadores.\n- Nível inferior: quatro elementos derivados do nível intermediário:\n  - elemento com ícone de lista/linhas;\n  - elemento com ícone de lista com marcadores;\n  - elemento com ícone de imagem;\n  - elemento com ícone de lista/linhas.\n\n## Protótipos\n\nRepresentação de dois dispositivos:\n\n- Notebook: exibe uma tela com elementos de wireframe, incluindo barras laterais, área central com imagem e blocos inferiores.\n- Smartphone: exibe uma tela com elementos de wireframe, incluindo barras, área com imagem e botão.\n\nLegendas associadas:\n\n- Wireframes — Baixa fidelidade\n- Protótipos interativos\n\n## Relação entre mapa de navegação e protótipos",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 13,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 982,
+        "chunk_id": "79f3f8caffa509ac0a5d3622"
+      }
+    },
+    {
+      "chunk_id": "67c9a43bb7d90c5e1f208ab6",
+      "conteudo": "Legendas associadas:\n\n- Wireframes — Baixa fidelidade\n- Protótipos interativos\n\n## Relação entre mapa de navegação e protótipos\n\nUma seta indica a transição do mapa de navegação para os protótipos.\n\n## Elementos do processo\n\n- Definição de menus\n- Organização dos conteúdos\n- Planejamento das interações\n\n## Observação\n\nCada tela identificada no mapa poderá ser representada no protótipo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 13,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 388,
+        "chunk_id": "67c9a43bb7d90c5e1f208ab6"
+      }
+    },
+    {
+      "chunk_id": "6ace91bb3b406a2610e65dcc",
+      "conteudo": "# Como elaborar um mapa de navegação\n\nO mapa deve representar a estrutura do sistema e os caminhos de forma clara, lógica e validada.\n\n## Etapas do processo\n\n1. Identificar o público do software.\n2. Definir os objetivos dos usuários.\n3. Listar as principais funcionalidades.\n4. Identificar as telas necessárias.\n5. Agrupar telas relacionadas.\n6. Definir a tela inicial.\n7. Estabelecer as conexões.\n8. Representar os caminhos com setas.\n9. Verificar possibilidades de retorno.\n10. Validar o mapa com usuários e equipe.\n\n## Relações entre as etapas\n\n1 → 2 → 3 → 4 → 5\n5 → 6\n6 → 7 → 8 → 9 → 10",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 590,
+        "chunk_id": "6ace91bb3b406a2610e65dcc"
+      }
+    },
+    {
+      "chunk_id": "413a56c8123d80ecbdb853c3",
+      "conteudo": "# Boas práticas\n\n## Um bom mapa de navegação deve:\n\n- utilizar nomes claros para as telas;\n- apresentar conexões compreensíveis;\n- evitar caminhos excessivamente longos;\n- manter consistência nos símbolos;\n- destacar a tela inicial;\n- considerar erros e alternativas;\n- permitir avanço e retorno;\n- apresentar apenas detalhes relevantes;\n- ser atualizado quando o projeto mudar.\n\nClareza, consistência e atualização tornam o mapa mais útil para toda a equipe.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 15,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 459,
+        "chunk_id": "413a56c8123d80ecbdb853c3"
+      }
+    },
+    {
+      "chunk_id": "1e117e6b0508ccfc48b04609",
+      "conteudo": "# Atividade prática\n\n**Considere a proposta do seu projeto.**\n\nElabore um mapa de navegação contendo, pelo menos, as telas indicadas.\n\n## Estrutura do mapa de navegação\n\nTela de login\n→ Página inicial\n   → Notificações\n   → Perfil\n   → Configurações\n→ Opção de sair\n\n**Utilize formas e setas para representar as telas e suas conexões.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 16,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 336,
+        "chunk_id": "1e117e6b0508ccfc48b04609"
+      }
+    },
+    {
+      "chunk_id": "a11ea116800ca9bf4f6c7dc6",
+      "conteudo": "# O que é um wireframe?\n\nRepresentação visual simplificada da interface de um software, site ou aplicativo.\n\nO wireframe abrange os seguintes aspectos:\n\n- **Posição dos elementos**\n- **Organização do conteúdo**\n- **Funcionalidades disponíveis**\n- **Interação com a interface**\n- **Caminhos de navegação**\n\nO wireframe funciona como um esqueleto da interface.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 17,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 358,
+        "chunk_id": "a11ea116800ca9bf4f6c7dc6"
+      }
+    },
+    {
+      "chunk_id": "fb86f7018ba332706fdabebe",
+      "conteudo": "# Finalidade do wireframe\n\nPlanejar a interface antes do design visual e do desenvolvimento do software.\n\nO wireframe permite avaliar e ajustar a estrutura da interface antes da implementação.\n\n## Questões norteadoras do wireframe\n\n1. Quais informações serão apresentadas?\n2. Qual conteúdo terá maior destaque?\n3. Onde ficarão os botões e menus?\n4. Como o usuário realizará uma tarefa?\n5. Como as telas estarão conectadas?\n6. A estrutura atende às necessidades dos usuários?\n\n## Estrutura visual do wireframe\n\nO wireframe representado é composto por:",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 18,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 550,
+        "chunk_id": "fb86f7018ba332706fdabebe"
+      }
+    },
+    {
+      "chunk_id": "c9df3567df5d994672fa4ab7",
+      "conteudo": "## Estrutura visual do wireframe\n\nO wireframe representado é composto por:\n\n- Barra superior com elementos circulares à esquerda.\n- Coluna lateral esquerda contendo:\n  - um bloco retangular no topo;\n  - uma lista de itens com marcadores circulares e linhas de texto.\n- Área principal contendo:\n  - uma barra horizontal no topo;\n  - um bloco retangular com ícone de imagem (montanha e círculo);\n  - linhas de texto à direita do bloco de imagem;\n  - um botão retangular abaixo das linhas de texto;\n  - três cartões na parte inferior, cada um com:\n    - um quadrado no topo;\n    - linhas de texto abaixo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 18,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 601,
+        "chunk_id": "c9df3567df5d994672fa4ab7"
+      }
+    },
+    {
+      "chunk_id": "25feb67d82c47ca2cb54d767",
+      "conteudo": "# O que um wireframe representa?\n\nUm wireframe pode representar:\n\n## Estrutura\n- cabeçalho\n- menu de navegação\n- áreas de conteúdo\n- rodapé\n\n## Conteúdo e interação\n- campo de busca\n- botões\n- formulários\n- imagens\n- textos\n- listas\n- tabelas\n- cartões\n\n## Estados e navegação\n- mensagens de erro\n- conexões entre diferentes telas\n\n## Observação\nOs elementos são apresentados de forma simples, sem detalhes visuais definitivos.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 19,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 427,
+        "chunk_id": "25feb67d82c47ca2cb54d767"
+      }
+    },
+    {
+      "chunk_id": "75c697f7e8aa8df451adb051",
+      "conteudo": "# Características de um wireframe\n\nO wireframe é representado por um esboço de interface que contém:\n\n- barra superior com ícones de controle e menu;\n- bloco retangular superior com marcação de imagem (X);\n- linhas horizontais representando textos;\n- dois blocos retangulares menores com marcação de imagem (X);\n- linhas horizontais adicionais representando textos;\n- campos de formulário (retângulos vazios);\n- campo com indicador de seleção (seta para baixo);\n- botão retangular inferior.\n\n## Características\n\n- **Formas geométricas simples**\n- **Poucos detalhes visuais**\n- **Cores neutras**\n- **Textos provisórios**\n- **Espaços reservados para imagens**\n- **Indicação de botões e campos**\n- **Organização dos elementos**\n- **Hierarquia das informações**\n- **Possíveis caminhos de navegação**\n\n## Foco do wireframe\n\nSeu foco está na estrutura e no funcionamento, e não na aparência final.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 20,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 891,
+        "chunk_id": "75c697f7e8aa8df451adb051"
+      }
+    },
+    {
+      "chunk_id": "e5f583e2f77b0f70ce85d79b",
+      "conteudo": "# Exemplo de representação\n## Tela de login\n\nA imagem apresenta um wireframe de uma tela de login com seus elementos constituintes identificados por rótulos.\n\n**Elementos da tela de login (wireframe):**\n\n- **Logotipo do sistema**: representado por um espaço com ícone de imagem no topo da tela.\n- **Título da página**: representado por uma barra horizontal abaixo do logotipo.\n- **E-mail**: campo de entrada com ícone de envelope.\n- **Senha**: campo de entrada com ícone de cadeado e pontos representando caracteres ocultos.\n- **Entrar**: botão de ação principal.\n- **Esqueci minha senha**: link de texto abaixo do botão \"Entrar\".\n- **Mensagem de erro**: área com ícone de exclamação e barra de texto.\n- **Criar uma conta**: link de texto na parte inferior da tela.\n- **Retornar à página inicial**: ícone de casa com barra de texto ao lado, localizado no rodapé da tela.\n\n**Observação:** Não é necessário definir cores, imagens ou efeitos visuais definitivos.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 21,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 959,
+        "chunk_id": "e5f583e2f77b0f70ce85d79b"
+      }
+    },
+    {
+      "chunk_id": "2e66ada0cc1f59256e21dd5a",
+      "conteudo": "# Níveis de fidelidade\n\nOs wireframes podem apresentar diferentes níveis de detalhamento.\n\n## Baixa fidelidade\n- representação rápida e simples.\n\n## Média fidelidade\n- estrutura mais organizada e detalhada.\n\n## Alta fidelidade\n- representação próxima da interface final.\n\n## Relação entre os níveis\nBaixa fidelidade → Média fidelidade → Alta fidelidade\n\n## Fatores a considerar na escolha do nível de fidelidade\n- Objetivo\n- Tempo disponível\n- Etapa do projeto\n\nO nível de fidelidade deve ser escolhido conforme a necessidade do projeto.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 22,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 537,
+        "chunk_id": "2e66ada0cc1f59256e21dd5a"
+      }
+    },
+    {
+      "chunk_id": "88e59cf4c455efc594996c20",
+      "conteudo": "# Wireframe de baixa fidelidade\n\nApresenta a ideia inicial da tela.\n\n## Características\n\n- pode ser feito à mão;\n- utiliza formas simples;\n- possui poucos detalhes;\n- pode conter anotações;\n- é produzido rapidamente;\n- permite alterações com facilidade;\n- favorece a discussão de diferentes ideias.\n\n## Aplicação\n\nÉ muito utilizado nas etapas iniciais da ideação.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 23,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 363,
+        "chunk_id": "88e59cf4c455efc594996c20"
+      }
+    },
+    {
+      "chunk_id": "53151ba12d570a6d4ab6ca3e",
+      "conteudo": "# Wireframe de média fidelidade\n\nPermite avaliar a interface com mais clareza, sem definir completamente o design visual.\n\n## Fluxo de telas\n\nTela 1 → Tela 2 → Tela 3\n\n### Tela 1\n- Cabeçalho: \"Olá!\" / \"Encontre o que precisa\" / ícone de perfil\n- Campo de busca: \"Pesquisar\"\n- Seção \"Categorias\" com link \"Ver todas\"\n  - Livros\n  - Cursos\n  - Artigos\n  - Vídeos\n- Seção \"Em destaque\"\n  - Item: \"Título do conteúdo\" com ícone de imagem e seta de navegação\n  - Item: \"Título do conteúdo\" com ícone de imagem e seta de navegação\n- Barra de navegação inferior:\n  - Início\n  - Buscar\n  - Salvos\n  - Perfil\n\n### Tela 2\n- Cabeçalho: seta de voltar / \"Detalhes\" / ícone de salvar\n- Área de imagem (placeholder)\n- \"Título do conteúdo\"\n- Linhas de texto (placeholder)\n- Autor\n- Data de publicação\n- Categoria\n- Botão: \"Iniciar\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 24,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 816,
+        "chunk_id": "53151ba12d570a6d4ab6ca3e"
+      }
+    },
+    {
+      "chunk_id": "b7f146514af761747b700c2e",
+      "conteudo": "### Tela 3\n- Cabeçalho: seta de voltar / \"Cadastro\"\n- Indicador de etapas: 1 Dados → 2 Perfil → 3 Concluir\n- Campo: \"Nome completo\" — \"Digite seu nome\"\n- Campo: \"E-mail\" — \"Digite seu e-mail\"\n- Campo: \"Senha\" — \"Digite sua senha\" (com ícone de visualização)\n- Botão: \"Continuar\"\n- Texto: \"Já tem uma conta? Entrar\"\n\n## Características do wireframe de média fidelidade\n\n- Estrutura mais organizada\n- Dimensões mais próximas das reais\n- Organização consistente\n- Textos mais representativos\n- Identificação dos componentes\n- Hierarquia das informações\n- Diferentes estados da interface\n- Conexões entre as telas",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 24,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 609,
+        "chunk_id": "b7f146514af761747b700c2e"
+      }
+    },
+    {
+      "chunk_id": "651c9fec7954decf8eb5a2d8",
+      "conteudo": "# Wireframe de alta fidelidade\n\n## Características\n\n- Conteúdo próximo do real\n- Dimensões precisas\n- Componentes definidos\n- Espaçamentos planejados\n- Comportamento das interações\n- Elementos próximos da versão final\n\n## Comparação visual\n\nA página apresenta uma comparação lado a lado entre dois artefatos:\n\n**Wireframe** (à esquerda)\n→ Barra superior com três círculos\n→ Área de imagem com marcação de \"X\"\n→ Título da seção\n→ Linhas de texto\n→ Botão principal\n→ Indicadores de paginação (quatro pontos)\n→ Seção \"Nossos serviços\"\n   → Três cards, cada um com:\n      → Área de imagem com \"X\"\n      → Título do card\n      → Linhas de texto\n      → Botão \"Saiba mais\"\n→ Seção de destaque\n   → Área de imagem com \"X\"\n   → Título de destaque\n   → Linhas de texto\n   → Botão \"Saiba mais\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 25,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 3,
+        "chunk_caracteres": 783,
+        "chunk_id": "651c9fec7954decf8eb5a2d8"
+      }
+    },
+    {
+      "chunk_id": "4683dfff37530173e8ee14fa",
+      "conteudo": "**Mockup ou protótipo de alta fidelidade** (à direita)\n→ Barra superior com três círculos coloridos\n→ Área de imagem (fotografia de montanhas)\n→ Título: \"Soluções digitais para o seu futuro\"\n→ Texto: \"Transforme ideias em experiências incríveis com design e tecnologia.\"\n→ Botão \"Começar agora →\"\n→ Indicadores de paginação (quatro pontos)\n→ Seção \"Nossos serviços\"\n   → Card 1: Design de interfaces\n      → Descrição: \"Experiências intuitivas e eficientes.\"\n      → Link \"Saiba mais →\"\n   → Card 2: Desenvolvimento\n      → Descrição: \"Soluções robustas e escaláveis.\"\n      → Link \"Saiba mais →\"\n   → Card 3: Consultoria\n      → Descrição: \"Estratégia para crescer mais.\"\n      → Link \"Saiba mais →\"\n→ Seção de destaque\n   → Imagem (notebook sobre mesa)\n   → Título: \"Tecnologia que aproxima pessoas\"\n   → Texto: \"Do planejamento ao resultado.\"\n   → Botão \"Saiba mais →\"\n\n## Observação final",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 25,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 3,
+        "chunk_caracteres": 892,
+        "chunk_id": "4683dfff37530173e8ee14fa"
+      }
+    },
+    {
+      "chunk_id": "c075db87ff8a5d12015106e2",
+      "conteudo": "## Observação final\n\nCom cores, tipografia, imagens e identidade visual completas, o artefato se aproxima de um mockup ou protótipo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 25,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 3,
+        "total_chunks_pagina": 3,
+        "chunk_caracteres": 132,
+        "chunk_id": "c075db87ff8a5d12015106e2"
+      }
+    },
+    {
+      "chunk_id": "6b51a697aeaf59e4edcbb1f9",
+      "conteudo": "# Wireframe × mockup × protótipo\n\n## Wireframe\n- Representa a estrutura\n- Utiliza elementos simples\n- Prioriza organização e conteúdo\n- Pode não ser interativo\n- É usado no planejamento inicial\n\n## Mockup\n- Representa a aparência\n- Aplica cores e identidade visual\n- Prioriza o design visual\n- Geralmente é estático\n- Mostra como a interface ficará\n\n## Protótipo\n- Simula a interação\n- Permite executar tarefas\n- Prioriza o comportamento\n- Geralmente é interativo\n- Mostra como a interface funcionará\n\n## Relação entre os conceitos\nEstrutura → Aparência → Funcionamento",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 26,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 569,
+        "chunk_id": "6b51a697aeaf59e4edcbb1f9"
+      }
+    },
+    {
+      "chunk_id": "7a98e161d1c3792a08fc93d9",
+      "conteudo": "# Wireframe e mapa de navegação\n\n## Mapa de navegação\n\nApresenta a organização geral das telas e suas conexões.\n\nEstrutura de navegação representada:\n\nLogin\n→ Página Inicial\n   → Perfil\n   → Configurações\n\n## Wireframe\n\nApresenta a organização dos elementos dentro de cada tela.\n\nElementos representados no wireframe:\n\n- Menu\n- Conteúdos\n- Campos\n- Botões\n\n## Exemplo\n\n1. O mapa indica quais telas fazem parte do sistema.\n2. O wireframe mostra onde cada elemento ficará nas telas.\n\n## Observação\n\nOs dois artefatos são complementares.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 27,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 534,
+        "chunk_id": "7a98e161d1c3792a08fc93d9"
+      }
+    },
+    {
+      "chunk_id": "d07e561e3cdeee1e469fed6d",
+      "conteudo": "# Wireframe e fluxo do usuário\n\n## Conceitos\n\n**Fluxo do usuário**\nEtapas necessárias para atingir um objetivo.\n\n**Wireframe**\nTelas utilizadas durante o percurso.\n\n## Exemplo: envio de atividade\n\nO exemplo apresenta um fluxo de usuário composto por 5 etapas sequenciais, cada uma associada a um wireframe de tela:\n\n1. **Login**\n   → Wireframe: tela de Login contendo campos E-mail e Senha, botão Entrar e elementos de texto.\n\n2. **Disciplina**\n   → Wireframe: tela Lista de disciplinas contendo campo de busca, lista de itens com setas de navegação.\n\n3. **Atividade**\n   → Wireframe: tela Detalhes da atividade contendo área de imagem, linhas de texto, item com ícone de documento e botão.\n\n4. **Anexar arquivo**\n   → Wireframe: tela Seleção do arquivo contendo área tracejada com ícone de documento e seta de upload, linhas de texto e botão.\n\n5. **Confirmar envio**\n   → Wireframe: tela Confirmação do envio contendo ícone de check, linhas de texto e botão.\n\n## Relação entre os elementos",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 28,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 990,
+        "chunk_id": "d07e561e3cdeee1e469fed6d"
+      }
+    },
+    {
+      "chunk_id": "85cb13e47e541e70e72cf93f",
+      "conteudo": "5. **Confirmar envio**\n   → Wireframe: tela Confirmação do envio contendo ícone de check, linhas de texto e botão.\n\n## Relação entre os elementos\n\nFluxo e wireframes são complementares.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 28,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 185,
+        "chunk_id": "85cb13e47e541e70e72cf93f"
+      }
+    },
+    {
+      "chunk_id": "6264fd55bfa681706882c4ad",
+      "conteudo": "# Vantagens do wireframe\n\nO material apresenta um conjunto de vantagens associadas ao uso de wireframes, organizadas em duas fileiras de tópicos, interligadas por um fluxo central.\n\n**Vantagens listadas:**\n\n*   Desenvolver ideias rapidamente\n*   Alterações com baixo custo\n*   Comparar diferentes soluções\n*   Obter feedback antecipado\n*   Identificar problemas de usabilidade\n*   Validar a organização do conteúdo\n*   Melhorar a comunicação da equipe\n*   Envolver usuários no processo\n*   Planejar o protótipo\n*   Reduzir riscos antes da implementação\n\n**Fluxo central representado:**\n\nIdeia (lâmpada) → Wireframe (representação de tela) → Validação (prancheta com check) → Proteção/Segurança (escudo com check)\n\n**Conclusão do material:**\n\n\"Ideiar, validar e melhorar antes de desenvolver.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 29,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 792,
+        "chunk_id": "6264fd55bfa681706882c4ad"
+      }
+    },
+    {
+      "chunk_id": "284616d66f2c70954a43e895",
+      "conteudo": "# Como elaborar um wireframe\n\nO wireframe deve organizar conteúdo, elementos e ações de acordo com os objetivos do usuário.\n\n## Etapas do processo\n\n1. **Definir o objetivo da tela.**\n2. **Identificar o perfil do usuário.**\n3. **Determinar a tarefa principal.**\n4. **Listar as informações necessárias.**\n5. **Definir os elementos da interface.**\n6. **Organizar a hierarquia do conteúdo.**\n7. **Posicionar menus, campos e botões.**\n8. **Representar as ações disponíveis.**\n9. **Criar as telas relacionadas.**\n10. **Revisar e validar a proposta.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 30,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 544,
+        "chunk_id": "284616d66f2c70954a43e895"
+      }
+    },
+    {
+      "chunk_id": "0d3ca5415db6192565912c38",
+      "conteudo": "# Hierarquia das informações\n\nA hierarquia visual define a ordem em que os elementos devem ser percebidos.\n\n## O wireframe deve destacar:\n\n- conteúdo principal;\n- ações mais importantes;\n- informações secundárias;\n- opções de navegação;\n- mensagens de confirmação;\n- avisos e mensagens de erro.\n\n## Estrutura do wireframe\n\nO wireframe apresentado é composto pelos seguintes elementos, identificados por rótulos:\n\n- Navegação\n- Confirmação\n- Conteúdo principal\n- Ação principal\n- Informação secundária\n- Aviso ou erro\n\n## Elementos importantes\n\nElementos importantes devem ocupar posições de destaque e possuir identificação clara.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 31,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 630,
+        "chunk_id": "0d3ca5415db6192565912c38"
+      }
+    },
+    {
+      "chunk_id": "b1cd6625e68182c06e110c34",
+      "conteudo": "# Navegação no wireframe\n\nO wireframe de uma tela de aplicativo móvel apresenta elementos de navegação e ações, com indicações de suas funções.\n\n## Estrutura da tela (wireframe)\n\n- Cabeçalho:\n  - \"Voltar\" (com seta para a esquerda)\n  - \"Menu\" (com ícone de três linhas)\n- Área de conteúdo:\n  - Bloco de imagem (representado por um retângulo com ícone de montanha e sol)\n  - Linhas de texto (representadas por barras horizontais)\n  - Bloco de alerta/erro (destacado em rosa) contendo:\n    - Ícone de exclamação\n    - Botão \"Corrigir\"\n- Área de ações:\n  - Botão \"Cancelar\"\n  - Botão \"Confirmar\"\n- Barra de navegação inferior:\n  - \"Início\" (com ícone de casa)\n  - \"Sair\" (com ícone de porta e seta)\n\n## Relações entre elementos e ações",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 32,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 732,
+        "chunk_id": "b1cd6625e68182c06e110c34"
+      }
+    },
+    {
+      "chunk_id": "670da13db2673f5e075b75e6",
+      "conteudo": "## Relações entre elementos e ações\n\n- Acessar outras telas → botão \"Voltar\" (canto superior esquerdo)\n- Avançar ou retornar → botão \"Voltar\"\n- Corrigir um erro → botão \"Corrigir\" (dentro do bloco de alerta)\n- Retornar à página inicial → botão \"Início\" (barra inferior)\n- Abrir um menu → botão \"Menu\" (canto superior direito)\n- Cancelar uma operação → botão \"Cancelar\"\n- Confirmar uma ação → botão \"Confirmar\"\n- Sair do sistema → botão \"Sair\" (barra inferior)\n\n## Observação\n\nOs botões e links devem apresentar rótulos claros e coerentes com a ação realizada.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 32,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 559,
+        "chunk_id": "670da13db2673f5e075b75e6"
+      }
+    },
+    {
+      "chunk_id": "9b994365fb4b9bf7b82f9cc1",
+      "conteudo": "# Estados da interface\n\nUma mesma tela pode apresentar diferentes estados.\n\n## Estado inicial\nInterface com barra lateral de navegação, campo de busca e área de conteúdo com blocos representando elementos ainda não carregados.\n\n## Carregamento\nInterface com barra lateral de navegação, campo de busca e indicador circular de carregamento na área de conteúdo.\n\n## Ausência de conteúdo\nInterface com barra lateral de navegação, campo de busca e representação de documento vazio na área de conteúdo.\n\n## Sucesso\nInterface com barra lateral de navegação, campo de busca e indicador de confirmação (check) na área de conteúdo.\n\n## Erro\nInterface com barra lateral de navegação, campo de busca e indicador de alerta na área de conteúdo.\n\n## Campo obrigatório não preenchido\nInterface com barra lateral de navegação, campo de busca e campo de formulário destacado com indicador de erro.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 33,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 879,
+        "chunk_id": "9b994365fb4b9bf7b82f9cc1"
+      }
+    },
+    {
+      "chunk_id": "da930c8bed6cf723bbd1317f",
+      "conteudo": "## Campo obrigatório não preenchido\nInterface com barra lateral de navegação, campo de busca e campo de formulário destacado com indicador de erro.\n\n## Conexão indisponível\nInterface com barra lateral de navegação, campo de busca e indicador de ausência de sinal de rede na área de conteúdo.\n\n## Resultado de uma busca\nInterface com barra lateral de navegação, campo de busca e lista de resultados de busca na área de conteúdo.\n\n## Confirmação de uma ação\nInterface com barra lateral de navegação, campo de busca e caixa de diálogo com indicador de confirmação e botões de ação.\n\nConsiderar esses estados torna a proposta mais completa.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 33,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 636,
+        "chunk_id": "da930c8bed6cf723bbd1317f"
+      }
+    },
+    {
+      "chunk_id": "66d31845b442470f45f2bda8",
+      "conteudo": "# Boas práticas para wireframes\n\n1. Priorizar as necessidades do usuário.\n2. Apresentar uma tarefa principal por tela.\n3. Utilizar rótulos compreensíveis.\n4. Manter consistência entre as telas.\n5. Evitar excesso de elementos.\n6. Respeitar a hierarquia das informações.\n7. Prever opções de avanço e retorno.\n8. Considerar diferentes estados.\n9. Ser simples de compreender.\n10. Permitir alterações antes da implementação.\n\nUm bom wireframe deve ser claro, consistente, centrado no usuário e fácil de ajustar.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 34,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 506,
+        "chunk_id": "66d31845b442470f45f2bda8"
+      }
+    },
+    {
+      "chunk_id": "bded896c55acf53aa8950e0f",
+      "conteudo": "# Erros comuns\n\nEntre os erros mais frequentes estão:\n\n- concentrar-se primeiro nas cores;\n- tentar criar o design final;\n- inserir elementos sem finalidade;\n- apresentar informações em excesso;\n- utilizar rótulos vagos;\n- não indicar os caminhos de navegação;\n- esquecer mensagens de erro;\n- ignorar as necessidades do usuário;\n- criar telas sem relação com os objetivos;\n- não validar o wireframe.\n\nO wireframe deve priorizar estrutura, clareza, navegação e necessidades reais dos usuários.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 35,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 492,
+        "chunk_id": "bded896c55acf53aa8950e0f"
+      }
+    },
+    {
+      "chunk_id": "62564654f8c26e6093b5bbdb",
+      "conteudo": "# Validação do wireframe\n\nA página apresenta um conjunto de perguntas para validação de um wireframe, organizadas em torno da representação visual de uma tela de aplicativo móvel.\n\n## Perguntas de validação\n\n- A finalidade de cada tela está clara?\n- As informações necessárias estão presentes?\n- Os botões possuem rótulos compreensíveis?\n- O usuário consegue identificar a próxima ação?\n- É possível avançar, retornar ou cancelar?\n- Os caminhos de navegação são coerentes?\n- Existem elementos desnecessários?\n- A interface permite concluir a tarefa?\n- Foram considerados erros e situações alternativas?\n\n## Representação visual central\n\nNo centro da página, há a representação de uma tela de aplicativo móvel contendo:\n- uma imagem;\n- linhas de texto;\n- botões;\n- uma barra de navegação inferior com ícones.\n\nSobre a representação da tela, há uma lupa e um ícone de verificação.\n\n## Mensagem final\n\nValidar antes de implementar reduz problemas e retrabalho.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 36,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 957,
+        "chunk_id": "62564654f8c26e6093b5bbdb"
+      }
+    },
+    {
+      "chunk_id": "65cc130fdddc1be7dbc940a3",
+      "conteudo": "# Exemplo prático\n## Aplicativo de organização acadêmica\n\n### Estrutura de navegação e elementos da interface\n\n**Barra superior (cabeçalho):**\n- Perfil\n- Configurações\n- Sair\n\n**Menu principal (barra lateral esquerda):**\n- Identificação do estudante\n- Menu principal\n- Disciplinas\n\n**Área de conteúdo principal:**\n- Próximas atividades\n- Calendário\n- Notificações\n- Disciplinas\n- Desempenho acadêmico\n\n### Relações entre os elementos",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 37,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 3,
+        "chunk_caracteres": 433,
+        "chunk_id": "65cc130fdddc1be7dbc940a3"
+      }
+    },
+    {
+      "chunk_id": "f9cad959f1b9437027402071",
+      "conteudo": "### Relações entre os elementos\n\n- A opção **Perfil** está associada ao ícone de usuário na barra superior.\n- A opção **Configurações** está associada ao ícone de engrenagem na barra superior.\n- A opção **Sair** está associada ao ícone de saída na barra superior.\n- A opção **Notificações** está associada ao ícone de sino no painel de notificações.\n- A opção **Desempenho acadêmico** está associada ao painel de gráficos de desempenho.\n- A opção **Disciplinas** está associada à seção de cards de disciplinas.\n- A opção **Próximas atividades** está associada à lista de tarefas com caixas de seleção.\n- A opção **Calendário** está associada ao painel de calendário mensal.\n\n### Descrição dos componentes visuais",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 37,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 3,
+        "chunk_caracteres": 712,
+        "chunk_id": "f9cad959f1b9437027402071"
+      }
+    },
+    {
+      "chunk_id": "d226c1b4c7ddba1e25555b25",
+      "conteudo": "### Descrição dos componentes visuais\n\n- **Identificação do estudante:** área com ícone de usuário e campos de texto representados por barras.\n- **Menu principal:** lista de itens de navegação representados por ícones e barras de texto.\n- **Próximas atividades:** lista de itens com caixas de seleção e barras de texto.\n- **Calendário:** grade mensal com marcadores de eventos.\n- **Notificações:** lista de itens com ícones circulares e barras de texto.\n- **Disciplinas:** quatro cards com barras de texto e indicadores coloridos.\n- **Desempenho acadêmico:** gráfico de barras e gráfico de rosca acompanhados de lista de indicadores.\n\n### Observação final\n\nA posição dos elementos deve facilitar o acesso às tarefas mais importantes.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 37,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 3,
+        "total_chunks_pagina": 3,
+        "chunk_caracteres": 733,
+        "chunk_id": "d226c1b4c7ddba1e25555b25"
+      }
+    },
+    {
+      "chunk_id": "25855f41cf125e6d15d75b40",
+      "conteudo": "# Atividade prática\n\nConsidere a proposta do seu projeto de software.\n\n## Elabore wireframes de, pelo menos:\n\n1. Tela de login ou acesso\n2. Página inicial\n3. Funcionalidade principal\n4. Perfil do usuário\n5. Configurações\n6. Confirmação ou erro\n\nRelação de sequência indicada entre as telas:\nTela de login ou acesso → Página inicial → Funcionalidade principal\nPerfil do usuário → Configurações → Confirmação ou erro\n\n## Para cada tela:\n\n1. Identifique o seu objetivo.\n2. Indique os principais elementos.\n3. Represente os botões e campos.\n4. Mostre as opções de navegação.\n5. Indique a conexão com as demais telas.\n\n## Entrega\n\nConjunto de wireframes conectados e coerentes com os objetivos do projeto.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "04",
+        "assunto": "mapa_de_navegacao_e_wireframe",
+        "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+        "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+        "pagina": 38,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 700,
+        "chunk_id": "25855f41cf125e6d15d75b40"
+      }
+    }
+  ]
+}

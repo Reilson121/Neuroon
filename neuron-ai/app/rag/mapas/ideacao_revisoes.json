@@ -1,0 +1,52 @@
+{
+  "paginas": [
+    {
+      "aula": "01",
+      "pagina": 1,
+      "pdf_sha256": "c8456c8a2a72ec8c3dffc42f61576b95130603419c0678df13031d03bb019cae",
+      "conteudo_anterior_sha256": "ec7d5ba15c9a559e2e744e0b778d14a76fdd613ccb6ecae229c89f01ddb87a16",
+      "conteudo": "# PROJETO DE IDEAÇÃO DE SOFTWARE\n\nProfessora: Jeneffer Cristine Ferreira\n\nEtapas apresentadas: DESCOBRIR → DEFINIR → IDEAR → PROTOTIPAR.",
+      "motivo": "Preserva os quatro rótulos ligados por setas e remove a descrição de ilustrações decorativas da capa."
+    },
+    {
+      "aula": "01",
+      "pagina": 3,
+      "pdf_sha256": "c8456c8a2a72ec8c3dffc42f61576b95130603419c0678df13031d03bb019cae",
+      "conteudo_anterior_sha256": "0d4aeefe4d1964853511dbcb99e78c4be77521197e293bc1067595563b5df1aa",
+      "conteudo": "# EMENTA\n## PROJETO DE IDEAÇÃO DE SOFTWARE\nProfessora Jeneffer Cristine Ferreira\n\n1. Concepção de Produtos Digitais.\n2. Problematização e Visão de Produtos.\n3. Definição de Personas.\n4. Brainstorming e Nivelamento de Funcionalidades.\n5. Revisão Técnica, Negócio e UX.\n6. Matriz CSD.\n7. Desk Research.\n8. Jornadas de Usuário.\n9. Sequenciador de Funcionalidades.\n10. Canvas MVP.\n11. Análise de Benchmark.\n12. Desenvolvimento de Fluxo de Tela.\n13. Protótipo Navegável.\n14. Pitch do Software.",
+      "motivo": "Corrige a leitura do título EMENTA, conferida na imagem da página."
+    },
+    {
+      "aula": "01",
+      "pagina": 67,
+      "pdf_sha256": "c8456c8a2a72ec8c3dffc42f61576b95130603419c0678df13031d03bb019cae",
+      "conteudo_anterior_sha256": "5531b64546b64b467606ab356be0e5960b66d2fec0e88fd90c80d600fe598b33",
+      "conteudo": "# 5. SCAMPER\n\nTécnicas para transformar ideias e gerar novas soluções\n\n## Substituir\nO que pode ser substituído para melhorar?\n\n## Combinar\nQue elementos podem ser unidos?\n\n## Adaptar\nComo adaptar de outras áreas?\n\n## Modificar\nO que pode ser alterado ou ampliado?\n\n## Propor para outro uso\nComo pode ser usado para outro propósito?\n\n## Eliminar\nO que pode ser removido?\n\n## Reverter\nE se fizéssemos o oposto?\n\nTransforme ideias. Explore possibilidades. Inove com o SCAMPER!",
+      "motivo": "Corrige o primeiro verbo da técnica SCAMPER, que está escrito Substituir no slide."
+    },
+    {
+      "aula": "04",
+      "pagina": 1,
+      "pdf_sha256": "e315b3ff469092f1a3fb79a649bce46e23121c835c18e02a32c7dc9e4b091c45",
+      "conteudo_anterior_sha256": "9fca32fa84e6f85efa588213f8944ecf1c82ad6a2a8ff92f774de953929d917a",
+      "conteudo": "# Mapa de Navegação e Wireframe\n\nDisciplina: Projeto de Ideação de Software\nProf.ª Jeneffer Ferreira",
+      "motivo": "Preserva o título e a autoria visíveis; remove a descrição de elementos decorativos da capa e corrige a leitura do nome."
+    },
+    {
+      "aula": "05",
+      "pagina": 1,
+      "pdf_sha256": "bff09f681d122f74fc9f78d3dcce5a88e7b44fea4c1c250d487a8793b82a2682",
+      "conteudo_anterior_sha256": "df3301668b4a79c2799bf428c74646676f9230701fb98df64049efbbea2f02b3",
+      "conteudo": "# Matriz CSD\n\nCertezas, Suposições e Dúvidas\n\nComo organizar o conhecimento sobre um projeto e identificar o que precisamos investigar.\n\nDisciplina: Projeto de Ideação de Software e Design de Artefatos Digitais\nProf.ª Jeneffer Ferreira",
+      "motivo": "Preserva o texto visível e remove a descrição de cartões decorativos."
+    },
+    {
+      "aula": "04",
+      "pagina": 33,
+      "pdf_sha256": "e315b3ff469092f1a3fb79a649bce46e23121c835c18e02a32c7dc9e4b091c45",
+      "conteudo_anterior_sha256": "394361d6529b833d152c9dfc4b7c87ec8e4b8b8ae0487a0d38e52070ec1ab7d1",
+      "conteudo": "# Estados da interface\n\nUma mesma tela pode apresentar diferentes estados:\n\n- Estado inicial.\n- Carregamento.\n- Ausência de conteúdo.\n- Sucesso.\n- Erro.\n- Campo obrigatório não preenchido.\n- Conexão indisponível.\n- Resultado de uma busca.\n- Confirmação de uma ação.\n\nConsiderar esses estados torna a proposta mais completa.",
+      "motivo": "Preserva os nove estados e o texto do slide, conferidos visualmente. Retira descrições repetidas da barra lateral e da busca, que fragmentavam a lista em dois chunks."
+    }
+  ]
+}

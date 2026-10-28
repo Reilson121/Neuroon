@@ -1,0 +1,258 @@
+=== PAGINA 1 ===
+NEURON — Relatório de arquitetura e evolução (versão atualizada)
+Página 1
+NEURON
+Relatório didático de arquitetura e evolução do protótipo (versão
+atualizada)
+Projeto
+Plataforma acadêmica com Monitor Virtual baseado em IA
+Escopo atual
+Disciplinas do 1º ao 4º período
+Foco deste relatório
+Arquitetura, ingestão de materiais e RAG
+Stack definida
+React + Spring Boot/Java + serviço Python de IA
+Objetivo: explicar de forma simples o que já foi construído, por que certas decisões foram tomadas e
+quais são os próximos passos.
+O que mudou nesta versão: o monitor humano saiu do escopo atual; entrou a prática com
+questões e provas dos professores (apenas em disciplinas com prova); entrou a seção de feedback
+da plataforma. As mudanças estão resumidas na seção 12 e refletidas nas seções 6, 8, 9 e 11.
+1. Visão geral do projeto
+O NEURON é uma aplicação web voltada a estudantes de Ciência da Computação. A organização
+principal segue a sequência Período → Disciplina → Assunto → Material. O estudante consulta
+materiais, utiliza um Monitor Virtual e, nas disciplinas com prova, pratica com questões; a
+administração cuida do cadastro e publicação dos conteúdos.
+A ideia central do Monitor Virtual não é simplesmente responder perguntas com conhecimento
+geral. Ele deve localizar primeiro os materiais acadêmicos da disciplina e usar esses materiais
+como contexto para produzir uma resposta mais alinhada ao conteúdo estudado.
+Explicando RAG sem termos técnicos
+RAG pode ser entendido como uma consulta a uma biblioteca antes de responder. O aluno faz
+uma pergunta; o sistema procura os trechos mais relacionados nos materiais; depois a IA recebe
+a pergunta junto com esses trechos e elabora a resposta, mantendo referência ao material de
+origem.
+Pergunta do aluno → Busca nos materiais → Trechos relevantes → IA responde
+2. Arquitetura definida
+A equipe decidiu separar responsabilidades. O front-end será desenvolvido em React; o back-end
+principal em Java com Spring Boot; e a parte de IA fica em um serviço Python independente. Essa
+separação facilita manutenção, testes e evolução do projeto.
+Camada
+Tecnologia / papel
+Interface
+React - telas e interação com o estudante
+Back-end
+Java + Spring Boot - regras da aplicação e integração dos serviços
+Banco
+PostgreSQL - dados da aplicação; pgvector previsto para busca vetorial
+
+
+=== PAGINA 2 ===
+NEURON — Relatório de arquitetura e evolução (versão atualizada)
+Página 2
+Camada
+Tecnologia / papel
+IA
+Python + FastAPI + LangChain - processamento dos materiais, Monitor Virtual e
+prática com questões
+LLM
+DeepSeek via OpenRouter - geração de respostas; modelo multimodal para
+páginas/slides visuais
+3. O que já está funcionando
+Componente
+Status
+Resultado
+Ambiente Python
+isolado (.venv)
+Concluído
+Dependências da IA separadas do restante do computador.
+FastAPI + Uvicorn
+Concluído
+Serviço neuron-ai executando localmente e documentação
+Swagger acessível.
+LangChain
+Concluído
+Camada preparada para orquestrar o fluxo de IA.
+OpenRouter +
+DeepSeek
+Concluído
+Primeira chamada real ao LLM executada com sucesso.
+Leitura de PDF
+Testado
+PyPDF/PyMuPDF conseguem extrair texto convencional.
+Análise multimodal
+Testado
+Página com fórmulas, exercícios e gráfico foi interpretada
+pelo modelo visual.
+Leitura de PPTX
+Testado
+Texto e estrutura de slides de Teoria dos Grafos foram
+extraídos.
+4. Estudo de caso 1 - Cálculo para Computação I
+O primeiro material utilizado foi um PDF de Limites com 134 páginas e exercícios. Esse teste
+revelou um problema importante: ler apenas o texto interno de um PDF não garante que todo o
+conteúdo acadêmico seja recuperado.
+O que aconteceu?
+Na página 2, tabelas e texto foram extraídos de forma razoável. Entretanto, na página 3, parte
+da notação matemática desapareceu. Nas páginas de exercícios, o extrator chegou a recuperar
+apenas títulos como “Exercícios”, embora visualmente existissem expressões matemáticas e um
+gráfico.
+Decisão tomada
+Foi adotada uma estratégia híbrida: páginas simples podem ser processadas por extração
+textual; páginas em que fórmulas, gráficos ou diagramas são essenciais podem ser renderizadas
+como imagem e analisadas por um modelo multimodal.
+Teste
+Resultado
+Extração textual
+Rápida e adequada para páginas predominantemente textuais.
+Página matemática
+complexa
+Perda de fórmulas na extração convencional.
+DeepSeek multimodal
+Recuperou enunciado, 16 expressões de limites e informações do gráfico da
+página de exercícios.
+
+
+=== PAGINA 3 ===
+NEURON — Relatório de arquitetura e evolução (versão atualizada)
+Página 3
+Teste
+Resultado
+Conclusão
+Não aplicar IA visual em todas as páginas; selecionar somente as que
+realmente precisam.
+5. Estudo de caso 2 - Teoria dos Grafos
+O segundo teste mudou o formato: os materiais de Teoria dos Grafos estão em PowerPoint
+(.pptx). Foi escolhida a Aula 02 - Conceitos Básicos, com 59 slides, como primeiro caso de teste,
+pois a Aula 01 é uma apresentação da disciplina.
+O processador de PPTX conseguiu extrair diretamente títulos, definições e textos dos slides.
+Também passou a contar imagens, gráficos e outros objetos. Isso é especialmente relevante em
+Teoria dos Grafos, porque vértices e arestas podem estar desenhados como círculos, linhas e
+setas, sem aparecer no texto extraído.
+Detector inicial
+Foi criado um detector barato, que não chama a API de IA. Ele procura sinais como pouco texto
+com imagem, muitos elementos visuais, gráficos nativos ou texto muito curto. No primeiro teste,
+28 dos 59 slides foram marcados como candidatos multimodais.
+Esse número ainda é alto. Por isso, a decisão foi não enviar automaticamente os 28 slides para a
+IA. Primeiro o detector será calibrado visualmente para reduzir chamadas desnecessárias e
+manter o custo de processamento controlado.
+6. Pipeline de ingestão planejado
+O termo “ingestão” significa preparar um material acadêmico para que ele possa ser pesquisado
+pelo Monitor Virtual. O fluxo planejado é o seguinte:
+Etapa
+Descrição
+1 Receber material
+PDF ou PPTX original do professor: aulas e, nas disciplinas com prova,
+listas de exercícios e provas.
+2 Extrair conteúdo
+Texto, estrutura e metadados como disciplina, assunto, página ou slide.
+3 Detectar complexidade
+visual
+Verificar se fórmulas, diagramas ou grafos exigem análise visual.
+4 Enriquecer quando
+necessário
+Usar modelo multimodal apenas nos casos selecionados.
+5 Dividir em trechos
+(chunks)
+Criar unidades menores e pesquisáveis sem perder a origem. Em listas e
+provas, a divisão deve respeitar a estrutura de questões (a validar).
+6 Gerar embeddings
+Transformar o significado dos trechos em representações numéricas.
+7 Armazenar no pgvector
+Permitir busca semântica no PostgreSQL.
+8 Recuperar contexto
+Encontrar os trechos mais relacionados à pergunta do aluno (ou, na
+prática, as questões do assunto escolhido).
+9 Gerar resposta
+DeepSeek recebe pergunta + contexto e responde com referência à
+fonte.
+
+
+=== PAGINA 4 ===
+NEURON — Relatório de arquitetura e evolução (versão atualizada)
+Página 4
+7. Metadados e rastreabilidade
+Cada trecho indexado deve manter informações de origem. Isso permite que a resposta não
+fique desconectada do material acadêmico e ajuda a mostrar ao estudante de onde veio o
+conteúdo. Na prática com questões, a origem também aparece como selo em cada questão (por
+exemplo, a lista e o número da questão).
+Exemplo de metadado
+Valor
+período
+4
+disciplina
+teoria_dos_grafos
+assunto
+conceitos_basicos
+arquivo
+Aula 02 - TG - Conceitos Basicos.pptx
+slide
+18
+tipo_extracao
+textual ou multimodal
+8. Principais decisões já tomadas
+1. Separar front-end, back-end e serviço de IA.
+2. Usar React no front-end e Spring Boot/Java no back-end principal.
+3. Manter a IA em Python com FastAPI e LangChain.
+4. Usar DeepSeek por meio do OpenRouter para os testes de LLM.
+5. Planejar PostgreSQL com pgvector para a busca semântica.
+6. Preservar os materiais originais; PPTX não precisa ser convertido manualmente para PDF.
+7. Usar processamento multimodal de forma seletiva, não em todas as páginas/slides.
+8. Guardar página/slide, disciplina, assunto, arquivo e tipo de extração como metadados.
+9. Validar cada camada isoladamente antes de construir o RAG completo.
+10. Novo: o monitor humano fica fora do escopo atual; por enquanto só o Monitor Virtual.
+11. Novo: questões e provas apenas em disciplinas que têm prova; disciplinas só de projetos
+não oferecem a prática.
+12. Novo: incluir uma seção de feedback da plataforma.
+9. O que ainda não está pronto
+O projeto de IA já possui provas de conceito importantes, mas o RAG completo ainda não foi
+finalizado. Ainda faltam: calibrar o detector multimodal; criar o splitter definitivo; escolher e
+integrar o modelo de embeddings; configurar o pgvector; implementar o retriever; montar a
+cadeia final de pergunta e resposta; integrar o serviço Python ao Spring Boot; e testar a resposta
+com diferentes disciplinas.
+Novo: também faltam, em etapa posterior à dos materiais, a ingestão de listas de exercícios e
+provas e a prática com questões (incluindo a decisão sobre gerar ou não questões novas por IA).
+
+
+=== PAGINA 5 ===
+NEURON — Relatório de arquitetura e evolução (versão atualizada)
+Página 5
+10. Próximo marco recomendado
+O próximo marco técnico é concluir o processamento de materiais: primeiro calibrar a detecção
+de slides visuais de Teoria dos Grafos; depois transformar o conteúdo processado em chunks
+com metadados. A partir daí, a equipe pode entrar na etapa de embeddings e pgvector. A prática
+com questões só entra depois que o RAG básico, com as aulas, estiver funcionando.
+11. Resumo para apresentar ao professor
+Em termos simples: o NEURON já consegue conversar com um modelo de IA e já consegue ler
+materiais acadêmicos em PDF e PowerPoint. Os testes mostraram que materiais universitários
+nem sempre são apenas texto: fórmulas, gráficos e diagramas podem desaparecer em uma
+leitura convencional. Por isso, a arquitetura foi ajustada para combinar extração tradicional, que
+é mais barata, com análise visual apenas quando necessária. O objetivo agora é transformar
+esse conteúdo em uma base pesquisável, permitindo que o Monitor Virtual encontre o material
+correto antes de responder ao estudante. Nesta versão do escopo, o MVP também prevê a
+prática com questões no padrão dos professores, nas disciplinas com prova, e um canal de
+feedback dos estudantes sobre a plataforma.
+12. Atualização de escopo (outubro/2026)
+Item
+Antes
+Agora
+Monitor humano
+Podia permanecer no protótipo.
+Fora do escopo atual; fase futura.
+Prática com
+questões
+Não previsto.
+Prevista, apenas em disciplinas com
+prova.
+Feedback da
+plataforma
+Não previsto (o protótipo tinha
+avaliação de monitores).
+Seção própria para estudantes e
+administrador.
+Ingestão de
+materiais
+Aulas em PDF e PPTX.
+Aulas, listas de exercícios e provas.
+Estado atual: arquitetura definida + serviço de IA operacional + LLM conectado + ingestão
+PDF/PPTX em validação.
+Próxima fase: chunks → embeddings → pgvector → busca semântica → RAG completo → prática
+com questões.

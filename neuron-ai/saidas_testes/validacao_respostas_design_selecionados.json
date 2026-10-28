@@ -1,0 +1,199 @@
+{
+  "executado_em_utc": "2026-10-27T15:55:06.586356+00:00",
+  "disciplina": "design_de_artefatos_digitais",
+  "modo": "respostas",
+  "perfil_recuperacao": "hibrida_bm25_rrf_v2",
+  "corpus_sha256": "4852af9c8b9b4462b5378e14df017dd30e3d18d0d1a4790cdff2aacf60578077",
+  "top_k": 5,
+  "similaridade_minima": 0.25,
+  "casos": [
+    {
+      "id": "fora_disciplina",
+      "pergunta": "Qual é a capital da França?",
+      "filtro_assunto": null,
+      "aula_esperada": null,
+      "paginas_esperadas": [],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "23053af871fc3a16e38ea111",
+          "conteudo": "# BANCOS DE FONTES\n\nhttps://www.dafont.com/pt/\n\n## dafont.com\n\nEntrar | Registrar\nEnglish | Français | Español | Deutsch | Italiano | Português\n\nTemas | Novidades | Autores | Top | Fórum | FAQ | Enviar uma fonte | Ferramentas\nPesquisa\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z #\n\n### Categorias de Fontes\n\n**Fontes:**\n- Fogo\n- Gelo\n- Decoração\n- Máquina de escrever\n- Éxótico\n- Retro\n- Iniciais\n- Graça\n- Diversas\n\n**Estrangeiras:**\n- Arábica\n- Asiática\n- Mexicana\n- Romana, Grega\n- Russa\n- Diversas\n\n**Techno:**\n- Quadrada\n- LCD\n- Sci-Fi\n- Diversas\n\n**Gótica:**\n- Medieval\n- Moderna\n- Celta\n- Iniciais\n- Diversas\n\n**Básica:**\n- Sans Serif\n- Serif\n- Larga\n- Fixa\n- Diversas\n\n**Escrita:**\n- Caligrafia\n- Escolar\n- Manuscrita\n- Pincel\n- Rabisco\n- Gráfica\n- Old School\n- Diversas\n\n**Dingbats:**\n- Alienígenas\n- Animais\n- Asiática\n- Antiga\n- Runas\n- Erótica\n- Fantástica\n- Terror\n- Jogos\n- Formas",
+          "metadata": {
+            "pasta_aula": "aula_06_principios_de_design",
+            "chunk_caracteres": 902,
+            "motivos_deteccao": [
+              "texto_muito_curto"
+            ],
+            "total_chunks_pagina": 2,
+            "elementos_desenhados": 10,
+            "caracteres_texto_original": 43,
+            "chunk_id": "23053af871fc3a16e38ea111",
+            "periodo": "03",
+            "disciplina": "design_de_artefatos_digitais",
+            "assunto": "principios_de_design",
+            "aula": "06",
+            "arquivo": "Aula_6.pdf",
+            "pagina": 34,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.3236642269687924
+        },
+        {
+          "chunk_id": "84cf0a0abb08b3e548c6c5b3",
+          "conteudo": "BANCOS DE FONTES\nhttps://fonts.google.com/\nhttps://www.behance.net/",
+          "metadata": {
+            "pasta_aula": "aula_06_principios_de_design",
+            "chunk_caracteres": 67,
+            "motivos_deteccao": [],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 14,
+            "caracteres_texto_original": 67,
+            "chunk_id": "84cf0a0abb08b3e548c6c5b3",
+            "periodo": "03",
+            "disciplina": "design_de_artefatos_digitais",
+            "assunto": "principios_de_design",
+            "aula": "06",
+            "arquivo": "Aula_6.pdf",
+            "pagina": 36,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.20671494047134797
+        },
+        {
+          "chunk_id": "27bfdba0a1b4aa16d5cd91bb",
+          "conteudo": "Exemplos de fontes com serifa: Times New Roman, Garamond, Centaur, Baskerville, Didot e Rockwell.",
+          "metadata": {
+            "pasta_aula": "aula_06_principios_de_design",
+            "revisao_visual": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+            "chunk_caracteres": 97,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 5,
+            "caracteres_texto_original": 0,
+            "chunk_id": "27bfdba0a1b4aa16d5cd91bb",
+            "periodo": "03",
+            "disciplina": "design_de_artefatos_digitais",
+            "assunto": "principios_de_design",
+            "aula": "06",
+            "arquivo": "Aula_6.pdf",
+            "pagina": 26,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.19591860150805762
+        },
+        {
+          "chunk_id": "320f9b3a5952d7df1bef1824",
+          "conteudo": "# ROMANAS / LINEARES\n\nA página apresenta uma comparação visual entre dois estilos de representação do alfabeto latino, dispostos em duas colunas:\n\n**Coluna 1 (Romanas):**\nApresenta o alfabeto completo (A-Z) em estilo tipográfico serifado, com variação de espessura nas hastes e presença de serifas nas extremidades.\n- A B C D\n- E F G H\n- I J K L\n- M N O P\n- Q R S T\n- U V W\n- X Y Z\n\n**Coluna 2 (Lineares):**\nApresenta o alfabeto completo (A-Z) em estilo tipográfico sem serifa, construído com traços de espessura uniforme e formas geométricas simples.\n- A B C D\n- E F G H\n- I J K L\n- M N O P\n- Q R S T\n- U V W\n- X Y Z",
+          "metadata": {
+            "pasta_aula": "aula_06_principios_de_design",
+            "chunk_caracteres": 617,
+            "motivos_deteccao": [
+              "texto_muito_curto"
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 7,
+            "caracteres_texto_original": 18,
+            "chunk_id": "320f9b3a5952d7df1bef1824",
+            "periodo": "03",
+            "disciplina": "design_de_artefatos_digitais",
+            "assunto": "principios_de_design",
+            "aula": "06",
+            "arquivo": "Aula_6.pdf",
+            "pagina": 20,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.18837536504121843
+        },
+        {
+          "chunk_id": "b762ae2c11498fe7091b5888",
+          "conteudo": "1. **Solicitar corrida**\n   - Tela inicial com mapa, campo de busca \"Para onde vamos?\" e opções de destino (Casa, Trabalho).\n   - Botão: \"Solicitar corrida\".\n2. **Indicar origem**\n   - Tela com mapa e campo de origem.\n   - Origem: \"Rua das Flores, 123\".\n   - Opções: Casa, Trabalho.\n   - Botão: \"Confirmar origem\".\n3. **Informar destino**\n   - Tela com mapa e campo de destino.\n   - Destino: \"Shopping Center, Av. Paulista, 1000\".\n   - Opções: Casa, Shopping Center, Aeroporto.\n   - Botão: \"Confirmar destino\".\n4. **Acompanhar motorista**\n   - Tela com mapa e informações do motorista.\n   - Mensagem: \"Seu motorista está a 3 min de você\".\n   - Nome: Carlos Silva, 4.9.\n   - Veículo: Toyota Corolla - Prata, ABC-1234.\n   - Botões: \"Mensagem\", \"Ligar\".\n5. **Realizar pagamento**\n   - Tela de pagamento com resumo da corrida.\n   - Origem: R. das Flores, 123.\n   - Destino: Shopping Center.\n   - Valor: R$ 28,50.\n   - Forma de pagamento: 1234, Pix, Dinheiro.\n   - Botão: \"Confirmar pagamento\".",
+          "metadata": {
+            "pasta_aula": "aula_01_introducao_ao_design",
+            "chunk_caracteres": 989,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 4,
+            "elementos_desenhados": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "b762ae2c11498fe7091b5888",
+            "periodo": "03",
+            "disciplina": "design_de_artefatos_digitais",
+            "assunto": "introducao_ao_design",
+            "aula": "01",
+            "arquivo": "Aula 01 - Design de Artefatos Digitais.pdf",
+            "pagina": 24,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 2,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.1879797652935702
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": false,
+      "resultado": {
+        "resposta": "Não encontrei informações suficientes nos materiais da disciplina para responder a essa pergunta.",
+        "fontes": [],
+        "fallback": true,
+        "motivo": "contexto_insuficiente",
+        "reformulacoes": 1
+      },
+      "tentativas": [
+        {
+          "mensagem_pergunta_e_contexto": "PERGUNTA ORIGINAL:\nQual é a capital da França?\n\nCONSULTA UTILIZADA:\nQual é a capital da França?\n\nCONSULTAS ANTERIORES (JSON):\n[\"Qual é a capital da França?\"]\n\nCONTEXTO (JSON):\n[{\"referencia\": \"F1\", \"metadata\": {\"pasta_aula\": \"aula_06_principios_de_design\", \"chunk_caracteres\": 902, \"motivos_deteccao\": [\"texto_muito_curto\"], \"total_chunks_pagina\": 2, \"elementos_desenhados\": 10, \"caracteres_texto_original\": 43, \"chunk_id\": \"23053af871fc3a16e38ea111\", \"periodo\": \"03\", \"disciplina\": \"design_de_artefatos_digitais\", \"assunto\": \"principios_de_design\", \"aula\": \"06\", \"arquivo\": \"Aula_6.pdf\", \"pagina\": 34, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# BANCOS DE FONTES\\n\\nhttps://www.dafont.com/pt/\\n\\n## dafont.com\\n\\nEntrar | Registrar\\nEnglish | Français | Español | Deutsch | Italiano | Português\\n\\nTemas | Novidades | Autores | Top | Fórum | FAQ | Enviar uma fonte | Ferramentas\\nPesquisa\\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z #\\n\\n### Categorias de Fontes\\n\\n**Fontes:**\\n- Fogo\\n- Gelo\\n- Decoração\\n- Máquina de escrever\\n- Éxótico\\n- Retro\\n- Iniciais\\n- Graça\\n- Diversas\\n\\n**Estrangeiras:**\\n- Arábica\\n- Asiática\\n- Mexicana\\n- Romana, Grega\\n- Russa\\n- Diversas\\n\\n**Techno:**\\n- Quadrada\\n- LCD\\n- Sci-Fi\\n- Diversas\\n\\n**Gótica:**\\n- Medieval\\n- Moderna\\n- Celta\\n- Iniciais\\n- Diversas\\n\\n**Básica:**\\n- Sans Serif\\n- Serif\\n- Larga\\n- Fixa\\n- Diversas\\n\\n**Escrita:**\\n- Caligrafia\\n- Escolar\\n- Manuscrita\\n- Pincel\\n- Rabisco\\n- Gráfica\\n- Old School\\n- Diversas\\n\\n**Dingbats:**\\n- Alienígenas\\n- Animais\\n- Asiática\\n- Antiga\\n- Runas\\n- Erótica\\n- Fantástica\\n- Terror\\n- Jogos\\n- Formas\"}]",
+          "saida_modelo": "{\"suficiente\": false, \"resposta\": \"\", \"consulta_busca\": \"capital da França\"}"
+        },
+        {
+          "mensagem_pergunta_e_contexto": "PERGUNTA ORIGINAL:\nQual é a capital da França?\n\nCONSULTA UTILIZADA:\ncapital da França\n\nCONSULTAS ANTERIORES (JSON):\n[\"Qual é a capital da França?\", \"capital da França\"]\n\nCONTEXTO (JSON):\n[{\"referencia\": \"F1\", \"metadata\": {\"pasta_aula\": \"aula_06_principios_de_design\", \"chunk_caracteres\": 902, \"motivos_deteccao\": [\"texto_muito_curto\"], \"total_chunks_pagina\": 2, \"elementos_desenhados\": 10, \"caracteres_texto_original\": 43, \"chunk_id\": \"23053af871fc3a16e38ea111\", \"periodo\": \"03\", \"disciplina\": \"design_de_artefatos_digitais\", \"assunto\": \"principios_de_design\", \"aula\": \"06\", \"arquivo\": \"Aula_6.pdf\", \"pagina\": 34, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# BANCOS DE FONTES\\n\\nhttps://www.dafont.com/pt/\\n\\n## dafont.com\\n\\nEntrar | Registrar\\nEnglish | Français | Español | Deutsch | Italiano | Português\\n\\nTemas | Novidades | Autores | Top | Fórum | FAQ | Enviar uma fonte | Ferramentas\\nPesquisa\\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z #\\n\\n### Categorias de Fontes\\n\\n**Fontes:**\\n- Fogo\\n- Gelo\\n- Decoração\\n- Máquina de escrever\\n- Éxótico\\n- Retro\\n- Iniciais\\n- Graça\\n- Diversas\\n\\n**Estrangeiras:**\\n- Arábica\\n- Asiática\\n- Mexicana\\n- Romana, Grega\\n- Russa\\n- Diversas\\n\\n**Techno:**\\n- Quadrada\\n- LCD\\n- Sci-Fi\\n- Diversas\\n\\n**Gótica:**\\n- Medieval\\n- Moderna\\n- Celta\\n- Iniciais\\n- Diversas\\n\\n**Básica:**\\n- Sans Serif\\n- Serif\\n- Larga\\n- Fixa\\n- Diversas\\n\\n**Escrita:**\\n- Caligrafia\\n- Escolar\\n- Manuscrita\\n- Pincel\\n- Rabisco\\n- Gráfica\\n- Old School\\n- Diversas\\n\\n**Dingbats:**\\n- Alienígenas\\n- Animais\\n- Asiática\\n- Antiga\\n- Runas\\n- Erótica\\n- Fantástica\\n- Terror\\n- Jogos\\n- Formas\"}, {\"referencia\": \"F2\", \"metadata\": {\"pasta_aula\": \"aula_06_principios_de_design\", \"chunk_caracteres\": 67, \"motivos_deteccao\": [], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 14, \"caracteres_texto_original\": 67, \"chunk_id\": \"84cf0a0abb08b3e548c6c5b3\", \"periodo\": \"03\", \"disciplina\": \"design_de_artefatos_digitais\", \"assunto\": \"principios_de_design\", \"aula\": \"06\", \"arquivo\": \"Aula_6.pdf\", \"pagina\": 36, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"textual\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"BANCOS DE FONTES\\nhttps://fonts.google.com/\\nhttps://www.behance.net/\"}]",
+          "saida_modelo": "{\"suficiente\": false, \"resposta\": \"\", \"consulta_busca\": \"capital da França\"}"
+        }
+      ],
+      "prompt_sha256": "4ea7663ba078a493ef49471f23c68d52805ba63bc561cc7f4dfc90be95b74809",
+      "trechos_citados": [],
+      "evidencia_citada": false,
+      "revisao_semantica": "pendente",
+      "verificacao_automatica": true
+    }
+  ],
+  "cobertura_lexical_minima": 0.5
+}

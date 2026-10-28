@@ -1,0 +1,43 @@
+{
+  "materiais": {
+    "1": {
+      "chunks_antes": 193,
+      "chunks_depois": 193,
+      "removidos": 0,
+      "atualizados": 193,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 193
+    },
+    "2": {
+      "chunks_antes": 0,
+      "chunks_depois": 6,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 6,
+      "inseridos": 6,
+      "vinculos_relacionais_atualizados": 6
+    },
+    "3": {
+      "chunks_antes": 0,
+      "chunks_depois": 9,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 9,
+      "inseridos": 9,
+      "vinculos_relacionais_atualizados": 9
+    }
+  },
+  "contagens_por_disciplina": {
+    "design_de_artefatos_digitais": 363,
+    "estatistica": 208,
+    "estrutura_de_dados_avancada": 167,
+    "projeto_de_ideacao_de_software": 217
+  },
+  "outras_disciplinas_preservadas": true,
+  "assinaturas_outras_disciplinas": {
+    "design_de_artefatos_digitais": "afdd385bff2c9798f964d6f51da253a5",
+    "estrutura_de_dados_avancada": "696610dfa08fdb9fc9fc7ce82b1f9b1c",
+    "projeto_de_ideacao_de_software": "f36ab83cb0c21f6c1919b5a5570b5083"
+  }
+}

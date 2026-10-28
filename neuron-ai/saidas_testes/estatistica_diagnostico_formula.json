@@ -1,0 +1,57 @@
+{
+  "geracoes_brutas": [
+    "```json\n{\n  \"suficiente\": true,\n  \"resposta\": \"O erro padrão (ou erro) da média é dado pela fórmula: erro = sigma dividido pela raiz quadrada de n, ou seja, erro = σ / √n. [F1] Essa medida reflete a variação da média amostral em relação à média populacional. [F1]\"\n}\n```"
+  ],
+  "resultado": {
+    "resposta": "O erro padrão (ou erro) da média é dado pela fórmula: erro = sigma dividido pela raiz quadrada de n, ou seja, erro = σ / √n. [F1] Essa medida reflete a variação da média amostral em relação à média populacional. [F1]",
+    "fontes": [
+      {
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "chunk_caracteres": 135,
+        "motivos_deteccao": [
+          "multimodal_forcado_manualmente"
+        ],
+        "total_chunks_pagina": 1,
+        "elementos_desenhados": 3,
+        "caracteres_texto_original": 106,
+        "metadados_documento_originais": {
+          "title": "",
+          "author": "Jonatas Junior",
+          "format": "PDF 1.7",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "modDate": "D:20261019135537-03'00'",
+          "subject": "",
+          "trapped": "",
+          "keywords": "",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "encryption": null,
+          "creationDate": "D:20261019135537-03'00'"
+        },
+        "chunk_id": "5eff0c8e43c0aca5eef54ec9",
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "estimacao_e_intervalos_para_media",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 77,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "chunk_index": 1,
+        "material_id": null,
+        "periodo_id": null,
+        "disciplina_id": null,
+        "assunto_id": null,
+        "referencia": "F1",
+        "similaridade": 0.7062951326370239
+      }
+    ],
+    "fallback": false,
+    "motivo": null,
+    "blocos_sem_fonte_removidos": 0,
+    "reformulacoes": 0
+  }
+}

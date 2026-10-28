@@ -1,0 +1,18 @@
+{
+  "arquivo": "prova anterior de estátisitica.pdf",
+  "metadata": {
+    "/CreationDate": "D:20261024213517+00'00'",
+    "/Creator": "PDFium",
+    "/Producer": "PDFium"
+  },
+  "paginas": [
+    {
+      "pagina": 1,
+      "texto": "CENTRO\nUNIVERSITÁRIO\nTIRADENTES\nCURSO:\nCIÊNCIA DA COMPUTAÇÃO\nDISCIPLINA/TURMA:\nF101060-ESTATÍSTICA COMPUTACIONAL - E01\nPROFESSOR:\nUnit\nVERIFICAÇÃO DE CONHECIMENTO: 18\n019560-JONATAS DA SILVA JUNIOR\nNOTA:\n65\n2a Supletiva Final\nDATA: 01 10 2024\nDISCENTE: JauoMatalo Romas\n1. O que representa a mediana?\na) O valor que mais se repete.\nO valor central dos dados ordenados.\nc) A média ponderada,\nd) A soma dos valores dividida pelo total.\ne) O menor valor do conjunto.\n2. A amplitude de um conjunto de dados é:\na) A diferença entre média e moda.\nA diferença entre o maior e o menor valor.\nc) O desvio padrão.\nd) A soma de todos os valores.\ne) O intervalo interquartílico.\n3. A probabilidade condicional P(A|B) significa:\nA probabilidade de A acontecer dado que B ocorreu.\nb) A soma das probabilidades de A e B.\nc) Sempre a probabilidade de B.\nd) A independência entre A e B.\ne) A probabilidade de nenhum ocorrer.\n4. O que é o espaço amostral em um lançamento de duas moedas?\na) {C, K}\n{CC, CKК, KС, KК}\nc) {0,1}\nd) {1,2}\ne) Apenas os resultados favoráveis.\n5. Em termos de interpretação, o desvio-padrão mede:\na) A variação conjunta de duas variáveis.\nb) A dispersão média em torno da média.\nc) A tendência central.\nd) A probabilidade de um evento.\ne) O valor central.\n6. A covariância próxima de zero indica que:\na) Existe forte correlação positiva.\nb) Existe forte correlação negativa.\nc) Não há relação linear clara entre as variáveis.\nd) Uma variável determina a outra.\ne) As variáveis são mutuamente exclusivas.\n520h\nde Cada"
+    },
+    {
+      "pagina": 2,
+      "texto": "CURSO:\nCIÊNCIA DA COMPUTAÇÃO\nDISCIPLINA/TURMA:\nF101060-ESTATÍSTICA\n COMPUTACIONAL\n - E01\nPROFESSOR:\n019560-JONATAS\n DA SILVA JUNIOR\nUnit\nCENTRO\nUNIVERSITÁRIO\nTIRADENTES\nVERIFICAÇÃO DE CONHECIMENTO: 18\nNOTA\n2a Supletiva\nFinal\nDATA: 0410\n20\nDISCENTE:Mattus Maado Ramas\n7. (Cálculo)\nDados: [2, 4, 8, 10].\na) Calcule a média e a mediana.\nb) Calcule a variância populacional e o desvio-padrão populacional.\n8. (Cálculo)\nQuantos arranjos simples de 3 elementos podem ser feitos a partir de 15 observações?\nTexto formativo:\nO monitoramento de tempos de login em sistemas computacionais fornece informações\nvaliosas sobre o desempenho da infraestrutura de rede. Quando há valores muito\ndiscrepantes, como picos de lentidão, os quartis ajudam a separar o comportamento\ntípico do atípico. O IQR permite avaliar a estabilidade da maioria dos usuários, sem que\nvalores extremos prejudiquem a interpretação.\n9. (Cálculo) 123 5 6 4\nConjunto de dados: [2, 3, 5, 7, 9, 11, 13, 15].\na) Calcule Q1, Q2 e Q3.\nb) Encontre o IQR.\n4\n18\nهنا2+4+6+8+10 = 30=6\n2,0\n15!\n3(15-3) 12 2\n15•443-243\nMilia =6\n5 5\n=\nmediana- 6-o dado do mio\nb)\nVariamlia =8\n6-2=4\nOn =dh-)+12-(+0+2+²h\n6-4-2\n40-8\n6-8=-2\n6-Y0=-4\ndeartio-Padião\n√2.83\n228\na\n \norden"
+    }
+  ]
+}

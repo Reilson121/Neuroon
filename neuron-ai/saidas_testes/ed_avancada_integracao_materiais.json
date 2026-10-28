@@ -1,0 +1,32 @@
+{
+  "materiais": {
+    "4": {
+      "chunks_antes": 18,
+      "chunks_depois": 18,
+      "removidos": 0,
+      "atualizados": 18,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 18
+    },
+    "5": {
+      "chunks_antes": 24,
+      "chunks_depois": 24,
+      "removidos": 0,
+      "atualizados": 24,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 24
+    },
+    "6": {
+      "chunks_antes": 125,
+      "chunks_depois": 125,
+      "removidos": 0,
+      "atualizados": 125,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 125
+    }
+  },
+  "outras_disciplinas_preservadas": true
+}

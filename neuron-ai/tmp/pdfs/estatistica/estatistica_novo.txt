@@ -1,0 +1,2132 @@
+=== PAGINA 1 ===
+Antes de tudoAntes de tudo
+Basicão de probabilidadeBasicão de probabilidade
+
+=== PAGINA 2 ===
+Por que 
+precisamos de 
+probabilidade 
+se temos 
+muitos dados?
+Dados são 
+finitos, 
+amostras 
+ruidosas.
+Imagine dois 
+jogadores 
+jogando dados 3 
+vezes cada. 
+
+=== PAGINA 3 ===
+Introdução à 
+Probabilidade
+• Dados são amostras de um processo 
+aleatório
+• Modelos fazem inferência sobre 
+populações desconhecidas
+• Lida com ruído, falta de dados, outliers
+• Permite medir incerteza (intervalos, 
+variâncias, distribuições preditivas)
+• Sustenta decisões: classificação, 
+recomendação, detecção de anomalias
+
+
+=== PAGINA 4 ===
+Probabilidade: Eventos e Independência
+• Ação, ou tentativa, através da qual resultados específicos (contagens, 
+medidas ou respostas) são obtidos.
+Experimento de 
+probabilidade
+• Resultado de um único teste em um experimento de probabilidade.Resultado
+• Conjunto de todos os possíveis resultados de um experimento de 
+probabilidade.Espaço de amostra
+• Um ou mais resultados e é uma divisão do espaço de amostra.
+• Simples: um único resultado. Se houver mais de um, será um evento não 
+simples.
+Evento
+
+=== PAGINA 5 ===
+Princípio fundamental da contagem
+• Se um evento pode ocorrer de m maneiras e um segundo evento 
+pode ocorrer de n maneiras, o número de maneiras que os dois 
+eventos podem ocorrer em sequência é m*n.
+• Pode ser estendido para qualquer número de eventos ocorrendo 
+em sequência.
+• Podemos usar o diagrama de árvore, para ajudar a calcular.
+
+=== PAGINA 6 ===
+Tipos de 
+probabilidade
+• Probabilidade clássica
+• Cada resultado em uma amostragem é 
+igualmente provável.
+• 𝑃 𝐸 =
+𝑛º 𝑑𝑒 𝑟𝑒𝑠𝑢𝑙𝑡𝑎𝑑𝑜𝑠 𝑛𝑜 𝑒𝑣𝑒𝑛𝑡𝑜 𝐸
+𝑛º 𝑡𝑜𝑡𝑎𝑙 𝑑𝑒 𝑟𝑒𝑠𝑢𝑙𝑡𝑎𝑑𝑜𝑠 𝑛𝑜 𝑒𝑠𝑝𝑎ç𝑜 𝑎𝑚𝑜𝑠𝑡𝑟𝑎𝑙
+• Probabilidade empírica (estatística)
+• Baseado nas observações obtidas de 
+experimentos de probabilidade
+• Frequência relativa de um evento:
+• 𝑃 𝐸 = 𝑓𝑟𝑒𝑞𝑢ê𝑛𝑐𝑖𝑎 𝑑𝑜 𝑒𝑣𝑒𝑛𝑡𝑜 𝐸
+𝑓𝑟𝑒𝑞𝑢ê𝑛𝑐𝑖𝑎 𝑡𝑜𝑡𝑎𝑙 = 𝑓
+𝑛
+
+=== PAGINA 7 ===
+Um pouco mais de probabilidade
+• Lei dos grandes números
+• Conforme um experimento é repetido, a probabilidade empírica de um 
+evento se aproxima da probabilidade teorética (real) do evento.
+• Regra da amplitude das probabilidades
+• A probabilidade de um evento E ocorrer é entre 0 e 1
+• 0 ≤ P(E) ≤ 1
+• Complemento do evento E
+• O conjunto de todos os resultados em um espaço de amostra que os 
+resultados não estão incluídos no evento E.
+• Denotado E ′ (E prime).
+
+=== PAGINA 8 ===
+União de dois eventos
+• Fórmula geral:
+P(A∪B)=P(A)+P(B)−P(A∩B)
+Significado: A probabilidade de ocorrer A ou B (ou ambos) é a 
+soma das probabilidades de A e B, menos a interseção (para não 
+contar duas vezes).
+• Exemplo: Se 60% gostam de futebol, 50% gostam de vôlei, e 
+30% gostam dos dois:
+P(A∪B)=0,6+0,5−0,3=0,8
+
+=== PAGINA 9 ===
+União de dois eventos
+• Se A e B são disjuntos (não ocorrem juntos):
+P(A∪B)=P(A)+P(B)
+• Exemplo: Jogar um dado. A = sair 1, B = sair 2. Como não 
+podem ocorrer juntos:
+P(A∪B)=1/6+1/6=2/6
+
+=== PAGINA 10 ===
+Probabilidade condicional
+• Fórmula:
+P(A∣B)=P(A∩B)/P(B), com P(B)>0
+Significado: Probabilidade de A acontecer sabendo que B 
+aconteceu.
+• Exemplo: Em uma turma, 40% são meninas, e 10% são meninas 
+que usam óculos. Qual a chance de uma pessoa usar óculos 
+sabendo que é menina?
+P(óculos∣menina)=0,10/0,40=0,25
+
+=== PAGINA 11 ===
+Regra do produto
+• Fórmula:
+P(A∩B)=P(A∣B)⋅P(B)
+Significado: Probabilidade de A e B acontecerem juntos.
+• Exemplo: Se 40% são meninas e 25% das meninas usam óculos:
+ P(menina ∩ óculos)=0,25⋅0,40=0,10
+
+=== PAGINA 12 ===
+Independência
+• Fórmulas equivalentes:
+P(A∩B)=P(A)⋅P(B)
+P(A∣B)=P(A) 
+Significado: A ocorrência de B não afeta a chance de A.
+• Exemplo: Jogar dois dados. A = sair 6 no primeiro, B = sair 3 no 
+segundo. Como são independentes:
+P(A∩B)=1/6⋅1/6=1/36
+
+=== PAGINA 13 ===
+Arranjo, Permutação e Combinação
+• Formas de contar de quantas maneiras podemos selecionar e 
+(opcionalmente) ordenar elementos de um conjunto.
+• A diferença entre elas se resume a dois pontos:
+Quantos elementos escolhemos?
+Todos os elementos do 
+conjunto, ou
+Todos os elementos do 
+conjunto, ou
+Apenas parte deles (um 
+número k menor que n).
+Apenas parte deles (um 
+número k menor que n).
+A ordem importa ou não?
+Importa: mudar a sequência 
+conta como algo novo, ou
+Importa: mudar a sequência 
+conta como algo novo, ou
+Não importa: só importa quem 
+está no grupo, não a ordem.
+Não importa: só importa quem 
+está no grupo, não a ordem.
+
+=== PAGINA 14 ===
+Arranjo
+• Quando usar: 
+ você quer selecionar k elementos dentre n e ordená-los.
+• Ordem importa? 
+ Sim.
+Fórmula:
+𝐴𝑘
+𝑛 = 𝑛!
+𝑛 − 𝑘 !
+
+=== PAGINA 15 ===
+Permutação Simples (Tipo especial de arranjo)
+• Quando usar: 
+ reordenar todos os n elementos, e toda ordem é distinta.
+• Ordem importa? 
+ Sim.
+Fórmula:
+𝑃𝑛𝑛 = 𝑛!
+𝑛 − 𝑛 ! = 𝑛!
+0! = 𝑛!
+1 = 𝑛!
+
+=== PAGINA 16 ===
+Permutação com Repetição 
+• Quando usar: 
+ Quando há elementos repetidos no conjunto.
+• Ordem importa? 
+ Sim.
+Fórmula:
+𝑃𝑎,𝑏,𝑐…
+𝑛 = 𝑛!
+𝑎! 𝑏! 𝑐! …
+
+=== PAGINA 17 ===
+Permutação Circular
+• Quando usar: 
+ Quando os elementos são organizados em círculo, como em 
+uma mesa redonda.
+• Ordem importa? 
+ Sim.
+Fórmula:
+𝑃𝑐𝑖𝑟𝑐𝑢𝑙𝑎𝑟(𝑛) = 𝑛 − 1 !
+Por quê?: 
+ Porque uma rotação completa não muda a ordem relativa 
+dos elementos.
+
+=== PAGINA 18 ===
+Permutação Colar
+• Quando usar: 
+ dispor contas em um colar onde refletir (virar de fora para 
+dentro) também não cria disposição nova.
+• Ordem importa? 
+ Sim, mas rotações e reflexões são equivalentes.
+Fórmula:
+𝑃𝐶𝑜𝑙𝑎𝑟(𝑛) = 𝑛 − 1 !
+2
+
+=== PAGINA 19 ===
+Combinação
+• Quando usar: 
+ você quer selecionar k elementos dentre n sem se importar 
+com a ordem.
+• Ordem importa? 
+ Não.
+Fórmula:
+𝐴𝑘
+𝑛 = 𝑛!
+𝑘! 𝑛 − 𝑘 !
+
+=== PAGINA 20 ===
+Estatística
+Análise Exploratória de Dados
+Ver código
+
+=== PAGINA 21 ===
+Estatística:
+Descritiva x Inferencial
+• Descritiva conta a história do que 
+já temos; 
+• Inferencial projeta essa história 
+para além, sempre carregando um 
+“rodapé” de incerteza. 
+
+=== PAGINA 22 ===
+Tipo de Dados
+Estruturados
+• Tabelas (linhas = registros, 
+colunas = variáveis).
+• Exemplo: DataFrames no 
+pandas.
+Não estruturados
+• Texto, imagens, vídeos, logs.
+
+=== PAGINA 23 ===
+• Tipo de Dados:
+Quantitativos x Qualitativos
+Discretos x Contínuos
+Nominais x Ordinais x Binários
+
+=== PAGINA 24 ===
+Tipo de Dados
+• Contínuos (nº de 
+campeonatos, peso)
+• Discretos (contagem de 
+eventos)
+Dados Numéricos
+• Nominais (estado, cor)
+• Ordinais (classificação 1º–5º)
+• Binários (0/1, 
+verdadeiro/falso)
+Dados Categóricos
+
+=== PAGINA 25 ===
+Variáveis Aleatórias: Discretas e Contínuas
+• Resultado numérico de um experimento aleatório.
+Variável Aleatória: 
+• Assume valores específicos (contáveis). Ex: número de filhos.
+Discreta:
+• Assume qualquer valor em um intervalo. Ex: altura, peso.
+Contínua: 
+
+=== PAGINA 26 ===
+Variáveis Aleatórias Discretas
+Assume valores específicos e isolados.
+Probabilidade dada pela função de probabilidade de massa (PMF):
+• P(X = x) = p(x)
+Exemplo: lançar um dado justo (cada face com probabilidade 1/6).
+
+=== PAGINA 27 ===
+Variáveis Aleatórias Contínuas
+Assume valores em intervalos contínuos.
+Probabilidade dada pela função densidade de probabilidade (PDF):
+• P(a ≤ X ≤ b) = ∫ f(x) dx (área sob a curva)
+Exemplo: tempo necessário para concluir uma tarefa.
+
+=== PAGINA 28 ===
+Função Massa e Função Densidade de 
+Probabilidade (PDF)
+• Variáveis discretas (contáveis)
+• Probabilidade atribuída a valores específicos
+• Soma das probabilidades é igual a 1: Σ p(x) = 1
+• Exemplo: Lançamento de um dado
+PMF (Probability Mass Function) - Discreta:
+• Variáveis contínuas (intervalos)
+• Probabilidade atribuída a intervalos (área sob curva)
+• Área total sob a curva é igual a 1: ∫ f(x) dx = 1
+• Probabilidade em ponto específico é 0
+• Exemplo: Altura de pessoas
+PDF (Probability Density Function) - Contínua:
+
+=== PAGINA 29 ===
+Medidas de tendência 
+central
+
+=== PAGINA 30 ===
+Média Mediana Moda Escore Z
+
+=== PAGINA 31 ===
+Medidas de tendência central
+• Média
+• O que é?
+"Valor médio" – soma dos valores dividida pela quantidade.
+• Dá uma ideia de “centro” dos dados.
+• Cuidado: sensível a valores muito extremos (outliers).
+• Mediana
+• O que é?
+Valor que fica no meio quando ordenamos os dados.
+• Melhor quando há outliers ou distribuição muito assimétrica.
+
+=== PAGINA 32 ===
+Medidas de tendência central
+• Média Ponderada
+• O que é?
+Média que dá mais peso para certos valores.
+• Ajustar a importância de cada valor.
+• Média Aparada (Trimmed Mean)
+• O que é?
+    Média calculada removendo valores extremos.
+• Útil quando queremos média menos sensível a outliers.
+
+=== PAGINA 33 ===
+Medidas de tendência central
+• Média Geométrica
+• O que é?
+Taxa de crescimento média de algo que muda de forma multiplicativa (como juros ou 
+retornos percentuais)..
+Para um conjunto de n números x1,x2,…,xn, a Média Geométrica (MG) é calculada como a 
+raiz n-ésima do produto de todos os números.
+• Moda
+• O que é?
+    valor mais frequente em um conjunto de dados.
+• Pode existir nenhuma moda, uma moda (unimodal), duas modas (bimodal) ou várias modas 
+(multimodal).
+• Pode ser usada tanto em dados numéricos quanto categóricos.
+• Pode ser única, múltipla ou inexistente.
+• Útil para dados numéricos e categóricos.
+
+=== PAGINA 34 ===
+Medidas de tendência central 
+que depende de dispersão
+• Escore Z
+• O que é?
+Medida de posição relativa.
+• Indica quantos desvios-padrão um valor está acima ou abaixo da média. 
+
+=== PAGINA 35 ===
+Relação entre média e mediana → fornece a forma da 
+dispersão
+Média = Mediana → Distribuição simétrica
+Média > Mediana → Distribuição assimétrica à direita
+Média < Mediana → Distribuição assimétrica à esquerda
+Medidas de tendência central
+
+
+=== PAGINA 36 ===
+Medidas de dispersãoMedidas de dispersão
+
+=== PAGINA 37 ===
+Amplitude Variância Desvio 
+Padrão Fractis IRQ
+
+=== PAGINA 38 ===
+Medidas de Variabilidade
+• Variância e Desvio-Padrão
+• Ideia: o quanto os valores se afastam da média.
+• Variância = média dos quadrados dos desvios em relação à 
+média.
+• Desvio-Padrão = raiz quadrada da variância.
+• Medida mais comum de dispersão.
+• Quanto maior, mais espalhados os dados.
+
+=== PAGINA 39 ===
+Medidas de Variabilidade
+• Desvio Absoluto Médio (MAD)
+• O que é?
+    Média das distâncias absolutas em relação à média.
+• Menos sensível a outliers que variância.
+• Amplitude (Range)
+• O que é?
+    Diferença entre maior e menor valor.
+• Simples, mas muito sensível a outliers.
+
+=== PAGINA 40 ===
+Medidas de Variabilidade
+• Fractis 
+• O que é?
+ são números que particionam (dividem) um conjunto de dados ordenados em partes iguais.
+• Ex: Quartis dividem dados ordenados em quatro partes aproximadamente iguais.
+• Mediana = 50º percentil.
+• Indice = (n-1)* Qn (mas lembre que o indice inicia do zero)
+• IQR (Intervalo Interquartil)
+• O que é?
+    Diferença entre 75º e 25º percentil.
+•  Mede a "caixa" central dos dados.
+• Mais robusto a outliers.
+
+=== PAGINA 41 ===
+Outras medidas
+
+=== PAGINA 42 ===
+Outras medidas
+• Valor Esperado (Expected Value) 
+• O que é?
+média ponderada dos possíveis 
+resultados, onde os pesos são as 
+probabilidades de cada resultado 
+acontecer.
+• Muito usado para prever quanto se pode 
+esperar ganhar (ou perder) em média em 
+situações de incerteza: investimentos, 
+vendas, projetos, jogos, etc.
+• Como calcular?
+• Multiplica-se cada valor possível pelo sua 
+probabilidade.
+• Soma-se todos esses resultados.
+
+
+=== PAGINA 43 ===
+Outras medidas
+• Probabilidade 
+• O que é?
+Probabilidade é o quanto 
+esperamos que um evento 
+ocorra, em média, se 
+repetíssemos o experimento 
+muitas vezes.
+• Pode ser apresentada como fração, 
+decimal ou porcentagem.
+• Exemplo: Se as chances de vitória 
+de um time são “2 para 1” , a 
+probabilidade é 
+2/(2+1)=2/3≈66,7%2/(2+1) = 2/3 
+\approx 66,7\%2/(2+1)=2/3≈66,7%.
+
+
+=== PAGINA 44 ===
+Outras medidas
+• Coeficente de correlação
+• Mede força e direção da 
+relação linear entre duas 
+variáveis numéricas.
+• Intervalo:
+• –1 = relação negativa perfeita
+• 0  = sem relação linear
+• +1 = relação positiva perfeita
+• Fórmula:
+𝑟 = σ 𝑥 − ҧ𝑥 𝑦 − ത𝑦
+𝑛 − 1 𝑆𝑥 𝑆𝑦
+
+=== PAGINA 45 ===
+Outras medidas
+• Matriz de Correlação
+• Tabela com correlações entre pares de 
+variáveis.
+• Propriedades:
+• Diagonal = 1 (variável consigo mesma)
+• Simétrica (r(X, Y) = r(Y ,X))
+• Uso:
+• Ver relações entre múltiplas variáveis
+• Avaliar multicolinearidade
+
+
+=== PAGINA 46 ===
+Tabela de frequência & 
+Representação gráfica
+
+=== PAGINA 47 ===
+Distribuição de frequência
+• Tabela que mostra classes ou 
+intervalos de dados com uma 
+contagem do número de 
+entradas em cada classe
+• A frequência, f, de uma 
+classe é o número de 
+entradas de dados na classe
+Classe Frequência,
+f
+1 – 5 5
+6 – 10 8
+11 – 15 6
+16 – 20 8
+21 – 25 5
+26 – 30 4
+Limite inferior da
+classe
+Limite superior da
+classe
+Tamanho da
+classe 6 – 1 = 5
+
+=== PAGINA 48 ===
+Distribuição de frequência
+Decida o número de classes.
+•Geralmente entre 5 e 20; do contrário, pode ser 
+difícil detectar padrões
+Encontre o tamanho da classe.
+•Determinar a variação dos dados
+•Dividir a variação pelo número de classes
+•Arredondar para cima para o próximo número
+conveniente
+Encontre os limites da classe. 
+•Pode-se usar a entrada de menor valor como o 
+limite inferior da primeira classe
+•Encontrar os limites inferiores remanescentes
+(adicione o tamanho da classe ao limite inferior 
+da classe precedente)
+•Encontrar o limite superior da primeira classe.
+•Encontrar os limites superiores remanescentes
+Fazer um registro para cada entrada 
+de dados na fileira da classe
+apropriada.
+Contar os registros para encontrar a 
+frequência total f para cada classe.
+
+=== PAGINA 49 ===
+Exemplo
+Vamos fazer a tabela de 
+distribuição?
+50  40  41  17  11    7  22  44  
+28  21  19  23  37  51  54  42  
+86 41  78  56  72  56  17    7  
+69  30  80  56  29  33  46  31  
+39  20 18  29  34  59  73  77  
+36  39  30  62  54  67  39  31  
+53  44
+
+=== PAGINA 50 ===
+Resposta
+7, 7, 11, 17, 17, 
+18, 19, 20, 21, 22, 
+23, 28, 29, 29, 30, 
+30, 31, 31, 33, 34, 
+36, 37, 39, 39, 39, 
+40, 41, 41, 42, 44, 
+44, 46, 50, 51, 53, 
+54, 54, 56, 56, 59, 
+62, 67, 69, 72, 73, 
+77, 78, 80, 86
+Tamanho da Classe:
+𝑚𝑎𝑖𝑜𝑟 𝑣𝑎𝑙𝑜𝑟− 𝑚𝑒𝑛𝑜𝑟 𝑣𝑎𝑙𝑜𝑟
+𝑛ú𝑚𝑒𝑟𝑜 𝑑𝑒 𝑐𝑙𝑎𝑠𝑠𝑒𝑠 = 86 − 7
+7 = 11,29
+Valor aproximado: 12
+Classe Registro Frequência, 
+f
+7 – 18 IIII  I 6
+19 – 30 IIII  IIII 10
+31 – 42 IIII  IIII III 13
+43 – 54 IIII  III 8
+55 – 66 IIII 5
+67 – 78 IIII  I 6
+79 – 90 II 2
+
+=== PAGINA 51 ===
+Resposta
+• Ponto médio de 
+uma classe
+• Frequência relativa 
+de uma classe
+• Frequência 
+acumulada de uma 
+classe
+• Fronteiras de 
+classes
+Classe Fronteira
+de classe Frequência, f
+Ponto 
+médi
+o
+Frequência
+relativa
+Frequência
+acumulada
+7 – 18 6,5 – 18,5 6 12.5 0.12 6
+19 – 30 18-6 – 30,5 10 24.5 0.20 16
+31 – 42 30,5 – 42,5 13 36.5 0.26 29
+43 – 54 42,5 – 54,5 8 48.5 0.16 37
+55 – 66 54,5 – 66,5 5 60.5 0.10 42
+67 – 78 66,5 – 78,5 6 72.5 0.12 48
+79 – 90 78,5 – 90,5 2 84.5 0.04 50
+Σf = 50
+1= n
+f
+
+=== PAGINA 52 ===
+GráficosGráficos
+• Histograma de frequência
+• Gráfico de barras que 
+representa a distribuição da 
+frequência
+• O eixo horizontal é 
+quantitativo e mede os 
+valores dos dados
+• O eixo vertical mede as 
+frequências das classes
+• Barras consecutivas precisam 
+se tocar
+
+
+=== PAGINA 53 ===
+GráficosGráficos
+• Histograma de frequência
+
+
+=== PAGINA 54 ===
+GráficosGráficos
+• Polígono de frequência
+• Gráfico em linha que enfatiza a mudança contínua nas 
+frequências.
+• Inicia e termina sempre no eixo x.
+
+
+=== PAGINA 55 ===
+GráficosGráficos
+• Histograma de frequência relativa
+• Tem o mesmo formato e eixo horizontal que o histograma de 
+frequência correspondente
+• O eixo vertical mede as frequências relativas e não as 
+frequências
+
+
+=== PAGINA 56 ===
+GráficosGráficos
+• Gráfico de frequências cumulativas ou ogiva
+• Gráfico de linhas que demonstra a frequência cumulativa de 
+cada classe em sua fronteira superior
+• As fronteiras superiores são demarcadas no eixo horizontal
+• As frequências cumulativas são demarcadas no eixo vertical
+
+
+=== PAGINA 57 ===
+GráficosGráficos
+• Diagrama de ramos-e-folhas
+• Cada número é separado em um ramo e uma folha
+• Similar a um histograma
+• Ainda contém os valores dos dados originais
+21 25 25 26 27
+28 30 36 36 45
+2 1  5  5  6  7  8
+3 0  6  6 
+4 5
+
+=== PAGINA 58 ===
+GráficosGráficos
+• Diagrama de pontos
+• Cada entrada de dados é posta usando um ponto acima de um 
+eixo horizontal.
+
+
+=== PAGINA 59 ===
+GráficosGráficos
+• Gráfico de pizza
+• Um círculo é dividido em vários setores, que representam 
+categorias
+• A área de cada setor é proporcional à frequência de cada 
+categoria
+1º Tri
+58%
+2º Tri
+23%
+3º Tri
+10%
+4º Tri
+9%
+Vendas
+
+=== PAGINA 60 ===
+GráficosGráficos
+• Gráfico de Pareto (para dados Qualitativos)
+• Gráfico de barras verticais no qual a altura de cada barra 
+representa uma frequência ou uma frequência relativa
+• As barras são posicionadas por ordem decrescente de altura; a 
+barra mais alta é posicionada à esquerda
+Causa US$ (em
+milhões)
+Erro adm. 7,8
+Roubo por
+funcionários 15,6
+Furto das lojas 14,7
+Fraude dos 
+vendedores 2,9
+
+
+=== PAGINA 61 ===
+GráficosGráficos
+• Scatterplot (Gráfico de Dispersão)
+• Gráfico que mostra pares de valores 
+(X, Y) como pontos em um plano.
+• Objetivo:
+• Visualizar relação entre variáveis
+• Ver padrão (linearidade, 
+curvatura, dispersão)
+• Componentes:
+• Eixo X = variável independente
+• Eixo Y = variável dependente
+
+
+=== PAGINA 62 ===
+GráficosGráficos
+• Série temporal
+• Conjuntos de dados são compostos de entradas quantitativas 
+tomadas em intervalos regulares em um período de tempo
+• Usa um gráfico de períodos de tempo
+
+
+=== PAGINA 63 ===
+GráficosGráficos
+• Gráfico de caixa-e-bigodes
+• Ferramenta exploratória de análise de dados
+• Destaca qualidades importantes do conjunto de dados
+• Requer (sumário de cinco números):
+•  Entrada mínima
+•  Primeiro quartil Q1 
+•  Mediana Q2 
+•  Terceiro quartil Q3 
+•  Entrada máxima
+
+
+=== PAGINA 64 ===
+Distribuição
+de Dados e 
+Amostragem
+
+=== PAGINA 65 ===
+Passo a passo
+Definição do 
+problema Planejamento Coleta de 
+dados
+Crítica dos 
+dados
+Apuração dos 
+dados.
+Apresentação 
+dos dados
+Análise e 
+interpretação 
+dos dados
+
+=== PAGINA 66 ===
+Pra quê?
+• Entender padrões e tendências.
+• Detectar outliers e erros.
+• Formular hipóteses.
+• Preparar dados para modelagem.
+Planejamento
+
+=== PAGINA 67 ===
+Planejamento
+Controle
+AleatorizaçãoReplicação
+
+=== PAGINA 68 ===
+População x Amostra
+Parâmetro x Estatística
+
+=== PAGINA 69 ===
+Coleta de dados
+Simulação
+ Experimento
+ Estudo 
+observacional
+ Pesquisa
+Amostra 
+aleatória 
+simples
+Amostra 
+estratificada
+Amostra por 
+agrupamento
+Amostra 
+sistemática
+
+=== PAGINA 70 ===
+Alguns erros comuns
+• Viés de Seleção
+Ocorre quando certos grupos da população têm maior ou menor chance 
+de serem incluídos na amostra.
+Resultados não representam a população, mesmo com amostra grande.
+• Amostragem Conveniente (ou de Conveniência)
+Escolher elementos que são mais fáceis de acessar, e não 
+aleatoriamente.
+O grupo escolhido pode não refletir as características da população-
+alvo.
+
+=== PAGINA 71 ===
+Alguns erros comuns
+• Subcobertura
+Quando uma parte da população não tem chance de ser selecionada.
+• Supercobertura (ou Duplicidade)
+Alguns elementos podem ser incluídos mais de uma vez na amostra.
+• Não-resposta
+Indivíduos selecionados para a amostra não respondem ou se recusam 
+a participar.
+Se quem não responde for diferente dos que respondem, há viés.
+
+=== PAGINA 72 ===
+Alguns erros comuns
+• Viés de Auto-seleção
+Pessoas se oferecem para participar (voluntariado).
+Resultados tendem a exagerar opiniões ou comportamentos de 
+grupos engajados.
+• Erro Acidental/Humano
+Erros durante a coleta ou registro dos dados.
+• Erro de Cobertura
+Quando a definição da população está incorreta ou incompleta.
+
+=== PAGINA 73 ===
+Anota aí:
+Dicas para Evitar Erros de 
+Amostragem
+• Sempre definir claramente a população-
+alvo.
+• Utilizar métodos de amostragem 
+probabilística (aleatória simples, 
+estratificada, sistemática, etc.).
+• Garantir cobertura ampla e 
+acessibilidade para todos os grupos 
+relevantes.
+• Fazer análise de não-resposta e ajustar 
+os resultados se necessário.
+• Documentar cuidadosamente como foi 
+feita a coleta dos dados.
+
+
+=== PAGINA 74 ===
+Reamostragem e Bootstrap
+Reamostragem: técnica onde criamos novas 
+amostras a partir da amostra original (com 
+reposição).
+Bootstrap: método computacional de 
+reamostragem para estimar a variabilidade 
+de uma estatística quando fórmulas exatas 
+são complicadas ou desconhecidas.
+
+=== PAGINA 75 ===
+Estimativa pontual
+• Um valor único estimado para 
+um parâmetro populacional
+• A estimativa pontual menos 
+tendenciosa de uma média 
+populacional µ é a média 
+amostral 𝑥.
+Parâmetro de estimativa
+populacional
+Com amostra 
+estatística
+Média:     μ 𝑥
+
+=== PAGINA 76 ===
+Estimativa intervalar
+• Um intervalo, ou amplitude de 
+valores, usado para estimar um 
+parâmetro populacional.
+
+
+=== PAGINA 77 ===
+Erro Padrão
+• O erro padrão mede a variação 
+da média amostral em relação 
+à média populacional.
+𝑒𝑟𝑟𝑜= 𝜎
+𝑛
+
+=== PAGINA 78 ===
+Distribuições de Probabilidade
+• Uma distribuição de probabilidade descreve como os
+valores de uma variável aleatória estão distribuídos – ou
+seja, qual a chance de observar cada valor possível.
+• Por que é importante? Ajuda a modelar fenômenos reais, 
+estimar riscos, fazer previsões e calcular probabilidades.
+
+=== PAGINA 79 ===
+Nível de confiança c 
+• A probabilidade de que o 
+intervalo estimado contenha o 
+parâmetro populacional.
+
+
+=== PAGINA 80 ===
+Nível de confiança c 
+• Se o nível de confiança é 90%, 
+isso significa que temos 90% 
+de certeza que o intervalo 
+contém a média populacional μ
+
+
+=== PAGINA 81 ===
+Erro de 
+amostragem
+• Diferença entre a estimativa pontual e o 
+valor do parâmetro populacional real
+Para μ: 
+• O erro de amostragem é a diferença 𝑥m  
+– μ
+• μ geralmente é desconhecido
+• 𝑥m   varia de amostra para amostra
+
+=== PAGINA 82 ===
+Margem de erro
+• Maior distância possível 
+entre o ponto de estimativa 
+e o valor do parâmetro que 
+está estimando para um 
+dado nível de confiança, c.
+• Às vezes chamado de erro 
+máximo ou tolerância de 
+erro.
+• Denotado por E:
+𝐸 = 𝑧𝑐𝜎𝑥 = 𝑧𝑐
+𝜎
+𝑛
+
+=== PAGINA 83 ===
+Intervalos de confiança 
+Para a média populacional
+• Um intervalo de confiança c 
+para a média populacional µ é:
+• 𝑥 − 𝐸 <  𝜇 < 𝑥 + 𝐸
+• A probabilidade de que o 
+intervalo de confiança contenha 
+µ é c.
+• 𝐸 = 𝑧𝑐
+𝜎
+𝑛
+
+=== PAGINA 84 ===
+Construindo intervalos de confiança para μ
+Ordem Descrição Ação 
+1 Encontre a estatística amostral n e  𝑥 . 𝑥 = σ 𝑥
+𝑛
+2
+Especifique 𝜎, se for conhecido. Caso contrário, encontre o 
+desvio padrão amostral s e use-o como uma estimativa 
+para 𝜎.
+𝑠 = σ 𝑥 − 𝑥 2
+𝑛 − 1
+3 Encontre o valor crítico zc que corresponda ao nível de 
+confiança dado.
+Use a tabela normal 
+padrão.
+4 Encontre a margem de erro E. 𝐸 = 𝑧𝑐
+𝜎
+𝑛
+5 Encontre os extremos esquerdo e direito e forme o intervalo
+de confiança. 𝑥 − 𝐸 <  𝜇 < 𝑥 + 𝐸
+
+=== PAGINA 85 ===
+Construindo 
+intervalos de 
+confiança para μ
+
+
+=== PAGINA 86 ===
+Interpretando os resultados
+• μ é um número fixo. Ou é um intervalo de confiança ou não.
+• Incorreto: “Existe uma probabilidade de 90% que a média real 
+esteja no intervalo (22,3, 23,5). ”
+• Correto: “Se um número grande de amostras é coletado e um 
+intervalo de confiança é criado para cada uma, 
+aproximadamente 90% desses intervalos conterão μ.
+
+=== PAGINA 87 ===
+Tamanho da amostra
+• Dado um nível de confiança c e uma margem de erro E, o 
+tamanho amostral mínimo n necessário para estimar a média 
+populacional μ é:
+𝑛 = 𝑧𝑐
+𝜎
+𝐸
+2
+• Se 𝜎 é desconhecido, você pode estimar seu valor usando s, 
+caso tenha uma amostra preliminar de pelo menos 30 
+membros.
+
+=== PAGINA 88 ===
+Distribuição T
+• Quando o desvio padrão da população é desconhecido, o 
+tamanho da amostra é menor que 30, e a variável x é 
+normalmente distribuída; ela segue uma distribuição t:
+𝑡 = 𝑥 − 𝜇
+𝑠
+𝑛
+• Valores críticos de t são denotados por tc
+
+=== PAGINA 89 ===
+Distribuição T
+1. A distribuição t tem formato de sino e é simétrica em relação à 
+média.
+• A distribuição t é uma família de curvas, cada uma determinada 
+por um parâmetro chamado de graus de liberdade. 
+• Os graus de liberdade são o número de escolhas livres 
+deixadas depois que uma amostra estatística, como 𝑥, é 
+calculada. 
+• Quando usamos a distribuição t para estimar a média da 
+população, os graus de liberdade são iguais ao tamanho da 
+amostra menos um. 
+• g.l. = n – 1  Graus de liberdade
+
+=== PAGINA 90 ===
+Propriedades da distribuição T
+• A área total sob a curva t é 1 ou 100%.
+• A média, a mediana e a moda da distribuição t são iguais a zero.
+• Conforme os graus de liberdade aumentam, a distribuição t aproxima-
+se da distribuição normal. Depois de 30 g.l., a distribuição t está muito 
+próxima da distribuição normal padrão z. A amostra é 15.
+
+
+=== PAGINA 91 ===
+Propriedades da distribuição T
+Para a média populacional
+𝑥 − 𝐸 <  𝜇 < 𝑥 + 𝐸
+Onde 𝐸 = 𝑡𝑐
+𝑠
+𝑛.
+A probabilidade de que o intervalo de confiança contenha μ é c.
+
+=== PAGINA 92 ===
+Intervalos de confiança e a distribuição t
+Ordem Descrição Ação 
+1 Identifique as amostras estatísticas n, 𝑥 e s.
+𝑥 =
+σ 𝑥
+𝑛 ∴ 𝑠 =
+σ 𝑥−𝑥 2
+𝑛−1
+2 Identifique os graus de liberdade, o nível de confiança c e 
+o valor crítico tc. 𝑔. 𝑙. = 𝑛 − 1
+3 Encontre a margem de erro E. 𝐸 = 𝑡𝑐
+𝑠
+𝑛
+5 Encontre os extremos esquerdo e direito e forme o 
+intervalo de confiança. 𝑥 − 𝐸 <  𝜇 < 𝑥 + 𝐸
+
+=== PAGINA 93 ===
+Tabela T
+
+
+=== PAGINA 94 ===
+Usar curva normal ou distribuição T?
+
+
+=== PAGINA 95 ===
+Para proporções populacionais
+• Proporção populacional
+• Probabilidade de sucesso em uma única tentativa de um 
+experimento binomial e é denotado por p
+• Estimativa pontual para p
+• A proporção de sucessos em uma amostra é dado por: ො𝑝 =
+𝑥
+𝑛. Onde x é o número de sucessos e n, o número de 
+exemplos.
+• Leia como “p chapéu”
+
+=== PAGINA 96 ===
+Para proporções populacionais
+• Proporção populacional
+• Probabilidade de sucesso em uma única tentativa de um 
+experimento binomial e é denotado por p
+• Estimativa pontual para p (sucesso)
+• A proporção de sucessos em uma amostra é dado por: Ƹ𝑝 =
+𝑥
+𝑛. Onde 
+x é o número de sucessos e n, o número de exemplos.
+• Leia como “p chapéu”
+Parâmetro populacional
+estimado
+Com amostra
+estatística
+Proporção: p Ƹ𝑝
+
+=== PAGINA 97 ===
+Para proporções populacionais
+• Ƹ𝑝 − 𝐸 < 𝑝 < Ƹ𝑝 + 𝐸
+• Onde 𝐸 = 𝑧𝑐
+ො𝑝 ො𝑞
+𝑛 .
+•  A probabilidade de que o intervalo de confiança contenha p é c.
+
+=== PAGINA 98 ===
+Construindo intervalos de confiança para p
+Ordem Descrição Ação 
+1 Encontre a estatística amostral n e x.
+2 Encontre a estimativa pontual Ƹ𝑝. Ƹ𝑝 = 𝑥
+𝑛
+3 Verifique se a distribuição amostral de Ƹ𝑝 pode ser aproximada por
+distribuição normal. 𝑛 Ƹ𝑝 ≥ 5, 𝑛ො𝑞 ≥ 5
+4 Encontre o valor crítico zc que corresponda ao dado nível de 
+confiança c. Use a tabela normal padrão
+5 Encontre a margem de erro E. 𝐸 = 𝑧𝑐
+Ƹ𝑝ො𝑞
+𝑛
+6 Encontre os extremos esquerdo e direito e forme o intervalo de 
+confiança.
+Ƹ𝑝 − 𝐸 < 𝑝 < Ƹ𝑝 + 𝐸
+
+=== PAGINA 99 ===
+Tamanho da amostra
+• Dado um nível de confiança c e uma margem de erro E, o 
+tamanho mínimo da amostra n necessário para estimar p é:
+• 𝑛 = Ƹ𝑝ො𝑞
+𝑧𝑐
+𝐸
+2
+• Essa fórmula assume que você tem uma estimativa para Ƹ𝑝 e ො𝑞 
+• Se não, use Ƹ𝑝 = 0,5 e ො𝑞 = 0,5.
+
+=== PAGINA 100 ===
+Para variância e desvio padrão
+• A distribuição qui-quadrado
+• A estimativa pontual para 𝜎2 é 𝑠2.
+• A estimativa pontual para 𝜎 é s.
+• 𝑠2 é a estimativa menos tendenciosa para 𝜎2.
+• Pode-se usar uma distribuição qui-quadrado para 
+construir um intervalo de confiança para a variância e 
+desvio padrão.
+
+=== PAGINA 101 ===
+Distribuição qui-quadrado
+• Se a variável aleatória x tem distribuição normal, então a 
+distribuição de: 
+𝜒2 = 𝑛 − 1 𝑠2
+𝜎2
+• Forma uma distribuição qui-quadrado para amostras 
+de qualquer tamanho n > 1
+
+=== PAGINA 102 ===
+Distribuição qui-quadrado (propriedades)
+• Todos valores qui-quadrado χ2 são maiores ou iguais 
+a zero.
+• A distribuição qui-quadrado é uma família de 
+curvas, cada uma determinada pelos graus de 
+liberdade. 
+• Para formar um intervalo de confiança para 𝜎², 
+use a distribuição x² com graus de liberdade 
+iguais a um a menos do que o tamanho da 
+amostra.
+• g.l. = n – 1       Graus de liberdade
+• A área abaixo da curva da distribuição qui-quadrado 
+é igual a um.
+• As distribuições qui-quadrado são assimétricas
+positivas.
+
+
+=== PAGINA 103 ===
+Valores críticos de χ2
+• Há dois valores críticos para cada nível de confiança.  
+• O valor χ2
+R representa o valor crítico da cauda direita
+• O valor χ2
+L representa o valor crítico da cauda esquerda. 
+
+
+=== PAGINA 104 ===
+Intervalos de confiança para 𝜎2 e 𝜎
+Sigma ao quadrado
+numerador , abre parêntese n menos 1 , fecha parêntese , s ao quadrado fim de numerador , superior a denominador , chi inferior à linha maiúscula R ao quadrado , fim de denominador , é menor que Sigma ao quadrado é menor que numerador , abre parêntese n menos 1 , fecha parêntese , s ao quadrado fim de numerador , superior a denominador , chi inferior à linha maiúscula L ao quadrado , fim de denominador
+início de equações Sigma
+raiz quadrada de , numerador , abre parêntese n menos 1 , fecha parêntese , s ao quadrado fim de numerador , superior a denominador , chi inferior à linha maiúscula R ao quadrado , fim de denominador , fim de raiz quadrada , é menor que Sigma é menor que raiz quadrada de , numerador , abre parêntese n menos 1 , fecha parêntese , s ao quadrado fim de numerador , superior a denominador , chi inferior à linha maiúscula L ao quadrado , fim de denominador , fim de raiz quadrada
+𝜎2 𝑛 − 1 𝑠2
+𝜒𝑅
+2 < 𝜎2 < 𝑛 − 1 𝑠2
+𝜒𝐿
+2
+𝜎
+𝑛 − 1 𝑠2
+𝜒𝑅
+2 < 𝜎 < 𝑛 − 1 𝑠2
+𝜒𝐿
+2
+A probabilidade de que o intervalo de confiança contenha σ2 ou σ é 
+c.
+
+=== PAGINA 105 ===
+Intervalos de confiança
+Ordem Descrição Ação 
+1 Verifique se a população tem uma distribuição
+normal.
+2 Identifique a amostra estatística n e os graus de 
+liberdade. 𝑔. 𝑙. = 𝑛 − 1
+3 Encontre a estimativa pontual s2. 𝑠2 = σ 𝑥 − 𝑥 2
+𝑛 − 1
+4 1.Encontre o valor crítico χ2
+R e χ2
+L que corresponda
+ao dado nível de confiança c. Use a tabela
+5 Encontre os extremo esquerdo e direito e forme o 
+intervalo de confiança para a variância populacional.
+𝑛 − 1 𝑠2
+𝜒𝑅
+2 < 𝜎2 < 𝑛 − 1 𝑠2
+𝜒𝐿
+2
+6
+Encontre o intervalo de confiança para o desvio
+padrão da população tomando a raiz quadrada de 
+cada extremo.
+𝑛 − 1 𝑠2
+𝜒𝑅
+2 < 𝜎 < 𝑛 − 1 𝑠2
+𝜒𝐿
+2
+
+=== PAGINA 106 ===
+Tabela χ2
+
+
+=== PAGINA 107 ===
+Distribuições de probabilidade discreta
+• Lista cada possível valor que a variável aleatória possa assumir, 
+juntamente com sua probabilidade
+• Precisa satisfazer as seguintes condições: 
+Em palavras Simbologia
+1. A probabilidade de cada valor da variável 
+discreta aleatória precisa estar entre 0 e 1.
+0  P (x)  1
+2. A soma de todas as probabilidades tem de 
+ser 1.
+ΣP (x) = 1
+
+=== PAGINA 108 ===
+Distribuições de probabilidade discreta
+• Seja x uma variável discreta aleatória com resultados 
+possíveis x1, x2, … , xn.
+Faça uma distribuição de frequências para os resultados 
+possíveis.
+Encontre a soma das frequências.
+Encontre a probabilidade de cada resultado possível 
+dividindo sua frequência pela soma das frequências.
+Certifique-se de que cada probabilidade esteja entre 0 
+e 1 e que a soma seja 1.
+
+=== PAGINA 109 ===
+Distribuições de probabilidade discreta
+mi é igual a , soma de x , maiúscula P abre parêntese x fecha parêntese Sigma ao quadrado é igual a , soma de abre parêntese x menos mi , fecha parêntese ao quadrado , , maiúscula P abre parêntese x fecha parêntese
+raiz quadrada de , Sigma ao quadrado , fim de raiz quadrada
+mi é igual a , soma de x , maiúscula P abre parêntese x fecha parêntese
+Média
+• 𝜇 = σ 𝑥 𝑃(𝑥)
+Variância
+• 𝜎2 = σ 𝑥 − 𝜇 2 𝑃(𝑥)
+Desvio Padrão
+• 𝜎2
+Valor esperado de uma
+variável aleatória discreta
+• Igual à média da variável
+aleatória
+• E(x) = 𝜇 = σ 𝑥 𝑃(𝑥)
+
+=== PAGINA 110 ===
+Experimentos binomiais
+O experimento é repetido para um número fixo de tentativas;
+• Cada tentativa é independente das outras.
+Há apenas dois resultados possíveis de interesse para cada tentativa. 
+• Os resultados podem ser classificados como sucesso (S) ou falha 
+(F).
+A probabilidade de um sucesso P(S) é a mesma para cada tentativa.
+A variável aleatória x conta o número de tentativas bem-sucedidas.
+
+=== PAGINA 111 ===
+Notações para experimentos binomiais
+Símbolo Descrição
+n Número de vezes que uma tentativa é repetida
+p = P(s) Probabilidade de sucesso em uma única tentativa
+q = P(F) Probabilidade de falha em uma única tentativa
+(q = 1 – p)
+x A variável aleatória representa a contagem do 
+número de sucessos em n tentativas:    
+x = 0, 1, 2, 3, … , n.
+
+=== PAGINA 112 ===
+Fórmula de probabilidade binomial
+• A probabilidade de exatamente x sucessos em n tentativas é:
+𝑃 𝑥 = 𝐶𝑥𝑛𝑝𝑥𝑞𝑛−𝑥 = 𝑛!
+𝑛 − 𝑥 ! 𝑥! 𝑝𝑥𝑞𝑛−𝑥
+• Onde:
+• n = número de tentativas
+• p = probabilidade de sucesso
+• q = 1 – p probabilidade de falha
+• x = número de sucessos em n tentativas
+
+=== PAGINA 113 ===
+Medidas de uma distribuição de probabilidade 
+binomial
+mi é igual a n maiúscula P abre parêntese x fecha parêntese Sigma ao quadrado é igual a nP abre parêntese x , fecha parêntese , q raiz quadrada de , Sigma ao quadrado , fim de raiz quadrada
+Média
+• 𝜇 = n𝑃(𝑥)
+Variância
+• 𝜎2 = nP x q
+Desvio Padrão
+• 𝜎2
+
+=== PAGINA 114 ===
+Outras distribuições de probabilidade
+Geométrica
+• Satisfaz as seguintes condições:
+• Uma tentativa é repetida até que um sucesso ocorra.
+• As tentativas repetidas são independentes umas das 
+outras.
+• A probabilidade de sucesso p é constante para cada 
+tentativa.
+• A probabilidade de que o primeiro sucesso ocorra na 
+tentativa x é P(x) = p(q)x – 1, em que q = 1 – p.
+
+=== PAGINA 115 ===
+Outras distribuições de probabilidade
+Distribuição de Poisson
+• Satisfaz as seguintes condições:
+• O experimento consiste em contar o número de 
+vezes que um evento, x, ocorre em um dado intervalo. 
+• O intervalo pode ser de tempo, área ou volume
+• A probabilidade de o evento ocorrer é a mesma para 
+cada intervalo
+• O número de ocorrências em um intervalo independe 
+do número de ocorrências em outros intervalos
+
+=== PAGINA 116 ===
+Outras distribuições de probabilidade
+Distribuição de Poisson
+• Condições contínuas:
+• A probabilidade do evento ocorrer é a mesma para cada 
+intervalo.
+• A probabilidade de exatamente x ocorrências em um 
+intervalo é:
+• P x = 𝜇xe−𝜇
+𝑥!
+• onde e  2.71818 e μ é o número médio de ocorrências.
+
+=== PAGINA 117 ===
+Outras distribuições de probabilidade
+Distribuição F
+Condições contínuas:
+• A Distribuição F é uma família de distribuições de 
+probabilidade usadas para comparar razões de 
+variâncias entre dois conjuntos de dados.
+• Muito usada em testes estatísticos para saber se a 
+diferença entre grupos é maior do que seria esperada só 
+pelo acaso.
+• Usada em ANOVA e regressão
+• Parametrizada por dois graus de liberdade (numerador e 
+denominador)
+
+=== PAGINA 118 ===
+Outras distribuições de probabilidade
+Distribuição F
+• O F-statistic compara:
+• Variação entre as médias dos grupos (diferença real de tratamento)
+• Variação dentro de cada grupo (ruído, variação natural)
+𝐹 = 𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑖𝑎 𝑒𝑛𝑡𝑟𝑒 𝑔𝑟𝑢𝑝𝑜𝑠
+𝑣𝑎𝑟𝑖𝑎𝑛𝑐𝑖𝑎 𝑑𝑒𝑛𝑡𝑟𝑜 𝑑𝑜𝑠 𝑔𝑟𝑢𝑝𝑜𝑠
+• Se o F calculado for muito maior que 1, indica que as diferenças entre 
+grupos são grandes em relação à variação dentro dos grupos, 
+sugerindo um efeito real do tratamento.
+
+=== PAGINA 119 ===
+Outras distribuições de probabilidade
+Tabela F
+
+
+=== PAGINA 120 ===
+Outras distribuições de probabilidade
+• Distribuição F
+Grupo A Grupo B Grupo C
+Dados 20 19 25
+22 21 24
+23 20 23
+Exemplo prático: ANOVA
+ Existe diferença significativa entre as médias dos grupos?
+
+=== PAGINA 121 ===
+Outras distribuições de probabilidade
+• Distribuição F
+Exemplo prático: ANOVA
+Calcular as médias
+•     Média A: (20+22+23)/3=21.67(20+22+23)/3=21.67
+•     Média B: (19+21+20)/3=20.00(19+21+20)/3=20.00
+•     Média C: (25+24+23)/3=24.00(25+24+23)/3=24.00
+•     Média da médias: (20+22+23+19+21+20+25+24+23)/9 =  
+       = 21.89(20+22+23+19+21+20+25+24+23)/9 = 21.89
+
+=== PAGINA 122 ===
+Outras distribuições de probabilidade
+• Distribuição F
+Exemplo prático: ANOVA
+Calcular a soma dos quadrados entre grupos (SQE)
+SQE=ngrupo⋅∑(Média do grupo − Média das médias)2
+=3⋅[(21.67−21.89)2+(20.00−21.89)2+(24.00−21.89)2] 
+=3⋅[(−0.22)2+(−1.89)2+(2.11)2]
+=3⋅[0.0484+3.5721+4.4521]
+=3⋅8.0726=24.2178
+
+=== PAGINA 123 ===
+Outras distribuições de probabilidade
+• Distribuição F
+Exemplo prático: ANOVA
+Calcular a soma dos quadrados dentro dos grupos (SQD)
+Para o grupo A: 
+(20−21.67)2+(22−21.67)2+(23−21.67)2=2.78+0.11+1.76=4.65
+Para o grupo B:
+(19−20)2+(21−20)2+(20−20)2=1+1+0=2
+Para o grupo C:
+(25−24)2 + (24−24)2 + (23−24)2 = 1+0+1 = 2
+SQD=4.65+2+2=8.65
+
+=== PAGINA 124 ===
+Outras distribuições de probabilidade
+• Distribuição F
+Exemplo prático: ANOVA
+Calcule os graus de liberdade
+    Entre grupos: k−1=3−1=2
+    Dentro dos grupos: N−k=9−3=6
+Calcule os quadrados médios (QM)
+Qmentre = SQE/(k-1) = 24.2178/2 = 12.11
+Qmdentro = SQD/(N-k) = 8.65/6 = 1.44
+Calcule o F
+F = Qmentre /Qmdentro  = 12.11/1.44 ≈ 8.41
+
+=== PAGINA 125 ===
+Distribuições de Cauda Longa
+• Uma distribuição de cauda longa é aquela em que existem 
+valores extremos (muito altos ou muito baixos) que ocorrem 
+com mais frequência do que seria previsto pela distribuição 
+normal (gaussiana).
+• A “cauda” é a parte mais fina e esticada do gráfico da 
+distribuição, onde aparecem valores muito distantes da 
+média.
+• Assimetria: Se uma cauda é mais longa que a outra (mais 
+valores extremos de um lado), dizemos que a distribuição é 
+assimétrica.
+
+=== PAGINA 126 ===
+Por que dados reais costumam ser de cauda longa?
+• A normal é simétrica e "curta nas pontas": em teoria, eventos 
+extremos (outliers) são muito raros.
+• Na prática, dados reais — como renda, visitas em sites, 
+vendas, preços de ativos financeiros, etc. — têm muitos 
+outliers (valores fora do comum), ou seja, eventos raros, 
+porém não impossíveis.
+• Isso significa que, em muitos contextos, é mais fácil observar 
+algo "absurdo" do que a normal sugeriria.
+
+=== PAGINA 127 ===
+Como detectar uma cauda longa
+• QQ-Plot: É um gráfico que compara os 
+quantis dos dados com os quantis de 
+uma distribuição normal.
+• Se os pontos acompanham uma 
+reta (principalmente nas 
+extremidades), os dados são 
+normais.
+• Se os pontos fogem da reta nas 
+extremidades (caindo muito abaixo 
+ou subindo muito acima), indica 
+cauda longa (ou assimetria).
+
+
+=== PAGINA 128 ===
+Modelando caudas longas
+• Em vez da normal, usamos outras distribuições:
+• Log-normal (renda, vendas);
+• Pareto (renda, cidades);
+• Exponencial (tempo até próximo evento raro);
+• Poisson (contagem de eventos raros por intervalo);
+• Distribuições de potência, etc.
+
+=== PAGINA 129 ===
+Teorema Central 
+do Limite (TCL)
+• Mesmo que os dados originais 
+não sejam normais, a 
+distribuição das médias 
+amostrais será 
+aproximadamente normal, se 
+o tamanho da amostra for 
+suficientemente grande.
+• Isso justifica o uso da 
+distribuição normal em muitos 
+testes estatísticos.
+
+
+=== PAGINA 130 ===
+Aproximação normal para uma distribuição binomial
+• A distribuição normal é usada 
+para aproximar a distribuição 
+binomial quando não seria 
+prático usar a distribuição 
+binomial para encontrar uma 
+probabilidade.
+• Se 𝑛𝑝 ≥ 5 e 𝑛𝑞 ≥ 5 , então a 
+variável aleatória binomial x é 
+aproximadamente distribuída 
+com média 𝜇 = 𝑛𝑝 e desvio 
+padrão 𝜎 = 𝑛𝑝𝑞.
+
+
+=== PAGINA 131 ===
+Aproximação normal para uma distribuição binomial
+Correção pela continuidade
+• A distribuição binomial é discreta e pode ser 
+representada pelo histograma de probabilidade.
+• Para calcular as probabilidades binomiais exatas, a 
+fórmula binomial é usada para cada valor de x e os 
+resultados são somados.
+• Isso corresponde geometricamente a somar as áreas 
+das barras no histograma de probabilidade.
+
+=== PAGINA 132 ===
+Aproximação normal para uma distribuição binomial
+Correção pela continuidade
+• Quando você usa uma distribuição normal contínua para 
+aproximar uma probabilidade binomial, você precisa mover 0,5 
+unidade para a esquerda e para a direita do ponto médio para 
+incluir todos os possíveis valores x no intervalo (correção pela 
+continuidade).
+
+
+=== PAGINA 133 ===
+Aproximação normal para uma distribuição binomial
+Ordem Descrição Ação 
+1 Verifique se a distribuição binomial se aplica. Especifique n, p e q.
+2 Determine se você pode usar a distribuição binomial 
+para aproximar x, a variável binomial. 𝑛𝑝 ≥ 5 e 𝑛𝑞 ≥ 5 ?
+3 Encontre a média  e o desvio padrão  para a 
+distribuição.
+𝜇 = 𝑛𝑝
+𝜎 = 𝑛𝑝𝑞
+4 Aplique a correção pela continuidade apropriada. 
+Sombreie a área correspondente sob a curva.
+Some ou subtraia 0,5 dos 
+pontos finais. 
+5 Encontre o(s) escore(s) z correspondente(s). 𝑧 =
+𝑥−𝜇
+𝜎
+6 Encontre a probabilidade. Use a tabela normal padrão.
+
+=== PAGINA 134 ===
+Experimentos
+Estatísticos e 
+Testes de 
+Significância
+
+=== PAGINA 135 ===
+Experimentos Estatísticos
+• Procedimento controlado para comparar grupos ou tratamentos
+• Mede o efeito de uma variável (tratamento) sobre outra (resultado)
+• Usa aleatorização e grupo controle sempre que possível
+• Experimentos permitem comparar grupos ou tratamentos para 
+descobrir se alguma diferença observada é real ou fruto do acaso.
+
+=== PAGINA 136 ===
+Hipóteses Estatísticas
+• Hipótese nula (H₀): afirma que não há diferença ou efeito.
+• Exemplo: “O novo remédio NÃO é melhor que o padrão. ”
+• Hipótese alternativa (H₁): afirma que existe diferença/efeito.
+• Exemplo: “O novo remédio É melhor que o padrão. ”
+• O teste avalia se os dados coletados dão suporte à rejeição da H₀
+Tipos de testes: unilateral e bilateral
+• Unilateral: Só importa um lado (ex: apenas se o novo é melhor).
+• Bilateral: Importa qualquer diferença (ex: novo pode ser melhor ou pior).
+
+=== PAGINA 137 ===
+Erros Tipo I e II, Poder Estatístico
+• Erro Tipo I (α): Rejeitar H₀ quando ela é verdadeira 
+(falso positivo)
+• Erro Tipo II (β): Não rejeitar H₀ quando H₁ é 
+verdadeira (falso negativo)
+• Poder estatístico: Probabilidade de detectar um 
+efeito real (1−β), idealmente acima de 80%.
+• Importância de escolher α e calcular tamanho 
+amostral
+
+=== PAGINA 138 ===
+P-valor
+• Probabilidade de obter um 
+resultado tão extremo quanto o 
+observado, assumindo H₀ 
+verdadeira
+• p pequeno → evidência contra 
+H₀
+• Limite comum: α = 0,05
+• Exemplo: Se p-valor = 0,03 e α = 
+0,05, rejeitamos H₀ (diferença 
+considerada significativa).
+
+=== PAGINA 139 ===
+Experimentos 
+Estatísticos
+Formule H₀ e H₁Formule H₀ e H₁
+Escolha do teste (t, χ², ANOVA, permutação, etc)Escolha do teste (t, χ², ANOVA, permutação, etc)
+Defina α (nível de significância)Defina α (nível de significância)
+Realize o experimento e colete dadosRealize o experimento e colete dados
+Calcule estatística de teste e p-valorCalcule estatística de teste e p-valor
+Decida: rejeitar ou não H₀Decida: rejeitar ou não H₀
+Reporte efeito, p-valor, IC, limitaçõesReporte efeito, p-valor, IC, limitações
+
+=== PAGINA 140 ===
+Testes A/B
+(e A/B/C...)
+• A/B Testing
+Experimento clássico em web/negócios — divide usuários em dois (ou 
+mais) grupos para testar diferentes versões de site, e-mails, etc.
+• Teste contínuo e rápido; resultados devem ser interpretados com rigor 
+estatístico.
+
+=== PAGINA 141 ===
+Testes clássicos (t, χ², 
+ANOVA) e por 
+permutação
+•t-teste: Diferença de médias (dois grupos).
+•Qui-quadrado (χ²): Dados categóricos, frequência observada 
+vs. esperada.
+•ANOVA: Diferença entre médias de 3 ou mais grupos.
+•Teste de permutação: Embaralha rótulos dos grupos e estima 
+p-valor sem pressupor distribuição.
+
+=== PAGINA 142 ===
+Exemplos
+
+=== PAGINA 143 ===
+Teste z de uma média
+Uma fábrica afirma que a massa média de suas barras de cereal é 
+50g. Um fiscal coleta 25 barras e encontra média amostral de 51g, 
+com desvio padrão amostral de 2g. O lote está dentro do padrão?
+1. H₀: μ = 50g H₁: μ ≠ 50g (teste bilateral)
+2.  𝒆𝒓𝒓𝒐𝑷 =
+𝒔
+𝒏 =
+𝟐
+𝟐𝟓 = 𝟎, 𝟒
+3.  𝒛𝒔𝒄𝒐𝒓𝒆 =
+ഥ𝒙−𝝁
+𝒆𝒓𝒓𝒐𝑷
+=
+𝟓𝟏 −𝟓𝟎
+𝟎,𝟒 = 𝟐, 𝟓
+4.  𝒑𝒗𝒂𝒍𝒐𝒓 = 𝒏𝒂 𝒕𝒂𝒃𝒆𝒍𝒂 𝒛 = 𝑷 𝒛 > 𝟐, 𝟓 = 𝟐 ∗ 𝟎, 𝟎𝟎𝟔𝟐 = 𝟎, 𝟎𝟏𝟐𝟒 
+5. p < 0,05 ⇒ rejeite H₀: há evidência de que a média é diferente de 50g.
+
+=== PAGINA 144 ===
+Teste t de duas amostras independentes
+Dois métodos de ensino, nota de 5 alunos por método:
+1. H₀: médias iguais H₁: médias diferentes
+2.  Médias e desvios padrão:
+Média 1: (7+8+6+9+7)/5 = 7,4 Desvio 1 ≈ 1.14
+Média 2: (6+6+7+5+6)/5 = 6,0 Desvio 2 ≈ 0.707
+3. Erro padrão da diferença:
+ 𝒆𝒓𝒓𝒐𝑷 =
+𝒔𝟏
+𝟐
+𝒏𝟏
++
+𝒔𝟐
+𝟐
+𝒏𝟐
+=
+𝟏,𝟏𝟒𝟐
+𝟓 +
+𝟎,𝟕𝟎𝟕𝟐
+𝟓 = 𝟎, 𝟔
+Método 1 7 8 6 9 7
+Método 2 6 6 7 5 6
+
+=== PAGINA 145 ===
+Teste t de duas amostras independentes
+Dois métodos de ensino, nota de 5 alunos por método:
+4. t calculado:
+𝒕 = 𝟕, 𝟒 − 𝟔, 𝟎
+𝟎, 𝟔 = 𝟐, 𝟑𝟑
+5.  Tabela t para gl=8, α=0,05 (bilateral): valor crítico ≈ 2,31
+6.  Como t > 2,31, rejeitamos H₀: diferença significativa.
+Método 1 7 8 6 9 7
+Método 2 6 6 7 5 6
+
+=== PAGINA 146 ===
+Qui-quadrado (χ²) para tabelas
+Preferência de cor (vermelho/azul) por gênero.
+1. H₀: cor preferida independe do gênero.
+2. Esperados:
+• Total vermelho: 30, azul: 30
+• Esperado para cada célula = (linha × coluna)/total
+• Homens-vermelho: (30 × 30) / 60 = 15
+• Homens-azul: 15; Mulheres-vermelho: 15; Mulheres-azul: 15
+Vermelho Azul Total
+Homens 20 10 30
+Mulheres 10 20 30
+
+=== PAGINA 147 ===
+Qui-quadrado (χ²) para tabelas
+Preferência de cor (vermelho/azul) por gênero.
+3.  𝝌2 =  σ 𝒙𝒊−𝑬 𝟐
+𝑬 = 6,67
+4. Graus de liberdade: (2−1)×(2−1) = 1
+5. Tabela χ² para gl=1, α=0,05: valor crítico = 3,84
+6. Como 6,67 > 3,84, rejeitamos H₀: há associação entre cor e gênero.
+Vermelho Azul Total
+Homens 20 10 30
+Mulheres 10 20 30
+
+=== PAGINA 148 ===
+ANOVA (Comparação de 3+ médias)
+Três métodos de estudo, notas de 3 alunos por grupo:
+| Método A | 6 | 8 | 7 |
+| Método B | 5 | 6 | 6 |
+| Método C | 9 | 8 | 8 |
+1. H₀: Todas as médias são iguais
+2. Médias dos grupos:
+ A: 7,0; B: 5,67; C: 8,33
+ Média global: (6+8+7+5+6+6+9+8+8)/9 = 7
+3. Soma dos quadrados entre grupos (SQE):
+SQE=3×[(7−7)2+(5.67−7)2+(8.33−7)2]=3×[0+1.77+1.77]=3×3.54=10.62
+
+=== PAGINA 149 ===
+ANOVA (Comparação de 3+ médias)
+Três métodos de estudo, notas de 3 alunos por grupo:
+| Método A | 6 | 8 | 7 |
+| Método B | 5 | 6 | 6 |
+| Método C | 9 | 8 | 8 |
+4. Soma dos quadrados dentro dos grupos (SQD):
+(6-7)^2 + (8-7)^2 + (7-7)^2 = 1 + 1 + 0 = 2 (A)
+(5-5.67)^2 + (6-5.67)^2 + (6-5.67)^2 = 0.45 + 0.11 + 0.11 = 0.67 (B)
+(9-8.33)^2 + (8-8.33)^2 + (8-8.33)^2 = 0.45 + 0.11 + 0.11 = 0.67 (C)
+SQD = 2 + 0.67 + 0.67 = 3.34
+5. Graus de liberdade:
+Entre grupos: k−1 = 3−1 = 2
+Dentro dos grupos: N−k = 9−3 = 6
+
+=== PAGINA 150 ===
+ANOVA (Comparação de 3+ médias)
+Três métodos de estudo, notas de 3 alunos por grupo:
+| Método A | 6 | 8 | 7 |
+| Método B | 5 | 6 | 6 |
+| Método C | 9 | 8 | 8 |
+6. Quadrado médio:
+QM entre = SQE/2 = 5.31
+QM dentro = SQD/6 = 0.56
+7. F calculado:
+F=5.310.56≈9.48
+F=0.565.31≈9.48
+4.  Valor crítico F (gl=2,6, α=0,05) ≈ 5.14
+5.  Como 9.48 > 5.14, rejeitamos H₀: ao menos um grupo tem média 
+diferente.
+
+=== PAGINA 151 ===
+Permutação
+Um pesquisador quer avaliar a eficácia de um novo fertilizante no crescimento de 
+plantas. Ele seleciona 7 plantas idênticas e as divide aleatoriamente em dois grupos:
+• Grupo A (Tratamento): 4 plantas recebem o novo fertilizante.
+• Grupo B (Controle): 3 plantas não recebem fertilizante.
+Após um mês, ele mede o crescimento das plantas em centímetros. Os resultados 
+foram:
+• Crescimento do Grupo A (Tratamento): {18, 21, 22, 15}
+• Crescimento do Grupo B (Controle): {12, 16, 11}
+Pergunta: Há evidência estatística para afirmar que o fertilizante é eficaz, ou seja, 
+que o crescimento médio no Grupo A é maior que no Grupo B? Use um nível de 
+significância de α=0.10.
+
+=== PAGINA 152 ===
+Permutação
+• Hipótese Nula (H0): O fertilizante não tem efeito. A diferença de 
+crescimento observada entre os grupos é meramente fruto do 
+acaso da divisão dos grupos. Se H0 é verdadeira, as etiquetas 
+"Tratamento" e "Controle" são intercambiáveis.
+• Hipótese Alternativa (H1): O fertilizante é eficaz. O crescimento 
+médio do Grupo A é maior que o do Grupo B. (Este é um teste 
+unicaudal).
+
+=== PAGINA 153 ===
+Permutação
+• Média do Grupo A (Tratamento):
+ො𝑥𝑎 = 19𝑐𝑚 
+• Média do Grupo B (Controle):
+ො𝑥𝑏 = 13𝑐𝑚
+• Diferença Observada:
+Δ𝑜𝑏𝑠 =  ො𝑥𝑎 − ො𝑥𝑏 = 6𝑐𝑚
+Quantas maneiras diferentes existem para escolher 4 plantas (para 
+o Grupo A) de um total de 7?
+𝐶𝑛𝑎
+𝑁 = 𝐶4
+7 = 35
+
+=== PAGINA 154 ===
+Permutação
+• Aqui temos um problema. Será necessário calcular a diferença 
+observada para cada uma das possibilidades de permutação:
+• Ex(incompleto, o certo é fazer com as 35 possibilidades):
+•Permutação 1 (A Original):
+Grupo A: {18, 21, 22, 15} -> xA​ = 19
+Grupo B: {12, 16, 11} -> xB = 13
+Diferença (Δ1​): 19−13=6
+•Permutação 2 (Trocando 15 por 12):
+Grupo A: {18, 21, 22, 12} -> xA =18.25
+Grupo B: {15, 16, 11} -> xB​=14
+Diferença (Δ2): 18.25−14=4.25
+Permutação 3 (Um caso mais extremo, com os 
+maiores valores em A):
+•Grupo A: {18, 21, 22, 16} -> xA​=19.25
+•Grupo B: {15, 12, 11} -> xB​=12.67
+•Diferença (Δ3​): 19.25−12.67=6.58
+•Permutação 4 (Um caso oposto, com os menores 
+valores em A):
+•Grupo A: {11, 12, 15, 16} -> xA​=13.5
+•Grupo B: {18, 21, 22} -> xB​=20.33
+•Diferença (Δ4​): 13.5−20.33=−6.83
+•...
+
+=== PAGINA 155 ===
+Permutação
+• Para calcular o p-valor, precisamos comparar nossa diferença observada 
+(Δobs=6) com as diferenças de todas as 35 permutações possíveis.
+• O p-valor será a proporção de permutações que resultaram em uma 
+diferença de médias igual ou maior que a que observamos. 
+𝑝 = 𝑞𝑢𝑎𝑛𝑡𝑖𝑑𝑎𝑑𝑒 𝑑𝑎𝑠 𝑝𝑒𝑟𝑚𝑢𝑡𝑎çõ𝑒𝑠 𝑐𝑜𝑚 Δ𝑝𝑒𝑟𝑚 ≥ Δ𝑜𝑏𝑠
+𝑞𝑢𝑎𝑛𝑡𝑖𝑑𝑎𝑑𝑒 𝑡𝑜𝑡𝑎𝑙 𝑑𝑎𝑠 𝑝𝑒𝑟𝑚𝑢𝑡𝑎çõ𝑒𝑠
+• Terão que confiar, neste momento que acontece 2 vezes apenas(ou então 
+calcule para as 35 possibilidades manualmente, rs).
+𝑝 = 2
+35  𝑎𝑝𝑟𝑜𝑥. ⇒ 0,057
+
+=== PAGINA 156 ===
+Permutação
+• Como p < a = 0,10 (ou 10% de significância), rejeitamos a 
+hipótese nula e por isso:
+• Com um nível de significância de 10%, há evidência estatística 
+suficiente para concluir que o novo fertilizante é eficaz.
+• A probabilidade de obter uma diferença de crescimento tão 
+grande ou maior que 6 cm apenas por acaso é de 
+aproximadamente 5.7%, o que é considerado um evento 
+suficientemente raro para justificar a rejeição da hipótese de que 
+não há efeito.
+
+=== PAGINA 157 ===
+Permutação
+• Mas como pode percebido, este método (calcular cada uma das 
+possibilidades das 35 combinações) pode ser dispendioso até para 
+uso computacional (imagine um problema com mais de 1000 
+combinações, por exemplo).
+• Então, temos duas observações a fazer:
+1. Este método é um método naturalmente computacional
+2. Utilizamos outro método de apoio, chamado método Monte Carlo
+• Iremos mostrar um passo a passo de sua execução, sem entrar em 
+grandes detalhes.
+
+=== PAGINA 158 ===
+Permutação com Monte Carlo
+Mas como pode percebido, 
+este método (calcular cada 
+uma das possibilidades das 
+35 combinações) pode ser 
+dispendioso até para uso 
+computacional (imagine um 
+problema com mais de 1000 
+combinações, por exemplo).
+Então, temos duas 
+observações a fazer:
+• Este método é um método 
+naturalmente computacional
+• Utilizamos outro método de apoio, 
+chamado método Monte Carlo
+Iremos mostrar um passo a 
+passo de sua execução, sem 
+entrar em grandes detalhes.
+
+=== PAGINA 159 ===
+Permutação com Monte Carlo
+Passo 0: Importar 
+o Módulo random
+Passo 0: Importar 
+o Módulo random
+Passo 1: Definir os 
+Dados e Calcular 
+a Diferença 
+Observada
+Passo 1: Definir os 
+Dados e Calcular 
+a Diferença 
+Observada
+Passo 2: Preparar 
+a Simulação
+Passo 2: Preparar 
+a Simulação
+Passo 3: O Loop 
+de Monte Carlo (O 
+Coração da 
+Simulação)
+Passo 3: O Loop 
+de Monte Carlo (O 
+Coração da 
+Simulação)
+Passo 4: Calcular 
+o P-Valor e 
+Interpretar o 
+Resultado
+Passo 4: Calcular 
+o P-Valor e 
+Interpretar o 
+Resultado
+
+=== PAGINA 160 ===
+Regressão
+Objetivo: Realização projeções de valores, a partir de histórico de 
+dados correlacionados.
+Importante: Coef. de correlação
+෍ 𝑥𝑖 − ҧ𝑥 (𝑦𝑖 − ത𝑦)
+𝑛 − 1 𝑠𝑥𝑠𝑦
+
+=== PAGINA 161 ===
+Regressão
+y acento 
+circunflexo
+Resposta:
+• Preditor, variável 
+dependente, y, alvo, 
+objetivo
+Registro:
+• Linha, caso, instância, 
+exemplo
+Coeficiente de 
+Correlação(β1 ou b1):
+• Inclinação, peso, 
+estimativa
+Intercepto (β0 ou b0):
+• Cruza eixo y quando x = 0
+Valor Ajustado:
+• Resposta ො𝑦
+Resíduo:
+• Erro
+
+=== PAGINA 162 ===
+Método dos mínimos Quadrados
+Técnica matemática fundamental em estatística e otimização, 
+usada para encontrar a linha ou curva que melhor se ajusta a um 
+conjunto de pontos de dados.
+𝑌 = 𝑏0 + 𝑏1𝑋
+𝑌𝑖 = 𝑏0 + 𝑏1𝑋𝑖 + 𝑒𝑟𝑟𝑜
+෠𝑌 = ෠𝑏0 + ෠𝑏1𝑋𝑖
+Ƹ𝑒𝑖 = 𝑌𝑖  − ෠𝑌𝑖
+
+=== PAGINA 163 ===
+Método dos mínimos Quadrados
+Determinação dos valores de b:
+𝑏0 ⇒ 𝑜𝑛𝑑𝑒 𝑜 𝑌 = 0
+𝑏1 = 𝑛 σ𝑥𝑦 − σ𝑥σ𝑦
+𝑛σ𝑥2 − σ𝑥 2
+
+=== PAGINA 164 ===
+Regressão Linear Multipla
+• Inclui várias variáveis independentes:
+𝑌 = 𝑏0 + 𝑏1𝑋1 + 𝑏2𝑋2 + ⋯ + 𝑏𝑛𝑋𝑛 + 𝑒𝑟𝑟𝑜
+• Avalia efeitos simultâneos e controle de variáveis.
+• Usada para modelagem mais realista de fenômenos 
+complexos.
+
+=== PAGINA 165 ===
+Avaliando Modelos de Regressão
+Root Mean Square Error:
+ Raiz do Erro Quadrático Médio: 
+  O quão, em média, distantes as previsões de um 
+modelo estão dos valores reais. Ele representa o desvio 
+padrão dos resíduos (os "erros" de previsão).
+𝑅𝑀𝑆𝐸 =
+σ𝑖
+𝑛 𝑌𝑖 − ෠𝑌𝑖
+2
+𝑛
+
+=== PAGINA 166 ===
+Avaliando Modelos de Regressão
+Residual Standard Error (RSE),:
+ Erro Padrão Residual: 
+ Medida que quantifica a dispersão dos pontos de dados em 
+torno de uma linha de regressão. 
+𝑅𝑆𝐸 =
+σ𝑖
+𝑛 𝑌𝑖 − ෠𝑌𝑖
+2
+𝑛 − 𝑝 − 1
+A única diferença para o RMSE é que o denominador são os graus de 
+liberdade, em vez do número de registros.
+
+=== PAGINA 167 ===
+Avaliando Modelos de Regressão
+RSS – Residual Squared Sum
+ Soma dos quadrados dos resíduos ou MMQ
+𝑅𝑆𝑆 = σ 𝑌𝑖 − ෠𝑌
+2
+𝑅𝑆𝑆 = σ 𝑌𝑖 − (෠𝑏0 + ෠𝑏1𝑋𝑖)
+2
+∗ 𝑇𝑆𝑆 = σ 𝑌𝑖 − ത𝑌 2
+Coef. de determinação:
+𝑅2 = 1 − 𝑅𝑆𝑆
+𝑇𝑆𝑆
+
+=== PAGINA 168 ===
+Avaliando Modelos de Regressão
+Área R² típico considerado bom
+Ciências sociais 0,3 a 0,5 já é aceitável
+Ciências da saúde 0,5+ costuma ser bom
+Física/engenharias 0,9+ é comum e esperado
+Finanças/economia real 0,2 já pode ter valor
+Valor R2
+<0,3 Fraco
+0,3~0,5 Moderado
+0,5~0,7 Bom
+0,7 ~0,9 Muito bom
+> 0,9 Excelente
+
+=== PAGINA 169 ===
+Avaliando Modelos de Regressão
+R2 ajustado:
+𝑅𝑎𝑗𝑢𝑠𝑡𝑎𝑑𝑜
+2 = 1 −
+𝑅𝑆𝑆
+𝑛 − 𝑘 − 1
+𝑇𝑆𝑆
+𝑛 − 1
+Onde:
+n = número de observações
+k = número de variáveis independentes
+
+=== PAGINA 170 ===
+Tópicos avançados em regressãoTópicos avançados em regressão
+
+=== PAGINA 171 ===
+Cross-Validation
+• Definição: Técnica de validação que mede a capacidade preditiva 
+de um modelo ao aplicar divisões sistemáticas dos dados em 
+subconjuntos de treino e teste.
+• Objetivo: Avaliar a performance do modelo de forma mais 
+realista, reduzindo o risco de overfitting.
+
+=== PAGINA 172 ===
+Cross-Validation
+Divida os dados em K 
+subconjuntos (folds) 
+de forma sequencial 
+ou aleatória.
+Para cada rodada, 
+selecione um fold 
+como teste e o 
+restante como treino.
+Treine o modelo com 
+os dados de treino.
+Teste o modelo com 
+os dados do fold de 
+teste.
+Calcule a métrica de 
+avaliação (ex: 
+acurácia) para o fold.
+Repita o processo 
+para todos os folds.
+Calcule a média das 
+métricas ao final.
+Cross-Validation
+
+=== PAGINA 173 ===
+Cross-Validation Stratified 
+• Objetivo:
+Avaliar o desempenho de um modelo garantindo que cada 
+subconjunto (fold) de validação tenha a mesma proporção de 
+classes que o conjunto original.
+
+=== PAGINA 174 ===
+Cross-Validation
+Separe os dados por 
+classe (ex: classe 0 
+e classe 1).
+Divida os dados de 
+cada classe entre os 
+K folds 
+proporcionalmente.
+Monte os folds 
+mantendo a mesma 
+proporção de 
+classes em todos.
+Para cada rodada, 
+selecione um fold 
+como teste e os 
+outros como treino.
+Treine o modelo com 
+os dados de treino 
+estratificados.
+Teste o modelo com 
+os dados do fold de 
+teste.
+Calcule a métrica e, 
+ao final, a média das 
+métricas.
+Cross-Validation Stratified
+
+=== PAGINA 175 ===
+Seleção de Modelo e Regressão Passo a 
+Passo
+• Processo de escolher o melhor conjunto de variáveis 
+preditoras para explicar uma variável resposta, com 
+equilíbrio entre precisão e simplicidade.
+Model Selection → 
+Seleção de Modelo 
+• Método automatizado para incluir ou excluir variáveis de 
+um modelo de regressão com base em critérios 
+estatísticos (como R² ajustado, AIC, etc.).
+Stepwise Regression → 
+Regressão Passo a 
+Passo
+
+=== PAGINA 176 ===
+Seleção de Modelo e Regressão Passo a 
+Passo
+• Escolher o melhor subconjunto de variáveis preditoras para um modelo de regressão, 
+equilibrando ajuste ao dado e complexidade do modelo.
+ObjetivoObjetivo
+• Variáveis irrelevantes aumentam o ruído.
+• Modelos complexos têm maior risco de overfitting.
+• Queremos explicações simples e eficientes.
+Por que selecionar variáveis?Por que selecionar variáveis?

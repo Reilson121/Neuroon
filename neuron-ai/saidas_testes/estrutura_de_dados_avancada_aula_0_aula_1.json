@@ -1,0 +1,2318 @@
+{
+    "periodo": "03",
+    "disciplina": "estrutura_de_dados_avancada",
+    "arquivos": [
+        {
+            "arquivo": "Aula_0.pdf",
+            "total_paginas_pdf": 28,
+            "paginas_indexadas": 27,
+            "total_chunks": 27
+        },
+        {
+            "arquivo": "Aula_1.pdf",
+            "total_paginas_pdf": 35,
+            "paginas_indexadas": 33,
+            "total_chunks": 33
+        }
+    ],
+    "por_assunto": {
+        "apresentacao_e_ementa": {
+            "paginas": 2,
+            "multimodais": 0,
+            "chunks": 2
+        },
+        "revisao_estruturas_em_c": {
+            "paginas": 11,
+            "multimodais": 0,
+            "chunks": 11
+        },
+        "conceitos_de_arvores": {
+            "paginas": 14,
+            "multimodais": 0,
+            "chunks": 14
+        },
+        "arvores_em_python": {
+            "paginas": 17,
+            "multimodais": 0,
+            "chunks": 17
+        },
+        "aplicacoes_de_arvores": {
+            "paginas": 16,
+            "multimodais": 0,
+            "chunks": 16
+        }
+    },
+    "total_chunks": 60,
+    "paginas": [
+        {
+            "conteudo": "ESTRUTURA  \nDE DADOS\nAVANÇADA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "apresentacao_e_ementa",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 29,
+                "elementos_desenhados": 12
+            }
+        },
+        {
+            "conteudo": "EMENTA\nUNIDADE I\n• Conceitos de Árvores\n• Árvore Genéricas\n• Árvores de Decisão\n• Árvores Binárias de \nBusca\n• Árvore Splay\nUNIDADE II\n• Árvores balanceadas: \nÁrvores AVL; \n• Árvores red-black\n• Fila de Prioridade\n• Algoritmos de \nOrdenação: \nMergeSort, HeapSort",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "apresentacao_e_ementa",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 262,
+                "elementos_desenhados": 17
+            }
+        },
+        {
+            "conteudo": "VAMOS\nREVISAR?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 14,
+                "elementos_desenhados": 7
+            }
+        },
+        {
+            "conteudo": "PONTEIROS\n• Variáveis que armazenam o \nendereço de memória de outra \nvariável. \n• Amplamente usados em linguagens \ncomo C e C++ e desempenham um \npapel importante em manipulação \nde memória, estruturas dinâmicas \nde dados, e em situações que \nexigem acesso eficiente ou indireto \na dados.\n• Variáveis que armazenam o \nendereço de memória de outra \nvariável. \n• Amplamente usados em linguagens \ncomo C e C++ e desempenham um \npapel importante em manipulação \nde memória, estruturas dinâmicas \nde dados, e em situações que \nexigem acesso eficiente ou indireto \na dados.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 567,
+                "elementos_desenhados": 8
+            }
+        },
+        {
+            "conteudo": "PONTEIROS\n#include <stdio.h>\nint main() {\nint x = 10;\nint *ptr = &x;\nprintf(\"Valor de x: %d\\n\", x);\nprintf(\"Endereço de x: %p\\n\", &x);\nprintf(\"Valor armazenado no \nponteiro: %p\\n\", ptr);\nprintf(\"Valor apontado pelo \nponteiro: %d\\n\", *ptr);\nreturn 0;\n}",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 251,
+                "elementos_desenhados": 8
+            }
+        },
+        {
+            "conteudo": "STRUCTS\n• Tipos de dados compostos \nusados para agrupar variáveis \nrelacionadas sob um único \nnome. \n• Amplamente usadas em \nlinguagens como C e C++ para \norganizar dados de maneira \nlógica e estruturada.\n• Tipos de dados compostos \nusados para agrupar variáveis \nrelacionadas sob um único \nnome. \n• Amplamente usadas em \nlinguagens como C e C++ para \norganizar dados de maneira \nlógica e estruturada.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 401,
+                "elementos_desenhados": 9
+            }
+        },
+        {
+            "conteudo": "STRUCTS\n#include <stdio.h>\n#include <string.h>\nstruct Pessoa {\nchar nome[50];\nint idade;\nfloat altura;\n};\nint main() {\nstruct Pessoa p1;\n// Atribuindo valores\nstrcpy(p1.nome, \"João\");\np1.idade = 25;\np1.altura = 1.75;\n// Exibindo os valores\nprintf(\"Nome: %s\\n\", \np1.nome);\nprintf(\"Idade: %d\\n\", \np1.idade);\nprintf(\"Altura: %.2f\\n\", \np1.altura);\nreturn 0;\n}",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 355,
+                "elementos_desenhados": 9
+            }
+        },
+        {
+            "conteudo": "STRUCTS & \nPONTEIROS\n• Structs podem ser usadas \ncom ponteiros, o que é útil \npara trabalhar com alocação \ndinâmica de memória ou \npassar structs para funções \npor referência\n• Structs podem ser usadas \ncom ponteiros, o que é útil \npara trabalhar com alocação \ndinâmica de memória ou \npassar structs para funções \npor referência",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 328,
+                "elementos_desenhados": 9
+            }
+        },
+        {
+            "conteudo": "STRUCTS & \nPONTEIROS\n#include <stdio.h>\n#include <string.h>\n#include <stdlib.h>\nstruct Pessoa {\nchar nome[50];\nint idade;\nfloat altura;};\nint main() {\nstruct Pessoa *p =\nmalloc(sizeof(struct\nPessoa));\nstrcpy(p->nome, \n\"Maria\");\np->idade = 28;\np->altura = 1.65;\nprintf(\"Nome: %s\\n\", \np-\n>nome);\nprintf(\"Idade\n: %d\\n\", p->idade);\nprintf(\"Altura: \n%.2f\\n\", p->altura);\nfree(p);\n// Libera \na memória alocada\nreturn 0;}",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 414,
+                "elementos_desenhados": 9
+            }
+        },
+        {
+            "conteudo": "LISTA\n•\nColeção de elementos organizados \nlinearmente.\n• Pode ser implementada de forma \nestática (como arrays) ou dinâmica \n(como listas encadeadas).\nTipos principais de listas:\n• Lista estática (array): Tamanho fixo, \narmazenado em memória contígua.\n• Lista encadeada: Cada elemento \n(nó) aponta para o próximo, \npermitindo tamanho dinâmico.\n•\nColeção de elementos organizados \nlinearmente.\n• Pode ser implementada de forma \nestática (como arrays) ou dinâmica \n(como listas encadeadas).\nTipos principais de listas:\n• Lista estática (array): Tamanho fixo, \narmazenado em memória contígua.\n• Lista encadeada: Cada elemento \n(nó) aponta para o próximo, \npermitindo tamanho dinâmico.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 681,
+                "elementos_desenhados": 9
+            }
+        },
+        {
+            "conteudo": "LISTA\n#include <stdio.h>\n#include <stdlib.h>\nstruct Node {\nint data;\nstruct Node *next;};\n// Função para adicionar um nó ao \ninício\nvoid push(struct Node **head, int\nnew_data) {\nstruct Node *new_node = (struct\nNode *)malloc(sizeof(struct Node));\nnew_node->data = new_data;\nnew_node->next = *head;\n*head = new_node;}\n// Função para imprimir a lista\nvoid printList(struct Node *node) {\nwhile (node != NULL) {\nprintf(\"%d -> \", node->data);\nnode = node->next;\n}\nprintf(\"NULL\\n\");}\nint main() {\nstruct Node *head = NULL;\npush(&head, 10);\npush(&head, 20);\npush(&head, 30);\nprintList(head);\nreturn 0;\n}",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 595,
+                "elementos_desenhados": 8
+            }
+        },
+        {
+            "conteudo": "FILAS\n• Estrutura de dados que segue \no princípio FIFO (First In, First\nOut), ou seja, o primeiro \nelemento a entrar é o \nprimeiro a sair.\n• Estrutura de dados que segue \no princípio FIFO (First In, First\nOut), ou seja, o primeiro \nelemento a entrar é o \nprimeiro a sair.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 271,
+                "elementos_desenhados": 8
+            }
+        },
+        {
+            "conteudo": "PILHAS\n• Estrutura de dados que \nsegue o princípio LIFO (Last\nIn, First Out), ou seja, o \núltimo elemento a entrar é o \nprimeiro a sair.\n• Estrutura de dados que \nsegue o princípio LIFO (Last\nIn, First Out), ou seja, o \núltimo elemento a entrar é o \nprimeiro a sair.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 266,
+                "elementos_desenhados": 7
+            }
+        },
+        {
+            "conteudo": "ÁRVORES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 7,
+                "elementos_desenhados": 4
+            }
+        },
+        {
+            "conteudo": "•\nEstrutura hierárquica onde cada \nnó pode ter um número \narbitrário de filhos.\n•\nRepresentações flexíveis para \nproblemas reais.\n•\nEssencial em modelagem de \ndados hierárquicos.\n•\nEstrutura hierárquica onde cada \nnó pode ter um número \narbitrário de filhos.\n•\nRepresentações flexíveis para \nproblemas reais.\n•\nEssencial em modelagem de \ndados hierárquicos.\nÁRVORES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 365,
+                "elementos_desenhados": 11
+            }
+        },
+        {
+            "conteudo": "Raiz (root)\nNós (nodes)\nFilhos (children)\nFolhas (leaves)\nAltura (height)\nGrau",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 78,
+                "elementos_desenhados": 12
+            }
+        },
+        {
+            "conteudo": "Raiz (root)\nRaiz (root)\nO nó principal da árvore, \nque não tem nenhum pai.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 74,
+                "elementos_desenhados": 3
+            }
+        },
+        {
+            "conteudo": "Nós (nodes)\nNós (nodes)\nCada elemento da árvore.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 48,
+                "elementos_desenhados": 3
+            }
+        },
+        {
+            "conteudo": "Filhos (children)\nFilhos (children)\nNós conectados \ndiretamente a um nó pai.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 76,
+                "elementos_desenhados": 3
+            }
+        },
+        {
+            "conteudo": "Folhas (leaves)\nFolhas (leaves)\nNós que não possuem \nfilhos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 60,
+                "elementos_desenhados": 3
+            }
+        },
+        {
+            "conteudo": "Altura (height)\nAltura (height)\nO comprimento do maior \ncaminho da raiz até uma folha.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 86,
+                "elementos_desenhados": 3
+            }
+        },
+        {
+            "conteudo": "Grau\nGrau\nO número de filhos que um \nnó possui.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 47,
+                "elementos_desenhados": 13
+            }
+        },
+        {
+            "conteudo": "Árvores Binárias\nÁrvores Binárias\nÁrvores Genéricas\nÁrvores Genéricas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 69,
+                "elementos_desenhados": 11
+            }
+        },
+        {
+            "conteudo": "Exemplos no mundo real\n•\n•\n•",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 11
+            }
+        },
+        {
+            "conteudo": "Exemplos no mundo real\n•\n•\n•\nSistema de arquivos\nPastas como nós, arquivos como folhas\nPastas como nós, arquivos como folhas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 124,
+                "elementos_desenhados": 13
+            }
+        },
+        {
+            "conteudo": "Exemplos no mundo real\n•\n•\nHierarquias organizacionais.\n•\nSistema de arquivos\nDepartamentos e equipes.\nDepartamentos e equipes.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 127,
+                "elementos_desenhados": 15
+            }
+        },
+        {
+            "conteudo": "Exemplos no mundo real\n•\nModelos de conhecimento em IA.\n•\nHierarquias organizacionais.\n•\nSistema de arquivos\nOntologias e Taxonomias\nOntologias e Taxonomias",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 156,
+                "elementos_desenhados": 13
+            }
+        },
+        {
+            "conteudo": "Já trabalhamos\ncom a linguagem C.\nEntão, a gente tá craque, não é?\nJá trabalhamos\ncom a linguagem C.\nEntão, a gente tá craque, não é?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 133,
+                "elementos_desenhados": 6
+            }
+        },
+        {
+            "conteudo": "Que tal trabalharmos\ncom Python, agora?\nQue tal trabalharmos\ncom Python, agora?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 79,
+                "elementos_desenhados": 6
+            }
+        },
+        {
+            "conteudo": "Antes de começarmos -> Ponteiros\nAntes de começarmos -> Ponteiros\n•\nEm Python, não há ponteiros no mesmo sentido que em linguagens \ncomo C ou C++.\n•\nMas, Python gerencia referências a objetos de maneira similar a \nponteiros, o que pode causar confusão para programadores vindos \nde C.\n•\nEm Python, não trabalhamos diretamente com endereços de \nmemória, mas sim com referências a objetos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 387,
+                "elementos_desenhados": 7
+            }
+        },
+        {
+            "conteudo": "Antes de começarmos -> Ponteiros\nAntes de começarmos -> Ponteiros\n•\nEm Python, não há ponteiros no mesmo sentido que em linguagens \ncomo C ou C++.\n•\nMas, Python gerencia referências a objetos de maneira similar a \nponteiros, o que pode causar confusão para programadores vindos \nde C.\n•\nEm Python, não trabalhamos diretamente com endereços de \nmemória, mas sim com referências a objetos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 387,
+                "elementos_desenhados": 20
+            }
+        },
+        {
+            "conteudo": "Antes de começarmos -> Ponteiros\nAntes de começarmos -> Ponteiros\n•\nPython trata objetos de forma \ndiferente dependendo se são \nimutáveis (inteiros, strings, tuplas) ou \nmutáveis (listas, dicionários, \nconjuntos).\n•\nOs argumentos são passados por \nreferência para objetos mutáveis e \npor cópia de referência para objetos \nimutáveis.\na = 10\nb = a\nb += 5\nprint(a) # 10 (inteiros são \nimutáveis)\nlista1 = [1, 2, 3]\nlista2 = lista1\nlista2.append(4)\nprint(lista1) # [1, 2, 3, 4] \n(listas são mutáveis)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 496,
+                "elementos_desenhados": 20
+            }
+        },
+        {
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 91,
+                "elementos_desenhados": 7
+            }
+        },
+        {
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nDefinição da Classe Node:\nO código começa definindo uma classe chamada Node. \nEssa classe representa um nó genérico, onde cada nó \npode ter múltiplos filhos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 249,
+                "elementos_desenhados": 9
+            }
+        },
+        {
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nA classe Node tem dois elementos principais:\nAtributo data: Contém os \ndados que o nó armazena.\nAtributo data: Contém os \ndados que o nó armazena.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 238,
+                "elementos_desenhados": 11
+            }
+        },
+        {
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nA classe Node tem dois elementos principais:\nAtributo children: Uma lista que \narmazena os filhos do nó.\nAtributo children: Uma lista que \narmazena os filhos do nó.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 256,
+                "elementos_desenhados": 11
+            }
+        },
+        {
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nConstrutor da classe, é chamado automaticamente \nquando uma nova instância da classe Node é criada.\nInicia o objeto recém-criado com certos atributos. \nMétodo __init__:",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 260,
+                "elementos_desenhados": 15
+            }
+        },
+        {
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nMétodo __init__:\nReferência à \nprópria instância \nda classe.\nReferência à \nprópria instância \nda classe.\nParâmetro           \nque é passado   \npara o método. \nParâmetro           \nque é passado   \npara o método.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 303,
+                "elementos_desenhados": 13
+            }
+        },
+        {
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nMétodo __init__:\nValor passado no parâmetro\nValor passado no parâmetro",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 162,
+                "elementos_desenhados": 14
+            }
+        },
+        {
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nMétodo __init__:\narmazenará os filhos do nó\narmazenará os filhos do nó",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 162,
+                "elementos_desenhados": 10
+            }
+        },
+        {
+            "conteudo": "De C\nPara Python\nDe C\nPara Python\nDe C\nPara Python\nDe C\nPara Python",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 67,
+                "elementos_desenhados": 15
+            }
+        },
+        {
+            "conteudo": "Não entendi nada.\nDá mostrar como\nfazer?\nNão entendi nada.\nDá mostrar como\nfazer?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 81,
+                "elementos_desenhados": 7
+            }
+        },
+        {
+            "conteudo": "as do robô\nListas, filas, pilhas e tabelas hash\nListas, filas, pilhas e tabelas hash\nAntes de mostrar os \ncódigos, vamos ver \no que lembramos \ndesses temas? \nAntes de mostrar os \ncódigos, vamos ver \no que lembramos \ndesses temas?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 229,
+                "elementos_desenhados": 7
+            }
+        },
+        {
+            "conteudo": "Tá, mas e agora?\nTá, mas e agora?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 33,
+                "elementos_desenhados": 7
+            }
+        },
+        {
+            "conteudo": "Vamos\nfalar mais sobre \nárvores?\nVamos\nfalar mais sobre \nárvores?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 65,
+                "elementos_desenhados": 8
+            }
+        },
+        {
+            "conteudo": "Aplicações",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 10,
+                "elementos_desenhados": 11
+            }
+        },
+        {
+            "conteudo": "Aplicações\nOntologias",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 11
+            }
+        },
+        {
+            "conteudo": "Forma de representar conhecimento em uma\nestrutura hierárquica, onde as relações entre\nconceitos podem ser representadas como nós\ne arestas em uma árvore. Cada nó pode\nrepresentar\num\nconceito,\ne\nseus\nfilhos\nrepresentam conceitos mais específicos ou\nsubclasses desse conceito.\nForma de representar conhecimento em uma\nestrutura hierárquica, onde as relações entre\nconceitos podem ser representadas como nós\ne arestas em uma árvore. Cada nó pode\nrepresentar\num\nconceito,\ne\nseus\nfilhos\nrepresentam conceitos mais específicos ou\nsubclasses desse conceito.\nAplicações\nOntologias",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 573,
+                "elementos_desenhados": 13
+            }
+        },
+        {
+            "conteudo": "Aplicações\nOntologias\nMachine \nLearning",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 39,
+                "elementos_desenhados": 11
+            }
+        },
+        {
+            "conteudo": "Em Machine Learning, especialmente em\ntarefas de classificação hierárquica, é\npossível organizar classes e sub-classes\nem uma estrutura de árvore.\nEm Machine Learning, especialmente em\ntarefas de classificação hierárquica, é\npossível organizar classes e sub-classes\nem uma estrutura de árvore.\nAplicações\nOntologias\nMachine \nLearning",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 333,
+                "elementos_desenhados": 13
+            }
+        },
+        {
+            "conteudo": "Aplicações\nOntologias\nMachine \nLearning\nPNL",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 43,
+                "elementos_desenhados": 11
+            }
+        },
+        {
+            "conteudo": "O\nparsing\nde\numa\nfrase\nem\nlinguagem\nnatural\npode\nser\nmodelado\ncomo\numa\nárvore\nsintática, onde cada nó da árvore\nrepresenta\num\ncomponente\nda\nfrase (como sujeito, verbo, objeto).\nO\nparsing\nde\numa\nfrase\nem\nlinguagem\nnatural\npode\nser\nmodelado\ncomo\numa\nárvore\nsintática, onde cada nó da árvore\nrepresenta\num\ncomponente\nda\nfrase (como sujeito, verbo, objeto).\nAplicações\nOntologias\nPNL\nMachine \nLearning",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 397,
+                "elementos_desenhados": 13
+            }
+        },
+        {
+            "conteudo": "Vamos \ncodar?\nVamos \ncodar?\nVamos \ncodar?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 41,
+                "elementos_desenhados": 15
+            }
+        },
+        {
+            "conteudo": "Aplicações\nclass Node:\ndef __init__(self, data):\nself.data = data\n# O conceito ou \no nome do nó (por exemplo, \"Animal\")\nself.children = [] # Lista de \nfilhos, que serão subcategorias ou \nexemplos\n# Criando os nós da ontologia\nanimal = Node(\"Animal\")\nmamifero = Node(\"Mamífero\")\nreptil = Node(\"Réptil\")\ncachorro = Node(\"Cachorro\")\ngato = Node(\"Gato\")\ncobra = Node(\"Cobra\")\niguana = Node(\"Iguana\")\n# Estruturando a hierarquia\nanimal.children.append(mamifero)\nanimal.children.append(reptil)\nmamifero.children.append(cachorro)\nmamifero.children.append(gato)\nreptil.children.append(cobra)\nreptil.children.append(iguana)\n# Imprimindo a ontologia\ndef print_ontologia(node, level=0):\nprint(\"--\" * level + node.data)\nfor child in node.children:\nprint_ontologia(child, level + 1)\nprint_ontologia(animal)\nOntologia",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 803,
+                "elementos_desenhados": 6
+            }
+        },
+        {
+            "conteudo": "Aplicações\nclass Node:\ndef __init__(self, data):\nself.data = data\n# Nome da \ncategoria ou do produto\nself.children = [] # \nSubcategorias ou produtos específicos\n# Criando os nós da árvore de \nclassificação\nprodutos = Node(\"Produtos\")\neletronicos = Node(\"Eletrônicos\")\ninformatica = Node(\"Informática\")\ncomputadores = Node(\"Computadores\")\nlaptops = Node(\"Laptops\")\nsmartphones = Node(\"Smartphones\")\n# Estruturando a hierarquia de \nclassificação\nprodutos.children.append(eletronicos)\neletronicos.children.append(informatica)\ninformatica.children.append(computadores)\ncomputadores.children.append(laptops)\neletronicos.children.append(smartphones)\n# Imprimindo a classificação hierárquica\ndef print_classificacao(node, level=0):\nprint(\"--\" * level + node.data)\nfor child in node.children:\nprint_classificacao(child, level\n+ 1)\nprint_classificacao(produtos)\nMachine \nLearning",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 870,
+                "elementos_desenhados": 6
+            }
+        },
+        {
+            "conteudo": "Aplicações\nclass Node:\ndef __init__(self, data):\nself.data = data # A palavra \nou a categoria sintática (ex: \nsujeito, verbo)\nself.children = []\n# Lista \nde filhos (componentes da frase)\n# Criando os nós da árvore sintática\nsujeito = Node(\"O cachorro\")\nverbo = Node(\"comeu\")\nobjeto = Node(\"o peixe\")\n# Criando a estrutura hierárquica\ns = Node(\"S\")\n# Frase (S)\nvp = Node(\"VP\")\n# Frase Verbal (VP)\n# Montando a árvore\ns.children.append(sujeito)\n# Sujeito \nda frase\ns.children.append(vp)\n# Frase Verbal \né parte da frase\nvp.children.append(verbo)\n# Verbo da \nfrase\nvp.children.append(objeto)\n# Objeto \nda frase\n# Imprimindo a árvore sintática\ndef print_tree(node, level=0):\nprint(\"--\" * level + node.data)\nfor child in node.children:\nprint_tree(child, level + 1)\nprint_tree(s)\nPNL",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 777,
+                "elementos_desenhados": 6
+            }
+        },
+        {
+            "conteudo": "Aplicações\nclass Node:\ndef __init__(self, data):\nself.data = data # A palavra \nou a categoria sintática (ex: \nsujeito, verbo)\nself.children = []\n# Lista \nde filhos (componentes da frase)\n# Criando os nós da árvore sintática\nsujeito = Node(\"O cachorro\")\nverbo = Node(\"comeu\")\nobjeto = Node(\"o peixe\")\n# Criando a estrutura hierárquica\ns = Node(\"S\")\n# Frase (S)\nvp = Node(\"VP\")\n# Frase Verbal (VP)\n# Montando a árvore\ns.children.append(sujeito)\n# Sujeito \nda frase\ns.children.append(vp)\n# Frase Verbal \né parte da frase\nvp.children.append(verbo)\n# Verbo da \nfrase\nvp.children.append(objeto)\n# Objeto \nda frase\n# Imprimindo a árvore sintática\ndef print_tree(node, level=0):\nprint(\"--\" * level + node.data)\nfor child in node.children:\nprint_tree(child, level + 1)\nprint_tree(s)\nPNL",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 777,
+                "elementos_desenhados": 6
+            }
+        },
+        {
+            "conteudo": "Tarefinha\nImplemente uma árvore para representar:\nEmpresa\n|-- Departamento1\n|   |-- Funcionário1\n|   |-- Funcionário2\n|-- Departamento2\n|-- Funcionário3",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 152,
+                "elementos_desenhados": 7
+            }
+        },
+        {
+            "conteudo": "Tarefinha\nImplemente uma árvore para representar:\nEmpresa\n|-- Departamento1\n|   |-- Funcionário1\n|   |-- Funcionário2\n|-- Departamento2\n|-- Funcionário3\nModifique a \nestrutura para \ncontar o número \ntotal de nós.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 212,
+                "elementos_desenhados": 7
+            }
+        },
+        {
+            "conteudo": "Tarefinha\nImplemente uma árvore para representar:\nEmpresa\n|-- Departamento1\n|   |-- Funcionário1\n|   |-- Funcionário2\n|-- Departamento2\n|-- Funcionário3\nAdicione uma \nfuncionalidade \npara buscar um nó \npor nome.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 211,
+                "elementos_desenhados": 7
+            }
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": "00d328017ad0c6439bd39ac3",
+            "conteudo": "ESTRUTURA  \nDE DADOS\nAVANÇADA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "apresentacao_e_ementa",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 29,
+                "elementos_desenhados": 12,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 29,
+                "chunk_id": "00d328017ad0c6439bd39ac3"
+            }
+        },
+        {
+            "chunk_id": "9537f3a737321d1eda1305ed",
+            "conteudo": "EMENTA\nUNIDADE I\n• Conceitos de Árvores\n• Árvore Genéricas\n• Árvores de Decisão\n• Árvores Binárias de \nBusca\n• Árvore Splay\nUNIDADE II\n• Árvores balanceadas: \nÁrvores AVL; \n• Árvores red-black\n• Fila de Prioridade\n• Algoritmos de \nOrdenação: \nMergeSort, HeapSort",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "apresentacao_e_ementa",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 262,
+                "elementos_desenhados": 17,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 262,
+                "chunk_id": "9537f3a737321d1eda1305ed"
+            }
+        },
+        {
+            "chunk_id": "19972e96cc85d75d63babd38",
+            "conteudo": "VAMOS\nREVISAR?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 14,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 14,
+                "chunk_id": "19972e96cc85d75d63babd38"
+            }
+        },
+        {
+            "chunk_id": "b835297f0bc54dc649258ec1",
+            "conteudo": "PONTEIROS\n• Variáveis que armazenam o \nendereço de memória de outra \nvariável. \n• Amplamente usados em linguagens \ncomo C e C++ e desempenham um \npapel importante em manipulação \nde memória, estruturas dinâmicas \nde dados, e em situações que \nexigem acesso eficiente ou indireto \na dados.\n• Variáveis que armazenam o \nendereço de memória de outra \nvariável. \n• Amplamente usados em linguagens \ncomo C e C++ e desempenham um \npapel importante em manipulação \nde memória, estruturas dinâmicas \nde dados, e em situações que \nexigem acesso eficiente ou indireto \na dados.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 567,
+                "elementos_desenhados": 8,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 567,
+                "chunk_id": "b835297f0bc54dc649258ec1"
+            }
+        },
+        {
+            "chunk_id": "6a1bfec6cdea91d7e82e8777",
+            "conteudo": "PONTEIROS\n#include <stdio.h>\nint main() {\nint x = 10;\nint *ptr = &x;\nprintf(\"Valor de x: %d\\n\", x);\nprintf(\"Endereço de x: %p\\n\", &x);\nprintf(\"Valor armazenado no \nponteiro: %p\\n\", ptr);\nprintf(\"Valor apontado pelo \nponteiro: %d\\n\", *ptr);\nreturn 0;\n}",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 251,
+                "elementos_desenhados": 8,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 251,
+                "chunk_id": "6a1bfec6cdea91d7e82e8777"
+            }
+        },
+        {
+            "chunk_id": "6536a6fbdfd632bc949ed964",
+            "conteudo": "STRUCTS\n• Tipos de dados compostos \nusados para agrupar variáveis \nrelacionadas sob um único \nnome. \n• Amplamente usadas em \nlinguagens como C e C++ para \norganizar dados de maneira \nlógica e estruturada.\n• Tipos de dados compostos \nusados para agrupar variáveis \nrelacionadas sob um único \nnome. \n• Amplamente usadas em \nlinguagens como C e C++ para \norganizar dados de maneira \nlógica e estruturada.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 401,
+                "elementos_desenhados": 9,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 401,
+                "chunk_id": "6536a6fbdfd632bc949ed964"
+            }
+        },
+        {
+            "chunk_id": "a04b1b847f07f19eef269bd1",
+            "conteudo": "STRUCTS\n#include <stdio.h>\n#include <string.h>\nstruct Pessoa {\nchar nome[50];\nint idade;\nfloat altura;\n};\nint main() {\nstruct Pessoa p1;\n// Atribuindo valores\nstrcpy(p1.nome, \"João\");\np1.idade = 25;\np1.altura = 1.75;\n// Exibindo os valores\nprintf(\"Nome: %s\\n\", \np1.nome);\nprintf(\"Idade: %d\\n\", \np1.idade);\nprintf(\"Altura: %.2f\\n\", \np1.altura);\nreturn 0;\n}",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 355,
+                "elementos_desenhados": 9,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 355,
+                "chunk_id": "a04b1b847f07f19eef269bd1"
+            }
+        },
+        {
+            "chunk_id": "78cb88f1e01f3cfd24a20bff",
+            "conteudo": "STRUCTS & \nPONTEIROS\n• Structs podem ser usadas \ncom ponteiros, o que é útil \npara trabalhar com alocação \ndinâmica de memória ou \npassar structs para funções \npor referência\n• Structs podem ser usadas \ncom ponteiros, o que é útil \npara trabalhar com alocação \ndinâmica de memória ou \npassar structs para funções \npor referência",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 328,
+                "elementos_desenhados": 9,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 328,
+                "chunk_id": "78cb88f1e01f3cfd24a20bff"
+            }
+        },
+        {
+            "chunk_id": "02d89eec9cdc24307ef7c323",
+            "conteudo": "STRUCTS & \nPONTEIROS\n#include <stdio.h>\n#include <string.h>\n#include <stdlib.h>\nstruct Pessoa {\nchar nome[50];\nint idade;\nfloat altura;};\nint main() {\nstruct Pessoa *p =\nmalloc(sizeof(struct\nPessoa));\nstrcpy(p->nome, \n\"Maria\");\np->idade = 28;\np->altura = 1.65;\nprintf(\"Nome: %s\\n\", \np-\n>nome);\nprintf(\"Idade\n: %d\\n\", p->idade);\nprintf(\"Altura: \n%.2f\\n\", p->altura);\nfree(p);\n// Libera \na memória alocada\nreturn 0;}",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 414,
+                "elementos_desenhados": 9,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 414,
+                "chunk_id": "02d89eec9cdc24307ef7c323"
+            }
+        },
+        {
+            "chunk_id": "b7519a8ae2cb29ab30ae52c9",
+            "conteudo": "LISTA\n•\nColeção de elementos organizados \nlinearmente.\n• Pode ser implementada de forma \nestática (como arrays) ou dinâmica \n(como listas encadeadas).\nTipos principais de listas:\n• Lista estática (array): Tamanho fixo, \narmazenado em memória contígua.\n• Lista encadeada: Cada elemento \n(nó) aponta para o próximo, \npermitindo tamanho dinâmico.\n•\nColeção de elementos organizados \nlinearmente.\n• Pode ser implementada de forma \nestática (como arrays) ou dinâmica \n(como listas encadeadas).\nTipos principais de listas:\n• Lista estática (array): Tamanho fixo, \narmazenado em memória contígua.\n• Lista encadeada: Cada elemento \n(nó) aponta para o próximo, \npermitindo tamanho dinâmico.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 681,
+                "elementos_desenhados": 9,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 681,
+                "chunk_id": "b7519a8ae2cb29ab30ae52c9"
+            }
+        },
+        {
+            "chunk_id": "0f2c5fca5e28dd301cba8b7e",
+            "conteudo": "LISTA\n#include <stdio.h>\n#include <stdlib.h>\nstruct Node {\nint data;\nstruct Node *next;};\n// Função para adicionar um nó ao \ninício\nvoid push(struct Node **head, int\nnew_data) {\nstruct Node *new_node = (struct\nNode *)malloc(sizeof(struct Node));\nnew_node->data = new_data;\nnew_node->next = *head;\n*head = new_node;}\n// Função para imprimir a lista\nvoid printList(struct Node *node) {\nwhile (node != NULL) {\nprintf(\"%d -> \", node->data);\nnode = node->next;\n}\nprintf(\"NULL\\n\");}\nint main() {\nstruct Node *head = NULL;\npush(&head, 10);\npush(&head, 20);\npush(&head, 30);\nprintList(head);\nreturn 0;\n}",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 595,
+                "elementos_desenhados": 8,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 595,
+                "chunk_id": "0f2c5fca5e28dd301cba8b7e"
+            }
+        },
+        {
+            "chunk_id": "b825b23174707382c82e2763",
+            "conteudo": "FILAS\n• Estrutura de dados que segue \no princípio FIFO (First In, First\nOut), ou seja, o primeiro \nelemento a entrar é o \nprimeiro a sair.\n• Estrutura de dados que segue \no princípio FIFO (First In, First\nOut), ou seja, o primeiro \nelemento a entrar é o \nprimeiro a sair.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 271,
+                "elementos_desenhados": 8,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 271,
+                "chunk_id": "b825b23174707382c82e2763"
+            }
+        },
+        {
+            "chunk_id": "149cce3f20145769f045466e",
+            "conteudo": "PILHAS\n• Estrutura de dados que \nsegue o princípio LIFO (Last\nIn, First Out), ou seja, o \núltimo elemento a entrar é o \nprimeiro a sair.\n• Estrutura de dados que \nsegue o princípio LIFO (Last\nIn, First Out), ou seja, o \núltimo elemento a entrar é o \nprimeiro a sair.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "revisao_estruturas_em_c",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 266,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 266,
+                "chunk_id": "149cce3f20145769f045466e"
+            }
+        },
+        {
+            "chunk_id": "454fecee78375c52609bccd4",
+            "conteudo": "ÁRVORES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 7,
+                "elementos_desenhados": 4,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 7,
+                "chunk_id": "454fecee78375c52609bccd4"
+            }
+        },
+        {
+            "chunk_id": "1bfef2cabc0025f2190eb540",
+            "conteudo": "•\nEstrutura hierárquica onde cada \nnó pode ter um número \narbitrário de filhos.\n•\nRepresentações flexíveis para \nproblemas reais.\n•\nEssencial em modelagem de \ndados hierárquicos.\n•\nEstrutura hierárquica onde cada \nnó pode ter um número \narbitrário de filhos.\n•\nRepresentações flexíveis para \nproblemas reais.\n•\nEssencial em modelagem de \ndados hierárquicos.\nÁRVORES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 365,
+                "elementos_desenhados": 11,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 365,
+                "chunk_id": "1bfef2cabc0025f2190eb540"
+            }
+        },
+        {
+            "chunk_id": "b4530585e50ed39987ff82de",
+            "conteudo": "Raiz (root)\nNós (nodes)\nFilhos (children)\nFolhas (leaves)\nAltura (height)\nGrau",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 78,
+                "elementos_desenhados": 12,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 78,
+                "chunk_id": "b4530585e50ed39987ff82de"
+            }
+        },
+        {
+            "chunk_id": "52d7eae74e8981ee8831f50b",
+            "conteudo": "Raiz (root)\nRaiz (root)\nO nó principal da árvore, \nque não tem nenhum pai.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 74,
+                "elementos_desenhados": 3,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 74,
+                "chunk_id": "52d7eae74e8981ee8831f50b"
+            }
+        },
+        {
+            "chunk_id": "a8d8ebde7edae5f28783e2e3",
+            "conteudo": "Nós (nodes)\nNós (nodes)\nCada elemento da árvore.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 48,
+                "elementos_desenhados": 3,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 48,
+                "chunk_id": "a8d8ebde7edae5f28783e2e3"
+            }
+        },
+        {
+            "chunk_id": "5ed5ae4eb39da616aeef1c27",
+            "conteudo": "Filhos (children)\nFilhos (children)\nNós conectados \ndiretamente a um nó pai.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 76,
+                "elementos_desenhados": 3,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 76,
+                "chunk_id": "5ed5ae4eb39da616aeef1c27"
+            }
+        },
+        {
+            "chunk_id": "1fe11925cefba7b705fe6a27",
+            "conteudo": "Folhas (leaves)\nFolhas (leaves)\nNós que não possuem \nfilhos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 60,
+                "elementos_desenhados": 3,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 60,
+                "chunk_id": "1fe11925cefba7b705fe6a27"
+            }
+        },
+        {
+            "chunk_id": "67f6bc5221a8ed0dec988100",
+            "conteudo": "Altura (height)\nAltura (height)\nO comprimento do maior \ncaminho da raiz até uma folha.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 86,
+                "elementos_desenhados": 3,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 86,
+                "chunk_id": "67f6bc5221a8ed0dec988100"
+            }
+        },
+        {
+            "chunk_id": "b29b9e2c769a64de0c7e46b4",
+            "conteudo": "Grau\nGrau\nO número de filhos que um \nnó possui.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 47,
+                "elementos_desenhados": 13,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 47,
+                "chunk_id": "b29b9e2c769a64de0c7e46b4"
+            }
+        },
+        {
+            "chunk_id": "e76065f647df4999a23c7bff",
+            "conteudo": "Árvores Binárias\nÁrvores Binárias\nÁrvores Genéricas\nÁrvores Genéricas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 69,
+                "elementos_desenhados": 11,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 69,
+                "chunk_id": "e76065f647df4999a23c7bff"
+            }
+        },
+        {
+            "chunk_id": "d191315694dd3d3dcca1c13a",
+            "conteudo": "Exemplos no mundo real\n•\n•\n•",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 11,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 28,
+                "chunk_id": "d191315694dd3d3dcca1c13a"
+            }
+        },
+        {
+            "chunk_id": "6626f9db0db870147dd4c9a6",
+            "conteudo": "Exemplos no mundo real\n•\n•\n•\nSistema de arquivos\nPastas como nós, arquivos como folhas\nPastas como nós, arquivos como folhas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 124,
+                "elementos_desenhados": 13,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 124,
+                "chunk_id": "6626f9db0db870147dd4c9a6"
+            }
+        },
+        {
+            "chunk_id": "a0423ffde8b1de8a026ffc85",
+            "conteudo": "Exemplos no mundo real\n•\n•\nHierarquias organizacionais.\n•\nSistema de arquivos\nDepartamentos e equipes.\nDepartamentos e equipes.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 127,
+                "elementos_desenhados": 15,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 127,
+                "chunk_id": "a0423ffde8b1de8a026ffc85"
+            }
+        },
+        {
+            "chunk_id": "689d7087fee68b9cacf7a705",
+            "conteudo": "Exemplos no mundo real\n•\nModelos de conhecimento em IA.\n•\nHierarquias organizacionais.\n•\nSistema de arquivos\nOntologias e Taxonomias\nOntologias e Taxonomias",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "conceitos_de_arvores",
+                "aula": "00",
+                "arquivo": "Aula_0.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 156,
+                "elementos_desenhados": 13,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 156,
+                "chunk_id": "689d7087fee68b9cacf7a705"
+            }
+        },
+        {
+            "chunk_id": "1579ba4f56dc0de66ba1ef73",
+            "conteudo": "Já trabalhamos\ncom a linguagem C.\nEntão, a gente tá craque, não é?\nJá trabalhamos\ncom a linguagem C.\nEntão, a gente tá craque, não é?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 133,
+                "elementos_desenhados": 6,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 133,
+                "chunk_id": "1579ba4f56dc0de66ba1ef73"
+            }
+        },
+        {
+            "chunk_id": "5f187f882900b0ea7913b2aa",
+            "conteudo": "Que tal trabalharmos\ncom Python, agora?\nQue tal trabalharmos\ncom Python, agora?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 79,
+                "elementos_desenhados": 6,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 79,
+                "chunk_id": "5f187f882900b0ea7913b2aa"
+            }
+        },
+        {
+            "chunk_id": "37f43af5d5c6200cb4536c4b",
+            "conteudo": "Antes de começarmos -> Ponteiros\nAntes de começarmos -> Ponteiros\n•\nEm Python, não há ponteiros no mesmo sentido que em linguagens \ncomo C ou C++.\n•\nMas, Python gerencia referências a objetos de maneira similar a \nponteiros, o que pode causar confusão para programadores vindos \nde C.\n•\nEm Python, não trabalhamos diretamente com endereços de \nmemória, mas sim com referências a objetos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 387,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 387,
+                "chunk_id": "37f43af5d5c6200cb4536c4b"
+            }
+        },
+        {
+            "chunk_id": "a7b658fb62901fc6daf3b91c",
+            "conteudo": "Antes de começarmos -> Ponteiros\nAntes de começarmos -> Ponteiros\n•\nEm Python, não há ponteiros no mesmo sentido que em linguagens \ncomo C ou C++.\n•\nMas, Python gerencia referências a objetos de maneira similar a \nponteiros, o que pode causar confusão para programadores vindos \nde C.\n•\nEm Python, não trabalhamos diretamente com endereços de \nmemória, mas sim com referências a objetos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 387,
+                "elementos_desenhados": 20,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 387,
+                "chunk_id": "a7b658fb62901fc6daf3b91c"
+            }
+        },
+        {
+            "chunk_id": "f06e3236dc6a48919aa5135e",
+            "conteudo": "Antes de começarmos -> Ponteiros\nAntes de começarmos -> Ponteiros\n•\nPython trata objetos de forma \ndiferente dependendo se são \nimutáveis (inteiros, strings, tuplas) ou \nmutáveis (listas, dicionários, \nconjuntos).\n•\nOs argumentos são passados por \nreferência para objetos mutáveis e \npor cópia de referência para objetos \nimutáveis.\na = 10\nb = a\nb += 5\nprint(a) # 10 (inteiros são \nimutáveis)\nlista1 = [1, 2, 3]\nlista2 = lista1\nlista2.append(4)\nprint(lista1) # [1, 2, 3, 4] \n(listas são mutáveis)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 496,
+                "elementos_desenhados": 20,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 496,
+                "chunk_id": "f06e3236dc6a48919aa5135e"
+            }
+        },
+        {
+            "chunk_id": "64da398d7088cdc82f1dedcb",
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 91,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 91,
+                "chunk_id": "64da398d7088cdc82f1dedcb"
+            }
+        },
+        {
+            "chunk_id": "9306920117f8f239b5216448",
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nDefinição da Classe Node:\nO código começa definindo uma classe chamada Node. \nEssa classe representa um nó genérico, onde cada nó \npode ter múltiplos filhos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 249,
+                "elementos_desenhados": 9,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 249,
+                "chunk_id": "9306920117f8f239b5216448"
+            }
+        },
+        {
+            "chunk_id": "f71d627ff1a9a7a427e53264",
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nA classe Node tem dois elementos principais:\nAtributo data: Contém os \ndados que o nó armazena.\nAtributo data: Contém os \ndados que o nó armazena.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 238,
+                "elementos_desenhados": 11,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 238,
+                "chunk_id": "f71d627ff1a9a7a427e53264"
+            }
+        },
+        {
+            "chunk_id": "8c3e2da399066f0fd23209cd",
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nA classe Node tem dois elementos principais:\nAtributo children: Uma lista que \narmazena os filhos do nó.\nAtributo children: Uma lista que \narmazena os filhos do nó.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 256,
+                "elementos_desenhados": 11,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 256,
+                "chunk_id": "8c3e2da399066f0fd23209cd"
+            }
+        },
+        {
+            "chunk_id": "f56c36718848ebca270449bc",
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nConstrutor da classe, é chamado automaticamente \nquando uma nova instância da classe Node é criada.\nInicia o objeto recém-criado com certos atributos. \nMétodo __init__:",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 260,
+                "elementos_desenhados": 15,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 260,
+                "chunk_id": "f56c36718848ebca270449bc"
+            }
+        },
+        {
+            "chunk_id": "da7fc6267041895ca50ed46d",
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nMétodo __init__:\nReferência à \nprópria instância \nda classe.\nReferência à \nprópria instância \nda classe.\nParâmetro           \nque é passado   \npara o método. \nParâmetro           \nque é passado   \npara o método.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 303,
+                "elementos_desenhados": 13,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 303,
+                "chunk_id": "da7fc6267041895ca50ed46d"
+            }
+        },
+        {
+            "chunk_id": "9b18e1192da2309b16cfae72",
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nMétodo __init__:\nValor passado no parâmetro\nValor passado no parâmetro",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 162,
+                "elementos_desenhados": 14,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 162,
+                "chunk_id": "9b18e1192da2309b16cfae72"
+            }
+        },
+        {
+            "chunk_id": "f07754c3b9682f8f97072df5",
+            "conteudo": "Nós\nNós\nclass Node:\n  def __init__(self, data):\n    self.data = data\n    self.children = []\nMétodo __init__:\narmazenará os filhos do nó\narmazenará os filhos do nó",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 162,
+                "elementos_desenhados": 10,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 162,
+                "chunk_id": "f07754c3b9682f8f97072df5"
+            }
+        },
+        {
+            "chunk_id": "d7b83ad84466d9920cfa137c",
+            "conteudo": "De C\nPara Python\nDe C\nPara Python\nDe C\nPara Python\nDe C\nPara Python",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 67,
+                "elementos_desenhados": 15,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 67,
+                "chunk_id": "d7b83ad84466d9920cfa137c"
+            }
+        },
+        {
+            "chunk_id": "5fcadbc779be25fce753a903",
+            "conteudo": "Não entendi nada.\nDá mostrar como\nfazer?\nNão entendi nada.\nDá mostrar como\nfazer?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 81,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 81,
+                "chunk_id": "5fcadbc779be25fce753a903"
+            }
+        },
+        {
+            "chunk_id": "e60665112d49eb7ad093cf3b",
+            "conteudo": "as do robô\nListas, filas, pilhas e tabelas hash\nListas, filas, pilhas e tabelas hash\nAntes de mostrar os \ncódigos, vamos ver \no que lembramos \ndesses temas? \nAntes de mostrar os \ncódigos, vamos ver \no que lembramos \ndesses temas?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 229,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 229,
+                "chunk_id": "e60665112d49eb7ad093cf3b"
+            }
+        },
+        {
+            "chunk_id": "0e98a9f83ade557af6681d82",
+            "conteudo": "Tá, mas e agora?\nTá, mas e agora?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_em_python",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 33,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 33,
+                "chunk_id": "0e98a9f83ade557af6681d82"
+            }
+        },
+        {
+            "chunk_id": "7e21e2e5540feb49a92a4d19",
+            "conteudo": "Vamos\nfalar mais sobre \nárvores?\nVamos\nfalar mais sobre \nárvores?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 65,
+                "elementos_desenhados": 8,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 65,
+                "chunk_id": "7e21e2e5540feb49a92a4d19"
+            }
+        },
+        {
+            "chunk_id": "6ab11428695e434eec349e1d",
+            "conteudo": "Aplicações",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 10,
+                "elementos_desenhados": 11,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 10,
+                "chunk_id": "6ab11428695e434eec349e1d"
+            }
+        },
+        {
+            "chunk_id": "db363f70618c3096ab99e965",
+            "conteudo": "Aplicações\nOntologias",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 11,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 21,
+                "chunk_id": "db363f70618c3096ab99e965"
+            }
+        },
+        {
+            "chunk_id": "777c82386d85108d07998d48",
+            "conteudo": "Forma de representar conhecimento em uma\nestrutura hierárquica, onde as relações entre\nconceitos podem ser representadas como nós\ne arestas em uma árvore. Cada nó pode\nrepresentar\num\nconceito,\ne\nseus\nfilhos\nrepresentam conceitos mais específicos ou\nsubclasses desse conceito.\nForma de representar conhecimento em uma\nestrutura hierárquica, onde as relações entre\nconceitos podem ser representadas como nós\ne arestas em uma árvore. Cada nó pode\nrepresentar\num\nconceito,\ne\nseus\nfilhos\nrepresentam conceitos mais específicos ou\nsubclasses desse conceito.\nAplicações\nOntologias",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 573,
+                "elementos_desenhados": 13,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 573,
+                "chunk_id": "777c82386d85108d07998d48"
+            }
+        },
+        {
+            "chunk_id": "d37bc264546fb9d7845d99d2",
+            "conteudo": "Aplicações\nOntologias\nMachine \nLearning",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 39,
+                "elementos_desenhados": 11,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 39,
+                "chunk_id": "d37bc264546fb9d7845d99d2"
+            }
+        },
+        {
+            "chunk_id": "3fe55e8c4d8314b128471e52",
+            "conteudo": "Em Machine Learning, especialmente em\ntarefas de classificação hierárquica, é\npossível organizar classes e sub-classes\nem uma estrutura de árvore.\nEm Machine Learning, especialmente em\ntarefas de classificação hierárquica, é\npossível organizar classes e sub-classes\nem uma estrutura de árvore.\nAplicações\nOntologias\nMachine \nLearning",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 333,
+                "elementos_desenhados": 13,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 333,
+                "chunk_id": "3fe55e8c4d8314b128471e52"
+            }
+        },
+        {
+            "chunk_id": "7962a5729070c6d35351b11d",
+            "conteudo": "Aplicações\nOntologias\nMachine \nLearning\nPNL",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 43,
+                "elementos_desenhados": 11,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 43,
+                "chunk_id": "7962a5729070c6d35351b11d"
+            }
+        },
+        {
+            "chunk_id": "82273a2367abdfd45b7fed14",
+            "conteudo": "O\nparsing\nde\numa\nfrase\nem\nlinguagem\nnatural\npode\nser\nmodelado\ncomo\numa\nárvore\nsintática, onde cada nó da árvore\nrepresenta\num\ncomponente\nda\nfrase (como sujeito, verbo, objeto).\nO\nparsing\nde\numa\nfrase\nem\nlinguagem\nnatural\npode\nser\nmodelado\ncomo\numa\nárvore\nsintática, onde cada nó da árvore\nrepresenta\num\ncomponente\nda\nfrase (como sujeito, verbo, objeto).\nAplicações\nOntologias\nPNL\nMachine \nLearning",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 397,
+                "elementos_desenhados": 13,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 397,
+                "chunk_id": "82273a2367abdfd45b7fed14"
+            }
+        },
+        {
+            "chunk_id": "a49ec423133ea4d76b18bcec",
+            "conteudo": "Vamos \ncodar?\nVamos \ncodar?\nVamos \ncodar?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [
+                    "textual_forcado_manualmente"
+                ],
+                "caracteres_texto_original": 41,
+                "elementos_desenhados": 15,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 41,
+                "chunk_id": "a49ec423133ea4d76b18bcec"
+            }
+        },
+        {
+            "chunk_id": "ba19c16b042e403acdb93997",
+            "conteudo": "Aplicações\nclass Node:\ndef __init__(self, data):\nself.data = data\n# O conceito ou \no nome do nó (por exemplo, \"Animal\")\nself.children = [] # Lista de \nfilhos, que serão subcategorias ou \nexemplos\n# Criando os nós da ontologia\nanimal = Node(\"Animal\")\nmamifero = Node(\"Mamífero\")\nreptil = Node(\"Réptil\")\ncachorro = Node(\"Cachorro\")\ngato = Node(\"Gato\")\ncobra = Node(\"Cobra\")\niguana = Node(\"Iguana\")\n# Estruturando a hierarquia\nanimal.children.append(mamifero)\nanimal.children.append(reptil)\nmamifero.children.append(cachorro)\nmamifero.children.append(gato)\nreptil.children.append(cobra)\nreptil.children.append(iguana)\n# Imprimindo a ontologia\ndef print_ontologia(node, level=0):\nprint(\"--\" * level + node.data)\nfor child in node.children:\nprint_ontologia(child, level + 1)\nprint_ontologia(animal)\nOntologia",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 803,
+                "elementos_desenhados": 6,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 803,
+                "chunk_id": "ba19c16b042e403acdb93997"
+            }
+        },
+        {
+            "chunk_id": "8fe5f1147fafcf69d8c74ba6",
+            "conteudo": "Aplicações\nclass Node:\ndef __init__(self, data):\nself.data = data\n# Nome da \ncategoria ou do produto\nself.children = [] # \nSubcategorias ou produtos específicos\n# Criando os nós da árvore de \nclassificação\nprodutos = Node(\"Produtos\")\neletronicos = Node(\"Eletrônicos\")\ninformatica = Node(\"Informática\")\ncomputadores = Node(\"Computadores\")\nlaptops = Node(\"Laptops\")\nsmartphones = Node(\"Smartphones\")\n# Estruturando a hierarquia de \nclassificação\nprodutos.children.append(eletronicos)\neletronicos.children.append(informatica)\ninformatica.children.append(computadores)\ncomputadores.children.append(laptops)\neletronicos.children.append(smartphones)\n# Imprimindo a classificação hierárquica\ndef print_classificacao(node, level=0):\nprint(\"--\" * level + node.data)\nfor child in node.children:\nprint_classificacao(child, level\n+ 1)\nprint_classificacao(produtos)\nMachine \nLearning",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 870,
+                "elementos_desenhados": 6,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 870,
+                "chunk_id": "8fe5f1147fafcf69d8c74ba6"
+            }
+        },
+        {
+            "chunk_id": "a6731712a10a33d1360c8ed6",
+            "conteudo": "Aplicações\nclass Node:\ndef __init__(self, data):\nself.data = data # A palavra \nou a categoria sintática (ex: \nsujeito, verbo)\nself.children = []\n# Lista \nde filhos (componentes da frase)\n# Criando os nós da árvore sintática\nsujeito = Node(\"O cachorro\")\nverbo = Node(\"comeu\")\nobjeto = Node(\"o peixe\")\n# Criando a estrutura hierárquica\ns = Node(\"S\")\n# Frase (S)\nvp = Node(\"VP\")\n# Frase Verbal (VP)\n# Montando a árvore\ns.children.append(sujeito)\n# Sujeito \nda frase\ns.children.append(vp)\n# Frase Verbal \né parte da frase\nvp.children.append(verbo)\n# Verbo da \nfrase\nvp.children.append(objeto)\n# Objeto \nda frase\n# Imprimindo a árvore sintática\ndef print_tree(node, level=0):\nprint(\"--\" * level + node.data)\nfor child in node.children:\nprint_tree(child, level + 1)\nprint_tree(s)\nPNL",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 777,
+                "elementos_desenhados": 6,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 777,
+                "chunk_id": "a6731712a10a33d1360c8ed6"
+            }
+        },
+        {
+            "chunk_id": "e993e90cffe1e67c997f7a5e",
+            "conteudo": "Aplicações\nclass Node:\ndef __init__(self, data):\nself.data = data # A palavra \nou a categoria sintática (ex: \nsujeito, verbo)\nself.children = []\n# Lista \nde filhos (componentes da frase)\n# Criando os nós da árvore sintática\nsujeito = Node(\"O cachorro\")\nverbo = Node(\"comeu\")\nobjeto = Node(\"o peixe\")\n# Criando a estrutura hierárquica\ns = Node(\"S\")\n# Frase (S)\nvp = Node(\"VP\")\n# Frase Verbal (VP)\n# Montando a árvore\ns.children.append(sujeito)\n# Sujeito \nda frase\ns.children.append(vp)\n# Frase Verbal \né parte da frase\nvp.children.append(verbo)\n# Verbo da \nfrase\nvp.children.append(objeto)\n# Objeto \nda frase\n# Imprimindo a árvore sintática\ndef print_tree(node, level=0):\nprint(\"--\" * level + node.data)\nfor child in node.children:\nprint_tree(child, level + 1)\nprint_tree(s)\nPNL",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 777,
+                "elementos_desenhados": 6,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 777,
+                "chunk_id": "e993e90cffe1e67c997f7a5e"
+            }
+        },
+        {
+            "chunk_id": "bbfd42b7f8032544f6ca0648",
+            "conteudo": "Tarefinha\nImplemente uma árvore para representar:\nEmpresa\n|-- Departamento1\n|   |-- Funcionário1\n|   |-- Funcionário2\n|-- Departamento2\n|-- Funcionário3",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 152,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 152,
+                "chunk_id": "bbfd42b7f8032544f6ca0648"
+            }
+        },
+        {
+            "chunk_id": "719200b41d43c292f61962e4",
+            "conteudo": "Tarefinha\nImplemente uma árvore para representar:\nEmpresa\n|-- Departamento1\n|   |-- Funcionário1\n|   |-- Funcionário2\n|-- Departamento2\n|-- Funcionário3\nModifique a \nestrutura para \ncontar o número \ntotal de nós.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 212,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 212,
+                "chunk_id": "719200b41d43c292f61962e4"
+            }
+        },
+        {
+            "chunk_id": "9c84bed027390596796549a2",
+            "conteudo": "Tarefinha\nImplemente uma árvore para representar:\nEmpresa\n|-- Departamento1\n|   |-- Funcionário1\n|   |-- Funcionário2\n|-- Departamento2\n|-- Funcionário3\nAdicione uma \nfuncionalidade \npara buscar um nó \npor nome.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "aplicacoes_de_arvores",
+                "aula": "01",
+                "arquivo": "Aula_1.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 211,
+                "elementos_desenhados": 7,
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 211,
+                "chunk_id": "9c84bed027390596796549a2"
+            }
+        }
+    ]
+}

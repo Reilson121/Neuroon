@@ -1,0 +1,33 @@
+{
+  "brutos": [
+    "{\"suficiente\": true, \"resposta\": \"Claro! Vamos visualizar uma pilha como uma **pilha de pratos** em um restaurante: você sempre coloca o prato novo por cima e, na hora de lavar, pega primeiro o prato que está no topo. Isso é o princípio **LIFO (Last In, First Out)** — o último que entra é o primeiro que sai. [F1]\\n\\n**Analogia criada pela IA** (baseada no conceito de LIFO do material do professor):\\n\\n```\\n        ┌─────────┐\\n        │  Prato 3 │  ← último a entrar, primeiro a sair\\n        ├─────────┤\\n        │  Prato 2 │\\n        ├─────────┤\\n        │  Prato 1 │  ← primeiro a entrar, último a sair\\n        └─────────┘\\n```\\n\\n**Exemplo didático criado pela IA** (ilustrando a ordem de entrada e saída):\\n\\n| Operação | Estado da pilha (do topo para a base) |\\n|----------|----------------------------------------|\\n| Empilhar A | A |\\n| Empilhar B | B, A |\\n| Empilhar C | C, B, A |\\n| Desempilhar | sai C → fica B, A |\\n| Desempilhar | sai B → fica A |\\n\\nPerceba que o **último elemento colocado (C)** foi o **primeiro a sair**, exatamente como manda o LIFO. [F1]\"}"
+  ],
+  "resultado": {
+    "resposta": "Claro! Vamos visualizar uma pilha como uma **pilha de pratos** em um restaurante: você sempre coloca o prato novo por cima e, na hora de lavar, pega primeiro o prato que está no topo. Isso é o princípio **LIFO (Last In, First Out)** — o último que entra é o primeiro que sai. [F1]\n\nPerceba que o **último elemento colocado (C)** foi o **primeiro a sair**, exatamente como manda o LIFO. [F1]",
+    "fontes": [
+      {
+        "periodo": "03",
+        "disciplina": "estrutura_de_dados_avancada",
+        "assunto": "revisao_estruturas_em_c",
+        "aula": "00",
+        "arquivo": "Aula_0.pdf",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "motivos_deteccao": [],
+        "caracteres_texto_original": 266,
+        "elementos_desenhados": 7,
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 266,
+        "chunk_id": "149cce3f20145769f045466e",
+        "referencia": "F1",
+        "similaridade": 0.8
+      }
+    ],
+    "fallback": false,
+    "motivo": null,
+    "blocos_sem_fonte_removidos": 4,
+    "reformulacoes": 0
+  }
+}

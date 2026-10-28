@@ -1,0 +1,1384 @@
+{
+    "resumo": {
+        "arquivo": "MATRIZ_CSD.pdf",
+        "periodo": "03",
+        "disciplina": "design_de_artefatos_digitais",
+        "assunto": "matriz_csd",
+        "aula": "complementar",
+        "total_paginas": 35,
+        "paginas_textuais": 35,
+        "paginas_multimodais": 0,
+        "total_chunks": 35,
+        "chunk_size": 1000,
+        "chunk_overlap": 150
+    },
+    "paginas": [
+        {
+            "conteudo": "descreve e simpliﬁca o contexto e a compreensão do \nprojeto, categorizando as informações em três tipos \ndistintos: certezas, suposições e dúvidas.\nMatriz\nCSD\n Anna Kaley, 2023\nnngroup.com",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 188,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "Uma matriz CSD é uma estrutura para \ndelinear e visualizar o que todos os \nenvolvidos em um projeto sabem,\nfazem suas hipóteses e o que ainda\nnão sabem sobre o plano",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 165,
+                "elementos_desenhados": 32,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nMatriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 763,
+                "elementos_desenhados": 25,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "vários tipos de conhecimentos, incluindo \nnecessidades e comportamentos dos usuários, bem \ncomo fatores organizacionais, como objetivos, \nprocessos, tecnologia e restrições.\nMatriz CSD\nAbrange",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 192,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "é uma estrutura para delinear e visualizar o \nque todos os envolvidos em um projeto sabem \nCertezas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 99,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "•  Contém declarações sobre o que já é conhecido e conﬁrmado por \npesquisas conﬁáveis  e evidências citadas.\n•  As equipes podem projetar e desenvolver ideias com conﬁança nas \ninformações.\nOBS.: As certezas devem ser monitoradas ao longo do tempo; mesmo com a \ncerteza sobre algo em determinado momento, seu status poderá mudar \nposteriormente, à medida que o contexto evolui.\nColuna\nCertezas\nda Matriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 407,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "Coluna Certezas\nexemplo\ndigamos que você esteja redesenhando uma \nplataforma para treinadores de cães gerenciarem \nseus clientes, sessões de treinamento e planos de \ntreinamento.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 178,
+                "elementos_desenhados": 4,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "•  Ajudar os treinadores de cães a gerenciar facilmente seus clientes e \nprogramas de treinamento\n•  Aumentar o alcance fazendo com que mais donos de cães reservem \nsessões\n•  Treinar mais cães\nExemplo | Certezas\nMetas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 218,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "•  Altas taxas de desistência na reserva de sessões de treinamento\n•  Baixas taxas de conclusão de pagamento\n•  Problemas com ferramentas de gerenciamento de treinamento (de \ntreinadores e donos de cães)\nExemplo | Certezas\nProblemas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 232,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• Entrevistar os steakholders e os treinadores de cães sobre \ncomo eles gerenciam atualmente suas práticas de \ntreinamento de cães; \n• Revisar as ferramentas e práticas atuas atuais; \n• Entrevistar os donos de cães (público ﬁnal)\n• Além de tratar com sua equipe de desenvolvimento, \npodemos assim listar as Certezas\nDepois\nde",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 325,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "•  Os aplicativos de treinamento de cães existentes são caros, confusos e de \nbaixa qualidade. (Fontes: revisão da ferramenta, entrevistas com partes \ninteressadas e instrutores)\n•  Os treinadores de cães não têm grandes orçamentos de tecnologia ou UX. \n(Fontes: entrevistas com partes interessadas e formadores)\n•  Os instrutores precisam fornecer fotos, vídeos e recapitulações de áudio\ndas sessões de treinamento.\n(Fontes: entrevistas e análises do treinador)\nExemplo | Certezas\no que \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 497,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "•  Os instrutores precisam vincular o conteúdo dos planos de treinamento. (Fonte: \nentrevistas com treinadores)\n•  Os treinadores precisam armazenar informações dos proprietários. (Fonte: \nentrevistas com treinadores)\n•  Os treinadores precisam oferecer métodos de pagamento seguros integrados ao \nQuickBooks. (Fonte: entrevistas com treinadores)\n•  Os proprietários esperam ﬂexibilidade para agendar suas próprias sessões de \ntreinamento. (Fonte: entrevistas com donos de cães)\nExemplo | Certezas\no que \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 513,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "•  A reserva de sessões de treinamento tem uma taxa de desistência de 60%. \n(Fonte: análise)\n•  20% dos proprietários reservam sessões de treinamento repetidas em 2 \nsemanas. (Fonte: análise)\n•  40% dos proprietários pagam as faturas das sessões de treinamento em 24 \nhoras. (Fonte: análise)\nExemplo | Certezas\no que \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 326,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nOs aplicativos são \nde caros e de baixa \nqualidade\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nMatriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 814,
+                "elementos_desenhados": 24,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "é uma estrutura de levantamento de \nhipóteses plausíveis e testáveis.\nEntrevistas\nEstudos de Campo\nTeste de Usabilidade\nMatriz CSD\nSuposições",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 141,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "•  O site de reservas é confuso e contém bugs. \n(Fonte: revisão de design)\n•  Os donos de cães carecem de informações úteis para se prepararem para as \nsessões de treinamento. (Fonte: entrevistas com proprietários)\n•  Os proprietários não voltam para veriﬁcar os planos de treinamento pós-sessão. \n(Fonte: entrevistas com proprietários)\nExemplo | Suposições\no que \nsupomos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 373,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• Os proprietários esquecem de agendar e pagar pelas sessões subsequentes. (Fonte: \nentrevistas com proprietários)\n• Os proprietários esquecem quando agendaram sessões. \n(Fonte: entrevistas com proprietários)\n• A ferramenta de plano de treinamento de back-end é difícil de usar. (Fonte: \nentrevistas com treinadores)\n•  Atualmente, há pouca ou nenhuma comunicação de acompanhamento. (Fonte: \nentrevistas com treinadores e proprietários)\nExemplo | Suposições\no que \nsupomos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 473,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• fontes como pesquisas documentais , \nentrevistas com stakeholders e pesquisas \nanteriores.\nSuposições\nsão informadas por",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 122,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "•   Algumas equipes indicam a fonte juntamente com os dados na qual a \nsuposição se baseia\nMODELO\nAcreditamos que [ação] resultará em [resultado ou comportamento]. Isso se \ndeve a [fonte da suposição]. Saberemos que isso é verdade quando virmos \n[dados que veriﬁcam a suposição].\nModelo | Suposições\ncomo\nexpõem",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 311,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "EXEMPLO\nAcreditamos que permitir que os donos de cães agendem as suas \npróprias sessões de treino resultará em mais sessões de treino \nreservadas. Isso ocorre porque aprendemos que os proprietários \nesperam um agendamento ﬂexível em nossa pesquisa de descoberta. \nSaberemos que isto é verdade quando observarmos um aumento \nsigniﬁcativo nas reservas para sessões de formação.\nExemplo | Suposições\ncomo\nexpõem",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 408,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nOs aplicativos são \nde caros e de baixa \nqualidade\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nMatriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 814,
+                "elementos_desenhados": 23,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "é onde a equipe descreve questões abertas\nque precisam ser mais exploradas.\nMatriz CSD\nDúvidas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 94,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• Os proprietários se sentem confortáveis  em acompanhar seus programas de \ntreinamento on-line?\n• Os proprietários trabalharão com seus cães após as sessões?\n• Os proprietários se lembrarão de ter guloseimas prontas para as sessões?\n• Os donos acham que seu animal de estimação estará totalmente treinado após 4 \nsessões?\nExemplo | Dúvidas\no que não \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 360,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• Os proprietários saberão como trabalhar com seus cães durante e após as sessões de \ntreinamento?\n• Os proprietários sabem como navegar nos planos de treinamento atuais?\n• Os treinadores estão usando tablets, computadores ou telefones?\n• Os proprietários estão usando tablets, computadores ou telefones?\nExemplo | Dúvidas\no que não \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 342,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nOs aplicativos são \nde caros e de baixa \nqualidade\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nMatriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 814,
+                "elementos_desenhados": 22,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "Matriz CSD (Linhas)\nEx. de linhas: usuário sobre o produto mercado",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 66,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• Quando a equipe discordar de uma aﬁrmação ou \ninformação coloque na coluna de Dúvidas\n• Consulte a matriz do CSD para priorizar e planejar \natividades, acompanhar o progresso da pesquisa e tirar \ndúvidas remanescentes.\nantes de ir\npara a pesquisa\nou soluções",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 260,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• O que nós sabemos?\n• Como sabemos que sabemos disso?\n• De onde veio essa informação?\n• Quão conﬁáveis  são os dados ou informações?\n• O que faremos a seguir com essas informações?\npontos especíﬁcos \npara determinar\nCertezas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 225,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "Kaplan, 2023\n• Que hipóteses temos?\n• Por que isso é plausível?\n• Quão conﬁantes estamos nessas suposições?\n• De onde ou quando aprendemos essa informação?\n• Podemos testar essa suposição para ter certeza? Como?\n• Qual é a prioridade de testar essa suposição?\npontos especíﬁcos \npara determinar\nSuposições",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 305,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• O que não sabemos?\n• O que precisamos aprender?\n• Com quem precisamos conversar?\n• Quais são os riscos?\npontos especíﬁcos \npara determinar\nDúvidas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 148,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• Em grupo permite que você obtenha muitos pontos \nde vista, hipóteses e questões abertas diferentes.\n• O objetivo da atividade não é chegar a um consenso, \nmas reunir e organizar informações de diversas \nperspectivas.\né possível fazer\nSozinho\nmas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 247,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• O que não sabemos?\n• O que precisamos aprender?\n• Com quem precisamos conversar?\n• Quais são os riscos?\nExemplo de dúvidas\nCertezas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 133,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "A ideia é que esses elementos caminhem pela matriz, \ndas dúvidas às certezas.\nO objetivo é esclarecer as dúvidas, transformar as \nsuposições em certezas e conﬁrmar as certezas.\nMatriz\nCSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 187,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "• Post it (físico)\n• Trello\n• Figma\n• Miro\nferra\nmentas\nda matriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 69,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        },
+        {
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nE o seu projeto?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 769,
+                "elementos_desenhados": 25,
+                "pasta_aula": "material_complementar_matriz_csd"
+            }
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": "f92d2c87c83e0f90370dabd4",
+            "conteudo": "descreve e simpliﬁca o contexto e a compreensão do \nprojeto, categorizando as informações em três tipos \ndistintos: certezas, suposições e dúvidas.\nMatriz\nCSD\n Anna Kaley, 2023\nnngroup.com",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 188,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 188,
+                "chunk_id": "f92d2c87c83e0f90370dabd4"
+            }
+        },
+        {
+            "chunk_id": "6a1c76bb86edff741c2beb46",
+            "conteudo": "Uma matriz CSD é uma estrutura para \ndelinear e visualizar o que todos os \nenvolvidos em um projeto sabem,\nfazem suas hipóteses e o que ainda\nnão sabem sobre o plano",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 165,
+                "elementos_desenhados": 32,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 165,
+                "chunk_id": "6a1c76bb86edff741c2beb46"
+            }
+        },
+        {
+            "chunk_id": "96196ec9663d0b21c31254a5",
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nMatriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 763,
+                "elementos_desenhados": 25,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 763,
+                "chunk_id": "96196ec9663d0b21c31254a5"
+            }
+        },
+        {
+            "chunk_id": "954fa6e74eb3fd69491a228c",
+            "conteudo": "vários tipos de conhecimentos, incluindo \nnecessidades e comportamentos dos usuários, bem \ncomo fatores organizacionais, como objetivos, \nprocessos, tecnologia e restrições.\nMatriz CSD\nAbrange",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 192,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 192,
+                "chunk_id": "954fa6e74eb3fd69491a228c"
+            }
+        },
+        {
+            "chunk_id": "90f5e6a4156314c8bdfb2826",
+            "conteudo": "é uma estrutura para delinear e visualizar o \nque todos os envolvidos em um projeto sabem \nCertezas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 99,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 99,
+                "chunk_id": "90f5e6a4156314c8bdfb2826"
+            }
+        },
+        {
+            "chunk_id": "9e5adeaccb31517fec1205be",
+            "conteudo": "•  Contém declarações sobre o que já é conhecido e conﬁrmado por \npesquisas conﬁáveis  e evidências citadas.\n•  As equipes podem projetar e desenvolver ideias com conﬁança nas \ninformações.\nOBS.: As certezas devem ser monitoradas ao longo do tempo; mesmo com a \ncerteza sobre algo em determinado momento, seu status poderá mudar \nposteriormente, à medida que o contexto evolui.\nColuna\nCertezas\nda Matriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 407,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 407,
+                "chunk_id": "9e5adeaccb31517fec1205be"
+            }
+        },
+        {
+            "chunk_id": "143fde4039fb488371794996",
+            "conteudo": "Coluna Certezas\nexemplo\ndigamos que você esteja redesenhando uma \nplataforma para treinadores de cães gerenciarem \nseus clientes, sessões de treinamento e planos de \ntreinamento.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 178,
+                "elementos_desenhados": 4,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 178,
+                "chunk_id": "143fde4039fb488371794996"
+            }
+        },
+        {
+            "chunk_id": "7d33b7a42c0571f3230547c7",
+            "conteudo": "•  Ajudar os treinadores de cães a gerenciar facilmente seus clientes e \nprogramas de treinamento\n•  Aumentar o alcance fazendo com que mais donos de cães reservem \nsessões\n•  Treinar mais cães\nExemplo | Certezas\nMetas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 218,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 218,
+                "chunk_id": "7d33b7a42c0571f3230547c7"
+            }
+        },
+        {
+            "chunk_id": "2dc9cf9d357bf2cd8d49d887",
+            "conteudo": "•  Altas taxas de desistência na reserva de sessões de treinamento\n•  Baixas taxas de conclusão de pagamento\n•  Problemas com ferramentas de gerenciamento de treinamento (de \ntreinadores e donos de cães)\nExemplo | Certezas\nProblemas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 232,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 232,
+                "chunk_id": "2dc9cf9d357bf2cd8d49d887"
+            }
+        },
+        {
+            "chunk_id": "24de1ec7d5c60135f345f5ae",
+            "conteudo": "• Entrevistar os steakholders e os treinadores de cães sobre \ncomo eles gerenciam atualmente suas práticas de \ntreinamento de cães; \n• Revisar as ferramentas e práticas atuas atuais; \n• Entrevistar os donos de cães (público ﬁnal)\n• Além de tratar com sua equipe de desenvolvimento, \npodemos assim listar as Certezas\nDepois\nde",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 325,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 325,
+                "chunk_id": "24de1ec7d5c60135f345f5ae"
+            }
+        },
+        {
+            "chunk_id": "60a2ee0203b9c6624e8f8026",
+            "conteudo": "•  Os aplicativos de treinamento de cães existentes são caros, confusos e de \nbaixa qualidade. (Fontes: revisão da ferramenta, entrevistas com partes \ninteressadas e instrutores)\n•  Os treinadores de cães não têm grandes orçamentos de tecnologia ou UX. \n(Fontes: entrevistas com partes interessadas e formadores)\n•  Os instrutores precisam fornecer fotos, vídeos e recapitulações de áudio\ndas sessões de treinamento.\n(Fontes: entrevistas e análises do treinador)\nExemplo | Certezas\no que \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 497,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 497,
+                "chunk_id": "60a2ee0203b9c6624e8f8026"
+            }
+        },
+        {
+            "chunk_id": "6ff4afccc800e9cb7bf63390",
+            "conteudo": "•  Os instrutores precisam vincular o conteúdo dos planos de treinamento. (Fonte: \nentrevistas com treinadores)\n•  Os treinadores precisam armazenar informações dos proprietários. (Fonte: \nentrevistas com treinadores)\n•  Os treinadores precisam oferecer métodos de pagamento seguros integrados ao \nQuickBooks. (Fonte: entrevistas com treinadores)\n•  Os proprietários esperam ﬂexibilidade para agendar suas próprias sessões de \ntreinamento. (Fonte: entrevistas com donos de cães)\nExemplo | Certezas\no que \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 513,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 513,
+                "chunk_id": "6ff4afccc800e9cb7bf63390"
+            }
+        },
+        {
+            "chunk_id": "759893e0e382562115b73117",
+            "conteudo": "•  A reserva de sessões de treinamento tem uma taxa de desistência de 60%. \n(Fonte: análise)\n•  20% dos proprietários reservam sessões de treinamento repetidas em 2 \nsemanas. (Fonte: análise)\n•  40% dos proprietários pagam as faturas das sessões de treinamento em 24 \nhoras. (Fonte: análise)\nExemplo | Certezas\no que \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 326,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 326,
+                "chunk_id": "759893e0e382562115b73117"
+            }
+        },
+        {
+            "chunk_id": "5d91854e1498d0fda739ce03",
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nOs aplicativos são \nde caros e de baixa \nqualidade\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nMatriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 814,
+                "elementos_desenhados": 24,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 814,
+                "chunk_id": "5d91854e1498d0fda739ce03"
+            }
+        },
+        {
+            "chunk_id": "5fa831f5a3b6880af842e3e3",
+            "conteudo": "é uma estrutura de levantamento de \nhipóteses plausíveis e testáveis.\nEntrevistas\nEstudos de Campo\nTeste de Usabilidade\nMatriz CSD\nSuposições",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 141,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 141,
+                "chunk_id": "5fa831f5a3b6880af842e3e3"
+            }
+        },
+        {
+            "chunk_id": "399b9675d65a9cd697cc0cf1",
+            "conteudo": "•  O site de reservas é confuso e contém bugs. \n(Fonte: revisão de design)\n•  Os donos de cães carecem de informações úteis para se prepararem para as \nsessões de treinamento. (Fonte: entrevistas com proprietários)\n•  Os proprietários não voltam para veriﬁcar os planos de treinamento pós-sessão. \n(Fonte: entrevistas com proprietários)\nExemplo | Suposições\no que \nsupomos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 373,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 373,
+                "chunk_id": "399b9675d65a9cd697cc0cf1"
+            }
+        },
+        {
+            "chunk_id": "54f93c2817599441b34dc352",
+            "conteudo": "• Os proprietários esquecem de agendar e pagar pelas sessões subsequentes. (Fonte: \nentrevistas com proprietários)\n• Os proprietários esquecem quando agendaram sessões. \n(Fonte: entrevistas com proprietários)\n• A ferramenta de plano de treinamento de back-end é difícil de usar. (Fonte: \nentrevistas com treinadores)\n•  Atualmente, há pouca ou nenhuma comunicação de acompanhamento. (Fonte: \nentrevistas com treinadores e proprietários)\nExemplo | Suposições\no que \nsupomos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 473,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 473,
+                "chunk_id": "54f93c2817599441b34dc352"
+            }
+        },
+        {
+            "chunk_id": "37de9143badbc66e0dabd04a",
+            "conteudo": "• fontes como pesquisas documentais , \nentrevistas com stakeholders e pesquisas \nanteriores.\nSuposições\nsão informadas por",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 122,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 122,
+                "chunk_id": "37de9143badbc66e0dabd04a"
+            }
+        },
+        {
+            "chunk_id": "04ded020bc40bbae0898b369",
+            "conteudo": "•   Algumas equipes indicam a fonte juntamente com os dados na qual a \nsuposição se baseia\nMODELO\nAcreditamos que [ação] resultará em [resultado ou comportamento]. Isso se \ndeve a [fonte da suposição]. Saberemos que isso é verdade quando virmos \n[dados que veriﬁcam a suposição].\nModelo | Suposições\ncomo\nexpõem",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 311,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 311,
+                "chunk_id": "04ded020bc40bbae0898b369"
+            }
+        },
+        {
+            "chunk_id": "9778388a78d480b80c35302b",
+            "conteudo": "EXEMPLO\nAcreditamos que permitir que os donos de cães agendem as suas \npróprias sessões de treino resultará em mais sessões de treino \nreservadas. Isso ocorre porque aprendemos que os proprietários \nesperam um agendamento ﬂexível em nossa pesquisa de descoberta. \nSaberemos que isto é verdade quando observarmos um aumento \nsigniﬁcativo nas reservas para sessões de formação.\nExemplo | Suposições\ncomo\nexpõem",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 408,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 408,
+                "chunk_id": "9778388a78d480b80c35302b"
+            }
+        },
+        {
+            "chunk_id": "d7c8f70320018574f5d567fc",
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nOs aplicativos são \nde caros e de baixa \nqualidade\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nMatriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 814,
+                "elementos_desenhados": 23,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 814,
+                "chunk_id": "d7c8f70320018574f5d567fc"
+            }
+        },
+        {
+            "chunk_id": "bb91c8ad1433cc0855888982",
+            "conteudo": "é onde a equipe descreve questões abertas\nque precisam ser mais exploradas.\nMatriz CSD\nDúvidas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 94,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 94,
+                "chunk_id": "bb91c8ad1433cc0855888982"
+            }
+        },
+        {
+            "chunk_id": "f8d9a91cf0564b2585645802",
+            "conteudo": "• Os proprietários se sentem confortáveis  em acompanhar seus programas de \ntreinamento on-line?\n• Os proprietários trabalharão com seus cães após as sessões?\n• Os proprietários se lembrarão de ter guloseimas prontas para as sessões?\n• Os donos acham que seu animal de estimação estará totalmente treinado após 4 \nsessões?\nExemplo | Dúvidas\no que não \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 360,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 360,
+                "chunk_id": "f8d9a91cf0564b2585645802"
+            }
+        },
+        {
+            "chunk_id": "a3ef4c0313e93a9138d34f15",
+            "conteudo": "• Os proprietários saberão como trabalhar com seus cães durante e após as sessões de \ntreinamento?\n• Os proprietários sabem como navegar nos planos de treinamento atuais?\n• Os treinadores estão usando tablets, computadores ou telefones?\n• Os proprietários estão usando tablets, computadores ou telefones?\nExemplo | Dúvidas\no que não \nsabemos?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 342,
+                "elementos_desenhados": 2,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 342,
+                "chunk_id": "a3ef4c0313e93a9138d34f15"
+            }
+        },
+        {
+            "chunk_id": "c5fc6c4ca92ca7be2781215e",
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nOs aplicativos são \nde caros e de baixa \nqualidade\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nMatriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 814,
+                "elementos_desenhados": 22,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 814,
+                "chunk_id": "c5fc6c4ca92ca7be2781215e"
+            }
+        },
+        {
+            "chunk_id": "49ed977e5902817dd824438e",
+            "conteudo": "Matriz CSD (Linhas)\nEx. de linhas: usuário sobre o produto mercado",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 66,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 66,
+                "chunk_id": "49ed977e5902817dd824438e"
+            }
+        },
+        {
+            "chunk_id": "224bb702d99794c1dcf81ae4",
+            "conteudo": "• Quando a equipe discordar de uma aﬁrmação ou \ninformação coloque na coluna de Dúvidas\n• Consulte a matriz do CSD para priorizar e planejar \natividades, acompanhar o progresso da pesquisa e tirar \ndúvidas remanescentes.\nantes de ir\npara a pesquisa\nou soluções",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 260,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 260,
+                "chunk_id": "224bb702d99794c1dcf81ae4"
+            }
+        },
+        {
+            "chunk_id": "8cca39c89ea0971ccc27780d",
+            "conteudo": "• O que nós sabemos?\n• Como sabemos que sabemos disso?\n• De onde veio essa informação?\n• Quão conﬁáveis  são os dados ou informações?\n• O que faremos a seguir com essas informações?\npontos especíﬁcos \npara determinar\nCertezas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 225,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 225,
+                "chunk_id": "8cca39c89ea0971ccc27780d"
+            }
+        },
+        {
+            "chunk_id": "17bbacfe5ff8d0297c20dfcc",
+            "conteudo": "Kaplan, 2023\n• Que hipóteses temos?\n• Por que isso é plausível?\n• Quão conﬁantes estamos nessas suposições?\n• De onde ou quando aprendemos essa informação?\n• Podemos testar essa suposição para ter certeza? Como?\n• Qual é a prioridade de testar essa suposição?\npontos especíﬁcos \npara determinar\nSuposições",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 305,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 305,
+                "chunk_id": "17bbacfe5ff8d0297c20dfcc"
+            }
+        },
+        {
+            "chunk_id": "116fe7791ac67d73d392cfd6",
+            "conteudo": "• O que não sabemos?\n• O que precisamos aprender?\n• Com quem precisamos conversar?\n• Quais são os riscos?\npontos especíﬁcos \npara determinar\nDúvidas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 148,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 148,
+                "chunk_id": "116fe7791ac67d73d392cfd6"
+            }
+        },
+        {
+            "chunk_id": "fc31c71145c872acf3991ab8",
+            "conteudo": "• Em grupo permite que você obtenha muitos pontos \nde vista, hipóteses e questões abertas diferentes.\n• O objetivo da atividade não é chegar a um consenso, \nmas reunir e organizar informações de diversas \nperspectivas.\né possível fazer\nSozinho\nmas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 247,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 247,
+                "chunk_id": "fc31c71145c872acf3991ab8"
+            }
+        },
+        {
+            "chunk_id": "eba1e59ed50bd95543a59e74",
+            "conteudo": "• O que não sabemos?\n• O que precisamos aprender?\n• Com quem precisamos conversar?\n• Quais são os riscos?\nExemplo de dúvidas\nCertezas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 133,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 133,
+                "chunk_id": "eba1e59ed50bd95543a59e74"
+            }
+        },
+        {
+            "chunk_id": "40ece8a60b10c8aa6a937873",
+            "conteudo": "A ideia é que esses elementos caminhem pela matriz, \ndas dúvidas às certezas.\nO objetivo é esclarecer as dúvidas, transformar as \nsuposições em certezas e conﬁrmar as certezas.\nMatriz\nCSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 187,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 187,
+                "chunk_id": "40ece8a60b10c8aa6a937873"
+            }
+        },
+        {
+            "chunk_id": "7bca8b051e1d446a8d51ed4c",
+            "conteudo": "• Post it (físico)\n• Trello\n• Figma\n• Miro\nferra\nmentas\nda matriz CSD",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 69,
+                "elementos_desenhados": 3,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 69,
+                "chunk_id": "7bca8b051e1d446a8d51ed4c"
+            }
+        },
+        {
+            "chunk_id": "fe7087edc89c4ed9dce40917",
+            "conteudo": "Certezas\nSuposições\nDúvidas\nNós sabemos ou entendemos isso...\nSupomos que...\nTemos dúvidas sobre...\nO site de reservas é \nconfuso e cheio de \nerros\nPouca ou nenhuma \ncomunicação de \nacompanhamento\nOs treinadores estão \nusando tablets, \ncomputadores ou \ntelefones?\nOs proprietários \ntrabalharão com seus \ncães após as sessões?\nOs proprietários se \nsentem confortáveis em \nacompanhar o \ntreinamento on-line?\nOs proprietários \nacham que os cães \nserão treinados em 4 \nsessões?\nProprietários \nesquecem de agendar \ne pagar pelas sessões\nFalta informações \núteis para os \nproprietários\nOs treinadores \nprecisão armazenar \ninformações dos \nproprietários\nOs treinadores não \ntêm grandes \norçamentos de \ntecnologia/UX\nOs proprietários \nprecisam agendar \nsessões\nE o seu projeto?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "matriz_csd",
+                "aula": "complementar",
+                "arquivo": "MATRIZ_CSD.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 769,
+                "elementos_desenhados": 25,
+                "pasta_aula": "material_complementar_matriz_csd",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 769,
+                "chunk_id": "fe7087edc89c4ed9dce40917"
+            }
+        }
+    ]
+}

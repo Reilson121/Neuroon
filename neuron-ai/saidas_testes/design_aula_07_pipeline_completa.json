@@ -1,0 +1,2098 @@
+{
+    "resumo": {
+        "arquivo": "Aula_07_AD.pdf",
+        "periodo": "03",
+        "disciplina": "design_de_artefatos_digitais",
+        "assunto": "design_de_interface_diagramacao",
+        "aula": "07",
+        "total_paginas": 45,
+        "paginas_textuais": 18,
+        "paginas_multimodais": 27,
+        "total_chunks": 54,
+        "chunk_size": 1000,
+        "chunk_overlap": 150
+    },
+    "paginas": [
+        {
+            "conteudo": "DESIGN DE ARTEFATOS DIGITAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "#DESIGN DE INTERFACE\n\nRepresentação visual de um fluxo de navegação em aplicativo móvel, composto por uma tela inicial e múltiplas telas subsequentes interconectadas.\n\nTela inicial (dispositivo móvel à esquerda):\n→ Tela de login (campos de entrada e botão)\n   → Tela com lista de itens e marcadores\n      → Tela com botão de reprodução e controles deslizantes\n         → Tela com grade de botões de reprodução\n            → Tela com grade de botões de reprodução (variação)\n   → Tela com botão circular central\n      → Tela com área retangular branca e botão\n   → Tela com lista de itens e marcadores\n      → Tela com campo de entrada e botão\n         → Tela com lista de campos de entrada e botão\n   → Tela com lista de itens e marcadores\n      → Tela com área retangular branca\n         → Tela com lista de campos de entrada e botão\n   → Tela com botão de reprodução e controles deslizantes\n      → Tela com grade de botões de reprodução\n         → Tela com grade de botões de reprodução (variação)\n      → Tela com botões circulares e campos de entrada\n         → Tela com lista de campos de entrada e botão\n   → Tela com grade de botões de reprodução\n      → Tela com grade de botões de reprodução (variação)\n         → Tela com grade de botões de reprodução (variação)\n   → Tela com grade de botões de reprodução (variação)\n      → Tela com grade de botões de reprodução (variação)\n         → Tela com lista de campos de entrada e botão",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "❑\nrecurso que conduz a interação do ser humano \ncom um produto físico ou virtual;\n#DESIGN DE INTERFACE",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 102,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "❑\nrecurso que conduz a interação do ser humano \ncom um produto físico ou virtual;\n❑\nenvolve o conhecimento técnico e estético para a \nconstrução de ferramentas funcionais;\n#DESIGN DE INTERFACE",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 192,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "❑\nrecurso que conduz a interação do ser humano \ncom um produto físico ou virtual;\n❑\nenvolve o conhecimento técnico e estético para a \nconstrução de ferramentas funcionais;\n#DESIGN DE INTERFACE\nNa prática, o design de interface diz respeito à parte \nvisual, à usabilidade, arquitetura da informação, \nnavegação, transição de telas. Ou seja, todos os recursos \nque incrementam e melhoram a forma como o usuário \nlida com o produto.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 429,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "**Design de Informação**\n\nO conceito central de **Design de Informação** é apresentado como resultado da convergência de quatro áreas do conhecimento, cada uma contribuindo com um aspecto específico:\n\n*   **Educação** → contribui com o conceito de **Aprendizagem**.\n*   **Ciência da Informação** → contribui com o conceito de **Organização de Informações**.\n*   **Design** → contribui com o conceito de **Composição**.\n*   **Psicologia** → contribui com o conceito de **Percepção**.\n\nA página é creditada a **Lucas Alves - Ideia Clara**.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "Também conhecido como “infodesign”, o design de \ninformação lida diretamente com a forma com que o \nconteúdo é apresentado às pessoas. Dá-se importância \nnão só para o que se diz, mas também para como se \nestá sendo dito, com o objetivo de potencializar a \ncaptação da mensagem. \nDesign da \nInformação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 301,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "Especialização do design de interface responsável por \napresentar espaços de informação. Ele fornece aos \nusuários a possibilidade de ir a lugares.\nDesenvolvimento de \nfluxos de aplicação \nPara facilitar as tarefas \nDo usuário, definindo \nComo esse interage \nCom as funcionalidades\ndo Sistema.\nDesign de \nnavegação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 314,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "DIAGRAMAÇÃO\n\nDIAGRAMAÇÃO\n\nDiagramar uma página significa muito mais que apenas dispor textos, fotos e ornamentos no papel; é construir, estruturar elementos que irão compor uma mensagem que deve ser trabalhada conscientemente.\n\nBotões Dallmac\nConduzindo você ao inspirador e criativo caminho da moda\nleading you to creative and inspiring fashion\nDALLMAC\nwww.dallmac.com.br | +55 54 3284 4790\nfacebook.com/dallmac",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 11,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "CENTRO ÓPTICO\n\nO centro óptico é o primeiro visual apreendido por quem manipula uma peça impressa e possibilita o deslocamento dentro de um layout.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "CENTRO ÓPTICO\n\nFONTANA ARNO\n\nSistema Multijato\nReservatório de água removível\nCesto de roupas dispensa torneira\nou mangueiras para encher\n\nTanque de 11 litros\nLavagem de 3,5 kg de roupas\npor vez\n\nCesto para roupas\nEncaixa na tampa\ndo tanque\n\nFiltro de água\nRetém fiapos de tecido\ne resíduos da lavagem\n\nPainel de controle\nLiga e desliga o produto\ne faz o controle de tempo\nde lavagem e enxágue\n\nFONTANA ARNO\nUma nova maneira de lavar roupa",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "# DIAGRAMAÇÃO\n\n## #02 – LEIS COMPOSITIVAS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "# UNIDADE\n\nA unidade diz respeito a harmonia das forças tipológicas e ilustrativas relacionadas à estática.\n\nAnalisamos a unidade levando em conta a escolha de caracteres, ilustrações, formatos, etc.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "# Razões científicas para caminhar\n\nSão necessários apenas 30 minutos por dia, três vezes na semana, para conquistar benefícios que vão da prevenção à depressão até a melhora da insônia. O que você está esperando para dar uma volta por aí?\n\nPor Vania Marques\n\n---\n\nTem se tornado quase um consenso que caminhar é um santo remédio contra o sedentarismo e, principalmente, contra os males que ele provoca. Mas será que todo mundo sabe por que caminhar faz tão bem? A ciência tem respostas para isso. \"Caminhar é uma atividade física que pode ser praticada por quase todas as pessoas, em qualquer idade, e não exige equipamentos especiais, o que a torna uma opção democrática e acessível\", afirma o médico do esporte e cardiologista Felipe Lopes de Lima, diretor técnico da Academia Físio Saúde (SP). \"Além disso, é uma atividade de baixo impacto, o que reduz o risco de lesões musculares e articulares, e pode ser facilmente incorporada à rotina\", completa.\n\nA seguir, veja o que a ciência diz sobre os benefícios de caminhar:\n\n## AFASTA A DEPRESSÃO\nA Universidade de Stirling (Escócia) avaliou oito estudos que envolveram mais de 340 pacientes e concluiu que a prática pode reduzir a depressão. \"A caminhada é uma atividade aeróbica que libera endorfinas, neurotransmissores que promovem a sensação de bem-estar e melhoram o humor\", explica o médico. \"Além disso, a exposição à luz solar durante a caminhada ajuda a regular o ritmo circadiano, o que pode melhorar a qualidade do sono e, consequentemente, os sintomas da depressão\", diz.\n\n## FAZ BEM PARA A MEMÓRIA\nIdosos que praticam caminhada em ritmo moderado apresentam um risco menor de desenvolver demência vascular, de acordo com um estudo publicado na revista científica *Stroke*. A pesquisa acompanhou 749 pessoas com idade entre 60 e 70 anos e concluiu que a prática de exercícios físicos regulares, como a caminhada, pode aumentar o volume do hipocampo, região do cérebro responsável pela memória e aprendizado.\n\n## COMBATE O COLESTEROL RUIM\nCaminhar é tão eficiente como tomar remédio para diminuir o colesterol. É o que aponta um estudo publicado no *Journal of the American Heart Association*. A pesquisa acompanhou 10 mil pessoas com idade entre 18 e 80 anos e concluiu que a caminhada é uma atividade que ajuda a aumentar o colesterol bom (HDL) e a diminuir o colesterol ruim (LDL). \"A caminhada também ajuda a controlar o peso, o que é fundamental para reduzir o risco de doenças cardiovasculares\", afirma o médico.\n\n## PREVINE DOENÇAS VASCULARES\nA prática regular de caminhada é capaz de reduzir o risco de doenças cardiovasculares, que são a principal causa de morte no mundo. \"A caminhada ajuda a melhorar a circulação sanguínea, a reduzir a pressão arterial e a controlar o peso, fatores que contribuem para a saúde do coração\", explica o médico. \"Além disso, a atividade física regular pode reduzir o risco de derrame e de doenças vasculares periféricas\", completa.\n\n---\n\n**Legenda da imagem:** A imagem mostra as pernas de uma pessoa caminhando em uma superfície clara, usando tênis branco com detalhes em rosa e azul. Sobre a imagem, há elementos gráficos que lembram circuitos ou conexões digitais, representando talvez os benefícios científicos da caminhada.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 68,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao\n2. HIERARQUIA VISUAL: O PESO DAS INFORMAÇÕES\nQuando se define uma hierarquia visual em um material você deve pensar \nem como cada elemento aparecerá, seja ele um título, uma imagem, uma \nlegenda, um texto de apoio, um selo, enfim, tudo que for apresentado \nprecisa ter harmonia e deve ter apresentação coerente.\nTrabalhar bem a hierarquia das informações garantirá que o seu público \nvisualize o trabalho e, em poucos segundos, tenha uma ideia do que se \ntrata dando continuidade na leitura se aquele conteúdo gerar algum \nimpacto significativo para ele.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 623,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 68,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "Informações mais harmônicas, o título do material é o \ndestaque, em seguida percebemos a informação sobre como \na empresa trata do que vendem e, no fim sem tanto \ndestaque, um texto dando mais informações sobre como o \nleitor pode obter mais informações e o logotipo.\n Todos os textos têm o mesmo peso, as informações parecem \nbrigar por atenção. É quase inevitável perceber as \ninformações do meio do material antes do assunto \npropriamente dito. Os olhos pulam pelas informações \ngerando desconforto e, consequentemente desinteresse.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 535,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "GUIA PRÁTICO\nDO SEGURADO\n\nSUA SAÚDE ESTÁ EM NOSSOS PLANOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "# GUIA PRÁTICO DO SEGURADO\n\nSUA SAÚDE ESTÁ EM NOSSOS PLANOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "3- quanto maior o contraste, mais fácil de \ndirecionar o leitor a utilizar a ordem de \nleitura desenhada para o projeto.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 120,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao\n4. PADRONIZAÇÃO: O CAMINHO PARA FACILITAR ASSOCIAÇÕES \nFUTURAS\nDefinir padrões visuais apresentados em cada página ajuda o \nleitor a entender que se manteve no mesmo material, além de \naumentar a velocidade da leitura, já que o leitor aprende a \nhierarquia de uma página que seguirá igual para todas as outras.\nA padronização é importante para agilizar a leitura, mas também \né importante para que o leitor conheça e faça mais tarde \nassociações daquela forma de apresentar informações a uma \ndeterminada marca, por exemplo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 593,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "**PSICOLOGIA DAS CORES**\n\nO diagrama apresenta uma roda de cores dividida em oito setores, cada um associado a uma cor, a conceitos psicológicos e a exemplos de logotipos de marcas.\n\n**Branco**\n- Conceitos: clareza, simplicidade, liberdade, tranquilidade.\n- Exemplos de marcas: Apple, Mercedes-Benz, Jaguar.\n\n**Vermelho**\n- Conceitos: energia, paixão, urgência, juventude.\n- Exemplos de marcas: Bradesco, Canon, Coca-Cola, Nintendo, Toyota.\n\n**Laranja**\n- Conceitos: vibração, entusiasmo, segurança, confiança.\n- Exemplos de marcas: Itaú, GOL, Amazon, SoundCloud, Inter.\n\n**Amarelo**\n- Conceitos: satisfação, alegria, edificação, vitalidade, dinamismo, diversão.\n- Exemplos de marcas: National Geographic, McDonald's, Snapchat, Nikon, Ferrari.\n\n**Verde**\n- Conceitos: relacionamento, cura, novo, prosperidade.\n- Exemplos de marcas: Android, Holiday Inn, Spotify, Starbucks, Jeep.\n\n**Azul**\n- Conceitos: serenidade, paz, estabilidade, compromisso, fidelidade.\n- Exemplos de marcas: Oreo, IBM, Oral-B, Ford, Dell.\n\n**Roxo**\n- Conceitos: exclusividade, qualidade, riqueza, inovação.\n- Exemplos de marcas: Milka, Hallmark, Vivo, Nubank, Yahoo!.\n\n**Preto**\n- Conceitos: força, elegância, sofisticação.\n- Exemplos de marcas: Uber, Sony, WWF, Nike, Prada.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "aula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\nMateriais e Processos Gráficos  |  profa. Tamires Lima\nHarmonia entre as cores\nHARMONIA DAS CORES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 147,
+                "elementos_desenhados": 11,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "# Menu de Navegação\n- Work\n- Journal\n- Shop\n\n# Áreas de Atuação\n- UX\n- BRANDING\n- DEV\n\n# Chamada para Ação\nSee our work →",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "aula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\nHARMONIA ANÁLOGA\nÉ a harmonia \ncomposta\npor cores vizinhas.\nHARMONIA DAS CORES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 128,
+                "elementos_desenhados": 14,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "MODERN CHURCH\nLOVE GOD & LOVE LIFE\n\nMenu de navegação:\n- HOME\n- SERMONS\n- NEWS & EVENTS\n- ABOUT\n- CONTACT\n- SEARCH\n\nSeções principais:\n- I'M NEW HERE\n  - READ MORE\n- CARE MINISTRIES\n  - READ MORE\n- PRAYER REQUEST\n  - READ MORE\n\nRoda de cores:\n- COOL\n- WARM\n\nRodapé:\nMateriais e Processos Gráficos | profª. Tamires Lima",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 58,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "HARMONIA DAS CORES\naula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 68,
+                "elementos_desenhados": 9,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "HARMONIA DAS CORES\naula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\n*VOCÊ PODE UTILIZAR TAMBÉM UMA DUPLA COMPLEMENTAR",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 118,
+                "elementos_desenhados": 13,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "An Interesting Day\nInformation\n\nAn Interesting Day\n\nAugust 9th 2016\nSave the date\n\nStefanie Oostendorp\nMap\n\nA weird, one-day conference on a tiny island in the Ooijpolder full of fun activities and talks\nfrom some of the most interesting people in\nentrepreneurship, design and creativity.\n\nSign up to get notified when we launch the\nfull program and start accepting invitation\nrequests.\n\nYour Email\nNotify me\n\nBaken & Buck\n\nAn Interesting Day is a one-day conference hosted by\ndigital product studio Baken & Buck.\n\n© 2016 Baken & Buck. All rights reserved.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "HARMONIA DAS CORES\naula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 68,
+                "elementos_desenhados": 9,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "WONDER\n\nPRODUCTS • OUR STORY • SPREAD THE WONDER • SPOT THE WONDER • PRODUCT LOCATOR • MERCHANDISE\n\nLET YOUR WONDER TAKE FLIGHT!\nFor decades, the Wonder Balloon has soared the nation's skies, bringing a sense of \"wow, Wonder\" to all who see it.\nMEET OUR PILOT\nMORE WONDER HISTORY\n\nWONDER CLASSIC WHITE\nThis is it—the loaf that made Wonder Bread a household name. It's soft, white and as wholesome as childhood itself.\nSEE ALL PRODUCTS\n\nSPREAD THE WONDER\nVISIT OUR TUMBLR\n\nFRANKLY GOOD!\n#SPREADTHEWONDER\n\nAND IT'S GOOD!\n#SPREADTHEWONDER\n\nWALKING BREAD\n#SPREADTHEWONDER",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "aula\n\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\n\nHARMONIA COMPLEMENTAR DIVIDIDA\nÉ a harmonia conseguida através da mistura de uma tonalidade da escala com as duas vizinhas da cor diretamente oposta a primeira.\n\nEsta é uma variante da combinação de harmonia de complementares que utiliza uma cor como principal e as duas cores adjacentes ao seu complementar.\n\nO círculo cromático apresentado é dividido em duas metades identificadas como COOL e WARM. Uma linha branca conecta uma cor na metade COOL a uma cor na metade WARM, e a partir desta segunda cor, duas linhas brancas conectam-se a duas cores adjacentes na metade WARM.\n\nAbaixo do círculo cromático, são apresentados seis diagramas circulares. Cada diagrama é composto por um anel externo dividido em doze segmentos cinza-claros e um anel interno dividido em doze segmentos. Em cada diagrama, três segmentos do anel interno estão preenchidos com cores, enquanto os demais permanecem cinza-claros.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 49,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "nature's table\n\nOrder Online | Catering | Contact Us\n\nMenu | Locations | What's Happening | About Us | Franchising\n\nTEXAS CLUB WRAP\nEAT SMART LIVE WELL\nCheck Out Other Delicious Wraps",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "aula\n\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\n\nHARMONIA TETRAÉDICA\nÉ a harmonia conseguida através da mistura de tonalidades vizinhas a cores opostas.\n\nO círculo cromático apresenta as marcações \"COOL\" e \"WARM\". Sobre ele, um polígono de quatro lados (retângulo) conecta quatro pontos que representam as cores da harmonia tetraédrica.\n\nAbaixo, cinco representações de círculos cromáticos subdivididos em 12 seções, com quatro seções destacadas em cada um, indicando diferentes combinações de cores:\n1. Verde, amarelo, azul e magenta.\n2. Verde, laranja, azul e vermelho.\n3. Amarelo, laranja, azul e roxo.\n4. Verde, laranja, azul e vermelho.\n5. Amarelo, laranja, azul e roxo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 49,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "He's Leaving His World Behind\n\nTHE SPONGEBOB MOVIE\nSPONGE OUT OF WATER\n3D\nCOMING SOON\n\nCOOL\nWARM",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 36,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "O SIGNIFICADO DAS CORES\nQual significado das cores?\nAs cores exercem uma ação tríplice \nna nossa percepção: \na)\nA cor é vista: impressiona a \nretina\nb)\nA cor é sentida: provoca \nsentimentos e emoções\nc)\nA cor é construtiva: tendo um \nsignificado próprio, um valor \nsimbólico que pode construir \numa linguagem e comunicar \numa ideia.\naula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 37,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 382,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "| Cor | Significados |\n| :--- | :--- |\n| Branco | paz, pureza, casamento, hospital, frio, dignidade, divindade, harmonia... |\n| Preto | noite, sujeira, medo, morte, pessimismo, tristeza / Nobreza, seriedade... |\n| Cinza | pó, máquinas, tédio, sabedoria, serenidade, estabilidade... |\n| Vermelho | guerra, sangue, perigo, fogo, energia, força, ação, movimento, paixão... |\n| Laranja | apetite, pôr-do-sol, euforia, alegria, entusiasmo, vitalidade... |\n| Amarelo | ouro, riqueza, sol, calor, luz, energia, verão, espontaneidade... |\n| Verde | natureza, floresta, vida, bem-estar, liberdade, juventude, esperança... |\n| Azul-claro | céu, mar, tranquilidade, espaço, infinito, afeto / Seriedade, credibilidade... |\n| Roxo | igreja, religião, mistério, grandeza, espiritualidade, experiência... |\n| Marrom | terra, melancolia, desconforto, simplicidade, conservadorismo... |\n| Rosa | feminilidade, delicadeza, suavidade, calma, afeto, amor... |",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 38,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "**VERMELHO**\n\n**CARACTERÍSTICAS**\n- DINAMISMO\n- CALOR\n- AGRESSIVIDADE\n- PAIXÃO\n- ENERGIA\n- SEXO\n- FOME\n- PERIGO\n\n**SEGMENTOS IDEAIS**\n- TECNOLOGIA\n- ALIMENTAÇÃO\n- PRODUTOS NATURAIS\n- VEÍCULOS\n\n---\n\n**AZUL**\n\n**CARACTERÍSTICAS**\n- PROFISSIONALIDADE\n- SERIEDADE\n- INTEGRIDADE\n- SINCERIDADE\n- CALMA\n- INFINITO\n- SERENIDADE\n- FRESCOR\n\n**SEGMENTOS IDEAIS**\n- SAÚDE\n- TECNOLOGIA\n- ENERGIA\n- AÉREAS E TURISMO\n- PRODUTOS NATURAIS\n- FINANÇAS\n\n---\n\n**VERDE**\n\n**CARACTERÍSTICAS**\n- NATUREZA\n- ÉTICA\n- CRESCIMENTO\n- SERENIDADE\n- ORGÂNICO\n- SUSTENTABILIDADE\n- FRESCOR\n- JUVENTUDE\n\n**SEGMENTOS IDEAIS**\n- ALIMENTAÇÃO\n- PRODUTOS NATURAIS\n- CASA E DECORAÇÃO\n- ENERGIA\n- SAÚDE\n- FINANÇAS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 39,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "AMARELO\nCARACTERÍSTICAS\nCALOR\nBONDADE\nPOSITIVIDADE\nESTIMULANTE\nALEGRIA\nLUMINOSIDADE\nFOME\nINFÂNCIA\nSEGMENTOS IDEAIS\nENERGIA\nALIMENTAÇÃO\nPRODUTOS NATURAIS\nCASA E DECORAÇÃO\n\nLARANJA\nCARACTERÍSTICAS\nINOVAÇÃO\nMODERNIDADE\nJUVENTUDE\nDIVERSÃO\nACESSIBILIDADE\nALERTA\nVITALIDADE\nFOME\nSEGMENTOS IDEAIS\nENERGIA\nALIMENTAÇÃO\nSAÚDE\nPRODUTOS NATURAIS\n\nPÚRPURA\nCARACTERÍSTICAS\nLUXO\nREALEZA\nSABEDORIA\nDIGNIDADE\nMISTÉRIO\nESPIRITUALIDADE\nRIQUEZA\nSOFISTICAÇÃO\nSEGMENTOS IDEAIS\nALIMENTAÇÃO\nTECNOLOGIA\nFINANÇAS\nAÉREO E TURISMO\nSAÚDE\nMODA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 40,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "MARROM\n\nCARACTERÍSTICAS\nMASCULINO\nRÚSTICO\nNATUREZA\nTERRA\nRURAL\nAVENTURA\nSIMPLICIDADE\nORGÂNICO\n\nSEGMENTOS IDEAIS\nALIMENTAÇÃO\nENERGIA\nCASA E DECORAÇÃO\nPRODUTOS NATURAIS\nMASCULINO\nMODA\n\nROSA\n\nCARACTERÍSTICAS\nDIVERSÃO\nCUIDADO\nINOCÊNCIA\nFEMININO\nDELICADEZA\nROMANTISMO\nFRESCOR\nSUAVIDADE\n\nSEGMENTOS IDEAIS\nALIMENTAÇÃO\nFEMININO\nMODA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 41,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "**BRANCO**\n\n**CARACTERÍSTICAS**\n*   PUREZA\n*   LIMPEZA\n*   SIMPLICIDADE\n*   INGENUIDADE\n*   BELEZA\n*   SUAVIDADE\n*   MACIEZ\n*   MODERNIDADE\n\n**SEGMENTOS IDEAIS**\n*   AÉREOS E TURISMO\n*   TECNOLOGIA\n*   SAÚDE\n*   PRODUTOS NATURAIS\n*   MODA\n*   CASA E DECORAÇÃO\n\n---\n\n**PRETO**\n\n**CARACTERÍSTICAS**\n*   PODER\n*   SOFISTICAÇÃO\n*   PRESTÍGIO\n*   VALOR\n*   EXCLUSIVIDADE\n*   TECNOLOGIA\n*   ATEMPORAL\n*   MISTERIOSO\n\n**SEGMENTOS IDEAIS**\n*   TECNOLOGIA\n*   ALIMENTAÇÃO\n*   VEÍCULOS\n*   PRODUTOS NATURAIS\n*   MODA\n*   CASA E DECORAÇÃO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 42,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "# O SIGNIFICADO DAS CORES\n\nO material apresenta uma relação entre categorias de significados, suas respectivas características e exemplos de marcas associadas a cada categoria.\n\n**OTIMISMO**\n- clareza\n- calor\n- Exemplos: Nikon, UPS, NBC, Google, Nickelodeon, National Geographic Channel, IMBd, Discovery Kids, CAT, Sprint, Microsoft, Amazon, Payless, eBay, Subway, Shell, IKEA, Best Buy, DHL, Walmart, McDonald's, Gulf, entre outros.\n\n**AMIGÁVEL**\n- alegria\n- confiança\n- Exemplos: Kellogg's, Kmart, Nintendo, Coca-Cola, Monster, Syfy, TNT, Dell, AT&T, flickr, Barbie, Virgin, Exxon, Fanta, Lego, Y!, ACE, Starz, Target, Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.\n\n**EXCITAÇÃO**\n- juventude\n- coragem\n- Exemplos: Nickelodeon, Kmart, Nintendo, Coca-Cola, Monster, Syfy, TNT, Dell, AT&T, flickr, Barbie, Virgin, Exxon, Fanta, Lego, Y!, ACE, Starz, Target, Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.\n\n**CRIATIVO**\n- imaginativo\n- sabedoria\n- Exemplos: Nickelodeon, Kmart, Nintendo, Coca-Cola, Monster, Syfy, TNT, Dell, AT&T, flickr, Barbie, Virgin, Exxon, Fanta, Lego, Y!, ACE, Starz, Target, Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.\n\n**CONFIANÇA**\n- seguro\n- força\n- Exemplos: Nickelodeon, Kmart, Nintendo, Coca-Cola, Monster, Syfy, TNT, Dell, AT&T, flickr, Barbie, Virgin, Exxon, Fanta, Lego, Y!, ACE, Starz, Target, Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.\n\n**PACÍFICO**\n- crescimento\n- saúde\n- Exemplos: Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.\n\n**EQUILÍBRIO**\n- neutro\n- calmo\n- Exemplos: CN, Apple, Mercedes-Benz, Twitter, BP, Greenpeace, Nike, Puma, entre outros.\n\n**DIVERSIDADE**\n- Exemplos: NBC, Google, Microsoft, eBay, entre outros.\n\nO material também apresenta um conjunto de ícones na base da imagem, representando conceitos como:\n- Yin-yang\n- Símbolo da paz\n- Punho erguido\n- Lâmpada\n- Raio\n- Rosto sorridente\n- Polegar para cima",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 43,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "**Adobe Color**\n\n**Navegação Principal:**\n*   **CRIAR** (ativo)\n*   **EXPLORAR**\n*   **TENDÊNCIAS**\n*   **BIBLIOTECAS**\n\n**Seção: Disco de cores**\n*   **Abas:** Disco de cores (ativa), Extrair tema, Extrair gradiente, Ferramentas de acessibilidade (Novo).\n\n**Painel de Controle de Harmonia:**\n*   **Aplicar a regra de harmonia de cores**\n*   **Opções de Harmonia:**\n    *   Análogo (selecionado)\n    *   Monocromático\n    *   Tríade\n    *   Complementar\n    *   Dividir complementar\n    *   Dividir complementar duas vezes\n    *   Quadrado\n    *   Composto\n    *   Sombras\n    *   Personalizado\n\n**Roda de Cores:**\n*   Representação circular do espectro de cores.\n*   Seletores de pontos de cor posicionados na região azul/ciano.\n*   Linhas conectando os seletores ao centro da roda.\n\n**Paleta de Cores Resultante:**\n*   **A:** Roxo\n*   **B:** Azul\n*   **C:** Azul\n*   **D:** Azul claro\n*   **E:** Ciano\n\n**Painel de Salvamento:**\n*   **Salvar em:** Minha biblioteca...\n*   **Nome:** My Color Theme\n*   **Tags:** Insira ou selecione abaixo\n    *   Pink +\n    *   Magenta +\n    *   Love +\n    *   Hot +\n    *   Girl +\n*   **Publicar no Color** (alternado ativado)\n*   **Verificar acessibilidade**\n*   **Botão:** Salvar\n\n**URL:** https://color.adobe.com/pt/create/color-wheel",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 44,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 45,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        },
+        {
+            "conteudo": "INICIAR AS DEFINIÇÕES VISUAIS PARA O ARTEFATO\n-\nFECHAR AS PERSONAS \n-\nCRIAR PALETA DE CORES \n-\nESCOLHER ESTILO VISUAL\n-\nCRIAR LINGUAGEM VISUAL A PARTIR DO ESTILO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 45,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 161,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao"
+            }
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": "5a997ca5952cb1d04bf0f174",
+            "conteudo": "DESIGN DE ARTEFATOS DIGITAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 28,
+                "chunk_id": "5a997ca5952cb1d04bf0f174"
+            }
+        },
+        {
+            "chunk_id": "798a544a883d3837f1da462f",
+            "conteudo": "#DESIGN DE INTERFACE\n\nRepresentação visual de um fluxo de navegação em aplicativo móvel, composto por uma tela inicial e múltiplas telas subsequentes interconectadas.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 3,
+                "chunk_caracteres": 166,
+                "chunk_id": "798a544a883d3837f1da462f"
+            }
+        },
+        {
+            "chunk_id": "70964f46b9d1475522dcb772",
+            "conteudo": "Tela inicial (dispositivo móvel à esquerda):\n→ Tela de login (campos de entrada e botão)\n   → Tela com lista de itens e marcadores\n      → Tela com botão de reprodução e controles deslizantes\n         → Tela com grade de botões de reprodução\n            → Tela com grade de botões de reprodução (variação)\n   → Tela com botão circular central\n      → Tela com área retangular branca e botão\n   → Tela com lista de itens e marcadores\n      → Tela com campo de entrada e botão\n         → Tela com lista de campos de entrada e botão\n   → Tela com lista de itens e marcadores\n      → Tela com área retangular branca\n         → Tela com lista de campos de entrada e botão\n   → Tela com botão de reprodução e controles deslizantes\n      → Tela com grade de botões de reprodução\n         → Tela com grade de botões de reprodução (variação)\n      → Tela com botões circulares e campos de entrada\n         → Tela com lista de campos de entrada e botão\n   → Tela com grade de botões de reprodução",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 2,
+                "total_chunks_pagina": 3,
+                "chunk_caracteres": 986,
+                "chunk_id": "70964f46b9d1475522dcb772"
+            }
+        },
+        {
+            "chunk_id": "d7f518f7aa083d79d0167081",
+            "conteudo": "→ Tela com lista de campos de entrada e botão\n   → Tela com grade de botões de reprodução\n      → Tela com grade de botões de reprodução (variação)\n         → Tela com grade de botões de reprodução (variação)\n   → Tela com grade de botões de reprodução (variação)\n      → Tela com grade de botões de reprodução (variação)\n         → Tela com lista de campos de entrada e botão",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 3,
+                "total_chunks_pagina": 3,
+                "chunk_caracteres": 376,
+                "chunk_id": "d7f518f7aa083d79d0167081"
+            }
+        },
+        {
+            "chunk_id": "a71f12923b5e606c163bd4e0",
+            "conteudo": "❑\nrecurso que conduz a interação do ser humano \ncom um produto físico ou virtual;\n#DESIGN DE INTERFACE",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 102,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 102,
+                "chunk_id": "a71f12923b5e606c163bd4e0"
+            }
+        },
+        {
+            "chunk_id": "f473455f36d5195f6ede17ed",
+            "conteudo": "❑\nrecurso que conduz a interação do ser humano \ncom um produto físico ou virtual;\n❑\nenvolve o conhecimento técnico e estético para a \nconstrução de ferramentas funcionais;\n#DESIGN DE INTERFACE",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 192,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 192,
+                "chunk_id": "f473455f36d5195f6ede17ed"
+            }
+        },
+        {
+            "chunk_id": "a9b3c78a294ab25156e6f072",
+            "conteudo": "❑\nrecurso que conduz a interação do ser humano \ncom um produto físico ou virtual;\n❑\nenvolve o conhecimento técnico e estético para a \nconstrução de ferramentas funcionais;\n#DESIGN DE INTERFACE\nNa prática, o design de interface diz respeito à parte \nvisual, à usabilidade, arquitetura da informação, \nnavegação, transição de telas. Ou seja, todos os recursos \nque incrementam e melhoram a forma como o usuário \nlida com o produto.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 429,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 429,
+                "chunk_id": "a9b3c78a294ab25156e6f072"
+            }
+        },
+        {
+            "chunk_id": "f1bfb89a839b6ff5ea378098",
+            "conteudo": "**Design de Informação**\n\nO conceito central de **Design de Informação** é apresentado como resultado da convergência de quatro áreas do conhecimento, cada uma contribuindo com um aspecto específico:\n\n*   **Educação** → contribui com o conceito de **Aprendizagem**.\n*   **Ciência da Informação** → contribui com o conceito de **Organização de Informações**.\n*   **Design** → contribui com o conceito de **Composição**.\n*   **Psicologia** → contribui com o conceito de **Percepção**.\n\nA página é creditada a **Lucas Alves - Ideia Clara**.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 537,
+                "chunk_id": "f1bfb89a839b6ff5ea378098"
+            }
+        },
+        {
+            "chunk_id": "5fd64232df40728093bd9942",
+            "conteudo": "Também conhecido como “infodesign”, o design de \ninformação lida diretamente com a forma com que o \nconteúdo é apresentado às pessoas. Dá-se importância \nnão só para o que se diz, mas também para como se \nestá sendo dito, com o objetivo de potencializar a \ncaptação da mensagem. \nDesign da \nInformação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 301,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 301,
+                "chunk_id": "5fd64232df40728093bd9942"
+            }
+        },
+        {
+            "chunk_id": "a06c6434a61546009b1a01ec",
+            "conteudo": "Especialização do design de interface responsável por \napresentar espaços de informação. Ele fornece aos \nusuários a possibilidade de ir a lugares.\nDesenvolvimento de \nfluxos de aplicação \nPara facilitar as tarefas \nDo usuário, definindo \nComo esse interage \nCom as funcionalidades\ndo Sistema.\nDesign de \nnavegação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 314,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 314,
+                "chunk_id": "a06c6434a61546009b1a01ec"
+            }
+        },
+        {
+            "chunk_id": "5488ba2bc67f90fef51e49da",
+            "conteudo": "DIAGRAMAÇÃO\n\nDIAGRAMAÇÃO\n\nDiagramar uma página significa muito mais que apenas dispor textos, fotos e ornamentos no papel; é construir, estruturar elementos que irão compor uma mensagem que deve ser trabalhada conscientemente.\n\nBotões Dallmac\nConduzindo você ao inspirador e criativo caminho da moda\nleading you to creative and inspiring fashion\nDALLMAC\nwww.dallmac.com.br | +55 54 3284 4790\nfacebook.com/dallmac",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 11,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 412,
+                "chunk_id": "5488ba2bc67f90fef51e49da"
+            }
+        },
+        {
+            "chunk_id": "57b4c3cc78aea32b8f2e0353",
+            "conteudo": "CENTRO ÓPTICO\n\nO centro óptico é o primeiro visual apreendido por quem manipula uma peça impressa e possibilita o deslocamento dentro de um layout.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 147,
+                "chunk_id": "57b4c3cc78aea32b8f2e0353"
+            }
+        },
+        {
+            "chunk_id": "1eac582cf4853c786e5b5aac",
+            "conteudo": "CENTRO ÓPTICO\n\nFONTANA ARNO\n\nSistema Multijato\nReservatório de água removível\nCesto de roupas dispensa torneira\nou mangueiras para encher\n\nTanque de 11 litros\nLavagem de 3,5 kg de roupas\npor vez\n\nCesto para roupas\nEncaixa na tampa\ndo tanque\n\nFiltro de água\nRetém fiapos de tecido\ne resíduos da lavagem\n\nPainel de controle\nLiga e desliga o produto\ne faz o controle de tempo\nde lavagem e enxágue\n\nFONTANA ARNO\nUma nova maneira de lavar roupa",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 439,
+                "chunk_id": "1eac582cf4853c786e5b5aac"
+            }
+        },
+        {
+            "chunk_id": "80bf2b19cfdff5b212bf1e0d",
+            "conteudo": "# DIAGRAMAÇÃO\n\n## #02 – LEIS COMPOSITIVAS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 41,
+                "chunk_id": "80bf2b19cfdff5b212bf1e0d"
+            }
+        },
+        {
+            "chunk_id": "182b7d1c8937c99e3fcd150b",
+            "conteudo": "# UNIDADE\n\nA unidade diz respeito a harmonia das forças tipológicas e ilustrativas relacionadas à estática.\n\nAnalisamos a unidade levando em conta a escolha de caracteres, ilustrações, formatos, etc.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 199,
+                "chunk_id": "182b7d1c8937c99e3fcd150b"
+            }
+        },
+        {
+            "chunk_id": "999c69347e3ba33ee8855142",
+            "conteudo": "# Razões científicas para caminhar\n\nSão necessários apenas 30 minutos por dia, três vezes na semana, para conquistar benefícios que vão da prevenção à depressão até a melhora da insônia. O que você está esperando para dar uma volta por aí?\n\nPor Vania Marques\n\n---\n\nTem se tornado quase um consenso que caminhar é um santo remédio contra o sedentarismo e, principalmente, contra os males que ele provoca. Mas será que todo mundo sabe por que caminhar faz tão bem? A ciência tem respostas para isso. \"Caminhar é uma atividade física que pode ser praticada por quase todas as pessoas, em qualquer idade, e não exige equipamentos especiais, o que a torna uma opção democrática e acessível\", afirma o médico do esporte e cardiologista Felipe Lopes de Lima, diretor técnico da Academia Físio Saúde (SP). \"Além disso, é uma atividade de baixo impacto, o que reduz o risco de lesões musculares e articulares, e pode ser facilmente incorporada à rotina\", completa.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 4,
+                "chunk_caracteres": 955,
+                "chunk_id": "999c69347e3ba33ee8855142"
+            }
+        },
+        {
+            "chunk_id": "825eb78ecb25b245af3b93be",
+            "conteudo": "A seguir, veja o que a ciência diz sobre os benefícios de caminhar:\n\n## AFASTA A DEPRESSÃO\nA Universidade de Stirling (Escócia) avaliou oito estudos que envolveram mais de 340 pacientes e concluiu que a prática pode reduzir a depressão. \"A caminhada é uma atividade aeróbica que libera endorfinas, neurotransmissores que promovem a sensação de bem-estar e melhoram o humor\", explica o médico. \"Além disso, a exposição à luz solar durante a caminhada ajuda a regular o ritmo circadiano, o que pode melhorar a qualidade do sono e, consequentemente, os sintomas da depressão\", diz.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 2,
+                "total_chunks_pagina": 4,
+                "chunk_caracteres": 578,
+                "chunk_id": "825eb78ecb25b245af3b93be"
+            }
+        },
+        {
+            "chunk_id": "327f742e3cf3d53efc2c7c58",
+            "conteudo": "## FAZ BEM PARA A MEMÓRIA\nIdosos que praticam caminhada em ritmo moderado apresentam um risco menor de desenvolver demência vascular, de acordo com um estudo publicado na revista científica *Stroke*. A pesquisa acompanhou 749 pessoas com idade entre 60 e 70 anos e concluiu que a prática de exercícios físicos regulares, como a caminhada, pode aumentar o volume do hipocampo, região do cérebro responsável pela memória e aprendizado.\n\n## COMBATE O COLESTEROL RUIM\nCaminhar é tão eficiente como tomar remédio para diminuir o colesterol. É o que aponta um estudo publicado no *Journal of the American Heart Association*. A pesquisa acompanhou 10 mil pessoas com idade entre 18 e 80 anos e concluiu que a caminhada é uma atividade que ajuda a aumentar o colesterol bom (HDL) e a diminuir o colesterol ruim (LDL). \"A caminhada também ajuda a controlar o peso, o que é fundamental para reduzir o risco de doenças cardiovasculares\", afirma o médico.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 3,
+                "total_chunks_pagina": 4,
+                "chunk_caracteres": 943,
+                "chunk_id": "327f742e3cf3d53efc2c7c58"
+            }
+        },
+        {
+            "chunk_id": "fc62da4e12e60bbad5aa7cd9",
+            "conteudo": "## PREVINE DOENÇAS VASCULARES\nA prática regular de caminhada é capaz de reduzir o risco de doenças cardiovasculares, que são a principal causa de morte no mundo. \"A caminhada ajuda a melhorar a circulação sanguínea, a reduzir a pressão arterial e a controlar o peso, fatores que contribuem para a saúde do coração\", explica o médico. \"Além disso, a atividade física regular pode reduzir o risco de derrame e de doenças vasculares periféricas\", completa.\n\n---\n\n**Legenda da imagem:** A imagem mostra as pernas de uma pessoa caminhando em uma superfície clara, usando tênis branco com detalhes em rosa e azul. Sobre a imagem, há elementos gráficos que lembram circuitos ou conexões digitais, representando talvez os benefícios científicos da caminhada.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 4,
+                "total_chunks_pagina": 4,
+                "chunk_caracteres": 750,
+                "chunk_id": "fc62da4e12e60bbad5aa7cd9"
+            }
+        },
+        {
+            "chunk_id": "86c8d1cf44f4dbf91ba227c2",
+            "conteudo": "https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 68,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 68,
+                "chunk_id": "86c8d1cf44f4dbf91ba227c2"
+            }
+        },
+        {
+            "chunk_id": "efbb89800b39d400eb05f5fe",
+            "conteudo": "https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao\n2. HIERARQUIA VISUAL: O PESO DAS INFORMAÇÕES\nQuando se define uma hierarquia visual em um material você deve pensar \nem como cada elemento aparecerá, seja ele um título, uma imagem, uma \nlegenda, um texto de apoio, um selo, enfim, tudo que for apresentado \nprecisa ter harmonia e deve ter apresentação coerente.\nTrabalhar bem a hierarquia das informações garantirá que o seu público \nvisualize o trabalho e, em poucos segundos, tenha uma ideia do que se \ntrata dando continuidade na leitura se aquele conteúdo gerar algum \nimpacto significativo para ele.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 623,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 623,
+                "chunk_id": "efbb89800b39d400eb05f5fe"
+            }
+        },
+        {
+            "chunk_id": "1c782ba74730542937855418",
+            "conteudo": "https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 68,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 68,
+                "chunk_id": "1c782ba74730542937855418"
+            }
+        },
+        {
+            "chunk_id": "316a25fbe52b0b780fcb733c",
+            "conteudo": "Informações mais harmônicas, o título do material é o \ndestaque, em seguida percebemos a informação sobre como \na empresa trata do que vendem e, no fim sem tanto \ndestaque, um texto dando mais informações sobre como o \nleitor pode obter mais informações e o logotipo.\n Todos os textos têm o mesmo peso, as informações parecem \nbrigar por atenção. É quase inevitável perceber as \ninformações do meio do material antes do assunto \npropriamente dito. Os olhos pulam pelas informações \ngerando desconforto e, consequentemente desinteresse.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 535,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 535,
+                "chunk_id": "316a25fbe52b0b780fcb733c"
+            }
+        },
+        {
+            "chunk_id": "5fd1cda0fa5ae4c6a01c4e7c",
+            "conteudo": "GUIA PRÁTICO\nDO SEGURADO\n\nSUA SAÚDE ESTÁ EM NOSSOS PLANOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 57,
+                "chunk_id": "5fd1cda0fa5ae4c6a01c4e7c"
+            }
+        },
+        {
+            "chunk_id": "c9af37922b0cdd287352a447",
+            "conteudo": "# GUIA PRÁTICO DO SEGURADO\n\nSUA SAÚDE ESTÁ EM NOSSOS PLANOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 59,
+                "chunk_id": "c9af37922b0cdd287352a447"
+            }
+        },
+        {
+            "chunk_id": "bb991fd6319a492bf7094401",
+            "conteudo": "3- quanto maior o contraste, mais fácil de \ndirecionar o leitor a utilizar a ordem de \nleitura desenhada para o projeto.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 120,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 120,
+                "chunk_id": "bb991fd6319a492bf7094401"
+            }
+        },
+        {
+            "chunk_id": "2afa4f22bbfbb8c8811e5c1f",
+            "conteudo": "https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao\n4. PADRONIZAÇÃO: O CAMINHO PARA FACILITAR ASSOCIAÇÕES \nFUTURAS\nDefinir padrões visuais apresentados em cada página ajuda o \nleitor a entender que se manteve no mesmo material, além de \naumentar a velocidade da leitura, já que o leitor aprende a \nhierarquia de uma página que seguirá igual para todas as outras.\nA padronização é importante para agilizar a leitura, mas também \né importante para que o leitor conheça e faça mais tarde \nassociações daquela forma de apresentar informações a uma \ndeterminada marca, por exemplo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 593,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 593,
+                "chunk_id": "2afa4f22bbfbb8c8811e5c1f"
+            }
+        },
+        {
+            "chunk_id": "bb817b401a6281b9c01bc6ef",
+            "conteudo": "**PSICOLOGIA DAS CORES**\n\nO diagrama apresenta uma roda de cores dividida em oito setores, cada um associado a uma cor, a conceitos psicológicos e a exemplos de logotipos de marcas.\n\n**Branco**\n- Conceitos: clareza, simplicidade, liberdade, tranquilidade.\n- Exemplos de marcas: Apple, Mercedes-Benz, Jaguar.\n\n**Vermelho**\n- Conceitos: energia, paixão, urgência, juventude.\n- Exemplos de marcas: Bradesco, Canon, Coca-Cola, Nintendo, Toyota.\n\n**Laranja**\n- Conceitos: vibração, entusiasmo, segurança, confiança.\n- Exemplos de marcas: Itaú, GOL, Amazon, SoundCloud, Inter.\n\n**Amarelo**\n- Conceitos: satisfação, alegria, edificação, vitalidade, dinamismo, diversão.\n- Exemplos de marcas: National Geographic, McDonald's, Snapchat, Nikon, Ferrari.\n\n**Verde**\n- Conceitos: relacionamento, cura, novo, prosperidade.\n- Exemplos de marcas: Android, Holiday Inn, Spotify, Starbucks, Jeep.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 879,
+                "chunk_id": "bb817b401a6281b9c01bc6ef"
+            }
+        },
+        {
+            "chunk_id": "d5f8abd0ba597018b13692c8",
+            "conteudo": "**Verde**\n- Conceitos: relacionamento, cura, novo, prosperidade.\n- Exemplos de marcas: Android, Holiday Inn, Spotify, Starbucks, Jeep.\n\n**Azul**\n- Conceitos: serenidade, paz, estabilidade, compromisso, fidelidade.\n- Exemplos de marcas: Oreo, IBM, Oral-B, Ford, Dell.\n\n**Roxo**\n- Conceitos: exclusividade, qualidade, riqueza, inovação.\n- Exemplos de marcas: Milka, Hallmark, Vivo, Nubank, Yahoo!.\n\n**Preto**\n- Conceitos: força, elegância, sofisticação.\n- Exemplos de marcas: Uber, Sony, WWF, Nike, Prada.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 2,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 503,
+                "chunk_id": "d5f8abd0ba597018b13692c8"
+            }
+        },
+        {
+            "chunk_id": "8385e46a7f3a52e1234520bb",
+            "conteudo": "aula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\nMateriais e Processos Gráficos  |  profa. Tamires Lima\nHarmonia entre as cores\nHARMONIA DAS CORES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 147,
+                "elementos_desenhados": 11,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 147,
+                "chunk_id": "8385e46a7f3a52e1234520bb"
+            }
+        },
+        {
+            "chunk_id": "e6fcd819332efb325fc95cd4",
+            "conteudo": "# Menu de Navegação\n- Work\n- Journal\n- Shop\n\n# Áreas de Atuação\n- UX\n- BRANDING\n- DEV\n\n# Chamada para Ação\nSee our work →",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 121,
+                "chunk_id": "e6fcd819332efb325fc95cd4"
+            }
+        },
+        {
+            "chunk_id": "e21fce1701f9f546ace75cd3",
+            "conteudo": "aula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\nHARMONIA ANÁLOGA\nÉ a harmonia \ncomposta\npor cores vizinhas.\nHARMONIA DAS CORES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 128,
+                "elementos_desenhados": 14,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 128,
+                "chunk_id": "e21fce1701f9f546ace75cd3"
+            }
+        },
+        {
+            "chunk_id": "6244c684ce1cc9c89c812419",
+            "conteudo": "MODERN CHURCH\nLOVE GOD & LOVE LIFE\n\nMenu de navegação:\n- HOME\n- SERMONS\n- NEWS & EVENTS\n- ABOUT\n- CONTACT\n- SEARCH\n\nSeções principais:\n- I'M NEW HERE\n  - READ MORE\n- CARE MINISTRIES\n  - READ MORE\n- PRAYER REQUEST\n  - READ MORE\n\nRoda de cores:\n- COOL\n- WARM\n\nRodapé:\nMateriais e Processos Gráficos | profª. Tamires Lima",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 58,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 318,
+                "chunk_id": "6244c684ce1cc9c89c812419"
+            }
+        },
+        {
+            "chunk_id": "4b6fe9c0977f6c3b1fa508a3",
+            "conteudo": "HARMONIA DAS CORES\naula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 68,
+                "elementos_desenhados": 9,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 68,
+                "chunk_id": "4b6fe9c0977f6c3b1fa508a3"
+            }
+        },
+        {
+            "chunk_id": "73af66ca5e066d84f1000232",
+            "conteudo": "HARMONIA DAS CORES\naula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\n*VOCÊ PODE UTILIZAR TAMBÉM UMA DUPLA COMPLEMENTAR",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 118,
+                "elementos_desenhados": 13,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 118,
+                "chunk_id": "73af66ca5e066d84f1000232"
+            }
+        },
+        {
+            "chunk_id": "7a9b2a3b348f0ff14ae98ccb",
+            "conteudo": "An Interesting Day\nInformation\n\nAn Interesting Day\n\nAugust 9th 2016\nSave the date\n\nStefanie Oostendorp\nMap\n\nA weird, one-day conference on a tiny island in the Ooijpolder full of fun activities and talks\nfrom some of the most interesting people in\nentrepreneurship, design and creativity.\n\nSign up to get notified when we launch the\nfull program and start accepting invitation\nrequests.\n\nYour Email\nNotify me\n\nBaken & Buck\n\nAn Interesting Day is a one-day conference hosted by\ndigital product studio Baken & Buck.\n\n© 2016 Baken & Buck. All rights reserved.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 556,
+                "chunk_id": "7a9b2a3b348f0ff14ae98ccb"
+            }
+        },
+        {
+            "chunk_id": "c25ea84771a2cd255c8eab4c",
+            "conteudo": "HARMONIA DAS CORES\naula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 68,
+                "elementos_desenhados": 9,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 68,
+                "chunk_id": "c25ea84771a2cd255c8eab4c"
+            }
+        },
+        {
+            "chunk_id": "4929c4287611d2b29106ef89",
+            "conteudo": "WONDER\n\nPRODUCTS • OUR STORY • SPREAD THE WONDER • SPOT THE WONDER • PRODUCT LOCATOR • MERCHANDISE\n\nLET YOUR WONDER TAKE FLIGHT!\nFor decades, the Wonder Balloon has soared the nation's skies, bringing a sense of \"wow, Wonder\" to all who see it.\nMEET OUR PILOT\nMORE WONDER HISTORY\n\nWONDER CLASSIC WHITE\nThis is it—the loaf that made Wonder Bread a household name. It's soft, white and as wholesome as childhood itself.\nSEE ALL PRODUCTS\n\nSPREAD THE WONDER\nVISIT OUR TUMBLR\n\nFRANKLY GOOD!\n#SPREADTHEWONDER\n\nAND IT'S GOOD!\n#SPREADTHEWONDER\n\nWALKING BREAD\n#SPREADTHEWONDER",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 567,
+                "chunk_id": "4929c4287611d2b29106ef89"
+            }
+        },
+        {
+            "chunk_id": "d71ad906d7ccafbfb722634d",
+            "conteudo": "aula\n\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\n\nHARMONIA COMPLEMENTAR DIVIDIDA\nÉ a harmonia conseguida através da mistura de uma tonalidade da escala com as duas vizinhas da cor diretamente oposta a primeira.\n\nEsta é uma variante da combinação de harmonia de complementares que utiliza uma cor como principal e as duas cores adjacentes ao seu complementar.\n\nO círculo cromático apresentado é dividido em duas metades identificadas como COOL e WARM. Uma linha branca conecta uma cor na metade COOL a uma cor na metade WARM, e a partir desta segunda cor, duas linhas brancas conectam-se a duas cores adjacentes na metade WARM.\n\nAbaixo do círculo cromático, são apresentados seis diagramas circulares. Cada diagrama é composto por um anel externo dividido em doze segmentos cinza-claros e um anel interno dividido em doze segmentos. Em cada diagrama, três segmentos do anel interno estão preenchidos com cores, enquanto os demais permanecem cinza-claros.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 49,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 955,
+                "chunk_id": "d71ad906d7ccafbfb722634d"
+            }
+        },
+        {
+            "chunk_id": "74f883de4e5ee663bdbaddf3",
+            "conteudo": "nature's table\n\nOrder Online | Catering | Contact Us\n\nMenu | Locations | What's Happening | About Us | Franchising\n\nTEXAS CLUB WRAP\nEAT SMART LIVE WELL\nCheck Out Other Delicious Wraps",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 183,
+                "chunk_id": "74f883de4e5ee663bdbaddf3"
+            }
+        },
+        {
+            "chunk_id": "ceb53471347dda9097564c82",
+            "conteudo": "aula\n\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS\n\nHARMONIA TETRAÉDICA\nÉ a harmonia conseguida através da mistura de tonalidades vizinhas a cores opostas.\n\nO círculo cromático apresenta as marcações \"COOL\" e \"WARM\". Sobre ele, um polígono de quatro lados (retângulo) conecta quatro pontos que representam as cores da harmonia tetraédrica.\n\nAbaixo, cinco representações de círculos cromáticos subdivididos em 12 seções, com quatro seções destacadas em cada um, indicando diferentes combinações de cores:\n1. Verde, amarelo, azul e magenta.\n2. Verde, laranja, azul e vermelho.\n3. Amarelo, laranja, azul e roxo.\n4. Verde, laranja, azul e vermelho.\n5. Amarelo, laranja, azul e roxo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 49,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 678,
+                "chunk_id": "ceb53471347dda9097564c82"
+            }
+        },
+        {
+            "chunk_id": "a217322629723912be69d32e",
+            "conteudo": "He's Leaving His World Behind\n\nTHE SPONGEBOB MOVIE\nSPONGE OUT OF WATER\n3D\nCOMING SOON\n\nCOOL\nWARM",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 36,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 96,
+                "chunk_id": "a217322629723912be69d32e"
+            }
+        },
+        {
+            "chunk_id": "f065f00dcc37def0d3e7de5f",
+            "conteudo": "O SIGNIFICADO DAS CORES\nQual significado das cores?\nAs cores exercem uma ação tríplice \nna nossa percepção: \na)\nA cor é vista: impressiona a \nretina\nb)\nA cor é sentida: provoca \nsentimentos e emoções\nc)\nA cor é construtiva: tendo um \nsignificado próprio, um valor \nsimbólico que pode construir \numa linguagem e comunicar \numa ideia.\naula\nCORES: CARACTERÍSTICAS E ASPECTOS CROMÁTICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 37,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 382,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 382,
+                "chunk_id": "f065f00dcc37def0d3e7de5f"
+            }
+        },
+        {
+            "chunk_id": "2704b432da1476a6074c0195",
+            "conteudo": "| Cor | Significados |\n| :--- | :--- |\n| Branco | paz, pureza, casamento, hospital, frio, dignidade, divindade, harmonia... |\n| Preto | noite, sujeira, medo, morte, pessimismo, tristeza / Nobreza, seriedade... |\n| Cinza | pó, máquinas, tédio, sabedoria, serenidade, estabilidade... |\n| Vermelho | guerra, sangue, perigo, fogo, energia, força, ação, movimento, paixão... |\n| Laranja | apetite, pôr-do-sol, euforia, alegria, entusiasmo, vitalidade... |\n| Amarelo | ouro, riqueza, sol, calor, luz, energia, verão, espontaneidade... |\n| Verde | natureza, floresta, vida, bem-estar, liberdade, juventude, esperança... |\n| Azul-claro | céu, mar, tranquilidade, espaço, infinito, afeto / Seriedade, credibilidade... |\n| Roxo | igreja, religião, mistério, grandeza, espiritualidade, experiência... |\n| Marrom | terra, melancolia, desconforto, simplicidade, conservadorismo... |\n| Rosa | feminilidade, delicadeza, suavidade, calma, afeto, amor... |",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 38,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 939,
+                "chunk_id": "2704b432da1476a6074c0195"
+            }
+        },
+        {
+            "chunk_id": "1242908c3fc275119117bdae",
+            "conteudo": "**VERMELHO**\n\n**CARACTERÍSTICAS**\n- DINAMISMO\n- CALOR\n- AGRESSIVIDADE\n- PAIXÃO\n- ENERGIA\n- SEXO\n- FOME\n- PERIGO\n\n**SEGMENTOS IDEAIS**\n- TECNOLOGIA\n- ALIMENTAÇÃO\n- PRODUTOS NATURAIS\n- VEÍCULOS\n\n---\n\n**AZUL**\n\n**CARACTERÍSTICAS**\n- PROFISSIONALIDADE\n- SERIEDADE\n- INTEGRIDADE\n- SINCERIDADE\n- CALMA\n- INFINITO\n- SERENIDADE\n- FRESCOR\n\n**SEGMENTOS IDEAIS**\n- SAÚDE\n- TECNOLOGIA\n- ENERGIA\n- AÉREAS E TURISMO\n- PRODUTOS NATURAIS\n- FINANÇAS\n\n---\n\n**VERDE**\n\n**CARACTERÍSTICAS**\n- NATUREZA\n- ÉTICA\n- CRESCIMENTO\n- SERENIDADE\n- ORGÂNICO\n- SUSTENTABILIDADE\n- FRESCOR\n- JUVENTUDE\n\n**SEGMENTOS IDEAIS**\n- ALIMENTAÇÃO\n- PRODUTOS NATURAIS\n- CASA E DECORAÇÃO\n- ENERGIA\n- SAÚDE\n- FINANÇAS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 39,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 671,
+                "chunk_id": "1242908c3fc275119117bdae"
+            }
+        },
+        {
+            "chunk_id": "bf915fa27ab8efdd4313b406",
+            "conteudo": "AMARELO\nCARACTERÍSTICAS\nCALOR\nBONDADE\nPOSITIVIDADE\nESTIMULANTE\nALEGRIA\nLUMINOSIDADE\nFOME\nINFÂNCIA\nSEGMENTOS IDEAIS\nENERGIA\nALIMENTAÇÃO\nPRODUTOS NATURAIS\nCASA E DECORAÇÃO\n\nLARANJA\nCARACTERÍSTICAS\nINOVAÇÃO\nMODERNIDADE\nJUVENTUDE\nDIVERSÃO\nACESSIBILIDADE\nALERTA\nVITALIDADE\nFOME\nSEGMENTOS IDEAIS\nENERGIA\nALIMENTAÇÃO\nSAÚDE\nPRODUTOS NATURAIS\n\nPÚRPURA\nCARACTERÍSTICAS\nLUXO\nREALEZA\nSABEDORIA\nDIGNIDADE\nMISTÉRIO\nESPIRITUALIDADE\nRIQUEZA\nSOFISTICAÇÃO\nSEGMENTOS IDEAIS\nALIMENTAÇÃO\nTECNOLOGIA\nFINANÇAS\nAÉREO E TURISMO\nSAÚDE\nMODA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 40,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 513,
+                "chunk_id": "bf915fa27ab8efdd4313b406"
+            }
+        },
+        {
+            "chunk_id": "bf7f3b15bca625e643cf1110",
+            "conteudo": "MARROM\n\nCARACTERÍSTICAS\nMASCULINO\nRÚSTICO\nNATUREZA\nTERRA\nRURAL\nAVENTURA\nSIMPLICIDADE\nORGÂNICO\n\nSEGMENTOS IDEAIS\nALIMENTAÇÃO\nENERGIA\nCASA E DECORAÇÃO\nPRODUTOS NATURAIS\nMASCULINO\nMODA\n\nROSA\n\nCARACTERÍSTICAS\nDIVERSÃO\nCUIDADO\nINOCÊNCIA\nFEMININO\nDELICADEZA\nROMANTISMO\nFRESCOR\nSUAVIDADE\n\nSEGMENTOS IDEAIS\nALIMENTAÇÃO\nFEMININO\nMODA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 41,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 324,
+                "chunk_id": "bf7f3b15bca625e643cf1110"
+            }
+        },
+        {
+            "chunk_id": "128e0009ef4e1add0cb7f78c",
+            "conteudo": "**BRANCO**\n\n**CARACTERÍSTICAS**\n*   PUREZA\n*   LIMPEZA\n*   SIMPLICIDADE\n*   INGENUIDADE\n*   BELEZA\n*   SUAVIDADE\n*   MACIEZ\n*   MODERNIDADE\n\n**SEGMENTOS IDEAIS**\n*   AÉREOS E TURISMO\n*   TECNOLOGIA\n*   SAÚDE\n*   PRODUTOS NATURAIS\n*   MODA\n*   CASA E DECORAÇÃO\n\n---\n\n**PRETO**\n\n**CARACTERÍSTICAS**\n*   PODER\n*   SOFISTICAÇÃO\n*   PRESTÍGIO\n*   VALOR\n*   EXCLUSIVIDADE\n*   TECNOLOGIA\n*   ATEMPORAL\n*   MISTERIOSO\n\n**SEGMENTOS IDEAIS**\n*   TECNOLOGIA\n*   ALIMENTAÇÃO\n*   VEÍCULOS\n*   PRODUTOS NATURAIS\n*   MODA\n*   CASA E DECORAÇÃO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 42,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 4,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 527,
+                "chunk_id": "128e0009ef4e1add0cb7f78c"
+            }
+        },
+        {
+            "chunk_id": "2e036a6f79dad0ff17dd3235",
+            "conteudo": "# O SIGNIFICADO DAS CORES\n\nO material apresenta uma relação entre categorias de significados, suas respectivas características e exemplos de marcas associadas a cada categoria.\n\n**OTIMISMO**\n- clareza\n- calor\n- Exemplos: Nikon, UPS, NBC, Google, Nickelodeon, National Geographic Channel, IMBd, Discovery Kids, CAT, Sprint, Microsoft, Amazon, Payless, eBay, Subway, Shell, IKEA, Best Buy, DHL, Walmart, McDonald's, Gulf, entre outros.\n\n**AMIGÁVEL**\n- alegria\n- confiança\n- Exemplos: Kellogg's, Kmart, Nintendo, Coca-Cola, Monster, Syfy, TNT, Dell, AT&T, flickr, Barbie, Virgin, Exxon, Fanta, Lego, Y!, ACE, Starz, Target, Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 43,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 3,
+                "chunk_caracteres": 751,
+                "chunk_id": "2e036a6f79dad0ff17dd3235"
+            }
+        },
+        {
+            "chunk_id": "7843123b7bf0ef2526f684a7",
+            "conteudo": "**EXCITAÇÃO**\n- juventude\n- coragem\n- Exemplos: Nickelodeon, Kmart, Nintendo, Coca-Cola, Monster, Syfy, TNT, Dell, AT&T, flickr, Barbie, Virgin, Exxon, Fanta, Lego, Y!, ACE, Starz, Target, Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.\n\n**CRIATIVO**\n- imaginativo\n- sabedoria\n- Exemplos: Nickelodeon, Kmart, Nintendo, Coca-Cola, Monster, Syfy, TNT, Dell, AT&T, flickr, Barbie, Virgin, Exxon, Fanta, Lego, Y!, ACE, Starz, Target, Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.\n\n**CONFIANÇA**\n- seguro\n- força\n- Exemplos: Nickelodeon, Kmart, Nintendo, Coca-Cola, Monster, Syfy, TNT, Dell, AT&T, flickr, Barbie, Virgin, Exxon, Fanta, Lego, Y!, ACE, Starz, Target, Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 43,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 2,
+                "total_chunks_pagina": 3,
+                "chunk_caracteres": 959,
+                "chunk_id": "7843123b7bf0ef2526f684a7"
+            }
+        },
+        {
+            "chunk_id": "f22b5fc47fcbe765837abf07",
+            "conteudo": "**PACÍFICO**\n- crescimento\n- saúde\n- Exemplos: Whole Foods, Animal Planet, Tropicana, Spotify, Oreo, HP, Lynx, Lowe's, Facebook, IBM, Walmart, Oral-B, Vimeo, Puma, entre outros.\n\n**EQUILÍBRIO**\n- neutro\n- calmo\n- Exemplos: CN, Apple, Mercedes-Benz, Twitter, BP, Greenpeace, Nike, Puma, entre outros.\n\n**DIVERSIDADE**\n- Exemplos: NBC, Google, Microsoft, eBay, entre outros.\n\nO material também apresenta um conjunto de ícones na base da imagem, representando conceitos como:\n- Yin-yang\n- Símbolo da paz\n- Punho erguido\n- Lâmpada\n- Raio\n- Rosto sorridente\n- Polegar para cima",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 43,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 3,
+                "total_chunks_pagina": 3,
+                "chunk_caracteres": 572,
+                "chunk_id": "f22b5fc47fcbe765837abf07"
+            }
+        },
+        {
+            "chunk_id": "12af789a5140dcaafb1f9a5b",
+            "conteudo": "**Adobe Color**\n\n**Navegação Principal:**\n*   **CRIAR** (ativo)\n*   **EXPLORAR**\n*   **TENDÊNCIAS**\n*   **BIBLIOTECAS**\n\n**Seção: Disco de cores**\n*   **Abas:** Disco de cores (ativa), Extrair tema, Extrair gradiente, Ferramentas de acessibilidade (Novo).\n\n**Painel de Controle de Harmonia:**\n*   **Aplicar a regra de harmonia de cores**\n*   **Opções de Harmonia:**\n    *   Análogo (selecionado)\n    *   Monocromático\n    *   Tríade\n    *   Complementar\n    *   Dividir complementar\n    *   Dividir complementar duas vezes\n    *   Quadrado\n    *   Composto\n    *   Sombras\n    *   Personalizado\n\n**Roda de Cores:**\n*   Representação circular do espectro de cores.\n*   Seletores de pontos de cor posicionados na região azul/ciano.\n*   Linhas conectando os seletores ao centro da roda.\n\n**Paleta de Cores Resultante:**\n*   **A:** Roxo\n*   **B:** Azul\n*   **C:** Azul\n*   **D:** Azul claro\n*   **E:** Ciano",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 44,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 45,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 903,
+                "chunk_id": "12af789a5140dcaafb1f9a5b"
+            }
+        },
+        {
+            "chunk_id": "bfdfc667d0a5af0a3489c7a2",
+            "conteudo": "**Paleta de Cores Resultante:**\n*   **A:** Roxo\n*   **B:** Azul\n*   **C:** Azul\n*   **D:** Azul claro\n*   **E:** Ciano\n\n**Painel de Salvamento:**\n*   **Salvar em:** Minha biblioteca...\n*   **Nome:** My Color Theme\n*   **Tags:** Insira ou selecione abaixo\n    *   Pink +\n    *   Magenta +\n    *   Love +\n    *   Hot +\n    *   Girl +\n*   **Publicar no Color** (alternado ativado)\n*   **Verificar acessibilidade**\n*   **Botão:** Salvar\n\n**URL:** https://color.adobe.com/pt/create/color-wheel",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 44,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 45,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 2,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 488,
+                "chunk_id": "bfdfc667d0a5af0a3489c7a2"
+            }
+        },
+        {
+            "chunk_id": "b39433c498cfe45f36527be3",
+            "conteudo": "INICIAR AS DEFINIÇÕES VISUAIS PARA O ARTEFATO\n-\nFECHAR AS PERSONAS \n-\nCRIAR PALETA DE CORES \n-\nESCOLHER ESTILO VISUAL\n-\nCRIAR LINGUAGEM VISUAL A PARTIR DO ESTILO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface_diagramacao",
+                "aula": "07",
+                "arquivo": "Aula_07_AD.pdf",
+                "pagina": 45,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 161,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_07_design_de_interface_diagramacao",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 161,
+                "chunk_id": "b39433c498cfe45f36527be3"
+            }
+        }
+    ]
+}

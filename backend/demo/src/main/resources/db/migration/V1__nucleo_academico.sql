@@ -1,0 +1,70 @@
+-- Núcleo aprovado nos PDFs de modelagem. O índice chunk_documento existente
+-- é derivado e não é recriado nem apagado por esta migration.
+CREATE TABLE usuario (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ nome VARCHAR(150) NOT NULL, email VARCHAR(255) NOT NULL UNIQUE,
+ senha_hash VARCHAR(255) NOT NULL,
+ perfil VARCHAR(30) NOT NULL CHECK (perfil IN ('ESTUDANTE','ADMINISTRADOR')),
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE periodo (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ numero INTEGER NOT NULL UNIQUE, nome VARCHAR(100) NOT NULL,
+ descricao TEXT, ordem INTEGER NOT NULL, ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE disciplina (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ periodo_id BIGINT NOT NULL REFERENCES periodo(id), nome VARCHAR(150) NOT NULL,
+ slug VARCHAR(150) NOT NULL UNIQUE,
+ descricao TEXT, dicas TEXT, possui_prova BOOLEAN NOT NULL DEFAULT FALSE,
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ UNIQUE(periodo_id,nome)
+);
+CREATE TABLE assunto (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ disciplina_id BIGINT NOT NULL REFERENCES disciplina(id),
+ nome VARCHAR(150) NOT NULL, slug VARCHAR(150) NOT NULL,
+ descricao TEXT, ordem INTEGER NOT NULL DEFAULT 0, ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ UNIQUE(disciplina_id,nome), UNIQUE(disciplina_id,slug), UNIQUE(id,disciplina_id)
+);
+CREATE TABLE material (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ disciplina_id BIGINT NOT NULL REFERENCES disciplina(id), assunto_id BIGINT,
+ titulo VARCHAR(200) NOT NULL, descricao TEXT, tipo VARCHAR(40) NOT NULL,
+ referencia_externa TEXT, fonte_monitor_virtual BOOLEAN NOT NULL DEFAULT FALSE,
+ disponivel_para_pratica BOOLEAN NOT NULL DEFAULT FALSE,
+ contem_gabarito BOOLEAN NOT NULL DEFAULT FALSE,
+ autorizacao_professor BOOLEAN NOT NULL DEFAULT FALSE,
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ FOREIGN KEY(assunto_id,disciplina_id) REFERENCES assunto(id,disciplina_id),
+ CONSTRAINT ck_material_tipo CHECK(tipo IN ('SLIDE_AULA','LISTA_EXERCICIOS','PROVA_ANTIGA','RESUMO','ARQUIVO','LINK','TRECHO_LIVRO','OUTRO')),
+ CONSTRAINT ck_material_pratica_tipo CHECK(NOT disponivel_para_pratica OR tipo IN ('LISTA_EXERCICIOS','PROVA_ANTIGA')),
+ CONSTRAINT ck_material_pratica_autorizacao CHECK(NOT disponivel_para_pratica OR autorizacao_professor)
+);
+CREATE TABLE recurso_complementar (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ disciplina_id BIGINT NOT NULL REFERENCES disciplina(id), assunto_id BIGINT,
+ titulo VARCHAR(200) NOT NULL, descricao TEXT, url TEXT NOT NULL,
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ FOREIGN KEY(assunto_id,disciplina_id) REFERENCES assunto(id,disciplina_id)
+);
+CREATE TABLE feedback_plataforma (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ usuario_id BIGINT NOT NULL REFERENCES usuario(id),
+ nota SMALLINT NOT NULL CHECK(nota BETWEEN 1 AND 5), comentario TEXT,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX ix_assunto_disciplina_ordem ON assunto(disciplina_id,ordem);
+CREATE INDEX ix_material_disciplina_ativo ON material(disciplina_id,ativo);

@@ -1,0 +1,776 @@
+{
+    "resumo": {
+        "arquivo": "Aula03.pdf",
+        "periodo": "03",
+        "disciplina": "design_de_artefatos_digitais",
+        "assunto": "publico_alvo",
+        "aula": "03",
+        "total_paginas": 19,
+        "paginas_textuais": 15,
+        "paginas_multimodais": 4,
+        "total_chunks": 19,
+        "chunk_size": 1000,
+        "chunk_overlap": 150
+    },
+    "paginas": [
+        {
+            "conteudo": "PÚBLICO ALVO\nÉ muito importante saber para quem o produto \n(solução) será destinado. É preciso identificar e \ndestacar todas as informações do público para quem \na ação será voltada.\nPesquisar e perguntar (questionários e afins) tudo \nque possa facilitar o desenvolvimento do projeto. \nIdade, classe social, gênero, localização geográfica \netc..., toda e qualquer informação pode ser \nfundamental.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 397,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "Cada cliente é único, através de investigação e \npesquisa procura-se detalhes e respostas para \nQuestões GERAIS como: \nPADRÕES DE CONSUMO, LUGARES QUE FREQUENTA, PODER \nAQUISITIVO, DISPONIBILIDADE FINANCEIRA, GOSTOS E \nHOBBIES, ROTINA E ATIVIDADES DIÁRIAS, ENTRE OUTROS \nDADOS QUE POSSIBILITEM TRAÇAR O PERFIL DO CLIENTE.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 321,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "1. Qual idade?\n2. Local onde mora?\n3. Com quantas pessoas mora?\n4. Onde trabalha?\n5. Qual área profissional?\n6. Se estuda?\n7. Gênero?\n8. Poder de compra?\n9. Objetos que possui?\n10. Hábitos que possui?\n11. Qual é o nível de escolaridade ou formação?\n12. Qual é o estado civil?\n13. Com que frequência consome certo produto?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 321,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "▪Público-alvo é um conceito que determina \nquem são os principais consumidores de um \nproduto ou serviço. \n▪É um grupo de pessoas para quem a marca \ndireciona as estratégias, que possuem perfil de \ncompra daquilo que se vende;",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 226,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "▪Esse grupo de pessoas possui características \nsemelhantes, com base em dados \ndemográficos como faixa etária, escolaridade, \nprofissão, hábitos de compra, interesses etc;\n▪E  podem representar o todo ou uma parte dos \nconsumidores de um produto ou serviço.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 257,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "Um segmento de mercado, é uma parcela do mercado \nque possui características, necessidades e expectativas \nem comum.\nSEGMENTAÇÃO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 128,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "Essas necessidades podem ser atendidas \ncom maior ou menor facilidade, e a sua capacidade \nde atender as demandas do mercado  por meio de \nseus produtos e serviços deve servir de guia na hora \nde definir o segmento de mercado.\nPERSONA >>>>>> PÚBLICO ALVO\nSEGMENTAÇÃO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 266,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "PERSONA\nUma persona é a representação do cliente ideal, \naquele com maior potencial de sucesso, menor \ntaxa de cancelamento, maior índice de satisfação \ne maior reincidência de compra.\n \nAlém disso, diferente do conceito de público-alvo, a \npersona é uma definição muito mais específica.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 287,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "Nela são analisados aspectos como \ncomportamento, atividades cotidianas e atributos \npessoais como hobbies, desejos e aspirações.\n*DE MANEIRA MAIS DETALHADA\nPERSONA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 164,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "Ela é baseada em dados reais sobre \ncomportamento e características demográficas dos \nclientes, assim como suas histórias pessoais, \nmotivações, objetivos, desafios e preocupações.\nA persona deverá guiar toda a elaboração da \nestratégia\n*SÃO PERSONAGENS CRIADAS COM BASE EM \nPESQUISAS REAIS\nPERSONA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 298,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "QUESTÕES POSSÍVEIS\n1.Qual o site do seu negócio?\n2.Qual sua área?\n3.Com quais estilos se identifica?\n4.Que valores possui?\n5.Em que região mora?\n6.Tem restrição a algo ou alguma coisa?\n7.Quanto possui para investir?\n8.Quais os motivos te fazem comprar determinado \nproduto?\n9.Possui crenças ou religião?\n10.Como é a rotina de trabalho?\n11.Como é a rotina de laser?\n12.Como gosta de ser tratado?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 394,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "A persona, é o cliente ideal e \npode ser representada por um perfil semi \nfictício, baseado no comportamento e nas \ncaracterísticas reais de seus clientes. \nPorém, com informações bem mais \nelaboradas;\nÉ UM TIPO IDEAL DE CONSUMIDOR QUE ESTÁ \nDENTRO DO SEU PÚBLICO-ALVO.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 269,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "Também faz com que a segmentação \nseja mais focada e eficiente e contribui \npara uma melhor abordagem na \nprospecção ativa.\na empresa que possui uma persona bem \nconstruída, consegue mapear a jornada \nde compra e desenvolver estratégias mais \nassertivas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 253,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "Como a persona é mais detalhada e os \ndados são bem específicos, isso faz com \nque a empresa possa ter uma, duas ou \nmais personas.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 131,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "IMPORTÂNCIA DA PERSONA\n▪Determinar o tipo de conteúdo necessário \npara atingir objetivos do negócio;\n▪Definir o tom e o estilo do conteúdo;\n▪Ajudar a desenhar as estratégias de \nmarketing apresentando o público que deve \nser focado;\n▪Entender onde os prospects buscam as \ninformações e como eles querem \nconsumi-las.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 316,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "Público alvo X Persona",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "# PERSONA\n\n- Possui uma identidade definida, com nome, profissão, principais hobbies, etc.\n- Definição mais detalhada sobre a personalidade de uma pessoa individualmente\n- Maior entendimento sobre o ciclo de compras do cliente\n- Maior segmentação e personalização de conteúdo\n\n# PÚBLICO ALVO\n\n- Visão mais ampla e menos pessoal sobre a audiência\n- Não oferece detalhes da personalidade de uma pessoa em específico\n- Pessoas que podem se interessar pelo seu produto ou serviço em algum momento\n- Comportamentos dos clientes não especificados",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 9,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "Nome: __________ Idade: __________\n\n[Diagrama central: um rosto simples com um olho e uma boca sorridente, cercado por quatro perguntas]\n\no que\nPENSA E SENTE?\n\no que\nOUVE?\n\no que\nVÊ?\n\no que\nFALA E FAZ?\n\nquais são as DORES?\n\nquais são as NECESSIDADES?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        },
+        {
+            "conteudo": "OBRIGADA POR SUA ATENÇÃO\n\n@tamiresmdlima - In:tamireslima01",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 59,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo"
+            }
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": "9ef5554dfc30c28a2d87da19",
+            "conteudo": "PÚBLICO ALVO\nÉ muito importante saber para quem o produto \n(solução) será destinado. É preciso identificar e \ndestacar todas as informações do público para quem \na ação será voltada.\nPesquisar e perguntar (questionários e afins) tudo \nque possa facilitar o desenvolvimento do projeto. \nIdade, classe social, gênero, localização geográfica \netc..., toda e qualquer informação pode ser \nfundamental.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 397,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 397,
+                "chunk_id": "9ef5554dfc30c28a2d87da19"
+            }
+        },
+        {
+            "chunk_id": "9d37e3012305e9a39a7ee184",
+            "conteudo": "Cada cliente é único, através de investigação e \npesquisa procura-se detalhes e respostas para \nQuestões GERAIS como: \nPADRÕES DE CONSUMO, LUGARES QUE FREQUENTA, PODER \nAQUISITIVO, DISPONIBILIDADE FINANCEIRA, GOSTOS E \nHOBBIES, ROTINA E ATIVIDADES DIÁRIAS, ENTRE OUTROS \nDADOS QUE POSSIBILITEM TRAÇAR O PERFIL DO CLIENTE.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 321,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 321,
+                "chunk_id": "9d37e3012305e9a39a7ee184"
+            }
+        },
+        {
+            "chunk_id": "6c7814b1709ebe6386921f03",
+            "conteudo": "1. Qual idade?\n2. Local onde mora?\n3. Com quantas pessoas mora?\n4. Onde trabalha?\n5. Qual área profissional?\n6. Se estuda?\n7. Gênero?\n8. Poder de compra?\n9. Objetos que possui?\n10. Hábitos que possui?\n11. Qual é o nível de escolaridade ou formação?\n12. Qual é o estado civil?\n13. Com que frequência consome certo produto?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 321,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 321,
+                "chunk_id": "6c7814b1709ebe6386921f03"
+            }
+        },
+        {
+            "chunk_id": "f178a9e83dadbacc62ff09ba",
+            "conteudo": "▪Público-alvo é um conceito que determina \nquem são os principais consumidores de um \nproduto ou serviço. \n▪É um grupo de pessoas para quem a marca \ndireciona as estratégias, que possuem perfil de \ncompra daquilo que se vende;",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 226,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 226,
+                "chunk_id": "f178a9e83dadbacc62ff09ba"
+            }
+        },
+        {
+            "chunk_id": "8d382dffa51bdde446a74fbf",
+            "conteudo": "▪Esse grupo de pessoas possui características \nsemelhantes, com base em dados \ndemográficos como faixa etária, escolaridade, \nprofissão, hábitos de compra, interesses etc;\n▪E  podem representar o todo ou uma parte dos \nconsumidores de um produto ou serviço.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 257,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 257,
+                "chunk_id": "8d382dffa51bdde446a74fbf"
+            }
+        },
+        {
+            "chunk_id": "b3fb94672a987140306f5f79",
+            "conteudo": "Um segmento de mercado, é uma parcela do mercado \nque possui características, necessidades e expectativas \nem comum.\nSEGMENTAÇÃO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 128,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 128,
+                "chunk_id": "b3fb94672a987140306f5f79"
+            }
+        },
+        {
+            "chunk_id": "2cf926aae25660b1295d9775",
+            "conteudo": "Essas necessidades podem ser atendidas \ncom maior ou menor facilidade, e a sua capacidade \nde atender as demandas do mercado  por meio de \nseus produtos e serviços deve servir de guia na hora \nde definir o segmento de mercado.\nPERSONA >>>>>> PÚBLICO ALVO\nSEGMENTAÇÃO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 266,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 266,
+                "chunk_id": "2cf926aae25660b1295d9775"
+            }
+        },
+        {
+            "chunk_id": "f1e8591f07ba947d2f8a3afb",
+            "conteudo": "PERSONA\nUma persona é a representação do cliente ideal, \naquele com maior potencial de sucesso, menor \ntaxa de cancelamento, maior índice de satisfação \ne maior reincidência de compra.\n \nAlém disso, diferente do conceito de público-alvo, a \npersona é uma definição muito mais específica.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 287,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 287,
+                "chunk_id": "f1e8591f07ba947d2f8a3afb"
+            }
+        },
+        {
+            "chunk_id": "1c9990146a4476312b45c838",
+            "conteudo": "Nela são analisados aspectos como \ncomportamento, atividades cotidianas e atributos \npessoais como hobbies, desejos e aspirações.\n*DE MANEIRA MAIS DETALHADA\nPERSONA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 164,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 164,
+                "chunk_id": "1c9990146a4476312b45c838"
+            }
+        },
+        {
+            "chunk_id": "3aae6059d9808b855b9e605e",
+            "conteudo": "Ela é baseada em dados reais sobre \ncomportamento e características demográficas dos \nclientes, assim como suas histórias pessoais, \nmotivações, objetivos, desafios e preocupações.\nA persona deverá guiar toda a elaboração da \nestratégia\n*SÃO PERSONAGENS CRIADAS COM BASE EM \nPESQUISAS REAIS\nPERSONA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 298,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 298,
+                "chunk_id": "3aae6059d9808b855b9e605e"
+            }
+        },
+        {
+            "chunk_id": "4ace33056edaacd627353b25",
+            "conteudo": "QUESTÕES POSSÍVEIS\n1.Qual o site do seu negócio?\n2.Qual sua área?\n3.Com quais estilos se identifica?\n4.Que valores possui?\n5.Em que região mora?\n6.Tem restrição a algo ou alguma coisa?\n7.Quanto possui para investir?\n8.Quais os motivos te fazem comprar determinado \nproduto?\n9.Possui crenças ou religião?\n10.Como é a rotina de trabalho?\n11.Como é a rotina de laser?\n12.Como gosta de ser tratado?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 394,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 394,
+                "chunk_id": "4ace33056edaacd627353b25"
+            }
+        },
+        {
+            "chunk_id": "4f1d79b1c750f34a892beaa5",
+            "conteudo": "A persona, é o cliente ideal e \npode ser representada por um perfil semi \nfictício, baseado no comportamento e nas \ncaracterísticas reais de seus clientes. \nPorém, com informações bem mais \nelaboradas;\nÉ UM TIPO IDEAL DE CONSUMIDOR QUE ESTÁ \nDENTRO DO SEU PÚBLICO-ALVO.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 269,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 269,
+                "chunk_id": "4f1d79b1c750f34a892beaa5"
+            }
+        },
+        {
+            "chunk_id": "c88bfdaa93cce6282dd9df10",
+            "conteudo": "Também faz com que a segmentação \nseja mais focada e eficiente e contribui \npara uma melhor abordagem na \nprospecção ativa.\na empresa que possui uma persona bem \nconstruída, consegue mapear a jornada \nde compra e desenvolver estratégias mais \nassertivas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 253,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 253,
+                "chunk_id": "c88bfdaa93cce6282dd9df10"
+            }
+        },
+        {
+            "chunk_id": "b8e28d6859c20f0086a9dd2c",
+            "conteudo": "Como a persona é mais detalhada e os \ndados são bem específicos, isso faz com \nque a empresa possa ter uma, duas ou \nmais personas.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 131,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 131,
+                "chunk_id": "b8e28d6859c20f0086a9dd2c"
+            }
+        },
+        {
+            "chunk_id": "ed575f5b9b8fd7338e375089",
+            "conteudo": "IMPORTÂNCIA DA PERSONA\n▪Determinar o tipo de conteúdo necessário \npara atingir objetivos do negócio;\n▪Definir o tom e o estilo do conteúdo;\n▪Ajudar a desenhar as estratégias de \nmarketing apresentando o público que deve \nser focado;\n▪Entender onde os prospects buscam as \ninformações e como eles querem \nconsumi-las.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 316,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 316,
+                "chunk_id": "ed575f5b9b8fd7338e375089"
+            }
+        },
+        {
+            "chunk_id": "934e1f150fd6091369517873",
+            "conteudo": "Público alvo X Persona",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 22,
+                "chunk_id": "934e1f150fd6091369517873"
+            }
+        },
+        {
+            "chunk_id": "bf7be4922cce088e9ba0f414",
+            "conteudo": "# PERSONA\n\n- Possui uma identidade definida, com nome, profissão, principais hobbies, etc.\n- Definição mais detalhada sobre a personalidade de uma pessoa individualmente\n- Maior entendimento sobre o ciclo de compras do cliente\n- Maior segmentação e personalização de conteúdo\n\n# PÚBLICO ALVO\n\n- Visão mais ampla e menos pessoal sobre a audiência\n- Não oferece detalhes da personalidade de uma pessoa em específico\n- Pessoas que podem se interessar pelo seu produto ou serviço em algum momento\n- Comportamentos dos clientes não especificados",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 9,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 540,
+                "chunk_id": "bf7be4922cce088e9ba0f414"
+            }
+        },
+        {
+            "chunk_id": "4ab1ba4034ba463be15cf642",
+            "conteudo": "Nome: __________ Idade: __________\n\n[Diagrama central: um rosto simples com um olho e uma boca sorridente, cercado por quatro perguntas]\n\no que\nPENSA E SENTE?\n\no que\nOUVE?\n\no que\nVÊ?\n\no que\nFALA E FAZ?\n\nquais são as DORES?\n\nquais são as NECESSIDADES?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 250,
+                "chunk_id": "4ab1ba4034ba463be15cf642"
+            }
+        },
+        {
+            "chunk_id": "f192bfadb946afb41544657f",
+            "conteudo": "OBRIGADA POR SUA ATENÇÃO\n\n@tamiresmdlima - In:tamireslima01",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "publico_alvo",
+                "aula": "03",
+                "arquivo": "Aula03.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 59,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_03_publico_alvo",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 59,
+                "chunk_id": "f192bfadb946afb41544657f"
+            }
+        }
+    ]
+}

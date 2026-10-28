@@ -1,0 +1,83 @@
+{
+  "metodo": "Soma de quadrados alternativa e quartis inclusivos da biblioteca padrao",
+  "questoes": [
+    {
+      "fingerprint": "0df9a19c6872d846a17c637a25316092d80ce2382094a4f13eb3c1a2a5bcd278",
+      "conceito": "Variancia populacional",
+      "dados": [
+        7,
+        9,
+        18,
+        19,
+        21
+      ],
+      "resposta_api": "804/25",
+      "resultado_independente": "804/25",
+      "unica_alternativa_correta": true
+    },
+    {
+      "fingerprint": "4c0f26da0f04454bc17536dac814a741d19d9cbb013ef44852f6107cb9013fab",
+      "conceito": "Variancia amostral",
+      "dados": [
+        4,
+        6,
+        7,
+        15,
+        17,
+        19
+      ],
+      "resposta_api": "616/15",
+      "resultado_independente": "616/15",
+      "unica_alternativa_correta": true
+    },
+    {
+      "fingerprint": "07e4124dde2752c38efc89b3d5a2d417a5f539e041e13efec7a44ff2d225d4f4",
+      "conceito": "Amplitude",
+      "dados": [
+        2,
+        6,
+        7,
+        13,
+        16,
+        20,
+        23
+      ],
+      "resposta_api": "21",
+      "resultado_independente": "21",
+      "unica_alternativa_correta": true
+    },
+    {
+      "fingerprint": "f2f4ffa077bf0635f7071b89891c56c00c380874d5b00e541122eb81c3910a57",
+      "conceito": "Iqr",
+      "dados": [
+        3,
+        6,
+        7,
+        12,
+        17,
+        19,
+        21
+      ],
+      "resposta_api": "23/2",
+      "resultado_independente": "23/2",
+      "unica_alternativa_correta": true
+    },
+    {
+      "fingerprint": "42bc137df69d02a67343867d10f7e370a33dbca98a4e049dfed25edebf653b4d",
+      "conceito": "Desvio padrao",
+      "dados": [
+        6,
+        7,
+        10,
+        12,
+        14,
+        17,
+        20
+      ],
+      "resposta_api": "4,74",
+      "resultado_independente": "4.74",
+      "unica_alternativa_correta": true
+    }
+  ],
+  "aprovado": true
+}

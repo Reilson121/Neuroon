@@ -1,0 +1,41 @@
+{
+  "executado_em_utc": "2026-10-27T15:49:54.457632+00:00",
+  "sincronizacao": {
+    "chunks_antes": 363,
+    "chunks_depois": 363,
+    "removidos": 0,
+    "atualizados": 1,
+    "embeddings_recalculados": 1,
+    "inseridos": 0
+  },
+  "auditoria": {
+    "compativel": true,
+    "chunks_json": 363,
+    "chunks_banco": 363,
+    "faltantes": [],
+    "extras": [],
+    "conteudos_divergentes": [],
+    "metadados_divergentes": [],
+    "pgvector": "0.8.5",
+    "tipo_embedding": "vector(384)"
+  },
+  "repeticao_idempotente": {
+    "chunks_antes": 363,
+    "chunks_depois": 363,
+    "removidos": 0,
+    "atualizados": 0,
+    "embeddings_recalculados": 0,
+    "inseridos": 0
+  },
+  "auditoria_final": {
+    "compativel": true,
+    "chunks_json": 363,
+    "chunks_banco": 363,
+    "faltantes": [],
+    "extras": [],
+    "conteudos_divergentes": [],
+    "metadados_divergentes": [],
+    "pgvector": "0.8.5",
+    "tipo_embedding": "vector(384)"
+  }
+}

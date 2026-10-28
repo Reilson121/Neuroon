@@ -1,0 +1,453 @@
+=== PAGINA 1 ===
+NEURON — Modelagem de Dados (versão atualizada)
+Página 1
+NEURON
+Modelagem de Dados do MVP (versão atualizada)
+Modelo conceitual, modelo lógico, DER, restrições, metadados vetoriais e DDL inicial
+O que mudou nesta versão: (1) o monitor humano sai do escopo atual; (2) entram os campos
+que sustentam a prática com questões, apenas em disciplinas com prova; (3) entra a tabela de
+feedback da plataforma. Os itens marcados como (proposta) ainda precisam ser validados pela
+equipe; os pontos em aberto estão na seção 6.
+Escopo
+Esta modelagem cobre o núcleo acadêmico do MVP: Usuário, Período, Disciplina, Assunto,
+Material, Recursos Complementares, o feedback da plataforma e a integração conceitual com o
+Monitor Virtual e com a prática com questões. Monitoria humana, candidatura, agendamentos,
+mensagens e avaliações de monitores estão fora do escopo atual e ficam para uma expansão
+posterior.
+Decisões já consideradas
+Decisão
+Aplicação na modelagem
+Exclusão
+Exclusão lógica por meio do campo ativo.
+Pesquisa
+Pesquisa comum em Disciplina, Assunto e Material, separada do RAG.
+Chat do MVP
+Contexto por thread_id; sem histórico permanente de conversas no banco
+relacional.
+Arquivos
+Estratégia de Google Drive ainda em aberto; o modelo mantém referência
+externa desacoplada.
+RAG
+Banco relacional é a fonte de verdade; índice vetorial é derivado e
+reconstruível.
+Monitor humano (novo)
+Fora do escopo atual; nenhuma tabela de monitoria, candidatura,
+agendamento, mensagem ou avaliação de monitor entra nesta versão.
+Prática com questões
+(novo)
+Somente em disciplinas que possuem prova. Sem histórico de sessões no
+banco relacional no MVP (mesmo princípio do chat).
+Feedback da
+plataforma (novo)
+Tabela própria, separada de qualquer avaliação de monitor.
+1. Modelo conceitual
+USUÁRIO
+Representa estudantes e administradores.
+Atributos: id, nome, email, senha_hash, perfil, ativo, criado_em, atualizado_em
+PERÍODO
+Representa o período acadêmico e permite expansão futura além dos quatro períodos iniciais.
+
+
+=== PAGINA 2 ===
+NEURON — Modelagem de Dados (versão atualizada)
+Página 2
+Atributos: id, numero, nome, descricao, ordem, ativo, criado_em, atualizado_em
+DISCIPLINA
+Pertence obrigatoriamente a um Período. Novo: indica se possui prova.
+Atributos: id, periodo_id, nome, descricao, dicas, possui_prova (proposta), ativo, criado_em,
+atualizado_em
+ASSUNTO
+Pertence obrigatoriamente a uma Disciplina.
+Atributos: id, disciplina_id, nome, descricao, ordem, ativo, criado_em, atualizado_em
+MATERIAL
+Pertence obrigatoriamente a uma Disciplina e opcionalmente a um Assunto. Novo: campos para
+uso na prática.
+Atributos: id, disciplina_id, assunto_id, titulo, descricao, tipo, referencia_externa,
+fonte_monitor_virtual, disponivel_para_pratica, contem_gabarito, autorizacao_professor
+(propostas), ativo, criado_em, atualizado_em
+RECURSO COMPLEMENTAR
+Links e recursos externos recomendados, separados dos materiais oficiais.
+Atributos: id, disciplina_id, assunto_id, titulo, descricao, url, ativo, criado_em, atualizado_em
+FEEDBACK DA PLATAFORMA (novo)
+Avaliação e comentário de um usuário sobre a plataforma.
+Atributos: id, usuario_id, nota, comentario, criado_em
+Tipos de Material
+SLIDE_AULA, LISTA_EXERCICIOS, PROVA_ANTIGA, RESUMO, ARQUIVO, LINK, TRECHO_LIVRO e
+OUTRO. Os tipos LISTA_EXERCICIOS e PROVA_ANTIGA são os que alimentam a prática com
+questões.
+Relacionamentos e cardinalidades
+Relacionamento
+Cardinalidad
+e
+Regra
+Período - Disciplina
+1 : 0..N
+Cada Disciplina pertence a exatamente um Período.
+Disciplina - Assunto
+1 : 0..N
+Cada Assunto pertence a exatamente uma
+Disciplina.
+Disciplina - Material
+1 : 0..N
+Todo Material possui uma Disciplina.
+Assunto - Material
+0..1 : 0..N
+Um Material pode não estar ligado a um Assunto.
+Disciplina - Recurso
+Complementar
+1 : 0..N
+Todo recurso complementar está ligado a uma
+Disciplina.
+Assunto - Recurso
+Complementar
+0..1 : 0..N
+O recurso pode opcionalmente estar ligado a um
+Assunto.
+Usuário - Feedback da
+Plataforma (novo)
+1 : 0..N
+Cada feedback é enviado por um Usuário.
+
+
+=== PAGINA 3 ===
+NEURON — Modelagem de Dados (versão atualizada)
+Página 3
+2. DER em Mermaid
+erDiagram
+ USUARIO { bigint id PK
+  string nome
+  string email
+  string senha_hash
+  string perfil
+  boolean ativo }
+ PERIODO { bigint id PK
+  int numero
+  string nome
+  string descricao
+  int ordem
+  boolean ativo }
+ DISCIPLINA { bigint id PK
+  bigint periodo_id FK
+  string nome
+  string descricao
+  string dicas
+  boolean possui_prova
+  boolean ativo }
+ ASSUNTO { bigint id PK
+  bigint disciplina_id FK
+  string nome
+  string descricao
+  int ordem
+  boolean ativo }
+ MATERIAL { bigint id PK
+  bigint disciplina_id FK
+  bigint assunto_id FK
+  string titulo
+  string descricao
+  string tipo
+  string referencia_externa
+  boolean fonte_monitor_virtual
+  boolean disponivel_para_pratica
+  boolean contem_gabarito
+  boolean autorizacao_professor
+  boolean ativo }
+ RECURSO_COMPLEMENTAR { bigint id PK
+  bigint disciplina_id FK
+  bigint assunto_id FK
+  string titulo
+  string descricao
+  string url
+  boolean ativo }
+ FEEDBACK_PLATAFORMA { bigint id PK
+  bigint usuario_id FK
+  int nota
+  string comentario }
+ PERIODO ||--o{ DISCIPLINA : possui
+ DISCIPLINA ||--o{ ASSUNTO : possui
+ DISCIPLINA ||--o{ MATERIAL : possui
+ ASSUNTO o|--o{ MATERIAL : classifica
+ DISCIPLINA ||--o{ RECURSO_COMPLEMENTAR : possui
+ ASSUNTO o|--o{ RECURSO_COMPLEMENTAR : relaciona
+ USUARIO ||--o{ FEEDBACK_PLATAFORMA : envia
+
+
+=== PAGINA 4 ===
+NEURON — Modelagem de Dados (versão atualizada)
+Página 4
+3. Modelo lógico
+Tabela
+Chaves e campos principais
+USUARIO
+PK id; email UNIQUE; nome; senha_hash; perfil; ativo; timestamps.
+PERIODO
+PK id; numero UNIQUE; nome; descricao; ordem; ativo; timestamps.
+DISCIPLINA
+PK id; FK periodo_id; nome; descricao; dicas; possui_prova (novo,
+proposta); ativo; timestamps.
+ASSUNTO
+PK id; FK disciplina_id; nome; descricao; ordem; ativo; timestamps.
+MATERIAL
+PK id; FK disciplina_id; FK assunto_id NULL; titulo; descricao; tipo;
+referencia_externa; fonte_monitor_virtual; disponivel_para_pratica,
+contem_gabarito, autorizacao_professor (novos, propostas); ativo;
+timestamps.
+RECURSO_COMPLEMENT
+AR
+PK id; FK disciplina_id; FK assunto_id NULL; titulo; descricao; url; ativo;
+timestamps.
+FEEDBACK_PLATAFORMA
+(nova)
+PK id; FK usuario_id; nota; comentario; criado_em.
+Restrições de consistência
+Se um Material possuir assunto_id, esse Assunto deve pertencer à mesma Disciplina indicada em
+disciplina_id. A mesma regra vale para Recurso Complementar. Essa validação deve existir no
+domínio/back-end e pode ser reforçada no banco.
+Regras da prática (proposta):
+•
+A prática só é oferecida em disciplinas com possui_prova = verdadeiro. Disciplinas avaliadas
+apenas por projetos não oferecem a seção.
+•
+Um Material só pode ter disponivel_para_pratica = verdadeiro se for do tipo
+LISTA_EXERCICIOS ou PROVA_ANTIGA e tiver autorizacao_professor = verdadeiro (reforçado
+por CHECK no banco).
+•
+Um Material disponível para prática deve pertencer a uma Disciplina com possui_prova =
+verdadeiro (regra no back-end, pois envolve duas tabelas).
+Exclusão lógica
+A remoção funcional ocorre com ativo = false. No caso de Material usado pelo Monitor Virtual ou
+pela prática, sua desativação também deve provocar a remoção dos chunks correspondentes do
+índice vetorial.
+4. Metadados da base vetorial
+A base vetorial não substitui o banco relacional. Ela armazena chunks e embeddings derivados
+dos materiais marcados como fonte do Monitor Virtual ou disponíveis para a prática.
+Metadado
+Finalidade
+chunk_id
+Identificador do trecho no índice.
+material_id
+Liga o chunk ao Material que é fonte de verdade no banco relacional.
+periodo_id
+Permite filtragem por período.
+
+
+=== PAGINA 5 ===
+NEURON — Modelagem de Dados (versão atualizada)
+Página 5
+Metadado
+Finalidade
+disciplina_id
+Permite restringir a recuperação à disciplina selecionada.
+assunto_id
+Filtro opcional por assunto.
+tipo_material
+Identifica slide, lista, prova, resumo etc. Também separa conteúdo de aula
+(SLIDE_AULA, RESUMO...) de questões (LISTA_EXERCICIOS, PROVA_ANTIGA)
+na recuperação da prática.
+titulo_material
+Facilita a geração das fontes exibidas ao aluno.
+nome_arquivo
+Identifica o documento original quando aplicável.
+pagina
+Permite citar a página de origem.
+chunk_index
+Ordem do trecho dentro do documento processado.
+numero_questao
+(proposta)
+Número da questão no documento, para chunks de exercícios e provas
+(origem exibida como “Lista 2, Q4”).
+tem_gabarito
+(proposta)
+Indica se o gabarito da questão veio do material do professor.
+Exemplo (trecho de aula):
+{
+ "material_id": 125,
+ "periodo_id": 2,
+ "disciplina_id": 8,
+ "assunto_id": 31,
+ "tipo_material": "SLIDE_AULA",
+ "titulo_material": "Aula 05 - Backpropagation",
+ "pagina": 17,
+ "chunk_index": 8
+}
+Exemplo (questão de lista, proposta):
+{
+ "material_id": 140,
+ "periodo_id": 1,
+ "disciplina_id": 3,
+ "assunto_id": 12,
+ "tipo_material": "LISTA_EXERCICIOS",
+ "titulo_material": "Lista 2 - Conjuntos e Lógica",
+ "pagina": 2,
+ "chunk_index": 4,
+ "numero_questao": 4,
+ "tem_gabarito": true
+}
+A disponibilidade para prática (material.disponivel_para_pratica e disciplina.possui_prova) é
+verificada no banco relacional, já que relacional e vetorial ficam no mesmo PostgreSQL.
+Fluxo conceitual
+Banco relacional → Material → documento original → extração e chunking → embeddings → índice
+vetorial → recuperação pelo Monitor Virtual ou pela prática com questões.
+5. DDL inicial (SQL / PostgreSQL)
+Linhas marcadas com “-- NOVO” são as alterações desta versão (propostas a validar).
+
+
+=== PAGINA 6 ===
+NEURON — Modelagem de Dados (versão atualizada)
+Página 6
+CREATE TABLE usuario (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ nome VARCHAR(150) NOT NULL,
+ email VARCHAR(255) NOT NULL UNIQUE,
+ senha_hash VARCHAR(255) NOT NULL,
+ perfil VARCHAR(30) NOT NULL,
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ CONSTRAINT ck_usuario_perfil
+  CHECK (perfil IN ('ESTUDANTE', 'ADMINISTRADOR'))
+);
+CREATE TABLE periodo (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ numero INTEGER NOT NULL UNIQUE,
+ nome VARCHAR(100) NOT NULL,
+ descricao TEXT,
+ ordem INTEGER NOT NULL,
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE disciplina (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ periodo_id BIGINT NOT NULL,
+ nome VARCHAR(150) NOT NULL,
+ descricao TEXT,
+ dicas TEXT,
+ possui_prova BOOLEAN NOT NULL DEFAULT FALSE,  -- NOVO
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ CONSTRAINT fk_disciplina_periodo
+  FOREIGN KEY (periodo_id) REFERENCES periodo(id),
+ CONSTRAINT uq_disciplina_periodo_nome
+  UNIQUE (periodo_id, nome)
+);
+CREATE TABLE assunto (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ disciplina_id BIGINT NOT NULL,
+ nome VARCHAR(150) NOT NULL,
+ descricao TEXT,
+ ordem INTEGER,
+
+
+=== PAGINA 7 ===
+NEURON — Modelagem de Dados (versão atualizada)
+Página 7
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ CONSTRAINT fk_assunto_disciplina
+  FOREIGN KEY (disciplina_id) REFERENCES disciplina(id),
+ CONSTRAINT uq_assunto_disciplina_nome
+  UNIQUE (disciplina_id, nome)
+);
+CREATE TABLE material (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ disciplina_id BIGINT NOT NULL,
+ assunto_id BIGINT,
+ titulo VARCHAR(200) NOT NULL,
+ descricao TEXT,
+ tipo VARCHAR(40) NOT NULL,
+ referencia_externa TEXT,
+ fonte_monitor_virtual BOOLEAN NOT NULL DEFAULT FALSE,
+ disponivel_para_pratica BOOLEAN NOT NULL DEFAULT FALSE,  -- NOVO
+ contem_gabarito BOOLEAN NOT NULL DEFAULT FALSE,          -- NOVO
+ autorizacao_professor BOOLEAN NOT NULL DEFAULT FALSE,    -- NOVO
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ CONSTRAINT fk_material_disciplina
+  FOREIGN KEY (disciplina_id) REFERENCES disciplina(id),
+ CONSTRAINT fk_material_assunto
+  FOREIGN KEY (assunto_id) REFERENCES assunto(id),
+ CONSTRAINT ck_material_tipo CHECK (
+  tipo IN ('SLIDE_AULA', 'LISTA_EXERCICIOS', 'PROVA_ANTIGA',
+           'RESUMO', 'ARQUIVO', 'LINK', 'TRECHO_LIVRO', 'OUTRO')
+ ),
+ CONSTRAINT ck_material_pratica_tipo CHECK (          -- NOVO
+  disponivel_para_pratica = FALSE
+  OR tipo IN ('LISTA_EXERCICIOS', 'PROVA_ANTIGA')
+ ),
+ CONSTRAINT ck_material_pratica_autorizacao CHECK (   -- NOVO
+  disponivel_para_pratica = FALSE
+  OR autorizacao_professor = TRUE
+ )
+);
+CREATE TABLE recurso_complementar (
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ disciplina_id BIGINT NOT NULL,
+ assunto_id BIGINT,
+ titulo VARCHAR(200) NOT NULL,
+ descricao TEXT,
+ url TEXT NOT NULL,
+ ativo BOOLEAN NOT NULL DEFAULT TRUE,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ atualizado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ CONSTRAINT fk_recurso_disciplina
+  FOREIGN KEY (disciplina_id) REFERENCES disciplina(id),
+ CONSTRAINT fk_recurso_assunto
+  FOREIGN KEY (assunto_id) REFERENCES assunto(id)
+);
+CREATE TABLE feedback_plataforma (                      -- NOVO
+ id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+ usuario_id BIGINT NOT NULL,
+ nota SMALLINT NOT NULL,
+ comentario TEXT,
+ criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ CONSTRAINT fk_feedback_usuario
+  FOREIGN KEY (usuario_id) REFERENCES usuario(id),
+ CONSTRAINT ck_feedback_nota CHECK (nota BETWEEN 1 AND 5)
+);
+
+
+=== PAGINA 8 ===
+NEURON — Modelagem de Dados (versão atualizada)
+Página 8
+6. Pontos ainda em aberto
+Ponto
+O que precisa ser decidido
+Armazenamento
+Ainda será decidido se o Google Drive usará link por disciplina, pasta por
+material ou referência individual. O campo referencia_externa permanece
+genérico até essa decisão.
+SGBD definitivo
+O DDL foi preparado em formato próximo ao PostgreSQL e deverá ser
+revisado quando a decisão técnica do banco for aprovada.
+Expansão
+Monitoria humana, candidaturas, agenda, mensagens e avaliações de
+monitores serão adicionadas em uma etapa posterior, preservando o
+núcleo acadêmico acima.
+Identificação de
+disciplinas com prova
+(novo)
+Esta versão propõe o campo possui_prova, preenchido pelo administrador.
+A alternativa é deduzir pela existência de material disponível para prática.
+Gabarito (novo)
+Definir o que fazer quando o material não traz gabarito (omitir ou exibir
+resolução gerada por IA com aviso). O campo contem_gabarito apenas
+registra a situação.
+Formato das questões
+(novo)
+Múltipla escolha, discursivas ou ambas. Pode exigir campos adicionais nos
+metadados das questões.
+Feedback da plataforma
+(novo)
+Escala da nota (proposta: 1 a 5), categorias, comentário livre e se o envio
+pode ser anônimo (hoje usuario_id é obrigatório).
+Perfil do usuário (novo)
+O MVP prevê curso/período e perfil básico, e o protótipo exibe telefone,
+biografia e foto. Com o monitor humano fora do escopo, definir quais
+campos permanecem; a tabela usuario ainda não os contém.
+Histórico de prática
+(novo)
+No MVP a sessão de prática não é persistida. Acompanhar o desempenho
+do aluno exigiria novas tabelas.

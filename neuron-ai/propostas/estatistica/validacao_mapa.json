@@ -1,0 +1,27 @@
+{
+  "status": "proposta_validada_localmente_nao_ingerida",
+  "validador": "AssuntoProcessor.validar_arquivo (metodos originais carregados sem inicializar dependencias)",
+  "total_paginas_pdf": 176,
+  "assuntos": 31,
+  "paginas_mapeadas": 166,
+  "paginas_excluidas": [
+    1,
+    20,
+    29,
+    36,
+    41,
+    46,
+    64,
+    134,
+    142,
+    170
+  ],
+  "paginas_textuais": 63,
+  "paginas_multimodais": 103,
+  "sobreposicoes": 0,
+  "paginas_fora_do_pdf": 0,
+  "conflitos_de_metodo": 0,
+  "chamadas_api": 0,
+  "gravacoes_banco": 0,
+  "chunks_gerados": 0
+}

@@ -1,0 +1,1810 @@
+{
+  "executado_em_utc": "2026-10-27T15:06:21.253834+00:00",
+  "disciplina": "estrutura_de_dados_avancada",
+  "chunks": 167,
+  "top_k": 5,
+  "similaridade_minima_experimental": 0.25,
+  "casos": [
+    {
+      "pergunta": "Como calcular o índice de Gini em uma árvore de decisão?",
+      "filtro_assunto": null,
+      "verificacao_automatica": true,
+      "revisao_semantica": "Conferida pelo agente contra os trechos citados do JSON processado; nao constitui revisao integral dos PDFs.",
+      "resposta": "Para calcular o índice de Gini em um nó de uma árvore de decisão, utiliza-se a fórmula: GINI_nó = 1 - soma sobre todas as classes de p_i², onde p_i é a proporção de cada classe naquele nó [F3]. Ou seja, para cada classe, eleva-se sua proporção ao quadrado, soma-se esses valores e subtrai-se o total de 1. Quanto menor o valor resultante, mais homogêneo é o nó, ou seja, menos “misturado” estão os rótulos [F1] [F2]. Esse índice é usado como critério de divisão na construção da árvore de decisão [F1] [F4].",
+      "fontes": [
+        {
+          "chunk_caracteres": 217,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 9,
+          "caracteres_texto_original": 217,
+          "chunk_id": "482be1221c5e48ed8fae2fc9",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_de_decisao",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 37,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F3",
+          "similaridade": 0.6794629895527065
+        },
+        {
+          "chunk_caracteres": 290,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 17,
+          "caracteres_texto_original": 290,
+          "chunk_id": "d72dad1dab661da7321189ec",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_de_decisao",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 30,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F1",
+          "similaridade": 0.6839077472686768
+        },
+        {
+          "chunk_caracteres": 313,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 17,
+          "caracteres_texto_original": 313,
+          "chunk_id": "b00547fe6612589bfb75e664",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_de_decisao",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 31,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F2",
+          "similaridade": 0.6806259560958133
+        },
+        {
+          "chunk_caracteres": 382,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 21,
+          "caracteres_texto_original": 382,
+          "chunk_id": "d2fbaf2ec638874929cc0a1c",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_de_decisao",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 32,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F4",
+          "similaridade": 0.678441007230223
+        }
+      ],
+      "fallback": false,
+      "motivo": null,
+      "saida_modelo": "{\"suficiente\": true, \"resposta\": \"Para calcular o índice de Gini em um nó de uma árvore de decisão, utiliza-se a fórmula: GINI_nó = 1 - soma sobre todas as classes de p_i², onde p_i é a proporção de cada classe naquele nó [F3]. Ou seja, para cada classe, eleva-se sua proporção ao quadrado, soma-se esses valores e subtrai-se o total de 1. Quanto menor o valor resultante, mais homogêneo é o nó, ou seja, menos “misturado” estão os rótulos [F1] [F2]. Esse índice é usado como critério de divisão na construção da árvore de decisão [F1] [F4].\"}",
+      "trechos_citados": [
+        {
+          "referencia": "F3",
+          "conteudo": "• A impureza de Gini mede quão “misturado” está\num conjunto em termos dos rótulos (“Saiu” ou\n“Não saiu”).\nOnde pi é a proporção de cada classe naquele nó.\nExemplo de Impureza de Gini\n𝐺𝐼𝑁𝐼𝑛ó = 1 −\n෍\n𝑡𝑜𝑑𝑎𝑠𝑎𝑠𝑐𝑙𝑎𝑠𝑠𝑒𝑠\n𝑝𝑖\n2"
+        },
+        {
+          "referencia": "F1",
+          "conteudo": "Critérios de Divisão\nImpureza de Gini\n• Mede o quão \n“misturado” \nestá o conjunto \nde rótulos em \num nó. Quanto \nmenor o valor, \nmais \nhomogêneo é o \nnó.\n• Parecida com a \nGini, mede a \nincerteza dos \nrótulos. Usada \nno algoritmo \nID3 (um dos \nprimeiros para \nárvores de \ndecisão).\nEntropia"
+        },
+        {
+          "referencia": "F2",
+          "conteudo": "Critérios de Divisão\nImpureza de Gini\n• Mede o quão \n“misturado” \nestá o conjunto \nde rótulos em \num nó. Quanto \nmenor o valor, \nmais \nhomogêneo é o \nnó.\n• Parecida com a \nGini, mede a \nincerteza dos \nrótulos. Usada \nno algoritmo \nID3 (um dos \nprimeiros para \nárvores de \ndecisão).\nEntropia\nErro de \nClassificação"
+        },
+        {
+          "referencia": "F4",
+          "conteudo": "Critérios de Divisão\nImpureza de Gini\n• Mede o quão \n“misturado” \nestá o conjunto \nde rótulos em \num nó. Quanto \nmenor o valor, \nmais \nhomogêneo é o \nnó.\n• Parecida com a \nGini, mede a \nincerteza dos \nrótulos. Usada \nno algoritmo \nID3 (um dos \nprimeiros para \nárvores de \ndecisão).\n• Menos comum, \nmas também \npossível (mede \na taxa de erros \ndo nó).\nEntropia\nErro de \nClassificação"
+        }
+      ]
+    },
+    {
+      "pergunta": "O que é uma árvore trie?",
+      "filtro_assunto": null,
+      "verificacao_automatica": true,
+      "revisao_semantica": "Conferida pelo agente contra os trechos citados do JSON processado; nao constitui revisao integral dos PDFs.",
+      "resposta": "Uma árvore Trie, também chamada de \"prefix tree\" ou \"digital tree\", é uma estrutura de dados em árvore usada principalmente para armazenar e buscar palavras em um dicionário ou conjunto de strings [F1]. O principal diferencial é que ela armazena caracteres, com cada nível da árvore representando um caractere de uma palavra [F1]. Além disso, as Tries são eficientes para busca, inserção e operações de prefixo, porque o acesso aos elementos é baseado nos caracteres de prefixo, em vez de buscar pelas palavras completas [F1].\n\nNa prática, cada nó da Trie representa um caractere de uma string, e cada caminho da raiz até uma folha ou nó interno representa um prefixo de uma ou mais strings [F3]. Isso permite busca rápida por palavras ou prefixos, pois a busca segue o caminho dos caracteres [F3]. Embora ocupe mais memória que outras estruturas de dados, ela permite busca e inserção rápidas [F3]. Outra característica importante é que a Trie aproveita prefixos comuns entre muitas palavras, o que reduz a redundância no armazenamento [F3].",
+      "fontes": [
+        {
+          "chunk_caracteres": 544,
+          "motivos_deteccao": [
+            "paginas_curtas_mescladas"
+          ],
+          "paginas_mescladas": [
+            74
+          ],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 5,
+          "caracteres_texto_original": 532,
+          "chunk_id": "2fd74bcdcdb99b73bc5bcb56",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvore_trie",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 75,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F1",
+          "similaridade": 0.7858562107639379
+        },
+        {
+          "chunk_caracteres": 620,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 14,
+          "caracteres_texto_original": 620,
+          "chunk_id": "5afe225caed70c75bc5ffc20",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvore_trie",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 76,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F3",
+          "similaridade": 0.7047665119171143
+        }
+      ],
+      "fallback": false,
+      "motivo": null,
+      "saida_modelo": "{\"suficiente\": true, \"resposta\": \"Uma árvore Trie, também chamada de \\\"prefix tree\\\" ou \\\"digital tree\\\", é uma estrutura de dados em árvore usada principalmente para armazenar e buscar palavras em um dicionário ou conjunto de strings [F1]. O principal diferencial é que ela armazena caracteres, com cada nível da árvore representando um caractere de uma palavra [F1]. Além disso, as Tries são eficientes para busca, inserção e operações de prefixo, porque o acesso aos elementos é baseado nos caracteres de prefixo, em vez de buscar pelas palavras completas [F1].\\n\\nNa prática, cada nó da Trie representa um caractere de uma string, e cada caminho da raiz até uma folha ou nó interno representa um prefixo de uma ou mais strings [F3]. Isso permite busca rápida por palavras ou prefixos, pois a busca segue o caminho dos caracteres [F3]. Embora ocupe mais memória que outras estruturas de dados, ela permite busca e inserção rápidas [F3]. Outra característica importante é que a Trie aproveita prefixos comuns entre muitas palavras, o que reduz a redundância no armazenamento [F3].\"}",
+      "trechos_citados": [
+        {
+          "referencia": "F1",
+          "conteudo": "Árvore\nTrie\n• Uma árvore Trie (também conhecida como \"prefix\ntree\" ou \"digital tree\") é uma estrutura de dados de \nárvore utilizada principalmente para armazenar e \nbuscar palavras em um dicionário ou conjunto de \nstrings. \n• O principal diferencial dessa árvore é que ela \narmazena caracteres, com cada nível \nrepresentando um caractere de uma palavra. \n• As Tries são bastante eficientes para operações de \nbusca, inserção e prefixo, pois o acesso aos \nelementos é baseado nos caracteres de prefixo em \nvez de buscar pelas palavras completas."
+        },
+        {
+          "referencia": "F3",
+          "conteudo": "Características da Árvore Trie:\nEstrutura: \nCada nó da árvore \nrepresenta um \ncaractere de uma \nstring, e cada \ncaminho desde a \nraiz até uma folha \nou nó interno \nrepresenta um \nprefixo de uma ou \nmais strings.\nBusca rápida: \nA Trie permite \nbuscar por \npalavras ou \nprefixos de forma \neficiente, pois a \nbusca segue o \ncaminho de \ncaracteres.\nArmazenamento: \nEmbora ocupe \nmais memória \nque outras \nestruturas de \ndados, ela \npermite a busca e \ninserção rápidas.\nPrefixos comuns: \nA Trie aproveita o \nfato de que \nmuitas palavras \npodem \ncompartilhar \nprefixos, o que \najuda a reduzir a \nredundância no \narmazenamento."
+        }
+      ]
+    },
+    {
+      "pergunta": "Como funciona uma árvore splay?",
+      "filtro_assunto": "arvore_splay",
+      "verificacao_automatica": true,
+      "revisao_semantica": "Conferida pelo agente contra os trechos citados do JSON processado; nao constitui revisao integral dos PDFs.",
+      "resposta": "Uma árvore splay é uma árvore binária de busca que se autoajusta: sempre que um nó é acessado por busca, inserção ou remoção, ele é movido para o topo da árvore, ou seja, para a raiz [F1]. Esse comportamento torna a árvore mais eficiente para acessos frequentes a certos nós, embora ela não seja sempre perfeitamente balanceada [F2]. O mecanismo do \"splay\" funciona por meio de uma série de rotações que trazem o nó acessado até a raiz. Há três casos principais: Zig, quando o nó é filho direto da raiz; Zig-Zig, quando o nó é filho esquerdo de um filho esquerdo ou filho direito de um filho direito; e Zig-Zag, quando o nó é filho direito de um filho esquerdo ou vice-versa [F4].",
+      "fontes": [
+        {
+          "chunk_caracteres": 232,
+          "motivos_deteccao": [
+            "paginas_curtas_mescladas"
+          ],
+          "paginas_mescladas": [
+            104
+          ],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 5,
+          "caracteres_texto_original": 217,
+          "chunk_id": "9d9f8fee59d8f57d1135ca1e",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvore_splay",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 105,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F1",
+          "similaridade": 0.7727546231296897
+        },
+        {
+          "chunk_caracteres": 182,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 5,
+          "caracteres_texto_original": 182,
+          "chunk_id": "fcc6ecd4f562ad73e4ad19fc",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvore_splay",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 106,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F2",
+          "similaridade": 0.6978119195811808
+        },
+        {
+          "chunk_caracteres": 344,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 5,
+          "caracteres_texto_original": 344,
+          "chunk_id": "cf818c7b3f8f8e3888381abd",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvore_splay",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 107,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F4",
+          "similaridade": 0.6236943006515503
+        }
+      ],
+      "fallback": false,
+      "motivo": null,
+      "saida_modelo": "{\"suficiente\": true, \"resposta\": \"Uma árvore splay é uma árvore binária de busca que se autoajusta: sempre que um nó é acessado por busca, inserção ou remoção, ele é movido para o topo da árvore, ou seja, para a raiz [F1]. Esse comportamento torna a árvore mais eficiente para acessos frequentes a certos nós, embora ela não seja sempre perfeitamente balanceada [F2]. O mecanismo do \\\"splay\\\" funciona por meio de uma série de rotações que trazem o nó acessado até a raiz. Há três casos principais: Zig, quando o nó é filho direto da raiz; Zig-Zig, quando o nó é filho esquerdo de um filho esquerdo ou filho direito de um filho direito; e Zig-Zag, quando o nó é filho direito de um filho esquerdo ou vice-versa [F4].\"}",
+      "trechos_citados": [
+        {
+          "referencia": "F1",
+          "conteudo": "Árvores \nSPLAY\nÁrvore SPLAY\n• Uma árvore Splay é uma árvore binária de busca \n(BST) que se \"autoajusta\" toda vez que um nó é \nacessado.\n• Então, quando ao acessar (busca, insere ou remove) \num nó, ele é movido para o topo da árvore."
+        },
+        {
+          "referencia": "F2",
+          "conteudo": "Árvore SPLAY\n• Isso torna a árvore mais eficiente para acessos \nfrequentes a certos nós.\n• A árvore Splay não é sempre perfeitamente \nbalanceada.\n–Mas é ótima para acessos repetidos."
+        },
+        {
+          "referencia": "F4",
+          "conteudo": "Mas como funciona o \"splay\"?\nQuando acessamos um nó, realizamos uma série de \nrotações para trazê-lo para a raiz da árvore.\nExistem três casos principais:\n1.Zig – o nó é filho direto da raiz\n2.Zig-Zig – o nó é filho esquerdo de um filho esquerdo (ou \ndireito de um direito)\n3.Zig-Zag – o nó é filho direito de um filho esquerdo (ou \nvice-versa)"
+        }
+      ]
+    },
+    {
+      "pergunta": "Quais são as propriedades de uma árvore red-black?",
+      "filtro_assunto": null,
+      "prompt_sha256": "f0380449b5a3ea3947dbdabe01ec66cea4ec8eba5ce4c3a047cf34f49fc6edcc",
+      "verificacao_automatica": true,
+      "revisao_semantica": "Conferida pelo agente contra os trechos citados do JSON processado; nao constitui revisao integral dos PDFs.",
+      "resposta": "Sim, as propriedades da árvore red-black são definidas pelas cinco regras apresentadas no material [F2]:\n\n1. Cada nó é vermelho ou preto [F2].\n2. A raiz é sempre preta [F2].\n3. Nós vermelhos não podem ter filhos vermelhos [F2].\n4. Toda folha nula (None) é considerada preta [F2].\n5. Todos os caminhos da raiz até uma folha têm o mesmo número de nós pretos [F2].\n\nEssas regras substituem o fator de balanceamento da AVL e se combinam para impedir que a árvore se desequilibre muito, garantindo que a altura seja, no máximo, cerca de 2×log2(n), o que mantém as operações em tempo O(log n) [F1].",
+      "fontes": [
+        {
+          "chunk_caracteres": 248,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 11,
+          "caracteres_texto_original": 248,
+          "chunk_id": "fcdd8bd062d331a0035f9eda",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_red_black",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 99,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F2",
+          "similaridade": 0.6698275607721556
+        },
+        {
+          "chunk_caracteres": 302,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 5,
+          "caracteres_texto_original": 302,
+          "chunk_id": "cec61c4e0addc7d4272b9c6b",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_red_black",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 100,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F1",
+          "similaridade": 0.6837598681449939
+        }
+      ],
+      "fallback": false,
+      "motivo": null,
+      "contexto_recuperado": [
+        {
+          "referencia": "F1",
+          "metadata": {
+            "chunk_caracteres": 302,
+            "motivos_deteccao": [],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 5,
+            "caracteres_texto_original": 302,
+            "chunk_id": "cec61c4e0addc7d4272b9c6b",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_red_black",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 100,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "As 5 Regras da Red-Black Tree\n• Essas regras substituem o \"fator de balanceamento\" da \nAVL\n• Elas se combinam para impedir que a árvore se \ndesequilibre muito. \n• Garantindo que a altura de uma Árvore Red-Black seja, no \nmáximo, cerca de 2×log2(n), o que permite manter as \noperações em tempo O(log n)."
+        },
+        {
+          "referencia": "F2",
+          "metadata": {
+            "chunk_caracteres": 248,
+            "motivos_deteccao": [],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 11,
+            "caracteres_texto_original": 248,
+            "chunk_id": "fcdd8bd062d331a0035f9eda",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_red_black",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 99,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "As 5 Regras da Red-Black Tree\nCada nó é vermelho \nou preto\nA raiz é sempre preta\nNós vermelhos não \npodem ter filhos \nvermelhos\nToda folha nula \n(None) é considerada \npreta\nTodos os caminhos da \nraiz até uma folha têm \no mesmo número de \nnós pretos"
+        },
+        {
+          "referencia": "F3",
+          "metadata": {
+            "chunk_caracteres": 797,
+            "motivos_deteccao": [],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 12,
+            "caracteres_texto_original": 797,
+            "chunk_id": "f882fcb2d55c7a2397579208",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_red_black",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 101,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Operações na Red-Black Tree\nInserção\n• Primeiramente, insere-se o \nnovo nó como se fosse numa \nBST comum.\n• Por convenção, o nó inserido \né vermelho para não \nimpactar a “black-height” de \nimediato.\n• Em seguida, fazemos um \nprocedimento de “fix-up” \n(ajuste), envolvendo recolorir\ne fazer rotações (esquerda ou \ndireita) para restaurar as \npropriedades acima.\nRemoção\n• Parecido com a remoção em \nBST, mas também precisando \nde um passo extra de ajuste\npara corrigir eventuais \nviolações das propriedades \nRed-Black.\nRotações\n• São operações locais (em \ntorno de um nó) que \nreestruturam a árvore, mas \nmantêm a ordem BST. \nExistem duas: rotação à \nesquerda e rotação à direita.\n• A rotação desloca nós de \nforma a manter a \npropriedade de busca e \najustar as cores para retomar \no balanceamento."
+        },
+        {
+          "referencia": "F4",
+          "metadata": {
+            "chunk_caracteres": 544,
+            "motivos_deteccao": [
+              "paginas_curtas_mescladas"
+            ],
+            "paginas_mescladas": [
+              74
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 5,
+            "caracteres_texto_original": 532,
+            "chunk_id": "2fd74bcdcdb99b73bc5bcb56",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvore_trie",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 75,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Árvore\nTrie\n• Uma árvore Trie (também conhecida como \"prefix\ntree\" ou \"digital tree\") é uma estrutura de dados de \nárvore utilizada principalmente para armazenar e \nbuscar palavras em um dicionário ou conjunto de \nstrings. \n• O principal diferencial dessa árvore é que ela \narmazena caracteres, com cada nível \nrepresentando um caractere de uma palavra. \n• As Tries são bastante eficientes para operações de \nbusca, inserção e prefixo, pois o acesso aos \nelementos é baseado nos caracteres de prefixo em \nvez de buscar pelas palavras completas."
+        },
+        {
+          "referencia": "F5",
+          "metadata": {
+            "chunk_caracteres": 162,
+            "motivos_deteccao": [
+              "texto_duplicado_removido"
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 15,
+            "caracteres_texto_original": 166,
+            "chunk_id": "26f6a4b43792ff5484270c86",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvore_splay",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 108,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Tipo de árvore\nBalanceamento \nautomático?\nAcesso rápido a nós \nrepetidos?\nBST comum\nNão\nAVL / Red-Black\nSim\nNão\nSplay Tree\nSim (parcial)\nSim\nComparando as Árvores"
+        }
+      ],
+      "saida_modelo": "{\"suficiente\": true, \"resposta\": \"Sim, as propriedades da árvore red-black são definidas pelas cinco regras apresentadas no material [F2]:\\n\\n1. Cada nó é vermelho ou preto [F2].\\n2. A raiz é sempre preta [F2].\\n3. Nós vermelhos não podem ter filhos vermelhos [F2].\\n4. Toda folha nula (None) é considerada preta [F2].\\n5. Todos os caminhos da raiz até uma folha têm o mesmo número de nós pretos [F2].\\n\\nEssas regras substituem o fator de balanceamento da AVL e se combinam para impedir que a árvore se desequilibre muito, garantindo que a altura seja, no máximo, cerca de 2×log2(n), o que mantém as operações em tempo O(log n) [F1].\"}",
+      "trechos_citados": [
+        {
+          "referencia": "F2",
+          "conteudo": "As 5 Regras da Red-Black Tree\nCada nó é vermelho \nou preto\nA raiz é sempre preta\nNós vermelhos não \npodem ter filhos \nvermelhos\nToda folha nula \n(None) é considerada \npreta\nTodos os caminhos da \nraiz até uma folha têm \no mesmo número de \nnós pretos"
+        },
+        {
+          "referencia": "F1",
+          "conteudo": "As 5 Regras da Red-Black Tree\n• Essas regras substituem o \"fator de balanceamento\" da \nAVL\n• Elas se combinam para impedir que a árvore se \ndesequilibre muito. \n• Garantindo que a altura de uma Árvore Red-Black seja, no \nmáximo, cerca de 2×log2(n), o que permite manter as \noperações em tempo O(log n)."
+        }
+      ],
+      "historico": [
+        {
+          "pergunta": "Quais são as propriedades de uma árvore red-black?",
+          "filtro_assunto": null,
+          "verificacao_automatica": false,
+          "revisao_semantica": "pendente",
+          "resposta": "Não encontrei informações suficientes nos materiais da disciplina para responder a essa pergunta.",
+          "fontes": [],
+          "fallback": true,
+          "motivo": "fontes_invalidas",
+          "saida_modelo": "{\n  \"suficiente\": true,\n  \"resposta\": \"As propriedades de uma árvore red-black são definidas pelas 5 regras listadas no material [F2]:\\n\\n1. Cada nó é vermelho ou preto.\\n2. A raiz é sempre preta.\\n3. Nós vermelhos não podem ter filhos vermelhos.\\n4. Toda folha nula (None) é considerada preta.\\n5. Todos os caminhos da raiz até uma folha têm o mesmo número de nós pretos.\\n\\nEstas regras substituem o fator de balanceamento usado na AVL e se combinam para impedir que a árvore se desequilibre muito [F1]. Isso garante que a altura de uma árvore red-black seja, no máximo, cerca de 2×log2(n), permitendo manter as operações em tempo O(log n) [F1].\"\n}",
+          "trechos_citados": []
+        }
+      ]
+    },
+    {
+      "pergunta": "Qual a diferença entre uma BST e um Max-Heap no HeapSort?",
+      "filtro_assunto": null,
+      "prompt_sha256": "f0380449b5a3ea3947dbdabe01ec66cea4ec8eba5ce4c3a047cf34f49fc6edcc",
+      "verificacao_automatica": true,
+      "revisao_semantica": "Conferida pelo agente contra os trechos citados do JSON processado; nao constitui revisao integral dos PDFs.",
+      "resposta": "A diferença entre uma BST (Árvore Binária de Busca) e um Max-Heap, no contexto do HeapSort, está na estrutura e no objetivo de cada uma. Conforme a tabela comparativa [F1]:\n\n- **Ordem dos filhos**: Na BST, a regra é `Esquerda < pai < Direita`, ou seja, os valores menores ficam à esquerda e os maiores à direita [F1] [F3]. No Max-Heap, a regra é `Pai > filhos`, e a ordem entre os filhos (esquerda/direita) não importa [F1].\n- **Objetivo principal**: A BST tem como objetivo buscar rapidamente informações [F1], sendo usada em catálogos ordenados, indexação de bancos de dados e dicionários [F5]. O Max-Heap tem como objetivo encontrar rapidamente o maior elemento [F1], sendo usado em filas de prioridade (priority queue) [F1] [F4].\n- **Formato da árvore**: A BST pode ser irregular [F1], e se ficar desequilibrada pode se tornar linear, piorando o desempenho de O(log n) para O(n) [F2]. O Max-Heap é sempre uma árvore completa, preenchida da esquerda para a direita [F1].\n- **Inserção mantém ordenação?**: Na BST, a inserção respeita a ordenação esquerda/direita [F1]. No Max-Heap, a inserção não mantém uma ordenação global, apenas a relação pai-filhos [F1].",
+      "fontes": [
+        {
+          "chunk_caracteres": 486,
+          "motivos_deteccao": [
+            "texto_duplicado_removido"
+          ],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 17,
+          "caracteres_texto_original": 509,
+          "chunk_id": "fa5d0b0dd93746710980c452",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "algoritmos_de_ordenacao",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 112,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F1"
+        },
+        {
+          "chunk_caracteres": 287,
+          "motivos_deteccao": [
+            "paginas_curtas_mescladas"
+          ],
+          "paginas_mescladas": [
+            81
+          ],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 5,
+          "caracteres_texto_original": 253,
+          "chunk_id": "7aeeba86a5d14dd17376fec0",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_binarias_de_busca",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 82,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F3"
+        },
+        {
+          "chunk_caracteres": 198,
+          "motivos_deteccao": [
+            "texto_duplicado_removido"
+          ],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 5,
+          "caracteres_texto_original": 225,
+          "chunk_id": "0e3d282e49f958f880250f66",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_binarias_de_busca",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 15,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F5"
+        },
+        {
+          "chunk_caracteres": 245,
+          "motivos_deteccao": [
+            "texto_duplicado_removido"
+          ],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 6,
+          "caracteres_texto_original": 263,
+          "chunk_id": "6f3d7074175277cd993cac4c",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "filas_de_prioridade_e_heap",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 6,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F4"
+        },
+        {
+          "chunk_caracteres": 214,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 5,
+          "caracteres_texto_original": 214,
+          "chunk_id": "0ac22fb643de3c059d3777f4",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_balanceadas_e_avl",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 85,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F2"
+        }
+      ],
+      "fallback": false,
+      "motivo": null,
+      "contexto_recuperado": [
+        {
+          "referencia": "F1",
+          "metadata": {
+            "chunk_caracteres": 486,
+            "motivos_deteccao": [
+              "texto_duplicado_removido"
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 17,
+            "caracteres_texto_original": 509,
+            "chunk_id": "fa5d0b0dd93746710980c452",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "algoritmos_de_ordenacao",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 112,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Característica\nBST\nHeap (Max-Heap)\nOrdem dos filhos\nEsquerda < pai < Direita\nPai > filhos (ordem dos filhos não importa)\nObjetivo principal\nBuscar rapidamente\nEncontrar rapidamente o maior (ou menor)\nFormato da árvore\nPode ser irregular\nSempre completa (preenchida da esquerda para \ndireita)\nInserção mantém \nordenação?\nSim, respeita \nesquerda/direita\nNão, só mantém relação pai-filhos\nExemplo clássico de uso\nCatálogo ordenado\nFila de prioridade (priority queue)\nCuidado com o HeapSort"
+        },
+        {
+          "referencia": "F2",
+          "metadata": {
+            "chunk_caracteres": 214,
+            "motivos_deteccao": [],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 5,
+            "caracteres_texto_original": 214,
+            "chunk_id": "0ac22fb643de3c059d3777f4",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_balanceadas_e_avl",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 85,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Por que balancear?\nSe uma BST ficar desequilibrada, pode se tornar \numa estrutura linear, piorando o desempenho \nde O(log n) para O(n). Isso acontece quando os \nnós são inseridos em ordem crescente ou \ndecrescente."
+        },
+        {
+          "referencia": "F3",
+          "metadata": {
+            "chunk_caracteres": 287,
+            "motivos_deteccao": [
+              "paginas_curtas_mescladas"
+            ],
+            "paginas_mescladas": [
+              81
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 5,
+            "caracteres_texto_original": 253,
+            "chunk_id": "7aeeba86a5d14dd17376fec0",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_binarias_de_busca",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 82,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Antes de\ncontinuar\nvamos \nrevisar\nO que são Árvores BST?\nÉ uma árvore especial que segue estas regras:\n• Cada nó tem no máximo dois filhos: o \nesquerdo e direito.\n• Os valores menores ficam à esquerda.\n• Os valores maiores ficam à direita.\nhttps://www.cs.usfca.edu/~galles/visualization/"
+        },
+        {
+          "referencia": "F4",
+          "metadata": {
+            "chunk_caracteres": 245,
+            "motivos_deteccao": [
+              "texto_duplicado_removido"
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 6,
+            "caracteres_texto_original": 263,
+            "chunk_id": "6f3d7074175277cd993cac4c",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "filas_de_prioridade_e_heap",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 6,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Uma Heap é uma estrutura de dados usada para \nimplementar filas de prioridade. Existem dois tipos \nprincipais:\n•\nMin-Heap: O menor elemento sempre fica no \ntopo (prioridade mais alta).\n•\nMax-Heap: O maior elemento fica no topo.\nO que é uma Heap?"
+        },
+        {
+          "referencia": "F5",
+          "metadata": {
+            "chunk_caracteres": 198,
+            "motivos_deteccao": [
+              "texto_duplicado_removido"
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 5,
+            "caracteres_texto_original": 225,
+            "chunk_id": "0e3d282e49f958f880250f66",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_binarias_de_busca",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 15,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Aplicações das Árvores BST\n•\nArmazenamento eficiente de dados ordenados.\n• Indexação em bancos de dados.\n• Busca eficiente de informações.\n• Implementação de dicionários e sistemas de \nautocomplete."
+        }
+      ],
+      "saida_modelo": "{\"suficiente\": true, \"resposta\": \"A diferença entre uma BST (Árvore Binária de Busca) e um Max-Heap, no contexto do HeapSort, está na estrutura e no objetivo de cada uma. Conforme a tabela comparativa [F1]:\\n\\n- **Ordem dos filhos**: Na BST, a regra é `Esquerda < pai < Direita`, ou seja, os valores menores ficam à esquerda e os maiores à direita [F1] [F3]. No Max-Heap, a regra é `Pai > filhos`, e a ordem entre os filhos (esquerda/direita) não importa [F1].\\n- **Objetivo principal**: A BST tem como objetivo buscar rapidamente informações [F1], sendo usada em catálogos ordenados, indexação de bancos de dados e dicionários [F5]. O Max-Heap tem como objetivo encontrar rapidamente o maior elemento [F1], sendo usado em filas de prioridade (priority queue) [F1] [F4].\\n- **Formato da árvore**: A BST pode ser irregular [F1], e se ficar desequilibrada pode se tornar linear, piorando o desempenho de O(log n) para O(n) [F2]. O Max-Heap é sempre uma árvore completa, preenchida da esquerda para a direita [F1].\\n- **Inserção mantém ordenação?**: Na BST, a inserção respeita a ordenação esquerda/direita [F1]. No Max-Heap, a inserção não mantém uma ordenação global, apenas a relação pai-filhos [F1].\\n\\nNo HeapSort, o Max-Heap é a estrutura utilizada, pois sua propriedade de ter o maior elemento no topo permite extrair o máximo repetidamente para ordenar os elementos.\"}",
+      "trechos_citados": [
+        {
+          "referencia": "F1",
+          "conteudo": "Característica\nBST\nHeap (Max-Heap)\nOrdem dos filhos\nEsquerda < pai < Direita\nPai > filhos (ordem dos filhos não importa)\nObjetivo principal\nBuscar rapidamente\nEncontrar rapidamente o maior (ou menor)\nFormato da árvore\nPode ser irregular\nSempre completa (preenchida da esquerda para \ndireita)\nInserção mantém \nordenação?\nSim, respeita \nesquerda/direita\nNão, só mantém relação pai-filhos\nExemplo clássico de uso\nCatálogo ordenado\nFila de prioridade (priority queue)\nCuidado com o HeapSort"
+        },
+        {
+          "referencia": "F3",
+          "conteudo": "Antes de\ncontinuar\nvamos \nrevisar\nO que são Árvores BST?\nÉ uma árvore especial que segue estas regras:\n• Cada nó tem no máximo dois filhos: o \nesquerdo e direito.\n• Os valores menores ficam à esquerda.\n• Os valores maiores ficam à direita.\nhttps://www.cs.usfca.edu/~galles/visualization/"
+        },
+        {
+          "referencia": "F5",
+          "conteudo": "Aplicações das Árvores BST\n•\nArmazenamento eficiente de dados ordenados.\n• Indexação em bancos de dados.\n• Busca eficiente de informações.\n• Implementação de dicionários e sistemas de \nautocomplete."
+        },
+        {
+          "referencia": "F4",
+          "conteudo": "Uma Heap é uma estrutura de dados usada para \nimplementar filas de prioridade. Existem dois tipos \nprincipais:\n•\nMin-Heap: O menor elemento sempre fica no \ntopo (prioridade mais alta).\n•\nMax-Heap: O maior elemento fica no topo.\nO que é uma Heap?"
+        },
+        {
+          "referencia": "F2",
+          "conteudo": "Por que balancear?\nSe uma BST ficar desequilibrada, pode se tornar \numa estrutura linear, piorando o desempenho \nde O(log n) para O(n). Isso acontece quando os \nnós são inseridos em ordem crescente ou \ndecrescente."
+        }
+      ],
+      "historico": [
+        {
+          "pergunta": "Qual a diferença entre uma BST e um Max-Heap no HeapSort?",
+          "filtro_assunto": null,
+          "verificacao_automatica": false,
+          "revisao_semantica": "pendente",
+          "resposta": "Não encontrei informações suficientes nos materiais da disciplina para responder a essa pergunta.",
+          "fontes": [],
+          "fallback": true,
+          "motivo": "contexto_insuficiente",
+          "saida_modelo": "{\"suficiente\": false, \"resposta\": \"\"}",
+          "trechos_citados": []
+        },
+        {
+          "pergunta": "Qual a diferença entre uma BST e um Max-Heap no HeapSort?",
+          "filtro_assunto": null,
+          "prompt_sha256": "f0380449b5a3ea3947dbdabe01ec66cea4ec8eba5ce4c3a047cf34f49fc6edcc",
+          "verificacao_automatica": false,
+          "revisao_semantica": "pendente",
+          "resposta": "Não encontrei informações suficientes nos materiais da disciplina para responder a essa pergunta.",
+          "fontes": [],
+          "fallback": true,
+          "motivo": "formato_invalido",
+          "contexto_recuperado": [
+            {
+              "referencia": "F1",
+              "metadata": {
+                "chunk_caracteres": 486,
+                "motivos_deteccao": [
+                  "texto_duplicado_removido"
+                ],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 17,
+                "caracteres_texto_original": 509,
+                "chunk_id": "fa5d0b0dd93746710980c452",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "algoritmos_de_ordenacao",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 112,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Característica\nBST\nHeap (Max-Heap)\nOrdem dos filhos\nEsquerda < pai < Direita\nPai > filhos (ordem dos filhos não importa)\nObjetivo principal\nBuscar rapidamente\nEncontrar rapidamente o maior (ou menor)\nFormato da árvore\nPode ser irregular\nSempre completa (preenchida da esquerda para \ndireita)\nInserção mantém \nordenação?\nSim, respeita \nesquerda/direita\nNão, só mantém relação pai-filhos\nExemplo clássico de uso\nCatálogo ordenado\nFila de prioridade (priority queue)\nCuidado com o HeapSort"
+            },
+            {
+              "referencia": "F2",
+              "metadata": {
+                "chunk_caracteres": 214,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 214,
+                "chunk_id": "0ac22fb643de3c059d3777f4",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 85,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Por que balancear?\nSe uma BST ficar desequilibrada, pode se tornar \numa estrutura linear, piorando o desempenho \nde O(log n) para O(n). Isso acontece quando os \nnós são inseridos em ordem crescente ou \ndecrescente."
+            },
+            {
+              "referencia": "F3",
+              "metadata": {
+                "chunk_caracteres": 287,
+                "motivos_deteccao": [
+                  "paginas_curtas_mescladas"
+                ],
+                "paginas_mescladas": [
+                  81
+                ],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 253,
+                "chunk_id": "7aeeba86a5d14dd17376fec0",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_binarias_de_busca",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 82,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Antes de\ncontinuar\nvamos \nrevisar\nO que são Árvores BST?\nÉ uma árvore especial que segue estas regras:\n• Cada nó tem no máximo dois filhos: o \nesquerdo e direito.\n• Os valores menores ficam à esquerda.\n• Os valores maiores ficam à direita.\nhttps://www.cs.usfca.edu/~galles/visualization/"
+            },
+            {
+              "referencia": "F4",
+              "metadata": {
+                "chunk_caracteres": 245,
+                "motivos_deteccao": [
+                  "texto_duplicado_removido"
+                ],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 6,
+                "caracteres_texto_original": 263,
+                "chunk_id": "6f3d7074175277cd993cac4c",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "filas_de_prioridade_e_heap",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Uma Heap é uma estrutura de dados usada para \nimplementar filas de prioridade. Existem dois tipos \nprincipais:\n•\nMin-Heap: O menor elemento sempre fica no \ntopo (prioridade mais alta).\n•\nMax-Heap: O maior elemento fica no topo.\nO que é uma Heap?"
+            },
+            {
+              "referencia": "F5",
+              "metadata": {
+                "chunk_caracteres": 198,
+                "motivos_deteccao": [
+                  "texto_duplicado_removido"
+                ],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 225,
+                "chunk_id": "0e3d282e49f958f880250f66",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_binarias_de_busca",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Aplicações das Árvores BST\n•\nArmazenamento eficiente de dados ordenados.\n• Indexação em bancos de dados.\n• Busca eficiente de informações.\n• Implementação de dicionários e sistemas de \nautocomplete."
+            }
+          ],
+          "saida_modelo": "",
+          "trechos_citados": []
+        },
+        {
+          "pergunta": "Qual a diferença entre uma BST e um Max-Heap no HeapSort?",
+          "filtro_assunto": null,
+          "prompt_sha256": "f0380449b5a3ea3947dbdabe01ec66cea4ec8eba5ce4c3a047cf34f49fc6edcc",
+          "verificacao_automatica": false,
+          "revisao_semantica": "pendente",
+          "resposta": "Não encontrei informações suficientes nos materiais da disciplina para responder a essa pergunta.",
+          "fontes": [],
+          "fallback": true,
+          "motivo": "fontes_invalidas",
+          "contexto_recuperado": [
+            {
+              "referencia": "F1",
+              "metadata": {
+                "chunk_caracteres": 486,
+                "motivos_deteccao": [
+                  "texto_duplicado_removido"
+                ],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 17,
+                "caracteres_texto_original": 509,
+                "chunk_id": "fa5d0b0dd93746710980c452",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "algoritmos_de_ordenacao",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 112,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Característica\nBST\nHeap (Max-Heap)\nOrdem dos filhos\nEsquerda < pai < Direita\nPai > filhos (ordem dos filhos não importa)\nObjetivo principal\nBuscar rapidamente\nEncontrar rapidamente o maior (ou menor)\nFormato da árvore\nPode ser irregular\nSempre completa (preenchida da esquerda para \ndireita)\nInserção mantém \nordenação?\nSim, respeita \nesquerda/direita\nNão, só mantém relação pai-filhos\nExemplo clássico de uso\nCatálogo ordenado\nFila de prioridade (priority queue)\nCuidado com o HeapSort"
+            },
+            {
+              "referencia": "F2",
+              "metadata": {
+                "chunk_caracteres": 214,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 214,
+                "chunk_id": "0ac22fb643de3c059d3777f4",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 85,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Por que balancear?\nSe uma BST ficar desequilibrada, pode se tornar \numa estrutura linear, piorando o desempenho \nde O(log n) para O(n). Isso acontece quando os \nnós são inseridos em ordem crescente ou \ndecrescente."
+            },
+            {
+              "referencia": "F3",
+              "metadata": {
+                "chunk_caracteres": 287,
+                "motivos_deteccao": [
+                  "paginas_curtas_mescladas"
+                ],
+                "paginas_mescladas": [
+                  81
+                ],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 253,
+                "chunk_id": "7aeeba86a5d14dd17376fec0",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_binarias_de_busca",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 82,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Antes de\ncontinuar\nvamos \nrevisar\nO que são Árvores BST?\nÉ uma árvore especial que segue estas regras:\n• Cada nó tem no máximo dois filhos: o \nesquerdo e direito.\n• Os valores menores ficam à esquerda.\n• Os valores maiores ficam à direita.\nhttps://www.cs.usfca.edu/~galles/visualization/"
+            },
+            {
+              "referencia": "F4",
+              "metadata": {
+                "chunk_caracteres": 245,
+                "motivos_deteccao": [
+                  "texto_duplicado_removido"
+                ],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 6,
+                "caracteres_texto_original": 263,
+                "chunk_id": "6f3d7074175277cd993cac4c",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "filas_de_prioridade_e_heap",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Uma Heap é uma estrutura de dados usada para \nimplementar filas de prioridade. Existem dois tipos \nprincipais:\n•\nMin-Heap: O menor elemento sempre fica no \ntopo (prioridade mais alta).\n•\nMax-Heap: O maior elemento fica no topo.\nO que é uma Heap?"
+            },
+            {
+              "referencia": "F5",
+              "metadata": {
+                "chunk_caracteres": 198,
+                "motivos_deteccao": [
+                  "texto_duplicado_removido"
+                ],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 225,
+                "chunk_id": "0e3d282e49f958f880250f66",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_binarias_de_busca",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Aplicações das Árvores BST\n•\nArmazenamento eficiente de dados ordenados.\n• Indexação em bancos de dados.\n• Busca eficiente de informações.\n• Implementação de dicionários e sistemas de \nautocomplete."
+            }
+          ],
+          "saida_modelo": "{\"suficiente\": true, \"resposta\": \"A diferença entre uma BST (Árvore Binária de Busca) e um Max-Heap, no contexto do HeapSort, está na estrutura e no objetivo de cada uma. Conforme a tabela comparativa [F1]:\\n\\n- **Ordem dos filhos**: Na BST, a regra é `Esquerda < pai < Direita`, ou seja, os valores menores ficam à esquerda e os maiores à direita [F1] [F3]. No Max-Heap, a regra é `Pai > filhos`, e a ordem entre os filhos (esquerda/direita) não importa [F1].\\n- **Objetivo principal**: A BST tem como objetivo buscar rapidamente informações [F1], sendo usada em catálogos ordenados, indexação de bancos de dados e dicionários [F5]. O Max-Heap tem como objetivo encontrar rapidamente o maior elemento [F1], sendo usado em filas de prioridade (priority queue) [F1] [F4].\\n- **Formato da árvore**: A BST pode ser irregular [F1], e se ficar desequilibrada pode se tornar linear, piorando o desempenho de O(log n) para O(n) [F2]. O Max-Heap é sempre uma árvore completa, preenchida da esquerda para a direita [F1].\\n- **Inserção mantém ordenação?**: Na BST, a inserção respeita a ordenação esquerda/direita [F1]. No Max-Heap, a inserção não mantém uma ordenação global, apenas a relação pai-filhos [F1].\\n\\nNo HeapSort, o Max-Heap é a estrutura utilizada, pois sua propriedade de ter o maior elemento no topo permite extrair o máximo repetidamente para ordenar os elementos.\"}",
+          "trechos_citados": []
+        }
+      ],
+      "blocos_sem_fonte_removidos": 1,
+      "processamento": "Saida real anteriormente recebida reprocessada localmente; sem nova busca ou chamada ao LLM. Similaridades nao estavam no contexto salvo."
+    },
+    {
+      "pergunta": "Como funciona a rotação zig-zag em uma árvore AVL?",
+      "filtro_assunto": null,
+      "prompt_sha256": "cb055b5bb0e4e3979e00073fa3703e325bac9be3f966123ddfcf0034693a27ad",
+      "verificacao_automatica": true,
+      "revisao_semantica": "Conferida pelo agente: operacoes, caso esquerda-direita e exemplo 30/10/20 correspondem aos trechos citados das paginas 90 e 93. Nao constitui revisao integral dos PDFs.",
+      "resposta": "A rotação zig-zag, também chamada de rotação dupla esquerda-direita (LR), é utilizada para reequilibrar uma árvore AVL quando a inserção ocorre na subárvore direita da subárvore esquerda de um nó. [F5]\n\nO procedimento é composto por duas rotações simples: primeiro, realiza-se uma rotação à esquerda no filho esquerdo do nó desbalanceado; em seguida, uma rotação à direita no próprio nó. [F5]\n\nPor exemplo, considere um nó 30 com filho esquerdo 10, e esse filho 10 possui um filho direito 20 (inserção na subárvore direita de 10). Após a correção, o nó 20 torna-se a raiz, com 10 à esquerda e 30 à direita. [F5]\n\nEsse tipo de rotação está entre as quatro operações de balanceamento da AVL, sendo especificamente a rotação dupla esquerda-direita (LR). [F3]",
+      "fontes": [
+        {
+          "chunk_caracteres": 692,
+          "motivos_deteccao": [
+            "multimodal_forcado_manualmente"
+          ],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 13,
+          "caracteres_texto_original": 302,
+          "chunk_id": "4af93287448f5af14eabba34",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_balanceadas_e_avl",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 90,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "multimodal",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F5",
+          "similaridade": 0.5628462266073778
+        },
+        {
+          "chunk_caracteres": 214,
+          "motivos_deteccao": [],
+          "total_chunks_pagina": 1,
+          "elementos_desenhados": 14,
+          "caracteres_texto_original": 214,
+          "chunk_id": "7f59e7ea304c31ab8e2f8c34",
+          "periodo": "03",
+          "disciplina": "estrutura_de_dados_avancada",
+          "assunto": "arvores_balanceadas_e_avl",
+          "aula": "02",
+          "arquivo": "Aula_2.pdf",
+          "pagina": 93,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "material_id": null,
+          "periodo_id": null,
+          "disciplina_id": null,
+          "assunto_id": null,
+          "tipo_material": null,
+          "titulo_material": null,
+          "referencia": "F3",
+          "similaridade": 0.5848671372195228
+        }
+      ],
+      "fallback": false,
+      "motivo": null,
+      "blocos_sem_fonte_removidos": 2,
+      "reformulacoes": 1,
+      "contexto_recuperado": [
+        {
+          "referencia": "F1",
+          "metadata": {
+            "chunk_caracteres": 278,
+            "motivos_deteccao": [],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 13,
+            "caracteres_texto_original": 278,
+            "chunk_id": "adad0a77043318b2392ef5e6",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_balanceadas_e_avl",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 89,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Rotações Zig E Zag\nQuais são as rotações possíveis?\nZag Rotation (Rotação à \nEsquerda)\n• Acontece quando inserimos \nvalores na subárvore direita  \nda subárvore direita.\n• Usamos uma rotação simples \nà esquerda.\ndef\nrotacao_esquerda(x):\ny = x.dir\nx.dir = y.esq\ny.esq = x\nreturn y"
+        },
+        {
+          "referencia": "F2",
+          "metadata": {
+            "chunk_caracteres": 275,
+            "motivos_deteccao": [],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 13,
+            "caracteres_texto_original": 275,
+            "chunk_id": "870a89f1d572671de97b0fea",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_balanceadas_e_avl",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 88,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Quais são as rotações possíveis?\nZig Rotation (Rotação à Direita)\n• Acontece quando inserimos \nvalores na subárvore esquerda \nda subárvore esquerda.\n• Usamos uma rotação simples à \ndireita.\nRotações Zig E Zag\ndef\nrotacao_direita(y):\nx = y.esq\ny.esq = x.dir\nx.dir = y\nreturn x"
+        },
+        {
+          "referencia": "F3",
+          "metadata": {
+            "chunk_caracteres": 214,
+            "motivos_deteccao": [],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 14,
+            "caracteres_texto_original": 214,
+            "chunk_id": "7f59e7ea304c31ab8e2f8c34",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_balanceadas_e_avl",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 93,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "textual",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "Operações na Árvore AVL\nExistem 4 tipos de rotação para reequilibrar a \nárvore:\nRotação Simples à Direita (RR)\nRotação Simples à Esquerda (LL)\nRotação Dupla Direita-Esquerda (RL)\nRotação Dupla Esquerda-Direita (LR)"
+        },
+        {
+          "referencia": "F4",
+          "metadata": {
+            "chunk_caracteres": 599,
+            "motivos_deteccao": [
+              "multimodal_forcado_manualmente"
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 13,
+            "caracteres_texto_original": 303,
+            "chunk_id": "ff11bea4eda992bb3aaeb657",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_balanceadas_e_avl",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 91,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "# Quais são as rotações possíveis?\n\n## Zag-Zig (Direita-Esquerda)\n\n- **Caso:** Inserção na subárvore esquerda da subárvore direita.\n- **Correção:** Rotação à direita no filho, depois rotação à esquerda no pai.\n\n### Representação Estrutural (Diagrama)\n\n- **Estado Inicial:**\n  - Nó 10\n    - Filho direito: Nó 30\n      - Filho esquerdo: Nó 20\n\n- **Estado Final (Após Rotação):**\n  - Nó 20 (Raiz)\n    - Filho esquerdo: Nó 10\n    - Filho direito: Nó 30\n\n### Implementação\n\n```python\ndef zag_zig(node):\n    node.dir = rotacao_direita(node.dir)\n    return rotacao_esquerda(node)\n```\n\n## Rotações Compostas"
+        },
+        {
+          "referencia": "F5",
+          "metadata": {
+            "chunk_caracteres": 692,
+            "motivos_deteccao": [
+              "multimodal_forcado_manualmente"
+            ],
+            "total_chunks_pagina": 1,
+            "elementos_desenhados": 13,
+            "caracteres_texto_original": 302,
+            "chunk_id": "4af93287448f5af14eabba34",
+            "periodo": "03",
+            "disciplina": "estrutura_de_dados_avancada",
+            "assunto": "arvores_balanceadas_e_avl",
+            "aula": "02",
+            "arquivo": "Aula_2.pdf",
+            "pagina": 90,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "conteudo": "# Quais são as rotações possíveis?\n\n## Zig-Zag (Esquerda-Direita)\n\n*   **Caso:** Inserção na subárvore direita da subárvore esquerda.\n*   **Correção:** Rotação à esquerda no filho, depois rotação à direita no pai.\n\n### Representação Visual da Estrutura (Zig-Zag)\n\n*   **Estado Inicial (Antes da Correção):**\n    *   Nó 30 (raiz)\n        *   Filho esquerdo: Nó 10\n            *   Filho direito do Nó 10: Nó 20\n*   **Estado Final (Após a Correção):**\n    *   Nó 20 (raiz)\n        *   Filho esquerdo: Nó 10\n        *   Filho direito: Nó 30\n\n### Código da Operação\n\n```python\ndef zig_zag(node):\n    node.esq = rotacao_esquerda(node.esq)\n    return rotacao_direita(node)\n```\n\n## Rotações Compostas"
+        }
+      ],
+      "saida_modelo": "{\n  \"suficiente\": true,\n  \"resposta\": \"A rotação zig-zag, também chamada de rotação dupla esquerda-direita (LR), é utilizada para reequilibrar uma árvore AVL quando a inserção ocorre na subárvore direita da subárvore esquerda de um nó. [F5]\\n\\nO procedimento é composto por duas rotações simples: primeiro, realiza-se uma rotação à esquerda no filho esquerdo do nó desbalanceado; em seguida, uma rotação à direita no próprio nó. [F5]\\n\\nPor exemplo, considere um nó 30 com filho esquerdo 10, e esse filho 10 possui um filho direito 20 (inserção na subárvore direita de 10). Após a correção, o nó 20 torna-se a raiz, com 10 à esquerda e 30 à direita. [F5]\\n\\nA implementação típica é:\\n\\n```python\\ndef zig_zag(node):\\n    node.esq = rotacao_esquerda(node.esq)\\n    return rotacao_direita(node)\\n```\\n\\nEsse tipo de rotação está entre as quatro operações de balanceamento da AVL, sendo especificamente a rotação dupla esquerda-direita (LR). [F3]\"\n}",
+      "tentativas": [
+        {
+          "mensagem_pergunta_e_contexto": "PERGUNTA ORIGINAL:\nComo funciona a rotação zig-zag em uma árvore AVL?\n\nCONSULTA UTILIZADA:\nComo funciona a rotação zig-zag em uma árvore AVL?\n\nCONSULTAS ANTERIORES (JSON):\n[\"Como funciona a rotação zig-zag em uma árvore AVL?\"]\n\nCONTEXTO (JSON):\n[{\"referencia\": \"F1\", \"metadata\": {\"chunk_caracteres\": 214, \"motivos_deteccao\": [], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 14, \"caracteres_texto_original\": 214, \"chunk_id\": \"7f59e7ea304c31ab8e2f8c34\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvores_balanceadas_e_avl\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 93, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"textual\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"Operações na Árvore AVL\\nExistem 4 tipos de rotação para reequilibrar a \\nárvore:\\nRotação Simples à Direita (RR)\\nRotação Simples à Esquerda (LL)\\nRotação Dupla Direita-Esquerda (RL)\\nRotação Dupla Esquerda-Direita (LR)\"}, {\"referencia\": \"F2\", \"metadata\": {\"chunk_caracteres\": 329, \"motivos_deteccao\": [], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 9, \"caracteres_texto_original\": 329, \"chunk_id\": \"0aaf059d54439a61f3d477cc\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvores_balanceadas_e_avl\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 87, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"textual\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"O que são rotações?\\n• As rotações são operações que reorganizam os nós da árvore \\npara mantê-la balanceada. \\n• Uma árvore desbalanceada pode se tornar ineficiente.\\n• Servem para:\\n– Melhorar a performance da árvore.\\n– Manter a propriedade de ABB.\\n– Tornar as operações mais rápidas (busca, inserção, remoção).\\nOrganizando os dados\"}, {\"referencia\": \"F3\", \"metadata\": {\"chunk_caracteres\": 380, \"motivos_deteccao\": [], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 5, \"caracteres_texto_original\": 380, \"chunk_id\": \"c2b2a6fd0025c3100b46a70f\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvores_balanceadas_e_avl\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 92, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"textual\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"Árvores AVL\\nÉ um tipo específico de árvore binária de busca \\nbalanceada, que usa regras matemáticas precisas para se \\nmanter equilibrada.\\nRegras da AVL:\\n– Cada nó guarda sua altura.\\n– O fator de balanceamento (altura da esquerda - altura da \\ndireita) de cada nó deve ser -1, 0 ou +1.\\n– Se essa regra for quebrada após uma inserção ou remoção, \\na árvore se autoajusta com rotações.\"}, {\"referencia\": \"F4\", \"metadata\": {\"chunk_caracteres\": 285, \"motivos_deteccao\": [], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 5, \"caracteres_texto_original\": 285, \"chunk_id\": \"9e215eb8099c23db9d519b26\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvores_balanceadas_e_avl\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 86, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"textual\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"Propriedade Principal\\nPara cada nó da árvore AVL:\\nFator de balanceamento = \\naltura(subárvoreesquerda)−altura(subárvore direita)\\nO fator de balanceamento deve estar sempre em {-1, 0, 1}.\\nSe for menor que -1 ou maior que 1, a árvore precisa de \\numa rotação para corrigir o balanceamento.\"}, {\"referencia\": \"F5\", \"metadata\": {\"chunk_caracteres\": 344, \"motivos_deteccao\": [], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 5, \"caracteres_texto_original\": 344, \"chunk_id\": \"cf818c7b3f8f8e3888381abd\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvore_splay\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 107, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"textual\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"Mas como funciona o \\\"splay\\\"?\\nQuando acessamos um nó, realizamos uma série de \\nrotações para trazê-lo para a raiz da árvore.\\nExistem três casos principais:\\n1.Zig – o nó é filho direto da raiz\\n2.Zig-Zig – o nó é filho esquerdo de um filho esquerdo (ou \\ndireito de um direito)\\n3.Zig-Zag – o nó é filho direito de um filho esquerdo (ou \\nvice-versa)\"}]",
+          "saida_modelo": "{\n  \"suficiente\": false,\n  \"resposta\": \"\",\n  \"consulta_busca\": \"rotação dupla esquerda-direita AVL\"\n}"
+        },
+        {
+          "mensagem_pergunta_e_contexto": "PERGUNTA ORIGINAL:\nComo funciona a rotação zig-zag em uma árvore AVL?\n\nCONSULTA UTILIZADA:\nrotação dupla esquerda-direita AVL\n\nCONSULTAS ANTERIORES (JSON):\n[\"Como funciona a rotação zig-zag em uma árvore AVL?\", \"rotação dupla esquerda-direita AVL\"]\n\nCONTEXTO (JSON):\n[{\"referencia\": \"F1\", \"metadata\": {\"chunk_caracteres\": 278, \"motivos_deteccao\": [], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 13, \"caracteres_texto_original\": 278, \"chunk_id\": \"adad0a77043318b2392ef5e6\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvores_balanceadas_e_avl\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 89, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"textual\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"Rotações Zig E Zag\\nQuais são as rotações possíveis?\\nZag Rotation (Rotação à \\nEsquerda)\\n• Acontece quando inserimos \\nvalores na subárvore direita  \\nda subárvore direita.\\n• Usamos uma rotação simples \\nà esquerda.\\ndef\\nrotacao_esquerda(x):\\ny = x.dir\\nx.dir = y.esq\\ny.esq = x\\nreturn y\"}, {\"referencia\": \"F2\", \"metadata\": {\"chunk_caracteres\": 275, \"motivos_deteccao\": [], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 13, \"caracteres_texto_original\": 275, \"chunk_id\": \"870a89f1d572671de97b0fea\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvores_balanceadas_e_avl\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 88, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"textual\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"Quais são as rotações possíveis?\\nZig Rotation (Rotação à Direita)\\n• Acontece quando inserimos \\nvalores na subárvore esquerda \\nda subárvore esquerda.\\n• Usamos uma rotação simples à \\ndireita.\\nRotações Zig E Zag\\ndef\\nrotacao_direita(y):\\nx = y.esq\\ny.esq = x.dir\\nx.dir = y\\nreturn x\"}, {\"referencia\": \"F3\", \"metadata\": {\"chunk_caracteres\": 214, \"motivos_deteccao\": [], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 14, \"caracteres_texto_original\": 214, \"chunk_id\": \"7f59e7ea304c31ab8e2f8c34\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvores_balanceadas_e_avl\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 93, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"textual\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"Operações na Árvore AVL\\nExistem 4 tipos de rotação para reequilibrar a \\nárvore:\\nRotação Simples à Direita (RR)\\nRotação Simples à Esquerda (LL)\\nRotação Dupla Direita-Esquerda (RL)\\nRotação Dupla Esquerda-Direita (LR)\"}, {\"referencia\": \"F4\", \"metadata\": {\"chunk_caracteres\": 599, \"motivos_deteccao\": [\"multimodal_forcado_manualmente\"], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 13, \"caracteres_texto_original\": 303, \"chunk_id\": \"ff11bea4eda992bb3aaeb657\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvores_balanceadas_e_avl\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 91, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Quais são as rotações possíveis?\\n\\n## Zag-Zig (Direita-Esquerda)\\n\\n- **Caso:** Inserção na subárvore esquerda da subárvore direita.\\n- **Correção:** Rotação à direita no filho, depois rotação à esquerda no pai.\\n\\n### Representação Estrutural (Diagrama)\\n\\n- **Estado Inicial:**\\n  - Nó 10\\n    - Filho direito: Nó 30\\n      - Filho esquerdo: Nó 20\\n\\n- **Estado Final (Após Rotação):**\\n  - Nó 20 (Raiz)\\n    - Filho esquerdo: Nó 10\\n    - Filho direito: Nó 30\\n\\n### Implementação\\n\\n```python\\ndef zag_zig(node):\\n    node.dir = rotacao_direita(node.dir)\\n    return rotacao_esquerda(node)\\n```\\n\\n## Rotações Compostas\"}, {\"referencia\": \"F5\", \"metadata\": {\"chunk_caracteres\": 692, \"motivos_deteccao\": [\"multimodal_forcado_manualmente\"], \"total_chunks_pagina\": 1, \"elementos_desenhados\": 13, \"caracteres_texto_original\": 302, \"chunk_id\": \"4af93287448f5af14eabba34\", \"periodo\": \"03\", \"disciplina\": \"estrutura_de_dados_avancada\", \"assunto\": \"arvores_balanceadas_e_avl\", \"aula\": \"02\", \"arquivo\": \"Aula_2.pdf\", \"pagina\": 90, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Quais são as rotações possíveis?\\n\\n## Zig-Zag (Esquerda-Direita)\\n\\n*   **Caso:** Inserção na subárvore direita da subárvore esquerda.\\n*   **Correção:** Rotação à esquerda no filho, depois rotação à direita no pai.\\n\\n### Representação Visual da Estrutura (Zig-Zag)\\n\\n*   **Estado Inicial (Antes da Correção):**\\n    *   Nó 30 (raiz)\\n        *   Filho esquerdo: Nó 10\\n            *   Filho direito do Nó 10: Nó 20\\n*   **Estado Final (Após a Correção):**\\n    *   Nó 20 (raiz)\\n        *   Filho esquerdo: Nó 10\\n        *   Filho direito: Nó 30\\n\\n### Código da Operação\\n\\n```python\\ndef zig_zag(node):\\n    node.esq = rotacao_esquerda(node.esq)\\n    return rotacao_direita(node)\\n```\\n\\n## Rotações Compostas\"}]",
+          "saida_modelo": "{\n  \"suficiente\": true,\n  \"resposta\": \"A rotação zig-zag, também chamada de rotação dupla esquerda-direita (LR), é utilizada para reequilibrar uma árvore AVL quando a inserção ocorre na subárvore direita da subárvore esquerda de um nó. [F5]\\n\\nO procedimento é composto por duas rotações simples: primeiro, realiza-se uma rotação à esquerda no filho esquerdo do nó desbalanceado; em seguida, uma rotação à direita no próprio nó. [F5]\\n\\nPor exemplo, considere um nó 30 com filho esquerdo 10, e esse filho 10 possui um filho direito 20 (inserção na subárvore direita de 10). Após a correção, o nó 20 torna-se a raiz, com 10 à esquerda e 30 à direita. [F5]\\n\\nA implementação típica é:\\n\\n```python\\ndef zig_zag(node):\\n    node.esq = rotacao_esquerda(node.esq)\\n    return rotacao_direita(node)\\n```\\n\\nEsse tipo de rotação está entre as quatro operações de balanceamento da AVL, sendo especificamente a rotação dupla esquerda-direita (LR). [F3]\"\n}"
+        }
+      ],
+      "trechos_citados": [
+        {
+          "referencia": "F5",
+          "conteudo": "# Quais são as rotações possíveis?\n\n## Zig-Zag (Esquerda-Direita)\n\n*   **Caso:** Inserção na subárvore direita da subárvore esquerda.\n*   **Correção:** Rotação à esquerda no filho, depois rotação à direita no pai.\n\n### Representação Visual da Estrutura (Zig-Zag)\n\n*   **Estado Inicial (Antes da Correção):**\n    *   Nó 30 (raiz)\n        *   Filho esquerdo: Nó 10\n            *   Filho direito do Nó 10: Nó 20\n*   **Estado Final (Após a Correção):**\n    *   Nó 20 (raiz)\n        *   Filho esquerdo: Nó 10\n        *   Filho direito: Nó 30\n\n### Código da Operação\n\n```python\ndef zig_zag(node):\n    node.esq = rotacao_esquerda(node.esq)\n    return rotacao_direita(node)\n```\n\n## Rotações Compostas"
+        },
+        {
+          "referencia": "F3",
+          "conteudo": "Operações na Árvore AVL\nExistem 4 tipos de rotação para reequilibrar a \nárvore:\nRotação Simples à Direita (RR)\nRotação Simples à Esquerda (LL)\nRotação Dupla Direita-Esquerda (RL)\nRotação Dupla Esquerda-Direita (LR)"
+        }
+      ],
+      "historico": [
+        {
+          "pergunta": "Como funciona a rotação zig-zag em uma árvore AVL?",
+          "filtro_assunto": null,
+          "verificacao_automatica": false,
+          "revisao_semantica": "pendente",
+          "resposta": "Não encontrei informações suficientes nos materiais da disciplina para responder a essa pergunta.",
+          "fontes": [],
+          "fallback": true,
+          "motivo": "contexto_insuficiente",
+          "saida_modelo": "{\"suficiente\": false, \"resposta\": \"\"}",
+          "trechos_citados": []
+        },
+        {
+          "pergunta": "Como funciona a rotação zig-zag em uma árvore AVL?",
+          "filtro_assunto": null,
+          "prompt_sha256": "f0380449b5a3ea3947dbdabe01ec66cea4ec8eba5ce4c3a047cf34f49fc6edcc",
+          "verificacao_automatica": false,
+          "revisao_semantica": "pendente",
+          "resposta": "Não encontrei informações suficientes nos materiais da disciplina para responder a essa pergunta.",
+          "fontes": [],
+          "fallback": true,
+          "motivo": "contexto_insuficiente",
+          "contexto_recuperado": [
+            {
+              "referencia": "F1",
+              "metadata": {
+                "chunk_caracteres": 214,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 14,
+                "caracteres_texto_original": 214,
+                "chunk_id": "7f59e7ea304c31ab8e2f8c34",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 93,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Operações na Árvore AVL\nExistem 4 tipos de rotação para reequilibrar a \nárvore:\nRotação Simples à Direita (RR)\nRotação Simples à Esquerda (LL)\nRotação Dupla Direita-Esquerda (RL)\nRotação Dupla Esquerda-Direita (LR)"
+            },
+            {
+              "referencia": "F2",
+              "metadata": {
+                "chunk_caracteres": 329,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 9,
+                "caracteres_texto_original": 329,
+                "chunk_id": "0aaf059d54439a61f3d477cc",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 87,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "O que são rotações?\n• As rotações são operações que reorganizam os nós da árvore \npara mantê-la balanceada. \n• Uma árvore desbalanceada pode se tornar ineficiente.\n• Servem para:\n– Melhorar a performance da árvore.\n– Manter a propriedade de ABB.\n– Tornar as operações mais rápidas (busca, inserção, remoção).\nOrganizando os dados"
+            },
+            {
+              "referencia": "F3",
+              "metadata": {
+                "chunk_caracteres": 380,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 380,
+                "chunk_id": "c2b2a6fd0025c3100b46a70f",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 92,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Árvores AVL\nÉ um tipo específico de árvore binária de busca \nbalanceada, que usa regras matemáticas precisas para se \nmanter equilibrada.\nRegras da AVL:\n– Cada nó guarda sua altura.\n– O fator de balanceamento (altura da esquerda - altura da \ndireita) de cada nó deve ser -1, 0 ou +1.\n– Se essa regra for quebrada após uma inserção ou remoção, \na árvore se autoajusta com rotações."
+            },
+            {
+              "referencia": "F4",
+              "metadata": {
+                "chunk_caracteres": 285,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 285,
+                "chunk_id": "9e215eb8099c23db9d519b26",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 86,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Propriedade Principal\nPara cada nó da árvore AVL:\nFator de balanceamento = \naltura(subárvoreesquerda)−altura(subárvore direita)\nO fator de balanceamento deve estar sempre em {-1, 0, 1}.\nSe for menor que -1 ou maior que 1, a árvore precisa de \numa rotação para corrigir o balanceamento."
+            },
+            {
+              "referencia": "F5",
+              "metadata": {
+                "chunk_caracteres": 344,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 344,
+                "chunk_id": "cf818c7b3f8f8e3888381abd",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvore_splay",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 107,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Mas como funciona o \"splay\"?\nQuando acessamos um nó, realizamos uma série de \nrotações para trazê-lo para a raiz da árvore.\nExistem três casos principais:\n1.Zig – o nó é filho direto da raiz\n2.Zig-Zig – o nó é filho esquerdo de um filho esquerdo (ou \ndireito de um direito)\n3.Zig-Zag – o nó é filho direito de um filho esquerdo (ou \nvice-versa)"
+            }
+          ],
+          "saida_modelo": "{\"suficiente\": false, \"resposta\": \"\"}",
+          "trechos_citados": []
+        },
+        {
+          "pergunta": "Como funciona a rotação zig-zag em uma árvore AVL?",
+          "filtro_assunto": null,
+          "prompt_sha256": "f0380449b5a3ea3947dbdabe01ec66cea4ec8eba5ce4c3a047cf34f49fc6edcc",
+          "verificacao_automatica": false,
+          "revisao_semantica": "Fallback adequado aos trechos recuperados: o passo a passo zig-zag da pagina 90 nao foi recuperado. Lacuna de recuperacao pendente.",
+          "resposta": "Não encontrei informações suficientes nos materiais da disciplina para responder a essa pergunta.",
+          "fontes": [],
+          "fallback": true,
+          "motivo": "contexto_insuficiente",
+          "contexto_recuperado": [
+            {
+              "referencia": "F1",
+              "metadata": {
+                "chunk_caracteres": 214,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 14,
+                "caracteres_texto_original": 214,
+                "chunk_id": "7f59e7ea304c31ab8e2f8c34",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 93,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Operações na Árvore AVL\nExistem 4 tipos de rotação para reequilibrar a \nárvore:\nRotação Simples à Direita (RR)\nRotação Simples à Esquerda (LL)\nRotação Dupla Direita-Esquerda (RL)\nRotação Dupla Esquerda-Direita (LR)"
+            },
+            {
+              "referencia": "F2",
+              "metadata": {
+                "chunk_caracteres": 329,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 9,
+                "caracteres_texto_original": 329,
+                "chunk_id": "0aaf059d54439a61f3d477cc",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 87,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "O que são rotações?\n• As rotações são operações que reorganizam os nós da árvore \npara mantê-la balanceada. \n• Uma árvore desbalanceada pode se tornar ineficiente.\n• Servem para:\n– Melhorar a performance da árvore.\n– Manter a propriedade de ABB.\n– Tornar as operações mais rápidas (busca, inserção, remoção).\nOrganizando os dados"
+            },
+            {
+              "referencia": "F3",
+              "metadata": {
+                "chunk_caracteres": 380,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 380,
+                "chunk_id": "c2b2a6fd0025c3100b46a70f",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 92,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Árvores AVL\nÉ um tipo específico de árvore binária de busca \nbalanceada, que usa regras matemáticas precisas para se \nmanter equilibrada.\nRegras da AVL:\n– Cada nó guarda sua altura.\n– O fator de balanceamento (altura da esquerda - altura da \ndireita) de cada nó deve ser -1, 0 ou +1.\n– Se essa regra for quebrada após uma inserção ou remoção, \na árvore se autoajusta com rotações."
+            },
+            {
+              "referencia": "F4",
+              "metadata": {
+                "chunk_caracteres": 285,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 285,
+                "chunk_id": "9e215eb8099c23db9d519b26",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvores_balanceadas_e_avl",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 86,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Propriedade Principal\nPara cada nó da árvore AVL:\nFator de balanceamento = \naltura(subárvoreesquerda)−altura(subárvore direita)\nO fator de balanceamento deve estar sempre em {-1, 0, 1}.\nSe for menor que -1 ou maior que 1, a árvore precisa de \numa rotação para corrigir o balanceamento."
+            },
+            {
+              "referencia": "F5",
+              "metadata": {
+                "chunk_caracteres": 344,
+                "motivos_deteccao": [],
+                "total_chunks_pagina": 1,
+                "elementos_desenhados": 5,
+                "caracteres_texto_original": 344,
+                "chunk_id": "cf818c7b3f8f8e3888381abd",
+                "periodo": "03",
+                "disciplina": "estrutura_de_dados_avancada",
+                "assunto": "arvore_splay",
+                "aula": "02",
+                "arquivo": "Aula_2.pdf",
+                "pagina": 107,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "chunk_index": 1,
+                "material_id": null,
+                "periodo_id": null,
+                "disciplina_id": null,
+                "assunto_id": null,
+                "tipo_material": null,
+                "titulo_material": null
+              },
+              "conteudo": "Mas como funciona o \"splay\"?\nQuando acessamos um nó, realizamos uma série de \nrotações para trazê-lo para a raiz da árvore.\nExistem três casos principais:\n1.Zig – o nó é filho direto da raiz\n2.Zig-Zig – o nó é filho esquerdo de um filho esquerdo (ou \ndireito de um direito)\n3.Zig-Zag – o nó é filho direito de um filho esquerdo (ou \nvice-versa)"
+            }
+          ],
+          "saida_modelo": "{\n  \"suficiente\": false,\n  \"resposta\": \"\"\n}",
+          "trechos_citados": [],
+          "diagnostico_top10": [
+            {
+              "pagina": 93,
+              "assunto": "arvores_balanceadas_e_avl",
+              "similaridade": 0.8144246825232927
+            },
+            {
+              "pagina": 87,
+              "assunto": "arvores_balanceadas_e_avl",
+              "similaridade": 0.7215162183661721
+            },
+            {
+              "pagina": 92,
+              "assunto": "arvores_balanceadas_e_avl",
+              "similaridade": 0.7152075001721097
+            },
+            {
+              "pagina": 86,
+              "assunto": "arvores_balanceadas_e_avl",
+              "similaridade": 0.714851737022405
+            },
+            {
+              "pagina": 107,
+              "assunto": "arvore_splay",
+              "similaridade": 0.6669997374415253
+            },
+            {
+              "pagina": 89,
+              "assunto": "arvores_balanceadas_e_avl",
+              "similaridade": 0.637837193141161
+            },
+            {
+              "pagina": 88,
+              "assunto": "arvores_balanceadas_e_avl",
+              "similaridade": 0.6158221914609249
+            },
+            {
+              "pagina": 100,
+              "assunto": "arvores_red_black",
+              "similaridade": 0.6031881570816083
+            },
+            {
+              "pagina": 103,
+              "assunto": "arvores_red_black",
+              "similaridade": 0.5717268586158794
+            },
+            {
+              "pagina": 108,
+              "assunto": "arvore_splay",
+              "similaridade": 0.5357866606585191
+            }
+          ]
+        }
+      ],
+      "resultado_validacao": "Lacuna de recuperacao corrigida no teste real com uma reformulacao automatica."
+    }
+  ],
+  "resumo": {
+    "casos_adicionais": 6,
+    "respostas_com_fontes_neste_lote": 6,
+    "casos_pendentes_neste_lote": 0,
+    "testes_unitarios_aprovados": 30,
+    "top_k_padrao_mantido": 5,
+    "similaridade_minima_experimental": 0.25,
+    "criterio_suficiencia_final": "em aberto",
+    "escopo_validacao": "Amostra de perguntas das Aulas 0, 1 e 2; nao garante cobertura de toda pergunta possivel."
+  }
+}

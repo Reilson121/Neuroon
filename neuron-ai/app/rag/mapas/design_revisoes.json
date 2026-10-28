@@ -1,0 +1,336 @@
+{
+  "metodo": "Revisão local das imagens renderizadas dos PDFs, sem nova chamada de visão externa.",
+  "paginas": [
+    {
+      "aula": "01",
+      "pagina": 1,
+      "motivo": "Capa: retirada descrição de ilustrações decorativas e de relações não legíveis no slide.",
+      "pdf_sha256": "42eaf5ff2e91a9ae14da5fd1938d9ee7e58b325b8af48ee291151c64c2775861",
+      "conteudo_anterior_sha256": "d76bf3d242828529cec787f007fe4887b8432cc73994342ece1071f842e70da1",
+      "conteudo": "Design de Artefatos Digitais\nProfessora: Jeneffer Ferreira"
+    },
+    {
+      "aula": "05",
+      "pagina": 18,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "6499a3106397f1fa9b2dd8f5013b8df63b3d85b7eb0350832a57b625feb00687",
+      "conteudo_anterior_sha256": "2f5530bb296dd345f20ad48c2b0cd3994bdc55668a0ab5ffd4de962e7c1118d4",
+      "conteudo": "Marca, Identidade Visual e Logotipo\nComparação visual em três painéis: Marca apresenta uma mulher ao lado de um cavalo; Identidade Visual apresenta peças de papelaria com elementos gráficos em comum; Logotipo apresenta um símbolo aplicado sobre uma superfície."
+    },
+    {
+      "aula": "05",
+      "pagina": 28,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "6499a3106397f1fa9b2dd8f5013b8df63b3d85b7eb0350832a57b625feb00687",
+      "conteudo_anterior_sha256": "b1f232e089907d0737041073c5a8d1e0de7ba1a336f58b9242ee2bda5d0b74b3",
+      "conteudo": "UNIDADE\nMesmo abstrata a imagem pode ser compreendida (o todo).\nExemplos visuais: a figura de um panda formada por áreas pretas e brancas e a silhueta de um homem com chapéu e bengala."
+    },
+    {
+      "aula": "05",
+      "pagina": 34,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "6499a3106397f1fa9b2dd8f5013b8df63b3d85b7eb0350832a57b625feb00687",
+      "conteudo_anterior_sha256": "a472ac22da682ae310f3aaf2f45e0108f2bec1a9e3e5b4d6d699a5540a7d4eb8",
+      "conteudo": "UNIFICAÇÃO\nEquilíbrio entre pregnância, unidade e proximidade.\nExemplo: cartaz do 19º Prêmio Design Museu da Casa Brasileira com formas circulares pretas e vermelhas, organizadas em um conjunto."
+    },
+    {
+      "aula": "05",
+      "pagina": 38,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "6499a3106397f1fa9b2dd8f5013b8df63b3d85b7eb0350832a57b625feb00687",
+      "conteudo_anterior_sha256": "a33167d68248d7595b325d23011a2b522c22f7ce428deef3332ebdc891dbe611",
+      "conteudo": "FECHAMENTO\nContornos que não existem são solucionados por nosso cérebro.\nExemplo visual: manchas pretas sobre fundo branco permitem reconhecer a figura de um cão, mesmo sem um contorno contínuo."
+    },
+    {
+      "aula": "06",
+      "pagina": 2,
+      "motivo": "Correção de leitura fragmentada da palavra CONTRASTE, conferida no slide.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "b02c397fcaf3bb55a1e6e84ca21b307a3a2c488c330efbfdd46d80d49cf9b279",
+      "conteudo": "O segredo do bom design: CONTRASTE.\nA palavra CONTRASTE é apresentada com forte diferença de tamanho entre CON e TRASTE e com letras e fundo em amarelo e roxo."
+    },
+    {
+      "aula": "06",
+      "pagina": 7,
+      "motivo": "A imagem é exemplo visual de design; substituída a declaração incorreta de ausência de conteúdo.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "0ca7a6120d07b0f74355931e17e94e7b84a916b3fd20785754f4726f3b886999",
+      "conteudo": "Exemplo visual de composição com contraste: uma letra E de grande tamanho aparece junto de letras menores, retângulos vermelhos e pretos, uma faixa azul-clara e imagens de objetos. Há diferenças visíveis de tamanho, cor e peso entre os elementos."
+    },
+    {
+      "aula": "06",
+      "pagina": 8,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "946b77c3fb4b4bfdd2987d909786096a400841483a2f6e7b79b7a92c2c2ebd37",
+      "conteudo": "Exemplo visual de composição: as letras de GAMES estão distribuídas em posições e tamanhos diferentes sobre uma estrutura circular. Há letras cinzentas e letras vermelhas. No canto inferior direito aparece EXHIBITION CENTER."
+    },
+    {
+      "aula": "06",
+      "pagina": 10,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "e4730a59eccaa57388bdc6e3b8f792345cee4c99e943dbd63b3eece35a931238",
+      "conteudo": "Exemplos visuais de composição: cartaz com escova de dentes e creme dental alinhados ao centro, acompanhado da frase ALL YOU NEED IS LOVE; símbolo da Starbucks; e páginas de revista com fotografias, textos em colunas e letras grandes distribuídas pelo layout."
+    },
+    {
+      "aula": "06",
+      "pagina": 11,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "cc9a2225a3ac2e81e219403db7c736c7cac056b5a3952e7662b6f3033a432ea4",
+      "conteudo": "Exemplos visuais de composição: capa de The Scarlet Letter com formas e figuras espelhadas em torno de um eixo vertical; capa da revista NewScientist, The God Issue, com imagem de arquitetura centralizada e blocos de texto sobrepostos."
+    },
+    {
+      "aula": "06",
+      "pagina": 14,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "989ff39623b13a0b5ddda6633fdaf60e20209e8f64a8b122d1dfb077d5dae4bf",
+      "conteudo": "Exemplos visuais de composição: duas versões de um logotipo feito de letras em blocos, distribuídas de maneiras diferentes; embalagem de Fanta; ilustração com figura humana sobre uma superfície inclinada; e composição tipográfica KEEP YOUR EYES OPEN, com palavras inclinadas sobre uma malha de linhas."
+    },
+    {
+      "aula": "06",
+      "pagina": 16,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "ccdb3026afbb5d93bc5f9af152932730c044e94b51ad255e72e1bba0ba82cfd0",
+      "conteudo": "Exemplos visuais de caligrafia: fotografia de uma pena escrevendo letras com traços curvos e prolongamentos; folha com exercícios de letras manuscritas e traços de ligação."
+    },
+    {
+      "aula": "06",
+      "pagina": 17,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "225e3320f8fa7ea9135b6d210256079cbe9f060a0f5d368f066fb570d2d806f8",
+      "conteudo": "Exemplos visuais de letras desenhadas: composição TAKE A DEEP Breath, com letras maiúsculas em uma faixa e a palavra Breath em escrita cursiva com prolongamentos; fotografia de uma composição manual com letras de estilos diferentes."
+    },
+    {
+      "aula": "06",
+      "pagina": 21,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "8b6b0aebba6357d4d7feddc8847c4f23d1a1a8e359f8f6d22f9253c3385f8dea",
+      "conteudo": "MANUAIS / MANUSCRITAS\nAmostras de alfabetos e escrita cursiva. Exemplos de fontes apresentados: Monotype Corsiva e Chopin Script."
+    },
+    {
+      "aula": "06",
+      "pagina": 26,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "f57a36910235565ce3c6d18299374498b6e25167908aa4d82d2b965bfb35325f",
+      "conteudo": "Exemplos de fontes com serifa: Times New Roman, Garamond, Centaur, Baskerville, Didot e Rockwell."
+    },
+    {
+      "aula": "06",
+      "pagina": 28,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "bdde0c34eda83132b2ba3af66c573ecc928663eb1391e0473d375cd2b8fc0806",
+      "conteudo": "Exemplos de fontes sem serifa: Verdana, Calibri, Gill Sans, Helvetica e Futura."
+    },
+    {
+      "aula": "06",
+      "pagina": 38,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "544154d0a3264cc103564df870011e519d7f0ffa70733caa80b916d7decf2836",
+      "conteudo_anterior_sha256": "ed28bb4b009a840b5dded0d5cae65c6803a9379e220e91753fcfe0ad84eccc5c",
+      "conteudo": "Tipos de Textos\nTEXTO ARTÍSTICO: exemplo com a palavra DESIGN selecionada como objeto.\nTEXTO EM CAIXA: exemplo com um bloco de texto dentro de uma caixa delimitada.\nTEXTO EM CURVAS: exemplo com a letra D e seu contorno vetorial selecionado."
+    },
+    {
+      "aula": "07",
+      "pagina": 15,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "a2955d308e581f6c23f87103b62489433c358984ffb266d114fcc2fc154cba33",
+      "conteudo_anterior_sha256": "84dc53361cc559d14ec1a74b2e40b3ab19cab7ca950c41463a218a309793ca7e",
+      "conteudo": "4 PRINCÍPIOS ESSENCIAIS DA DIAGRAMAÇÃO\nDiagramar é a arte de compor um material, seja ele online ou offline, utilizando elementos visuais e textuais. É importante considerar os princípios básicos do design, como forma, cor, ritmo, enquadramento, modularidade, grid e movimento.\nQuatro pontos essenciais para uma diagramação efetiva: organização, hierarquia visual, ordem de leitura e padronização.\n1. ORGANIZAÇÃO: A CHAVE-MESTRE\nAntes de iniciar qualquer trabalho, é importante que todas as informações para sua execução estejam claras e organizadas, evitando retrabalho ao longo do projeto. Alguns trabalhos seguem regras já existentes, como um manual de marcas. Certifique-se de que o cliente passou as informações; pergunte e documente.\nFonte apresentada no slide: https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao"
+    },
+    {
+      "aula": "07",
+      "pagina": 17,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "a2955d308e581f6c23f87103b62489433c358984ffb266d114fcc2fc154cba33",
+      "conteudo_anterior_sha256": "84dc53361cc559d14ec1a74b2e40b3ab19cab7ca950c41463a218a309793ca7e",
+      "conteudo": "Comparação de hierarquia visual em duas versões de um guia prático do segurado.\nVersão à esquerda: título, chamada, instrução para consultar informações e logotipo ocupam a página com pesos visuais próximos.\nVersão à direita: o título GUIA PRÁTICO DO SEGURADO aparece em tamanho maior e em negrito, seguido da chamada SUA SAÚDE ESTÁ EM NOSSOS PLANOS; a instrução de consulta e o logotipo ficam menores na parte inferior.\nFonte apresentada: https://www.miati.com.br/blog/4-principios-essenciais-da-diagramacao"
+    },
+    {
+      "aula": "07",
+      "pagina": 19,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "a2955d308e581f6c23f87103b62489433c358984ffb266d114fcc2fc154cba33",
+      "conteudo_anterior_sha256": "e260295d34df246446ee5bca68d0e340fee067015049fc49318656be09fd3b54",
+      "conteudo": "Exemplo de contraste na composição do título GUIA PRÁTICO DO SEGURADO: GUIA PRÁTICO em azul-claro e DO SEGURADO em azul mais intenso. Abaixo está a chamada SUA SAÚDE ESTÁ EM NOSSOS PLANOS em cinza."
+    },
+    {
+      "aula": "07",
+      "pagina": 20,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "a2955d308e581f6c23f87103b62489433c358984ffb266d114fcc2fc154cba33",
+      "conteudo_anterior_sha256": "a51e25253150fd989301382ebfead51bee76ef806d7a053fce81bb54b16a545c",
+      "conteudo": "Exemplo de contraste na composição do título GUIA PRÁTICO DO SEGURADO: GUIA PRÁTICO em azul intenso e DO SEGURADO em cinza. Abaixo está a chamada SUA SAÚDE ESTÁ EM NOSSOS PLANOS em cinza."
+    },
+    {
+      "aula": "07",
+      "pagina": 24,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "a2955d308e581f6c23f87103b62489433c358984ffb266d114fcc2fc154cba33",
+      "conteudo_anterior_sha256": "d9adbe72f6bb9071a93b92fdfd0be0064694ffb252880b38bb3444641622f4ae",
+      "conteudo": "HARMONIA DAS CORES\nHARMONIA MONOCROMÁTICA\nÉ a harmonia resultante de uma mesma cor da roda das cores. As tonalidades podem mudar, mas todas ficam no mesmo matiz da roda das cores.\nO esquema ou harmonia monocromática utiliza variações de luminosidade e saturação de uma mesma cor.\nO slide mostra uma roda de cores e uma sequência de tonalidades de vermelho a rosa-claro.\nMateriais e Processos Gráficos | profa. Tamires Lima"
+    },
+    {
+      "aula": "07",
+      "pagina": 25,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "a2955d308e581f6c23f87103b62489433c358984ffb266d114fcc2fc154cba33",
+      "conteudo_anterior_sha256": "879091615c3952cad8c963e910a0e72ef2daff367fee09406494da4c3fd00b11",
+      "conteudo": "Exemplo visual de interface com harmonia monocromática: página com fotografia de mesa, teclado e outros objetos sob uma sobreposição azul. Os ícones UX, BRANDING e DEV e a chamada See our work aparecem em tons claros sobre o fundo azul. Menu: Work, Journal, Shop."
+    },
+    {
+      "aula": "07",
+      "pagina": 28,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "a2955d308e581f6c23f87103b62489433c358984ffb266d114fcc2fc154cba33",
+      "conteudo_anterior_sha256": "19b9467b9c0dff3ae3bb9ee9bd5b0010c9adf6d0be85570823057f181281e57b",
+      "conteudo": "HARMONIA DAS CORES\nHARMONIA COMPLEMENTAR\nÉ a harmonia que ocorre quando combinamos cores opostas na roda das cores. São cores que se encontram simétricas com respeito ao centro da roda.\nO círculo cromático mostra uma linha ligando vermelho e verde. Outros exemplos visuais de pares opostos: amarelo e violeta, azul e laranja."
+    },
+    {
+      "aula": "07",
+      "pagina": 29,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "a2955d308e581f6c23f87103b62489433c358984ffb266d114fcc2fc154cba33",
+      "conteudo_anterior_sha256": "db9356e2af80962b678c5c4fefb5948990f663f7805fe4ae5b7f732ea0621e47",
+      "conteudo": "HARMONIA DAS CORES\nHARMONIA COMPLEMENTAR\nÉ a harmonia que ocorre quando combinamos cores opostas na roda das cores. São cores que se encontram simétricas com respeito ao centro da roda.\nO círculo cromático mostra uma linha ligando vermelho e verde. Outros exemplos visuais de pares opostos: amarelo e violeta, azul e laranja.\nVocê pode utilizar também uma dupla complementar."
+    },
+    {
+      "aula": "07",
+      "pagina": 31,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "a2955d308e581f6c23f87103b62489433c358984ffb266d114fcc2fc154cba33",
+      "conteudo_anterior_sha256": "19b9467b9c0dff3ae3bb9ee9bd5b0010c9adf6d0be85570823057f181281e57b",
+      "conteudo": "HARMONIA DAS CORES\nHARMONIA TRIÁDICA\nÉ a harmonia onde usamos três cores equidistantes no círculo cromático. Por exemplo: azul, amarelo e vermelho.\nEsse tipo de combinação consegue dar um efeito visual muito atraente. Oferece um alto contraste visual, ao mesmo tempo que conserva o balanço e a riqueza das cores.\nUm triângulo conecta as três posições no círculo cromático."
+    },
+    {
+      "aula": "08",
+      "pagina": 10,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "825e4225fa7f37932ae8d885ffe8b70ac57ca167de7e900f671dc7d0050d5b2c",
+      "conteudo_anterior_sha256": "b4adcc92c9a65ba9fba16f66aecf48f5f68bb2daecdc778efe9530eb6e5b6ebe",
+      "conteudo": "Etapas do Design Thinking\nOrganização sequencial das etapas do design thinking:\n1. Empatia\n2. Definição\n3. Ideação\n4. Prototipação\n5. Teste\nFonte: Adaptada de Brown et al. (2017)."
+    },
+    {
+      "aula": "08",
+      "pagina": 25,
+      "motivo": "Diagrama conferido visualmente: rótulos recuperados e associados às perguntas corretas, preservando a progressão dos slides.",
+      "pdf_sha256": "825e4225fa7f37932ae8d885ffe8b70ac57ca167de7e900f671dc7d0050d5b2c",
+      "conteudo_anterior_sha256": "019fe50edab2d2e43739da82ee9badbb0bf4cff8e36b79c89916890321e8671d",
+      "conteudo": "Mapa de Empatia\nCabeçalho: Desenhado para; Desenhado por; Data; Versão.\nOBJETIVO:\n1. Com quem estamos sendo empáticos?\n2. O que ela precisa fazer?\n3. O que ela vê?\n4. O que ela fala?\n5. O que ela faz?\n6. O que ela escuta?\n7. O que ela pensa e sente? Dores; desejos ou ganhos.\n\nOrientações preenchidas nesta página:\n1. Em que situação ela está? Qual é o papel dela nessa situação?"
+    },
+    {
+      "aula": "08",
+      "pagina": 26,
+      "motivo": "Diagrama conferido visualmente: rótulos recuperados e associados às perguntas corretas, preservando a progressão dos slides.",
+      "pdf_sha256": "825e4225fa7f37932ae8d885ffe8b70ac57ca167de7e900f671dc7d0050d5b2c",
+      "conteudo_anterior_sha256": "3f19e3a399d65e7c399dfaa57627297597f957526e2223355060a665abc6ed1e",
+      "conteudo": "Mapa de Empatia\nCabeçalho: Desenhado para; Desenhado por; Data; Versão.\nOBJETIVO:\n1. Com quem estamos sendo empáticos?\n2. O que ela precisa fazer?\n3. O que ela vê?\n4. O que ela fala?\n5. O que ela faz?\n6. O que ela escuta?\n7. O que ela pensa e sente? Dores; desejos ou ganhos.\n\nOrientações preenchidas nesta página:\n1. Em que situação ela está? Qual é o papel dela nessa situação?\n2. Quais tarefas ela quer ou precisa fazer? Qual decisão ela precisa tomar? Como saberemos se ela foi bem-sucedida?"
+    },
+    {
+      "aula": "08",
+      "pagina": 27,
+      "motivo": "Diagrama conferido visualmente: rótulos recuperados e associados às perguntas corretas, preservando a progressão dos slides.",
+      "pdf_sha256": "825e4225fa7f37932ae8d885ffe8b70ac57ca167de7e900f671dc7d0050d5b2c",
+      "conteudo_anterior_sha256": "d3f8f11b3af85ecb0dc69ca2cca0b2c577c0bd7b9942cf1d883033787acd320d",
+      "conteudo": "Mapa de Empatia\nCabeçalho: Desenhado para; Desenhado por; Data; Versão.\nOBJETIVO:\n1. Com quem estamos sendo empáticos?\n2. O que ela precisa fazer?\n3. O que ela vê?\n4. O que ela fala?\n5. O que ela faz?\n6. O que ela escuta?\n7. O que ela pensa e sente? Dores; desejos ou ganhos.\n\nOrientações preenchidas nesta página:\n1. Em que situação ela está? Qual é o papel dela nessa situação?\n2. Quais tarefas ela quer ou precisa fazer? Qual decisão ela precisa tomar? Como saberemos se ela foi bem-sucedida?\n3. Ambiente, amigos, o que o mercado oferece."
+    },
+    {
+      "aula": "08",
+      "pagina": 28,
+      "motivo": "Diagrama conferido visualmente: rótulos recuperados e associados às perguntas corretas, preservando a progressão dos slides.",
+      "pdf_sha256": "825e4225fa7f37932ae8d885ffe8b70ac57ca167de7e900f671dc7d0050d5b2c",
+      "conteudo_anterior_sha256": "294a146818d2c86fee305c93512b178508c5661b42d0abc44405489abbad73bf",
+      "conteudo": "Mapa de Empatia\nCabeçalho: Desenhado para; Desenhado por; Data; Versão.\nOBJETIVO:\n1. Com quem estamos sendo empáticos?\n2. O que ela precisa fazer?\n3. O que ela vê?\n4. O que ela fala?\n5. O que ela faz?\n6. O que ela escuta?\n7. O que ela pensa e sente? Dores; desejos ou ganhos.\n\nOrientações preenchidas nesta página:\n1. Em que situação ela está? Qual é o papel dela nessa situação?\n2. Quais tarefas ela quer ou precisa fazer? Qual decisão ela precisa tomar? Como saberemos se ela foi bem-sucedida?\n3. Ambiente, amigos, o que o mercado oferece.\n4. O que escutamos ela falando? O que imaginamos ela falando?"
+    },
+    {
+      "aula": "08",
+      "pagina": 29,
+      "motivo": "Diagrama conferido visualmente: rótulos recuperados e associados às perguntas corretas, preservando a progressão dos slides.",
+      "pdf_sha256": "825e4225fa7f37932ae8d885ffe8b70ac57ca167de7e900f671dc7d0050d5b2c",
+      "conteudo_anterior_sha256": "89019ee5c5eff8726680ed8ed866c1a59c2179364687e493fa21e2fee544c56f",
+      "conteudo": "Mapa de Empatia\nCabeçalho: Desenhado para; Desenhado por; Data; Versão.\nOBJETIVO:\n1. Com quem estamos sendo empáticos?\n2. O que ela precisa fazer?\n3. O que ela vê?\n4. O que ela fala?\n5. O que ela faz?\n6. O que ela escuta?\n7. O que ela pensa e sente? Dores; desejos ou ganhos.\n\nOrientações preenchidas nesta página:\n1. Em que situação ela está? Qual é o papel dela nessa situação?\n2. Quais tarefas ela quer ou precisa fazer? Qual decisão ela precisa tomar? Como saberemos se ela foi bem-sucedida?\n3. Ambiente, amigos, o que o mercado oferece.\n4. O que escutamos ela falando? O que imaginamos ela falando?\n5. Atitude em público, aparência, comportamento."
+    },
+    {
+      "aula": "08",
+      "pagina": 30,
+      "motivo": "Diagrama conferido visualmente: rótulos recuperados e associados às perguntas corretas, preservando a progressão dos slides.",
+      "pdf_sha256": "825e4225fa7f37932ae8d885ffe8b70ac57ca167de7e900f671dc7d0050d5b2c",
+      "conteudo_anterior_sha256": "8985009f5a861fc9e4292d1de732e4fb6d77ac427ad91718631ec198afa95e95",
+      "conteudo": "Mapa de Empatia\nCabeçalho: Desenhado para; Desenhado por; Data; Versão.\nOBJETIVO:\n1. Com quem estamos sendo empáticos?\n2. O que ela precisa fazer?\n3. O que ela vê?\n4. O que ela fala?\n5. O que ela faz?\n6. O que ela escuta?\n7. O que ela pensa e sente? Dores; desejos ou ganhos.\n\nOrientações preenchidas nesta página:\n1. Em que situação ela está? Qual é o papel dela nessa situação?\n2. Quais tarefas ela quer ou precisa fazer? Qual decisão ela precisa tomar? Como saberemos se ela foi bem-sucedida?\n3. Ambiente, amigos, o que o mercado oferece.\n4. O que escutamos ela falando? O que imaginamos ela falando?\n5. Atitude em público, aparência, comportamento.\n6. O que os amigos dizem, o que o chefe fala, o que os influenciadores dizem."
+    },
+    {
+      "aula": "08",
+      "pagina": 31,
+      "motivo": "Diagrama conferido visualmente: rótulos recuperados e associados às perguntas corretas, preservando a progressão dos slides.",
+      "pdf_sha256": "825e4225fa7f37932ae8d885ffe8b70ac57ca167de7e900f671dc7d0050d5b2c",
+      "conteudo_anterior_sha256": "b4f097762e19664d8513b0f46eed080ecc0cdb18564a9974835cb44ef18d2708",
+      "conteudo": "Mapa de Empatia\nCabeçalho: Desenhado para; Desenhado por; Data; Versão.\nOBJETIVO:\n1. Com quem estamos sendo empáticos?\n2. O que ela precisa fazer?\n3. O que ela vê?\n4. O que ela fala?\n5. O que ela faz?\n6. O que ela escuta?\n7. O que ela pensa e sente? Dores; desejos ou ganhos.\n\nOrientações preenchidas nesta página:\n1. Em que situação ela está? Qual é o papel dela nessa situação?\n2. Quais tarefas ela quer ou precisa fazer? Qual decisão ela precisa tomar? Como saberemos se ela foi bem-sucedida?\n3. Ambiente, amigos, o que o mercado oferece.\n4. O que escutamos ela falando? O que imaginamos ela falando?\n5. Atitude em público, aparência, comportamento.\n6. O que os amigos dizem, o que o chefe fala, o que os influenciadores dizem.\n7. O que realmente conta, principais preocupações e aspirações. Dores: medos, frustrações, obstáculos. Desejos ou ganhos: necessidades, formas de medir sucesso, obstáculos."
+    },
+    {
+      "aula": "complementar",
+      "pagina": 3,
+      "motivo": "Tabela conferida visualmente; removidos textos de etapas posteriores que a extração capturou apesar de estarem invisíveis.",
+      "pdf_sha256": "03606f60273cab292ecb5e0475cbc27a4590ffdfd60e38fcb1dc8a6f50377e02",
+      "conteudo_anterior_sha256": "a7b82a86016a2ab51cd18be4b7bf96d86b2a581b50e5297f17087ed0d7c299f7",
+      "conteudo": "Matriz CSD\nCertezas: Nós sabemos ou entendemos isso...\nSuposições: Supomos que...\nDúvidas: Temos dúvidas sobre...\nModelo visual com três colunas, sem afirmações legíveis nos campos."
+    },
+    {
+      "aula": "complementar",
+      "pagina": 14,
+      "motivo": "Tabela conferida visualmente; removidos textos de etapas posteriores que a extração capturou apesar de estarem invisíveis.",
+      "pdf_sha256": "03606f60273cab292ecb5e0475cbc27a4590ffdfd60e38fcb1dc8a6f50377e02",
+      "conteudo_anterior_sha256": "f31c2216b35ac0d4c224ea85c40c7c27a0aa7ef9fdafdc80fdda5e6d70e5a65e",
+      "conteudo": "Matriz CSD\nCertezas: Nós sabemos ou entendemos isso...\nSuposições: Supomos que...\nDúvidas: Temos dúvidas sobre...\n\nCertezas do exemplo:\n- Os aplicativos são caros e de baixa qualidade.\n- Os proprietários precisam agendar sessões.\n- Os treinadores precisam armazenar informações dos proprietários.\n- Os treinadores não têm grandes orçamentos de tecnologia/UX.\nAs colunas de suposições e dúvidas estão sem afirmações visíveis."
+    },
+    {
+      "aula": "complementar",
+      "pagina": 21,
+      "motivo": "Tabela conferida visualmente; removidos textos de etapas posteriores que a extração capturou apesar de estarem invisíveis.",
+      "pdf_sha256": "03606f60273cab292ecb5e0475cbc27a4590ffdfd60e38fcb1dc8a6f50377e02",
+      "conteudo_anterior_sha256": "f31c2216b35ac0d4c224ea85c40c7c27a0aa7ef9fdafdc80fdda5e6d70e5a65e",
+      "conteudo": "Matriz CSD\nCertezas: Nós sabemos ou entendemos isso...\nSuposições: Supomos que...\nDúvidas: Temos dúvidas sobre...\n\nCertezas do exemplo:\n- Os aplicativos são caros e de baixa qualidade.\n- Os proprietários precisam agendar sessões.\n- Os treinadores precisam armazenar informações dos proprietários.\n- Os treinadores não têm grandes orçamentos de tecnologia/UX.\n\nSuposições do exemplo:\n- O site de reservas é confuso e cheio de erros.\n- Pouca ou nenhuma comunicação de acompanhamento.\n- Proprietários esquecem de agendar e pagar pelas sessões.\n- Faltam informações úteis para os proprietários.\nA coluna de dúvidas está sem afirmações visíveis."
+    },
+    {
+      "aula": "complementar",
+      "pagina": 25,
+      "motivo": "Tabela conferida visualmente: associação explícita das afirmações às respectivas colunas.",
+      "pdf_sha256": "03606f60273cab292ecb5e0475cbc27a4590ffdfd60e38fcb1dc8a6f50377e02",
+      "conteudo_anterior_sha256": "f31c2216b35ac0d4c224ea85c40c7c27a0aa7ef9fdafdc80fdda5e6d70e5a65e",
+      "conteudo": "Matriz CSD\nCertezas: Nós sabemos ou entendemos isso...\nSuposições: Supomos que...\nDúvidas: Temos dúvidas sobre...\n\nCertezas do exemplo:\n- Os aplicativos são caros e de baixa qualidade.\n- Os proprietários precisam agendar sessões.\n- Os treinadores precisam armazenar informações dos proprietários.\n- Os treinadores não têm grandes orçamentos de tecnologia/UX.\n\nSuposições do exemplo:\n- O site de reservas é confuso e cheio de erros.\n- Pouca ou nenhuma comunicação de acompanhamento.\n- Proprietários esquecem de agendar e pagar pelas sessões.\n- Faltam informações úteis para os proprietários.\n\nDúvidas do exemplo:\n- Os treinadores estão usando tablets, computadores ou telefones?\n- Os proprietários trabalharão com seus cães após as sessões?\n- Os proprietários se sentem confortáveis em acompanhar o treinamento on-line?\n- Os proprietários acham que os cães serão treinados em 4 sessões?"
+    },
+    {
+      "aula": "complementar",
+      "pagina": 26,
+      "motivo": "Extração conferida visualmente no PDF; recuperação de texto ou estrutura ausente.",
+      "pdf_sha256": "03606f60273cab292ecb5e0475cbc27a4590ffdfd60e38fcb1dc8a6f50377e02",
+      "conteudo_anterior_sha256": "7ee47b6f764e74b5e096bf419cb08fef3f8fae2731d976e9f2f8074c0bef68c9",
+      "conteudo": "Matriz CSD (Linhas)\nExemplos de linhas: usuário, produto, mercado. O exemplo separa dois grupos de usuários: treinadores de cães e proprietários de cães.\nTreinadores de cães:\n- Certezas: aplicativos caros e de baixa qualidade; treinadores sem grandes orçamentos de tecnologia/UX; necessidade de armazenar informações dos proprietários.\n- Suposições: site de reservas confuso e com erros; pouca ou nenhuma comunicação de acompanhamento.\n- Dúvidas: os treinadores usam tablets, computadores ou telefones?\nProprietários de cães:\n- Certezas: necessidade de agendar sessões.\n- Suposições: proprietários esquecem de agendar e pagar pelas sessões; falta de informações úteis para eles.\n- Dúvidas: sentem-se confortáveis acompanhando o treinamento on-line? Acham que os cães serão treinados em quatro sessões? Trabalharão com seus cães após as sessões?"
+    },
+    {
+      "aula": "complementar",
+      "pagina": 35,
+      "motivo": "Tabela conferida visualmente; removidos textos de etapas posteriores que a extração capturou apesar de estarem invisíveis.",
+      "pdf_sha256": "03606f60273cab292ecb5e0475cbc27a4590ffdfd60e38fcb1dc8a6f50377e02",
+      "conteudo_anterior_sha256": "b9b494f8efbf16626edcbcc63bd24fac91d7699c20244067c5c6065f83fc2dc3",
+      "conteudo": "E o seu projeto?\nMatriz CSD\nCertezas: Nós sabemos ou entendemos isso...\nSuposições: Supomos que...\nDúvidas: Temos dúvidas sobre...\nModelo visual com três colunas, sem afirmações legíveis nos campos."
+    },
+    {
+      "aula": "04",
+      "pagina": 3,
+      "paginas_contexto": [
+        2
+      ],
+      "motivo": "Lista anafórica contextualizada com o título literal da página 2, que explica a quais fatores a página 3 se refere. Referências às duas páginas preservadas.",
+      "pdf_sha256": "2a6e8bff7af237d6d5721b0933d589a3b45ff6868ba723e16d409e7ed8aeb0bf",
+      "conteudo_anterior_sha256": "201c5121bcb8d7ec6bd47e988457601a2b6108e8c95faf208adc6cd0bdb61379",
+      "conteudo": "Como fazer o estudo do comportamento do consumidor?\n\nEssas variáveis podem ser descritas através de quatro fatores:\nPSICOLÓGICOS | CULTURAIS | PESSOAIS | SOCIAIS"
+    }
+  ]
+}

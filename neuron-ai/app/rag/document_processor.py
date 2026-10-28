@@ -258,6 +258,24 @@ Ignore elementos puramente decorativos, como:
 Só descreva um ícone quando ele tiver significado
 necessário para compreender o conteúdo.
 
+Se a página tiver apenas um título (por exemplo, um slide
+de abertura ou de seção) acompanhado de uma ilustração
+decorativa, retorne somente o título, sem descrever a
+ilustração.
+
+Fotografias e imagens: quando a imagem for o exemplo da
+página (por exemplo, a comparação entre dois produtos),
+descreva em poucas frases o que está claramente visível e
+o que diferencia os elementos comparados. Não interprete o
+que a imagem "sugere" ou "indica". Preserve legendas.
+
+Não transcreva rótulos, marcas ou textos impressos em
+objetos fotografados, a menos que sejam o assunto da página.
+
+Se você não tiver certeza de um detalhe específico, como a
+posição ou a quantidade de elementos, omita apenas esse
+detalhe, nunca a descrição inteira.
+
 Não resolva exercícios.
 
 Não acrescente conhecimento externo.
@@ -282,6 +300,8 @@ em texto estruturado e objetivo.
         resposta = client.chat.completions.create(
             model=self.vision_model,
             temperature=0,
+            max_tokens=4000,
+            extra_body={"reasoning": {"enabled": False}},
             messages=[
                 {
                     "role": "user",
@@ -539,9 +559,34 @@ em texto estruturado e objetivo.
                         )
                     )
 
-                    tipo_extracao = (
-                        "multimodal"
-                    )
+                    if conteudo.strip():
+
+                        tipo_extracao = (
+                            "multimodal"
+                        )
+
+                    else:
+
+                        # A visao voltou vazia: usa o texto real
+                        # da pagina em vez de perde-la em silencio.
+                        print(
+                            f"AVISO: visao vazia na pagina "
+                            f"{numero_pagina}; usando o texto "
+                            f"extraido ({len(texto_extraido)} "
+                            f"caracteres)."
+                        )
+
+                        conteudo = (
+                            texto_extraido
+                        )
+
+                        tipo_extracao = (
+                            "textual"
+                        )
+
+                        motivos.append(
+                            "multimodal_vazio_fallback_textual"
+                        )
 
                 else:
 

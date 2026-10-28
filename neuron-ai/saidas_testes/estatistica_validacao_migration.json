@@ -1,0 +1,9 @@
+{
+  "ddl_validado_postgresql": true,
+  "restricoes_confirmadas": [
+    "autorizacao",
+    "tipo",
+    "assunto_disciplina"
+  ],
+  "schema_temporario_revertido": true
+}

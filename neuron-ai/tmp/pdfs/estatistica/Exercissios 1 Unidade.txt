@@ -1,0 +1,40 @@
+Enunciados
+1) O que representa a mediana? a) O valor que mais se repete.
+ b) O valor central dos dados ordenados. 
+c) A média ponderada. d) A soma dos valores dividida pelo total. 
+e) O menor valor do conjunto.
+2) A amplitude de um conjunto de dados é: a) A diferença entre média e moda. 
+b) A diferença entre o maior e o menor valor. 
+c) O desvio padrão. 
+d) A soma de todos os valores. 
+e) O intervalo interquartílico.
+5) Em termos de interpretação, o desvio-padrão mede: a) A variação conjunta de duas variáveis.
+ b) A dispersão média em torno da média. 
+c) A tendência central. 
+d) A probabilidade de um evento. 
+e) O valor central.
+6) A covariância próxima de zero indica que: a) Existe forte correlação positiva. 
+b) Existe forte correlação negativa.
+c) Não há relação linear clara entre as variáveis. 
+d) Uma variável determina a outra. 
+e) As variáveis são mutuamente exclusivas.
+7) (Cálculo) Dados: [2, 4, 6, 8, 10].
+a) Calcule a média e a mediana.
+b) Calcule a variância populacional e o desvio-padrão populacional.
+Texto formativo: O monitoramento de tempos de login em sistemas computacionais fornece informações valiosas sobre o desempenho da infraestrutura de rede. Quando há valores muito discrepantes, como picos de lentidão, os quartis ajudam a separar o comportamento típico do atípico. O IQR permite avaliar a estabilidade da maioria dos usuários, sem que valores extremos prejudiquem a interpretação.
+9) (Cálculo) Conjunto de dados: [2, 3, 5, 7, 9, 11, 13, 15].
+a) Calcule Q1, Q2 e Q3.
+b) Encontre o IQR.
+Notas de conteúdo
+Gabarito das múltipla escolha: 1-b, 2-b, 5-b, 6-c.
+Média: x̄ = Σxᵢ / n. Mediana: valor central dos dados ordenados (se n é par, média dos dois centrais). Amplitude: R = x_máx − x_mín.
+Variância populacional σ² = Σ(xᵢ − μ)² / N; amostral s² = Σ(xᵢ − x̄)² / (n − 1). O desvio-padrão é a raiz da variância. Use N quando os dados são a população inteira e n − 1 quando são uma amostra.
+Questão 7: média = 30/5 = 6; mediana = 6 (dado do meio). Desvios: −4, −2, 0, 2, 4, quadrados somam 40; σ² = 40/5 = 8; σ = √8 ≈ 2,83.
+Quartis pelo formulário: Q1 = x₍₍ₙ₊₁₎/₄₎, Q2 = x₍₂₍ₙ₊₁₎/₄₎, Q3 = x₍₃₍ₙ₊₁₎/₄₎, IQR = Q3 − Q1. Com n = 8 as posições são 2,25; 4,5 e 6,75, interpoladas entre os vizinhos:
+Q1 = 3 + 0,25·(5 − 3) = 3,5
+Q2 = 7 + 0,5·(9 − 7) = 8
+Q3 = 11 + 0,75·(13 − 11) = 12,5
+IQR = 12,5 − 3,5 = 9
+Existem outros métodos de quartil que dão valores um pouco diferentes; use o do formulário da prova.
+IQR e outliers: o IQR mede a dispersão do miolo dos dados e não é afetado por valores extremos, ao contrário da amplitude.
+Covariância ≈ 0: não há relação linear clara. Isso não significa independência nem que uma variável determine a outra.

@@ -1,0 +1,6 @@
+{
+  "name":"neuron-frontend","version":"0.1.0","private":true,"type":"module",
+  "scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","test":"vitest run"},
+  "dependencies":{"react":"19.3.1","react-dom":"19.3.1","react-markdown":"10.1.0","remark-gfm":"4.0.1"},
+  "devDependencies":{"vite":"8.3.5","vitest":"4.0.18","@testing-library/react":"16.3.2","@testing-library/jest-dom":"6.9.1","jsdom":"28.1.0"}
+}

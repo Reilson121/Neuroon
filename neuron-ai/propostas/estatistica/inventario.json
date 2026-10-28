@@ -1,0 +1,106 @@
+{
+  "status": "integrado_e_validado_backend_monitor_pratica_e_historico",
+  "periodo": "03",
+  "disciplina": "estatistica",
+  "arquivos": [
+    {
+      "arquivo_original": "estatistica_novo.pdf",
+      "origem": "C:\\Users\\Pichau\\Downloads\\Estatística-20261027T153405Z-1-001\\Estatística\\estatistica_novo.pdf",
+      "copia": "C:\\Projeto Extensionista 2\\NEURON\\neuron-ai\\materiais_academicos\\periodo_03\\estatistica\\estatistica_novo.pdf",
+      "bytes": 16266761,
+      "sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+      "copia_identica": true,
+      "criacao_origem_utc": "2026-10-19T15:27:54+00:00",
+      "modificacao_origem_utc": "2026-10-19T15:27:54+00:00",
+      "tipo_material_proposto": "SLIDE_AULA",
+      "fora_da_disciplina": false,
+      "autorizacao_professor": "nao_confirmada",
+      "disponibilidade_pratica": "nao_aplicavel_material_teorico",
+      "ingerido": true,
+      "total_paginas": 176,
+      "metadados_pdf_originais": {
+        "/Title": "",
+        "/Author": "Jonatas Junior",
+        "/CreationDate": "D:20261019135537-03'00'",
+        "/ModDate": "D:20261019135537-03'00'",
+        "/Producer": "Microsoft® PowerPoint® para Microsoft 365",
+        "/Creator": "Microsoft® PowerPoint® para Microsoft 365"
+      },
+      "material_id_backend": 1,
+      "chunks_indexados": 193
+    },
+    {
+      "arquivo_original": "Exercissios 1 Unidade.docx",
+      "origem": "C:\\Users\\Pichau\\Downloads\\Estatística-20261027T153405Z-1-001\\Estatística\\Exercissios 1 Unidade.docx",
+      "copia": "C:\\Projeto Extensionista 2\\NEURON\\neuron-ai\\materiais_academicos\\periodo_03\\estatistica\\Exercissios 1 Unidade.docx",
+      "bytes": 565663,
+      "sha256": "3ffb7eca3dc614949b57d637480c12f8a86632ba564b67d787ba8f7e382b860f",
+      "copia_identica": true,
+      "criacao_origem_utc": "2026-10-24T20:39:08+00:00",
+      "modificacao_origem_utc": "2026-10-24T20:39:08+00:00",
+      "tipo_material_proposto": "LISTA_EXERCICIOS",
+      "fora_da_disciplina": false,
+      "autorizacao_professor": {
+        "status": "declarada_pelo_usuario",
+        "data": "2026-10-27",
+        "evidencia": "e autorizada pelo professor"
+      },
+      "disponibilidade_pratica": "controlada_pelo_cadastro_backend",
+      "ingerido": true,
+      "metadados_docx_originais": {
+        "core_xml": "ausente",
+        "app_xml": "ausente",
+        "paginacao_estavel_disponivel": false
+      },
+      "material_id_backend": 2,
+      "chunks_indexados": 6
+    },
+    {
+      "arquivo_original": "prova anterior de estátisitica.pdf",
+      "origem": "C:\\Users\\Pichau\\Downloads\\Estatística-20261027T153405Z-1-001\\Estatística\\prova anterior de estátisitica.pdf",
+      "copia": "C:\\Projeto Extensionista 2\\NEURON\\neuron-ai\\materiais_academicos\\periodo_03\\estatistica\\prova anterior de estátisitica.pdf",
+      "bytes": 7759025,
+      "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+      "copia_identica": true,
+      "criacao_origem_utc": "2026-10-24T20:35:44+00:00",
+      "modificacao_origem_utc": "2026-10-24T20:35:44+00:00",
+      "tipo_material_proposto": "PROVA_ANTIGA",
+      "fora_da_disciplina": false,
+      "autorizacao_professor": {
+        "status": "declarada_pelo_usuario",
+        "data": "2026-10-27",
+        "evidencia": "e autorizada pelo professor"
+      },
+      "disponibilidade_pratica": "controlada_pelo_cadastro_backend",
+      "ingerido": true,
+      "total_paginas": 2,
+      "metadados_pdf_originais": {
+        "/CreationDate": "D:20261024213517+00'00'",
+        "/Creator": "PDFium",
+        "/Producer": "PDFium"
+      },
+      "material_id_backend": 3,
+      "chunks_indexados": 9
+    },
+    {
+      "arquivo_original": "rotacoes.py",
+      "origem": "C:\\Users\\Pichau\\Downloads\\Estatística-20261027T153405Z-1-001\\Estatística\\rotacoes.py",
+      "copia": "C:\\Projeto Extensionista 2\\NEURON\\neuron-ai\\materiais_academicos\\periodo_03\\estatistica\\rotacoes.py",
+      "bytes": 3027,
+      "sha256": "d9cc104d79bb7976be45df0f0f489dd09b93d280377767859fb0506ba5d9a1b5",
+      "copia_identica": true,
+      "criacao_origem_utc": "2026-10-19T15:27:54+00:00",
+      "modificacao_origem_utc": "2026-10-19T15:27:54+00:00",
+      "tipo_material_proposto": null,
+      "fora_da_disciplina": true,
+      "autorizacao_professor": "nao_confirmada",
+      "disponibilidade_pratica": "nao_habilitada_por_esta_analise",
+      "ingerido": false
+    }
+  ],
+  "aprovacao_mapa": {
+    "data": "2026-10-27",
+    "evidencia": "esta aprovado"
+  },
+  "validacao_final": "saidas_testes/estatistica_validacao_final.json"
+}

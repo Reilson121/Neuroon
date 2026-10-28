@@ -1,0 +1,1762 @@
+{
+    "resumo": {
+        "arquivo": "Aula_05.pdf",
+        "periodo": "03",
+        "disciplina": "design_de_artefatos_digitais",
+        "assunto": "design_de_interface",
+        "aula": "05",
+        "total_paginas": 41,
+        "paginas_textuais": 17,
+        "paginas_multimodais": 24,
+        "total_chunks": 43,
+        "chunk_size": 1000,
+        "chunk_overlap": 150
+    },
+    "paginas": [
+        {
+            "conteudo": "# DESIGN DE ARTEFATOS DIGITAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "# Arquitetura da Informação (AI)\n\n**1.**\n\n“é a arte e a ciência de **organizar a informação** para **ajudar as pessoas** a **satisfazer suas necessidades de informação** de modo **efetivo**\n\n(...) o que implica **organizar, navegar, marcar e buscar** mecanismos nos sistemas de informação.”\n\nPeter Morville & Louis Rosenfeld, 2003",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "2.\n\nArquitetura da Informação\n\nDesign estrutural de ambientes de informação compartilhada;\n\na arte e ciência de organização e rotulação de sites web, intranets, comunidades online e software de apoio à encontrabilidade e usabilidade.\n\n(Information Architecture Institute)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "Arquitetura da info.\nBiblioteconomia\n+\nsemiótica\n\nA Arquitetura da Informação possui Raízes na biblioteconomia com longa tradição de organização e classificação de informações para facilitar o acesso e a recuperação eficientes.\n\nA Semiótica é a ciência que se dedica ao estudo de todos os signos, nos processos de significação na natureza e na cultura.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "# Semiótica\n\nPoderíamos considerar aqui o **intérprete** como sendo **usuário de uma interface**\n\n1. Ícone de pasta\n2. Ícone de pessoa\n3. Ícone de porta com seta\n4. Ícone de usuário em círculo\n\n* **Ex. - Signo** vastamente encontrado em interfaces gráficas: **os ícones**",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "# Arquitetura da Info\n\né a relação entre:\n\n## Diagrama de Venn\n\nO diagrama apresenta três círculos principais que se intersectam, com um círculo central menor no ponto de interseção de todos eles.\n\n*   **Users** (Usuários): Círculo superior.\n*   **Context** (Contexto): Círculo inferior esquerdo.\n*   **Content** (Conteúdo): Círculo inferior direito.\n*   **IA** (Arquitetura da Informação): Círculo central menor, localizado na interseção dos três círculos anteriores.\n\n**Legenda:** Usuário, Contexto e Conteúdo",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "# Arquitetura da Info\n## composições principais\n\n- Sistemas de **Organização**\n- Sistemas de **Rotulagem**\n- Sistemas de **Navegação**\n- Sistemas de **Busca**\n\nAsogwa, 2022",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "AI\nse compõe\n\n1. Sistema de Organização\n\n• Envolve a organização de informações e dados sobre um produto.\n\n• Antes e mesmo depois de construir um produto, são realizadas pesquisas para conhecer melhor os usuários;\n\n• Até certo ponto, as personas dos usuários, os mapas de empatia e até mesmo atividades como classificação que se enquadram no sistema organizacional.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "AI se compõe\n\n2. Sistema de Rotulagem\n\n* Isto envolve a representação de uma enorme quantidade de dados utilizando elementos menores ou mais simples.\n* Ajuda a agrupar dados para que os usuários não fiquem confusos ou sobrecarregados com muitas informações.\n* Ao visitar um site de comércio eletrônico, você não encontra todos os itens na página inicial. A maioria dos sites de comércio eletrônico tem categorias como \"homens\", \"mulheres\" etc.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "AI se compõe\n\n3. Sistemas de Navegação\n\n* O sistema de navegação trata da movimentação dos usuários dentro de um produto.\n* O objetivo é tornar a condução do usuário pelo conteúdo mais fácil.\n* O fato de você poder passar da página inicial para outras páginas e vice-versa se deve ao sistema de navegação.\n* Ex.: Ferramentas de fluxos de usuários, fluxogramas, mapas de jornada",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "#DESIGN DE INTERFACE\n\nO diagrama apresenta um fluxo de telas de interface de um aplicativo móvel, partindo de uma tela inicial e ramificando-se em múltiplos caminhos de navegação.\n\nTela inicial (dispositivo móvel à esquerda)\n→ Tela com lista de itens e barras de progresso\n   → Tela com botão circular central em destaque\n   → Tela com campo de seleção circular e barra de progresso\n      → Tela com área de conteúdo retangular em branco e botão na base\n   → Tela com lista de itens e um item destacado em vermelho\n      → Tela com lista de itens e barras horizontais\n         → Tela com área de conteúdo retangular em branco\n         → Tela com lista de campos de entrada e botão na base\n   → Tela com área de mídia (ícone de reprodução) e barra inferior\n      → Tela com grade de ícones de reprodução\n         → Tela com grade de blocos, alguns destacados em vermelho\n      → Tela com campos de entrada e botões\n         → Tela com área de conteúdo, bloco vermelho e bloco azul na base",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "# Design de Informação\n\nO conceito central de **Design de Informação** é apresentado como resultado da convergência de quatro áreas do conhecimento, cada uma contribuindo com um aspecto específico:\n\n*   **Educação** → contribui com o conceito de **Aprendizagem**.\n*   **Ciência da Informação** → contribui com o conceito de **Organização de Informações**.\n*   **Psicologia** → contribui com o conceito de **Percepção**.\n*   **Design** → contribui com o conceito de **Composição**.\n\nA página também registra a autoria: **Lucas Alves - Ideia Clara**.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "Também conhecido como “infodesign”, o design de informação lida \ndiretamente com a forma com que o conteúdo é apresentado às \npessoas. Dá-se importância não só para o que se diz, mas também \npara como se está sendo dito, com o objetivo de potencializar a \ncaptação da mensagem. \nDesign da \nInformação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 300,
+                "elementos_desenhados": 27,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "Uma informação por si só – sem estrutura ou contexto – é apenas \num conjunto de dados. Para transformar dados em algo que faça \nsentido, o design de informação trabalha de maneira harmônica \ncom palavras e imagens. \nRune Petterson defende que o principal objetivo do design de \ninformação é a clareza na comunicação. \nDesign da \nInformação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 339,
+                "elementos_desenhados": 30,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "Especialização do design de interface responsável por apresentar \nespaços de informação. Ele fornece aos usuários a possibilidade \nde ir a lugares.\nDesenvolvimento de \nfluxos de aplicação para \nfacilitar as tarefas do \nusuário, definindo como \nesse interage com as \nfuncionalidades do \nSistema.\nDesign de navegação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 314,
+                "elementos_desenhados": 14,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "DESIGN DA INFORMAÇÃO\nDESIGN DE INTERFACE\nDESIGN DA NAVEGAÇÃO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 60,
+                "elementos_desenhados": 22,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "COMUNICAÇÃO \nVISUAL \nTodo meio de \ncomunicação \nque se expressa \npor meio de \nsignos não verbais, \nou seja, utilizando \ncomponentes visuais \npara transmitir o que \ndeseja.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 171,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "# Marca\n\nFotografia de uma mulher ao lado de um cavalo em um ambiente que parece um estábulo. A mulher está de pé, vestindo jaqueta, calça jeans e botas, segurando as rédeas do cavalo. O cavalo é escuro e usa uma manta azul. Ao fundo, há uma estrutura com janelas.\n\n# Identidade Visual\n\nComposição de materiais de papelaria sobre fundo escuro, incluindo:\n- Cartões de visita com detalhes em laranja e um símbolo gráfico;\n- Papel timbrado;\n- Envelope;\n- Botons circulares (um laranja e um azul com padrão);\n- Um cartão com o texto \"QUALIDADE, CONFORTO, BELEZA\".\n\n# Logotipo\n\nSímbolo gráfico metálico com as letras \"SP\" estilizadas e entrelaçadas, acompanhado da palavra \"INOX\" abaixo, também em metal. O logotipo está aplicado sobre uma superfície marrom texturizada.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "FUNDAMENTOS DO DESIGN\n✔Essenciais na conﬁguração de um bom design \n✔Elementos norteadores da comunicação efetiva\n✔Variável e potente capacidade de expressão\n✔Demandantes de experimentos e aprofundamentos constantes\n\u0000Liberdade criativa;\n\u0000Lógica e fluidez visual;\n\u0000Conforto visual;\n\u0000Proporções e hierarquias...",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 308,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "GESTALT\nPsicologia alemã sobre o fenômeno da \npercepção visual;\n_ Para compreensão das partes é necessário \nantes compreender o todo;\n_O  todo possui prioridade no processo cognitivo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 183,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "GESTALT\nTEORIA DA BOA FORMA \nconsidera fenômenos psicológicos como \ntotalidades organizadas, indivisíveis, \narticuladas, isto é, como configurações",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 147,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "Gestalt do objeto | Gomes Filho\n“Contribui para a melhor \nestruturação das imagens \nem nosso cérebro. \nPor atender a padrões de \norganização desenvolvidos \npelo sistema nervoso.”",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 178,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "A Gestalt nos mostra \nque existem alguns \nprincípios \norganizacionais \nque são essenciais \npara auxiliar o \ncérebro humano \nna estruturação das \npercepções visuais.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 164,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "PRINCÍPIOS DA GESTALT\nPREGNÂNCIA\nUNIDADE\nSEGREGAÇÃO\nPROXIMIDADE\nSEMELHANÇA\nUNIFICAÇÃO\nCONTINUIDADE\nFECHAMENTO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 109,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "PREGNÂNCIA\nQuanto mais simples as formas \nmais assimiladas elas serão.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 70,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "Interface genérica\n\nEstrutura da interface (wireframe):\n\n*   Barra superior: sequência de 15 elementos rotulados como \"AD\".\n*   Cabeçalho:\n    *   \"LOGO\" (à esquerda)\n    *   \"BANNER\" (à direita)\n*   Barra de navegação: sequência de 10 elementos rotulados como \"MENU\", seguidos de um campo de busca com ícone de lupa.\n*   Conteúdo principal (dividido em colunas):\n    *   Coluna esquerda:\n        *   Bloco \"LOREM IPSUM\" com o texto: \"In sit amet lobortis nisi. Nullam massa neque, dapibus ullamcorper nisi ut, auctor volutpat ex.\"\n        *   Bloco \"LOREM IPSUM\" com um espaço retangular marcado com um \"X\".\n    *   Coluna central:\n        *   Bloco \"LOREM IPSUM\" com o texto: \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum eros erat, vel hendrerit mi semper vitae.\" e um espaço retangular marcado com um \"X\".\n        *   Três espaços quadrados com ícones de silhueta de usuário.\n    *   Coluna direita:\n        *   Bloco \"AD\" (grande).\n        *   Bloco \"LOREM IPSUM\" com o texto: \"Donec vel pulvinar nulla\".\n\nTexto descritivo:\n\"Na interface genérica (e caótica) acima, não é difícil perceber a confusão que qualquer usuário poderia sentir para encontrar a principal ação que precisa realizar.\"",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "Interface do Duolingo\n\nA interface do Duolingo apresenta uma quantidade reduzida de informações que guiam o usuário diretamente para a ação principal do site.\n\nEstrutura da interface:\n- Cabeçalho:\n  - \"duolingo\"\n  - \"IDIOMA DO SITE: PORTUGUÊS\"\n- Conteúdo principal:\n  - \"Aprenda idiomas de graça. Agora e sempre.\"\n  - Botão: \"COMECE AGORA\"\n  - Botão: \"JÁ TENHO UMA CONTA\"\n- Rodapé (seleção de idiomas):\n  - INGLÊS\n  - ESPANHOL\n  - FRANCÊS\n  - ALEMÃO\n  - ITALIANO\n  - ESPERANTO\n\nOutros bons exemplos conhecidos dessa simplicidade que dá certo são sites de busca como o Google, o Yahoo e o Bing.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "UNIDADE\nMesmo abstrata a imagem pode \nser compreendida (o todo)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 63,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "SEGREGAÇÃO\n\ndiferenciação de objetos sobrepostos",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 48,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "SEGREGAÇÃO\n\nAnúncio do MC Donald’s, que realiza um jogo de interpretação ao substituir os ingredientes do sanduíche por livros de culinária\n\nAnúncio da Land Rover, destacando hipopótamos e o carro Freelander ao fundo, ambos dentro da água.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 10,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "PROXIMIDADE\n\nelementos próximos formam uma unidade",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 50,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "Menu presente na interface da 99\n\nPor causa da Lei da Proximidade, os objetos “Motorista”, “Passageiro”, “Empresas”, “99 Food”, “Segurança” e “Ajuda” demonstram fazer parte da composição de um mesmo inteiro: O menu.\n\nEstrutura do menu:\n- 99\n- Motorista\n- Passageiro\n- Empresas\n- 99 Food\n- Segurança\n- Ajuda\n- Quero ser motorista",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "# SEMELHANÇA\n\nobjetos similares se agrupam entre si",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 49,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "UNIFICAÇÃO\nequilíbrio entre pregnância, unidade \ne proximidade",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 62,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "MUSEU GUIDO VIARO APRESENTA\n\nFellini 100 anos\nDesenhos · Fotos · Livros · Cartazes · Filmes\nColeção Antonio Cava\n\nABERTURA\n\nCONTINUIDADE\n\nfluidez de uma composição",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 38,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "CONTINUIDADE\n\nOriginais Netflix\n\nPeaky Blinders\nSÉRIE\nSANGUE, APOSTAS E NAVALHAS\n\nGINNY E GEORGIA\nSÉRIE\nTOP 10\n\nCHAMAS DO DESTINO\nSÉRIE\n\nNA MESMA ONDA\nFILME\n\nQUEM MATOU SARA?\nSÉRIE\n\nO DA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 36,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 12,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "CONTINUIDADE\n\nOriginais Netflix\n\nPeaky Blinders\nSÉRIE\nSANGUE, APOSTAS E NAVALHAS\n\nGINNY E GEORGIA\nSÉRIE\nTOP 10\n\nCHAMAS DO DESTINO\nSÉRIE\n\nNA MESMA ONDA\nFILME\n\nQUEM MATOU SARA?\nSÉRIE\n\nO DA...",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 37,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 12,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "FECHAMENTO\ncontornos que não existentes \nsolucionados por nosso cérebro",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 38,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 71,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "# A mensagem visual\n\n- O conteúdo nunca é dissociado da forma\n- Uma mensagem deve seguir os seguintes objetivos:\n  a) Contar\n  b) Expressar\n  c) Explicar\n  d) Dirigir\n  e) Inspirar\n  f) Afetar\n\nO significado encontra-se no olho do criador e no olhar do observador",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 39,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "O pictórico ou visual é determinado pela informação visual a ser observada, pela interpretação e \npercepção dos dados e pistas visuais, pela tonicidade da manifestação visual.\nÉ necessário conhecer as técnicas para \ninfluenciar a interpretação do público.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 40,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 255,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        },
+        {
+            "conteudo": "OBRIGADA POR SUA ATENÇÃO\n@tamiresmdlima -  In: tamireslima01",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 41,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 60,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface"
+            }
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": "a106b7e91c64281f059409b6",
+            "conteudo": "# DESIGN DE ARTEFATOS DIGITAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 30,
+                "chunk_id": "a106b7e91c64281f059409b6"
+            }
+        },
+        {
+            "chunk_id": "f461d8a057ff8d3f18949acf",
+            "conteudo": "# Arquitetura da Informação (AI)\n\n**1.**\n\n“é a arte e a ciência de **organizar a informação** para **ajudar as pessoas** a **satisfazer suas necessidades de informação** de modo **efetivo**\n\n(...) o que implica **organizar, navegar, marcar e buscar** mecanismos nos sistemas de informação.”\n\nPeter Morville & Louis Rosenfeld, 2003",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 330,
+                "chunk_id": "f461d8a057ff8d3f18949acf"
+            }
+        },
+        {
+            "chunk_id": "908ce27b2844184310d72e6a",
+            "conteudo": "2.\n\nArquitetura da Informação\n\nDesign estrutural de ambientes de informação compartilhada;\n\na arte e ciência de organização e rotulação de sites web, intranets, comunidades online e software de apoio à encontrabilidade e usabilidade.\n\n(Information Architecture Institute)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 271,
+                "chunk_id": "908ce27b2844184310d72e6a"
+            }
+        },
+        {
+            "chunk_id": "654d26764ede5ca024fe732f",
+            "conteudo": "Arquitetura da info.\nBiblioteconomia\n+\nsemiótica\n\nA Arquitetura da Informação possui Raízes na biblioteconomia com longa tradição de organização e classificação de informações para facilitar o acesso e a recuperação eficientes.\n\nA Semiótica é a ciência que se dedica ao estudo de todos os signos, nos processos de significação na natureza e na cultura.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 352,
+                "chunk_id": "654d26764ede5ca024fe732f"
+            }
+        },
+        {
+            "chunk_id": "f25bf5a4484d8284806a6bd7",
+            "conteudo": "# Semiótica\n\nPoderíamos considerar aqui o **intérprete** como sendo **usuário de uma interface**\n\n1. Ícone de pasta\n2. Ícone de pessoa\n3. Ícone de porta com seta\n4. Ícone de usuário em círculo\n\n* **Ex. - Signo** vastamente encontrado em interfaces gráficas: **os ícones**",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 271,
+                "chunk_id": "f25bf5a4484d8284806a6bd7"
+            }
+        },
+        {
+            "chunk_id": "efdf4c4c959811b52208b9d0",
+            "conteudo": "# Arquitetura da Info\n\né a relação entre:\n\n## Diagrama de Venn\n\nO diagrama apresenta três círculos principais que se intersectam, com um círculo central menor no ponto de interseção de todos eles.\n\n*   **Users** (Usuários): Círculo superior.\n*   **Context** (Contexto): Círculo inferior esquerdo.\n*   **Content** (Conteúdo): Círculo inferior direito.\n*   **IA** (Arquitetura da Informação): Círculo central menor, localizado na interseção dos três círculos anteriores.\n\n**Legenda:** Usuário, Contexto e Conteúdo",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 511,
+                "chunk_id": "efdf4c4c959811b52208b9d0"
+            }
+        },
+        {
+            "chunk_id": "fad1d47065911c160623c23c",
+            "conteudo": "# Arquitetura da Info\n## composições principais\n\n- Sistemas de **Organização**\n- Sistemas de **Rotulagem**\n- Sistemas de **Navegação**\n- Sistemas de **Busca**\n\nAsogwa, 2022",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 172,
+                "chunk_id": "fad1d47065911c160623c23c"
+            }
+        },
+        {
+            "chunk_id": "d805c36c139e65b5eed7610e",
+            "conteudo": "AI\nse compõe\n\n1. Sistema de Organização\n\n• Envolve a organização de informações e dados sobre um produto.\n\n• Antes e mesmo depois de construir um produto, são realizadas pesquisas para conhecer melhor os usuários;\n\n• Até certo ponto, as personas dos usuários, os mapas de empatia e até mesmo atividades como classificação que se enquadram no sistema organizacional.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 365,
+                "chunk_id": "d805c36c139e65b5eed7610e"
+            }
+        },
+        {
+            "chunk_id": "4f8ad0258e384bece9aeae62",
+            "conteudo": "AI se compõe\n\n2. Sistema de Rotulagem\n\n* Isto envolve a representação de uma enorme quantidade de dados utilizando elementos menores ou mais simples.\n* Ajuda a agrupar dados para que os usuários não fiquem confusos ou sobrecarregados com muitas informações.\n* Ao visitar um site de comércio eletrônico, você não encontra todos os itens na página inicial. A maioria dos sites de comércio eletrônico tem categorias como \"homens\", \"mulheres\" etc.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 443,
+                "chunk_id": "4f8ad0258e384bece9aeae62"
+            }
+        },
+        {
+            "chunk_id": "235ff15d824847484f033c50",
+            "conteudo": "AI se compõe\n\n3. Sistemas de Navegação\n\n* O sistema de navegação trata da movimentação dos usuários dentro de um produto.\n* O objetivo é tornar a condução do usuário pelo conteúdo mais fácil.\n* O fato de você poder passar da página inicial para outras páginas e vice-versa se deve ao sistema de navegação.\n* Ex.: Ferramentas de fluxos de usuários, fluxogramas, mapas de jornada",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 377,
+                "chunk_id": "235ff15d824847484f033c50"
+            }
+        },
+        {
+            "chunk_id": "d6baeefc5a14a393878f5068",
+            "conteudo": "#DESIGN DE INTERFACE\n\nO diagrama apresenta um fluxo de telas de interface de um aplicativo móvel, partindo de uma tela inicial e ramificando-se em múltiplos caminhos de navegação.\n\nTela inicial (dispositivo móvel à esquerda)\n→ Tela com lista de itens e barras de progresso\n   → Tela com botão circular central em destaque\n   → Tela com campo de seleção circular e barra de progresso\n      → Tela com área de conteúdo retangular em branco e botão na base\n   → Tela com lista de itens e um item destacado em vermelho\n      → Tela com lista de itens e barras horizontais\n         → Tela com área de conteúdo retangular em branco\n         → Tela com lista de campos de entrada e botão na base\n   → Tela com área de mídia (ícone de reprodução) e barra inferior\n      → Tela com grade de ícones de reprodução\n         → Tela com grade de blocos, alguns destacados em vermelho\n      → Tela com campos de entrada e botões\n         → Tela com área de conteúdo, bloco vermelho e bloco azul na base",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 987,
+                "chunk_id": "d6baeefc5a14a393878f5068"
+            }
+        },
+        {
+            "chunk_id": "e2708135ffbe24e1b600589c",
+            "conteudo": "# Design de Informação\n\nO conceito central de **Design de Informação** é apresentado como resultado da convergência de quatro áreas do conhecimento, cada uma contribuindo com um aspecto específico:\n\n*   **Educação** → contribui com o conceito de **Aprendizagem**.\n*   **Ciência da Informação** → contribui com o conceito de **Organização de Informações**.\n*   **Psicologia** → contribui com o conceito de **Percepção**.\n*   **Design** → contribui com o conceito de **Composição**.\n\nA página também registra a autoria: **Lucas Alves - Ideia Clara**.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 548,
+                "chunk_id": "e2708135ffbe24e1b600589c"
+            }
+        },
+        {
+            "chunk_id": "bcb3918e6296e636e2f10371",
+            "conteudo": "Também conhecido como “infodesign”, o design de informação lida \ndiretamente com a forma com que o conteúdo é apresentado às \npessoas. Dá-se importância não só para o que se diz, mas também \npara como se está sendo dito, com o objetivo de potencializar a \ncaptação da mensagem. \nDesign da \nInformação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 300,
+                "elementos_desenhados": 27,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 300,
+                "chunk_id": "bcb3918e6296e636e2f10371"
+            }
+        },
+        {
+            "chunk_id": "855c3732a4cb3b71bb3493b1",
+            "conteudo": "Uma informação por si só – sem estrutura ou contexto – é apenas \num conjunto de dados. Para transformar dados em algo que faça \nsentido, o design de informação trabalha de maneira harmônica \ncom palavras e imagens. \nRune Petterson defende que o principal objetivo do design de \ninformação é a clareza na comunicação. \nDesign da \nInformação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 339,
+                "elementos_desenhados": 30,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 339,
+                "chunk_id": "855c3732a4cb3b71bb3493b1"
+            }
+        },
+        {
+            "chunk_id": "1b40f1ad29e876e55949b621",
+            "conteudo": "Especialização do design de interface responsável por apresentar \nespaços de informação. Ele fornece aos usuários a possibilidade \nde ir a lugares.\nDesenvolvimento de \nfluxos de aplicação para \nfacilitar as tarefas do \nusuário, definindo como \nesse interage com as \nfuncionalidades do \nSistema.\nDesign de navegação",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 314,
+                "elementos_desenhados": 14,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 314,
+                "chunk_id": "1b40f1ad29e876e55949b621"
+            }
+        },
+        {
+            "chunk_id": "f712c3b53f171cef776f7918",
+            "conteudo": "DESIGN DA INFORMAÇÃO\nDESIGN DE INTERFACE\nDESIGN DA NAVEGAÇÃO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 60,
+                "elementos_desenhados": 22,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 60,
+                "chunk_id": "f712c3b53f171cef776f7918"
+            }
+        },
+        {
+            "chunk_id": "99abe70896837b2ef0a4e9a0",
+            "conteudo": "COMUNICAÇÃO \nVISUAL \nTodo meio de \ncomunicação \nque se expressa \npor meio de \nsignos não verbais, \nou seja, utilizando \ncomponentes visuais \npara transmitir o que \ndeseja.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 171,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 171,
+                "chunk_id": "99abe70896837b2ef0a4e9a0"
+            }
+        },
+        {
+            "chunk_id": "6fe4186c27799117d19a129a",
+            "conteudo": "# Marca\n\nFotografia de uma mulher ao lado de um cavalo em um ambiente que parece um estábulo. A mulher está de pé, vestindo jaqueta, calça jeans e botas, segurando as rédeas do cavalo. O cavalo é escuro e usa uma manta azul. Ao fundo, há uma estrutura com janelas.\n\n# Identidade Visual\n\nComposição de materiais de papelaria sobre fundo escuro, incluindo:\n- Cartões de visita com detalhes em laranja e um símbolo gráfico;\n- Papel timbrado;\n- Envelope;\n- Botons circulares (um laranja e um azul com padrão);\n- Um cartão com o texto \"QUALIDADE, CONFORTO, BELEZA\".\n\n# Logotipo\n\nSímbolo gráfico metálico com as letras \"SP\" estilizadas e entrelaçadas, acompanhado da palavra \"INOX\" abaixo, também em metal. O logotipo está aplicado sobre uma superfície marrom texturizada.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 766,
+                "chunk_id": "6fe4186c27799117d19a129a"
+            }
+        },
+        {
+            "chunk_id": "5de9262293471af0ff0a6a1d",
+            "conteudo": "FUNDAMENTOS DO DESIGN\n✔Essenciais na conﬁguração de um bom design \n✔Elementos norteadores da comunicação efetiva\n✔Variável e potente capacidade de expressão\n✔Demandantes de experimentos e aprofundamentos constantes\n\u0000Liberdade criativa;\n\u0000Lógica e fluidez visual;\n\u0000Conforto visual;\n\u0000Proporções e hierarquias...",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 308,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 308,
+                "chunk_id": "5de9262293471af0ff0a6a1d"
+            }
+        },
+        {
+            "chunk_id": "b85d76cdb53ce14020d90279",
+            "conteudo": "GESTALT\nPsicologia alemã sobre o fenômeno da \npercepção visual;\n_ Para compreensão das partes é necessário \nantes compreender o todo;\n_O  todo possui prioridade no processo cognitivo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 183,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 183,
+                "chunk_id": "b85d76cdb53ce14020d90279"
+            }
+        },
+        {
+            "chunk_id": "4a5f398ab3806a38b32b2d35",
+            "conteudo": "GESTALT\nTEORIA DA BOA FORMA \nconsidera fenômenos psicológicos como \ntotalidades organizadas, indivisíveis, \narticuladas, isto é, como configurações",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 147,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 147,
+                "chunk_id": "4a5f398ab3806a38b32b2d35"
+            }
+        },
+        {
+            "chunk_id": "576421b02d4168a14c8587a0",
+            "conteudo": "Gestalt do objeto | Gomes Filho\n“Contribui para a melhor \nestruturação das imagens \nem nosso cérebro. \nPor atender a padrões de \norganização desenvolvidos \npelo sistema nervoso.”",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 178,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 178,
+                "chunk_id": "576421b02d4168a14c8587a0"
+            }
+        },
+        {
+            "chunk_id": "bf2c117de9647d154532fec8",
+            "conteudo": "A Gestalt nos mostra \nque existem alguns \nprincípios \norganizacionais \nque são essenciais \npara auxiliar o \ncérebro humano \nna estruturação das \npercepções visuais.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 164,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 164,
+                "chunk_id": "bf2c117de9647d154532fec8"
+            }
+        },
+        {
+            "chunk_id": "e56bfbae1234d9c04b5f0e11",
+            "conteudo": "PRINCÍPIOS DA GESTALT\nPREGNÂNCIA\nUNIDADE\nSEGREGAÇÃO\nPROXIMIDADE\nSEMELHANÇA\nUNIFICAÇÃO\nCONTINUIDADE\nFECHAMENTO",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 109,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 109,
+                "chunk_id": "e56bfbae1234d9c04b5f0e11"
+            }
+        },
+        {
+            "chunk_id": "429ef10f4d371ba159c6a225",
+            "conteudo": "PREGNÂNCIA\nQuanto mais simples as formas \nmais assimiladas elas serão.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 70,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 70,
+                "chunk_id": "429ef10f4d371ba159c6a225"
+            }
+        },
+        {
+            "chunk_id": "4b693ba40d357d3563db3e7a",
+            "conteudo": "Interface genérica\n\nEstrutura da interface (wireframe):",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 3,
+                "chunk_caracteres": 55,
+                "chunk_id": "4b693ba40d357d3563db3e7a"
+            }
+        },
+        {
+            "chunk_id": "d7efd388b57dcedc3a3d15e1",
+            "conteudo": "*   Barra superior: sequência de 15 elementos rotulados como \"AD\".\n*   Cabeçalho:\n    *   \"LOGO\" (à esquerda)\n    *   \"BANNER\" (à direita)\n*   Barra de navegação: sequência de 10 elementos rotulados como \"MENU\", seguidos de um campo de busca com ícone de lupa.\n*   Conteúdo principal (dividido em colunas):\n    *   Coluna esquerda:\n        *   Bloco \"LOREM IPSUM\" com o texto: \"In sit amet lobortis nisi. Nullam massa neque, dapibus ullamcorper nisi ut, auctor volutpat ex.\"\n        *   Bloco \"LOREM IPSUM\" com um espaço retangular marcado com um \"X\".\n    *   Coluna central:\n        *   Bloco \"LOREM IPSUM\" com o texto: \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum eros erat, vel hendrerit mi semper vitae.\" e um espaço retangular marcado com um \"X\".\n        *   Três espaços quadrados com ícones de silhueta de usuário.\n    *   Coluna direita:\n        *   Bloco \"AD\" (grande).\n        *   Bloco \"LOREM IPSUM\" com o texto: \"Donec vel pulvinar nulla\".",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 2,
+                "total_chunks_pagina": 3,
+                "chunk_caracteres": 980,
+                "chunk_id": "d7efd388b57dcedc3a3d15e1"
+            }
+        },
+        {
+            "chunk_id": "eabe4af17b73839aadf5422d",
+            "conteudo": "Texto descritivo:\n\"Na interface genérica (e caótica) acima, não é difícil perceber a confusão que qualquer usuário poderia sentir para encontrar a principal ação que precisa realizar.\"",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 3,
+                "total_chunks_pagina": 3,
+                "chunk_caracteres": 184,
+                "chunk_id": "eabe4af17b73839aadf5422d"
+            }
+        },
+        {
+            "chunk_id": "f8447aa00e0023b683fb9c75",
+            "conteudo": "Interface do Duolingo\n\nA interface do Duolingo apresenta uma quantidade reduzida de informações que guiam o usuário diretamente para a ação principal do site.\n\nEstrutura da interface:\n- Cabeçalho:\n  - \"duolingo\"\n  - \"IDIOMA DO SITE: PORTUGUÊS\"\n- Conteúdo principal:\n  - \"Aprenda idiomas de graça. Agora e sempre.\"\n  - Botão: \"COMECE AGORA\"\n  - Botão: \"JÁ TENHO UMA CONTA\"\n- Rodapé (seleção de idiomas):\n  - INGLÊS\n  - ESPANHOL\n  - FRANCÊS\n  - ALEMÃO\n  - ITALIANO\n  - ESPERANTO\n\nOutros bons exemplos conhecidos dessa simplicidade que dá certo são sites de busca como o Google, o Yahoo e o Bing.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 593,
+                "chunk_id": "f8447aa00e0023b683fb9c75"
+            }
+        },
+        {
+            "chunk_id": "9d9210d90bc6c1eb01f8960c",
+            "conteudo": "UNIDADE\nMesmo abstrata a imagem pode \nser compreendida (o todo)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 63,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 63,
+                "chunk_id": "9d9210d90bc6c1eb01f8960c"
+            }
+        },
+        {
+            "chunk_id": "2cb0b8a7c0c89909d4e4a6e2",
+            "conteudo": "SEGREGAÇÃO\n\ndiferenciação de objetos sobrepostos",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 48,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 48,
+                "chunk_id": "2cb0b8a7c0c89909d4e4a6e2"
+            }
+        },
+        {
+            "chunk_id": "c5146e724624bf27508c794b",
+            "conteudo": "SEGREGAÇÃO\n\nAnúncio do MC Donald’s, que realiza um jogo de interpretação ao substituir os ingredientes do sanduíche por livros de culinária\n\nAnúncio da Land Rover, destacando hipopótamos e o carro Freelander ao fundo, ambos dentro da água.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 10,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 239,
+                "chunk_id": "c5146e724624bf27508c794b"
+            }
+        },
+        {
+            "chunk_id": "3799ac882029babd46216619",
+            "conteudo": "PROXIMIDADE\n\nelementos próximos formam uma unidade",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 50,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 50,
+                "chunk_id": "3799ac882029babd46216619"
+            }
+        },
+        {
+            "chunk_id": "32adb731fb1d903c95430fb8",
+            "conteudo": "Menu presente na interface da 99\n\nPor causa da Lei da Proximidade, os objetos “Motorista”, “Passageiro”, “Empresas”, “99 Food”, “Segurança” e “Ajuda” demonstram fazer parte da composição de um mesmo inteiro: O menu.\n\nEstrutura do menu:\n- 99\n- Motorista\n- Passageiro\n- Empresas\n- 99 Food\n- Segurança\n- Ajuda\n- Quero ser motorista",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 328,
+                "chunk_id": "32adb731fb1d903c95430fb8"
+            }
+        },
+        {
+            "chunk_id": "e90b22d87b8adf75b3bb7597",
+            "conteudo": "# SEMELHANÇA\n\nobjetos similares se agrupam entre si",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 49,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 51,
+                "chunk_id": "e90b22d87b8adf75b3bb7597"
+            }
+        },
+        {
+            "chunk_id": "027e9c2d6f65917cd5a47745",
+            "conteudo": "UNIFICAÇÃO\nequilíbrio entre pregnância, unidade \ne proximidade",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 62,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 62,
+                "chunk_id": "027e9c2d6f65917cd5a47745"
+            }
+        },
+        {
+            "chunk_id": "4e611240fc3763600e2e811b",
+            "conteudo": "MUSEU GUIDO VIARO APRESENTA\n\nFellini 100 anos\nDesenhos · Fotos · Livros · Cartazes · Filmes\nColeção Antonio Cava\n\nABERTURA\n\nCONTINUIDADE\n\nfluidez de uma composição",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 38,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 163,
+                "chunk_id": "4e611240fc3763600e2e811b"
+            }
+        },
+        {
+            "chunk_id": "8b8a1ac06299d0f7fb3dcf63",
+            "conteudo": "CONTINUIDADE\n\nOriginais Netflix\n\nPeaky Blinders\nSÉRIE\nSANGUE, APOSTAS E NAVALHAS\n\nGINNY E GEORGIA\nSÉRIE\nTOP 10\n\nCHAMAS DO DESTINO\nSÉRIE\n\nNA MESMA ONDA\nFILME\n\nQUEM MATOU SARA?\nSÉRIE\n\nO DA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 36,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 12,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 186,
+                "chunk_id": "8b8a1ac06299d0f7fb3dcf63"
+            }
+        },
+        {
+            "chunk_id": "0be5d5f3f019f837b4635e2c",
+            "conteudo": "CONTINUIDADE\n\nOriginais Netflix\n\nPeaky Blinders\nSÉRIE\nSANGUE, APOSTAS E NAVALHAS\n\nGINNY E GEORGIA\nSÉRIE\nTOP 10\n\nCHAMAS DO DESTINO\nSÉRIE\n\nNA MESMA ONDA\nFILME\n\nQUEM MATOU SARA?\nSÉRIE\n\nO DA...",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 37,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 12,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 189,
+                "chunk_id": "0be5d5f3f019f837b4635e2c"
+            }
+        },
+        {
+            "chunk_id": "58932fca7520be4f79288f5c",
+            "conteudo": "FECHAMENTO\ncontornos que não existentes \nsolucionados por nosso cérebro",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 38,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 71,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 71,
+                "chunk_id": "58932fca7520be4f79288f5c"
+            }
+        },
+        {
+            "chunk_id": "8124c1aa79ce5635ea585f43",
+            "conteudo": "# A mensagem visual\n\n- O conteúdo nunca é dissociado da forma\n- Uma mensagem deve seguir os seguintes objetivos:\n  a) Contar\n  b) Expressar\n  c) Explicar\n  d) Dirigir\n  e) Inspirar\n  f) Afetar\n\nO significado encontra-se no olho do criador e no olhar do observador",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 39,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 263,
+                "chunk_id": "8124c1aa79ce5635ea585f43"
+            }
+        },
+        {
+            "chunk_id": "47aa3a15360104a7712f7205",
+            "conteudo": "O pictórico ou visual é determinado pela informação visual a ser observada, pela interpretação e \npercepção dos dados e pistas visuais, pela tonicidade da manifestação visual.\nÉ necessário conhecer as técnicas para \ninfluenciar a interpretação do público.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 40,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 255,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 255,
+                "chunk_id": "47aa3a15360104a7712f7205"
+            }
+        },
+        {
+            "chunk_id": "7059f41ac94fca6418a6ac78",
+            "conteudo": "OBRIGADA POR SUA ATENÇÃO\n@tamiresmdlima -  In: tamireslima01",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_de_interface",
+                "aula": "05",
+                "arquivo": "Aula_05.pdf",
+                "pagina": 41,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 60,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_05_design_de_interface",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 60,
+                "chunk_id": "7059f41ac94fca6418a6ac78"
+            }
+        }
+    ]
+}

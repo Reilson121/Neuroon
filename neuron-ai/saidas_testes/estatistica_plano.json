@@ -1,0 +1,1058 @@
+[
+  {
+    "pagina": 1,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 2,
+    "assunto": "fundamentos_de_probabilidade",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 3,
+    "assunto": "fundamentos_de_probabilidade",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 4,
+    "assunto": "fundamentos_de_probabilidade",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 5,
+    "assunto": "analise_combinatoria",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 6,
+    "assunto": "fundamentos_de_probabilidade",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 7,
+    "assunto": "fundamentos_de_probabilidade",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 8,
+    "assunto": "fundamentos_de_probabilidade",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 9,
+    "assunto": "fundamentos_de_probabilidade",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 10,
+    "assunto": "probabilidade_condicional_e_independencia",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 11,
+    "assunto": "probabilidade_condicional_e_independencia",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 12,
+    "assunto": "probabilidade_condicional_e_independencia",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 13,
+    "assunto": "analise_combinatoria",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 14,
+    "assunto": "analise_combinatoria",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 15,
+    "assunto": "analise_combinatoria",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 16,
+    "assunto": "analise_combinatoria",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 17,
+    "assunto": "analise_combinatoria",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 18,
+    "assunto": "analise_combinatoria",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 19,
+    "assunto": "analise_combinatoria",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 20,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 21,
+    "assunto": "introducao_estatistica_e_tipos_de_dados",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 22,
+    "assunto": "introducao_estatistica_e_tipos_de_dados",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 23,
+    "assunto": "introducao_estatistica_e_tipos_de_dados",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 24,
+    "assunto": "introducao_estatistica_e_tipos_de_dados",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 25,
+    "assunto": "variaveis_aleatorias_e_distribuicoes",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 26,
+    "assunto": "variaveis_aleatorias_e_distribuicoes",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 27,
+    "assunto": "variaveis_aleatorias_e_distribuicoes",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 28,
+    "assunto": "variaveis_aleatorias_e_distribuicoes",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 29,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 30,
+    "assunto": "medidas_de_tendencia_central",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 31,
+    "assunto": "medidas_de_tendencia_central",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 32,
+    "assunto": "medidas_de_tendencia_central",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 33,
+    "assunto": "medidas_de_tendencia_central",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 34,
+    "assunto": "medidas_de_dispersao_e_posicao",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 35,
+    "assunto": "medidas_de_tendencia_central",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 36,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 37,
+    "assunto": "medidas_de_dispersao_e_posicao",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 38,
+    "assunto": "medidas_de_dispersao_e_posicao",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 39,
+    "assunto": "medidas_de_dispersao_e_posicao",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 40,
+    "assunto": "medidas_de_dispersao_e_posicao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 41,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 42,
+    "assunto": "valor_esperado_e_momentos",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 43,
+    "assunto": "fundamentos_de_probabilidade",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 44,
+    "assunto": "correlacao_e_associacao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 45,
+    "assunto": "correlacao_e_associacao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 46,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 47,
+    "assunto": "distribuicoes_de_frequencia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 48,
+    "assunto": "distribuicoes_de_frequencia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 49,
+    "assunto": "distribuicoes_de_frequencia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 50,
+    "assunto": "distribuicoes_de_frequencia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 51,
+    "assunto": "distribuicoes_de_frequencia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 52,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 53,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 54,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 55,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 56,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 57,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 58,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 59,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 60,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 61,
+    "assunto": "correlacao_e_associacao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 62,
+    "assunto": "representacoes_graficas",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 63,
+    "assunto": "medidas_de_dispersao_e_posicao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 64,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 65,
+    "assunto": "planejamento_e_amostragem",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 66,
+    "assunto": "planejamento_e_amostragem",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 67,
+    "assunto": "planejamento_e_amostragem",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 68,
+    "assunto": "planejamento_e_amostragem",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 69,
+    "assunto": "planejamento_e_amostragem",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 70,
+    "assunto": "planejamento_e_amostragem",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 71,
+    "assunto": "planejamento_e_amostragem",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 72,
+    "assunto": "planejamento_e_amostragem",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 73,
+    "assunto": "planejamento_e_amostragem",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 74,
+    "assunto": "reamostragem_e_bootstrap",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 75,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 76,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 77,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 78,
+    "assunto": "variaveis_aleatorias_e_distribuicoes",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 79,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 80,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 81,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 82,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 83,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 84,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 85,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 86,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 87,
+    "assunto": "estimacao_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 88,
+    "assunto": "distribuicao_t_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 89,
+    "assunto": "distribuicao_t_e_intervalos_para_media",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 90,
+    "assunto": "distribuicao_t_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 91,
+    "assunto": "distribuicao_t_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 92,
+    "assunto": "distribuicao_t_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 93,
+    "assunto": "distribuicao_t_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 94,
+    "assunto": "distribuicao_t_e_intervalos_para_media",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 95,
+    "assunto": "estimacao_e_intervalos_para_proporcoes",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 96,
+    "assunto": "estimacao_e_intervalos_para_proporcoes",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 97,
+    "assunto": "estimacao_e_intervalos_para_proporcoes",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 98,
+    "assunto": "estimacao_e_intervalos_para_proporcoes",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 99,
+    "assunto": "estimacao_e_intervalos_para_proporcoes",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 100,
+    "assunto": "qui_quadrado_e_intervalos_para_variancia",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 101,
+    "assunto": "qui_quadrado_e_intervalos_para_variancia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 102,
+    "assunto": "qui_quadrado_e_intervalos_para_variancia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 103,
+    "assunto": "qui_quadrado_e_intervalos_para_variancia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 104,
+    "assunto": "qui_quadrado_e_intervalos_para_variancia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 105,
+    "assunto": "qui_quadrado_e_intervalos_para_variancia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 106,
+    "assunto": "qui_quadrado_e_intervalos_para_variancia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 107,
+    "assunto": "variaveis_aleatorias_e_distribuicoes",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 108,
+    "assunto": "variaveis_aleatorias_e_distribuicoes",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 109,
+    "assunto": "valor_esperado_e_momentos",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 110,
+    "assunto": "distribuicao_binomial",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 111,
+    "assunto": "distribuicao_binomial",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 112,
+    "assunto": "distribuicao_binomial",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 113,
+    "assunto": "distribuicao_binomial",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 114,
+    "assunto": "distribuicao_geometrica",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 115,
+    "assunto": "distribuicao_de_poisson",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 116,
+    "assunto": "distribuicao_de_poisson",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 117,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 118,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 119,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 120,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 121,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 122,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 123,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 124,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 125,
+    "assunto": "caudas_longas_e_qq_plot",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 126,
+    "assunto": "caudas_longas_e_qq_plot",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 127,
+    "assunto": "caudas_longas_e_qq_plot",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 128,
+    "assunto": "caudas_longas_e_qq_plot",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 129,
+    "assunto": "distribuicao_normal_tcl_e_aproximacao_binomial",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 130,
+    "assunto": "distribuicao_normal_tcl_e_aproximacao_binomial",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 131,
+    "assunto": "distribuicao_normal_tcl_e_aproximacao_binomial",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 132,
+    "assunto": "distribuicao_normal_tcl_e_aproximacao_binomial",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 133,
+    "assunto": "distribuicao_normal_tcl_e_aproximacao_binomial",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 134,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 135,
+    "assunto": "experimentos_e_testes_de_hipoteses",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 136,
+    "assunto": "experimentos_e_testes_de_hipoteses",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 137,
+    "assunto": "experimentos_e_testes_de_hipoteses",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 138,
+    "assunto": "experimentos_e_testes_de_hipoteses",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 139,
+    "assunto": "experimentos_e_testes_de_hipoteses",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 140,
+    "assunto": "experimentos_e_testes_de_hipoteses",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 141,
+    "assunto": "experimentos_e_testes_de_hipoteses",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 142,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 143,
+    "assunto": "testes_z_e_t",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 144,
+    "assunto": "testes_z_e_t",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 145,
+    "assunto": "testes_z_e_t",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 146,
+    "assunto": "teste_qui_quadrado_de_independencia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 147,
+    "assunto": "teste_qui_quadrado_de_independencia",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 148,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 149,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 150,
+    "assunto": "distribuicao_f_e_anova",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 151,
+    "assunto": "testes_de_permutacao_e_monte_carlo",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 152,
+    "assunto": "testes_de_permutacao_e_monte_carlo",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 153,
+    "assunto": "testes_de_permutacao_e_monte_carlo",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 154,
+    "assunto": "testes_de_permutacao_e_monte_carlo",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 155,
+    "assunto": "testes_de_permutacao_e_monte_carlo",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 156,
+    "assunto": "testes_de_permutacao_e_monte_carlo",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 157,
+    "assunto": "testes_de_permutacao_e_monte_carlo",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 158,
+    "assunto": "testes_de_permutacao_e_monte_carlo",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 159,
+    "assunto": "testes_de_permutacao_e_monte_carlo",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 160,
+    "assunto": "regressao_linear_simples_e_multipla",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 161,
+    "assunto": "regressao_linear_simples_e_multipla",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 162,
+    "assunto": "regressao_linear_simples_e_multipla",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 163,
+    "assunto": "regressao_linear_simples_e_multipla",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 164,
+    "assunto": "regressao_linear_simples_e_multipla",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 165,
+    "assunto": "avaliacao_de_regressao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 166,
+    "assunto": "avaliacao_de_regressao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 167,
+    "assunto": "avaliacao_de_regressao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 168,
+    "assunto": "avaliacao_de_regressao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 169,
+    "assunto": "avaliacao_de_regressao",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 170,
+    "assunto": null,
+    "metodo": "ignorada",
+    "motivo": "fora_dos_assuntos"
+  },
+  {
+    "pagina": 171,
+    "assunto": "validacao_cruzada",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 172,
+    "assunto": "validacao_cruzada",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 173,
+    "assunto": "validacao_cruzada",
+    "metodo": "textual",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 174,
+    "assunto": "validacao_cruzada",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 175,
+    "assunto": "selecao_de_modelos_e_stepwise",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  },
+  {
+    "pagina": 176,
+    "assunto": "selecao_de_modelos_e_stepwise",
+    "metodo": "multimodal",
+    "motivo": "forcado_no_mapa"
+  }
+]

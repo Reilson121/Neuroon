@@ -1,0 +1,477 @@
+{
+  "resumo": {
+    "periodo": "03",
+    "disciplina": "projeto_de_ideacao_de_software",
+    "aula": "03",
+    "assunto": "historias_de_usuario",
+    "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+    "pdf_sha256": "958408d6eaafd2954a998589ce6f768bbaf6d68d39a22562ed59965041daa900",
+    "modelo_visual": "deepseek/deepseek-v4.1-flash",
+    "total_paginas": 12,
+    "total_chunks": 12,
+    "chunk_size": 1000,
+    "chunk_overlap": 150,
+    "paginas_multimodais": 2,
+    "paginas_textuais": 10
+  },
+  "paginas": [
+    {
+      "conteudo": "Projeto de \nIdeação de \nSoftware\nProfessora: Jeneffer Cristine Ferreira",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 71,
+        "motivos_deteccao": []
+      }
+    },
+    {
+      "conteudo": "Histórias de Usuário\n•\nAs histórias de usuário são uma ferramenta poderosa no \ndesign centrado no usuário, permitindo que equipes capturem\nnecessidades reais de forma concisa e orientada a valor.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 2,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 195,
+        "motivos_deteccao": []
+      }
+    },
+    {
+      "conteudo": "# Estrutura Básica de uma História de Usuário\n\nA estrutura é composta por três elementos:\n\n- **Como um [tipo de usuário]**\n  - Define a pessoa ou papel do usuário que tem a necessidade específica, como \"cliente novo\", \"usuário frequente\", \"administrador\" ou \"estudante\".\n\n- **Eu quero [algum objetivo]**\n  - Descreve a ação ou tarefa que o usuário deseja realizar, como \"encontrar um produto\", \"fazer uma reserva\" ou \"editar meu perfil\".\n\n- **Para que [algum motivo/benefício]**\n  - Explica o valor ou benefício esperado ao realizar a ação, como \"comparar preços\", \"garantir minha vaga\" ou \"manter informações atualizadas\".",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 3,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 44,
+        "motivos_deteccao": [
+          "texto_muito_curto"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Por que Histórias de Usuário são importantes?\n\n**Foco no Usuário**\nForçam a equipe a pensar na perspectiva do usuário, em vez de apenas nas funcionalidades do sistema.\n\n**Comunicação Clara**\nFornecem uma maneira simples e direta de comunicar as necessidades dos usuários para toda a equipe.\n\n**Priorização**\nA motivação (\"para que\") ajuda a entender a importância de cada funcionalidade, auxiliando na priorização.\n\n**Escopo do Projeto**\nAjudam a definir o escopo, focando nas funcionalidades que realmente agregam valor ao usuário.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 45,
+        "motivos_deteccao": [
+          "texto_muito_curto"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "Exemplo: E-commerce\n1\nTipo de Usuário\nCliente que está comprando pela primeira vez (pode ter mais \nrestrições de orçamento ou estar menos familiarizado com o \ncatálogo).\n2\nObjetivo\nFiltrar produtos por faixa de preço.\n3\nMotivo/Benefício\nEncontrar opções dentro do orçamento.\nHistória completa: \"Como um cliente que está comprando pela primeira vez, eu \nquero poder filtrar os produtos por faixa de preço, para que eu possa encontrar \nopções que se encaixem no meu orçamento.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 475,
+        "motivos_deteccao": []
+      }
+    },
+    {
+      "conteudo": "Exemplo: Streaming de Música\nTipo de Usuário\nUsuário que está correndo (contexto específico de uso).\nObjetivo\nCriar playlists com músicas de ritmo acelerado.\nMotivo/Benefício\nManter a motivação e energia durante o exercício.\nHistória completa: \"Como um usuário que está correndo, eu quero poder criar \nplaylists com músicas de ritmo acelerado, para que eu possa manter minha \nmotivação e energia durante o treino.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 6,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 414,
+        "motivos_deteccao": []
+      }
+    },
+    {
+      "conteudo": "Exemplo: Plataforma de Aprendizado Online\nTipo de Usuário\nEstudante que perdeu uma aula ao \nvivo (situação específica).\nObjetivo\nAcessar a gravação da aula.\nMotivo/Benefício\nNão perder conteúdo e manter o ritmo \ndo curso.\nHistória completa: \"Como um estudante que perdeu uma aula ao vivo, eu quero poder acessar a gravação da aula, para que eu não\nperca o conteúdo e possa continuar acompanhando o curso.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 7,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 405,
+        "motivos_deteccao": []
+      }
+    },
+    {
+      "conteudo": "Exemplo: Site de Notícias\nMotivo/Benefício\nManter-se atualizado sobre temas específicos\nObjetivo\nReceber notificações sobre notícias de interesse\nTipo de Usuário\nLeitor com interesse específico em tecnologia\nHistória completa: \"Como um leitor interessado em um tópico específico (ex: tecnologia), eu quero poder receber \nnotificações sobre novas notícias relacionadas a esse tópico, para que eu fique sempre atualizado sobre os assuntos que \nme interessam.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 8,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 457,
+        "motivos_deteccao": []
+      }
+    },
+    {
+      "conteudo": "Como Criar Boas Histórias de Usuário\nSeja específico\nEvite histórias genéricas \ndemais. Quanto mais \nespecífico for o tipo de \nusuário e seu objetivo, \nmelhor.\nFoque no valor\nO \"para que\" é crucial. \nCertifique-se de que a \nhistória capture o benefício \nreal para o usuário.\nSeja conciso\nHistórias de usuário devem \nser curtas e fáceis de \nentender.\nColabore\nEnvolva a equipe e, se \npossível, os próprios \nusuários na criação das \nhistórias.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 9,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 441,
+        "motivos_deteccao": []
+      }
+    },
+    {
+      "conteudo": "Pontos Importantes ao Criar Histórias de Usuário\nFoco no usuário\nSempre comece pensando em \nquem é o usuário e qual a sua \nnecessidade. \nIdentifique claramente a persona ou \no papel que está sendo \nrepresentado.\nObjetivo claro\nDefina com precisão qual ação o \nusuário quer realizar. \nO objetivo deve ser específico e \norientado a uma tarefa concreta.\nValor para o usuário\nExplique por que essa ação é \nimportante para o usuário e qual o \nbenefício que ele espera obter ao \nrealizá-la.\nEvite detalhes de \nimplementação\nA história deve focar no \"o quê\" e \nno \"porquê\", não no \"como\" a \nfuncionalidade será implementada \ntecnicamente.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 10,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 631,
+        "motivos_deteccao": []
+      }
+    },
+    {
+      "conteudo": "Histórias de Usuário em E-commerce\nFiltragem por Preço\n\"Como um cliente que está \ncomprando pela primeira vez, eu \nquero poder filtrar os produtos por \nfaixa de preço, para que eu possa \nencontrar opções que se encaixem no \nmeu orçamento.\"\nLista de Desejos\n\"Como um usuário frequente, eu \nquero salvar itens na minha lista de \ndesejos para que eu possa comprá-\nlos mais tarde.\"\nComparação de Produtos\n\"Como um consumidor indeciso, eu \nquero comparar as avaliações de \nprodutos similares para que eu possa \ntomar uma decisão de compra mais \ninformada.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 551,
+        "motivos_deteccao": []
+      }
+    },
+    {
+      "conteudo": "Atividades\n●\nElaborar 15 historias do usuário para o projeto",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 12,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 60,
+        "motivos_deteccao": []
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "9da8856d859500eb3b7349e1",
+      "conteudo": "Projeto de \nIdeação de \nSoftware\nProfessora: Jeneffer Cristine Ferreira",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 71,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 71,
+        "chunk_id": "9da8856d859500eb3b7349e1"
+      }
+    },
+    {
+      "chunk_id": "59199f77c176341e4710fc76",
+      "conteudo": "Histórias de Usuário\n•\nAs histórias de usuário são uma ferramenta poderosa no \ndesign centrado no usuário, permitindo que equipes capturem\nnecessidades reais de forma concisa e orientada a valor.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 2,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 195,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 195,
+        "chunk_id": "59199f77c176341e4710fc76"
+      }
+    },
+    {
+      "chunk_id": "e6e8597da0b27acdf9efc231",
+      "conteudo": "# Estrutura Básica de uma História de Usuário\n\nA estrutura é composta por três elementos:\n\n- **Como um [tipo de usuário]**\n  - Define a pessoa ou papel do usuário que tem a necessidade específica, como \"cliente novo\", \"usuário frequente\", \"administrador\" ou \"estudante\".\n\n- **Eu quero [algum objetivo]**\n  - Descreve a ação ou tarefa que o usuário deseja realizar, como \"encontrar um produto\", \"fazer uma reserva\" ou \"editar meu perfil\".\n\n- **Para que [algum motivo/benefício]**\n  - Explica o valor ou benefício esperado ao realizar a ação, como \"comparar preços\", \"garantir minha vaga\" ou \"manter informações atualizadas\".",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 3,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 44,
+        "motivos_deteccao": [
+          "texto_muito_curto"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 623,
+        "chunk_id": "e6e8597da0b27acdf9efc231"
+      }
+    },
+    {
+      "chunk_id": "0a0c3c1ea050184947dcc313",
+      "conteudo": "# Por que Histórias de Usuário são importantes?\n\n**Foco no Usuário**\nForçam a equipe a pensar na perspectiva do usuário, em vez de apenas nas funcionalidades do sistema.\n\n**Comunicação Clara**\nFornecem uma maneira simples e direta de comunicar as necessidades dos usuários para toda a equipe.\n\n**Priorização**\nA motivação (\"para que\") ajuda a entender a importância de cada funcionalidade, auxiliando na priorização.\n\n**Escopo do Projeto**\nAjudam a definir o escopo, focando nas funcionalidades que realmente agregam valor ao usuário.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 45,
+        "motivos_deteccao": [
+          "texto_muito_curto"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 534,
+        "chunk_id": "0a0c3c1ea050184947dcc313"
+      }
+    },
+    {
+      "chunk_id": "d0ab5f1548374a1c56733feb",
+      "conteudo": "Exemplo: E-commerce\n1\nTipo de Usuário\nCliente que está comprando pela primeira vez (pode ter mais \nrestrições de orçamento ou estar menos familiarizado com o \ncatálogo).\n2\nObjetivo\nFiltrar produtos por faixa de preço.\n3\nMotivo/Benefício\nEncontrar opções dentro do orçamento.\nHistória completa: \"Como um cliente que está comprando pela primeira vez, eu \nquero poder filtrar os produtos por faixa de preço, para que eu possa encontrar \nopções que se encaixem no meu orçamento.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 475,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 475,
+        "chunk_id": "d0ab5f1548374a1c56733feb"
+      }
+    },
+    {
+      "chunk_id": "04240acd20916620534fa0e7",
+      "conteudo": "Exemplo: Streaming de Música\nTipo de Usuário\nUsuário que está correndo (contexto específico de uso).\nObjetivo\nCriar playlists com músicas de ritmo acelerado.\nMotivo/Benefício\nManter a motivação e energia durante o exercício.\nHistória completa: \"Como um usuário que está correndo, eu quero poder criar \nplaylists com músicas de ritmo acelerado, para que eu possa manter minha \nmotivação e energia durante o treino.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 6,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 414,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 414,
+        "chunk_id": "04240acd20916620534fa0e7"
+      }
+    },
+    {
+      "chunk_id": "f5a4e378b4bf5bf50f809685",
+      "conteudo": "Exemplo: Plataforma de Aprendizado Online\nTipo de Usuário\nEstudante que perdeu uma aula ao \nvivo (situação específica).\nObjetivo\nAcessar a gravação da aula.\nMotivo/Benefício\nNão perder conteúdo e manter o ritmo \ndo curso.\nHistória completa: \"Como um estudante que perdeu uma aula ao vivo, eu quero poder acessar a gravação da aula, para que eu não\nperca o conteúdo e possa continuar acompanhando o curso.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 7,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 405,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 405,
+        "chunk_id": "f5a4e378b4bf5bf50f809685"
+      }
+    },
+    {
+      "chunk_id": "33199fe0a0b9f38f0ea20d83",
+      "conteudo": "Exemplo: Site de Notícias\nMotivo/Benefício\nManter-se atualizado sobre temas específicos\nObjetivo\nReceber notificações sobre notícias de interesse\nTipo de Usuário\nLeitor com interesse específico em tecnologia\nHistória completa: \"Como um leitor interessado em um tópico específico (ex: tecnologia), eu quero poder receber \nnotificações sobre novas notícias relacionadas a esse tópico, para que eu fique sempre atualizado sobre os assuntos que \nme interessam.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 8,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 457,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 457,
+        "chunk_id": "33199fe0a0b9f38f0ea20d83"
+      }
+    },
+    {
+      "chunk_id": "7cb9d31154fc4c28f25f4601",
+      "conteudo": "Como Criar Boas Histórias de Usuário\nSeja específico\nEvite histórias genéricas \ndemais. Quanto mais \nespecífico for o tipo de \nusuário e seu objetivo, \nmelhor.\nFoque no valor\nO \"para que\" é crucial. \nCertifique-se de que a \nhistória capture o benefício \nreal para o usuário.\nSeja conciso\nHistórias de usuário devem \nser curtas e fáceis de \nentender.\nColabore\nEnvolva a equipe e, se \npossível, os próprios \nusuários na criação das \nhistórias.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 9,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 441,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 441,
+        "chunk_id": "7cb9d31154fc4c28f25f4601"
+      }
+    },
+    {
+      "chunk_id": "425b2ff7ad16a7ad607ff7f0",
+      "conteudo": "Pontos Importantes ao Criar Histórias de Usuário\nFoco no usuário\nSempre comece pensando em \nquem é o usuário e qual a sua \nnecessidade. \nIdentifique claramente a persona ou \no papel que está sendo \nrepresentado.\nObjetivo claro\nDefina com precisão qual ação o \nusuário quer realizar. \nO objetivo deve ser específico e \norientado a uma tarefa concreta.\nValor para o usuário\nExplique por que essa ação é \nimportante para o usuário e qual o \nbenefício que ele espera obter ao \nrealizá-la.\nEvite detalhes de \nimplementação\nA história deve focar no \"o quê\" e \nno \"porquê\", não no \"como\" a \nfuncionalidade será implementada \ntecnicamente.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 10,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 631,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 631,
+        "chunk_id": "425b2ff7ad16a7ad607ff7f0"
+      }
+    },
+    {
+      "chunk_id": "82118210dd598b16184ee102",
+      "conteudo": "Histórias de Usuário em E-commerce\nFiltragem por Preço\n\"Como um cliente que está \ncomprando pela primeira vez, eu \nquero poder filtrar os produtos por \nfaixa de preço, para que eu possa \nencontrar opções que se encaixem no \nmeu orçamento.\"\nLista de Desejos\n\"Como um usuário frequente, eu \nquero salvar itens na minha lista de \ndesejos para que eu possa comprá-\nlos mais tarde.\"\nComparação de Produtos\n\"Como um consumidor indeciso, eu \nquero comparar as avaliações de \nprodutos similares para que eu possa \ntomar uma decisão de compra mais \ninformada.\"",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 551,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 551,
+        "chunk_id": "82118210dd598b16184ee102"
+      }
+    },
+    {
+      "chunk_id": "ebb623ff7f009f99c43dd1cf",
+      "conteudo": "Atividades\n●\nElaborar 15 historias do usuário para o projeto",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "03",
+        "assunto": "historias_de_usuario",
+        "arquivo": "Aula 03- Projeto de Ideao de Software - Histria do Usurio.pdf",
+        "pasta_aula": "aula_03_historias_de_usuario",
+        "pagina": 12,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "caracteres_texto_original": 60,
+        "motivos_deteccao": [],
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 60,
+        "chunk_id": "ebb623ff7f009f99c43dd1cf"
+      }
+    }
+  ]
+}

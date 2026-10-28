@@ -1,0 +1,1282 @@
+{
+  "pdf_sha256": "c8456c8a2a72ec8c3dffc42f61576b95130603419c0678df13031d03bb019cae",
+  "modelo_visual": "deepseek/deepseek-v4.1-flash",
+  "versao_extracao": 1,
+  "disciplina": "projeto_de_ideacao_de_software",
+  "aula": "01",
+  "paginas": [
+    {
+      "conteudo": "# PROJETO DE IDEAÇÃO DE SOFTWARE\n\n**Professora:** Jeneffer Cristine Ferreira\n\n## Etapas do processo de ideação\n\nO material apresenta um fluxo composto por quatro etapas sequenciais, representadas por ícones e rótulos:\n\n1. **DESCUBRIR** — ícone de lupa\n2. **DEFINIR** — ícone de alvo com dardo\n3. **IDEAR** — ícone de lâmpada\n4. **PROTOTIPAR** — ícone de foguete\n\nAs etapas são conectadas por setas que indicam progressão da primeira à última.\n\n## Elementos visuais associados ao processo\n\n- Lâmpada acesa (ideia/ideação)\n- Nuvem com três figuras humanas (equipe/colaboração)\n- Balão de fala com reticências (comunicação)\n- Engrenagem (configuração/processo)\n- Seta circular (iteração/retorno)\n- Tela de computador exibindo um wireframe de interface, com um bloco de código `</>` e um post-it amarelo com ícone de lâmpada\n- Caderno de anotações com esboços de wireframes, setas e formas geométricas, acompanhado de caneta",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "OI, EU SOU\n\n# Jeneffer Ferreira\n\n- **Nome:** Jeneffer Cristine Ferreira\n- **Graduação:** Bacharelado em Ciência da Computação\n- **Mestrado:** Inteligência Artificial – área: Processamento de Imagens\n- **Área de Atuação:** Inteligência Artificial na Educação, Tecnologias Educacionais, UX Design, Design Instrucional",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 2,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# EMENDA\n## PROJETO DE IDEAÇÃO DE SOFTWARE\nProfessora Jeneffer Cristine Ferreira\n\n1. Concepção de Produtos Digitais.\n2. Problematização e Visão de Produtos.\n3. Definição de Personas.\n4. Brainstorming e Nivelamento de Funcionalidades.\n5. Revisão Técnica, Negócio e UX.\n6. Matriz CSD.\n7. Desk Research.\n8. Jornadas de Usuário.\n9. Sequenciador de Funcionalidades.\n10. Canvas MVP.\n11. Análise de Benchmark.\n12. Desenvolvimento de Fluxo de Tela.\n13. Protótipo Navegável.\n14. Pitch do Software.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 3,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# OBJETIVO GERAL\n## PROJETO DE IDEAÇÃO DE SOFTWARE\nProfessora Jenefter Cristine Ferreira\n\n### Capacitação e Competências\nCapacitar os estudantes para a **concepção, planejamento e validação inicial de produtos digitais**, desenvolvendo competências técnicas e comportamentais relacionadas às práticas utilizadas no mercado de desenvolvimento de software, com ênfase na **identificação de problemas, compreensão das necessidades dos usuários, ideação, definição de funcionalidades, construção de MVP, prototipação e apresentação de propostas** de software.\n\n### Práticas de Mercado e Colaboração\nA disciplina busca aproximar o estudante das práticas adotadas por empresas de tecnologia e pelo ecossistema do Porto Digital, estimulando a capacidade de trabalhar colaborativamente na concepção de soluções digitais voltadas à **resolução de problemas reais**.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# COMPETÊNCIAS A SEREM DESENVOLVIDAS\n## PROJETO DE IDEAÇÃO DE SOFTWARE\nProfessora Jenefler Cristine Ferreira\n\n### COMPETÊNCIAS TÉCNICAS — HARD SKILLS\n\n1. **Identificação e análise de problemas**\n   Capacidade de compreender situações reais, identificar problemas e analisar oportunidades para desenvolvimento de soluções digitais.\n\n2. **Concepção de produtos digitais**\n   Capacidade de transformar problemas e necessidades dos usuários em propostas estruturadas de produtos digitais.\n\n3. **Pesquisa e investigação**\n   Capacidade de realizar pesquisas exploratórias utilizando técnicas como Desk Research, análise de Benchmark e investigação com potenciais usuários.\n\n4. **Modelagem de usuários**\n   Capacidade de representar públicos e usuários por meio da construção de personas e jornadas.\n\n5. **Ideação**\n   Capacidade de utilizar técnicas estruturadas para geração, organização e seleção de ideias.\n\n6. **Priorização de funcionalidades**\n   Capacidade de identificar funcionalidades essenciais, desejáveis e futuras de um produto digital.\n\n7. **Desenvolvimento de MVP**\n   Capacidade de definir a versão mínima de um produto capaz de validar suas principais hipóteses.\n\n8. **Prototipação**\n   Capacidade de transformar requisitos e ideias em representações visuais e protótipos navegáveis.\n\n9. **Comunicação de produto**\n   Capacidade de estruturar e apresentar uma proposta de software utilizando técnicas de Pitch.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "COMPETÊNCIAS\nPROJETO DE IDEAÇÃO DE SOFTWARE\nProfessora Jeneffer Cristine Ferreira\n\n- Conhecimento de ferramentas que auxiliem na solução de problemas computacionais;\n- Capacidade de identificar necessidades, desenvolver, implementar e manter softwares computacionais;",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 6,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# SISTEMA DE AVALIAÇÃO\n\nO sistema de avaliação é composto por quatro etapas, cada uma com valor de 10,0 pontos:\n\n*   **1ª Avaliação**\n    *   **Pontuação:** 10,0 pontos\n    *   **Descrição:** Projeto\n\n*   **2ª Avaliação**\n    *   **Pontuação:** 10,0 pontos\n    *   **Descrição:** 100% nota do PORTO\n\n*   **2ª Chamada**\n    *   **Pontuação:** 10,0 pontos\n    *   **Descrição:** Prova escrita\n\n*   **Prova Final**\n    *   **Pontuação:** 10,0 pontos\n    *   **Descrição:** Prova escrita",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 7,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# PROJETO DE IDEAÇÃO DE SOFTWARE\n## CRONOGRAMA 2026.2\n\n**DISCIPLINA:** Projeto de Ideação de Software\n**PERÍODO:** 12/08/2026 a 25/11/2026\n**CARGA HORÁRIA:** 40 horas\n**ENCONTROS:** 16\n**DIA DAS AULAS:** Quarta-feira\n**SEMESTRE:** 2026.2\n\n| AULA | DATA | UNIDADE | TEMA | CONTEÚDO |\n| :--- | :--- | :--- | :--- | :--- |\n| 1 | 12/08/2026 | Unidade I | Introdução ao Projeto de Ideação de Software | Apresentação da disciplina; conceitos de ideia, problema e solução; produtos e serviços digitais; concepção de produtos; exemplos de produtos de tecnologia. |\n| 2 | 19/08/2026 | Unidade I | Problematização e Visão de Produto | Identificação de problemas; contexto; causas; consequências; pessoas afetadas; problema versus solução; visão inicial do produto; proposta de valor. |\n| 3 | 26/08/2026 | Unidade I | Matriz CSD | Conceito de Matriz CSD; certezas; suposições; dúvidas; hipóteses; validação. |\n| 4 | 02/09/2026 | Unidade I | Desk Research | Pesquisa exploratória; fontes de informação; dados secundários; indicadores; estudos; mercado; identificação de tendências. |\n| 5 | 09/09/2026 | Unidade I | Personas | Público-alvo; usuários; stakeholders; personas; necessidades; comportamentos; dores; objetivos. |\n| 6 | 16/09/2026 | Unidade I | Jornada do Usuário | Conceito de jornada; etapas; pontos de contato; emoções; dificuldades; oportunidades. |\n| 7 | 23/09/2026 | Unidade I | Brainstorming e Ideação | Criatividade; geração de ideias; brainstorming; divergência; convergência; seleção de ideias. |\n| 8 | 30/09/2026 | Unidade I | Nivelamento de Funcionalidades e Revisão Técnica, Negócio e UX | Funcionalidades; priorização; valor; complexidade; tecnologia; negócio; experiência do usuário. |\n| 9 | 07/10/2026 | Unidade II | Análise de Benchmark | Benchmark; concorrência; soluções semelhantes; funcionalidades; diferenciais; oportunidades. |\n| 10 | 14/10/2026 | Unidade II | MVP — Minimum Viable Product | Conceito de MVP; produto mínimo; validação; hipóteses; aprendizado; funcionalidades essenciais. |\n| 11 | 21/10/2026 | Unidade II | Canvas MVP | Estrutura do Canvas MVP; problema; segmento; proposta de valor; funcionalidades; métricas; validação. |\n| 12 | 28/10/2026 | Unidade II | Sequenciador de Funcionalidades | Organização de funcionalidades; dependências; prioridade; sequência; experiência; fluxo. |\n| 13 | 04/11/2026 | Unidade II | Desenvolvimento do Fluxo de Tela | User Flow; fluxo de navegação; telas; ações; decisões; caminhos principais e alternativos. |\n| 14 | 11/11/2026 | Unidade II | Prototipação | Wireframes; baixa fidelidade; média fidelidade; protótipos; interfaces; navegação. |\n| 15 | 18/11/2026 | Unidade II | Protótipo Navegável e Construção do Pitch | Conexão entre telas; prototipação interativa; revisão do fluxo; Pitch; estrutura narrativa; demonstração de produto. |\n| 16 | 25/11/2026 | Unidade II | Apresentação Final dos Projetos | Apresentação final do produto: problema, público, persona, pesquisa, jornada, solução, Benchmark, proposta de valor, MVP, funcionalidades, fluxo, protótipo e Pitch. |\n\n**OBSERVAÇÃO:** Este cronograma poderá sofrer ajustes conforme o andamento das atividades e a necessidade da turma.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 8,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Ideia, Problema e Solução\n\nEsses três conceitos são fundamentais para a disciplina.\n\nMuitos projetos de software começam com uma frase como:\n\n> \"Tenho uma ideia para um aplicativo.\"\n\nTer uma ideia é importante, porém uma ideia sozinha não significa que existe um produto necessário ou viável.\n\nPara desenvolver um produto digital, precisamos compreender **três elementos**:\n\n**IDEIA → PROBLEMA → SOLUÇÃO**\n\n## 1. IDEIA\n\nÉ o **ponto de partida**.\n\nPode ser uma percepção, um desejo, uma inspiração ou uma oportunidade.\n\n## 2. PROBLEMA\n\nÉ a **necessidade real** de alguém que precisa ser entendida e validada.\n\nSem um problema relevante, não existe motivo para criar uma solução.\n\n## 3. SOLUÇÃO\n\nÉ a **resposta ao problema** de forma útil, viável e desejável.\n\nA solução deve gerar valor para o usuário e ser viável técnica e sustentável.\n\n## Resumo\n\nUma boa ideia ganha força quando resolve um problema real de uma pessoa específica e oferece uma solução que realmente faz diferença.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 9,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que é uma Ideia?\n\nUma **ideia** é uma possibilidade ou proposta inicial.\n\nEla surge quando imaginamos uma maneira diferente de fazer alguma coisa ou resolver alguma situação.\n\n## Exemplos:\n\n- \"Poderíamos criar um aplicativo para **organizar os horários** dos estudantes.\"\n- \"Poderíamos criar um sistema para ajudar pequenos comerciantes a **controlar o estoque**.\"\n- \"Poderíamos desenvolver uma plataforma para **aproximar alunos** de oportunidades de estágio.\"\n\nTodas essas frases representam **ideias**.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 10,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Uma ideia não deve ser confundida com um problema\n\n## Conceito central\n\nUma ideia não deve ser confundida com um problema.\n\n## Exemplo de afirmação\n\nConsidere a seguinte afirmação:\n\n> \"Precisamos desenvolver um aplicativo de estacionamento.\"\n\nIsso **não** representa um problema. Representa uma **possível solução**.\n\nPrecisamos **descobrir qual situação motivou essa ideia**.\n\n## Formulação do problema\n\nTalvez o problema seja:\n\n> \"Motoristas perdem muito tempo procurando vagas disponíveis em determinadas regiões da cidade.\"\n\nAgora conseguimos compreender melhor o **contexto**.\n\nA partir deste problema, **várias soluções** poderiam surgir.\n\n## Exemplos de soluções para esse problema\n\n- Aplicativo de localização de vagas\n- Sensores inteligentes\n- Sistema de reserva\n- Painel eletrônico\n- Integração com estacionamentos privados\n\n## Princípios da idEação\n\nPerceba que o problema pode gerar **diversas soluções**.\n\nEsse é um dos **princípios mais importantes da idEação**:\n\n**Não devemos nos apaixonar pela primeira solução. Precisamos compreender profundamente o problema.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que é um Problema?\n\nUm **problema** é uma situação que gera:\n\n- dificuldade;\n- necessidade;\n- insatisfação;\n- perda de tempo;\n- desperdício de recursos;\n- risco;\n- desconforto;\n- impossibilidade de realizar determinada tarefa.\n\nNo desenvolvimento de produtos digitais, um problema deve ser observado a partir da **perspectiva do usuário**.\n\nUm bom problema precisa responder perguntas como:\n\n1. **Quem possui o problema?**\n   - Exemplo: Estudantes universitários.\n\n2. **Qual é o problema?**\n   - Dificuldade em acompanhar prazos de atividades acadêmicas.\n\n3. **Quando acontece?**\n   - Durante o semestre, especialmente quando existem várias disciplinas simultaneamente.\n\n4. **Quais são as consequências?**\n   - atrasos;\n   - atividades esquecidas;\n   - perda de notas;\n   - desorganização.\n\n5. **Por que esse problema é relevante?**\n   - Porque afeta diretamente o desenvolvimento acadêmico.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 12,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo de formulação de problema\n\nA forma como formulamos um problema faz toda a diferença na qualidade das soluções que iremos desenvolver.\n\n## Formulação fraca\n\n**Exemplo:**\n\"Criar um **aplicativo para estudantes**.\"\n\n**Característica:**\nMuito genérica, não explica qual é a necessidade real.\n\n## Formulação melhor\n\n**Exemplo:**\n\"Estudantes universitários possuem **dificuldade** para acompanhar simultaneamente **prazos de provas, trabalhos e atividades de diferentes disciplinas**, causando **atrasos e perda de atividades**.\"\n\n**Característica:**\nEspecífica, clara e focada na necessidade do usuário.\n\n## O que essa formulação revela?\n\n- **Quem tem o problema?**\n  Estudantes universitários.\n\n- **Qual é o problema?**\n  Dificuldade para acompanhar simultaneamente prazos de provas, trabalhos e atividades de diferentes disciplinas.\n\n- **Quais são as consequências?**\n  Atrasos e perda de atividades.\n\n- **Por que é relevante?**\n  Porque afeta diretamente o desempenho acadêmico.\n\n## Conclusão\n\nAgora existe um problema claro. A partir dele, podemos iniciar a busca por soluções.\n\nUm bom problema é o ponto de partida para um ótimo produto.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 13,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que é uma Solução?\n\nA **solução** é uma proposta criada para:\n\n- **eliminar**\n- **reduzir**\n- **minimizar**\n- **facilitar**\n\numa determinada **situação problemática**.\n\n## Uma solução pode ser:\n\n- um software;\n- aplicativo;\n- processo;\n- serviço;\n- plataforma;\n- mudança organizacional;\n- automação;\n- combinação de tecnologia e serviço.\n\n## Exemplos de soluções\n\n- Software\n- Aplicativo\n- Processo\n- Serviço\n- Plataforma\n- Mudança organizacional\n- Automação\n- Combinação de tecnologia e serviço\n\n## É importante compreender que:\n\n**Nem todo problema precisa necessariamente de um aplicativo.**\n\nÀs vezes, a **melhor solução** pode ser:\n\n- melhorar um processo;\n- reorganizar informações;\n- integrar sistemas existentes;\n- automatizar uma atividade;\n- melhorar uma interface.\n\n## A solução deve gerar **valor** para o usuário, ser **viável** e **sustentável**.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo completo\n\nImagine o seguinte cenário:\n\n## Problema\nPequenos comerciantes controlam **estoque** utilizando **cadernos ou planilhas desorganizadas**.\n\n## Consequências\n- Produtos **acabam sem aviso**;\n- Compras são realizadas **em excesso**;\n- Produtos **vencem**;\n- Existe dificuldade de **acompanhar vendas**.\n\n## Possível solução\n**Sistema simples de gestão de estoque.**\n\nA solução proposta é simples, acessível e pode gerar grande impacto no dia a dia do pequeno comerciante.\n\n## Funcionalidades iniciais\n- Cadastrar **produtos**\n- Registrar **entrada**\n- Registrar **saída**\n- Consultar **quantidade**\n- Receber **alerta de estoque baixo**\n\n## Fluxo do exemplo\nNesse exemplo, a tecnologia surge como uma **resposta a uma necessidade** identificada.\n\nIdentificar o problema → Compreender a necessidade → Propor uma solução → Gerar valor para o usuário",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 15,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Concepção de Produtos\n\nA **concepção de produto** representa o conjunto de atividades utilizadas para **transformar uma necessidade ou oportunidade em uma proposta de produto**.\n\nÉ a fase na qual analisamos, pesquisamos, criamos, testamos ideias e estruturamos a solução para **entregar valor** ao usuário e ao mercado.\n\n## O processo de concepção\n\nO processo é composto por 6 etapas sequenciais:\n\n1. **Investigar**\n   - Entender o contexto, os usuários e o problema.\n\n2. **Definir**\n   - Definir o problema principal e o público alvo.\n\n3. **Idear**\n   - Gerar ideias e possíveis soluções criativas.\n\n4. **Planejar**\n   - Estruturar a solução, funcionalidades e prioridades.\n\n5. **Representar**\n   - Criar modelos, fluxos e protótipos para visualizar a solução.\n\n6. **Validar**\n   - Testar com usuários e validar se a solução entrega valor.\n\n### Relações visuais do processo\n\nO fluxo segue a sequência:\nInvestigar → Definir → Idear → Planejar → Representar → Validar\n\nA etapa **Validar** possui uma seta de retorno que aponta para a etapa **Representar**, indicando um ciclo de realimentação entre validação e representação da solução.\n\n### Elementos visuais associados\n\n- **Investigar**: representado por uma lupa.\n- **Definir**: representado por um alvo com uma flecha.\n- **Idear**: representado por uma lâmpada.\n- **Planejar**: representado por uma prancheta com lista de verificação.\n- **Representar**: representado por um monitor com wireframe.\n- **Validar**: representado por um balão de fala com um coração e silhuetas de pessoas.\n\n### Representações gráficas da solução\n\n- Um diagrama de fluxo com ícones de usuário, caixas de texto e setas conectando elementos.\n- Dois wireframes de telas de celular, contendo elementos de interface como imagens, listas e botões.\n- Um laptop exibindo um painel com gráficos de barras e um gráfico de pizza.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 16,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# QUESTÕES FUNDAMENTAIS DA CONCEPÇÃO\n\n**01 Qual problema vamos resolver?**\nIdentificamos a dor real que impacta o usuário.\n\n**02 Para quem?**\nDefinimos o público-alvo e seus perfis (personas).\n\n**03 Por que esse problema é importante?**\nAnalisamos as causas, consequências e o impacto.\n\n**04 Qual solução podemos desenvolver?**\nGeramos e selecionamos as melhores ideias e abordagens.\n\n**05 Como essa solução poderá funcionar?**\nDefinimos o funcionamento, o fluxo e a experiência do usuário.\n\n**06 Quais funcionalidades são necessárias?**\nPriorizamos o que é essencial para entregar valor no início.\n\n**07 Como saberemos se a solução realmente é útil?**\nEstabelecemos métricas, testes e formas de validação com usuários.\n\n**Conceber é transformar ideias em soluções com propósito e valor.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 17,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# A concepção de produto\n\nA concepção de produto não é apenas ter uma ideia, mas entender profundamente o problema e criar uma solução que seja **desejável, viável e útil**.\n\nA concepção de produto é representada pela combinação de três elementos:\n\n- **Desejável** + **Viável** + **Útil**\n\nDefinições dos elementos:\n\n- **Desejável**: Resolve uma necessidade real do usuário.\n- **Viável**: Pode ser desenvolvida com os recursos existentes.\n- **Útil**: Entrega valor e melhora a vida do usuário.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 18,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# A CONCEPÇÃO ACONTECE ANTES DO DESENVOLVIMENTO\n\nUm **erro comum** em projetos de software é começar exclusivamente pela programação.\n\n## EXEMPLO DE ERRO\n\n1. **A equipe recebe uma ideia.**\n   - Exemplo: \"Vamos criar um aplicativo para ajudar estudantes.\"\n2. **A equipe inicia imediatamente a programação.**\n3. **Após meses de desenvolvimento, descobrem que os estudantes não queriam o que foi feito.**\n   - Representação visual: um telefone exibindo a mensagem \"Nossos alunos não usam!\" e um gráfico de barras em declínio.\n\n**Conclusão do exemplo:**\n- O problema pode não estar no código.\n- O problema pode estar na **concepção do problema**.\n\n## POR QUE ISSO ACONTECE?\n\nTalvez a equipe:\n\n- não tenha **compreendido o problema**;\n- não tenha **conversado com usuários**;\n- tenha criado **funcionalidades desnecessárias**;\n- tenha ignorado **soluções já existentes**;\n- tenha desenvolvido algo **difícil de utilizar**.\n\n## IMPACTO\n\nSem uma boa concepção, poderemos criar algo que ninguém precisa, gastar tempo e dinheiro e **impactar negativamente nos resultados**.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 19,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# ETAPAS DO PROCESSO\n\nO processo é representado por uma sequência de 7 etapas, conectadas por setas que indicam a progressão:\n\n1. **IDENTIFICAR**\n   Identificar o problema ou necessidade que precisa ser resolvido.\n\n2. **IDEAR**\n   Gerar ideias e possíveis soluções para o problema.\n\n3. **PLANEJAR**\n   Analisar, selecionar e planejar a melhor solução.\n\n4. **DESENVOLVER**\n   Desenvolver e implementar a solução.\n\n5. **TESTAR**\n   Testar a solução para garantir que funciona bem.\n\n6. **IMPLEMENTAR**\n   Colocar a solução em uso e acompanhar os resultados.\n\n7. **AVALIAR E MELHORAR**\n   Avaliar os resultados e buscar melhorias contínuas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 20,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Perguntas essenciais da concepção de produtos\n\nAntes de desenvolver qualquer software, precisamos fazer as perguntas certas. Essas perguntas ajudam a entender o **problema**, o **usuário**, as **soluções** possíveis, o **mercado** e a **tecnologia**.\n\n## 1. Sobre o problema\n\n- Qual **problema** queremos resolver?\n- Quem **possui** esse problema?\n- Com que **frequência** ele acontece?\n- Qual **impacto** provoca?",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 21,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Perguntas essenciais da concepção de produtos\n\nAntes de desenvolver qualquer software, precisamos fazer as perguntas certas.\nEssas perguntas ajudam a entender o problema, o usuário, as soluções possíveis, o mercado e a tecnologia.\n\n## 2. Sobre o usuário\n\n- Quem utilizará a solução?\n- Quais são suas necessidades?\n- Quais são suas dificuldades?\n- Como ele resolve esse problema atualmente?",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 22,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Perguntas essenciais da concepção de produtos\n\nAntes de desenvolver qualquer software, precisamos fazer as perguntas certas. Essas perguntas ajudam a entender o **problema**, o **usuário**, as **soluções** possíveis, o **mercado** e a **tecnologia**.\n\n## 3. Sobre a solução\n\n- Como podemos resolver o problema?\n- Existem outras possibilidades?\n- Quais funcionalidades são essenciais?",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 23,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Perguntas essenciais da concepção de produtos\n\nAntes de desenvolver qualquer software, precisamos fazer as perguntas certas. Essas perguntas ajudam a entender o **problema**, o **usuário**, as **soluções** possíveis, o **mercado** e a **tecnologia**.\n\n## 4. Sobre o mercado\n\n- Existem **soluções** semelhantes?\n- Quem são os **concorrentes**?\n- O que podemos oferecer de **diferente**?\n\n## Elemento visual\n\nA página apresenta uma ilustração de uma tela de computador exibindo três cartões de produtos, cada um com uma imagem, linhas de texto e uma avaliação por estrelas. Um dos cartões mostra 4 estrelas, outro 3 estrelas e outro 5 estrelas. Ao lado da tela, há uma lupa e um alvo com uma flecha cravada no centro.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 24,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Perguntas essenciais da concepção de produtos\n\nAntes de desenvolver qualquer software, precisamos fazer as perguntas certas. Essas perguntas ajudam a entender o problema, o usuário, as soluções possíveis, o mercado e a tecnologia.\n\n## 5. Sobre tecnologia\n\n- É possível desenvolver?\n- Quais tecnologias seriam necessárias?\n- Qual seria a complexidade?\n\n### Elementos visuais associados ao tema tecnologia\n\nRepresentação de um laptop com código, um smartphone com ícone de engrenagem e uma nuvem conectada a um banco de dados.\n\n### Relação de fatores relacionados à tecnologia\n\nViabilidade Técnica → Tempo de Desenvolvimento → Custo e Recursos\n\n## Considerações finais\n\nResponder essas perguntas com clareza é fundamental para criar soluções úteis, viáveis e relevantes.\n\nA concepção bem feita aumenta as chances de sucesso do produto e reduz riscos e retrabalhos.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 25,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Os três pilares da concepção de produto\n\nUma proposta de produto digital pode ser analisada a partir de **três perspectivas** fundamentais:\n\n## USUÁRIO\n\n**A solução é:**\n- desejável?\n- útil?\n- fácil de utilizar?\n\n**Descrição:** Foca nas pessoas, em suas necessidades, dores, comportamentos e experiências.\n\n## NEGÓCIO\n\n**A solução possui:**\n- valor?\n- público?\n- sustentabilidade?\n- oportunidade?\n\n**Descrição:** Garante que a solução gere valor para o mercado e possa ser sustentável ao longo do tempo.\n\n## TECNOLOGIA\n\n**A solução é:**\n- possível de desenvolver?\n- tecnicamente viável?\n- possível de manter?\n\n**Descrição:** Assegura que a solução pode ser construída com os recursos e tecnologias disponíveis.\n\n## Considerações finais\n\nResponder essas perguntas com clareza é fundamental para criar soluções úteis, viáveis e relevantes.\n\nA concepção bem feita aumenta as chances de sucesso do produto e reduz riscos e retrabalhos.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 26,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Design Centrado no Usuário (UCD)\n\n## Usuário no Centro\nColoca o usuário no coração de todas as decisões de design, garantindo que suas vozes sejam ouvidas em cada etapa do processo.\n\n## Entendimento Profundo\nBusca compreender necessidades, desejos e comportamentos reais através de pesquisas e observação direta.\n\n## Soluções Efetivas\nResulta em produtos e serviços úteis, acessíveis e genuinamente desejáveis para o público-alvo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 27,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Por que o UCD é essencial hoje?\n\n## Diferencial Competitivo\nUma experiência digital intuitiva e bem projetada se tornou o principal fator de diferenciação no mercado atual, onde a escolha é abundante.\n\n## Aumento de Satisfação\nProdutos centrados no usuário geram maior satisfação, engajamento e taxas de sucesso significativamente mais altas.\n\n## Inovação Sustentável\nEmpresas líderes mundiais adotam UCD como metodologia central para inovar continuamente e fidelizar clientes de forma duradoura.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 28,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "01 Empatia Profunda\nDesenvolver compreensão genuína das experiências, frustrações e aspirações dos usuários\n\n02 Feedback Contínuo\nColetar e integrar retornos dos usuários em todas as fases do desenvolvimento\n\n03 Envolvimento Ativo\nIncluir usuários reais como participantes ativos no processo de criação\n\n04 Acessibilidade Universal\nGarantir que todos possam usar o produto, incluindo pessoas com diferentes necessidades e capacidades",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 29,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O usuário no centro de tudo\n\nQuando colocamos as pessoas em primeiro lugar, criamos experiências que transformam não apenas produtos, mas vidas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 30,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Etapas do UCD\n\n1. **Compreender**\n   Realizar pesquisas qualitativas e quantitativas, entrevistas em profundidade e observações para entender as necessidades reais dos usuários.\n\n2. **Definir**\n   Estabelecer requisitos claros e priorizados com base nos insights coletados, criando uma visão compartilhada do problema.\n\n3. **Prototipar**\n   Desenvolver soluções tangíveis, desde esboços simples até protótipos funcionais, físicos ou digitais.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 31,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Etapas do UCD\n\n**4. Testar**\nValidar protótipos com usuários reais em contextos autênticos, observando comportamentos e coletando feedback direto.\n\n**5. Refinar**\nIterar baseado nas descobertas dos testes, ajustando e melhorando a solução continuamente.\n\n**6. Implementar**\nLançar o produto e avaliar resultados através de métricas de sucesso e satisfação do usuário.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 32,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que é Design Thinking?\n\nDesign Thinking é uma abordagem centrada no ser humano para compreender problemas, gerar ideias e criar soluções inovadoras.\n\n## PRINCÍPIOS PRINCIPAIS\n\n- **Empatia**: compreender as necessidades das pessoas\n- **Colaboração**: construir soluções em equipe\n- **Criatividade**: explorar diferentes possibilidades\n- **Experimentação**: testar e aprender rapidamente\n- **Foco no usuário**: criar soluções úteis, desejáveis e viáveis\n\n## O PROCESSO EM 5 ETAPAS\n\n1. **Empatizar**: entender o usuário\n2. **Definir**: delimitar o problema\n3. **Idear**: gerar ideias\n4. **Prototipar**: criar protótipos\n5. **Testar**: validar soluções\n\n## Objetivo\n\nResolver problemas de forma criativa, colaborativa e centrada nas pessoas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 33,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "**PENSAR PROBLEMAS**\nEntender profundamente os desafios das pessoas\n\nO conceito central de \"Pensar Problemas\" se desdobra em três pilares:\n\n*   **COLABORAÇÃO**\n    *   Trabalhar juntos, compartilhar ideias e construir soluções em equipe.\n\n*   **EMPATIA**\n    *   Colocar-se no lugar das pessoas para compreender suas necessidades, dores e motivações.\n\n*   **EXPERIMENTAÇÃO**\n    *   Testar ideias, aprender com os erros e iterar para gerar soluções melhores.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 34,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "As 5 etapa do Design Thinking\n\nDESIGN THINKING\nProcesso centrado nas pessoas para resolver problemas complexos e gerar soluções inovadoras.\n\n1. EMPATIA\nCompreender profundamente as pessoas, suas necessidades, dores, desejos e o contexto em que estão inseridas.\n\n2. DEFINIÇÃO\nAnalisar os insights coletados e definir claramente o problema que precisa ser resolvido.\n\n3. IDEAÇÃO\nGerar o maior número possível de ideias criativas para explorar soluções para o problema definido.\n\n4. PROTOTIPAÇÃO\nTransformar as melhores ideias em protótipos simples e rápidos para testar e aprender com eles.\n\n5. TESTES\nTestar os protótipos com pessoas reais, validar aprendizados e refinar as soluções iterativamente.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 35,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 32,
+        "motivos_deteccao": [
+          "texto_muito_curto"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# DESIGN THINKING\n\nProcesso centrado nas pessoas para resolver problemas e criar soluções inovadoras.\n\n## Etapas do Processo\n\nO processo é dividido em três fases principais:\n\n1. **DESCOBERTA**\n2. **IDEAÇÃO**\n3. **EXPERIMENTAÇÃO**\n\n### Detalhamento das Etapas\n\n1. **EMPATIA**\n   - Entender as necessidades, motivações, dores e desejos das pessoas.\n\n2. **DEFINIÇÃO**\n   - Como podemos delimitar e focar na principal oportunidade?\n\n3. **IDEAÇÃO**\n   - Gerar o maior número de ideias criativas que podem servir como soluções.\n\n4. **PROTOTIPAÇÃO**\n   - Construir protótipos simples e rápidos para transformar ideias em algo tangível.\n\n5. **VALIDAÇÃO**\n   - Testar com o público-alvo, coletar feedbacks e validar a experiência.\n\n## Fluxo do Processo\n\nDO ENTENDIMENTO DO PROBLEMA → À CRIAÇÃO E VALIDAÇÃO DE SOLUÇÕES REAIS",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 36,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "FOCAR NO USUÁRIO\nEntender, ouvir e criar experiências que realmente fazem sentido.\n\nCOMPREENDER\nConhecer as necessidades, comportamentos e motivações das crianças e famílias.\n\nCRIAR VALOR\nAmbientes que inspiram, incentivam a curiosidade e promovem o aprendizado.\n\nEXPERIÊNCIA SIGNIFICATIVA\nEspaços acolhedores, divertidos e acessíveis que colocam as pessoas no centro das decisões.\n\nSOLUÇÕES CENTRADAS\nDesign pensado para gerar impacto positivo e conexões reais.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 37,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Processo do Design Thinking\n\n**Design Thinking** é um processo iterativo e centrado nas pessoas, que transforma ideias em soluções inovadoras e relevantes.\n\nO processo é composto por 5 etapas sequenciais:\n\n1. **Entender o contexto em que as pessoas estão envolvidas.**\n2. **Criar muitas ideias e soluções possíveis para as demandas.**\n3. **Selecionar as ideias com maior facilidade de prototipação.**\n4. **Configurar protótipos que serão testados com usuários.**\n5. **Testar protótipos, identificando o quanto estão próximos da solução ideal.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 38,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Personas\n\n**Personas** são representações fictícias de grupos de usuários, clientes ou públicos-alvo, criadas com base em dados reais, pesquisas e observações.\n\n## Para que servem?\n\n- Definir estratégias de marketing.\n- Criar produtos mais adequados ao público.\n- Melhorar a experiência do usuário.\n- Produzir conteúdos mais relevantes.\n- Facilitar a tomada de decisões nas equipes.\n\n## Atenção\n\nUma persona não é apenas um perfil demográfico (\"mulher, 30 anos\"). Ela inclui:\n\n- Objetivos\n- Necessidades\n- Desafios\n- Motivações\n- Hábitos e comportamentos",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 39,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo - Cenário\n\n## Problema do Condomínio\n\nO Condomínio Jardim das Palmeiras possui aproximadamente 200 apartamentos e enfrenta diversos problemas relacionados à comunicação e à gestão das áreas comuns.\n\nAtualmente, os moradores precisam utilizar grupos de mensagens para receber avisos, reservar espaços como salão de festas e churrasqueira, registrar reclamações e acompanhar comunicados da administração. No entanto, muitas informações se perdem nas conversas, gerando conflitos, reservas duplicadas e demora na resolução de problemas.\n\n## Dificuldades Relatadas pelos Moradores\n\nAlém disso, os moradores relatam dificuldades para:\n\n- Reservar áreas comuns de forma organizada;\n- Receber avisos importantes do condomínio;\n- Registrar ocorrências e acompanhar sua resolução;\n- Participar de votações e assembleias;\n- Consultar boletos e taxas condominiais.\n\n## Proposta\n\nDiante desse cenário, a administração deseja **desenvolver um aplicativo** para centralizar todos esses serviços e melhorar a experiência dos moradores.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 40,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "PERSONA\n\nAna Carolina Silva\n\nMoradora do Condomínio Jardim das Palmeiras\n\nAna é professora universitária, casada e mãe de dois filhos. Tem uma rotina corrida e busca praticidade para resolver as questões do condomínio de forma rápida e eficiente, pelo celular.\n\n\"Gostaria de resolver tudo relacionado ao condomínio sem precisar procurar mensagens em vários grupos.\"\n\nDADOS GERAIS\n\n- Idade: 35 anos\n- Estado civil: Casada\n- Profissão: Professora Universitária\n- Escolaridade: Pós-graduação\n- Mora no condomínio há: 3 anos\n- Possui: 2 filhos\n\nElementos visuais com informação acadêmica:\n\n- 35 anos\n- Casada\n- 2 filhos\n- Mora há 3 anos no condomínio",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 41,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "**OBJETIVOS**\n*   Ter acesso rápido às informações do condomínio.\n*   Reservar áreas comuns sem burocracia.\n*   Acompanhar solicitações e reclamações.\n*   Participar das decisões do condomínio mesmo quando estiver ocupada.\n\n**NECESSIDADES**\n*   Comunicação eficiente com a administração.\n*   Transparência nas informações.\n*   Facilidade para acessar serviços pelo celular.\n*   Segurança e praticidade.\n\n**DORES (PROBLEMAS)**\n*   Perde avisos importantes nos grupos de mensagens.\n*   Não sabe se sua reclamação foi atendida.\n*   Já encontrou o salão de festas reservado para duas pessoas ao mesmo tempo.\n*   Tem pouco tempo para comparecer às assembleias presenciais.\n\n**COMPORTAMENTO TECNOLÓGICO**\n*   Utiliza smartphone diariamente.\n*   Faz pagamentos e compras online.\n*   Prefere aplicativos simples e intuitivos.\n*   Acessa informações principalmente pelo celular.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 42,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "**FRASES DA PERSONA**\n\n- \"Gostaria de resolver tudo relacionado ao condomínio sem precisar procurar mensagens em vários grupos.\"\n- \"Seria ótimo acompanhar minhas solicitações e saber quando elas foram resolvidas.\"\n\n**EXPECTATIVAS EM RELAÇÃO À SOLUÇÃO**\n\n- Aplicativo intuitivo.\n- Reserva online de áreas comuns.\n- Notificações de avisos importantes.\n- Registro e acompanhamento de ocorrências.\n- Participação em votações e assembleias digitais.\n\n**SOBRE A PERSONA**\n\nAna representa os moradores que buscam praticidade, organização e agilidade na comunicação com o condomínio. Ela valoriza soluções digitais que facilitam o dia a dia e tornam a gestão do condomínio mais transparente e eficiente.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 43,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Atividades em sala de aula\n\n## Recursos\n\n- https://bancodeoportunidades.recife.pe.gov.br/\n- https://desafios.pe.gov.br/\n\n## Mensagem\n\nAprender é transformar ideias em ações e construir um futuro melhor!",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 44,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Coletar das informações\n\n- Concorrentes\n- Youtube\n- Redes Sociais\n- Google\n- Linkedin\n- Empresa especializada em pesquisa\n- Mapa de Empatia",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 45,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Mapa de Empatia\n\n1. É uma ferramenta utilizada em UX Design, Design Thinking e Desenvolvimento de Produtos para compreender melhor os usuários.\n\n2. Ele ajuda equipes a enxergarem o problema sob a **perspectiva do usuário**, entendendo seus **sentimentos, comportamentos, necessidades e dificuldades**.\n\n3. O objetivo principal é responder à pergunta:\n   > **Como o usuário pensa, sente e age diante de uma determinada situação?**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 46,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# PERSONA X MAPA DE EMPATIA\n\n## PERSONA\n\n**O QUE É?**\nRepresenta um usuário fictício.\n\n**CARACTERÍSTICAS**\nPossui nome, idade, profissão e perfil.\n\n**OBJETIVO**\nResponde \"Quem é o usuário?\".\n\n**EXEMPLO**\nExemplo: Ana Carolina, 35 anos, professora.\n\n**RESULTADO**\nCria um perfil claro do usuário para orientar decisões.\n\n## MAPA DE EMPATIA\n\n**O QUE É?**\nExplora profundamente seus pensamentos e sentimentos.\n\n**FOCO**\nFoca em emoções, comportamentos e necessidades.\n\n**OBJETIVO**\nResponde \"Como o usuário pensa e age?\".\n\n**EXEMPLO**\nO que Ana pensa, sente, vê, ouve, faz, dores e ganhos.\n\n**RESULTADO**\nAprofunda a compreensão do usuário para gerar soluções mais assertivas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 47,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Mapa de Empatia\n\n## 1. O QUE ELA PENSA E SENTE?\n- Deseja praticidade para resolver questões do condomínio.\n- Valoriza a segurança e o bem-estar da família.\n- Acredita que a tecnologia pode facilitar sua rotina.\n- Fica frustrada quando não recebe retorno sobre solicitações realizadas.\n- Quer transparência nas decisões e ações da administração.\n- Sente falta de uma comunicação mais organizada entre moradores e síndico.\n\n**FRASES QUE ELA PENSA:**\n- \"Não tenho tempo para procurar informações em vários grupos.\"\n- \"Gostaria de acompanhar minhas solicitações sem precisar cobrar constantemente.\"\n\n## 2. O QUE ELA VÊ?\n- Muitos avisos espalhados em grupos de mensagens.\n- Reclamações frequentes de moradores sobre problemas no condomínio.\n- Dificuldade para acompanhar reservas de áreas comuns.\n- Processos burocráticos para resolver demandas simples.\n- Pouca transparência sobre o andamento das ocorrências registradas.\n\n**O QUE CHAMA SUA ATENÇÃO:**\n- Aplicativos que centralizam informações.\n- Ferramentas digitais de fácil utilização.\n- Soluções que economizam tempo.\n\n## 3. O QUE ELA OUVE?\n- Vizinhos reclamando da falta de comunicação.\n- Moradores comentando sobre conflitos em reservas de espaços.\n- Administração solicitando mais colaboração dos condôminos.\n- Amigos relatando experiências positivas com aplicativos de gestão condominial.\n\n**INFLUÊNCIAS:**\n- Outros moradores\n- Familiares\n- Redes sociais\n- Experiências em outros condomínios\n\n## 4. O QUE ELA FALA E FAZ?\n- Participa dos grupos de moradores.\n- Procura informações antes de tomar decisões.\n- Registra reclamações quando identifica problemas.\n- Utiliza aplicativos bancários, compras online e serviços digitais.\n- Busca soluções práticas para otimizar seu tempo.\n\n**FRASES FREQUENTES:**\n- \"Já enviei essa solicitação e ainda não obtive resposta.\"\n- \"Seria muito mais fácil se tudo estivesse em um único aplicativo.\"\n\n## 5. DORES (PAINS)\n**PRINCIPAIS PROBLEMAS**\n- Perde comunicados importantes em grupos de mensagens.\n- Não consegue acompanhar o andamento de suas solicitações.\n- Enfrenta conflitos em reservas de áreas comuns.\n- Possui pouco tempo para participar de assembleias presenciais.\n- Sente falta de transparência nas ações da administração.\n\n**MEDOS**\n- Não ser informada sobre decisões importantes.\n- Perder prazos de pagamentos ou votações.\n- Ter problemas não resolvidos por falta de acompanhamento.\n\n## 6. GANHOS (GAINS)\n**O QUE ELA DESEJA ALCANÇAR**\n- Comunicação rápida e eficiente.\n- Acesso centralizado às informações do condomínio.\n- Facilidade para reservar espaços comuns.\n- Participação online em assembleias e votações.\n- Acompanhamento em tempo real das solicitações.\n- Mais organização e transparência na gestão condominial.\n\n**BENEFÍCIOS ESPERADOS**\n- Economia de tempo.\n- Redução de conflitos.\n- Maior satisfação com o condomínio.\n- Sensação de controle sobre suas demandas.\n- Melhor qualidade de vida para sua família.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 48,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "**Figura 3: Mapa de empatia.**\nFonte: Osterwalder e Pigneur (2011, p. 130).\n\nO mapa de empatia é estruturado em torno de um elemento central, representado por uma figura humana, e dividido nos seguintes quadrantes:\n\n*   **O que ela SENTE E PENSA?**\n    *   o que realmente importa\n    *   maiores preocupações\n    *   medos e inspirações\n*   **O que ela ESCUTA?**\n    *   o que os amigos dizem\n    *   o que o chefe diz\n    *   o que dizem os influenciadores\n*   **O que ela VÊ?**\n    *   ambiente\n    *   amigos\n    *   o que o mercado oferece\n*   **O que ela DIZ E FAZ?**\n    *   atitude em público\n    *   aparência\n    *   comportamento em relação aos outros\n\nAlém disso, o mapa apresenta duas seções inferiores:\n\n*   **DOR**\n    *   medos\n    *   frustrações\n    *   obstáculos\n*   **GANHOS**\n    *   desejos / necessidades\n    *   medidas de sucesso\n    *   obstáculos",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 49,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Processo do Design Thinking\n\nO Design Thinking é um processo iterativo e centrado nas pessoas, que transforma ideias em soluções inovadoras e relevantes.\n\nO processo é composto por 5 etapas sequenciais:\n\n1. **Entender o contexto em que as pessoas estão envolvidas.**\n2. **Criar muitas ideias e soluções possíveis para as demandas.**\n3. **Selecionar as ideias com maior facilidade de prototipação.**\n4. **Configurar protótipos que serão testados com usuários.**\n5. **Testar protótipos, identificando o quanto estão próximos da solução ideal.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 50,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# DEFINIÇÃO DO PROBLEMA\n\nNesta etapa, transformamos o que aprendemos na fase de Empatia em **insights claros** e definimos o **problema real** que queremos resolver.\n\n## Objetivo da Etapa\n\nDefinir claramente o problema principal do usuário, focando no que realmente importa e gera impacto.\n\n## Citação\n\n\"**Não se trata de ter muitas ideias, e sim de resolver o problema certo.**\"\n\n## Representação Visual\n\nDiagrama de um elemento central rotulado como \"**PROBLEMA**\", com setas apontando para dentro, indicando a convergência de diferentes aspectos ou informações em direção à definição do problema.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 51,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# COMO FAZEMOS?\n\n1. **SINTETIZAMOS INFORMAÇÕES**\nOrganizamos todas as informações coletadas na etapa de Empatia (entrevistas, observações, pesquisas).\n\n2. **IDENTIFICAMOS PADRÕES**\nProcuramos padrões, comportamentos repetitivos, dores e necessidades comuns dos usuários.\n\n3. **DEFINIMOS O PROBLEMA CENTRAL**\nTransformamos os insights em uma pergunta poderosa que revela o verdadeiro desafio a ser resolvido.\n\n4. **PRIORIZAMOS**\nFocamos no problema que gera mais impacto e que está alinhado aos objetivos do projeto.\n\n---\n\n# FERRAMENTAS QUE PODEM AJUDAR\n\n- **MAPA DE EMPATIA**\nResume os principais aprendizados sobre o usuário.\n\n- **JORNADA DO USUÁRIO**\nMostra os passos e sentimentos do usuário ao longo da experiência.\n\n- **AFFINITY DIAGRAM (DIAGRAMA DE AFINIDADES)**\nAgrupa ideias e insights por similaridade.\n\n- **HOW MIGHT WE (COMO PODEMOS)**\nTransforma o problema em perguntas que abrem espaço para soluções.\n\n---\n\n# EXEMPLO PRÁTICO (APP DE CONDOMÍNIO)\n\n**INSIGHTS DA EMPATIA**\nMoradores perdem avisos importantes, têm dificuldade para reservar áreas comuns e não acompanham suas solicitações.\n↓\n**PROBLEMA IDENTIFICADO**\nA comunicação é ineficiente e as informações estão dispersas em vários canais.\n↓\n**PROBLEMA CENTRAL**\n\"Como podemos centralizar as informações e facilitar a comunicação entre moradores e administração?\"\n↓\n**FOCO**\nCriar uma solução digital que garanta comunicação clara, reservas fáceis e acompanhamento de solicitações.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 52,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "**TRANSFORMANDO INSIGHTS EM PROBLEMA**\n\n- **INSIGHTS** (muitas informações)\n- **Pergunta central:** Qual é o verdadeiro desafio do usuário?\n- **PROBLEMA** (foco no que importa)\n\n**Relação visual:** O processo é representado por uma sequência: INSIGHTS → pergunta central → PROBLEMA.\n\n---\n\n**CHECKLIST DA ETAPA**\n\n- Revisamos todos os insights da etapa de Empatia?\n- Identificamos padrões e necessidades principais?\n- Definimos o problema central de forma clara?\n- Priorizamos o problema que gera mais impacto?\n- Transformamos o problema em uma pergunta \"Como podemos\"?\n\n---\n\n**DICA:** Um bom problema bem definido é meio caminho andado para uma solução inovadora e eficaz!\n\n---\n\n**LEMBRE-SE**\n\nVocê não pode resolver todos os problemas. Escolha o certo para gerar o maior impacto!",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 53,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Processo do Design Thinking\n\nO Design Thinking é um processo iterativo e centrado nas pessoas, que transforma ideias em soluções inovadoras e relevantes.\n\nO processo é composto por 5 etapas sequenciais:\n\n1. **Entender o contexto em que as pessoas estão envolvidas.**\n2. **Criar muitas ideias e soluções possíveis para as demandas.**\n3. **Selecionar as ideias com maior facilidade de prototipação.**\n4. **Configurar protótipos que serão testados com usuários.**\n5. **Testar protótipos, identificando o quanto estão próximos da solução ideal.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 54,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Como gerar ideias?\n\nA ideação de um projeto é o processo de **criar, desenvolver e refinar ideias** para solucionar problemas ou criar novas oportunidades.\n\n- Estimular a criatividade\n- Fazer brainstorming\n- Analisar criticamente\n- Sintetizar informações\n- Testar ideias\n- Refinar ideias\n- Identificar as melhores ideias\n- Propor ações para intervir no problema\n\n## Elementos visuais\n\nDiagrama central com a palavra \"IDEIAS\" circundada por setas que apontam para elementos como gráficos, estrela e post-its.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 55,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Técnicas de Geração e Seleção de Ideias",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 56,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Por que gerar muitas ideias importa?\n\nO conteúdo está organizado em três tópicos principais:\n\n*   **Diversidade Criativa**\n    *   Inovação começa com ideias diversas e abundantes que exploram diferentes perspectivas.\n\n*   **Vantagem Competitiva**\n    *   Empresas que cultivam ideias novas superam a concorrência através de soluções únicas.\n\n*   **Combustível para Crescimento**\n    *   Ideias são o combustível para soluções criativas e crescimento sustentável.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 57,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Brainstorming: A técnica mais conhecida\n\n- O Brainstorming, ou Tempestade de Ideias, é uma técnica de grupo usada para gerar uma grande quantidade de ideias de forma rápida e espontânea, sem julgamentos.\n\n- A principal meta do brainstorming é estimular a criatividade e o pensamento livre, permitindo que a equipe explore o máximo de soluções possíveis para um problema.\n\n- A ideia é que, a partir de um grande volume de propostas, as melhores e mais inovadoras soluções possam ser identificadas mais tarde.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 58,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Brainstorming: Princípios Fundamentais\n\n**01 Foco na quantidade:** O objetivo inicial é gerar o máximo de ideias possível, não importa o quão \"malucas\" ou inviáveis elas possam parecer à primeira vista.\n\n**02 Ausência de julgamento:** Nenhuma ideia é criticada ou avaliada durante a sessão de brainstorming. O julgamento fica para depois, na fase de seleção.\n\n**03 Estímulo à criatividade:** Ideias são encorajadas e podem ser construídas sobre as ideias de outras pessoas, criando novas conexões.\n\n**04 Liberdade de pensamento:** O ambiente deve ser livre e relaxado, onde todos se sintam confortáveis para compartilhar qualquer pensamento.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 59,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Os três estágios do brainstorming\n\nO material apresenta um fluxo composto por três estágios sequenciais, interligados por setas que indicam progressão.\n\n## Estágio 01: Captação Livre de Ideias\n- **Descrição:** Momento de absoluta liberdade criativa, onde quantidade supera qualidade e todas as ideias são bem-vindas.\n- **Representação visual:** Ilustração de três pessoas interagindo em frente a um quadro com post-its coloridos.\n\n## Estágio 02: Debate e Desenvolvimento\n- **Descrição:** Fase de refinamento onde as ideias são discutidas, combinadas e expandidas através da colaboração.\n- **Representação visual:** Ilustração de três pessoas sentadas à mesa, com balões de diálogo contendo reticências, uma lâmpada e um ponto de exclamação.\n\n## Estágio 03: Seleção das Melhores\n- **Descrição:** Processo criterioso de escolha das propostas mais promissoras para desenvolvimento e implementação.\n- **Representação visual:** Ilustração de uma prancheta com lista de verificação ao lado de um troféu.\n\n## Relação entre os estágios\nO fluxo segue a ordem:\nCaptação Livre de Ideias → Debate e Desenvolvimento → Seleção das Melhores\n\n## Conclusão do processo\nDo grande volume de ideias, surgem as melhores soluções!",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 60,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "Criatividade Coletiva em Ação",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 61,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "Técnicas eficazes de geração além do Brainstorming",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 62,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# 1. Brainwriting\n\n## Silêncio Criativo\nCada participante escreve 3 ideias em silêncio, evitando influências externas.\n\n## Desenvolvimento Colaborativo\nPassa para o colega desenvolver e expandir, criando sinergia criativa.\n\n## Inclusão Total\nEvita dominância de vozes e efeito âncora, garantindo participação equilibrada.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 63,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# 2. Ideação Rápida\n\n## Velocidade\nGerar o máximo de ideias em tempo limitado, mantendo o fluxo criativo intenso.\n\n## Liberdade\nEvita críticas prematuras e estimula fluxo livre de pensamento sem barreiras.\n\n## Foco\nMantém senso de urgência e concentração máxima no objetivo criativo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 64,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Visualização de Conexões\n- Visualiza conexões entre ideias e informações, revelando padrões ocultos\n\n# Compreensão Profunda\n- Ajuda a entender complexidade e identificar lacunas no conhecimento\n\n# Colaboração Digital\n- Ferramentas digitais facilitam colaboração remota e edição simultânea",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 65,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# 4. Storyboard\n\nO storyboard é apresentado por meio de três elementos principais:\n\n1. **Narrativa Visual**\n   - Organiza ideias em sequência visual narrativa clara e compreensível.\n\n2. **Comunicação Eficaz**\n   - Facilita compreensão e comunicação de conceitos complexos.\n\n3. **Desenvolvimento de Produtos**\n   - Útil para projetos e desenvolvimento de produtos inovadores.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 66,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# 5. SCAMPER\n\nTécnicas para transformar ideias e gerar novas soluções\n\n## Substituto\nO que pode ser substituído para melhorar?\n\n## Combinar\nQue elementos podem ser unidos?\n\n## Adaptar\nComo adaptar de outras áreas?\n\n## Modificar\nO que pode ser alterado ou ampliado?\n\n## Propor para outro uso\nComo pode ser usado para outro propósito?\n\n## Eliminar\nO que pode ser removido?\n\n## Reverter\nE se fizéssemos o oposto?\n\nTransforme ideias. Explore possibilidades. Inove com o SCAMPER!",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "01",
+        "assunto": "introducao",
+        "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+        "pasta_aula": "aula_01_introducao",
+        "pagina": 67,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    }
+  ]
+}

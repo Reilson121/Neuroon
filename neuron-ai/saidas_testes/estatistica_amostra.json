@@ -1,0 +1,510 @@
+{
+  "periodo": "03",
+  "disciplina": "estatistica",
+  "arquivos": [
+    {
+      "arquivo": "estatistica_novo.pdf",
+      "total_paginas_pdf": 176,
+      "paginas_indexadas": 5,
+      "total_chunks": 5
+    }
+  ],
+  "por_assunto": {
+    "analise_combinatoria": {
+      "paginas": 1,
+      "chunks": 1,
+      "multimodais": 1,
+      "paginas_origem": 1
+    },
+    "medidas_de_dispersao_e_posicao": {
+      "paginas": 1,
+      "chunks": 1,
+      "multimodais": 1,
+      "paginas_origem": 1
+    },
+    "distribuicoes_de_frequencia": {
+      "paginas": 1,
+      "chunks": 1,
+      "multimodais": 1,
+      "paginas_origem": 1
+    },
+    "representacoes_graficas": {
+      "paginas": 1,
+      "chunks": 1,
+      "multimodais": 1,
+      "paginas_origem": 1
+    },
+    "estimacao_e_intervalos_para_media": {
+      "paginas": 1,
+      "chunks": 1,
+      "multimodais": 1,
+      "paginas_origem": 1
+    }
+  },
+  "total_chunks": 5,
+  "paginas": [
+    {
+      "conteudo": "# Arranjo\n\n- **Quando usar:**\n  você quer selecionar k elementos dentre n e ordená-los.\n\n- **Ordem importa?**\n  Sim.\n\n**Fórmula:**\n\n\\[\nA_k^n = \\frac{n!}{(n - k)!}\n\\]",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "analise_combinatoria",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 129,
+        "elementos_desenhados": 5,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      "conteudo_original": "# Arranjo\n\n- **Quando usar:**\n  você quer selecionar k elementos dentre n e ordená-los.\n\n- **Ordem importa?**\n  Sim.\n\n**Fórmula:**\n\n\\[\nA_k^n = \\frac{n!}{(n - k)!}\n\\]"
+    },
+    {
+      "conteudo": "# Medidas de Variabilidade\n\n## Fractis\n\n- **O que é?**\n  - são números que particionam (dividem) um conjunto de dados ordenados em partes iguais.\n  - Ex: Quartis dividem dados ordenados em quatro partes aproximadamente iguais.\n- Mediana = 50º percentil.\n- Indice = (n-1) * Qₙ (mas lembre que o indice inicia do zero)\n\n## IQR (Intervalo Interquartil)\n\n- **O que é?**\n  - Diferença entre 75º e 25º percentil.\n- Mede a \"caixa\" central dos dados.\n- Mais robusto a outliers.\n\nObservação de revisão por IA (não é gabarito oficial do professor), página 40: Convenção adotada no NEURON: dados ordenados, índice h=(n-1)q iniciado em zero e interpolação linear entre vizinhos. Na questão 9 da lista, este método dá Q1=4,5; Q2=8; Q3=11,5; IQR=7. A lista usa outra convenção, (n+1)q com posição iniciada em 1, que dá IQR=9. Informar sempre a convenção; não declarar o gabarito da lista incorreto apenas por essa diferença.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "medidas_de_dispersao_e_posicao",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 40,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 449,
+        "elementos_desenhados": 2,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "revisoes_ia": [
+          {
+            "pagina": 40,
+            "texto": "Convenção adotada no NEURON: dados ordenados, índice h=(n-1)q iniciado em zero e interpolação linear entre vizinhos. Na questão 9 da lista, este método dá Q1=4,5; Q2=8; Q3=11,5; IQR=7. A lista usa outra convenção, (n+1)q com posição iniciada em 1, que dá IQR=9. Informar sempre a convenção; não declarar o gabarito da lista incorreto apenas por essa diferença."
+          }
+        ],
+        "revisao_oficial_professor": false,
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      "conteudo_original": "# Medidas de Variabilidade\n\n## Fractis\n\n- **O que é?**\n  - são números que particionam (dividem) um conjunto de dados ordenados em partes iguais.\n  - Ex: Quartis dividem dados ordenados em quatro partes aproximadamente iguais.\n- Mediana = 50º percentil.\n- Indice = (n-1) * Qₙ (mas lembre que o indice inicia do zero)\n\n## IQR (Intervalo Interquartil)\n\n- **O que é?**\n  - Diferença entre 75º e 25º percentil.\n- Mede a \"caixa\" central dos dados.\n- Mais robusto a outliers."
+    },
+    {
+      "conteudo": "# Resposta\n\n- Ponto médio de uma classe\n- Frequência relativa de uma classe\n- Frequência acumulada de uma classe\n- Fronteiras de classes\n\nΣf = 50\n\nΣ f/n = 1\n\n| Classe | Fronteira de classe | Frequência, f | Ponto médio | Frequência relativa | Frequência acumulada |\n| :---: | :---: | :---: | :---: | :---: | :---: |\n| 7 – 18 | 6,5 – 18,5 | 6 | 12.5 | 0.12 | 6 |\n| 19 – 30 | 18-6 – 30,5 | 10 | 24.5 | 0.20 | 16 |\n| 31 – 42 | 30,5 – 42,5 | 13 | 36.5 | 0.26 | 29 |\n| 43 – 54 | 42,5 – 54,5 | 8 | 48.5 | 0.16 | 37 |\n| 55 – 66 | 54,5 – 66,5 | 5 | 60.5 | 0.10 | 42 |\n| 67 – 78 | 66,5 – 78,5 | 6 | 72.5 | 0.12 | 48 |\n| 79 – 90 | 78,5 – 90,5 | 2 | 84.5 | 0.04 | 50 |\n\nObservação de revisão por IA (não é gabarito oficial do professor), página 51: A fronteira inferior da classe 19–30 está digitada como 18-6 na tabela original. A fronteira correta é 18,5, coerente com as classes adjacentes e com o histograma da página 53. Preservar a grafia original e identificar esta ressalva como revisão por IA.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "distribuicoes_de_frequencia",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 51,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 495,
+        "elementos_desenhados": 71,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "revisoes_ia": [
+          {
+            "pagina": 51,
+            "texto": "A fronteira inferior da classe 19–30 está digitada como 18-6 na tabela original. A fronteira correta é 18,5, coerente com as classes adjacentes e com o histograma da página 53. Preservar a grafia original e identificar esta ressalva como revisão por IA."
+          }
+        ],
+        "revisao_oficial_professor": false,
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      "conteudo_original": "# Resposta\n\n- Ponto médio de uma classe\n- Frequência relativa de uma classe\n- Frequência acumulada de uma classe\n- Fronteiras de classes\n\nΣf = 50\n\nΣ f/n = 1\n\n| Classe | Fronteira de classe | Frequência, f | Ponto médio | Frequência relativa | Frequência acumulada |\n| :---: | :---: | :---: | :---: | :---: | :---: |\n| 7 – 18 | 6,5 – 18,5 | 6 | 12.5 | 0.12 | 6 |\n| 19 – 30 | 18-6 – 30,5 | 10 | 24.5 | 0.20 | 16 |\n| 31 – 42 | 30,5 – 42,5 | 13 | 36.5 | 0.26 | 29 |\n| 43 – 54 | 42,5 – 54,5 | 8 | 48.5 | 0.16 | 37 |\n| 55 – 66 | 54,5 – 66,5 | 5 | 60.5 | 0.10 | 42 |\n| 67 – 78 | 66,5 – 78,5 | 6 | 72.5 | 0.12 | 48 |\n| 79 – 90 | 78,5 – 90,5 | 2 | 84.5 | 0.04 | 50 |"
+    },
+    {
+      "conteudo": "# Gráficos\n## Histograma de frequência — Uso de Internet\n\nEixo horizontal: tempo on-line (em minutos). Eixo vertical: frequência.\nAs barras consecutivas representam intervalos delimitados pelas fronteiras indicadas no eixo horizontal.\n\n| Intervalo entre fronteiras (minutos) | Frequência |\n| --- | --- |\n| 6,5 a 18,5 | 6 |\n| 18,5 a 30,5 | 10 |\n| 30,5 a 42,5 | 13 |\n| 42,5 a 54,5 | 8 |\n| 54,5 a 66,5 | 5 |\n| 66,5 a 78,5 | 6 |\n| 78,5 a 90,5 | 2 |\n\n90,5 é a fronteira direita da última barra, não uma categoria adicional sem frequência.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "representacoes_graficas",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 53,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "texto_muito_curto",
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 44,
+        "elementos_desenhados": 4,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "revisao_extracao_visual": "Conferência visual: os valores do eixo são fronteiras de intervalos do histograma, não pontos isolados.",
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      "conteudo_extraido_automaticamente": "# Gráficos\n\n## Histograma de frequência\n\n### Uso de Internet\n\nO gráfico apresenta a distribuição de frequência do tempo on-line.\n\n**Eixos:**\n- Eixo vertical (y): Frequência\n- Eixo horizontal (x): Tempo on-line (em minutos)\n\n**Dados representados:**\n\n| Tempo on-line (em minutos) | Frequência |\n| :--- | :--- |\n| 6.5 | 6 |\n| 18.5 | 10 |\n| 30.5 | 13 |\n| 42.5 | 8 |\n| 54.5 | 5 |\n| 66.5 | 6 |\n| 78.5 | 2 |\n| 90.5 | (sem valor indicado) |",
+      "conteudo_original": "# Gráficos\n## Histograma de frequência — Uso de Internet\n\nEixo horizontal: tempo on-line (em minutos). Eixo vertical: frequência.\nAs barras consecutivas representam intervalos delimitados pelas fronteiras indicadas no eixo horizontal.\n\n| Intervalo entre fronteiras (minutos) | Frequência |\n| --- | --- |\n| 6,5 a 18,5 | 6 |\n| 18,5 a 30,5 | 10 |\n| 30,5 a 42,5 | 13 |\n| 42,5 a 54,5 | 8 |\n| 54,5 a 66,5 | 5 |\n| 66,5 a 78,5 | 6 |\n| 78,5 a 90,5 | 2 |\n\n90,5 é a fronteira direita da última barra, não uma categoria adicional sem frequência."
+    },
+    {
+      "conteudo": "# Erro Padrão\n\n- O erro padrão mede a variação da média amostral em relação à média populacional.\n\n\\[\nerro = \\frac{\\sigma}{\\sqrt{n}}\n\\]",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "estimacao_e_intervalos_para_media",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 77,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 106,
+        "elementos_desenhados": 3,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        }
+      },
+      "conteudo_original": "# Erro Padrão\n\n- O erro padrão mede a variação da média amostral em relação à média populacional.\n\n\\[\nerro = \\frac{\\sigma}{\\sqrt{n}}\n\\]"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "bc7b9d67d1762cd0c9499de4",
+      "conteudo": "# Arranjo\n\n- **Quando usar:**\n  você quer selecionar k elementos dentre n e ordená-los.\n\n- **Ordem importa?**\n  Sim.\n\n**Fórmula:**\n\n\\[\nA_k^n = \\frac{n!}{(n - k)!}\n\\]",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "analise_combinatoria",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 129,
+        "elementos_desenhados": 5,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        },
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 165,
+        "chunk_id": "bc7b9d67d1762cd0c9499de4"
+      }
+    },
+    {
+      "chunk_id": "25818699d08a49b04868fd10",
+      "conteudo": "# Medidas de Variabilidade\n\n## Fractis\n\n- **O que é?**\n  - são números que particionam (dividem) um conjunto de dados ordenados em partes iguais.\n  - Ex: Quartis dividem dados ordenados em quatro partes aproximadamente iguais.\n- Mediana = 50º percentil.\n- Indice = (n-1) * Qₙ (mas lembre que o indice inicia do zero)\n\n## IQR (Intervalo Interquartil)\n\n- **O que é?**\n  - Diferença entre 75º e 25º percentil.\n- Mede a \"caixa\" central dos dados.\n- Mais robusto a outliers.\n\nObservação de revisão por IA (não é gabarito oficial do professor), página 40: Convenção adotada no NEURON: dados ordenados, índice h=(n-1)q iniciado em zero e interpolação linear entre vizinhos. Na questão 9 da lista, este método dá Q1=4,5; Q2=8; Q3=11,5; IQR=7. A lista usa outra convenção, (n+1)q com posição iniciada em 1, que dá IQR=9. Informar sempre a convenção; não declarar o gabarito da lista incorreto apenas por essa diferença.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "medidas_de_dispersao_e_posicao",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 40,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 449,
+        "elementos_desenhados": 2,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "revisoes_ia": [
+          {
+            "pagina": 40,
+            "texto": "Convenção adotada no NEURON: dados ordenados, índice h=(n-1)q iniciado em zero e interpolação linear entre vizinhos. Na questão 9 da lista, este método dá Q1=4,5; Q2=8; Q3=11,5; IQR=7. A lista usa outra convenção, (n+1)q com posição iniciada em 1, que dá IQR=9. Informar sempre a convenção; não declarar o gabarito da lista incorreto apenas por essa diferença."
+          }
+        ],
+        "revisao_oficial_professor": false,
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        },
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 910,
+        "chunk_id": "25818699d08a49b04868fd10"
+      }
+    },
+    {
+      "chunk_id": "b969f4c258c6110dab3f31a7",
+      "conteudo": "# Resposta\n\n- Ponto médio de uma classe\n- Frequência relativa de uma classe\n- Frequência acumulada de uma classe\n- Fronteiras de classes\n\nΣf = 50\n\nΣ f/n = 1\n\n| Classe | Fronteira de classe | Frequência, f | Ponto médio | Frequência relativa | Frequência acumulada |\n| :---: | :---: | :---: | :---: | :---: | :---: |\n| 7 – 18 | 6,5 – 18,5 | 6 | 12.5 | 0.12 | 6 |\n| 19 – 30 | 18-6 – 30,5 | 10 | 24.5 | 0.20 | 16 |\n| 31 – 42 | 30,5 – 42,5 | 13 | 36.5 | 0.26 | 29 |\n| 43 – 54 | 42,5 – 54,5 | 8 | 48.5 | 0.16 | 37 |\n| 55 – 66 | 54,5 – 66,5 | 5 | 60.5 | 0.10 | 42 |\n| 67 – 78 | 66,5 – 78,5 | 6 | 72.5 | 0.12 | 48 |\n| 79 – 90 | 78,5 – 90,5 | 2 | 84.5 | 0.04 | 50 |\n\nObservação de revisão por IA (não é gabarito oficial do professor), página 51: A fronteira inferior da classe 19–30 está digitada como 18-6 na tabela original. A fronteira correta é 18,5, coerente com as classes adjacentes e com o histograma da página 53. Preservar a grafia original e identificar esta ressalva como revisão por IA.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "distribuicoes_de_frequencia",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 51,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 495,
+        "elementos_desenhados": 71,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "revisoes_ia": [
+          {
+            "pagina": 51,
+            "texto": "A fronteira inferior da classe 19–30 está digitada como 18-6 na tabela original. A fronteira correta é 18,5, coerente com as classes adjacentes e com o histograma da página 53. Preservar a grafia original e identificar esta ressalva como revisão por IA."
+          }
+        ],
+        "revisao_oficial_professor": false,
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        },
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 991,
+        "chunk_id": "b969f4c258c6110dab3f31a7"
+      }
+    },
+    {
+      "chunk_id": "9869f97f8834f6180369c1f0",
+      "conteudo": "# Gráficos\n## Histograma de frequência — Uso de Internet\n\nEixo horizontal: tempo on-line (em minutos). Eixo vertical: frequência.\nAs barras consecutivas representam intervalos delimitados pelas fronteiras indicadas no eixo horizontal.\n\n| Intervalo entre fronteiras (minutos) | Frequência |\n| --- | --- |\n| 6,5 a 18,5 | 6 |\n| 18,5 a 30,5 | 10 |\n| 30,5 a 42,5 | 13 |\n| 42,5 a 54,5 | 8 |\n| 54,5 a 66,5 | 5 |\n| 66,5 a 78,5 | 6 |\n| 78,5 a 90,5 | 2 |\n\n90,5 é a fronteira direita da última barra, não uma categoria adicional sem frequência.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "representacoes_graficas",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 53,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "texto_muito_curto",
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 44,
+        "elementos_desenhados": 4,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "revisao_extracao_visual": "Conferência visual: os valores do eixo são fronteiras de intervalos do histograma, não pontos isolados.",
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        },
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 533,
+        "chunk_id": "9869f97f8834f6180369c1f0"
+      }
+    },
+    {
+      "chunk_id": "5eff0c8e43c0aca5eef54ec9",
+      "conteudo": "# Erro Padrão\n\n- O erro padrão mede a variação da média amostral em relação à média populacional.\n\n\\[\nerro = \\frac{\\sigma}{\\sqrt{n}}\n\\]",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "estatistica",
+        "assunto": "estimacao_e_intervalos_para_media",
+        "aula": null,
+        "arquivo": "estatistica_novo.pdf",
+        "pagina": 77,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "motivos_deteccao": [
+          "multimodal_forcado_manualmente"
+        ],
+        "caracteres_texto_original": 106,
+        "elementos_desenhados": 3,
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+        "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Estatística — slides consolidados",
+        "metadados_documento_originais": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Jonatas Junior",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® para Microsoft 365",
+          "producer": "Microsoft® PowerPoint® para Microsoft 365",
+          "creationDate": "D:20261019135537-03'00'",
+          "modDate": "D:20261019135537-03'00'",
+          "trapped": "",
+          "encryption": null
+        },
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 135,
+        "chunk_id": "5eff0c8e43c0aca5eef54ec9"
+      }
+    }
+  ],
+  "pdf_sha256": "09581fc242711824baecfa481647772e12f240125e3889601e27a9efde920e0f",
+  "mapa_sha256": "81bcaa16f993dda2b69458974de3296d02f69f9e53d6f47265633256b42f4f63",
+  "revisoes_sha256": "8c501143aa91767894fbb20ca688af3e237e8cef78f793164cff0a6b95eecd85",
+  "total_paginas_pdf": 176,
+  "ordem_assuntos": [
+    "fundamentos_de_probabilidade",
+    "analise_combinatoria",
+    "probabilidade_condicional_e_independencia",
+    "introducao_estatistica_e_tipos_de_dados",
+    "variaveis_aleatorias_e_distribuicoes",
+    "medidas_de_tendencia_central",
+    "medidas_de_dispersao_e_posicao",
+    "valor_esperado_e_momentos",
+    "correlacao_e_associacao",
+    "distribuicoes_de_frequencia",
+    "representacoes_graficas",
+    "planejamento_e_amostragem",
+    "reamostragem_e_bootstrap",
+    "estimacao_e_intervalos_para_media",
+    "distribuicao_t_e_intervalos_para_media",
+    "estimacao_e_intervalos_para_proporcoes",
+    "qui_quadrado_e_intervalos_para_variancia",
+    "distribuicao_binomial",
+    "distribuicao_geometrica",
+    "distribuicao_de_poisson",
+    "distribuicao_f_e_anova",
+    "caudas_longas_e_qq_plot",
+    "distribuicao_normal_tcl_e_aproximacao_binomial",
+    "experimentos_e_testes_de_hipoteses",
+    "testes_z_e_t",
+    "teste_qui_quadrado_de_independencia",
+    "testes_de_permutacao_e_monte_carlo",
+    "regressao_linear_simples_e_multipla",
+    "avaliacao_de_regressao",
+    "validacao_cruzada",
+    "selecao_de_modelos_e_stepwise"
+  ],
+  "status": "previa_parcial_nao_indexavel"
+}

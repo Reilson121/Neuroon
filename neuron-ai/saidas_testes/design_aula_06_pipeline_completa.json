@@ -1,0 +1,1777 @@
+{
+    "resumo": {
+        "arquivo": "Aula_6.pdf",
+        "periodo": "03",
+        "disciplina": "design_de_artefatos_digitais",
+        "assunto": "principios_de_design",
+        "aula": "06",
+        "total_paginas": 42,
+        "paginas_textuais": 18,
+        "paginas_multimodais": 24,
+        "total_chunks": 43,
+        "chunk_size": 1000,
+        "chunk_overlap": 150
+    },
+    "paginas": [
+        {
+            "conteudo": "# DESIGN DE ARTEFATOS DIGITAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "O segredo do bom design:\n\nHOU\nTRASTE",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 24,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Tamanho é a maneira mais óbvia de gerar bom \ncontraste. Deixar claro qual é o elemento mais \nimportante da cena. Quanto mais evidente for \nessa hierarquia, mais o design funcionará.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 181,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# MAIS CONTRASTE POR FAVOR\n\n## CONTRASTE PODE MELHORAR SEU DESIGN\n\nA página apresenta duas versões de um mesmo layout para demonstrar a aplicação de contraste no design:\n\n**Versão superior:**\n- À esquerda, a fotografia de um homem utilizando um notebook.\n- À direita, o texto \"MAIS CONTRASTE POR FAVOR\" em fonte grande e negrito, seguido de \"CONTRASTE PODE MELHORAR SEU DESIGN\" em fonte menor.\n\n**Versão inferior:**\n- O texto \"MAIS CONTRASTE POR FAVOR\" é apresentado em escala significativamente maior, ocupando a maior parte do espaço visual.\n- O texto \"CONTRASTE PODE MELHORAR SEU DESIGN\" está posicionado em tamanho reduzido entre as palavras \"MAIS\" e \"CONTRASTE\".\n- A fotografia do homem com o notebook está posicionada à esquerda, parcialmente sobreposta pelo texto.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Contraste de cor\nAqui, nem sempre o contraste tem \nrelação com hierarquia, mas mesmo \nesteticamente, contraste maiores entre \ncores dão mais conforto para os olhos. \nPodemos ter contraste através do \nmatiz ou da luminosidade da cor. \nCores mais distantes no círculo \ncromático são mais contrastantes. \nCores bem claras com cores super \nescuras dão muito certo. \nPreto no branco nunca falha.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 390,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Contraste de tipografias\nO uso de tipografia traz muitas \noportunidades de trabalhar \nhierarquias. Com o peso da \nletra (de thin até heavy), \nmaiúsculo e minúsculo, itálico \ne regular. É sempre legal dar \ndestaque para palavras mais \nimportante e dividir o texto em \npartes, dando ritmo à leitura.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 297,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Não há conteúdo acadêmico útil nesta página. Trata-se de uma ilustração decorativa composta por elementos gráficos e tipográficos sem texto instrucional, conceitos, definições, exercícios ou qualquer informação passível de recuperação semântica.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "GAMES\n\n遊戲類\n\nEXHIBITION CENTER",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Simetria VS Assimetria : \nA simetria caracteriza-se pela lógica. Nesta formulação \nvisual cada unidade situada de um lado de uma linha \ncentral é escrupulosamente repetida do outro lado.\nJá a assimetria é o completo oposto, estando ligada ao \ndesequilíbrio, à instabilidade.\nSimetria é obtida a partir de um eixo ou \nde um ponto, em que vemos os lados \niguais ou praticamente iguais. A \nsimetria é agradável aos nossos olhos, \nnos apresenta perfeita harmonia, \nporque muitas coisas são \nnaturalmente simétricas – o nosso \ncorpo, por exemplo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 541,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "ALL\nYOU NEED\nIS LOVE\n\nLOVE IS THE ONLY THING\nTHAT TRANSCENDS\nTIME AND SPACE\n\nL\nE\nA\nH\n\nD A W S\n\nO N\n\nL\nE\nA\nH\n\nD A W S\n\nO N",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "THE\nSCARLET\nLETTER\nBY\nNATHANIEL\nHAWTHORNE\n\nFROM ANYONS TO WIMPZILLAS\n11 exotic particles that answer the universe's biggest questions\nNewScientist\nWEEKLY May 19, 2012\nSPECIAL\nEDITION\nTHE\nGOD\nISSUE\nThe surprising new science of religion\n- 4 -\nWhy our minds have\na god-shaped space\nThe idea that launched\na thousand civilisations\nGod's existence\nput to the test\nReclaiming the best bits\nof religion for atheists\nWhy religion may\noutlast science\nScience and technology news\nwww.newscientist.com\nUS jobs in science\ncan.vc/7574\nCAN",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "A natureza também é cheia de \nassimetrias e para layouts ou projetos \nassimétricos não devemos apenas \ncolocar os elementos jogados de \nqualquer forma, mas devemos buscar a \nelegância e a coerência através dos \nelementos que temos. \nDeve ser um caos de certa forma \norganizado. A proporção dos objetos e o \nespaço entre eles devem ser \ndistribuídos de maneira que a estética \nseja harmoniosa.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 392,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "A assimetria confere uma \ndinâmica no layout e faz nossos \nolhos passearem pelo layout ou \npelo logo. \nEssa dinâmica é totalmente \ndiferente da simetria.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 153,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "MON\nIR\n\nFANTA\nOrange\nmade\nwith\nfruit\n\nKEEP\nYOU\nEYES\nOP\nEN\n\nTASCHEN",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "LETRAS\nEstão em toda parte, seja nos livros \nque você lê, nos sites que você \nvisita, nas placas, nos sinais de \ntrânsito ou em embalagens dos \nprodutos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 153,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "ues\nalligraphy",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "TAKE A DEEP Breath\n\nSEJA infinito\n\nNÃO SE",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "FAMÍLIA TIPOGRÁFICA\nConjunto de caracteres                           \nque possuem as mesmas \ncaracterísticas formais em seu \ndesenho, independente de \nsuas variações de espessura, \ninclinação e corpo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 200,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "ESTILOS \nTIPOGRÁFICOS\nAssim como as imagens também os caracteres textuais \npossuem estilos que podem variar de acordo com a \ndefinição de conceitos e contextos.\n \nEstes estarão sempre atrelados a condições distintas e \npor isso comunicam e diferenciam as peças gráficas e \naquilo que se quer comunicar.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 302,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# ROMANAS / LINEARES\n\nA página apresenta uma comparação visual entre dois estilos de representação do alfabeto latino, dispostos em duas colunas:\n\n**Coluna 1 (Romanas):**\nApresenta o alfabeto completo (A-Z) em estilo tipográfico serifado, com variação de espessura nas hastes e presença de serifas nas extremidades.\n- A B C D\n- E F G H\n- I J K L\n- M N O P\n- Q R S T\n- U V W\n- X Y Z\n\n**Coluna 2 (Lineares):**\nApresenta o alfabeto completo (A-Z) em estilo tipográfico sem serifa, construído com traços de espessura uniforme e formas geométricas simples.\n- A B C D\n- E F G H\n- I J K L\n- M N O P\n- Q R S T\n- U V W\n- X Y Z",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 18,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "MANUAIS / MANUSCRITAS\n\nA B C D E\nF G H I J K\nL M N O P\nQ R S T U\nV W X Y Z\n\nMonotype Corsiva\nChopin Script",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# GÓTICAS\n\nA página apresenta dois conjuntos de caracteres tipográficos.\n\n**Conjunto 1 (fundo branco):**\n- Letras maiúsculas: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n- Letras minúsculas: a b c d e f g h i j k l m n o p q r s t u v w x y z\n- Números: 1 2 3 4 5 6 7 8 9 0\n- Pontuação: . ! ?\n\n**Conjunto 2 (fundo preto):**\n- Letras maiúsculas: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n- Letras minúsculas: a b c d e f g h i j k l m n o p q r s t u v w x y z\n- Números: 1 2 3 4 5 6 7 8 9 0\n- Pontuação: . ! ?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 7,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# DECORATIVAS\n\nSão as mais livres, temáticas experimentais\n\n## Exemplos de fontes decorativas\n\n- ROSEWOOD\n- MOON FLOWER\n- magneto\n\n## Combinações de fontes\n\n- Holiday (ASSISTANT)\n- LOVELO (Brittany)\n- Alegreya Sans (Halimum)\n- Yeseva one (MONTESERRAT)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 56,
+                "elementos_desenhados": 14,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "COM SERIFA / SEM SERIFA\nAs serifas são prolongamentos que se encontram na \nmaioria das extremidades das letras de uma fonte \nserifada. \nFacilitam a leitura levando o olho para a transição de \numa letra para outra, passam mais formalidade, \nsimetria, estilo clássico, seriedade…",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 277,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# Serifa\n\nAdrian Frutiger, 1967\n\n## Caracteres\nABCDEF\nGHIJKLM\nNOPQRST\nUVWXYZ\nabcdefghi\njklmnopqr\nstuvwxyz\n123456789\n(!?$&*@#)\n\n## Características da Serifa\n- Pequenas linhas que dão acabamentos ao final das letras\n- São clássicas e delicadas\n- Garantem melhor leitura, por isso são indicadas para textos longos",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Times New Roman\nGaramond\nCentaur\nBaskerville\nDidot\nRockwell",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "As fontes sem serifa \nsão mais aconselháveis \npara títulos, e palavras \ncurtas. \nUtilizadas em mídias \ndigitais, alta legibilidade \nem formatos mínimos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 152,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Verdana\nCalibri\nGill Sans\nHelvetica\nFutura",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "TIPOGRAFIA \nCONTEMPORÂNEA\nA noção da tipografia invisível _ \ncomposta e escolhida com tal \nperfeição que o espectador “vê” \nsomente a mensagem que tem \nnas mãos e não nota a tipografia.\nAssim como a taça, as letras não devem \nchamar atenção para si, e sim para seu \nconteúdo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 275,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# Variações\n\nAs famílias tipográficas apresentam variações em relação ao corpo, largura, peso e inclinação.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# Variações\n\nAmostra das variações da família Univers, desenvolvida por Adrian Frutiger em 1957.\n\nA imagem apresenta um arranjo visual composto por múltiplas representações da letra \"u\" em diferentes estilos e pesos, organizados em colunas e linhas. As variações incluem:\n\n*   Letras \"u\" em preto, com diferentes espessuras de traço (pesos), variando de mais finas a mais grossas.\n*   Letras \"u\" em vermelho, também com variações de peso e estilo.\n*   Letras \"u\" em itálico (inclinadas), tanto em preto quanto em vermelho.\n*   Letras \"u\" com diferentes alturas e proporções, algumas alinhadas verticalmente e outras deslocadas.\n\nO conjunto demonstra a diversidade de formas e pesos disponíveis dentro da família tipográfica Univers.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# Caixa alta\n\nCorresponde ao conjunto de caracteres em letras maiúsculas.\n\n# Caixa baixa\n\nCorresponde ao conjunto de caracteres em letras minúsculas.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# BANCOS DE FONTES\n\nhttps://www.fontfabric.com/\n\n## Estrutura de Navegação do Site (fontfabric)\n\nfontfabric\n→ Procurar fontes\n→ Fontes personalizadas\n→ Fontes em uso\n→ Blog\n→ Cerca de\n→ Ajuda\n→ Procurar\n→ SE INSCREVER\n\n## Conteúdo da Página\n\nUma construção de fundição de tipo digital\nfontes de varejo e\ntipografia customizada para várias marcas.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 44,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# BANCOS DE FONTES\n\nhttps://www.dafont.com/pt/\n\n## dafont.com\n\nEntrar | Registrar\nEnglish | Français | Español | Deutsch | Italiano | Português\n\nTemas | Novidades | Autores | Top | Fórum | FAQ | Enviar uma fonte | Ferramentas\nPesquisa\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z #\n\n### Categorias de Fontes\n\n**Fontes:**\n- Fogo\n- Gelo\n- Decoração\n- Máquina de escrever\n- Éxótico\n- Retro\n- Iniciais\n- Graça\n- Diversas\n\n**Estrangeiras:**\n- Arábica\n- Asiática\n- Mexicana\n- Romana, Grega\n- Russa\n- Diversas\n\n**Techno:**\n- Quadrada\n- LCD\n- Sci-Fi\n- Diversas\n\n**Gótica:**\n- Medieval\n- Moderna\n- Celta\n- Iniciais\n- Diversas\n\n**Básica:**\n- Sans Serif\n- Serif\n- Larga\n- Fixa\n- Diversas\n\n**Escrita:**\n- Caligrafia\n- Escolar\n- Manuscrita\n- Pincel\n- Rabisco\n- Gráfica\n- Old School\n- Diversas\n\n**Dingbats:**\n- Alienígenas\n- Animais\n- Asiática\n- Antiga\n- Runas\n- Erótica\n- Fantástica\n- Terror\n- Jogos\n- Formas\n\n**Código de Barra:**\n- Natureza\n- Esporte\n- Cabeças\n- Chinesa\n- TV, Filmes\n- Logotipos\n- Sexy\n- Escrito\n- Música\n- Diversas\n\n**Feriados:**\n- Namorados\n- Páscoa\n- Dia das Bruxas\n- Natal\n- Diversas\n\n**Bitmaps:**\n- Pixel, Bitmap\n\n### Como instalar uma fonte (detalhes na seção de Ajuda)\nExtraia os arquivos que você baixou, então:\n- **Windows 10/8/7/Vista:** Botão direito nos arquivos de fonte > \"Instalar\"\n- **Mac OS X:** Duplo clique no arquivo de fonte > Botão \"Instalar fonte\" (Outros SO...)\n\n72.390 fontes das quais:\n25.897 com acentos\n30.559 com o símbolo do Euro\n\n### Fontes adicionadas recentemente\n**Australia Custom** por Peraphetype Studio\nem Escrita > Caligrafia\n120.045 downloads (8.426 ontem) Grátis para uso pessoal - 4 arquivos de fonte\n[Baixar]\nDoar ao autor",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 43,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "# BANCOS DE FONTES\n\nhttps://designermaodevaca.com/\n\n## O maior site de recursos de design do Brasil.\n\nCadastre-se, crie uma biblioteca com seus recursos preferidos, e acesse de qualquer lugar.\n\n### Menu de Navegação\n- Downloads\n- Blog\n- Contato\n- Sobre\n- Seu DMV\n\n### Recursos\n\n**Mockup Revista #22**\n08.05.2020\nSet de mockups de revista para você simular a aplicação de páginas duplas.\n\n**Brut Gothic**\n07.05.2020\nTipografia Sans Serif inspirada no construtivismo russo, perfeita pra títulos e mensagens de peso, contrastantes.\n\n**Redesign OLX**\n06.05.2020\nCom novo logo apenas em 20 dos 35 países em que atua, OLX já começou campanha de rebranding.\n\n**Dashboard UI Kit**\n06.05.2020\nEste UI Kit de dashboard está disponível para Sketch e pode ser um boa inspiração para o seu projeto.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 47,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "BANCOS DE FONTES\nhttps://fonts.google.com/\nhttps://www.behance.net/",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 36,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 67,
+                "elementos_desenhados": 14,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Tipos de Textos\n▪\nTexto artístico: o texto artístico ou livre, é aquele que utiliza nos \nprogramas de edições os arquivos de fonte para apresentação do \nque está escrito. É utilizado para criar logotipos, slogans, frases \ncurtas, etc.\n▪\nTexto parágrafo (caixa): este tipo é inserido em uma caixa de \ntexto, normalmente em forma de colunas para criar peças onde o \nvolume de texto é maior como panfletos, revistas, jornais, entre \noutras. Também se utiliza do arquivo de fonte para apresentação \ndas informações.\n▪\nTexto em curvas: quase todos os programas de editoração \neletrônica permitem conversão das informações dos textos de \nfontes em imagens vetorizadas, ou seja, textos convertidos em \ncurva. Cuidado: é preciso converter as fontes em curvas ou enviar \narquivo de fonte para gráfica.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 37,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 792,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Tipos de Textos\nTEXTO ARTÍSTICO\nTEXTO EM CURVAS\nTEXTO EM CAIXA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 38,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 62,
+                "elementos_desenhados": 11,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Tipograﬁa x Tipologia\n_  estudo de interação entre \nas letras (tipos) em uma \nsuperfície, e sua relação com\na eficácia dos tipos de \naplicações.\nA tipografia está incorporada \nem todo design e presente em \nquase tudo que se olha hoje \nem dia.\nFLUSSER (2017)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 39,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 257,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "Tipograﬁa x Tipologia\n- Legibilidade\n- Espaçamento\n- Conforto visual\n- Proporções\n- Uniformidade estilística\n- Alinhamento\n- Hierarquias\n- Contrastes\n- Distinção e Unidade\nFLUSSER (2017)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 40,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 186,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "- Legibilidade\n- Espaçamento\n- Conforto visual\n- Proporções\n- Uniformidade estilística\n- Alinhamento\n- Hierarquias\n- Contrastes\n- Distinção e Unidade\nLegibilidade [legibility]: diz \nrespeito à facilidade com que uma \nletra pode ser distinguida de outra.\nLeiturabilidade [readability]: diz respeito \nà facilidade com que o olho absorve a \nmensagem e se move ao longo da linha.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 41,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 375,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        },
+        {
+            "conteudo": "@tamiresmdlima - In: tamireslima01",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 42,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 35,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_06_principios_de_design"
+            }
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": "02920bda953672940722f78e",
+            "conteudo": "# DESIGN DE ARTEFATOS DIGITAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 30,
+                "chunk_id": "02920bda953672940722f78e"
+            }
+        },
+        {
+            "chunk_id": "50510e6424085f43838ac7dd",
+            "conteudo": "O segredo do bom design:\n\nHOU\nTRASTE",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 24,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 36,
+                "chunk_id": "50510e6424085f43838ac7dd"
+            }
+        },
+        {
+            "chunk_id": "fc575c7b9cffe95bf0ce59ab",
+            "conteudo": "Tamanho é a maneira mais óbvia de gerar bom \ncontraste. Deixar claro qual é o elemento mais \nimportante da cena. Quanto mais evidente for \nessa hierarquia, mais o design funcionará.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 181,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 181,
+                "chunk_id": "fc575c7b9cffe95bf0ce59ab"
+            }
+        },
+        {
+            "chunk_id": "c2c2c292b4603b6d0e4e5001",
+            "conteudo": "# MAIS CONTRASTE POR FAVOR\n\n## CONTRASTE PODE MELHORAR SEU DESIGN\n\nA página apresenta duas versões de um mesmo layout para demonstrar a aplicação de contraste no design:\n\n**Versão superior:**\n- À esquerda, a fotografia de um homem utilizando um notebook.\n- À direita, o texto \"MAIS CONTRASTE POR FAVOR\" em fonte grande e negrito, seguido de \"CONTRASTE PODE MELHORAR SEU DESIGN\" em fonte menor.\n\n**Versão inferior:**\n- O texto \"MAIS CONTRASTE POR FAVOR\" é apresentado em escala significativamente maior, ocupando a maior parte do espaço visual.\n- O texto \"CONTRASTE PODE MELHORAR SEU DESIGN\" está posicionado em tamanho reduzido entre as palavras \"MAIS\" e \"CONTRASTE\".\n- A fotografia do homem com o notebook está posicionada à esquerda, parcialmente sobreposta pelo texto.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 771,
+                "chunk_id": "c2c2c292b4603b6d0e4e5001"
+            }
+        },
+        {
+            "chunk_id": "e49b5769c044a845fb535305",
+            "conteudo": "Contraste de cor\nAqui, nem sempre o contraste tem \nrelação com hierarquia, mas mesmo \nesteticamente, contraste maiores entre \ncores dão mais conforto para os olhos. \nPodemos ter contraste através do \nmatiz ou da luminosidade da cor. \nCores mais distantes no círculo \ncromático são mais contrastantes. \nCores bem claras com cores super \nescuras dão muito certo. \nPreto no branco nunca falha.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 390,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 390,
+                "chunk_id": "e49b5769c044a845fb535305"
+            }
+        },
+        {
+            "chunk_id": "db3328d9443082727380e70d",
+            "conteudo": "Contraste de tipografias\nO uso de tipografia traz muitas \noportunidades de trabalhar \nhierarquias. Com o peso da \nletra (de thin até heavy), \nmaiúsculo e minúsculo, itálico \ne regular. É sempre legal dar \ndestaque para palavras mais \nimportante e dividir o texto em \npartes, dando ritmo à leitura.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 297,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 297,
+                "chunk_id": "db3328d9443082727380e70d"
+            }
+        },
+        {
+            "chunk_id": "ae55bbf12a13feb441fc897f",
+            "conteudo": "Não há conteúdo acadêmico útil nesta página. Trata-se de uma ilustração decorativa composta por elementos gráficos e tipográficos sem texto instrucional, conceitos, definições, exercícios ou qualquer informação passível de recuperação semântica.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 245,
+                "chunk_id": "ae55bbf12a13feb441fc897f"
+            }
+        },
+        {
+            "chunk_id": "36b3b5460111c11d07955bcc",
+            "conteudo": "GAMES\n\n遊戲類\n\nEXHIBITION CENTER",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 29,
+                "chunk_id": "36b3b5460111c11d07955bcc"
+            }
+        },
+        {
+            "chunk_id": "7d38d440e601c446ade91be5",
+            "conteudo": "Simetria VS Assimetria : \nA simetria caracteriza-se pela lógica. Nesta formulação \nvisual cada unidade situada de um lado de uma linha \ncentral é escrupulosamente repetida do outro lado.\nJá a assimetria é o completo oposto, estando ligada ao \ndesequilíbrio, à instabilidade.\nSimetria é obtida a partir de um eixo ou \nde um ponto, em que vemos os lados \niguais ou praticamente iguais. A \nsimetria é agradável aos nossos olhos, \nnos apresenta perfeita harmonia, \nporque muitas coisas são \nnaturalmente simétricas – o nosso \ncorpo, por exemplo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 541,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 541,
+                "chunk_id": "7d38d440e601c446ade91be5"
+            }
+        },
+        {
+            "chunk_id": "6388cc009a5cd6bd163c3502",
+            "conteudo": "ALL\nYOU NEED\nIS LOVE\n\nLOVE IS THE ONLY THING\nTHAT TRANSCENDS\nTIME AND SPACE\n\nL\nE\nA\nH\n\nD A W S\n\nO N\n\nL\nE\nA\nH\n\nD A W S\n\nO N",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 121,
+                "chunk_id": "6388cc009a5cd6bd163c3502"
+            }
+        },
+        {
+            "chunk_id": "098d66dcbe2e390ec0f123fd",
+            "conteudo": "THE\nSCARLET\nLETTER\nBY\nNATHANIEL\nHAWTHORNE\n\nFROM ANYONS TO WIMPZILLAS\n11 exotic particles that answer the universe's biggest questions\nNewScientist\nWEEKLY May 19, 2012\nSPECIAL\nEDITION\nTHE\nGOD\nISSUE\nThe surprising new science of religion\n- 4 -\nWhy our minds have\na god-shaped space\nThe idea that launched\na thousand civilisations\nGod's existence\nput to the test\nReclaiming the best bits\nof religion for atheists\nWhy religion may\noutlast science\nScience and technology news\nwww.newscientist.com\nUS jobs in science\ncan.vc/7574\nCAN",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 526,
+                "chunk_id": "098d66dcbe2e390ec0f123fd"
+            }
+        },
+        {
+            "chunk_id": "6506b880b3c74d0241744560",
+            "conteudo": "A natureza também é cheia de \nassimetrias e para layouts ou projetos \nassimétricos não devemos apenas \ncolocar os elementos jogados de \nqualquer forma, mas devemos buscar a \nelegância e a coerência através dos \nelementos que temos. \nDeve ser um caos de certa forma \norganizado. A proporção dos objetos e o \nespaço entre eles devem ser \ndistribuídos de maneira que a estética \nseja harmoniosa.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 392,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 392,
+                "chunk_id": "6506b880b3c74d0241744560"
+            }
+        },
+        {
+            "chunk_id": "d099a02e270bde5f014ba291",
+            "conteudo": "A assimetria confere uma \ndinâmica no layout e faz nossos \nolhos passearem pelo layout ou \npelo logo. \nEssa dinâmica é totalmente \ndiferente da simetria.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 153,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 153,
+                "chunk_id": "d099a02e270bde5f014ba291"
+            }
+        },
+        {
+            "chunk_id": "3b8d83aa276f49e6372388b6",
+            "conteudo": "MON\nIR\n\nFANTA\nOrange\nmade\nwith\nfruit\n\nKEEP\nYOU\nEYES\nOP\nEN\n\nTASCHEN",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 66,
+                "chunk_id": "3b8d83aa276f49e6372388b6"
+            }
+        },
+        {
+            "chunk_id": "220e8015d52777c833b19c76",
+            "conteudo": "LETRAS\nEstão em toda parte, seja nos livros \nque você lê, nos sites que você \nvisita, nas placas, nos sinais de \ntrânsito ou em embalagens dos \nprodutos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 153,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 153,
+                "chunk_id": "220e8015d52777c833b19c76"
+            }
+        },
+        {
+            "chunk_id": "bdf68335767833e17432eb06",
+            "conteudo": "ues\nalligraphy",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 14,
+                "chunk_id": "bdf68335767833e17432eb06"
+            }
+        },
+        {
+            "chunk_id": "d5027f1d6ced75a36faba07a",
+            "conteudo": "TAKE A DEEP Breath\n\nSEJA infinito\n\nNÃO SE",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 41,
+                "chunk_id": "d5027f1d6ced75a36faba07a"
+            }
+        },
+        {
+            "chunk_id": "ac4e1bb6b7d7cd1b44728aa4",
+            "conteudo": "FAMÍLIA TIPOGRÁFICA\nConjunto de caracteres                           \nque possuem as mesmas \ncaracterísticas formais em seu \ndesenho, independente de \nsuas variações de espessura, \ninclinação e corpo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 200,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 200,
+                "chunk_id": "ac4e1bb6b7d7cd1b44728aa4"
+            }
+        },
+        {
+            "chunk_id": "d9695105cb60f4d759824a1d",
+            "conteudo": "ESTILOS \nTIPOGRÁFICOS\nAssim como as imagens também os caracteres textuais \npossuem estilos que podem variar de acordo com a \ndefinição de conceitos e contextos.\n \nEstes estarão sempre atrelados a condições distintas e \npor isso comunicam e diferenciam as peças gráficas e \naquilo que se quer comunicar.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 302,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 302,
+                "chunk_id": "d9695105cb60f4d759824a1d"
+            }
+        },
+        {
+            "chunk_id": "320f9b3a5952d7df1bef1824",
+            "conteudo": "# ROMANAS / LINEARES\n\nA página apresenta uma comparação visual entre dois estilos de representação do alfabeto latino, dispostos em duas colunas:\n\n**Coluna 1 (Romanas):**\nApresenta o alfabeto completo (A-Z) em estilo tipográfico serifado, com variação de espessura nas hastes e presença de serifas nas extremidades.\n- A B C D\n- E F G H\n- I J K L\n- M N O P\n- Q R S T\n- U V W\n- X Y Z\n\n**Coluna 2 (Lineares):**\nApresenta o alfabeto completo (A-Z) em estilo tipográfico sem serifa, construído com traços de espessura uniforme e formas geométricas simples.\n- A B C D\n- E F G H\n- I J K L\n- M N O P\n- Q R S T\n- U V W\n- X Y Z",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 18,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 617,
+                "chunk_id": "320f9b3a5952d7df1bef1824"
+            }
+        },
+        {
+            "chunk_id": "d1711dcf5ee141586e61e7f5",
+            "conteudo": "MANUAIS / MANUSCRITAS\n\nA B C D E\nF G H I J K\nL M N O P\nQ R S T U\nV W X Y Z\n\nMonotype Corsiva\nChopin Script",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 106,
+                "chunk_id": "d1711dcf5ee141586e61e7f5"
+            }
+        },
+        {
+            "chunk_id": "ef1a222dbb6d4a9c8cef7da2",
+            "conteudo": "# GÓTICAS\n\nA página apresenta dois conjuntos de caracteres tipográficos.\n\n**Conjunto 1 (fundo branco):**\n- Letras maiúsculas: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n- Letras minúsculas: a b c d e f g h i j k l m n o p q r s t u v w x y z\n- Números: 1 2 3 4 5 6 7 8 9 0\n- Pontuação: . ! ?\n\n**Conjunto 2 (fundo preto):**\n- Letras maiúsculas: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n- Letras minúsculas: a b c d e f g h i j k l m n o p q r s t u v w x y z\n- Números: 1 2 3 4 5 6 7 8 9 0\n- Pontuação: . ! ?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 7,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 527,
+                "chunk_id": "ef1a222dbb6d4a9c8cef7da2"
+            }
+        },
+        {
+            "chunk_id": "808e981f0986208837d2338d",
+            "conteudo": "# DECORATIVAS\n\nSão as mais livres, temáticas experimentais\n\n## Exemplos de fontes decorativas\n\n- ROSEWOOD\n- MOON FLOWER\n- magneto\n\n## Combinações de fontes\n\n- Holiday (ASSISTANT)\n- LOVELO (Brittany)\n- Alegreya Sans (Halimum)\n- Yeseva one (MONTESERRAT)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 56,
+                "elementos_desenhados": 14,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 251,
+                "chunk_id": "808e981f0986208837d2338d"
+            }
+        },
+        {
+            "chunk_id": "d6c73c95c8f7df7d68c909f6",
+            "conteudo": "COM SERIFA / SEM SERIFA\nAs serifas são prolongamentos que se encontram na \nmaioria das extremidades das letras de uma fonte \nserifada. \nFacilitam a leitura levando o olho para a transição de \numa letra para outra, passam mais formalidade, \nsimetria, estilo clássico, seriedade…",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 277,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 277,
+                "chunk_id": "d6c73c95c8f7df7d68c909f6"
+            }
+        },
+        {
+            "chunk_id": "72020605bf2e21416788ffbc",
+            "conteudo": "# Serifa\n\nAdrian Frutiger, 1967\n\n## Caracteres\nABCDEF\nGHIJKLM\nNOPQRST\nUVWXYZ\nabcdefghi\njklmnopqr\nstuvwxyz\n123456789\n(!?$&*@#)\n\n## Características da Serifa\n- Pequenas linhas que dão acabamentos ao final das letras\n- São clássicas e delicadas\n- Garantem melhor leitura, por isso são indicadas para textos longos",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 310,
+                "chunk_id": "72020605bf2e21416788ffbc"
+            }
+        },
+        {
+            "chunk_id": "27bfdba0a1b4aa16d5cd91bb",
+            "conteudo": "Times New Roman\nGaramond\nCentaur\nBaskerville\nDidot\nRockwell",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 59,
+                "chunk_id": "27bfdba0a1b4aa16d5cd91bb"
+            }
+        },
+        {
+            "chunk_id": "6ed14de815879653e1f0cd09",
+            "conteudo": "As fontes sem serifa \nsão mais aconselháveis \npara títulos, e palavras \ncurtas. \nUtilizadas em mídias \ndigitais, alta legibilidade \nem formatos mínimos.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 152,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 152,
+                "chunk_id": "6ed14de815879653e1f0cd09"
+            }
+        },
+        {
+            "chunk_id": "b0a269ba28c1a436d5fd4547",
+            "conteudo": "Verdana\nCalibri\nGill Sans\nHelvetica\nFutura",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 42,
+                "chunk_id": "b0a269ba28c1a436d5fd4547"
+            }
+        },
+        {
+            "chunk_id": "df8991d7b96e8d912663e8b7",
+            "conteudo": "TIPOGRAFIA \nCONTEMPORÂNEA\nA noção da tipografia invisível _ \ncomposta e escolhida com tal \nperfeição que o espectador “vê” \nsomente a mensagem que tem \nnas mãos e não nota a tipografia.\nAssim como a taça, as letras não devem \nchamar atenção para si, e sim para seu \nconteúdo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 275,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 275,
+                "chunk_id": "df8991d7b96e8d912663e8b7"
+            }
+        },
+        {
+            "chunk_id": "9535aa446107b569bcfb9767",
+            "conteudo": "# Variações\n\nAs famílias tipográficas apresentam variações em relação ao corpo, largura, peso e inclinação.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 107,
+                "chunk_id": "9535aa446107b569bcfb9767"
+            }
+        },
+        {
+            "chunk_id": "9e6a5c8552d7650611408c7d",
+            "conteudo": "# Variações\n\nAmostra das variações da família Univers, desenvolvida por Adrian Frutiger em 1957.\n\nA imagem apresenta um arranjo visual composto por múltiplas representações da letra \"u\" em diferentes estilos e pesos, organizados em colunas e linhas. As variações incluem:\n\n*   Letras \"u\" em preto, com diferentes espessuras de traço (pesos), variando de mais finas a mais grossas.\n*   Letras \"u\" em vermelho, também com variações de peso e estilo.\n*   Letras \"u\" em itálico (inclinadas), tanto em preto quanto em vermelho.\n*   Letras \"u\" com diferentes alturas e proporções, algumas alinhadas verticalmente e outras deslocadas.\n\nO conjunto demonstra a diversidade de formas e pesos disponíveis dentro da família tipográfica Univers.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 732,
+                "chunk_id": "9e6a5c8552d7650611408c7d"
+            }
+        },
+        {
+            "chunk_id": "288ba8beb167e2785f64c654",
+            "conteudo": "# Caixa alta\n\nCorresponde ao conjunto de caracteres em letras maiúsculas.\n\n# Caixa baixa\n\nCorresponde ao conjunto de caracteres em letras minúsculas.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 149,
+                "chunk_id": "288ba8beb167e2785f64c654"
+            }
+        },
+        {
+            "chunk_id": "ee89bf1be62720d36958a2e2",
+            "conteudo": "# BANCOS DE FONTES\n\nhttps://www.fontfabric.com/\n\n## Estrutura de Navegação do Site (fontfabric)\n\nfontfabric\n→ Procurar fontes\n→ Fontes personalizadas\n→ Fontes em uso\n→ Blog\n→ Cerca de\n→ Ajuda\n→ Procurar\n→ SE INSCREVER\n\n## Conteúdo da Página\n\nUma construção de fundição de tipo digital\nfontes de varejo e\ntipografia customizada para várias marcas.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 44,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 346,
+                "chunk_id": "ee89bf1be62720d36958a2e2"
+            }
+        },
+        {
+            "chunk_id": "23053af871fc3a16e38ea111",
+            "conteudo": "# BANCOS DE FONTES\n\nhttps://www.dafont.com/pt/\n\n## dafont.com\n\nEntrar | Registrar\nEnglish | Français | Español | Deutsch | Italiano | Português\n\nTemas | Novidades | Autores | Top | Fórum | FAQ | Enviar uma fonte | Ferramentas\nPesquisa\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z #\n\n### Categorias de Fontes\n\n**Fontes:**\n- Fogo\n- Gelo\n- Decoração\n- Máquina de escrever\n- Éxótico\n- Retro\n- Iniciais\n- Graça\n- Diversas\n\n**Estrangeiras:**\n- Arábica\n- Asiática\n- Mexicana\n- Romana, Grega\n- Russa\n- Diversas\n\n**Techno:**\n- Quadrada\n- LCD\n- Sci-Fi\n- Diversas\n\n**Gótica:**\n- Medieval\n- Moderna\n- Celta\n- Iniciais\n- Diversas\n\n**Básica:**\n- Sans Serif\n- Serif\n- Larga\n- Fixa\n- Diversas\n\n**Escrita:**\n- Caligrafia\n- Escolar\n- Manuscrita\n- Pincel\n- Rabisco\n- Gráfica\n- Old School\n- Diversas\n\n**Dingbats:**\n- Alienígenas\n- Animais\n- Asiática\n- Antiga\n- Runas\n- Erótica\n- Fantástica\n- Terror\n- Jogos\n- Formas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 43,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 902,
+                "chunk_id": "23053af871fc3a16e38ea111"
+            }
+        },
+        {
+            "chunk_id": "1c25c44ef4d24f278d5ac110",
+            "conteudo": "**Dingbats:**\n- Alienígenas\n- Animais\n- Asiática\n- Antiga\n- Runas\n- Erótica\n- Fantástica\n- Terror\n- Jogos\n- Formas\n\n**Código de Barra:**\n- Natureza\n- Esporte\n- Cabeças\n- Chinesa\n- TV, Filmes\n- Logotipos\n- Sexy\n- Escrito\n- Música\n- Diversas\n\n**Feriados:**\n- Namorados\n- Páscoa\n- Dia das Bruxas\n- Natal\n- Diversas\n\n**Bitmaps:**\n- Pixel, Bitmap\n\n### Como instalar uma fonte (detalhes na seção de Ajuda)\nExtraia os arquivos que você baixou, então:\n- **Windows 10/8/7/Vista:** Botão direito nos arquivos de fonte > \"Instalar\"\n- **Mac OS X:** Duplo clique no arquivo de fonte > Botão \"Instalar fonte\" (Outros SO...)\n\n72.390 fontes das quais:\n25.897 com acentos\n30.559 com o símbolo do Euro\n\n### Fontes adicionadas recentemente\n**Australia Custom** por Peraphetype Studio\nem Escrita > Caligrafia\n120.045 downloads (8.426 ontem) Grátis para uso pessoal - 4 arquivos de fonte\n[Baixar]\nDoar ao autor",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 43,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 2,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 889,
+                "chunk_id": "1c25c44ef4d24f278d5ac110"
+            }
+        },
+        {
+            "chunk_id": "864086967a5bcc37485ec47e",
+            "conteudo": "# BANCOS DE FONTES\n\nhttps://designermaodevaca.com/\n\n## O maior site de recursos de design do Brasil.\n\nCadastre-se, crie uma biblioteca com seus recursos preferidos, e acesse de qualquer lugar.\n\n### Menu de Navegação\n- Downloads\n- Blog\n- Contato\n- Sobre\n- Seu DMV\n\n### Recursos\n\n**Mockup Revista #22**\n08.05.2020\nSet de mockups de revista para você simular a aplicação de páginas duplas.\n\n**Brut Gothic**\n07.05.2020\nTipografia Sans Serif inspirada no construtivismo russo, perfeita pra títulos e mensagens de peso, contrastantes.\n\n**Redesign OLX**\n06.05.2020\nCom novo logo apenas em 20 dos 35 países em que atua, OLX já começou campanha de rebranding.\n\n**Dashboard UI Kit**\n06.05.2020\nEste UI Kit de dashboard está disponível para Sketch e pode ser um boa inspiração para o seu projeto.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 47,
+                "elementos_desenhados": 10,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 785,
+                "chunk_id": "864086967a5bcc37485ec47e"
+            }
+        },
+        {
+            "chunk_id": "84cf0a0abb08b3e548c6c5b3",
+            "conteudo": "BANCOS DE FONTES\nhttps://fonts.google.com/\nhttps://www.behance.net/",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 36,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 67,
+                "elementos_desenhados": 14,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 67,
+                "chunk_id": "84cf0a0abb08b3e548c6c5b3"
+            }
+        },
+        {
+            "chunk_id": "6b6bbd0a437d63915b733c76",
+            "conteudo": "Tipos de Textos\n▪\nTexto artístico: o texto artístico ou livre, é aquele que utiliza nos \nprogramas de edições os arquivos de fonte para apresentação do \nque está escrito. É utilizado para criar logotipos, slogans, frases \ncurtas, etc.\n▪\nTexto parágrafo (caixa): este tipo é inserido em uma caixa de \ntexto, normalmente em forma de colunas para criar peças onde o \nvolume de texto é maior como panfletos, revistas, jornais, entre \noutras. Também se utiliza do arquivo de fonte para apresentação \ndas informações.\n▪\nTexto em curvas: quase todos os programas de editoração \neletrônica permitem conversão das informações dos textos de \nfontes em imagens vetorizadas, ou seja, textos convertidos em \ncurva. Cuidado: é preciso converter as fontes em curvas ou enviar \narquivo de fonte para gráfica.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 37,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 792,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 792,
+                "chunk_id": "6b6bbd0a437d63915b733c76"
+            }
+        },
+        {
+            "chunk_id": "fbf00969c5cb3b0127ac9d9c",
+            "conteudo": "Tipos de Textos\nTEXTO ARTÍSTICO\nTEXTO EM CURVAS\nTEXTO EM CAIXA",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 38,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 62,
+                "elementos_desenhados": 11,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 62,
+                "chunk_id": "fbf00969c5cb3b0127ac9d9c"
+            }
+        },
+        {
+            "chunk_id": "bc9b650b88b46fbed6b7bc51",
+            "conteudo": "Tipograﬁa x Tipologia\n_  estudo de interação entre \nas letras (tipos) em uma \nsuperfície, e sua relação com\na eficácia dos tipos de \naplicações.\nA tipografia está incorporada \nem todo design e presente em \nquase tudo que se olha hoje \nem dia.\nFLUSSER (2017)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 39,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 257,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 257,
+                "chunk_id": "bc9b650b88b46fbed6b7bc51"
+            }
+        },
+        {
+            "chunk_id": "eaf38c9955675456b04e1f96",
+            "conteudo": "Tipograﬁa x Tipologia\n- Legibilidade\n- Espaçamento\n- Conforto visual\n- Proporções\n- Uniformidade estilística\n- Alinhamento\n- Hierarquias\n- Contrastes\n- Distinção e Unidade\nFLUSSER (2017)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 40,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 186,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 186,
+                "chunk_id": "eaf38c9955675456b04e1f96"
+            }
+        },
+        {
+            "chunk_id": "55a47a58da9e0437156a9b5f",
+            "conteudo": "- Legibilidade\n- Espaçamento\n- Conforto visual\n- Proporções\n- Uniformidade estilística\n- Alinhamento\n- Hierarquias\n- Contrastes\n- Distinção e Unidade\nLegibilidade [legibility]: diz \nrespeito à facilidade com que uma \nletra pode ser distinguida de outra.\nLeiturabilidade [readability]: diz respeito \nà facilidade com que o olho absorve a \nmensagem e se move ao longo da linha.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 41,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 375,
+                "elementos_desenhados": 8,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 375,
+                "chunk_id": "55a47a58da9e0437156a9b5f"
+            }
+        },
+        {
+            "chunk_id": "0e690b925303e694baf0585f",
+            "conteudo": "@tamiresmdlima - In: tamireslima01",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "principios_de_design",
+                "aula": "06",
+                "arquivo": "Aula_6.pdf",
+                "pagina": 42,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 35,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_06_principios_de_design",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 34,
+                "chunk_id": "0e690b925303e694baf0585f"
+            }
+        }
+    ]
+}

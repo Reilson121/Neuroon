@@ -1,0 +1,32 @@
+{
+  "data": "2026-10-28",
+  "aprovado": true,
+  "validacao_visual": true,
+  "entrada": "http://127.0.0.1:5173/",
+  "preview_ficticia_utilizada": false,
+  "testes_frontend": {"arquivos": 6, "testes": 19, "falhas": 0},
+  "build_producao": "aprovado",
+  "http": {"cenarios": 9, "aprovado": true, "relatorio": "estatistica_validacao_proxy_frontend.json"},
+  "verificacoes_visuais": [
+    "login_com_conta_descartavel",
+    "estatistica_no_terceiro_periodo_com_31_assuntos",
+    "seis_questoes_originais_com_fontes_e_avisos",
+    "geracao_real_de_questao_inedita_separada_das_originais",
+    "correcao_com_formula_substituicao_calculos_resolucao_erros_e_dica",
+    "monitor_envia_pergunta_e_recebe_mediana_correta_com_fontes",
+    "historico_real_reaberto_apos_nova_autenticacao",
+    "poisson_sem_questoes_mostra_estado_vazio",
+    "biblioteca_com_tres_materiais_classificados",
+    "logout_retorna_ao_login"
+  ],
+  "conferencia_matematica_independente": {
+    "iqr": {"dados": [3,4,17,19,22], "metodo": "R7", "q1": 4, "q3": 19, "resultado": 15, "alternativa_correta": "D", "alternativas": [30,17,7.5,15,16], "correcao_exibida_confere": true},
+    "mediana_monitor": {"dados": [2,4,9,10,100], "resultado": 9, "resposta_exibida_confere": true, "paginas_referenciadas": [31,30]}
+  },
+  "celular": {"largura": 390, "altura": 844, "rolagem_horizontal_da_pagina": false},
+  "contagens_estatistica": {"SLIDE_AULA": 193, "LISTA_EXERCICIOS": 6, "PROVA_ANTIGA": 9},
+  "conta_temporaria_e_conversas_removidas": true,
+  "permissoes_dos_materiais_alteradas": false,
+  "capturas": ["docs/validacao-estatistica/pratica-real.png", "docs/validacao-estatistica/pratica-celular.png", "docs/validacao-estatistica/assunto-sem-questoes.png"],
+  "limites": ["Geração restrita aos seis assuntos contemplados pelas avaliações autorizadas", "Autoria oficial do gabarito da lista não confirmada", "Sessões de prática temporárias"]
+}

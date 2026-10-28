@@ -1,0 +1,32 @@
+{
+  "gerado_em_utc": "2026-10-28T05:32:32.418260+00:00",
+  "aprovado": true,
+  "escopo": "Backend de Estatistica e historico autorizado; frontend suspenso",
+  "spring": {
+    "testes": 27,
+    "falhas": 0,
+    "erros": 0
+  },
+  "python": {
+    "testes_executados": 100,
+    "falhas": 0
+  },
+  "recuperacao_assuntos": 31,
+  "cenarios_http": 24,
+  "historico_persistente_validado": true,
+  "questoes_reais_conferidas_independentemente": 5,
+  "contagens_por_disciplina": {
+    "design_de_artefatos_digitais": 363,
+    "estatistica": 208,
+    "estrutura_de_dados_avancada": 167,
+    "projeto_de_ideacao_de_software": 217
+  },
+  "chunks_por_tipo": {
+    "LISTA_EXERCICIOS": 6,
+    "PROVA_ANTIGA": 9,
+    "SLIDE_AULA": 193
+  },
+  "outras_disciplinas_preservadas": true,
+  "contas_conversas_e_dados_temporarios_removidos": true,
+  "permissoes_restauradas": true
+}

@@ -1,0 +1,118 @@
+=== PAGINA 1 ===
+CENTRO
+UNIVERSITÁRIO
+TIRADENTES
+CURSO:
+CIÊNCIA DA COMPUTAÇÃO
+DISCIPLINA/TURMA:
+F101060-ESTATÍSTICA COMPUTACIONAL - E01
+PROFESSOR:
+Unit
+VERIFICAÇÃO DE CONHECIMENTO: 18
+019560-JONATAS DA SILVA JUNIOR
+NOTA:
+65
+2a Supletiva Final
+DATA: 01 10 2024
+DISCENTE: JauoMatalo Romas
+1. O que representa a mediana?
+a) O valor que mais se repete.
+O valor central dos dados ordenados.
+c) A média ponderada,
+d) A soma dos valores dividida pelo total.
+e) O menor valor do conjunto.
+2. A amplitude de um conjunto de dados é:
+a) A diferença entre média e moda.
+A diferença entre o maior e o menor valor.
+c) O desvio padrão.
+d) A soma de todos os valores.
+e) O intervalo interquartílico.
+3. A probabilidade condicional P(A|B) significa:
+A probabilidade de A acontecer dado que B ocorreu.
+b) A soma das probabilidades de A e B.
+c) Sempre a probabilidade de B.
+d) A independência entre A e B.
+e) A probabilidade de nenhum ocorrer.
+4. O que é o espaço amostral em um lançamento de duas moedas?
+a) {C, K}
+{CC, CKК, KС, KК}
+c) {0,1}
+d) {1,2}
+e) Apenas os resultados favoráveis.
+5. Em termos de interpretação, o desvio-padrão mede:
+a) A variação conjunta de duas variáveis.
+b) A dispersão média em torno da média.
+c) A tendência central.
+d) A probabilidade de um evento.
+e) O valor central.
+6. A covariância próxima de zero indica que:
+a) Existe forte correlação positiva.
+b) Existe forte correlação negativa.
+c) Não há relação linear clara entre as variáveis.
+d) Uma variável determina a outra.
+e) As variáveis são mutuamente exclusivas.
+520h
+de Cada
+
+=== PAGINA 2 ===
+CURSO:
+CIÊNCIA DA COMPUTAÇÃO
+DISCIPLINA/TURMA:
+F101060-ESTATÍSTICA
+ COMPUTACIONAL
+ - E01
+PROFESSOR:
+019560-JONATAS
+ DA SILVA JUNIOR
+Unit
+CENTRO
+UNIVERSITÁRIO
+TIRADENTES
+VERIFICAÇÃO DE CONHECIMENTO: 18
+NOTA
+2a Supletiva
+Final
+DATA: 0410
+20
+DISCENTE:Mattus Maado Ramas
+7. (Cálculo)
+Dados: [2, 4, 8, 10].
+a) Calcule a média e a mediana.
+b) Calcule a variância populacional e o desvio-padrão populacional.
+8. (Cálculo)
+Quantos arranjos simples de 3 elementos podem ser feitos a partir de 15 observações?
+Texto formativo:
+O monitoramento de tempos de login em sistemas computacionais fornece informações
+valiosas sobre o desempenho da infraestrutura de rede. Quando há valores muito
+discrepantes, como picos de lentidão, os quartis ajudam a separar o comportamento
+típico do atípico. O IQR permite avaliar a estabilidade da maioria dos usuários, sem que
+valores extremos prejudiquem a interpretação.
+9. (Cálculo) 123 5 6 4
+Conjunto de dados: [2, 3, 5, 7, 9, 11, 13, 15].
+a) Calcule Q1, Q2 e Q3.
+b) Encontre o IQR.
+4
+18
+هنا2+4+6+8+10 = 30=6
+2,0
+15!
+3(15-3) 12 2
+15•443-243
+Milia =6
+5 5
+=
+mediana- 6-o dado do mio
+b)
+Variamlia =8
+6-2=4
+On =dh-)+12-(+0+2+²h
+6-4-2
+40-8
+6-8=-2
+6-Y0=-4
+deartio-Padião
+√2.83
+228
+a
+ 
+orden

@@ -1,0 +1,1238 @@
+{
+    "resumo": {
+        "arquivo": "Aula02_Artefatos_digitais.pdf",
+        "periodo": "03",
+        "disciplina": "design_de_artefatos_digitais",
+        "assunto": "ferramentas_visuais",
+        "aula": "02",
+        "total_paginas": 29,
+        "paginas_textuais": 13,
+        "paginas_multimodais": 16,
+        "total_chunks": 30,
+        "chunk_size": 1000,
+        "chunk_overlap": 150
+    },
+    "paginas": [
+        {
+            "conteudo": "# DESIGN DE ARTEFATOS DIGITAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "“[...] Combinações inteligentes de formas \ntipos e cores que inspiram projetos” \n“Estudo sistemático, crítico e reflexivo dos \nvários elementos de composição visual e \nsuas técnicas de aplicação que resulte em \numa comunicação legível e eficiente, \nvoltada a estruturas lógicas      e formais \ndo design.”",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 305,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "DESIGN\n\n“O design tende ao infinito - ou seja, a dialogar em algum nível com quase todos os outros campos de conhecimento. Ele deve ser concebido como um campo ampliado que se abre para diversas outras áreas, algumas mais próximas, outras mais distantes”\n\nCARDOSO, 2013",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "DESIGN\n\n“O design tende ao infinito - ou seja, a dialogar em algum nível com quase todos os outros campos de conhecimento. Ele deve ser concebido como um campo ampliado que se abre para diversas outras áreas, algumas mais próximas, outras mais distantes”\nCARDOSO, 2013\n\n“O design não é somente um elemento periférico, mas está presente em todo processo geral da cadeia de inovação, ciência e tecnologia, tudo isso aplicado à vida cotidiana”.\nBONSIEPE, 2015",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "# DESIGN\n\n“O design é um campo de possibilidades imensas no mundo complexo em que vivemos. Por ser uma área voltada, historicamente, para o planejamento de interfaces e para a otimização de interstícios, ela tende a se ampliar à medida que o sistema se torna mais complexo e à medida que aumenta, por conseguinte, o número de Instâncias de inter-relação entre suas partes.”\n\nCARDOSO, 2013\n\nUnit\nCENTRO UNIVERSITÁRIO\nTIRADENTES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "**DESIGN**\n\nÉ uma especialidade multidisciplinar da comunicação que cria projetos visuais com o objetivo de apresentar soluções para resolver problemas do ponto de vista prático, estético e simbólico.\n\n**Unit**\nCENTRO UNIVERSITÁRIO TIRADENTES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "# DESIGN\n\n**Unit**\nCENTRO UNIVERSITÁRIO\nTIRADENTES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "\"DESIGN NÃO É APENAS O QUE PARECE E O QUE SENTE, DESIGN É COMO FUNCIONA\"\n\nSTEVE JOBS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "# Ferramentas visuais",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "Sabia que o \nDesign é a principal  \nferramenta que liga                        \nas marcas às pessoas?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 101,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "Um projeto de Identidade Visual \nvai além do visual\nCONCEITUAL    X      VISUAL  \ndesign, símbolos,\ngrafismos, imagens\nmarketing, gestão, \nvalores, percepções",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 158,
+                "elementos_desenhados": 9,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "A Marca é a resposta emocional do público; ELA é \núnica - é a soma de tudo o que o negócio tem para \noferecer. Podemos chama-la de BRANDING!\nJá a Identidade Visual, é um conjunto de \nelementos visuais criados com o objetivo tornar \npalpável tudo é proposto pela marca:\nNome | Logotipo | Tipografia | Paleta de cores | \nImagens | Embalagens | Papelaria...\n*Estes elementos estão presentes em todos os \npontos de contato da marca, seja físico ou digital.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 452,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "**LOGOTIPO**\nSímbolo da marca\nExemplo visual: Representação gráfica da escrita \"Coca-Cola\".\n\n**IDENTIDADE VISUAL**\nCores e formas que complementam o logotipo\nExemplo visual: Formas gráficas em vermelho e branco.\n\n**MARCA**\nLogotipo, identidade visual e posicionamento da marca\nExemplo visual: Elementos gráficos, o texto \"abra a felicidade\" e a representação de uma garrafa.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "As pessoas precisam de estímulos visuais para se conectarem com a marca.\n\nDiana Coe\n\nEXPRESSE INSPIRAÇÃO, IDENTIDADE E CONEXÃO.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 9,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "Padronização e Constância \nProporcionadas pela Identidade Visual das marcas;\nA recorrência dos elementos visuais que representam \nas marcas.\nSímbolos, cores, tipograﬁas, imagens...",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 180,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "Imagens\nExistem diversos tipos de \nimagens para diversas \nﬁnalidades.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 69,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "Imagens vetoriais: \ndesenvolvidas a partir de  \num sistema de equações \nmatemáticas, que \npermitem \nredimensionamento em \nqualquer escala sem \nperda de qualidade. \nImagens bitmap: \nimagens obtidas por fotografia \ndigital ou scaneada. Mapeada \npor bits. O bit é a unidade \nmínima \nda memória do computador. \nCada imagem está organizada \nem uma série de linhas e \ncolunas formadas por pixels.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 390,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "# Pixel\n\nA página apresenta o conceito de **Pixel** por meio de uma ilustração visual composta por duas imagens:\n\n- **Imagem superior**: mostra um cervo deitado em um campo de grama verde. Um pequeno quadrado vermelho está desenhado sobre a orelha do cervo, indicando uma região específica da imagem.\n- **Imagem inferior**: apresenta uma ampliação (zoom) da região delimitada pelo quadrado vermelho da imagem superior. Nesta ampliação, a imagem é exibida em formato de grade de quadrados coloridos (pixels). Um único quadrado dessa grade está destacado com um contorno vermelho e apontado por uma seta vermelha, acompanhado do rótulo **\"Um Pixel\"**.\n\nA relação entre as duas imagens é indicada visualmente: o quadrado vermelho na imagem superior corresponde à área ampliada mostrada na imagem inferior, e o rótulo \"Um Pixel\" identifica um elemento individual dessa grade.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 5,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "# Bitmap x Vetor\n\nA imagem apresenta uma comparação visual entre dois tipos de representação gráfica, identificados pelo título \"Bitmap x Vetor\".\n\nA comparação é estruturada da seguinte forma:\n\n*   **Bitmap:**\n    *   Um ícone pequeno de uma figura humana dentro de um círculo é mostrado na parte superior.\n    *   Linhas partem deste ícone em direção a uma versão ampliada do mesmo ícone.\n    *   A versão ampliada apresenta as bordas serrilhadas e pixels visíveis, demonstrando a perda de qualidade ao aumentar a escala.\n\n*   **Vetor:**\n    *   Um ícone pequeno idêntico ao anterior é mostrado na parte superior.\n    *   Linhas partem deste ícone em direção a uma versão ampliada do mesmo ícone.\n    *   A versão ampliada mantém as bordas nítidas e definidas, sem a presença de pixels, demonstrando a preservação da qualidade ao aumentar a escala.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 14,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "# Vetor x Bitmap\n\nA página apresenta uma comparação visual entre duas representações de uma estrela de cinco pontas:\n\n- **Representação vetorial (à esquerda):** uma estrela amarela com contorno vermelho. O contorno é marcado por pontos verdes conectados por linhas tracejadas, indicando a estrutura de vetores e pontos de ancoragem que definem a forma.\n- **Representação bitmap (à direita):** a mesma estrela amarela com contorno vermelho, porém exibida sobre uma grade quadriculada. A imagem é formada por pixels, e as bordas da estrela apresentam blocos de cores (tons de vermelho, laranja e cinza) que evidenciam a composição por pixels e a pixelização das bordas.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 14,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "Já a resolução da imagem \né a quantidade de pixels ou \npontos que compõem uma \nimagem por polegada.\nOu seja, quanto mais pontos \nou pixels uma imagem tiver \npor polegada, maior será a \nquantidade de detalhes e a \nqualidade dela.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 228,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "Redimensionament\no\nNão recomenda-se “esticar” nenhum elemento da linguagem \nvisual. O ideal é manter sempre sua proporção original.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 131,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "PNG\nFormato de imagem \nutilizado no ambiente web. \nAlém disso, seus grandes \ndiferenciais estão na \ncapacidade da imagem \nnão perder a qualidade \nno caso de compressão e \nna capacidade de suportar \na transparência.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 214,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "PNG x JPG\nContudo, a grande diferença \nentre estes dois formatos é que \na compressão das imagens no \nformato PNG não causam \ntanta perda de qualidade, \ndiferentemente do JPG.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 174,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "# Exemplo de Painel Criativo – Letícia Tavares fotografia\n\nO painel criativo é composto pelos seguintes elementos visuais e seus respectivos rótulos:\n\n*   **AUTÊNTICA**: imagem de uma mão com luz brilhante entre os dedos.\n*   **AFETIVA**: imagem de um bebê em uma banheira branca, cercado por balões e decoração de fundo.\n*   **ARTÍSTICA**: ilustração de formas geométricas e folhagens em tons terrosos.\n*   **MADURA**: ilustração de uma planta em vaso sobre um fundo de textura marrom.\n*   **MEMORÁVEL**: rótulo posicionado abaixo da imagem \"AUTÊNTICA\".\n*   **LIVRE/LEVE**: ilustração de balões de festa em tons suaves.\n*   **RESILIENTE**: rótulo posicionado abaixo da imagem \"MADURA\".",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 54,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "# Achego Essências Aromas\n\n## AFETIVA\n- Fotografia de uma mulher de olhos fechados, com os braços cruzados sobre o peito, vestindo blusa de manga longa na cor bege.\n- Abaixo da fotografia, um bloco na cor turquesa com um ícone de coração estilizado, formado por linhas curvas e um círculo pequeno na parte superior direita.\n- Rótulo: IMPACTANTE\n\n## CRIATIVA\n- Fotografia de uma disposição de vários livros e cadernos abertos e fechados, com capas em cores variadas (amarelo, rosa, verde, laranja, azul e branco).\n- Abaixo da fotografia, uma paleta de cores composta por quatro faixas horizontais em tons de verde-escuro.\n\n## ELEGANTE\n- Tipografia em preto com a palavra \"argô\" em fonte serifada, acompanhada dos textos \"by anthonyjames\" e \"TYPEFACE\" em letras menores.\n- Fotografia de mãos segurando um ramo de flores brancas pequenas, com anéis nos dedos.\n- Rótulo: ELEGANTE\n\n## SUTIL\n- Fotografia de um objeto em formato de arco, na cor bege, com a inscrição \"trust the magic of new beginnings\", acompanhado de flores secas amarelas presas à sua lateral direita.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "O que faz uma marca se conectar \nmelhor com você do que as outras?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 66,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "IDENTIFICAÇÃO\nPERSONALIDADE\nPROPÓSITO\nLINGUAGEM",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 47,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        },
+        {
+            "conteudo": "OBRIGADA POR SUA ATENÇÃO\n@tamiresmdlima -  In: tamireslima01",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 60,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais"
+            }
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": "1e695718744b8af7292bf344",
+            "conteudo": "# DESIGN DE ARTEFATOS DIGITAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 30,
+                "chunk_id": "1e695718744b8af7292bf344"
+            }
+        },
+        {
+            "chunk_id": "04bc618811bdc882fea8b0b3",
+            "conteudo": "“[...] Combinações inteligentes de formas \ntipos e cores que inspiram projetos” \n“Estudo sistemático, crítico e reflexivo dos \nvários elementos de composição visual e \nsuas técnicas de aplicação que resulte em \numa comunicação legível e eficiente, \nvoltada a estruturas lógicas      e formais \ndo design.”",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 305,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 305,
+                "chunk_id": "04bc618811bdc882fea8b0b3"
+            }
+        },
+        {
+            "chunk_id": "38efcf7b4574e408361a12f3",
+            "conteudo": "DESIGN\n\n“O design tende ao infinito - ou seja, a dialogar em algum nível com quase todos os outros campos de conhecimento. Ele deve ser concebido como um campo ampliado que se abre para diversas outras áreas, algumas mais próximas, outras mais distantes”\n\nCARDOSO, 2013",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 269,
+                "chunk_id": "38efcf7b4574e408361a12f3"
+            }
+        },
+        {
+            "chunk_id": "a2b86f898b96088c332df2ac",
+            "conteudo": "DESIGN\n\n“O design tende ao infinito - ou seja, a dialogar em algum nível com quase todos os outros campos de conhecimento. Ele deve ser concebido como um campo ampliado que se abre para diversas outras áreas, algumas mais próximas, outras mais distantes”\nCARDOSO, 2013\n\n“O design não é somente um elemento periférico, mas está presente em todo processo geral da cadeia de inovação, ciência e tecnologia, tudo isso aplicado à vida cotidiana”.\nBONSIEPE, 2015",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 456,
+                "chunk_id": "a2b86f898b96088c332df2ac"
+            }
+        },
+        {
+            "chunk_id": "541f8c1a7cd92ea305a8dfab",
+            "conteudo": "# DESIGN\n\n“O design é um campo de possibilidades imensas no mundo complexo em que vivemos. Por ser uma área voltada, historicamente, para o planejamento de interfaces e para a otimização de interstícios, ela tende a se ampliar à medida que o sistema se torna mais complexo e à medida que aumenta, por conseguinte, o número de Instâncias de inter-relação entre suas partes.”\n\nCARDOSO, 2013\n\nUnit\nCENTRO UNIVERSITÁRIO\nTIRADENTES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 426,
+                "chunk_id": "541f8c1a7cd92ea305a8dfab"
+            }
+        },
+        {
+            "chunk_id": "ac0950aa67cc99b5792b8807",
+            "conteudo": "**DESIGN**\n\nÉ uma especialidade multidisciplinar da comunicação que cria projetos visuais com o objetivo de apresentar soluções para resolver problemas do ponto de vista prático, estético e simbólico.\n\n**Unit**\nCENTRO UNIVERSITÁRIO TIRADENTES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 242,
+                "chunk_id": "ac0950aa67cc99b5792b8807"
+            }
+        },
+        {
+            "chunk_id": "1940f4a9302fe9691141a90a",
+            "conteudo": "# DESIGN\n\n**Unit**\nCENTRO UNIVERSITÁRIO\nTIRADENTES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 50,
+                "chunk_id": "1940f4a9302fe9691141a90a"
+            }
+        },
+        {
+            "chunk_id": "1caba08e8678a1de742e689f",
+            "conteudo": "\"DESIGN NÃO É APENAS O QUE PARECE E O QUE SENTE, DESIGN É COMO FUNCIONA\"\n\nSTEVE JOBS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 84,
+                "chunk_id": "1caba08e8678a1de742e689f"
+            }
+        },
+        {
+            "chunk_id": "789527622e6322ac92be667b",
+            "conteudo": "# Ferramentas visuais",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 21,
+                "chunk_id": "789527622e6322ac92be667b"
+            }
+        },
+        {
+            "chunk_id": "4632eb59e37277998c95a137",
+            "conteudo": "Sabia que o \nDesign é a principal  \nferramenta que liga                        \nas marcas às pessoas?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 101,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 101,
+                "chunk_id": "4632eb59e37277998c95a137"
+            }
+        },
+        {
+            "chunk_id": "1eee717e3fd52f61820fb74d",
+            "conteudo": "Um projeto de Identidade Visual \nvai além do visual\nCONCEITUAL    X      VISUAL  \ndesign, símbolos,\ngrafismos, imagens\nmarketing, gestão, \nvalores, percepções",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 158,
+                "elementos_desenhados": 9,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 158,
+                "chunk_id": "1eee717e3fd52f61820fb74d"
+            }
+        },
+        {
+            "chunk_id": "d618c4833eced75df44206ac",
+            "conteudo": "A Marca é a resposta emocional do público; ELA é \núnica - é a soma de tudo o que o negócio tem para \noferecer. Podemos chama-la de BRANDING!\nJá a Identidade Visual, é um conjunto de \nelementos visuais criados com o objetivo tornar \npalpável tudo é proposto pela marca:\nNome | Logotipo | Tipografia | Paleta de cores | \nImagens | Embalagens | Papelaria...\n*Estes elementos estão presentes em todos os \npontos de contato da marca, seja físico ou digital.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 452,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 452,
+                "chunk_id": "d618c4833eced75df44206ac"
+            }
+        },
+        {
+            "chunk_id": "23d40ee6c2a5b87da99fdb92",
+            "conteudo": "**LOGOTIPO**\nSímbolo da marca\nExemplo visual: Representação gráfica da escrita \"Coca-Cola\".\n\n**IDENTIDADE VISUAL**\nCores e formas que complementam o logotipo\nExemplo visual: Formas gráficas em vermelho e branco.\n\n**MARCA**\nLogotipo, identidade visual e posicionamento da marca\nExemplo visual: Elementos gráficos, o texto \"abra a felicidade\" e a representação de uma garrafa.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "sem_texto_extraivel"
+                ],
+                "caracteres_texto_original": 0,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 374,
+                "chunk_id": "23d40ee6c2a5b87da99fdb92"
+            }
+        },
+        {
+            "chunk_id": "d965476c6de26f1cb3d383ca",
+            "conteudo": "As pessoas precisam de estímulos visuais para se conectarem com a marca.\n\nDiana Coe\n\nEXPRESSE INSPIRAÇÃO, IDENTIDADE E CONEXÃO.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 9,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 127,
+                "chunk_id": "d965476c6de26f1cb3d383ca"
+            }
+        },
+        {
+            "chunk_id": "e7434a9fd7e62d96e512df0b",
+            "conteudo": "Padronização e Constância \nProporcionadas pela Identidade Visual das marcas;\nA recorrência dos elementos visuais que representam \nas marcas.\nSímbolos, cores, tipograﬁas, imagens...",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 180,
+                "elementos_desenhados": 7,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 180,
+                "chunk_id": "e7434a9fd7e62d96e512df0b"
+            }
+        },
+        {
+            "chunk_id": "a300a39641188e08c1930871",
+            "conteudo": "Imagens\nExistem diversos tipos de \nimagens para diversas \nﬁnalidades.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 69,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 69,
+                "chunk_id": "a300a39641188e08c1930871"
+            }
+        },
+        {
+            "chunk_id": "dc5f33200a0ea61fedd9a711",
+            "conteudo": "Imagens vetoriais: \ndesenvolvidas a partir de  \num sistema de equações \nmatemáticas, que \npermitem \nredimensionamento em \nqualquer escala sem \nperda de qualidade. \nImagens bitmap: \nimagens obtidas por fotografia \ndigital ou scaneada. Mapeada \npor bits. O bit é a unidade \nmínima \nda memória do computador. \nCada imagem está organizada \nem uma série de linhas e \ncolunas formadas por pixels.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 390,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 390,
+                "chunk_id": "dc5f33200a0ea61fedd9a711"
+            }
+        },
+        {
+            "chunk_id": "4c5a5d82e3904c18d3d8b66d",
+            "conteudo": "# Pixel\n\nA página apresenta o conceito de **Pixel** por meio de uma ilustração visual composta por duas imagens:\n\n- **Imagem superior**: mostra um cervo deitado em um campo de grama verde. Um pequeno quadrado vermelho está desenhado sobre a orelha do cervo, indicando uma região específica da imagem.\n- **Imagem inferior**: apresenta uma ampliação (zoom) da região delimitada pelo quadrado vermelho da imagem superior. Nesta ampliação, a imagem é exibida em formato de grade de quadrados coloridos (pixels). Um único quadrado dessa grade está destacado com um contorno vermelho e apontado por uma seta vermelha, acompanhado do rótulo **\"Um Pixel\"**.\n\nA relação entre as duas imagens é indicada visualmente: o quadrado vermelho na imagem superior corresponde à área ampliada mostrada na imagem inferior, e o rótulo \"Um Pixel\" identifica um elemento individual dessa grade.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 5,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 871,
+                "chunk_id": "4c5a5d82e3904c18d3d8b66d"
+            }
+        },
+        {
+            "chunk_id": "cd6c74137d3e9c8f1af56f13",
+            "conteudo": "# Bitmap x Vetor\n\nA imagem apresenta uma comparação visual entre dois tipos de representação gráfica, identificados pelo título \"Bitmap x Vetor\".\n\nA comparação é estruturada da seguinte forma:\n\n*   **Bitmap:**\n    *   Um ícone pequeno de uma figura humana dentro de um círculo é mostrado na parte superior.\n    *   Linhas partem deste ícone em direção a uma versão ampliada do mesmo ícone.\n    *   A versão ampliada apresenta as bordas serrilhadas e pixels visíveis, demonstrando a perda de qualidade ao aumentar a escala.\n\n*   **Vetor:**\n    *   Um ícone pequeno idêntico ao anterior é mostrado na parte superior.\n    *   Linhas partem deste ícone em direção a uma versão ampliada do mesmo ícone.\n    *   A versão ampliada mantém as bordas nítidas e definidas, sem a presença de pixels, demonstrando a preservação da qualidade ao aumentar a escala.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 14,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 849,
+                "chunk_id": "cd6c74137d3e9c8f1af56f13"
+            }
+        },
+        {
+            "chunk_id": "5876dc3422fbc043a7340ffe",
+            "conteudo": "# Vetor x Bitmap\n\nA página apresenta uma comparação visual entre duas representações de uma estrela de cinco pontas:\n\n- **Representação vetorial (à esquerda):** uma estrela amarela com contorno vermelho. O contorno é marcado por pontos verdes conectados por linhas tracejadas, indicando a estrutura de vetores e pontos de ancoragem que definem a forma.\n- **Representação bitmap (à direita):** a mesma estrela amarela com contorno vermelho, porém exibida sobre uma grade quadriculada. A imagem é formada por pixels, e as bordas da estrela apresentam blocos de cores (tons de vermelho, laranja e cinza) que evidenciam a composição por pixels e a pixelização das bordas.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 14,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 667,
+                "chunk_id": "5876dc3422fbc043a7340ffe"
+            }
+        },
+        {
+            "chunk_id": "33c403af3c7c7841f73d349b",
+            "conteudo": "Já a resolução da imagem \né a quantidade de pixels ou \npontos que compõem uma \nimagem por polegada.\nOu seja, quanto mais pontos \nou pixels uma imagem tiver \npor polegada, maior será a \nquantidade de detalhes e a \nqualidade dela.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 228,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 228,
+                "chunk_id": "33c403af3c7c7841f73d349b"
+            }
+        },
+        {
+            "chunk_id": "992afe4f4009458443cef5c2",
+            "conteudo": "Redimensionament\no\nNão recomenda-se “esticar” nenhum elemento da linguagem \nvisual. O ideal é manter sempre sua proporção original.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 131,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 131,
+                "chunk_id": "992afe4f4009458443cef5c2"
+            }
+        },
+        {
+            "chunk_id": "b0f0035d2853bd66cfe7a256",
+            "conteudo": "PNG\nFormato de imagem \nutilizado no ambiente web. \nAlém disso, seus grandes \ndiferenciais estão na \ncapacidade da imagem \nnão perder a qualidade \nno caso de compressão e \nna capacidade de suportar \na transparência.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 214,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 214,
+                "chunk_id": "b0f0035d2853bd66cfe7a256"
+            }
+        },
+        {
+            "chunk_id": "72f3a871373111e6e1eaff4e",
+            "conteudo": "PNG x JPG\nContudo, a grande diferença \nentre estes dois formatos é que \na compressão das imagens no \nformato PNG não causam \ntanta perda de qualidade, \ndiferentemente do JPG.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 174,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 174,
+                "chunk_id": "72f3a871373111e6e1eaff4e"
+            }
+        },
+        {
+            "chunk_id": "c5de0dbbbb7dc47a6bfe2a97",
+            "conteudo": "# Exemplo de Painel Criativo – Letícia Tavares fotografia\n\nO painel criativo é composto pelos seguintes elementos visuais e seus respectivos rótulos:\n\n*   **AUTÊNTICA**: imagem de uma mão com luz brilhante entre os dedos.\n*   **AFETIVA**: imagem de um bebê em uma banheira branca, cercado por balões e decoração de fundo.\n*   **ARTÍSTICA**: ilustração de formas geométricas e folhagens em tons terrosos.\n*   **MADURA**: ilustração de uma planta em vaso sobre um fundo de textura marrom.\n*   **MEMORÁVEL**: rótulo posicionado abaixo da imagem \"AUTÊNTICA\".\n*   **LIVRE/LEVE**: ilustração de balões de festa em tons suaves.\n*   **RESILIENTE**: rótulo posicionado abaixo da imagem \"MADURA\".",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 54,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 686,
+                "chunk_id": "c5de0dbbbb7dc47a6bfe2a97"
+            }
+        },
+        {
+            "chunk_id": "ecb0a1e24bfa79884770286c",
+            "conteudo": "# Achego Essências Aromas\n\n## AFETIVA\n- Fotografia de uma mulher de olhos fechados, com os braços cruzados sobre o peito, vestindo blusa de manga longa na cor bege.\n- Abaixo da fotografia, um bloco na cor turquesa com um ícone de coração estilizado, formado por linhas curvas e um círculo pequeno na parte superior direita.\n- Rótulo: IMPACTANTE\n\n## CRIATIVA\n- Fotografia de uma disposição de vários livros e cadernos abertos e fechados, com capas em cores variadas (amarelo, rosa, verde, laranja, azul e branco).\n- Abaixo da fotografia, uma paleta de cores composta por quatro faixas horizontais em tons de verde-escuro.\n\n## ELEGANTE\n- Tipografia em preto com a palavra \"argô\" em fonte serifada, acompanhada dos textos \"by anthonyjames\" e \"TYPEFACE\" em letras menores.\n- Fotografia de mãos segurando um ramo de flores brancas pequenas, com anéis nos dedos.\n- Rótulo: ELEGANTE",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 875,
+                "chunk_id": "ecb0a1e24bfa79884770286c"
+            }
+        },
+        {
+            "chunk_id": "3638d037a8cee31b8051f134",
+            "conteudo": "## SUTIL\n- Fotografia de um objeto em formato de arco, na cor bege, com a inscrição \"trust the magic of new beginnings\", acompanhado de flores secas amarelas presas à sua lateral direita.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 2,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 187,
+                "chunk_id": "3638d037a8cee31b8051f134"
+            }
+        },
+        {
+            "chunk_id": "b3f47013d3ff2732a82e3914",
+            "conteudo": "O que faz uma marca se conectar \nmelhor com você do que as outras?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 66,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 66,
+                "chunk_id": "b3f47013d3ff2732a82e3914"
+            }
+        },
+        {
+            "chunk_id": "b69fa4d8c223d3fb9c356acf",
+            "conteudo": "IDENTIFICAÇÃO\nPERSONALIDADE\nPROPÓSITO\nLINGUAGEM",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 47,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 47,
+                "chunk_id": "b69fa4d8c223d3fb9c356acf"
+            }
+        },
+        {
+            "chunk_id": "d3b9b881590da9585f0ebba1",
+            "conteudo": "OBRIGADA POR SUA ATENÇÃO\n@tamiresmdlima -  In: tamireslima01",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "ferramentas_visuais",
+                "aula": "02",
+                "arquivo": "Aula02_Artefatos_digitais.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 60,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_02_ferramentas_visuais",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 60,
+                "chunk_id": "d3b9b881590da9585f0ebba1"
+            }
+        }
+    ]
+}

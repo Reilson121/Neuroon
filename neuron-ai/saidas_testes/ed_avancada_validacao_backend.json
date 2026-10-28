@@ -1,0 +1,114 @@
+{
+  "gerado_em_utc": "2026-10-28T05:59:53.082740+00:00",
+  "checks": [
+    "catalogo_14_assuntos_3_aulas",
+    "abertura_dos_tres_pdfs_autenticada",
+    "pratica_sem_material_nao_inventa_questoes",
+    "rag_filtrado_nos_14_assuntos_com_ids_relacionais",
+    "monitor_real_com_fontes_sse_e_historico"
+  ],
+  "aprovado": true,
+  "monitor": {
+    "id": 10,
+    "papel": "MONITOR",
+    "conteudo": "Uma fila de prioridade é uma estrutura de dados onde os elementos são processados com base em sua prioridade, e não apenas na ordem de inserção. [F1] A heap é a estrutura de dados usada para implementar filas de prioridade, existindo dois tipos principais: [F2]\n- Min-Heap: o menor elemento sempre fica no topo (prioridade mais alta). [F2]\n- Max-Heap: o maior elemento fica no topo. [F2]\nEm Python, o módulo heapq implementa uma heap (um tipo especial de árvore binária que mantém a ordem de prioridade) para esse fim. [F3]",
+    "fontes": [
+      {
+        "referencia": "F1",
+        "chunk_id": "8f06656e57b3419f1934411c",
+        "arquivo": "Aula_2.pdf",
+        "pagina": 4,
+        "assunto": "filas_de_prioridade_e_heap",
+        "aula": "02",
+        "similaridade": 0.7230409599256805,
+        "assunto_id": 44,
+        "periodo_id": 1,
+        "material_id": 6,
+        "disciplina_id": 9,
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Aula 2 — Estrutura de Dados Avançada",
+        "chunk_caracteres": 174,
+        "motivos_deteccao": [
+          "texto_duplicado_removido",
+          "paginas_curtas_mescladas"
+        ],
+        "paginas_mescladas": [
+          3
+        ],
+        "total_chunks_pagina": 1,
+        "elementos_desenhados": 6,
+        "autorizacao_professor": false,
+        "fonte_monitor_virtual": true,
+        "disponivel_para_pratica": false,
+        "caracteres_texto_original": 186,
+        "periodo": "03",
+        "disciplina": "estrutura_de_dados_avancada",
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "chunk_index": 1
+      },
+      {
+        "referencia": "F2",
+        "chunk_id": "6f3d7074175277cd993cac4c",
+        "arquivo": "Aula_2.pdf",
+        "pagina": 6,
+        "assunto": "filas_de_prioridade_e_heap",
+        "aula": "02",
+        "similaridade": 0.6336000780105555,
+        "assunto_id": 44,
+        "periodo_id": 1,
+        "material_id": 6,
+        "disciplina_id": 9,
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Aula 2 — Estrutura de Dados Avançada",
+        "chunk_caracteres": 245,
+        "motivos_deteccao": [
+          "texto_duplicado_removido"
+        ],
+        "total_chunks_pagina": 1,
+        "elementos_desenhados": 6,
+        "autorizacao_professor": false,
+        "fonte_monitor_virtual": true,
+        "disponivel_para_pratica": false,
+        "caracteres_texto_original": 263,
+        "periodo": "03",
+        "disciplina": "estrutura_de_dados_avancada",
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "chunk_index": 1
+      },
+      {
+        "referencia": "F3",
+        "chunk_id": "3e1ba26de2182f93ff4340c3",
+        "arquivo": "Aula_2.pdf",
+        "pagina": 9,
+        "assunto": "filas_de_prioridade_e_heap",
+        "aula": "02",
+        "similaridade": 0.5049473944275027,
+        "assunto_id": 44,
+        "periodo_id": 1,
+        "material_id": 6,
+        "disciplina_id": 9,
+        "tipo_material": "SLIDE_AULA",
+        "titulo_material": "Aula 2 — Estrutura de Dados Avançada",
+        "chunk_caracteres": 251,
+        "motivos_deteccao": [
+          "texto_duplicado_removido"
+        ],
+        "total_chunks_pagina": 1,
+        "elementos_desenhados": 5,
+        "autorizacao_professor": false,
+        "fonte_monitor_virtual": true,
+        "disponivel_para_pratica": false,
+        "caracteres_texto_original": 266,
+        "periodo": "03",
+        "disciplina": "estrutura_de_dados_avancada",
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "textual",
+        "chunk_index": 1
+      }
+    ],
+    "criadoEm": "2026-10-28T06:01:53.925575Z"
+  },
+  "conta_temporaria_removida": true
+}

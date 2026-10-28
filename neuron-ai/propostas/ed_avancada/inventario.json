@@ -1,0 +1,9 @@
+{
+  "corpus": "saidas_testes/estrutura_de_dados_avancada_aula_0_aula_1_aula_2.json",
+  "corpus_sha256": "b5625750dc2a7e8e7a52f55317d7d5e7e90e5b919bb197b829cbe25aa87605d8",
+  "arquivos": {
+    "Aula_0.pdf": "f0c1caf3d483d8090ff157802a4f5501c26507678442803f0e4870f14b7bdc1d",
+    "Aula_1.pdf": "d970957b0c09a6726bbba31c6e35e932bf0ccecf19d9482a249cb4a92131dca9",
+    "Aula_2.pdf": "8c6c5af4f5e2edd3df7dca2139dcd78afb1ecba3e5e0f65e5a99a575a48a150b"
+  }
+}

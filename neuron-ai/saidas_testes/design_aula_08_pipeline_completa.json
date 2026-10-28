@@ -1,0 +1,1465 @@
+{
+    "resumo": {
+        "arquivo": "AULA_08.pdf",
+        "periodo": "03",
+        "disciplina": "design_de_artefatos_digitais",
+        "assunto": "design_thinking",
+        "aula": "08",
+        "total_paginas": 36,
+        "paginas_textuais": 31,
+        "paginas_multimodais": 5,
+        "total_chunks": 37,
+        "chunk_size": 1000,
+        "chunk_overlap": 150
+    },
+    "paginas": [
+        {
+            "conteudo": "# DESIGN THINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 15,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "O design thinking é uma abordagem \ncentrada no ser humano para a inovação \nque combina empatia, criatividade e \nracionalidade para resolver problemas \ncomplexos e criar soluções signiﬁcativas.\n(BROWN, 2010)\nDESIGN\nTHINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 222,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "É uma metodologia inovadora que foca \nna experiência e na usabilidade do \nproduto porque trata de entender o que \no usuário precisa. (Minuzi, 2020)\nDESIGN\nTHINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 163,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Design Thinking é um método \ncom o objetivo de gerar novas \nideias, buscando resolver as \nnecessidades reais do usuário.\nSeguiremos o Design Thinking como\nGERADOR\nDE IDEIAS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 172,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Design\nThinking\n•  Observar a interação do usuário com os produtos; \n•  Identiﬁcar as demandas existentes \n•  Para reconhecer onde é possível inovar\nO que caracateriza",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 167,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "pois é baseada em algo inato a qualquer ser \nhumano: a necessidade de resolver problemas.\nO design thinking é uma metodologia que vem \ndo design, uma vez que ela utiliza o pensamento \ndessa área para a solução de problemas.\nPois é colaborativa, experimental, centrada nas \npessoas e apresentar soluções de maneira criativa\nNÃO\nprecisa\nser um \nDESIGNER",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 351,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Não prioriza buscar desenvolver novos \nprodutos ou serviços\nProblemas com foco nas demandas, ou seja, \nnecessidades do usuário\nDesign Thinking \npara\npessoas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 156,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "As fases ou etapas do design thinking \nservem para estruturar de maneira \norganizada a sequência lógica de como será \naplicada a metodologia.\nÉ como uma receita de bolo.\nfases do\nDESIGN\nTHINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 194,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Etapas\nDesign Thinking\n•  Se refere a um momento da sua pesquisa;\n•  Exige diferentes habilidades\n•  Para reconhecer onde é possível inovar\n•  Organizadas sequencialmente e estão relacionadas\nentre elas.\n•  Para iniciar uma nova etapa, é fundamental que\nvocê tenha ﬁnalizado a anterior.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 286,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Etapas do\nDesign Thinking\nOrganização sequencial das \netapas do design thinking.\nFonte: Adaptada de Brown et al. (2017).",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 120,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Apesar de esse processo apresentar uma \nestrutura sequencial\nPoderão voltar a uma etapa anterior para revisá-la\nNas Etapas Design Thinking \né possivel\nvoltar",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 157,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "A ideia é ir diminuindo e selecionando as \nmelhores ideias para a solução ﬁnal, que\ncontemple as necessidades dos usuários.\nE a informação\ntende\na diminuir",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 155,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Empatia\nDesign Thinking\n•  Quando inicia o processo > levantamento de dados\n•  Visa reunir o maior número de informações sobre o \nproduto ou serviço que está desenvolvendo\n•  Buscar os usuários \n•  Questionar os pontos fracos do produto e analisar como\nesse usuário interage com ele.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 283,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "•  Após o levantamento de dados, agora é trabalhá-los\n• Interpretar os dados com o objetivo de deﬁnir o problema \nque será solucionado ao ﬁnal\n•  Buscar os usuários \n•  Ferramentas para deﬁir o problema - os mapas conceituais\n•  Apresentar aos envolvidos uma visão geral da problemática\nDeﬁnição\nDesign Thinking",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 311,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "•  Momento em que a equipe se reúne para, de maneira \ncoletiva, apresentar ideias.\n•  Todos da equipe devem gerar muitas ideias\n•  Buscar os usuários \n•  Quanto maior, maiores as possibilidades de inovação\n•  Dismistiﬁcar: Não existe ideias ruims no processo criativo\nIdeação\nDesign Thinking",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 291,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "•  Começar a dar forma à solução esperada.\n•  Selecionar as ideias que são viáveis de serem aplicadas\n•  Consideram-se fatores tecnológicos, econômicos, entre \noutros que podem inviabilizar o desenvolvimento da ideia\n•  “Quanto mais próximo da realidade o protótipo, maiores \nsão as chances de ajustar possíveis problemas antes de \niniciar a produção”.\nPrototipação\nDesign Thinking",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 381,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "•  Etapa no qual é veriﬁcada a usabilidade desse produto\n•  Visa observara relação do usuário com esse produto\n•  questionários que identiﬁquem as problemáticas \napresentadas no início do projeto\n•  Questionar os pontos fracos do produto e analisar como\nesse usuário interage com ele.\nTeste\nDesign Thinking",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 306,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "O usuário está presente durante essas cinco\netapas, a ﬁm de garantir que as suas \ndemandas foram atendidas.\nTrabalhar o mindset (mentalidade) \ndos envolvidos.\nusuário\npresente",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 175,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Design Thinking\nEMPATIA\n(FERRAMENTAS)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 38,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "•  Mapa de Empatia\n•  Persona (ou proto-persona)\n•  Jornada do usuário\nDesign Thinking \nEMPATIA\n(FERRAMENTAS)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 109,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Mas o que é EMPATIA?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "o \nque \né \nEMPATIA?\n1.\ncapacidade de se identiﬁcar com outra \npessoa, de sentir o que ela sente, de querer o \nque ela quer, de apreender do modo como \nela apreende etc.\n2.\nfaculdade de compreender emocionalmente \num objeto (um quadro, p.ex.).",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 242,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Mapa Empatia\nDesign Thinking\n•  Quando inicia o processo > levantamento de dados\n•  Visa reunir o maior número de informações sobre o \nproduto ou serviço que está desenvolvendo\n•  Buscar os usuários \n•  Questionar os pontos fracos do produto e analisar como\nesse usuário interage com ele.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 288,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "# Mapa de Empatia\n\n## Cabeçalho\n- Desenhado para:\n- Desenhado por:\n- Data:\n- Versão:\n\n## Estrutura do Mapa\n\n### Elementos Superiores\n- **OBJETIVO**\n- **1** Com quem estamos sendo EMPÁTICOS?\n- **2** O que ela precisa fazer?\n\n### Elementos Centrais (Relacionados ao Sujeito)\n- **7** O que ela PENSA e SENTE?\n  - DORES\n  - DESEJOS ou ganhos\n\n### Elementos Laterais\n- **3** O que ele VÊ?\n- **6** O que ele ESCUTA?\n- **4** O que ele FALA?\n\n### Elemento Inferior\n- **5** O que ele FAZ?\n\n## Informações de Rodapé\n- Versão Original: Dave Gray, Xplane.com\n- Este trabalho está licenciado sob a Licença Atribuição-CompartilhaIgual 4.0 Internacional Creative Commons.\n- O ANALISTA DE MODELOS DE NEGÓCIOS\n- analistamodelosdenegocios.com.br",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 9,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Em que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 72,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Em que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 189,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Ambiente, amigos, o que o \nmercado oferece\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 232,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Ambiente, amigos, o que o \nmercado oferece\nO que escutamos ele \nfalando? \nO que imaginamos ele \nfalando?\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 294,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Ambiente, amigos, o que o \nmercado oferece\nO que escutamos ele \nfalando? \nO que imaginamos ele \nfalando?\nAtitude em público, aparência, \ncomportamento\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 340,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "O que os amigos dizem, \no que o chefe fala, o \nque os inﬂuenciadores \ndizem\nAmbiente, amigos, o que o \nmercado oferece\nO que escutamos ele \nfalando? \nO que imaginamos ele \nfalando?\nAtitude em público, aparência, \ncomportamento\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 416,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "O que realmente conta, principais \npreocupações e aspirações\nO que os amigos dizem, \no que o chefe fala, o \nque os inﬂuenciadores \ndizem\nAmbiente, amigos, o que o \nmercado oferece\nO que escutamos ele \nfalando? \nO que imaginamos ele \nfalando?\nAtitude em público, aparência, \ncomportamento\nMedos, \nfrustrações, \nobstáculos\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nNecessidades, \nformas de medir \nsucesso, obstáculos\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 562,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "EXEMPLO\nMAPA DE EMPATIA\nJuliana tem 36 anos e mora em Belo Horizonte desde que nasceu. \nEstudou administração na ESPM, fez MBA na Fundação Getúlio Vargas e hoje trabalha em uma empresa de \nseguros, como gestora de vendas. Para ela a qualidade da educação é muito  importante, pois sabe que ter \ntítulos de boas instituições de ensino abre muitas portas. \nSua vida é agitada e ela se divide entre a família e o trabalho para dar conta de tudo. Valoriza o conforto e o \nluxo, pois acredita que, para ser bem vista no seu mercado, precisa passar conﬁança, seriedade e poder por \nmeio do seu visual. Por isso acha importante usar roupas de marcas como Dudalina, que reﬂetem o seu estilo. \nTem 2 ﬁlhos e divide as tarefas com seu marido, além de contar bastante com a colaboração dos seus pais na \ncriação deles. Sempre que precisa, os avós aposentados cuidam dos netos. Gosta de ir a restaurantes com o \nmarido e as amigas para tirar um tempo para si, tomar seu vinho preferido no restaurante badalado do \nmomento. \nSua mãe é sua ﬁgura de inspiração, pois foi uma proﬁssional com uma carreira de reconhecimentos, o que \nJuliana também espera ter. Devido ao tempo que passou fora do mercado para cuidar dos ﬁlhos, ela se sente \num pouco atrasada. \nEstá em busca de novos conhecimentos como gestão, metodologias ágeis, Marketing Digital e outros que \npossam agregar ao seu currículo e no dia a dia na empresa para melhorar seu desempenho e ser mais \nreconhecida, pois sonha em chegar à diretoria da empresa. \nAgora que os ﬁlhos estão maiores, consegue reservar tempo para estudar e ler materiais relacionados a sua \nproﬁssão.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 1619,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "# EXEMPLO\n## MAPA DE EMPATIA\n\nNome: Juliana\nIdade: 36 anos\n\n### O que PENSA E SENTE?\n- Acredito que boas instituições de ensino abrem portas\n- Preciso estudar para melhorar meu currículo\n\n### O que OUVE?\n- Precisa pensar menos em trabalho e relaxar um pouco\n\n### O que VÊ?\n- Amigos empreendedores\n- Mãe bem-sucedida\n\n### O que FALA E FAZ?\n- Assiste a programas como Masterchef e a canais como GNT, além de Netflix\n- Compra marcas voltadas a mulheres bem-sucedidas, como Dudalina\n- Frequenta bons restaurantes\n- Valoriza conforto e luxo\n- Usa roupas que demonstram seriedade e poder\n\n### Quais são as DORES?\n- Sente-se desatualizada em relação ao mercado de trabalho\n- É difícil conciliar trabalho e família\n\n### Quais são as NECESSIDADES?\n- Preciso de conhecimentos de gestão, metodologias ágeis e Marketing Digital\n- Preciso melhorar meu desempenho para chegar à diretoria da empresa",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "Stakeholders \n(que avaliam ideias e tomam decisões) \nDesigners \nUx writers \n(que garantem que o conteúdo, a \nlinguagem e o ﬂuxo de informações sejam \nadequados, \nDesenvolvedores\nPERSONA\nBENEFÍCIOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 196,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "• BROWN, T. Design Thinking: uma metodologia poderosa para \ndecretar o ﬁm das velhas ideias. Rio de Janeiro: Elsevier, 2010. \n• ROYO, J. Design Digital. São Paulo: Edições Rosari Ltda., 2011. \n• VERGANTI, R. Design driven innovation: mudando as regras da \ncompetição; a inovação radical do signiﬁcado de produtos. São \nPaulo: Camal Certo, 2012. \n• NORMAN, D. A. Design emocional: por que adoramos (ou \ndetestamos) os objetos do dia-a-dia. Rio de Janeiro: Rocco, 2008.\n• STICKDORN, M.; SCHENEIDER, J. Isto é design thinking de \nserviços. Porto Alegre: Bookman, 2014. \nReferências",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 578,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        },
+        {
+            "conteudo": "• PINHEIRO, T., ALT, L., PONTES, F. Design thinking Brasil: empatia, \ncolaboração e experimentação para pessoas, negócios e sociedade. \nRio de Janeiro: Elsevier, 2011.\n• KRUG, S. Não me faça pensar: uma abordagem de bom senso à \nusabilidade na web. São Paulo: Alta Books, 2010. \n• LUPTON, E. Tipos na tela. São Paulo: G. Gilli, 2015. \n• MANZINI, E.; VEZZOLI. C. O Desenvolvimento de • produtos \nsustentáveis. São Paulo: Edusp, 2008. \n• LOWDERMILK, T. Design centrado no usuário: um guia para o \ndesenvolvimento de aplicativos amigáveis. São Paulo:.Novatec, 2013\nReferências",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 36,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 573,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking"
+            }
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": "dcca99344eeb74b1466faeee",
+            "conteudo": "# DESIGN THINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 15,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 17,
+                "chunk_id": "dcca99344eeb74b1466faeee"
+            }
+        },
+        {
+            "chunk_id": "58c45ab58b86dc8eeeb85901",
+            "conteudo": "O design thinking é uma abordagem \ncentrada no ser humano para a inovação \nque combina empatia, criatividade e \nracionalidade para resolver problemas \ncomplexos e criar soluções signiﬁcativas.\n(BROWN, 2010)\nDESIGN\nTHINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 222,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 222,
+                "chunk_id": "58c45ab58b86dc8eeeb85901"
+            }
+        },
+        {
+            "chunk_id": "ce9a939d60455ff5058b8c59",
+            "conteudo": "É uma metodologia inovadora que foca \nna experiência e na usabilidade do \nproduto porque trata de entender o que \no usuário precisa. (Minuzi, 2020)\nDESIGN\nTHINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 163,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 163,
+                "chunk_id": "ce9a939d60455ff5058b8c59"
+            }
+        },
+        {
+            "chunk_id": "92bd890eccaeb4dcf874ff46",
+            "conteudo": "Design Thinking é um método \ncom o objetivo de gerar novas \nideias, buscando resolver as \nnecessidades reais do usuário.\nSeguiremos o Design Thinking como\nGERADOR\nDE IDEIAS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 172,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 172,
+                "chunk_id": "92bd890eccaeb4dcf874ff46"
+            }
+        },
+        {
+            "chunk_id": "9781de06e6903e9ffccb9026",
+            "conteudo": "Design\nThinking\n•  Observar a interação do usuário com os produtos; \n•  Identiﬁcar as demandas existentes \n•  Para reconhecer onde é possível inovar\nO que caracateriza",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 167,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 167,
+                "chunk_id": "9781de06e6903e9ffccb9026"
+            }
+        },
+        {
+            "chunk_id": "1164cbc5b2d281f802962895",
+            "conteudo": "pois é baseada em algo inato a qualquer ser \nhumano: a necessidade de resolver problemas.\nO design thinking é uma metodologia que vem \ndo design, uma vez que ela utiliza o pensamento \ndessa área para a solução de problemas.\nPois é colaborativa, experimental, centrada nas \npessoas e apresentar soluções de maneira criativa\nNÃO\nprecisa\nser um \nDESIGNER",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 351,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 351,
+                "chunk_id": "1164cbc5b2d281f802962895"
+            }
+        },
+        {
+            "chunk_id": "9f6ffb613c43c5b85c17ae9b",
+            "conteudo": "Não prioriza buscar desenvolver novos \nprodutos ou serviços\nProblemas com foco nas demandas, ou seja, \nnecessidades do usuário\nDesign Thinking \npara\npessoas",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 156,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 156,
+                "chunk_id": "9f6ffb613c43c5b85c17ae9b"
+            }
+        },
+        {
+            "chunk_id": "c329938c6b581f11546e6d4f",
+            "conteudo": "As fases ou etapas do design thinking \nservem para estruturar de maneira \norganizada a sequência lógica de como será \naplicada a metodologia.\nÉ como uma receita de bolo.\nfases do\nDESIGN\nTHINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 194,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 194,
+                "chunk_id": "c329938c6b581f11546e6d4f"
+            }
+        },
+        {
+            "chunk_id": "2eafbe7a41dcc213e7ef5e20",
+            "conteudo": "Etapas\nDesign Thinking\n•  Se refere a um momento da sua pesquisa;\n•  Exige diferentes habilidades\n•  Para reconhecer onde é possível inovar\n•  Organizadas sequencialmente e estão relacionadas\nentre elas.\n•  Para iniciar uma nova etapa, é fundamental que\nvocê tenha ﬁnalizado a anterior.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 286,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 286,
+                "chunk_id": "2eafbe7a41dcc213e7ef5e20"
+            }
+        },
+        {
+            "chunk_id": "9623111fae33d4c161a77393",
+            "conteudo": "Etapas do\nDesign Thinking\nOrganização sequencial das \netapas do design thinking.\nFonte: Adaptada de Brown et al. (2017).",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 120,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 120,
+                "chunk_id": "9623111fae33d4c161a77393"
+            }
+        },
+        {
+            "chunk_id": "ecd8e48bb65e84926d6a1493",
+            "conteudo": "Apesar de esse processo apresentar uma \nestrutura sequencial\nPoderão voltar a uma etapa anterior para revisá-la\nNas Etapas Design Thinking \né possivel\nvoltar",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 157,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 157,
+                "chunk_id": "ecd8e48bb65e84926d6a1493"
+            }
+        },
+        {
+            "chunk_id": "0351cf89d411b0b3d8c4fc8c",
+            "conteudo": "A ideia é ir diminuindo e selecionando as \nmelhores ideias para a solução ﬁnal, que\ncontemple as necessidades dos usuários.\nE a informação\ntende\na diminuir",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 155,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 155,
+                "chunk_id": "0351cf89d411b0b3d8c4fc8c"
+            }
+        },
+        {
+            "chunk_id": "fbc37b4b058b8458541cd5d1",
+            "conteudo": "Empatia\nDesign Thinking\n•  Quando inicia o processo > levantamento de dados\n•  Visa reunir o maior número de informações sobre o \nproduto ou serviço que está desenvolvendo\n•  Buscar os usuários \n•  Questionar os pontos fracos do produto e analisar como\nesse usuário interage com ele.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 283,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 283,
+                "chunk_id": "fbc37b4b058b8458541cd5d1"
+            }
+        },
+        {
+            "chunk_id": "cc340f430031177cc7e3431f",
+            "conteudo": "•  Após o levantamento de dados, agora é trabalhá-los\n• Interpretar os dados com o objetivo de deﬁnir o problema \nque será solucionado ao ﬁnal\n•  Buscar os usuários \n•  Ferramentas para deﬁir o problema - os mapas conceituais\n•  Apresentar aos envolvidos uma visão geral da problemática\nDeﬁnição\nDesign Thinking",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 311,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 311,
+                "chunk_id": "cc340f430031177cc7e3431f"
+            }
+        },
+        {
+            "chunk_id": "e3107af389aec0ccbd09b8a1",
+            "conteudo": "•  Momento em que a equipe se reúne para, de maneira \ncoletiva, apresentar ideias.\n•  Todos da equipe devem gerar muitas ideias\n•  Buscar os usuários \n•  Quanto maior, maiores as possibilidades de inovação\n•  Dismistiﬁcar: Não existe ideias ruims no processo criativo\nIdeação\nDesign Thinking",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 291,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 291,
+                "chunk_id": "e3107af389aec0ccbd09b8a1"
+            }
+        },
+        {
+            "chunk_id": "d50401708d57edfbee728c8c",
+            "conteudo": "•  Começar a dar forma à solução esperada.\n•  Selecionar as ideias que são viáveis de serem aplicadas\n•  Consideram-se fatores tecnológicos, econômicos, entre \noutros que podem inviabilizar o desenvolvimento da ideia\n•  “Quanto mais próximo da realidade o protótipo, maiores \nsão as chances de ajustar possíveis problemas antes de \niniciar a produção”.\nPrototipação\nDesign Thinking",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 381,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 381,
+                "chunk_id": "d50401708d57edfbee728c8c"
+            }
+        },
+        {
+            "chunk_id": "107adf452cdaee115846bac1",
+            "conteudo": "•  Etapa no qual é veriﬁcada a usabilidade desse produto\n•  Visa observara relação do usuário com esse produto\n•  questionários que identiﬁquem as problemáticas \napresentadas no início do projeto\n•  Questionar os pontos fracos do produto e analisar como\nesse usuário interage com ele.\nTeste\nDesign Thinking",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 306,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 306,
+                "chunk_id": "107adf452cdaee115846bac1"
+            }
+        },
+        {
+            "chunk_id": "ee8c403359355affecfc64cd",
+            "conteudo": "O usuário está presente durante essas cinco\netapas, a ﬁm de garantir que as suas \ndemandas foram atendidas.\nTrabalhar o mindset (mentalidade) \ndos envolvidos.\nusuário\npresente",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 18,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 175,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 175,
+                "chunk_id": "ee8c403359355affecfc64cd"
+            }
+        },
+        {
+            "chunk_id": "bc0757492e329a7b7d48d944",
+            "conteudo": "Design Thinking\nEMPATIA\n(FERRAMENTAS)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 19,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 38,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 37,
+                "chunk_id": "bc0757492e329a7b7d48d944"
+            }
+        },
+        {
+            "chunk_id": "d91fa7930c8860971a02754a",
+            "conteudo": "•  Mapa de Empatia\n•  Persona (ou proto-persona)\n•  Jornada do usuário\nDesign Thinking \nEMPATIA\n(FERRAMENTAS)",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 20,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 109,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 109,
+                "chunk_id": "d91fa7930c8860971a02754a"
+            }
+        },
+        {
+            "chunk_id": "5b0181fb8df2519f2464ae42",
+            "conteudo": "Mas o que é EMPATIA?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 21,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 20,
+                "chunk_id": "5b0181fb8df2519f2464ae42"
+            }
+        },
+        {
+            "chunk_id": "345794cda7373f148ae00195",
+            "conteudo": "o \nque \né \nEMPATIA?\n1.\ncapacidade de se identiﬁcar com outra \npessoa, de sentir o que ela sente, de querer o \nque ela quer, de apreender do modo como \nela apreende etc.\n2.\nfaculdade de compreender emocionalmente \num objeto (um quadro, p.ex.).",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 22,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 242,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 242,
+                "chunk_id": "345794cda7373f148ae00195"
+            }
+        },
+        {
+            "chunk_id": "2c0f5a3e89a1bb3ab0220ff1",
+            "conteudo": "Mapa Empatia\nDesign Thinking\n•  Quando inicia o processo > levantamento de dados\n•  Visa reunir o maior número de informações sobre o \nproduto ou serviço que está desenvolvendo\n•  Buscar os usuários \n•  Questionar os pontos fracos do produto e analisar como\nesse usuário interage com ele.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 23,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 288,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 288,
+                "chunk_id": "2c0f5a3e89a1bb3ab0220ff1"
+            }
+        },
+        {
+            "chunk_id": "ad05668c863cc3cacacc50a3",
+            "conteudo": "# Mapa de Empatia\n\n## Cabeçalho\n- Desenhado para:\n- Desenhado por:\n- Data:\n- Versão:\n\n## Estrutura do Mapa\n\n### Elementos Superiores\n- **OBJETIVO**\n- **1** Com quem estamos sendo EMPÁTICOS?\n- **2** O que ela precisa fazer?\n\n### Elementos Centrais (Relacionados ao Sujeito)\n- **7** O que ela PENSA e SENTE?\n  - DORES\n  - DESEJOS ou ganhos\n\n### Elementos Laterais\n- **3** O que ele VÊ?\n- **6** O que ele ESCUTA?\n- **4** O que ele FALA?\n\n### Elemento Inferior\n- **5** O que ele FAZ?\n\n## Informações de Rodapé\n- Versão Original: Dave Gray, Xplane.com\n- Este trabalho está licenciado sob a Licença Atribuição-CompartilhaIgual 4.0 Internacional Creative Commons.\n- O ANALISTA DE MODELOS DE NEGÓCIOS\n- analistamodelosdenegocios.com.br",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 24,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 9,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 727,
+                "chunk_id": "ad05668c863cc3cacacc50a3"
+            }
+        },
+        {
+            "chunk_id": "9013336060f7bb2840ce20c5",
+            "conteudo": "Em que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 25,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 72,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 72,
+                "chunk_id": "9013336060f7bb2840ce20c5"
+            }
+        },
+        {
+            "chunk_id": "3aaa2f7895c01e8a0cbc5758",
+            "conteudo": "Em que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 26,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 189,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 189,
+                "chunk_id": "3aaa2f7895c01e8a0cbc5758"
+            }
+        },
+        {
+            "chunk_id": "e5e1c4886407890994817e12",
+            "conteudo": "Ambiente, amigos, o que o \nmercado oferece\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 27,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 232,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 232,
+                "chunk_id": "e5e1c4886407890994817e12"
+            }
+        },
+        {
+            "chunk_id": "43848a9b6db7240ed7bcb429",
+            "conteudo": "Ambiente, amigos, o que o \nmercado oferece\nO que escutamos ele \nfalando? \nO que imaginamos ele \nfalando?\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 28,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 294,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 294,
+                "chunk_id": "43848a9b6db7240ed7bcb429"
+            }
+        },
+        {
+            "chunk_id": "303dc3d9087add734778c94e",
+            "conteudo": "Ambiente, amigos, o que o \nmercado oferece\nO que escutamos ele \nfalando? \nO que imaginamos ele \nfalando?\nAtitude em público, aparência, \ncomportamento\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 29,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 340,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 340,
+                "chunk_id": "303dc3d9087add734778c94e"
+            }
+        },
+        {
+            "chunk_id": "e72131249c44205f636efb31",
+            "conteudo": "O que os amigos dizem, \no que o chefe fala, o \nque os inﬂuenciadores \ndizem\nAmbiente, amigos, o que o \nmercado oferece\nO que escutamos ele \nfalando? \nO que imaginamos ele \nfalando?\nAtitude em público, aparência, \ncomportamento\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 30,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 416,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 416,
+                "chunk_id": "e72131249c44205f636efb31"
+            }
+        },
+        {
+            "chunk_id": "40c625c5b60f38fdc7b5fc1f",
+            "conteudo": "O que realmente conta, principais \npreocupações e aspirações\nO que os amigos dizem, \no que o chefe fala, o \nque os inﬂuenciadores \ndizem\nAmbiente, amigos, o que o \nmercado oferece\nO que escutamos ele \nfalando? \nO que imaginamos ele \nfalando?\nAtitude em público, aparência, \ncomportamento\nMedos, \nfrustrações, \nobstáculos\nEm que situação ela está?\nQual é o papel dela nessa \nsituação?\nNecessidades, \nformas de medir \nsucesso, obstáculos\nou ganhos\nQuais tarefas ela quer ou \nprecisa fazer? Qual decisão \nela precisa tomar? Como \nsaberemos se ela foi bem \nsucedida?",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 31,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 562,
+                "elementos_desenhados": 0,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 562,
+                "chunk_id": "40c625c5b60f38fdc7b5fc1f"
+            }
+        },
+        {
+            "chunk_id": "087d590649601f44ee35d2ca",
+            "conteudo": "EXEMPLO\nMAPA DE EMPATIA\nJuliana tem 36 anos e mora em Belo Horizonte desde que nasceu. \nEstudou administração na ESPM, fez MBA na Fundação Getúlio Vargas e hoje trabalha em uma empresa de \nseguros, como gestora de vendas. Para ela a qualidade da educação é muito  importante, pois sabe que ter \ntítulos de boas instituições de ensino abre muitas portas. \nSua vida é agitada e ela se divide entre a família e o trabalho para dar conta de tudo. Valoriza o conforto e o \nluxo, pois acredita que, para ser bem vista no seu mercado, precisa passar conﬁança, seriedade e poder por \nmeio do seu visual. Por isso acha importante usar roupas de marcas como Dudalina, que reﬂetem o seu estilo. \nTem 2 ﬁlhos e divide as tarefas com seu marido, além de contar bastante com a colaboração dos seus pais na \ncriação deles. Sempre que precisa, os avós aposentados cuidam dos netos. Gosta de ir a restaurantes com o",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 1619,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 898,
+                "chunk_id": "087d590649601f44ee35d2ca"
+            }
+        },
+        {
+            "chunk_id": "4081fdd2e67ee0a12cd62cdb",
+            "conteudo": "criação deles. Sempre que precisa, os avós aposentados cuidam dos netos. Gosta de ir a restaurantes com o \nmarido e as amigas para tirar um tempo para si, tomar seu vinho preferido no restaurante badalado do \nmomento. \nSua mãe é sua ﬁgura de inspiração, pois foi uma proﬁssional com uma carreira de reconhecimentos, o que \nJuliana também espera ter. Devido ao tempo que passou fora do mercado para cuidar dos ﬁlhos, ela se sente \num pouco atrasada. \nEstá em busca de novos conhecimentos como gestão, metodologias ágeis, Marketing Digital e outros que \npossam agregar ao seu currículo e no dia a dia na empresa para melhorar seu desempenho e ser mais \nreconhecida, pois sonha em chegar à diretoria da empresa. \nAgora que os ﬁlhos estão maiores, consegue reservar tempo para estudar e ler materiais relacionados a sua \nproﬁssão.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 32,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 1619,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 2,
+                "total_chunks_pagina": 2,
+                "chunk_caracteres": 826,
+                "chunk_id": "4081fdd2e67ee0a12cd62cdb"
+            }
+        },
+        {
+            "chunk_id": "1437cc5ca235ad264ae55421",
+            "conteudo": "# EXEMPLO\n## MAPA DE EMPATIA\n\nNome: Juliana\nIdade: 36 anos\n\n### O que PENSA E SENTE?\n- Acredito que boas instituições de ensino abrem portas\n- Preciso estudar para melhorar meu currículo\n\n### O que OUVE?\n- Precisa pensar menos em trabalho e relaxar um pouco\n\n### O que VÊ?\n- Amigos empreendedores\n- Mãe bem-sucedida\n\n### O que FALA E FAZ?\n- Assiste a programas como Masterchef e a canais como GNT, além de Netflix\n- Compra marcas voltadas a mulheres bem-sucedidas, como Dudalina\n- Frequenta bons restaurantes\n- Valoriza conforto e luxo\n- Usa roupas que demonstram seriedade e poder\n\n### Quais são as DORES?\n- Sente-se desatualizada em relação ao mercado de trabalho\n- É difícil conciliar trabalho e família\n\n### Quais são as NECESSIDADES?\n- Preciso de conhecimentos de gestão, metodologias ágeis e Marketing Digital\n- Preciso melhorar meu desempenho para chegar à diretoria da empresa",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 33,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 23,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 884,
+                "chunk_id": "1437cc5ca235ad264ae55421"
+            }
+        },
+        {
+            "chunk_id": "7b50aded482bc3f4fafbc455",
+            "conteudo": "Stakeholders \n(que avaliam ideias e tomam decisões) \nDesigners \nUx writers \n(que garantem que o conteúdo, a \nlinguagem e o ﬂuxo de informações sejam \nadequados, \nDesenvolvedores\nPERSONA\nBENEFÍCIOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 34,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 196,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 196,
+                "chunk_id": "7b50aded482bc3f4fafbc455"
+            }
+        },
+        {
+            "chunk_id": "484da2ba19a8ef25d59ef371",
+            "conteudo": "• BROWN, T. Design Thinking: uma metodologia poderosa para \ndecretar o ﬁm das velhas ideias. Rio de Janeiro: Elsevier, 2010. \n• ROYO, J. Design Digital. São Paulo: Edições Rosari Ltda., 2011. \n• VERGANTI, R. Design driven innovation: mudando as regras da \ncompetição; a inovação radical do signiﬁcado de produtos. São \nPaulo: Camal Certo, 2012. \n• NORMAN, D. A. Design emocional: por que adoramos (ou \ndetestamos) os objetos do dia-a-dia. Rio de Janeiro: Rocco, 2008.\n• STICKDORN, M.; SCHENEIDER, J. Isto é design thinking de \nserviços. Porto Alegre: Bookman, 2014. \nReferências",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 35,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 578,
+                "elementos_desenhados": 2,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 578,
+                "chunk_id": "484da2ba19a8ef25d59ef371"
+            }
+        },
+        {
+            "chunk_id": "1991f15db88ca5a67c9abcc3",
+            "conteudo": "• PINHEIRO, T., ALT, L., PONTES, F. Design thinking Brasil: empatia, \ncolaboração e experimentação para pessoas, negócios e sociedade. \nRio de Janeiro: Elsevier, 2011.\n• KRUG, S. Não me faça pensar: uma abordagem de bom senso à \nusabilidade na web. São Paulo: Alta Books, 2010. \n• LUPTON, E. Tipos na tela. São Paulo: G. Gilli, 2015. \n• MANZINI, E.; VEZZOLI. C. O Desenvolvimento de • produtos \nsustentáveis. São Paulo: Edusp, 2008. \n• LOWDERMILK, T. Design centrado no usuário: um guia para o \ndesenvolvimento de aplicativos amigáveis. São Paulo:.Novatec, 2013\nReferências",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "design_thinking",
+                "aula": "08",
+                "arquivo": "AULA_08.pdf",
+                "pagina": 36,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 573,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_08_design_thinking",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 573,
+                "chunk_id": "1991f15db88ca5a67c9abcc3"
+            }
+        }
+    ]
+}

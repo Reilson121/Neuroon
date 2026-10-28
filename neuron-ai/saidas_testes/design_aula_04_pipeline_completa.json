@@ -1,0 +1,718 @@
+{
+    "resumo": {
+        "arquivo": "AULA_04.pdf",
+        "periodo": "03",
+        "disciplina": "design_de_artefatos_digitais",
+        "assunto": "comportamento_do_consumidor",
+        "aula": "04",
+        "total_paginas": 17,
+        "paginas_textuais": 8,
+        "paginas_multimodais": 9,
+        "total_chunks": 17,
+        "chunk_size": 1000,
+        "chunk_overlap": 150
+    },
+    "paginas": [
+        {
+            "conteudo": "DESIGN DE ARTEFATOS DIGITAIS\n\nUnit\nCENTRO UNIVERSITÁRIO\nTIRADENTES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "Como fazer o estudo do comportamento do consumidor?\nNo diagnóstico minucioso dos diversos comportamentos dos consumidores, \né possível assinalar as melhores estratégias e os fatores que influenciam o \ncomportamento dos clientes. As variáveis de cada fator, que podem ser \nutilizadas para motivar, encantar e até fidelizar os compradores.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 337,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "Essas variáveis podem ser descritas através de quatro fatores:\nPSICOLÓGICOS | CULTURAIS | PESSOAIS | SOCIAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 108,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "# FATORES PSICOLÓGICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "Diagnóstico de necessidades, uma vez que todo \no processo de tomada de decisão é baseado na \npercepção das mesmas. \nOs fatores psicológicos que podem influenciar \nas escolhas dos consumidores são:\n•Motivação\n•Percepção\n•Aprendizagem\n•Crenças e atitudes\nFATORES PSICOLÓGICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 273,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "# FATORES CULTURAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 17,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "O convívio cultural engloba o processo de \nassimilação de aprendizados, valores, \npercepções e preferências por uma \norganização ou sociedade. \nOs fatores culturais exercem uma ampla e \nprofunda influência sobre os \nconsumidores. São eles:\nCultura\nSubcultura\nClasse social\nFATORES CULTURAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 290,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "# FATORES PESSOAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 16,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "As necessidades dos consumidores e a sua \ncapacidade de satisfação se modificam de \nacordo com determinadas condições de \nseu estágio de vida: \nIdade\nOcupação\nCondição econômica\nEstilo de vida\nPersonalidade\nFATORES PESSOAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 223,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "FATORES SOCIAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 15,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "Os relacionamentos interpessoais \ntambém exercem alto grau de influência \nsobre as pessoas. Dentre eles, podemos \ndestacar:\nGrupos de referência (amigos, trabalho)\nFamília\nPapéis e posições sociais\nFATORES SOCIAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 213,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "Todo processo de design é tanto um \nprocesso criativo como um processo \nde solução de problemas.\nLöbach,\n2001",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 109,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "o que você vê?\n\ndesign\n\nA imagem apresenta a comparação entre dois fogões elétricos:\n\nO fogão à esquerda possui uma superfície branca com quatro queimadores em espiral, sendo dois maiores na parte frontal e dois menores na parte traseira. Os controles são constituídos por botões dispostos em um painel traseiro elevado.\n\nO fogão à direita possui uma superfície cinza com quatro queimadores pretos circulares e planos. Os controles são constituídos por botões localizados na própria superfície, entre os queimadores.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 1,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "o que você vê?\n\nA página apresenta uma comparação visual entre dois fogões e duas reações opostas.\n\nFogão à esquerda:\n- Possui uma fileira de botões de controle na parte superior traseira.\n- Possui quatro queimadores elétricos em espiral.\n- Abaixo dele, há uma imagem de um homem de casaco laranja fazendo um gesto de recusa com a mão, com os olhos fechados.\n\nFogão à direita:\n- Possui botões de controle localizados na superfície frontal, entre os queimadores.\n- Possui quatro queimadores elétricos planos e circulares.\n- Abaixo dele, há uma imagem de um homem de casaco laranja fazendo um gesto de aprovação com a mão, sorrindo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 1,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "o que você vê?\n\nDESIGNING THE PRODUCT VS DESIGNING THE EXPERIENCE\n\nhttp://www.moafify.com/blog/",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 1,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "Existe uma preocupação por parte \ndas marcas em oferecer uma \nexperiência positiva para o usuário \ncom o seu produto e, assim, manter \no consumidor (Minuzi, 2020).\natual\nmente",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 175,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        },
+        {
+            "conteudo": "# DESIGN THINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 15,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_04_comportamento_do_consumidor"
+            }
+        }
+    ],
+    "chunks": [
+        {
+            "chunk_id": "b9f60d16ccb21fa31695beb3",
+            "conteudo": "DESIGN DE ARTEFATOS DIGITAIS\n\nUnit\nCENTRO UNIVERSITÁRIO\nTIRADENTES",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 1,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 28,
+                "elementos_desenhados": 6,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 66,
+                "chunk_id": "b9f60d16ccb21fa31695beb3"
+            }
+        },
+        {
+            "chunk_id": "aa965c398e77d94cbdbec260",
+            "conteudo": "Como fazer o estudo do comportamento do consumidor?\nNo diagnóstico minucioso dos diversos comportamentos dos consumidores, \né possível assinalar as melhores estratégias e os fatores que influenciam o \ncomportamento dos clientes. As variáveis de cada fator, que podem ser \nutilizadas para motivar, encantar e até fidelizar os compradores.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 2,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 337,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 337,
+                "chunk_id": "aa965c398e77d94cbdbec260"
+            }
+        },
+        {
+            "chunk_id": "11d788d357d57cfeb7c23827",
+            "conteudo": "Essas variáveis podem ser descritas através de quatro fatores:\nPSICOLÓGICOS | CULTURAIS | PESSOAIS | SOCIAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 3,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 108,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 108,
+                "chunk_id": "11d788d357d57cfeb7c23827"
+            }
+        },
+        {
+            "chunk_id": "e005e86b496ae558b4707e16",
+            "conteudo": "# FATORES PSICOLÓGICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 4,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 20,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 22,
+                "chunk_id": "e005e86b496ae558b4707e16"
+            }
+        },
+        {
+            "chunk_id": "778a1ab2e02a5d706715d1c1",
+            "conteudo": "Diagnóstico de necessidades, uma vez que todo \no processo de tomada de decisão é baseado na \npercepção das mesmas. \nOs fatores psicológicos que podem influenciar \nas escolhas dos consumidores são:\n•Motivação\n•Percepção\n•Aprendizagem\n•Crenças e atitudes\nFATORES PSICOLÓGICOS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 5,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 273,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 273,
+                "chunk_id": "778a1ab2e02a5d706715d1c1"
+            }
+        },
+        {
+            "chunk_id": "588128d7174e929edc4606b1",
+            "conteudo": "# FATORES CULTURAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 6,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 17,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 19,
+                "chunk_id": "588128d7174e929edc4606b1"
+            }
+        },
+        {
+            "chunk_id": "d6b42f4c48155739d8911674",
+            "conteudo": "O convívio cultural engloba o processo de \nassimilação de aprendizados, valores, \npercepções e preferências por uma \norganização ou sociedade. \nOs fatores culturais exercem uma ampla e \nprofunda influência sobre os \nconsumidores. São eles:\nCultura\nSubcultura\nClasse social\nFATORES CULTURAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 7,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 290,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 290,
+                "chunk_id": "d6b42f4c48155739d8911674"
+            }
+        },
+        {
+            "chunk_id": "aa13ab833c39bf21c5e92526",
+            "conteudo": "# FATORES PESSOAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 8,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 16,
+                "elementos_desenhados": 4,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 18,
+                "chunk_id": "aa13ab833c39bf21c5e92526"
+            }
+        },
+        {
+            "chunk_id": "3309db0fb93d4055bd676856",
+            "conteudo": "As necessidades dos consumidores e a sua \ncapacidade de satisfação se modificam de \nacordo com determinadas condições de \nseu estágio de vida: \nIdade\nOcupação\nCondição econômica\nEstilo de vida\nPersonalidade\nFATORES PESSOAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 9,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 223,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 223,
+                "chunk_id": "3309db0fb93d4055bd676856"
+            }
+        },
+        {
+            "chunk_id": "1e1bba2ed1d55a5c72ac07d3",
+            "conteudo": "FATORES SOCIAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 10,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 15,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 15,
+                "chunk_id": "1e1bba2ed1d55a5c72ac07d3"
+            }
+        },
+        {
+            "chunk_id": "e48650144774fdcb73a061ea",
+            "conteudo": "Os relacionamentos interpessoais \ntambém exercem alto grau de influência \nsobre as pessoas. Dentre eles, podemos \ndestacar:\nGrupos de referência (amigos, trabalho)\nFamília\nPapéis e posições sociais\nFATORES SOCIAIS",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 11,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 213,
+                "elementos_desenhados": 5,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 213,
+                "chunk_id": "e48650144774fdcb73a061ea"
+            }
+        },
+        {
+            "chunk_id": "b4294daf7b89c7cdab36dd2a",
+            "conteudo": "Todo processo de design é tanto um \nprocesso criativo como um processo \nde solução de problemas.\nLöbach,\n2001",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 12,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 109,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 109,
+                "chunk_id": "b4294daf7b89c7cdab36dd2a"
+            }
+        },
+        {
+            "chunk_id": "afcb5de220f7b9197141dba7",
+            "conteudo": "o que você vê?\n\ndesign\n\nA imagem apresenta a comparação entre dois fogões elétricos:\n\nO fogão à esquerda possui uma superfície branca com quatro queimadores em espiral, sendo dois maiores na parte frontal e dois menores na parte traseira. Os controles são constituídos por botões dispostos em um painel traseiro elevado.\n\nO fogão à direita possui uma superfície cinza com quatro queimadores pretos circulares e planos. Os controles são constituídos por botões localizados na própria superfície, entre os queimadores.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 13,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 1,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 516,
+                "chunk_id": "afcb5de220f7b9197141dba7"
+            }
+        },
+        {
+            "chunk_id": "3fde3feb2f57472ef9f38cf7",
+            "conteudo": "o que você vê?\n\nA página apresenta uma comparação visual entre dois fogões e duas reações opostas.\n\nFogão à esquerda:\n- Possui uma fileira de botões de controle na parte superior traseira.\n- Possui quatro queimadores elétricos em espiral.\n- Abaixo dele, há uma imagem de um homem de casaco laranja fazendo um gesto de recusa com a mão, com os olhos fechados.\n\nFogão à direita:\n- Possui botões de controle localizados na superfície frontal, entre os queimadores.\n- Possui quatro queimadores elétricos planos e circulares.\n- Abaixo dele, há uma imagem de um homem de casaco laranja fazendo um gesto de aprovação com a mão, sorrindo.",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 14,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 1,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 630,
+                "chunk_id": "3fde3feb2f57472ef9f38cf7"
+            }
+        },
+        {
+            "chunk_id": "7e2379bae075fca809bb3af3",
+            "conteudo": "o que você vê?\n\nDESIGNING THE PRODUCT VS DESIGNING THE EXPERIENCE\n\nhttp://www.moafify.com/blog/",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 15,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 21,
+                "elementos_desenhados": 1,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 95,
+                "chunk_id": "7e2379bae075fca809bb3af3"
+            }
+        },
+        {
+            "chunk_id": "2f7506035a6871d1d201fea4",
+            "conteudo": "Existe uma preocupação por parte \ndas marcas em oferecer uma \nexperiência positiva para o usuário \ncom o seu produto e, assim, manter \no consumidor (Minuzi, 2020).\natual\nmente",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 16,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "textual",
+                "motivos_deteccao": [],
+                "caracteres_texto_original": 175,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 175,
+                "chunk_id": "2f7506035a6871d1d201fea4"
+            }
+        },
+        {
+            "chunk_id": "e1b7471253303118bdab5fd7",
+            "conteudo": "# DESIGN THINKING",
+            "metadata": {
+                "periodo": "03",
+                "disciplina": "design_de_artefatos_digitais",
+                "assunto": "comportamento_do_consumidor",
+                "aula": "04",
+                "arquivo": "AULA_04.pdf",
+                "pagina": 17,
+                "tipo_arquivo": "pdf",
+                "tipo_extracao": "multimodal",
+                "motivos_deteccao": [
+                    "texto_muito_curto"
+                ],
+                "caracteres_texto_original": 15,
+                "elementos_desenhados": 3,
+                "pasta_aula": "aula_04_comportamento_do_consumidor",
+                "chunk_index": 1,
+                "total_chunks_pagina": 1,
+                "chunk_caracteres": 17,
+                "chunk_id": "e1b7471253303118bdab5fd7"
+            }
+        }
+    ]
+}

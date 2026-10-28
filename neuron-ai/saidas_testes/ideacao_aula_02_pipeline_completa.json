@@ -1,0 +1,2134 @@
+{
+  "resumo": {
+    "periodo": "03",
+    "disciplina": "projeto_de_ideacao_de_software",
+    "aula": "02",
+    "assunto": "lean_canvas",
+    "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+    "pdf_sha256": "6b665bdcc399fd712c06817c735575906d6cabed6a3335a77265fc507088216a",
+    "modelo_visual": "deepseek/deepseek-v4.1-flash",
+    "total_paginas": 43,
+    "total_chunks": 54,
+    "chunk_size": 1000,
+    "chunk_overlap": 150,
+    "paginas_multimodais": 43,
+    "paginas_textuais": 0
+  },
+  "paginas": [
+    {
+      "conteudo": "# Lean Canvas aplicado à Ideação de Software\n\n**Disciplina:** Projeto de Ideação de Software e Design de Artefatos  \n**Prof.ª Jeneffer Ferreira**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Objetivos da aula\n\nAo final desta aula, espera-se que os estudantes sejam capazes de:\n\n1. Compreender o conceito de Lean Canvas\n2. Reconhecer sua importância na ideação de software\n3. Identificar os nove blocos da ferramenta\n4. Formular hipóteses sobre problemas, clientes e soluções\n5. Utilizar o quadro para estruturar uma ideia de software\n\n## Estrutura do Lean Canvas\n\nO quadro Lean Canvas é composto pelos seguintes blocos:\n\n- Problema\n- Solução\n- Proposta de valor\n- Vantagem competitiva\n- Segmentos de clientes\n- Canais\n- Relacionamento com clientes\n- Estrutura de custos\n- Fontes de receita\n\n## Elementos visuais associados\n\n- Lâmpada sobre livros com a inscrição \"Lean Canvas\".\n- Nota adesiva: \"Da ideia ao software real\".\n- Nota adesiva: \"Ideação, testa, aprendizado, software\".\n- Termos laterais: \"IDEIAS, PROBLEMAS, SOLUÇÕES, IMPACTO\" e \"VALIDAR, APRENDER, CONSTRUIR\".",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 2,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que é Lean Canvas?\n\n**O Lean Canvas** é uma ferramenta visual utilizada para estruturar e analisar ideias de produtos ou negócios.\n\nOrganiza as principais hipóteses do projeto.\n\nNa ideação de software, ajuda a identificar:\n\n- Problema\n- Usuários\n- Benefício principal\n- Funcionalidades iniciais\n- Viabilidade e sustentabilidade",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 3,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Origem do Lean Canvas\n## Do Modelo de Negócios à Inovação Ágil\n\n### Business Model Canvas\n- **Criador:** Alexander Osterwalder\n- **Definição:** Modelo visual para projetar, descrever e analisar modelos de negócio.\n- **Papel no processo:** Base e inspiração.\n\n### Lean Canvas\n- **Criador:** Ash Maurya\n- **Definição:** Uma versão adaptada, mais enxuta e focada em startups e validação rápida de hipóteses.\n- **Relação com o Business Model Canvas:** Ash Maurya desenvolveu o Lean Canvas com base no Business Model Canvas de Alexander Osterwalder.\n- **Relação conceitual:** Mesma base, novo contexto.\n\n### Lean Startup\n- **Definição:** Mentalidade ágil para testar, aprender e evoluir com o mínimo de recursos e o máximo de aprendizado.\n- **Relação com o Lean Canvas:** O Lean Canvas é alinhado aos princípios do Lean Startup e fornece o contexto e a mentalidade para sua aplicação.\n\n### Processo de evolução\n1. Business Model Canvas (Alexander Osterwalder)\n2. → Adaptação e foco\n3. Lean Canvas (Ash Maurya)\n4. → Alinhado aos princípios de\n5. Lean Startup\n\n### Aplicações e impactos\n- Inovação\n- Incerteza\n- Validação\n- Novos produtos\n- Startups\n- Soluções digitais\n\n### Informações complementares\n- **Conhecimento conecta ideias a grandes conquistas.**\n- **Pessoas + Ideias + Execução**\n- **Do conhecimento à transformação**\n- **Ideias, modelos, pessoas, soluções, um futuro melhor.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Lean Startup e aprendizagem\n\n## Conceitos e definições\n\n- **Lean Startup e aprendizagem**: tema central da página.\n- **Ciclo de Aprendizado Contínuo**: ciclo representado no centro do diagrama, composto pelas etapas Construir, Medir, Aprender, Modificar ou manter e Testar novamente.\n- **Criar experimentos**: para validar ideias antes de grandes investimentos.\n- **Objetivo**: reduzir desperdícios e aprender rapidamente.\n\n## Etapas do processo (Ciclo de Aprendizado Contínuo)\n\nO diagrama apresenta um ciclo com as seguintes etapas, conectadas por setas em sequência:\n\n1. **Construir**\n2. **Medir**\n3. **Aprender**\n4. **Modificar ou manter**\n5. **Testar novamente**\n\nO ciclo retorna de \"Testar novamente\" para \"Construir\", caracterizando um ciclo de aprendizado contínuo.\n\n## Relações entre os elementos\n\n- **Construir** → **Medir**\n- **Medir** → **Aprender**\n- **Aprender** → **Modificar ou manter**\n- **Modificar ou manter** → **Testar novamente**\n- **Testar novamente** → **Construir** (reinício do ciclo)\n\n## Informações complementares presentes na página\n\n- **Pequenos experimentos, grandes aprendizados**.\n- **Ideias, experimentos, aprendizado, impacto**.\n- **Ideias, validação, evolução**.\n- **Testar • Aprender • Melhorar • Crescer**.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Lean Canvas na Ideação de Software\n\nNa ideação de software, o Lean Canvas ajuda a equipe a não começar diretamente pela programação.\n\n## Antes do desenvolvimento, é necessário compreender:\n\n- quem possui o problema;\n- como o problema ocorre;\n- quais soluções já são utilizadas;\n- qual benefício será oferecido;\n- quais funcionalidades são realmente necessárias;\n- como verificar se a solução gera valor.\n\n## Relações do diagrama\n\nO diagrama representa o processo de compreensão anterior ao desenvolvimento, partindo de elementos de análise e ideação em direção à etapa de programação:\n\n- Ícones de análise e ideação (pessoa, interrogação, grupo de pessoas, lâmpada, gráfico de barras e check) conectam-se entre si e direcionam para um ícone de programação (`</>`).\n- O ícone de programação é rotulado como \"DEPOIS\".",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 6,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Principais objetivos\n\nO Lean Canvas tem como objetivos:\n\n- Organizar uma ideia\n- Identificar problemas relevantes\n- Definir os segmentos de clientes\n- Analisar riscos e incertezas\n- Formular hipóteses\n- Apoiar pesquisas com usuários\n- Orientar experimentos\n- Definir uma proposta de valor\n- Apoiar a criação do MVP\n- Facilitar a comunicação da equipe",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 7,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Estrutura do Lean Canvas\n\nO Lean Canvas é formado por nove blocos:\n\n1. **Problema**\n2. **Segmentos de clientes**\n3. **Proposta Única de Valor**\n4. **Solução**\n5. **Canais**\n6. **Fontes de receita**\n7. **Estrutura de custos**\n8. **Métricas-chave**\n9. **Vantagem injusta**\n\nCada bloco representa uma dimensão importante da ideia.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 8,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "**PROBLEMA**\n1\n\n**SOLUÇÃO**\n4\n\n**MÉTRICAS-CHAVE**\n8\n\n**PROPOSTA DE VALOR**\n3\n\n**VANTAGEM INJUSTA**\n9\n\n**CANAIS**\n5\n\n**SEGMENTO DE CLIENTES**\n2\n\n**ESTRUTURA DE CUSTOS**\n7\n\n**RECEITAS**\n6",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 9,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Bloco 1: Problema\n\nIdentifica as principais dificuldades ou necessidades dos usuários.\n\nSelecione de 1 a 3 problemas prioritários.\n\nO processo de identificação e priorização é representado visualmente por uma sequência de três cartões numerados (1, 2 e 3), indicando uma ordem de etapas ou itens a serem considerados.\n\nA análise do problema deve considerar as seguintes questões:\n\n- Qual dificuldade o usuário enfrenta?\n- Com que frequência ela ocorre?\n- Quais consequências provoca?\n- Quanto tempo ou dinheiro é perdido?\n- O usuário reconhece esse problema?\n- O problema justifica a criação de uma solução?",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 10,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo de problema\n\n**Projeto:** aplicativo para organização acadêmica\n\n## Problemas identificados:\n\n- Estudantes esquecem prazos de atividades\n- Informações estão distribuídas em diferentes plataformas\n- Estudantes têm dificuldade para organizar a rotina\n- Atividades importantes não são priorizadas\n- A falta de planejamento gera atrasos e ansiedade\n\n## Elementos visuais\n\n### Tela do aplicativo (smartphone)\n\n**Minha Rotina**\n\n- Calendário: Maio 2024\n  - Dias da semana: Seg, Ter, Qua, Qui, Sex, Sáb, Dom\n  - Datas exibidas: 29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\n  - Data destacada: 8\n\n**Minhas tarefas**\n\n- Trabalho de História — Entrega amanhã — Alta\n- Leitura de artigo — Hoje — Média\n- Revisar para prova — Sexta-feira — Baixa\n\n**Navegação inferior:** Início, Tarefas, Calendário, Notas\n\n### Anotações visíveis\n\n- \"Mais organização para chegar mais longe!\"\n- \"Grandes resultados vêm de pequenos hábitos\"\n- \"Disciplina Hoje Conquistas Amanhã\"\n- \"Foco Plano Evolução\"\n- \"Um dia de cada vez\"\n- Lista em caderno: Planejar, Estudar, Organizar, Conquistar\n\n### Etiquetas em livros\n\n- ESTUDOS\n- PROJETOS\n- SONHOS\n\n## Observação\n\nEsses problemas ainda são hipóteses e precisam ser investigados.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Problema versus solução\n\n## Descrição inadequada\n\nNão existe um aplicativo acadêmico com inteligência artificial.\n\n## Descrição adequada\n\nEstudantes têm dificuldade para organizar atividades e priorizar prazos acadêmicos.\n\n## Conclusão\n\nO problema deve representar uma dificuldade real do usuário, e não apenas a ausência de uma tecnologia.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 12,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Bloco 2: Segmentos de clientes\n\n## Pergunta central\nQuem enfrenta o problema e pode utilizar ou adquirir a solução?\n\n## Conceito\nIdentificar os segmentos de clientes é essencial para direcionar a solução e gerar valor.\n\n## Segmentos de clientes\nA partir do elemento central \"2 — Segmentos de clientes\", derivam-se os seguintes segmentos:\n\n- Estudantes universitários\n- Estudantes EAD\n- Órgãos públicos\n- Professores\n- Empresas\n- Instituições de ensino\n- Coordenadores\n\n## Relação entre os elementos\nO diagrama apresenta \"Segmentos de clientes\" como núcleo, do qual partem conexões para cada um dos sete segmentos listados.\n\n## Informação complementar\nCada segmento possui necessidades específicas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 13,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Usuário, cliente e beneficiário\n\nO material apresenta cinco papéis relacionados a uma solução ou sistema, cada um com sua respectiva definição:\n\n- **Usuário**: Utiliza diretamente o sistema.\n- **Cliente**: Paga pela solução.\n- **Beneficiário**: Recebe algum benefício.\n- **Influenciador**: Influencia sua adoção.\n- **Decisor**: Autoriza a compra ou implantação.\n\n## Relações entre os papéis\n\nOs cinco papéis (Usuário, Cliente, Beneficiário, Influenciador e Decisor) estão conectados a um elemento central representado por um dispositivo (ícone de smartphone/tela), indicando que todos se relacionam com a solução ou sistema representado por esse dispositivo.\n\n## Observações sobre os papéis\n\n- **Uma pessoa pode exercer todos os papéis.**\n- **Os papéis também podem ser desempenhados por pessoas diferentes.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Bloco 3: Proposta Única de Valor\n\nA Proposta Única de Valor comunica o principal benefício oferecido pelo produto.\n\n## Uma boa proposta de valor deve:\n\n- Destacar o benefício principal\n- Relacionar-se a um problema real\n- Utilizar linguagem compreensível\n- Demonstrar relevância\n- Apresentar a transformação esperada\n\n## Relações entre os elementos do diagrama\n\nPROBLEMA\n→ DOR DO USUÁRIO\n→ SOLUÇÃO\n→ Por que o usuário escolheria esta solução?\n→ TRANSFORMAÇÃO\n→ BENEFÍCIO\n→ RESULTADO MELHOR",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 15,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Estrutura da proposta de valor\n\nUma possível estrutura é:\n\nAjudamos **[segmento de clientes]** a **[resolver um problema ou alcançar um resultado]** por meio de **[principal diferencial]**.\n\n## Exemplo\n\nAjudamos **estudantes universitários** a **organizar atividades e cumprir prazos** por meio de **um planejamento acadêmico centralizado e personalizado**.\n\nO foco deve estar no valor entregue ao usuário.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 16,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Proposta de valor: erro comum\n\n## Exemplo inadequado\n\n“Aplicativo multiplataforma desenvolvido com tecnologias modernas, banco de dados em nuvem e inteligência artificial.”\n\nElementos visuais associados: dispositivos (computador e celular), nuvem, banco de dados, código (`</>`) e ícone de IA.\n\nCategoria indicada: **Características técnicas**.\n\n## Proposta de valor\n\nPerguntas que orientam a proposta de valor:\n\n- Qual problema será resolvido?\n- Quem será atendido?\n- Qual benefício será proporcionado?\n- Qual mudança ocorrerá na vida do usuário?\n\n## Mensagem final\n\n**Tecnologia é um meio, não a proposta de valor.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 17,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Bloco 4: Solução\n\nFuncionalidades ou estratégias iniciais para resolver os problemas selecionados.\n\n## Da dor à solução\n\nO processo parte de **Problemas selecionados** (Problema 1, Problema 2, Problema 3), que são direcionados para a construção de **Funcionalidades**.\n\nAs funcionalidades são organizadas em duas categorias:\n\n- **Essencial para o primeiro teste**\n  - Funcionalidade A\n  - Funcionalidade B\n  - Funcionalidade C\n  - Conjunto identificado como **MVP**\n\n- **Versões futuras**\n  - Funcionalidade D\n  - Funcionalidade E\n  - Funcionalidade F\n\n## Teste de validação (simples e rápido)\n\nO MVP é submetido a um **Teste de validação (simples e rápido)**, que conduz a uma **Hipótese**.\n\n## Questões norteadoras\n\n- Como a solução reduz o problema?\n- Qual funcionalidade entrega o benefício principal?\n- O que é essencial para o primeiro teste?\n- O que pode ficar para versões futuras?\n- É possível validar a ideia sem desenvolver o sistema completo?\n\n## Conclusão\n\n**A solução ainda é uma hipótese.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 18,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Relação entre problema e solução\n\n## Problema → Possível solução\n\n- Esquecimento de prazos → Alertas personalizados\n- Informações dispersas → Painel acadêmico centralizado\n- Dificuldade de organização → Planejamento semanal\n- Falta de prioridade → Classificação das atividades\n- Pouco acompanhamento → Relatórios de progresso\n\n## Observação\n\nCada funcionalidade deve estar associada a um problema identificado.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 19,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Bloco 5: Canais\n\nOs Canais representam os meios utilizados para alcançar, atender e manter os usuários.\n\n## Exemplos de canais digitais:\n\n- Redes sociais\n- Mecanismos de busca\n- Lojas de aplicativos\n- Site\n- E-mail\n- Ambientes virtuais de aprendizagem\n- Comunidades digitais\n- Marketing de conteúdo\n\n## Relações visuais\n\nOs canais digitais listados estão conectados, por linhas tracejadas, a um smartphone e a um notebook, que por sua vez se conectam a representações de usuários.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 20,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Tipos de canais\n\n## Próprios\nSite, aplicativo ou perfil institucional.\n\n## Pagos\nAnúncios e campanhas.\n\n## Parceiros\nUniversidades, empresas ou organizações.\n\n## Orgânicos\nResultados de busca, recomendações e compartilhamentos.\n\n## Presenciais\nEscolas, eventos, palestras e encontros.\n\n## A escolha deve considerar:\n- Público\n- Custo\n- Alcance",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 21,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Bloco 6: Fontes de receita\n\n**Como o produto poderá gerar retorno financeiro ou valor?**\n\n## Fontes de receita\n\n1. **Venda do software**\n2. **Assinatura**\n3. **Pagamento por uso**\n4. **Modelo freemium**\n5. **Publicidade**\n6. **Licenciamento**\n7. **Comissão por transação**\n8. **Contratos institucionais**\n9. **Patrocínios**\n10. **Financiamento público**\n\n## Informações complementares\n\n- As fontes podem variar conforme o produto e a organização.\n- Receita deve estar alinhada ao valor entregue.\n- Diferentes produtos e organizações podem combinar múltiplas fontes de receita.\n\n## Contexto\n\n- Lean Canvas\n- Ideias em valor real\n- Do problema ao impacto",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 22,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Receita em projetos não comerciais\n\nNem todo software tem como objetivo direto o lucro.\n\n## Ecossistema do Projeto Digital Sustentável\n\nO diagrama central apresenta um dispositivo móvel com a inscrição \"PROJETO DIGITAL SUSTENTÁVEL\", cercado por elementos que compõem o ecossistema:\n\n- **Instituições que apoiam**\n- **Comunidade que fortalece**\n- **Conhecimento que perpetua**\n- **Ideias que transformam**\n\nA base do diagrama central apresenta a legenda: \"TECNOLOGIA A SERVIÇO DE PESSOAS E DE UM FUTURO MELHOR\".\n\n## Fontes de apoio\n\n- Financiamento institucional\n- Editais\n- Recursos públicos\n- Doações\n- Parcerias\n- Patrocínios\n\n## Valor gerado\n\n- Redução de custos\n- Melhoria de processos\n- Benefícios sociais\n- Impacto educacional\n\n## Continuidade\n\nO diagrama inferior direito indica \"CONTINUIDADE PARA GERAR MAIS IMPACTO\".\n\n## Mensagem final\n\nO essencial é compreender como a solução será mantida.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 23,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Bloco 7: Estrutura de custos\n\nReúne os gastos necessários para desenvolver, disponibilizar, manter e melhorar o software.\n\nO bloco é composto pelos seguintes elementos:\n\n- Pesquisa com usuários\n- Design\n- Desenvolvimento\n- Testes\n- Hospedagem\n- Banco de dados\n- Domínio\n- Serviços em nuvem\n- Segurança\n- Divulgação\n- Suporte e manutenção\n\nCompreender os custos ajuda a avaliar a viabilidade e a sustentabilidade da solução.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 24,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Classificação dos custos\n\nOs custos podem ser classificados como:\n\n## Custos iniciais\nNecessários para criar e lançar o produto.\n\n## Custos recorrentes\nNecessários para manter sua operação.\n\n## Custos fixos\nPermanecem relativamente constantes.\n\n## Custos variáveis\nAumentam conforme o uso ou a quantidade de clientes.\n\n## Ciclo de vida do software\nPesquisa e planejamento → Desenvolvimento → Lançamento → Operação → Manutenção → Melhoria\n\n## Observação final\nO planejamento deve considerar todo o ciclo de vida do software, não apenas sua programação.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 25,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Bloco 8: Métricas-chave\n\nAs **Métricas-chave** são indicadores utilizados para avaliar o desempenho e os resultados do produto.\n\n## Exemplos de Métricas-chave\n\n- Usuários ativos\n- Frequência de utilização\n- Taxa de cadastro\n- Tarefas concluídas\n- Retenção\n- Taxa de abandono\n- Conversão\n- Satisfação\n- Receita\n- Quantidade de recomendações\n\n## Princípio\n\nUma boa métrica deve apoiar decisões.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 26,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Métricas de vaidade\n\nParecem positivas, mas nem sempre demonstram valor real.\n\n## Métrica de vaidade\n\n- 10 mil downloads\n- Quantas pessoas continuam utilizando?\n- Gráfico de linha com tendência de queda: a linha parte de um ponto alto à esquerda e desce até um ponto baixo à direita.\n- Ilustração de cinco silhuetas de pessoas, com opacidade decrescente da esquerda para a direita.\n\n## Métrica relevante\n\n- 30 dias\n- Usuários ativos após 30 dias\n- Comportamento\n- Retenção\n- Resultados\n\n## Relação entre os elementos\n\nMétrica de vaidade → DA APARÊNCIA À EVIDÊNCIA → Métrica relevante\n\n## Conceito final\n\nPriorize métricas que apoiem decisões.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 27,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Bloco 9: Vantagem injusta\n\n**Definição:** Diferencial relevante que não pode ser facilmente copiado ou comprado pelos concorrentes.\n\n## Representação visual central\n\nUm escudo com um cadeado e uma interface de produto, apoiado sobre uma base com a inscrição **PRODUTO ÚNICO**.\n\nRelações representadas no diagrama:\n\n- Três elementos rotulados **CONCORRENTE** apontam para o escudo, mas são bloqueados (marcados com X), com a indicação: **CONCORRENTES NÃO CONSEGUEM COPIAR FACILMENTE**.\n- Uma seta saindo do escudo indica: **MAIS VALOR PARA O USUÁRIO**.\n\n## Fontes de vantagem injusta\n\n- Comunidade consolidada\n- Base exclusiva de dados\n- Conhecimento especializado\n- Tecnologia proprietária\n- Parcerias exclusivas\n- Marca reconhecida\n- Equipe com experiência rara\n- Propriedade intelectual\n- Efeitos de rede\n\n## Síntese\n\n**Difícil de copiar. Relevante para o usuário.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 28,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# O que não é vantagem injusta?\n\nSão elementos importantes, mas que podem ser reproduzidos pelos concorrentes.\n\nOs itens a seguir são apresentados como exemplos do que **não** constitui uma vantagem injusta, cada um acompanhado de um indicador de reprodutibilidade (ícone de cópia com X):\n\n- Interface bonita\n- Preço baixo\n- Atendimento de qualidade\n- Uso de inteligência artificial\n- Equipe motivada\n- Grande quantidade de funcionalidades\n- Ser o primeiro a lançar o produto\n\n**Conclusão:**\nSe o concorrente consegue copiar ou comprar, provavelmente não é uma vantagem injusta.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 29,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Ordem de preenchimento\n\nUma sequência recomendada é:\n\n1. Problema\n2. Segmentos de clientes\n3. Proposta de valor\n4. Solução\n5. Canais\n6. Fontes de receita\n7. Estrutura de custos\n8. Métricas-chave\n9. Vantagem injusta",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 30,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Lean Canvas como conjunto de hipóteses\n\nCada informação registrada no Lean Canvas deve ser tratada como uma **hipótese**.\n\n## Exemplos de hipóteses\n\n- Estudantes esquecem prazos porque as informações estão dispersas.\n- Os usuários desejam alertas personalizados.\n- Redes sociais seriam um canal eficiente.\n- Universidades pagarão pelo sistema.\n- O uso semanal demonstraria valor.\n\n## Processo\n\nAs afirmações apresentadas (hipóteses) convergem para uma etapa de validação, representada por:\n\n**EXPERIMENTAR** → **EVIDÊNCIAS**\n\n## Conclusão\n\nEssas afirmações precisam ser testadas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 31,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Priorização das hipóteses\n\nFoque no que mais importa e reduza as incertezas do seu projeto de software.\n\n## Critérios de análise\n\n- **Importância para o projeto**: O quanto a hipótese é relevante para o sucesso do projeto.\n- **Nível de incerteza**: O quanto ainda não sabemos sobre a hipótese.\n- **Impacto caso esteja incorreta**: Quais as consequências se a hipótese não se confirmar.\n- **Risco**: Quais os riscos envolvidos em seguir com a hipótese.\n- **Facilidade de teste**: O quão fácil é validar a hipótese na prática.\n- **Custo da validação**: Quanto custa testar a hipótese.\n\n## Matriz de Priorização (Importância x Incerteza)\n\n**Eixos:**\n- Eixo vertical: Importância (Menor importância → Maior importância)\n- Eixo horizontal: Incerteza (Menor incerteza → Maior incerteza)\n\n**Quadrantes:**\n\n- **Investigar primeiro** (Alta importância + Alta incerteza)\n- **Importante, mas mais certa** (Alta importância + Menor incerteza): Manter no radar e monitorar.\n- **Prioridade secundária** (Menor importância + Maior incerteza): Menos importante, mas incerta.\n- **Menor prioridade** (Baixa importância + Mais certa): Baixa importância e mais certa.\n\n## Conclusão\n\nAs hipóteses mais importantes e incertas devem ser investigadas primeiro.\n\n**Resultados esperados:**\n- Menos suposições\n- Mais aprendizado\n- Melhores produtos",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 32,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Como validar as hipóteses?\n\n## Fluxo de validação de hipóteses\n\nO processo é composto por quatro etapas sequenciais:\n\n1. **Hipótese**\n   - Pergunta: O que acreditamos que é verdade?\n\n2. **Experimento**\n   - Pergunta: Como vamos testar essa hipótese?\n\n3. **Evidências**\n   - Pergunta: O que aprendemos com os dados?\n\n4. **Decisão**\n   - Pergunta: Continuar, pivotar ou descartar?\n\n## Métodos de validação\n\n### Pesquisa com usuários\n- Entrevistas\n- Questionários\n- Observação\n- **Objetivo:** Entenda as necessidades, dores e comportamentos das pessoas reais.\n\n### Pesquisa de mercado e documental\n- Pesquisa documental\n- Análise de concorrentes\n- Testes de conceito\n- **Objetivo:** Use informações existentes para identificar oportunidades e validar o contexto.\n\n### Experimentos e testes de produto\n- Protótipos\n- Testes de usabilidade\n- Páginas de apresentação\n- Listas de espera\n- MVP\n- Análise de métricas\n- **Objetivo:** Coloque a solução no mundo e meça o comportamento real.\n\n## Objetivo central\n\nO objetivo é coletar evidências para orientar decisões.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 33,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo de Lean Canvas: produto\n\n## Produto\nAplicativo para organização da rotina de estudantes universitários.\n\n## Objetivo\nCentralizar atividades acadêmicas, ajudar na priorização das tarefas e reduzir o esquecimento de prazos.\n\n## Público inicial\nEstudantes de graduação que trabalham e precisam acompanhar atividades de diferentes disciplinas.\n\n## Estrutura do aplicativo (representação visual)\n\nO aplicativo é representado por uma interface de smartphone com as seguintes seções e elementos:\n\n- **Cabeçalho:** \"Boa semana!\" e ícone de perfil de usuário.\n- **Calendário semanal:**\n  - Dias da semana: Seg, Ter, Qua, Qui, Sex, Sáb, Dom.\n  - Datas: 17, 18, 19, 20, 21, 22, 23.\n  - O dia 20 está destacado.\n- **Próximos prazos** (com opção \"Ver todos\"):\n  - Trabalho de Sociologia — Hoje\n  - Relatório de Química — Amanhã\n  - Prova de Cálculo — 24 mai\n- **Tarefas prioritárias:**\n  - Estudar para a prova de Cálculo (marcada)\n  - Finalizar relatório de Química (marcada)\n  - Ler artigo de Sociologia (não marcada)\n- **Meu progresso:**\n  - Indicador circular: 70%\n  - Aulas: 80%\n  - Tarefas: 70%\n  - Prazos: 60%\n- **Barra de navegação inferior:** ícones de início, calendário, gráfico de barras e perfil.\n\n## Relações entre os elementos\n\n- **Produto** → conecta-se ao centro do aplicativo (interface do smartphone).\n- **Objetivo** → conecta-se à seção \"Próximos prazos\" do aplicativo.\n- **Público inicial** → conecta-se à seção \"Tarefas prioritárias\" do aplicativo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 34,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo: problema, público e valor\n\n## Problemas:\n- Esquecimento de prazos\n- Informações acadêmicas dispersas\n- Dificuldade de planejamento\n\n## Segmento:\n- Estudantes universitários que trabalham\n- Estudantes de cursos a distância\n\n## Proposta de valor:\nOrganize sua vida acadêmica em um único lugar e cumpra seus prazos com mais tranquilidade.\n\n---\n\n### Relações entre os elementos:\nProblemas → Segmento → Proposta de valor\n\n---\n\n### Informações do aplicativo (Minha Agenda):\n- Dias da semana: Seg, Ter, Qua, Qui, Sex, Sáb, Dom\n- Datas: 10, 11, 12, 13, 14, 15, 16\n- Compromissos:\n  - Aula de Matemática (08:00 – 10:00) — concluído\n  - Trabalho de Pesquisa (Entregar até 14/04)\n  - Revisar para a prova (19:00 – 20:00)",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 35,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo: solução, canais e receita\n\nO diagrama apresenta três categorias interligadas por setas, na seguinte sequência: Solução → Canais → Receitas.\n\n## Solução\n- Painel centralizado\n- Alertas personalizados\n- Planejamento semanal\n\n## Canais\n- Redes sociais\n- Universidades\n- Ambientes virtuais\n- Indicação de estudantes\n\n## Receitas\n- Plano gratuito\n- Assinatura premium\n- Licença institucional",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 36,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Exemplo: custos, métricas e vantagem\n\nO elemento central do diagrama é representado por um ícone de chapéu de formatura, associado à seguinte informação:\n* Uma rotina mais organizada para ir mais longe.\n\nA partir desse elemento central, o conteúdo é dividido em três categorias principais:\n\n## Estrutura de custos\nApresenta uma lista de itens relacionados a gastos:\n* Desenvolvimento\n* Hospedagem\n* Segurança\n* Suporte\n* Manutenção\n* Divulgação\n\n## Métricas-chave\nApresenta uma lista de indicadores:\n* Usuários ativos\n* Tarefas concluídas\n* Retenção\n* Conversão\n\nA seção de métricas inclui um gráfico de barras e linhas com tendência de crescimento. Ao lado do gráfico, consta a informação:\n* Mais engajamento para uma vida acadêmica melhor.\n\n## Vantagem injusta\nApresenta a seguinte definição:\n* Integração exclusiva com sistemas acadêmicos de instituições parceiras.\n\nO diagrama que acompanha esta seção mostra a relação entre um dispositivo móvel (contendo o ícone de chapéu de formatura) e três instituições parceiras, mediada por um ícone de cadeado (segurança):\n* Dispositivo móvel → Instituição parceira 1\n* Dispositivo móvel → Instituição parceira 2\n* Dispositivo móvel → Instituição parceira 3\n\nAbaixo deste diagrama, consta a informação:\n* Integração exclusiva e difícil de copiar.\n\n## Informações adicionais\nNo rodapé da página, consta a seguinte frase:\n* Viabilidade, desempenho e diferenciação.\n\nNo canto superior direito, consta a seguinte anotação:\n* Mais um app, novas possibilidades.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 37,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Erros comuns\n\n## Lean Canvas\n\n### Estrutura do Lean Canvas (conforme representado no quadro)\n- Problema\n- Solução\n- Proposta de valor\n- Vantagem competitiva\n- Segmentos de clientes\n- Canais\n- Relacionamento\n- Fontes de receita\n- Estrutura de custos\n- Métricas-chave\n\n### Erros comuns\n- Começar pela solução\n- Definir um público muito amplo\n- Confundir problema com falta de tecnologia\n- Criar uma proposta de valor técnica\n- Incluir funcionalidades em excesso\n- Considerar hipóteses como fatos\n- Não realizar validações\n- Não atualizar o quadro\n- Utilizar textos longos e pouco objetivos\n\n### Diretriz\nO Lean Canvas deve ser objetivo, validado e atualizado.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 38,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Lean Canvas como documento vivo\n\nO Lean Canvas deve ser atualizado conforme a equipe aprende.\n\n## Estrutura do Lean Canvas\n\nO diagrama central apresenta o Lean Canvas dividido nos seguintes blocos:\n\n- Problema\n- Solução\n- Proposta de Valor\n- Vantagem Competitiva\n- Segmentos de Clientes\n- Alternativas Existentes\n- Métricas Chave\n- Canais\n- Early Adopters\n- Estrutura de Custos\n- Fontes de Receita\n\n## Ciclo de atualização (8 etapas)\n\n1. Elaborar a primeira versão\n2. Identificar hipóteses críticas\n3. Planejar pesquisas e experimentos\n4. Coletar evidências\n5. Analisar os resultados\n6. Manter, alterar ou descartar hipóteses\n7. Atualizar o Canvas\n8. Definir o próximo experimento\n\nO ciclo é representado de forma circular, com setas que conectam as etapas em sequência, retornando da etapa 8 para a etapa 1.\n\n## Elementos visuais associados\n\n- Notas\n- Ideias\n- Pesquisa\n- Experimentos\n- Aprender, testar, evoluir\n- Resultados\n\n## Conclusão\n\nAprender, testar e atualizar: o ciclo continua.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 39,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Relação com outras técnicas\n\nO Lean Canvas pode ser combinado com:\n\n## Descobrir\n- Matriz CSD\n- Desk Research\n- Entrevistas\n\n## Compreender\n- Personas\n- Mapa de empatia\n- Jornada do usuário\n\n## Criar\n- Brainstorming\n- Prototipação\n\n## Validar/comunicar\n- Testes de usabilidade\n- MVP\n- Pitch\n\n## Lean Canvas\nQuadro de síntese dos principais aprendizados do projeto\n\nO Lean Canvas integra diferentes técnicas para transformar ideias em soluções reais.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 40,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Benefícios do Lean Canvas\n\nEntre seus benefícios estão:\n\n- Visão geral da ideia\n- Identificação de riscos\n- Foco no usuário\n- Facilidade para comunicar a proposta\n- Apoio à tomada de decisões\n- Redução de desperdícios\n- Priorização de problemas\n- Alinhamento da equipe\n- Facilidade de atualização",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 41,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Limitações do Lean Canvas\n\nUma visão realista para melhores decisões na ideação de software.\n\n## Representação central: Lean Canvas\n\nO diagrama central representa o Lean Canvas, composto por blocos organizados em duas linhas:\n\n- **Linha superior (5 blocos):**\n  1. Bloco com ícone de pessoas (referente a Problema/Segmentos de clientes)\n  2. Bloco com ícone de caixa de presente (referente a Solução/Proposta de valor única)\n  3. Bloco com ícone de coração (referente a Métricas-chave)\n  4. Bloco com ícone de gráfico de barras (referente a Canais)\n  5. Bloco com ícone de cifrão (referente a Fontes de receita)\n- **Linha inferior (2 blocos):**\n  1. Bloco com ícone de etiqueta (referente a Estrutura de custos)\n  2. Bloco com ícone de engrenagem (referente a Vantagem injusta)\n\nAbaixo do quadro, consta a expressão: **IDEIAS EM VALOR COM EVIDÊNCIAS**.\n\n## Lista de limitações\n\n1. **Simplifica aspectos complexos**\n2. **Não substitui pesquisas**\n3. **Não detalha requisitos**\n4. **Não define a arquitetura do software**\n5. **Não apresenta o planejamento técnico**\n6. **Pode transmitir falsa sensação de certeza**\n7. **Depende da qualidade das informações**\n8. **Precisa ser atualizado**\n9. **Deve ser combinado com outras técnicas**\n\n## Conclusão\n\n**É um quadro de hipóteses, não um projeto técnico completo.**\n\nO Lean Canvas orienta, mas precisa de evidências e ferramentas complementares.\n\n## Elementos textuais laterais\n\n- **Canto superior esquerdo:** PLANEJAR, VALIDAR, APRENDER, EVOLUIR\n- **Canto superior direito:** IDEIAS, EVIDÊNCIAS, MELHORES SOLUÇÕES\n- **Canto inferior esquerdo:** PESSOAS, PROBLEMAS, SOLUÇÕES, RESULTADOS\n- **Canto inferior direito:** COMBINAÇÃO, ANÁLISE, VALIDAÇÃO, MAIOR IMPACTO",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 42,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    },
+    {
+      "conteudo": "# Reflexão para os estudantes\n\nAntes de desenvolver uma solução, a equipe deve perguntar:\n\n- O problema realmente existe?\n- Quem enfrenta esse problema?\n- Como essas pessoas resolvem a situação atualmente?\n- Qual hipótese apresenta maior risco?\n- Qual é o principal benefício da solução?\n- Como podemos testar a ideia rapidamente?\n- Quais evidências indicariam que estamos no caminho correto?\n\n## Elementos visuais e informações associadas\n\n### Materiais de estudo e anotações\n- **ENTENDER ANTES DE CONSTRUIR**\n- **ENTREVISTAS**\n- **EVIDÊNCIAS**\n- **PROTÓTIPO**\n- **APRENDIZADO**\n- **IDEIAS MELHORES COM EVIDÊNCIAS**\n- **CÓDIGO DEPOIS DE APRENDER**\n- **PROBLEMA REAL?**\n- **USUÁRIOS**\n- **SOLUÇÕES ATUAIS**\n- **HIPÓTESES**\n- **EXPERIMENTOS**\n- **EVIDÊNCIAS**\n- **PROTÓTIPO**\n- **BOAS SOLUÇÕES COMEÇAM COM BOAS PERGUNTAS**\n\n### Etapas do processo (fluxo)\n- INVESTIGAR\n- APRENDER\n- VALIDAR\n- SOLUÇÕES COM IMPACTO\n\n### Eixos temáticos (representados por livros)\n- USUÁRIOS\n- DESCOBERTA\n- VALIDAÇÃO\n- IMPACTO",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 43,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash"
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "8182ebe9506eeb77d75faddb",
+      "conteudo": "# Lean Canvas aplicado à Ideação de Software\n\n**Disciplina:** Projeto de Ideação de Software e Design de Artefatos  \n**Prof.ª Jeneffer Ferreira**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 1,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 145,
+        "chunk_id": "8182ebe9506eeb77d75faddb"
+      }
+    },
+    {
+      "chunk_id": "dbb9c33e63a25298b0ec74dd",
+      "conteudo": "# Objetivos da aula\n\nAo final desta aula, espera-se que os estudantes sejam capazes de:\n\n1. Compreender o conceito de Lean Canvas\n2. Reconhecer sua importância na ideação de software\n3. Identificar os nove blocos da ferramenta\n4. Formular hipóteses sobre problemas, clientes e soluções\n5. Utilizar o quadro para estruturar uma ideia de software\n\n## Estrutura do Lean Canvas\n\nO quadro Lean Canvas é composto pelos seguintes blocos:\n\n- Problema\n- Solução\n- Proposta de valor\n- Vantagem competitiva\n- Segmentos de clientes\n- Canais\n- Relacionamento com clientes\n- Estrutura de custos\n- Fontes de receita\n\n## Elementos visuais associados\n\n- Lâmpada sobre livros com a inscrição \"Lean Canvas\".\n- Nota adesiva: \"Da ideia ao software real\".\n- Nota adesiva: \"Ideação, testa, aprendizado, software\".\n- Termos laterais: \"IDEIAS, PROBLEMAS, SOLUÇÕES, IMPACTO\" e \"VALIDAR, APRENDER, CONSTRUIR\".",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 2,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 882,
+        "chunk_id": "dbb9c33e63a25298b0ec74dd"
+      }
+    },
+    {
+      "chunk_id": "830bc634462c794b21666ee3",
+      "conteudo": "# O que é Lean Canvas?\n\n**O Lean Canvas** é uma ferramenta visual utilizada para estruturar e analisar ideias de produtos ou negócios.\n\nOrganiza as principais hipóteses do projeto.\n\nNa ideação de software, ajuda a identificar:\n\n- Problema\n- Usuários\n- Benefício principal\n- Funcionalidades iniciais\n- Viabilidade e sustentabilidade",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 3,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 331,
+        "chunk_id": "830bc634462c794b21666ee3"
+      }
+    },
+    {
+      "chunk_id": "3b05d410ab2cdff93ccd2249",
+      "conteudo": "# Origem do Lean Canvas\n## Do Modelo de Negócios à Inovação Ágil\n\n### Business Model Canvas\n- **Criador:** Alexander Osterwalder\n- **Definição:** Modelo visual para projetar, descrever e analisar modelos de negócio.\n- **Papel no processo:** Base e inspiração.\n\n### Lean Canvas\n- **Criador:** Ash Maurya\n- **Definição:** Uma versão adaptada, mais enxuta e focada em startups e validação rápida de hipóteses.\n- **Relação com o Business Model Canvas:** Ash Maurya desenvolveu o Lean Canvas com base no Business Model Canvas de Alexander Osterwalder.\n- **Relação conceitual:** Mesma base, novo contexto.\n\n### Lean Startup\n- **Definição:** Mentalidade ágil para testar, aprender e evoluir com o mínimo de recursos e o máximo de aprendizado.\n- **Relação com o Lean Canvas:** O Lean Canvas é alinhado aos princípios do Lean Startup e fornece o contexto e a mentalidade para sua aplicação.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 881,
+        "chunk_id": "3b05d410ab2cdff93ccd2249"
+      }
+    },
+    {
+      "chunk_id": "bf86939d4f81e57820efd00d",
+      "conteudo": "### Processo de evolução\n1. Business Model Canvas (Alexander Osterwalder)\n2. → Adaptação e foco\n3. Lean Canvas (Ash Maurya)\n4. → Alinhado aos princípios de\n5. Lean Startup\n\n### Aplicações e impactos\n- Inovação\n- Incerteza\n- Validação\n- Novos produtos\n- Startups\n- Soluções digitais\n\n### Informações complementares\n- **Conhecimento conecta ideias a grandes conquistas.**\n- **Pessoas + Ideias + Execução**\n- **Do conhecimento à transformação**\n- **Ideias, modelos, pessoas, soluções, um futuro melhor.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 4,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 501,
+        "chunk_id": "bf86939d4f81e57820efd00d"
+      }
+    },
+    {
+      "chunk_id": "6a12ca195ad0e19b9aaf2d57",
+      "conteudo": "# Lean Startup e aprendizagem\n\n## Conceitos e definições\n\n- **Lean Startup e aprendizagem**: tema central da página.\n- **Ciclo de Aprendizado Contínuo**: ciclo representado no centro do diagrama, composto pelas etapas Construir, Medir, Aprender, Modificar ou manter e Testar novamente.\n- **Criar experimentos**: para validar ideias antes de grandes investimentos.\n- **Objetivo**: reduzir desperdícios e aprender rapidamente.\n\n## Etapas do processo (Ciclo de Aprendizado Contínuo)\n\nO diagrama apresenta um ciclo com as seguintes etapas, conectadas por setas em sequência:\n\n1. **Construir**\n2. **Medir**\n3. **Aprender**\n4. **Modificar ou manter**\n5. **Testar novamente**\n\nO ciclo retorna de \"Testar novamente\" para \"Construir\", caracterizando um ciclo de aprendizado contínuo.\n\n## Relações entre os elementos",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 806,
+        "chunk_id": "6a12ca195ad0e19b9aaf2d57"
+      }
+    },
+    {
+      "chunk_id": "ec5e7c8370cb54874a0dfef0",
+      "conteudo": "O ciclo retorna de \"Testar novamente\" para \"Construir\", caracterizando um ciclo de aprendizado contínuo.\n\n## Relações entre os elementos\n\n- **Construir** → **Medir**\n- **Medir** → **Aprender**\n- **Aprender** → **Modificar ou manter**\n- **Modificar ou manter** → **Testar novamente**\n- **Testar novamente** → **Construir** (reinício do ciclo)\n\n## Informações complementares presentes na página\n\n- **Pequenos experimentos, grandes aprendizados**.\n- **Ideias, experimentos, aprendizado, impacto**.\n- **Ideias, validação, evolução**.\n- **Testar • Aprender • Melhorar • Crescer**.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 5,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 575,
+        "chunk_id": "ec5e7c8370cb54874a0dfef0"
+      }
+    },
+    {
+      "chunk_id": "9c5e1d919e60db79880bec9c",
+      "conteudo": "# Lean Canvas na Ideação de Software\n\nNa ideação de software, o Lean Canvas ajuda a equipe a não começar diretamente pela programação.\n\n## Antes do desenvolvimento, é necessário compreender:\n\n- quem possui o problema;\n- como o problema ocorre;\n- quais soluções já são utilizadas;\n- qual benefício será oferecido;\n- quais funcionalidades são realmente necessárias;\n- como verificar se a solução gera valor.\n\n## Relações do diagrama\n\nO diagrama representa o processo de compreensão anterior ao desenvolvimento, partindo de elementos de análise e ideação em direção à etapa de programação:\n\n- Ícones de análise e ideação (pessoa, interrogação, grupo de pessoas, lâmpada, gráfico de barras e check) conectam-se entre si e direcionam para um ícone de programação (`</>`).\n- O ícone de programação é rotulado como \"DEPOIS\".",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 6,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 817,
+        "chunk_id": "9c5e1d919e60db79880bec9c"
+      }
+    },
+    {
+      "chunk_id": "91731a868598bd60b8460ae0",
+      "conteudo": "# Principais objetivos\n\nO Lean Canvas tem como objetivos:\n\n- Organizar uma ideia\n- Identificar problemas relevantes\n- Definir os segmentos de clientes\n- Analisar riscos e incertezas\n- Formular hipóteses\n- Apoiar pesquisas com usuários\n- Orientar experimentos\n- Definir uma proposta de valor\n- Apoiar a criação do MVP\n- Facilitar a comunicação da equipe",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 7,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 352,
+        "chunk_id": "91731a868598bd60b8460ae0"
+      }
+    },
+    {
+      "chunk_id": "599c4df9619830fe775e23e5",
+      "conteudo": "# Estrutura do Lean Canvas\n\nO Lean Canvas é formado por nove blocos:\n\n1. **Problema**\n2. **Segmentos de clientes**\n3. **Proposta Única de Valor**\n4. **Solução**\n5. **Canais**\n6. **Fontes de receita**\n7. **Estrutura de custos**\n8. **Métricas-chave**\n9. **Vantagem injusta**\n\nCada bloco representa uma dimensão importante da ideia.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 8,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 329,
+        "chunk_id": "599c4df9619830fe775e23e5"
+      }
+    },
+    {
+      "chunk_id": "b112f697f1e71c05b275bcf8",
+      "conteudo": "**PROBLEMA**\n1\n\n**SOLUÇÃO**\n4\n\n**MÉTRICAS-CHAVE**\n8\n\n**PROPOSTA DE VALOR**\n3\n\n**VANTAGEM INJUSTA**\n9\n\n**CANAIS**\n5\n\n**SEGMENTO DE CLIENTES**\n2\n\n**ESTRUTURA DE CUSTOS**\n7\n\n**RECEITAS**\n6",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 9,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 185,
+        "chunk_id": "b112f697f1e71c05b275bcf8"
+      }
+    },
+    {
+      "chunk_id": "6b1097623f6683d93ef7caeb",
+      "conteudo": "# Bloco 1: Problema\n\nIdentifica as principais dificuldades ou necessidades dos usuários.\n\nSelecione de 1 a 3 problemas prioritários.\n\nO processo de identificação e priorização é representado visualmente por uma sequência de três cartões numerados (1, 2 e 3), indicando uma ordem de etapas ou itens a serem considerados.\n\nA análise do problema deve considerar as seguintes questões:\n\n- Qual dificuldade o usuário enfrenta?\n- Com que frequência ela ocorre?\n- Quais consequências provoca?\n- Quanto tempo ou dinheiro é perdido?\n- O usuário reconhece esse problema?\n- O problema justifica a criação de uma solução?",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 10,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 609,
+        "chunk_id": "6b1097623f6683d93ef7caeb"
+      }
+    },
+    {
+      "chunk_id": "454d3dc62e358ff090e6b41f",
+      "conteudo": "# Exemplo de problema\n\n**Projeto:** aplicativo para organização acadêmica\n\n## Problemas identificados:\n\n- Estudantes esquecem prazos de atividades\n- Informações estão distribuídas em diferentes plataformas\n- Estudantes têm dificuldade para organizar a rotina\n- Atividades importantes não são priorizadas\n- A falta de planejamento gera atrasos e ansiedade\n\n## Elementos visuais\n\n### Tela do aplicativo (smartphone)\n\n**Minha Rotina**\n\n- Calendário: Maio 2024\n  - Dias da semana: Seg, Ter, Qua, Qui, Sex, Sáb, Dom\n  - Datas exibidas: 29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\n  - Data destacada: 8\n\n**Minhas tarefas**\n\n- Trabalho de História — Entrega amanhã — Alta\n- Leitura de artigo — Hoje — Média\n- Revisar para prova — Sexta-feira — Baixa\n\n**Navegação inferior:** Início, Tarefas, Calendário, Notas\n\n### Anotações visíveis",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 828,
+        "chunk_id": "454d3dc62e358ff090e6b41f"
+      }
+    },
+    {
+      "chunk_id": "bfabbc3039dbb8227203b3ef",
+      "conteudo": "**Navegação inferior:** Início, Tarefas, Calendário, Notas\n\n### Anotações visíveis\n\n- \"Mais organização para chegar mais longe!\"\n- \"Grandes resultados vêm de pequenos hábitos\"\n- \"Disciplina Hoje Conquistas Amanhã\"\n- \"Foco Plano Evolução\"\n- \"Um dia de cada vez\"\n- Lista em caderno: Planejar, Estudar, Organizar, Conquistar\n\n### Etiquetas em livros\n\n- ESTUDOS\n- PROJETOS\n- SONHOS\n\n## Observação\n\nEsses problemas ainda são hipóteses e precisam ser investigados.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 11,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 458,
+        "chunk_id": "bfabbc3039dbb8227203b3ef"
+      }
+    },
+    {
+      "chunk_id": "d22f12178631f5b36740aae8",
+      "conteudo": "# Problema versus solução\n\n## Descrição inadequada\n\nNão existe um aplicativo acadêmico com inteligência artificial.\n\n## Descrição adequada\n\nEstudantes têm dificuldade para organizar atividades e priorizar prazos acadêmicos.\n\n## Conclusão\n\nO problema deve representar uma dificuldade real do usuário, e não apenas a ausência de uma tecnologia.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 12,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 342,
+        "chunk_id": "d22f12178631f5b36740aae8"
+      }
+    },
+    {
+      "chunk_id": "ca6f16e91a2943fe47a1dcb1",
+      "conteudo": "# Bloco 2: Segmentos de clientes\n\n## Pergunta central\nQuem enfrenta o problema e pode utilizar ou adquirir a solução?\n\n## Conceito\nIdentificar os segmentos de clientes é essencial para direcionar a solução e gerar valor.\n\n## Segmentos de clientes\nA partir do elemento central \"2 — Segmentos de clientes\", derivam-se os seguintes segmentos:\n\n- Estudantes universitários\n- Estudantes EAD\n- Órgãos públicos\n- Professores\n- Empresas\n- Instituições de ensino\n- Coordenadores\n\n## Relação entre os elementos\nO diagrama apresenta \"Segmentos de clientes\" como núcleo, do qual partem conexões para cada um dos sete segmentos listados.\n\n## Informação complementar\nCada segmento possui necessidades específicas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 13,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 699,
+        "chunk_id": "ca6f16e91a2943fe47a1dcb1"
+      }
+    },
+    {
+      "chunk_id": "7fcd46ce92cc3ba9b4c88d9e",
+      "conteudo": "# Usuário, cliente e beneficiário\n\nO material apresenta cinco papéis relacionados a uma solução ou sistema, cada um com sua respectiva definição:\n\n- **Usuário**: Utiliza diretamente o sistema.\n- **Cliente**: Paga pela solução.\n- **Beneficiário**: Recebe algum benefício.\n- **Influenciador**: Influencia sua adoção.\n- **Decisor**: Autoriza a compra ou implantação.\n\n## Relações entre os papéis\n\nOs cinco papéis (Usuário, Cliente, Beneficiário, Influenciador e Decisor) estão conectados a um elemento central representado por um dispositivo (ícone de smartphone/tela), indicando que todos se relacionam com a solução ou sistema representado por esse dispositivo.\n\n## Observações sobre os papéis\n\n- **Uma pessoa pode exercer todos os papéis.**\n- **Os papéis também podem ser desempenhados por pessoas diferentes.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 14,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 811,
+        "chunk_id": "7fcd46ce92cc3ba9b4c88d9e"
+      }
+    },
+    {
+      "chunk_id": "2663f1e2fb34df7b7ba8012b",
+      "conteudo": "# Bloco 3: Proposta Única de Valor\n\nA Proposta Única de Valor comunica o principal benefício oferecido pelo produto.\n\n## Uma boa proposta de valor deve:\n\n- Destacar o benefício principal\n- Relacionar-se a um problema real\n- Utilizar linguagem compreensível\n- Demonstrar relevância\n- Apresentar a transformação esperada\n\n## Relações entre os elementos do diagrama\n\nPROBLEMA\n→ DOR DO USUÁRIO\n→ SOLUÇÃO\n→ Por que o usuário escolheria esta solução?\n→ TRANSFORMAÇÃO\n→ BENEFÍCIO\n→ RESULTADO MELHOR",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 15,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 491,
+        "chunk_id": "2663f1e2fb34df7b7ba8012b"
+      }
+    },
+    {
+      "chunk_id": "0fa72e8e4ffc8887bf6eeec0",
+      "conteudo": "# Estrutura da proposta de valor\n\nUma possível estrutura é:\n\nAjudamos **[segmento de clientes]** a **[resolver um problema ou alcançar um resultado]** por meio de **[principal diferencial]**.\n\n## Exemplo\n\nAjudamos **estudantes universitários** a **organizar atividades e cumprir prazos** por meio de **um planejamento acadêmico centralizado e personalizado**.\n\nO foco deve estar no valor entregue ao usuário.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 16,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 408,
+        "chunk_id": "0fa72e8e4ffc8887bf6eeec0"
+      }
+    },
+    {
+      "chunk_id": "6308994bffea8ed8df81da84",
+      "conteudo": "# Proposta de valor: erro comum\n\n## Exemplo inadequado\n\n“Aplicativo multiplataforma desenvolvido com tecnologias modernas, banco de dados em nuvem e inteligência artificial.”\n\nElementos visuais associados: dispositivos (computador e celular), nuvem, banco de dados, código (`</>`) e ícone de IA.\n\nCategoria indicada: **Características técnicas**.\n\n## Proposta de valor\n\nPerguntas que orientam a proposta de valor:\n\n- Qual problema será resolvido?\n- Quem será atendido?\n- Qual benefício será proporcionado?\n- Qual mudança ocorrerá na vida do usuário?\n\n## Mensagem final\n\n**Tecnologia é um meio, não a proposta de valor.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 17,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 620,
+        "chunk_id": "6308994bffea8ed8df81da84"
+      }
+    },
+    {
+      "chunk_id": "0ecf948d530bea07e429412f",
+      "conteudo": "# Bloco 4: Solução\n\nFuncionalidades ou estratégias iniciais para resolver os problemas selecionados.\n\n## Da dor à solução\n\nO processo parte de **Problemas selecionados** (Problema 1, Problema 2, Problema 3), que são direcionados para a construção de **Funcionalidades**.\n\nAs funcionalidades são organizadas em duas categorias:\n\n- **Essencial para o primeiro teste**\n  - Funcionalidade A\n  - Funcionalidade B\n  - Funcionalidade C\n  - Conjunto identificado como **MVP**\n\n- **Versões futuras**\n  - Funcionalidade D\n  - Funcionalidade E\n  - Funcionalidade F\n\n## Teste de validação (simples e rápido)\n\nO MVP é submetido a um **Teste de validação (simples e rápido)**, que conduz a uma **Hipótese**.\n\n## Questões norteadoras\n\n- Como a solução reduz o problema?\n- Qual funcionalidade entrega o benefício principal?\n- O que é essencial para o primeiro teste?\n- O que pode ficar para versões futuras?\n- É possível validar a ideia sem desenvolver o sistema completo?\n\n## Conclusão",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 18,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 970,
+        "chunk_id": "0ecf948d530bea07e429412f"
+      }
+    },
+    {
+      "chunk_id": "4b7df6b30df509d2c5edb5fa",
+      "conteudo": "## Conclusão\n\n**A solução ainda é uma hipótese.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 18,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 49,
+        "chunk_id": "4b7df6b30df509d2c5edb5fa"
+      }
+    },
+    {
+      "chunk_id": "c9ceb099ab29f1902d30ed72",
+      "conteudo": "# Relação entre problema e solução\n\n## Problema → Possível solução\n\n- Esquecimento de prazos → Alertas personalizados\n- Informações dispersas → Painel acadêmico centralizado\n- Dificuldade de organização → Planejamento semanal\n- Falta de prioridade → Classificação das atividades\n- Pouco acompanhamento → Relatórios de progresso\n\n## Observação\n\nCada funcionalidade deve estar associada a um problema identificado.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 19,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 412,
+        "chunk_id": "c9ceb099ab29f1902d30ed72"
+      }
+    },
+    {
+      "chunk_id": "d415e94060ce6a3bff4b18fc",
+      "conteudo": "# Bloco 5: Canais\n\nOs Canais representam os meios utilizados para alcançar, atender e manter os usuários.\n\n## Exemplos de canais digitais:\n\n- Redes sociais\n- Mecanismos de busca\n- Lojas de aplicativos\n- Site\n- E-mail\n- Ambientes virtuais de aprendizagem\n- Comunidades digitais\n- Marketing de conteúdo\n\n## Relações visuais\n\nOs canais digitais listados estão conectados, por linhas tracejadas, a um smartphone e a um notebook, que por sua vez se conectam a representações de usuários.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 20,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 482,
+        "chunk_id": "d415e94060ce6a3bff4b18fc"
+      }
+    },
+    {
+      "chunk_id": "8f6345e7cc54a5d46fe9d434",
+      "conteudo": "# Tipos de canais\n\n## Próprios\nSite, aplicativo ou perfil institucional.\n\n## Pagos\nAnúncios e campanhas.\n\n## Parceiros\nUniversidades, empresas ou organizações.\n\n## Orgânicos\nResultados de busca, recomendações e compartilhamentos.\n\n## Presenciais\nEscolas, eventos, palestras e encontros.\n\n## A escolha deve considerar:\n- Público\n- Custo\n- Alcance",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 21,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 345,
+        "chunk_id": "8f6345e7cc54a5d46fe9d434"
+      }
+    },
+    {
+      "chunk_id": "cbfd4c6a20f26dfe4fe83c73",
+      "conteudo": "# Bloco 6: Fontes de receita\n\n**Como o produto poderá gerar retorno financeiro ou valor?**\n\n## Fontes de receita\n\n1. **Venda do software**\n2. **Assinatura**\n3. **Pagamento por uso**\n4. **Modelo freemium**\n5. **Publicidade**\n6. **Licenciamento**\n7. **Comissão por transação**\n8. **Contratos institucionais**\n9. **Patrocínios**\n10. **Financiamento público**\n\n## Informações complementares\n\n- As fontes podem variar conforme o produto e a organização.\n- Receita deve estar alinhada ao valor entregue.\n- Diferentes produtos e organizações podem combinar múltiplas fontes de receita.\n\n## Contexto\n\n- Lean Canvas\n- Ideias em valor real\n- Do problema ao impacto",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 22,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 654,
+        "chunk_id": "cbfd4c6a20f26dfe4fe83c73"
+      }
+    },
+    {
+      "chunk_id": "56057ee6e188d47c75939f4e",
+      "conteudo": "# Receita em projetos não comerciais\n\nNem todo software tem como objetivo direto o lucro.\n\n## Ecossistema do Projeto Digital Sustentável\n\nO diagrama central apresenta um dispositivo móvel com a inscrição \"PROJETO DIGITAL SUSTENTÁVEL\", cercado por elementos que compõem o ecossistema:\n\n- **Instituições que apoiam**\n- **Comunidade que fortalece**\n- **Conhecimento que perpetua**\n- **Ideias que transformam**\n\nA base do diagrama central apresenta a legenda: \"TECNOLOGIA A SERVIÇO DE PESSOAS E DE UM FUTURO MELHOR\".\n\n## Fontes de apoio\n\n- Financiamento institucional\n- Editais\n- Recursos públicos\n- Doações\n- Parcerias\n- Patrocínios\n\n## Valor gerado\n\n- Redução de custos\n- Melhoria de processos\n- Benefícios sociais\n- Impacto educacional\n\n## Continuidade\n\nO diagrama inferior direito indica \"CONTINUIDADE PARA GERAR MAIS IMPACTO\".\n\n## Mensagem final\n\nO essencial é compreender como a solução será mantida.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 23,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 902,
+        "chunk_id": "56057ee6e188d47c75939f4e"
+      }
+    },
+    {
+      "chunk_id": "74c6704689019b1a5ca76442",
+      "conteudo": "# Bloco 7: Estrutura de custos\n\nReúne os gastos necessários para desenvolver, disponibilizar, manter e melhorar o software.\n\nO bloco é composto pelos seguintes elementos:\n\n- Pesquisa com usuários\n- Design\n- Desenvolvimento\n- Testes\n- Hospedagem\n- Banco de dados\n- Domínio\n- Serviços em nuvem\n- Segurança\n- Divulgação\n- Suporte e manutenção\n\nCompreender os custos ajuda a avaliar a viabilidade e a sustentabilidade da solução.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 24,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 425,
+        "chunk_id": "74c6704689019b1a5ca76442"
+      }
+    },
+    {
+      "chunk_id": "1b4a5a6d1f5b8bdcce349a44",
+      "conteudo": "# Classificação dos custos\n\nOs custos podem ser classificados como:\n\n## Custos iniciais\nNecessários para criar e lançar o produto.\n\n## Custos recorrentes\nNecessários para manter sua operação.\n\n## Custos fixos\nPermanecem relativamente constantes.\n\n## Custos variáveis\nAumentam conforme o uso ou a quantidade de clientes.\n\n## Ciclo de vida do software\nPesquisa e planejamento → Desenvolvimento → Lançamento → Operação → Manutenção → Melhoria\n\n## Observação final\nO planejamento deve considerar todo o ciclo de vida do software, não apenas sua programação.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 25,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 553,
+        "chunk_id": "1b4a5a6d1f5b8bdcce349a44"
+      }
+    },
+    {
+      "chunk_id": "67f610810075537853d8c810",
+      "conteudo": "# Bloco 8: Métricas-chave\n\nAs **Métricas-chave** são indicadores utilizados para avaliar o desempenho e os resultados do produto.\n\n## Exemplos de Métricas-chave\n\n- Usuários ativos\n- Frequência de utilização\n- Taxa de cadastro\n- Tarefas concluídas\n- Retenção\n- Taxa de abandono\n- Conversão\n- Satisfação\n- Receita\n- Quantidade de recomendações\n\n## Princípio\n\nUma boa métrica deve apoiar decisões.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 26,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 394,
+        "chunk_id": "67f610810075537853d8c810"
+      }
+    },
+    {
+      "chunk_id": "3171799f0133caebc079f4a3",
+      "conteudo": "# Métricas de vaidade\n\nParecem positivas, mas nem sempre demonstram valor real.\n\n## Métrica de vaidade\n\n- 10 mil downloads\n- Quantas pessoas continuam utilizando?\n- Gráfico de linha com tendência de queda: a linha parte de um ponto alto à esquerda e desce até um ponto baixo à direita.\n- Ilustração de cinco silhuetas de pessoas, com opacidade decrescente da esquerda para a direita.\n\n## Métrica relevante\n\n- 30 dias\n- Usuários ativos após 30 dias\n- Comportamento\n- Retenção\n- Resultados\n\n## Relação entre os elementos\n\nMétrica de vaidade → DA APARÊNCIA À EVIDÊNCIA → Métrica relevante\n\n## Conceito final\n\nPriorize métricas que apoiem decisões.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 27,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 644,
+        "chunk_id": "3171799f0133caebc079f4a3"
+      }
+    },
+    {
+      "chunk_id": "31acdb6aea8ad94186d8555d",
+      "conteudo": "# Bloco 9: Vantagem injusta\n\n**Definição:** Diferencial relevante que não pode ser facilmente copiado ou comprado pelos concorrentes.\n\n## Representação visual central\n\nUm escudo com um cadeado e uma interface de produto, apoiado sobre uma base com a inscrição **PRODUTO ÚNICO**.\n\nRelações representadas no diagrama:\n\n- Três elementos rotulados **CONCORRENTE** apontam para o escudo, mas são bloqueados (marcados com X), com a indicação: **CONCORRENTES NÃO CONSEGUEM COPIAR FACILMENTE**.\n- Uma seta saindo do escudo indica: **MAIS VALOR PARA O USUÁRIO**.\n\n## Fontes de vantagem injusta\n\n- Comunidade consolidada\n- Base exclusiva de dados\n- Conhecimento especializado\n- Tecnologia proprietária\n- Parcerias exclusivas\n- Marca reconhecida\n- Equipe com experiência rara\n- Propriedade intelectual\n- Efeitos de rede\n\n## Síntese\n\n**Difícil de copiar. Relevante para o usuário.**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 28,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 870,
+        "chunk_id": "31acdb6aea8ad94186d8555d"
+      }
+    },
+    {
+      "chunk_id": "5300b434ee6a62568cd32595",
+      "conteudo": "# O que não é vantagem injusta?\n\nSão elementos importantes, mas que podem ser reproduzidos pelos concorrentes.\n\nOs itens a seguir são apresentados como exemplos do que **não** constitui uma vantagem injusta, cada um acompanhado de um indicador de reprodutibilidade (ícone de cópia com X):\n\n- Interface bonita\n- Preço baixo\n- Atendimento de qualidade\n- Uso de inteligência artificial\n- Equipe motivada\n- Grande quantidade de funcionalidades\n- Ser o primeiro a lançar o produto\n\n**Conclusão:**\nSe o concorrente consegue copiar ou comprar, provavelmente não é uma vantagem injusta.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 29,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 578,
+        "chunk_id": "5300b434ee6a62568cd32595"
+      }
+    },
+    {
+      "chunk_id": "52203e3f7b53c1340b6ac492",
+      "conteudo": "# Ordem de preenchimento\n\nUma sequência recomendada é:\n\n1. Problema\n2. Segmentos de clientes\n3. Proposta de valor\n4. Solução\n5. Canais\n6. Fontes de receita\n7. Estrutura de custos\n8. Métricas-chave\n9. Vantagem injusta",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 30,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 216,
+        "chunk_id": "52203e3f7b53c1340b6ac492"
+      }
+    },
+    {
+      "chunk_id": "2a2148b22e6b54ee9e79ba82",
+      "conteudo": "# Lean Canvas como conjunto de hipóteses\n\nCada informação registrada no Lean Canvas deve ser tratada como uma **hipótese**.\n\n## Exemplos de hipóteses\n\n- Estudantes esquecem prazos porque as informações estão dispersas.\n- Os usuários desejam alertas personalizados.\n- Redes sociais seriam um canal eficiente.\n- Universidades pagarão pelo sistema.\n- O uso semanal demonstraria valor.\n\n## Processo\n\nAs afirmações apresentadas (hipóteses) convergem para uma etapa de validação, representada por:\n\n**EXPERIMENTAR** → **EVIDÊNCIAS**\n\n## Conclusão\n\nEssas afirmações precisam ser testadas.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 31,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 581,
+        "chunk_id": "2a2148b22e6b54ee9e79ba82"
+      }
+    },
+    {
+      "chunk_id": "c45294a9a1dc2cce08cbc1f6",
+      "conteudo": "# Priorização das hipóteses\n\nFoque no que mais importa e reduza as incertezas do seu projeto de software.\n\n## Critérios de análise\n\n- **Importância para o projeto**: O quanto a hipótese é relevante para o sucesso do projeto.\n- **Nível de incerteza**: O quanto ainda não sabemos sobre a hipótese.\n- **Impacto caso esteja incorreta**: Quais as consequências se a hipótese não se confirmar.\n- **Risco**: Quais os riscos envolvidos em seguir com a hipótese.\n- **Facilidade de teste**: O quão fácil é validar a hipótese na prática.\n- **Custo da validação**: Quanto custa testar a hipótese.\n\n## Matriz de Priorização (Importância x Incerteza)\n\n**Eixos:**\n- Eixo vertical: Importância (Menor importância → Maior importância)\n- Eixo horizontal: Incerteza (Menor incerteza → Maior incerteza)\n\n**Quadrantes:**",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 32,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 799,
+        "chunk_id": "c45294a9a1dc2cce08cbc1f6"
+      }
+    },
+    {
+      "chunk_id": "1600b37837ab7c137bb0e58e",
+      "conteudo": "**Quadrantes:**\n\n- **Investigar primeiro** (Alta importância + Alta incerteza)\n- **Importante, mas mais certa** (Alta importância + Menor incerteza): Manter no radar e monitorar.\n- **Prioridade secundária** (Menor importância + Maior incerteza): Menos importante, mas incerta.\n- **Menor prioridade** (Baixa importância + Mais certa): Baixa importância e mais certa.\n\n## Conclusão\n\nAs hipóteses mais importantes e incertas devem ser investigadas primeiro.\n\n**Resultados esperados:**\n- Menos suposições\n- Mais aprendizado\n- Melhores produtos",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 32,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 539,
+        "chunk_id": "1600b37837ab7c137bb0e58e"
+      }
+    },
+    {
+      "chunk_id": "e948d825b0a2f9d84c8e4cac",
+      "conteudo": "# Como validar as hipóteses?\n\n## Fluxo de validação de hipóteses\n\nO processo é composto por quatro etapas sequenciais:\n\n1. **Hipótese**\n   - Pergunta: O que acreditamos que é verdade?\n\n2. **Experimento**\n   - Pergunta: Como vamos testar essa hipótese?\n\n3. **Evidências**\n   - Pergunta: O que aprendemos com os dados?\n\n4. **Decisão**\n   - Pergunta: Continuar, pivotar ou descartar?\n\n## Métodos de validação\n\n### Pesquisa com usuários\n- Entrevistas\n- Questionários\n- Observação\n- **Objetivo:** Entenda as necessidades, dores e comportamentos das pessoas reais.\n\n### Pesquisa de mercado e documental\n- Pesquisa documental\n- Análise de concorrentes\n- Testes de conceito\n- **Objetivo:** Use informações existentes para identificar oportunidades e validar o contexto.\n\n### Experimentos e testes de produto\n- Protótipos\n- Testes de usabilidade\n- Páginas de apresentação\n- Listas de espera\n- MVP\n- Análise de métricas\n- **Objetivo:** Coloque a solução no mundo e meça o comportamento real.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 33,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 981,
+        "chunk_id": "e948d825b0a2f9d84c8e4cac"
+      }
+    },
+    {
+      "chunk_id": "c75b07af6b73d2819ddffb4d",
+      "conteudo": "## Objetivo central\n\nO objetivo é coletar evidências para orientar decisões.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 33,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 76,
+        "chunk_id": "c75b07af6b73d2819ddffb4d"
+      }
+    },
+    {
+      "chunk_id": "e671c070f9828902d632c655",
+      "conteudo": "# Exemplo de Lean Canvas: produto\n\n## Produto\nAplicativo para organização da rotina de estudantes universitários.\n\n## Objetivo\nCentralizar atividades acadêmicas, ajudar na priorização das tarefas e reduzir o esquecimento de prazos.\n\n## Público inicial\nEstudantes de graduação que trabalham e precisam acompanhar atividades de diferentes disciplinas.\n\n## Estrutura do aplicativo (representação visual)\n\nO aplicativo é representado por uma interface de smartphone com as seguintes seções e elementos:",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 34,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 3,
+        "chunk_caracteres": 498,
+        "chunk_id": "e671c070f9828902d632c655"
+      }
+    },
+    {
+      "chunk_id": "409a974f893edd0f6fa8aa5d",
+      "conteudo": "## Estrutura do aplicativo (representação visual)\n\nO aplicativo é representado por uma interface de smartphone com as seguintes seções e elementos:\n\n- **Cabeçalho:** \"Boa semana!\" e ícone de perfil de usuário.\n- **Calendário semanal:**\n  - Dias da semana: Seg, Ter, Qua, Qui, Sex, Sáb, Dom.\n  - Datas: 17, 18, 19, 20, 21, 22, 23.\n  - O dia 20 está destacado.\n- **Próximos prazos** (com opção \"Ver todos\"):\n  - Trabalho de Sociologia — Hoje\n  - Relatório de Química — Amanhã\n  - Prova de Cálculo — 24 mai\n- **Tarefas prioritárias:**\n  - Estudar para a prova de Cálculo (marcada)\n  - Finalizar relatório de Química (marcada)\n  - Ler artigo de Sociologia (não marcada)\n- **Meu progresso:**\n  - Indicador circular: 70%\n  - Aulas: 80%\n  - Tarefas: 70%\n  - Prazos: 60%\n- **Barra de navegação inferior:** ícones de início, calendário, gráfico de barras e perfil.\n\n## Relações entre os elementos",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 34,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 3,
+        "chunk_caracteres": 887,
+        "chunk_id": "409a974f893edd0f6fa8aa5d"
+      }
+    },
+    {
+      "chunk_id": "ae5114fea3025a9e7cdef3ff",
+      "conteudo": "## Relações entre os elementos\n\n- **Produto** → conecta-se ao centro do aplicativo (interface do smartphone).\n- **Objetivo** → conecta-se à seção \"Próximos prazos\" do aplicativo.\n- **Público inicial** → conecta-se à seção \"Tarefas prioritárias\" do aplicativo.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 34,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 3,
+        "total_chunks_pagina": 3,
+        "chunk_caracteres": 259,
+        "chunk_id": "ae5114fea3025a9e7cdef3ff"
+      }
+    },
+    {
+      "chunk_id": "2cc9438565edbaa59b47ed1c",
+      "conteudo": "# Exemplo: problema, público e valor\n\n## Problemas:\n- Esquecimento de prazos\n- Informações acadêmicas dispersas\n- Dificuldade de planejamento\n\n## Segmento:\n- Estudantes universitários que trabalham\n- Estudantes de cursos a distância\n\n## Proposta de valor:\nOrganize sua vida acadêmica em um único lugar e cumpra seus prazos com mais tranquilidade.\n\n---\n\n### Relações entre os elementos:\nProblemas → Segmento → Proposta de valor\n\n---\n\n### Informações do aplicativo (Minha Agenda):\n- Dias da semana: Seg, Ter, Qua, Qui, Sex, Sáb, Dom\n- Datas: 10, 11, 12, 13, 14, 15, 16\n- Compromissos:\n  - Aula de Matemática (08:00 – 10:00) — concluído\n  - Trabalho de Pesquisa (Entregar até 14/04)\n  - Revisar para a prova (19:00 – 20:00)",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 35,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 720,
+        "chunk_id": "2cc9438565edbaa59b47ed1c"
+      }
+    },
+    {
+      "chunk_id": "5368caaceea7520f47df6a9a",
+      "conteudo": "# Exemplo: solução, canais e receita\n\nO diagrama apresenta três categorias interligadas por setas, na seguinte sequência: Solução → Canais → Receitas.\n\n## Solução\n- Painel centralizado\n- Alertas personalizados\n- Planejamento semanal\n\n## Canais\n- Redes sociais\n- Universidades\n- Ambientes virtuais\n- Indicação de estudantes\n\n## Receitas\n- Plano gratuito\n- Assinatura premium\n- Licença institucional",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 36,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 397,
+        "chunk_id": "5368caaceea7520f47df6a9a"
+      }
+    },
+    {
+      "chunk_id": "3fa2cd05cb34aae2ad28264c",
+      "conteudo": "# Exemplo: custos, métricas e vantagem\n\nO elemento central do diagrama é representado por um ícone de chapéu de formatura, associado à seguinte informação:\n* Uma rotina mais organizada para ir mais longe.\n\nA partir desse elemento central, o conteúdo é dividido em três categorias principais:\n\n## Estrutura de custos\nApresenta uma lista de itens relacionados a gastos:\n* Desenvolvimento\n* Hospedagem\n* Segurança\n* Suporte\n* Manutenção\n* Divulgação\n\n## Métricas-chave\nApresenta uma lista de indicadores:\n* Usuários ativos\n* Tarefas concluídas\n* Retenção\n* Conversão\n\nA seção de métricas inclui um gráfico de barras e linhas com tendência de crescimento. Ao lado do gráfico, consta a informação:\n* Mais engajamento para uma vida acadêmica melhor.\n\n## Vantagem injusta\nApresenta a seguinte definição:\n* Integração exclusiva com sistemas acadêmicos de instituições parceiras.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 37,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 870,
+        "chunk_id": "3fa2cd05cb34aae2ad28264c"
+      }
+    },
+    {
+      "chunk_id": "52971bfd56ea580869087d60",
+      "conteudo": "## Vantagem injusta\nApresenta a seguinte definição:\n* Integração exclusiva com sistemas acadêmicos de instituições parceiras.\n\nO diagrama que acompanha esta seção mostra a relação entre um dispositivo móvel (contendo o ícone de chapéu de formatura) e três instituições parceiras, mediada por um ícone de cadeado (segurança):\n* Dispositivo móvel → Instituição parceira 1\n* Dispositivo móvel → Instituição parceira 2\n* Dispositivo móvel → Instituição parceira 3\n\nAbaixo deste diagrama, consta a informação:\n* Integração exclusiva e difícil de copiar.\n\n## Informações adicionais\nNo rodapé da página, consta a seguinte frase:\n* Viabilidade, desempenho e diferenciação.\n\nNo canto superior direito, consta a seguinte anotação:\n* Mais um app, novas possibilidades.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 37,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 757,
+        "chunk_id": "52971bfd56ea580869087d60"
+      }
+    },
+    {
+      "chunk_id": "346c74ac9e26e8619101ce07",
+      "conteudo": "# Erros comuns\n\n## Lean Canvas\n\n### Estrutura do Lean Canvas (conforme representado no quadro)\n- Problema\n- Solução\n- Proposta de valor\n- Vantagem competitiva\n- Segmentos de clientes\n- Canais\n- Relacionamento\n- Fontes de receita\n- Estrutura de custos\n- Métricas-chave\n\n### Erros comuns\n- Começar pela solução\n- Definir um público muito amplo\n- Confundir problema com falta de tecnologia\n- Criar uma proposta de valor técnica\n- Incluir funcionalidades em excesso\n- Considerar hipóteses como fatos\n- Não realizar validações\n- Não atualizar o quadro\n- Utilizar textos longos e pouco objetivos\n\n### Diretriz\nO Lean Canvas deve ser objetivo, validado e atualizado.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 38,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 659,
+        "chunk_id": "346c74ac9e26e8619101ce07"
+      }
+    },
+    {
+      "chunk_id": "bb3c96cfd8fb67eb349bf990",
+      "conteudo": "# Lean Canvas como documento vivo\n\nO Lean Canvas deve ser atualizado conforme a equipe aprende.\n\n## Estrutura do Lean Canvas\n\nO diagrama central apresenta o Lean Canvas dividido nos seguintes blocos:\n\n- Problema\n- Solução\n- Proposta de Valor\n- Vantagem Competitiva\n- Segmentos de Clientes\n- Alternativas Existentes\n- Métricas Chave\n- Canais\n- Early Adopters\n- Estrutura de Custos\n- Fontes de Receita\n\n## Ciclo de atualização (8 etapas)\n\n1. Elaborar a primeira versão\n2. Identificar hipóteses críticas\n3. Planejar pesquisas e experimentos\n4. Coletar evidências\n5. Analisar os resultados\n6. Manter, alterar ou descartar hipóteses\n7. Atualizar o Canvas\n8. Definir o próximo experimento\n\nO ciclo é representado de forma circular, com setas que conectam as etapas em sequência, retornando da etapa 8 para a etapa 1.\n\n## Elementos visuais associados\n\n- Notas\n- Ideias\n- Pesquisa\n- Experimentos\n- Aprender, testar, evoluir\n- Resultados\n\n## Conclusão\n\nAprender, testar e atualizar: o ciclo continua.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 39,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 991,
+        "chunk_id": "bb3c96cfd8fb67eb349bf990"
+      }
+    },
+    {
+      "chunk_id": "b95ce62feda37b90b6f826d3",
+      "conteudo": "# Relação com outras técnicas\n\nO Lean Canvas pode ser combinado com:\n\n## Descobrir\n- Matriz CSD\n- Desk Research\n- Entrevistas\n\n## Compreender\n- Personas\n- Mapa de empatia\n- Jornada do usuário\n\n## Criar\n- Brainstorming\n- Prototipação\n\n## Validar/comunicar\n- Testes de usabilidade\n- MVP\n- Pitch\n\n## Lean Canvas\nQuadro de síntese dos principais aprendizados do projeto\n\nO Lean Canvas integra diferentes técnicas para transformar ideias em soluções reais.",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 40,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 451,
+        "chunk_id": "b95ce62feda37b90b6f826d3"
+      }
+    },
+    {
+      "chunk_id": "7c026f5e23be8f36cbfbca1c",
+      "conteudo": "# Benefícios do Lean Canvas\n\nEntre seus benefícios estão:\n\n- Visão geral da ideia\n- Identificação de riscos\n- Foco no usuário\n- Facilidade para comunicar a proposta\n- Apoio à tomada de decisões\n- Redução de desperdícios\n- Priorização de problemas\n- Alinhamento da equipe\n- Facilidade de atualização",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 41,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 1,
+        "chunk_caracteres": 298,
+        "chunk_id": "7c026f5e23be8f36cbfbca1c"
+      }
+    },
+    {
+      "chunk_id": "d09925cfaece5b0ed12cdca2",
+      "conteudo": "# Limitações do Lean Canvas\n\nUma visão realista para melhores decisões na ideação de software.\n\n## Representação central: Lean Canvas\n\nO diagrama central representa o Lean Canvas, composto por blocos organizados em duas linhas:\n\n- **Linha superior (5 blocos):**\n  1. Bloco com ícone de pessoas (referente a Problema/Segmentos de clientes)\n  2. Bloco com ícone de caixa de presente (referente a Solução/Proposta de valor única)\n  3. Bloco com ícone de coração (referente a Métricas-chave)\n  4. Bloco com ícone de gráfico de barras (referente a Canais)\n  5. Bloco com ícone de cifrão (referente a Fontes de receita)\n- **Linha inferior (2 blocos):**\n  1. Bloco com ícone de etiqueta (referente a Estrutura de custos)\n  2. Bloco com ícone de engrenagem (referente a Vantagem injusta)\n\nAbaixo do quadro, consta a expressão: **IDEIAS EM VALOR COM EVIDÊNCIAS**.\n\n## Lista de limitações",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 42,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 878,
+        "chunk_id": "d09925cfaece5b0ed12cdca2"
+      }
+    },
+    {
+      "chunk_id": "ceac2d55d0c3642d422a3797",
+      "conteudo": "Abaixo do quadro, consta a expressão: **IDEIAS EM VALOR COM EVIDÊNCIAS**.\n\n## Lista de limitações\n\n1. **Simplifica aspectos complexos**\n2. **Não substitui pesquisas**\n3. **Não detalha requisitos**\n4. **Não define a arquitetura do software**\n5. **Não apresenta o planejamento técnico**\n6. **Pode transmitir falsa sensação de certeza**\n7. **Depende da qualidade das informações**\n8. **Precisa ser atualizado**\n9. **Deve ser combinado com outras técnicas**\n\n## Conclusão\n\n**É um quadro de hipóteses, não um projeto técnico completo.**\n\nO Lean Canvas orienta, mas precisa de evidências e ferramentas complementares.\n\n## Elementos textuais laterais\n\n- **Canto superior esquerdo:** PLANEJAR, VALIDAR, APRENDER, EVOLUIR\n- **Canto superior direito:** IDEIAS, EVIDÊNCIAS, MELHORES SOLUÇÕES\n- **Canto inferior esquerdo:** PESSOAS, PROBLEMAS, SOLUÇÕES, RESULTADOS\n- **Canto inferior direito:** COMBINAÇÃO, ANÁLISE, VALIDAÇÃO, MAIOR IMPACTO",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 42,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 928,
+        "chunk_id": "ceac2d55d0c3642d422a3797"
+      }
+    },
+    {
+      "chunk_id": "4824b5297b61c4f719f00102",
+      "conteudo": "# Reflexão para os estudantes\n\nAntes de desenvolver uma solução, a equipe deve perguntar:\n\n- O problema realmente existe?\n- Quem enfrenta esse problema?\n- Como essas pessoas resolvem a situação atualmente?\n- Qual hipótese apresenta maior risco?\n- Qual é o principal benefício da solução?\n- Como podemos testar a ideia rapidamente?\n- Quais evidências indicariam que estamos no caminho correto?\n\n## Elementos visuais e informações associadas\n\n### Materiais de estudo e anotações\n- **ENTENDER ANTES DE CONSTRUIR**\n- **ENTREVISTAS**\n- **EVIDÊNCIAS**\n- **PROTÓTIPO**\n- **APRENDIZADO**\n- **IDEIAS MELHORES COM EVIDÊNCIAS**\n- **CÓDIGO DEPOIS DE APRENDER**\n- **PROBLEMA REAL?**\n- **USUÁRIOS**\n- **SOLUÇÕES ATUAIS**\n- **HIPÓTESES**\n- **EXPERIMENTOS**\n- **EVIDÊNCIAS**\n- **PROTÓTIPO**\n- **BOAS SOLUÇÕES COMEÇAM COM BOAS PERGUNTAS**\n\n### Etapas do processo (fluxo)\n- INVESTIGAR\n- APRENDER\n- VALIDAR\n- SOLUÇÕES COM IMPACTO",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 43,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 1,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 910,
+        "chunk_id": "4824b5297b61c4f719f00102"
+      }
+    },
+    {
+      "chunk_id": "8e70b5e3e100cc395f55dffa",
+      "conteudo": "### Etapas do processo (fluxo)\n- INVESTIGAR\n- APRENDER\n- VALIDAR\n- SOLUÇÕES COM IMPACTO\n\n### Eixos temáticos (representados por livros)\n- USUÁRIOS\n- DESCOBERTA\n- VALIDAÇÃO\n- IMPACTO",
+      "metadata": {
+        "periodo": "03",
+        "disciplina": "projeto_de_ideacao_de_software",
+        "aula": "02",
+        "assunto": "lean_canvas",
+        "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+        "pasta_aula": "aula_02_lean_canvas",
+        "pagina": 43,
+        "tipo_arquivo": "pdf",
+        "tipo_extracao": "multimodal",
+        "caracteres_texto_original": 0,
+        "motivos_deteccao": [
+          "sem_texto_extraivel"
+        ],
+        "modelo_visual": "deepseek/deepseek-v4.1-flash",
+        "chunk_index": 2,
+        "total_chunks_pagina": 2,
+        "chunk_caracteres": 181,
+        "chunk_id": "8e70b5e3e100cc395f55dffa"
+      }
+    }
+  ]
+}

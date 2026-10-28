@@ -1,0 +1,82 @@
+[
+  {
+    "arquivo": "NEURON_Modelagem_de_Dados_MVP_atualizado.pdf",
+    "origem": "C:\\Users\\Pichau\\Downloads\\NEURON_Modelagem_de_Dados_MVP_atualizado.pdf",
+    "copia": "C:\\Projeto Extensionista 2\\NEURON\\docs\\referencias\\NEURON_Modelagem_de_Dados_MVP_atualizado.pdf",
+    "sha256": "dd0d62a61bb62072a2b682332d7b7896779cbf1873af781b6c9b7808e0365f24",
+    "paginas": 8,
+    "metadados_originais": {
+      "format": "PDF 1.4",
+      "title": "NEURON — Modelagem de Dados do MVP (versão atualizada)",
+      "author": "Equipe NEURON",
+      "subject": "(unspecified)",
+      "keywords": "",
+      "creator": "(unspecified)",
+      "producer": "ReportLab PDF Library - (opensource)",
+      "creationDate": "D:20261021203103+00'00'",
+      "modDate": "D:20261021203103+00'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "arquivo": "NEURON_Documentacao_Arquitetura_Completa_atualizada.pdf",
+    "origem": "C:\\Users\\Pichau\\Downloads\\NEURON_Documentacao_Arquitetura_Completa_atualizada.pdf",
+    "copia": "C:\\Projeto Extensionista 2\\NEURON\\docs\\referencias\\NEURON_Documentacao_Arquitetura_Completa_atualizada.pdf",
+    "sha256": "d9cd768d28d5b7511e3c31bbb159372d0fae5d9328b946a1d641d65466e35837",
+    "paginas": 15,
+    "metadados_originais": {
+      "format": "PDF 1.4",
+      "title": "NEURON — Documentação de Arquitetura do MVP (versão atualizada)",
+      "author": "Equipe NEURON",
+      "subject": "(unspecified)",
+      "keywords": "",
+      "creator": "(unspecified)",
+      "producer": "ReportLab PDF Library - (opensource)",
+      "creationDate": "D:20261022024553+00'00'",
+      "modDate": "D:20261022024553+00'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "arquivo": "Relatorio_NEURON_Arquitetura_IA_RAG_atualizado.pdf",
+    "origem": "C:\\Users\\Pichau\\Downloads\\Relatorio_NEURON_Arquitetura_IA_RAG_atualizado.pdf",
+    "copia": "C:\\Projeto Extensionista 2\\NEURON\\docs\\referencias\\Relatorio_NEURON_Arquitetura_IA_RAG_atualizado.pdf",
+    "sha256": "ad1c531dedbf78410da73ed3a50c8d174d13c89795359330df653dfc835cbf2e",
+    "paginas": 5,
+    "metadados_originais": {
+      "format": "PDF 1.4",
+      "title": "NEURON — Relatório de arquitetura e evolução (versão atualizada)",
+      "author": "Equipe NEURON",
+      "subject": "(unspecified)",
+      "keywords": "",
+      "creator": "(unspecified)",
+      "producer": "ReportLab PDF Library - (opensource)",
+      "creationDate": "D:20261022024628+00'00'",
+      "modDate": "D:20261022024628+00'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "arquivo": "NEURON_Diagrama_de_Classes.pdf",
+    "origem": "C:\\Users\\Pichau\\Downloads\\Curso Java\\NEURON_Diagrama_de_Classes.pdf",
+    "copia": "C:\\Projeto Extensionista 2\\NEURON\\docs\\referencias\\NEURON_Diagrama_de_Classes.pdf",
+    "sha256": "bcca676c13fc2f31aaa357ffdbe4b2aa2e80ac297b48a6ec224eef5534d8e30d",
+    "paginas": 3,
+    "metadados_originais": {
+      "format": "PDF 1.4",
+      "title": "NEURON - Diagrama de Classes (MVP)",
+      "author": "NEURON",
+      "subject": "unspecified",
+      "keywords": "",
+      "creator": "anonymous",
+      "producer": "ReportLab PDF Library - (opensource)",
+      "creationDate": "D:20261026165027+00'00'",
+      "modDate": "D:20261026165027+00'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  }
+]

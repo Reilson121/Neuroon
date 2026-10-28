@@ -1,0 +1,449 @@
+=== PAGINA 1 ===
+NEURON — Diagrama de Classes: Modelo de Domínio
+Entidades JPA (Spring Boot) mapeadas para PostgreSQL. Associações com multiplicidades conforme a modelagem de dados.
+NEURON - Diagrama de Classes do MVP  |  Baseado em: Modelagem de Dados (atualizada) e Arquitetura do MVP (atualizada)
+Página 1/3
+classe nova (proposta)
+item laranja* = proposta a validar
+«enumeration»
+Perfil
+ESTUDANTE
+ADMINISTRADOR
+«Entity»  tabela usuario
+Usuario
+-id: Long
+-nome: String
+-email: String {unique}
+-senhaHash: String
+-perfil: Perfil
+-ativo: boolean
+-criadoEm: LocalDateTime
+-atualizadoEm: LocalDateTime
++desativar(): void
++ehAdministrador(): boolean
+«Entity»  tabela feedback_plataforma
+FeedbackPlataforma
+-id: Long
+-usuario: Usuario
+-nota: short {1..5}
+-comentario: String
+-criadoEm: LocalDateTime
++validarNota(): void
+«enumeration»
+TipoMaterial
+SLIDE_AULA
+LISTA_EXERCICIOS
+PROVA_ANTIGA
+RESUMO
+ARQUIVO
+LINK
+TRECHO_LIVRO
+OUTRO
+«Entity»  tabela periodo
+Periodo
+-id: Long
+-numero: int {unique}
+-nome: String
+-descricao: String
+-ordem: int
+-ativo: boolean
+-criadoEm: LocalDateTime
+-atualizadoEm: LocalDateTime
++desativar(): void
+«Entity»  tabela disciplina
+Disciplina
+-id: Long
+-periodo: Periodo
+-nome: String {unique por periodo}
+-descricao: String
+-dicas: String
+-possuiProva: boolean *
+-ativo: boolean
+-criadoEm: LocalDateTime
+-atualizadoEm: LocalDateTime
++oferecePratica(): boolean *
++desativar(): void
+«Entity»  tabela assunto
+Assunto
+-id: Long
+-disciplina: Disciplina
+-nome: String {unique por disciplina}
+-descricao: String
+-ordem: int
+-ativo: boolean
+-criadoEm: LocalDateTime
+-atualizadoEm: LocalDateTime
++desativar(): void
+«Entity»  tabela material
+Material
+-id: Long
+-disciplina: Disciplina
+-assunto: Assunto  [0..1]
+-titulo: String
+-descricao: String
+-tipo: TipoMaterial
+-referenciaExterna: String
+-fonteMonitorVirtual: boolean
+-disponivelParaPratica: boolean *
+-contemGabarito: boolean *
+-autorizacaoProfessor: boolean *
+-ativo: boolean
+-criadoEm: LocalDateTime
+-atualizadoEm: LocalDateTime
++assuntoPertenceADisciplina(): boolean
++podeSerPratica(): boolean *
++desativar(): void
+«Entity»  tabela recurso_complementar
+RecursoComplementar
+-id: Long
+-disciplina: Disciplina
+-assunto: Assunto  [0..1]
+-titulo: String
+-descricao: String
+-url: String
+-ativo: boolean
+-criadoEm: LocalDateTime
+-atualizadoEm: LocalDateTime
++assuntoPertenceADisciplina(): boolean
+perfil
+1
+0..*
+envia
+1
+0..*
+possui
+1
+0..*
+possui
+1
+0..*
+possui
+0..1
+0..*
+classifica
+0..1
+0..*
+relaciona
+1
+0..*
+possui
+tipo
+LISTA_EXERCICIOS e PROVA_ANTIGA alimentam a prática com questões.
+Regras de consistência e negócio
+• Se Material/RecursoComplementar tiver assunto, esse Assunto deve pertencer à mesma Disciplina (validação no
+domínio/back-end; reforço opcional no banco).
+• Exclusão lógica: ativo = false. Desativar um Material usado pelo Monitor Virtual ou pela prática remove seus chunks do
+índice vetorial.
+• Prática (proposta): só em Disciplina com possuiProva = true.
+• disponivelParaPratica = true exige tipo LISTA_EXERCICIOS ou PROVA_ANTIGA e autorizacaoProfessor = true (CHECK
+no banco) e Disciplina com prova (back-end).
+• Sem histórico de chat (thread_id) nem de prática (sessaoId) no banco relacional no MVP.
+• Monitor humano (candidatura, agenda, mensagens, avaliações) fora do escopo.
+
+
+=== PAGINA 2 ===
+NEURON — Diagrama de Classes: Backend Spring Boot (camadas)
+Controller -> Service -> Repository por domínio, integração com o serviço de IA via AiClient. API pública em /api/v1.
+NEURON - Diagrama de Classes do MVP  |  Baseado em: Modelagem de Dados (atualizada) e Arquitetura do MVP (atualizada)
+Página 2/3
+classe nova (proposta)
+item laranja* = proposta a validar
+«RestController»  /api/v1/auth
+AuthController
++login(LoginRequest): TokenResponse
++logout(): void
++me(): UsuarioResponse
+«RestController»  /api/v1/feedback
+FeedbackController
++enviar(FeedbackRequest): 201
++listarAdmin(): List<FeedbackResponse>
+   GET /admin/feedback  (ADMINISTRADOR)
+«RestController»  /api/v1
+DisciplinaController
++listarPorPeriodo(periodoId)
++detalhar(id): DisciplinaResponse
++listarAssuntos(disciplinaId)
++criar/atualizar/desativar  «ADMIN»
+«RestController»  /api/v1/pesquisa
+PesquisaController
++pesquisar(q): ResultadoPesquisa
+«RestController»  /api/v1
+MaterialController
++listar(disciplinaId, assuntoId?)
++criar(MaterialRequest)  «ADMIN»
++atualizar(id, MaterialRequest)
++desativar(id)  (exclusão lógica)
+«RestController»  /api/v1/pratica
+PraticaController
++iniciarSessao(PraticaRequest)
++responder(sessaoId, RespostaRequest)
+«RestController»  /api/v1/monitor
+MonitorVirtualController
++chat(ChatRequest): text/event-stream
+   streaming SSE (POST)
+«Service»
+AuthService
++autenticar(email, senha): Token
++encerrarSessao(): void
++usuarioAutenticado(): Usuario
+«Service»
+FeedbackService
++registrar(usuarioId, FeedbackRequest)
++listarTodos(): List<FeedbackPlataforma>
+-validarNota(nota): void  (1..5)
+«Service»
+DisciplinaService
++listarPorPeriodo(periodoId)
++detalhar(id): Disciplina
++criar(DisciplinaRequest)  (possuiProva*)
++desativar(id): void
+«Service»
+PesquisaService
++pesquisar(termo): ResultadoPesquisa
+   busca comum, separada do RAG
+«Service»
+MaterialService
++criar(MaterialRequest)
++atualizar(id, MaterialRequest)
++desativar(id): void
+-validarAssuntoDaDisciplina()
+-validarRegrasDePratica()
+«Service»
+PraticaService
++iniciarSessao(PraticaRequest)
++corrigir(sessaoId, RespostaRequest)
+-exigirDisciplinaComProva()  409
+   DISCIPLINA_SEM_PROVA (sessaoId efêmero)
+«Service»
+MonitorVirtualService
++conversar(ChatRequest, usuario)
+-validarDisciplina(disciplinaId)
+-aplicarRateLimit(usuario)
+   gera/propaga thread_id
+«Repository»  JpaRepository
+UsuarioRepository
++findByEmail(String): Optional<Usuario>
+«Repository»  JpaRepository
+FeedbackRepository
++findAllByOrderByCriadoEmDesc()
+«Repository»  JpaRepository
+DisciplinaRepository
++findByPeriodoIdAndAtivoTrue(id)
++findByIdAndAtivoTrue(id)
+«Repository»  JpaRepository
+PesquisaRepository
++buscarDisciplinas(q)
++buscarAssuntos(q)
++buscarMateriais(q)
+«Repository»  JpaRepository
+MaterialRepository
++findByDisciplinaIdAndAtivoTrue(id)
++findByDisciplinaIdAndAssuntoId...()
+«Service»  pacote security
+TokenService
++gerarToken(Usuario): String
++validarToken(String): boolean
++extrairUsuario(String): Usuario
+Estratégia final de autenticação (JWT) ainda a aprovar.
+«DTO»  isolam o contrato HTTP das entidades
+DTOs (records)
+LoginRequest, TokenResponse, UsuarioResponse
+DisciplinaResponse (possuiProva*)
+MaterialRequest, MaterialResponse,
+   MaterialResumoResponse (+campos de prática*)
+ChatRequest, ResultadoPesquisa
+PraticaRequest, RespostaRequest, QuestaoResponse
+FeedbackRequest, FeedbackResponse
+«ControllerAdvice»
+GlobalExceptionHandler
++tratar(Exception): ErroResponse
+ErroResponse {status, codigo, mensagem, timestamp}. 400, 401, 403, 404, 409, 429,
+503. DisciplinaSemProvaException -> 409.
+«Component»  integration.ai  (único ponto de contato com o FastAPI)
+AiClient
+-baseUrl: String  = ${AI_SERVICE_URL}
+-http: WebClient
++chat(AiChatRequest): Flux<AiEvento>
++indexar(AiIndexRequest): void
++remover(materialId): void
++reindexar(materialId): void
++montarQuestoes(AiPracticeRequest): List<AiQuestao>
++corrigir(AiRespostaRequest): AiCorrecao
+Services do domínio não conhecem URL interna nem formato do framework Python.
+Indisponível -> 503. Endpoints /internal/v1 não são expostos ao navegador.
+DTOs: AiChatRequest, AiIndexRequest, AiPracticeRequest*, AiSourceResponse.
+indexar / remover / reindexar
+questões e correção*
+chat (SSE)
+Controller
+Service
+Repository (Spring Data JPA) -> PostgreSQL
+Transversal / Integração
+Periodo e Assunto seguem o mesmo padrão de Disciplina (PeriodoController/Service/Repository e AssuntoController/Service/Repository). Endpoints /admin/* exigem perfil ADMINISTRADOR.
+PraticaService valida disciplina.possuiProva* antes de chamar a IA. Migrations versionadas com Flyway (db/migration). Feedback não passa pelo serviço de IA.
+
+
+=== PAGINA 3 ===
+NEURON — Diagrama de Classes: Serviço de IA (FastAPI + LangChain/LangGraph + pgvector)
+API interna /internal/v1 (chamada apenas pelo Spring Boot): Monitor Virtual (RAG), prática com questões* e indexação de materiais.
+NEURON - Diagrama de Classes do MVP  |  Baseado em: Modelagem de Dados (atualizada) e Arquitetura do MVP (atualizada)
+Página 3/3
+classe nova (proposta)
+item laranja* = proposta a validar
+«Spring Boot»
+AiClient
+HTTP/JSON interno (chat em streaming).
+«APIRouter»  /internal/v1
+InternalRouter
++POST /chat
++POST /materials/index
++DELETE /materials/{materialId}
++POST /materials/{materialId}/reindex
++POST /practice/questions
++POST /practice/answers
+«LangGraph StateGraph»
+ChatGraph
+-estado: AgentState
+-max_reescritas: int = 2
++compilar(): CompiledGraph
++executar(entrada): AsyncIterator
+«nós do grafo»
+RagNodes
+-retriever: Retriever
+-llm: LLMClient
++classificar(state)
++recuperar(state)
++avaliar_contexto(state)
++reescrever_consulta(state)
++gerar_resposta(state)
++fallback(state)
+«practice»
+PracticeService
+-retriever: Retriever
+-llm: LLMClient
++montar_questoes(req)
++corrigir(resposta)
+-sinalizar_resolucao_ia()
+«rag»
+IndexingService
+-chunker: Chunker
+-embeddings: EmbeddingService
+-store: PgVectorStore
++indexar(req): void
++remover(material_id): void
++reindexar(material_id): void
+«rag.retrieval»
+Retriever
+-embeddings: EmbeddingService
+-store: PgVectorStore
++buscar(consulta, filtros, k)
++buscar_questoes(filtros, k)
+«interface»
+LLMClient
++gerar(prompt, contexto): AsyncIterator
++avaliar(resposta, gabarito)
+Provedor de LLM em aberto.
+«abstract»  rag.chunking
+Chunker
++dividir(documento): List[Chunk]
+ChunkerAula: slides, resumos, trechos.
+ChunkerQuestoes*: uma questão por chunk, com
+numero_questao e gabarito.
+«PostgreSQL + pgvector»
+PgVectorStore
+-tabela: chunks (embedding, metadata)
++upsert(chunks, vetores): void
++delete_by_material(material_id): void
++similarity_search(vetor, filtros, k)
+«interface»
+EmbeddingService
++embed_texts(textos): List[Vetor]
++embed_query(texto): Vetor
+Modelo de embedding em aberto.
+HTTP
+nós
+Fluxo de indexação
+Material (relacional) -> documento original -> extração -> Chunker ->
+EmbeddingService -> PgVectorStore.
+Reindexar = remover chunks antigos + reprocessar. Desativar Material =
+remover chunks.
+Materiais disponíveis para prática também são indexados, mesmo sem
+serem fonte do Monitor Virtual*.
+Banco relacional = fonte de verdade; índice vetorial = derivado e
+reconstruível.
+Em aberto (arquitetura)
+Provedor de LLM e embeddings; tamanho/overlap dos chunks; top-k;
+critérios de suficiência do contexto.
+Prática: só exibir questões existentes ou gerar novas; formato (múltipla
+escolha/discursiva); dificuldade; questões sem gabarito.
+Fluxo do chat: classificar -> recuperar (top-k filtrado) -> contexto suficiente? -> gerar com fontes | reescrever (máx. 2x) -> fallback sem inventar.
+Schemas (Pydantic) e estruturas auxiliares
+«Pydantic»
+ChatRequest
+thread_id: str
+message: str
+disciplina_id: int
+assunto_id: int | None
+«Pydantic»
+IndexRequest
+material_id: int
+periodo_id: int
+disciplina_id: int
+assunto_id: int | None
+tipo_material: str
+titulo_material: str
+referencia_externa: str
+disponivel_para_pratica *
+«Pydantic»
+PracticeRequest
+sessao_id: str
+disciplina_id: int
+assunto_id: int | None
+origem: LISTA|PROVA|MISTO
+quantidade: int
+«Pydantic»
+PracticeQuestion
+enunciado: str
+origem: Fonte
+numero_questao: int
+gabarito: str | None
+resolucao_gerada_por_ia: bool
+«Pydantic»
+AnswerResult
+correto: bool
+gabarito: str
+explicacao: str
+fonte: Fonte
+resolucao_gerada_por_ia: bool
+«Pydantic»
+Fonte
+material_id: int
+titulo_material: str
+nome_arquivo: str | None
+pagina: int
+«TypedDict»
+AgentState
+thread_id: str
+pergunta: str
+disciplina_id: int
+assunto_id: int | None
+categoria: str
+chunks: List[Chunk]
+contexto_suficiente: bool
+tentativas: int
+resposta: str
+fontes: List[Fonte]
+«metadados do índice»
+ChunkMetadata
+chunk_id: str
+material_id: int
+periodo_id: int
+disciplina_id: int
+assunto_id: int | None
+tipo_material: str
+titulo_material: str
+nome_arquivo: str
+pagina: int
+chunk_index: int
+numero_questao: int *
+tem_gabarito: bool *

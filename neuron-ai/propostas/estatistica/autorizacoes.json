@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-27",
+  "envio_openrouter": {
+    "autorizado": true,
+    "evidencia_usuario": "Autorizo os dois envios ao OpenRouter",
+    "destino": "https://openrouter.ai/api/v1",
+    "escopo": {
+      "paginas_visuais_slides": 103,
+      "amostra": [
+        14,
+        40,
+        51,
+        53,
+        77
+      ],
+      "perguntas_e_trechos_para_validar_monitor": true
+    },
+    "modelo_visual_configurado": "deepseek/deepseek-v4.1-flash",
+    "modelo_respostas_configurado": "deepseek/deepseek-v4-flash-0731"
+  },
+  "autorizacao_professor_listas_e_provas": {
+    "declarada_pelo_usuario": true,
+    "evidencia": "e autorizada pelo professor"
+  },
+  "revisoes_ia_identificadas": {
+    "autorizadas": true,
+    "evidencia": "Preservar original e identificar observações de IA"
+  },
+  "quartis": {
+    "escolha_delegada": true,
+    "evidencia": "escolha o mais adequao",
+    "convencao": "indice_zero_n_menos_1_interpolacao_linear"
+  },
+  "gabarito_oficial_professor": "nao_confirmado",
+  "modelagem_e_diagrama": "quatro_documentos_recebidos_copiados_e_analisados_em_docs/referencias",
+  "historico_monitor_persistente": {
+    "autorizado": true,
+    "data": "2026-10-28",
+    "evidencia_usuario": "Preservar e validar junto",
+    "escopo": "Preservar implementacao existente, conferir e aplicar migration V3 e validar a integracao com Estatistica."
+  }
+}

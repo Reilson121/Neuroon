@@ -1,0 +1,23 @@
+{
+  "gerado_em_utc": "2026-10-28T08:01:25.931345+00:00",
+  "origem": "http://127.0.0.1:5173",
+  "checks": [
+    "interface_real_disponivel_sem_preview_ficticia",
+    "login_cookie_e_csrf_pela_origem_do_frontend",
+    "catalogo_real_terceiro_periodo_31_assuntos_tres_materiais",
+    "seis_questoes_originais_com_fontes_e_sem_gabarito_antecipado",
+    "correcao_didatica_identificada_e_reenvio_idempotente",
+    "assunto_sem_avaliacoes_retorna_estado_vazio",
+    "questao_inedita_real_com_calculos_validados",
+    "monitor_real_com_referencias_e_reabertura_do_historico",
+    "logout_invalida_acesso_pela_interface"
+  ],
+  "aprovado": true,
+  "validacao_visual": false,
+  "conta_temporaria_removida": true,
+  "contagens_estatistica": {
+    "LISTA_EXERCICIOS": 6,
+    "SLIDE_AULA": 193,
+    "PROVA_ANTIGA": 9
+  }
+}

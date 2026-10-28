@@ -1,0 +1,1287 @@
+{
+  "executado_em_utc": "2026-10-27T16:02:28.092382+00:00",
+  "disciplina": "projeto_de_ideacao_de_software",
+  "modo": "respostas",
+  "transporte": "direto",
+  "corpus_sha256": "f23acbb818ffb61a35118046c845460818062ca946257107373e545b6831afea",
+  "top_k": 5,
+  "similaridade_minima": 0.25,
+  "auditoria": {
+    "compativel": true,
+    "chunks_json": 217,
+    "chunks_banco": 217,
+    "faltantes": [],
+    "extras": [],
+    "conteudos_divergentes": [],
+    "metadados_divergentes": [],
+    "pgvector": "0.8.5",
+    "tipo_embedding": "vector(384)"
+  },
+  "casos": [
+    {
+      "id": "concepcao",
+      "pergunta": "Quais são os três pilares da concepção de produto?",
+      "filtro_assunto": null,
+      "aula_esperada": "01",
+      "paginas_esperadas": [
+        26
+      ],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "c15879a184e90b7fba91d0c8",
+          "conteudo": "# Os três pilares da concepção de produto\n\nUma proposta de produto digital pode ser analisada a partir de **três perspectivas** fundamentais:\n\n## USUÁRIO\n\n**A solução é:**\n- desejável?\n- útil?\n- fácil de utilizar?\n\n**Descrição:** Foca nas pessoas, em suas necessidades, dores, comportamentos e experiências.\n\n## NEGÓCIO\n\n**A solução possui:**\n- valor?\n- público?\n- sustentabilidade?\n- oportunidade?\n\n**Descrição:** Garante que a solução gere valor para o mercado e possa ser sustentável ao longo do tempo.\n\n## TECNOLOGIA\n\n**A solução é:**\n- possível de desenvolver?\n- tecnicamente viável?\n- possível de manter?\n\n**Descrição:** Assegura que a solução pode ser construída com os recursos e tecnologias disponíveis.\n\n## Considerações finais\n\nResponder essas perguntas com clareza é fundamental para criar soluções úteis, viáveis e relevantes.\n\nA concepção bem feita aumenta as chances de sucesso do produto e reduz riscos e retrabalhos.",
+          "metadata": {
+            "pasta_aula": "aula_01_introducao",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 933,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "c15879a184e90b7fba91d0c8",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "introducao",
+            "aula": "01",
+            "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+            "pagina": 26,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.6889154089790144,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "c08bd0f7616b21bb621a2a1c",
+          "conteudo": "# A concepção de produto\n\nA concepção de produto não é apenas ter uma ideia, mas entender profundamente o problema e criar uma solução que seja **desejável, viável e útil**.\n\nA concepção de produto é representada pela combinação de três elementos:\n\n- **Desejável** + **Viável** + **Útil**\n\nDefinições dos elementos:\n\n- **Desejável**: Resolve uma necessidade real do usuário.\n- **Viável**: Pode ser desenvolvida com os recursos existentes.\n- **Útil**: Entrega valor e melhora a vida do usuário.",
+          "metadata": {
+            "pasta_aula": "aula_01_introducao",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 493,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "c08bd0f7616b21bb621a2a1c",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "introducao",
+            "aula": "01",
+            "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+            "pagina": 18,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.7267249822616577,
+          "cobertura_lexical": 0.472301018199038
+        },
+        {
+          "chunk_id": "c3c56f6edb7df91a13e6ee4f",
+          "conteudo": "**PENSAR PROBLEMAS**\nEntender profundamente os desafios das pessoas\n\nO conceito central de \"Pensar Problemas\" se desdobra em três pilares:\n\n*   **COLABORAÇÃO**\n    *   Trabalhar juntos, compartilhar ideias e construir soluções em equipe.\n\n*   **EMPATIA**\n    *   Colocar-se no lugar das pessoas para compreender suas necessidades, dores e motivações.\n\n*   **EXPERIMENTAÇÃO**\n    *   Testar ideias, aprender com os erros e iterar para gerar soluções melhores.",
+          "metadata": {
+            "pasta_aula": "aula_01_introducao",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 458,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "c3c56f6edb7df91a13e6ee4f",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "introducao",
+            "aula": "01",
+            "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+            "pagina": 34,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.4385298788547516,
+          "cobertura_lexical": 0.6559959004182436
+        },
+        {
+          "chunk_id": "b957efdf7e53baf358fdf0a9",
+          "conteudo": "# Concepção de Produtos\n\nA **concepção de produto** representa o conjunto de atividades utilizadas para **transformar uma necessidade ou oportunidade em uma proposta de produto**.\n\nÉ a fase na qual analisamos, pesquisamos, criamos, testamos ideias e estruturamos a solução para **entregar valor** ao usuário e ao mercado.\n\n## O processo de concepção\n\nO processo é composto por 6 etapas sequenciais:\n\n1. **Investigar**\n   - Entender o contexto, os usuários e o problema.\n\n2. **Definir**\n   - Definir o problema principal e o público alvo.\n\n3. **Idear**\n   - Gerar ideias e possíveis soluções criativas.\n\n4. **Planejar**\n   - Estruturar a solução, funcionalidades e prioridades.\n\n5. **Representar**\n   - Criar modelos, fluxos e protótipos para visualizar a solução.\n\n6. **Validar**\n   - Testar com usuários e validar se a solução entrega valor.\n\n### Relações visuais do processo\n\nO fluxo segue a sequência:\nInvestigar → Definir → Idear → Planejar → Representar → Validar",
+          "metadata": {
+            "pasta_aula": "aula_01_introducao",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 968,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 3,
+            "caracteres_texto_original": 0,
+            "chunk_id": "b957efdf7e53baf358fdf0a9",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "introducao",
+            "aula": "01",
+            "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+            "pagina": 16,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.6383928060531616,
+          "cobertura_lexical": 0.34400409958175643
+        },
+        {
+          "chunk_id": "5f7a877f0a1ab3f2052c14d5",
+          "conteudo": "# Perguntas essenciais da concepção de produtos\n\nAntes de desenvolver qualquer software, precisamos fazer as perguntas certas. Essas perguntas ajudam a entender o problema, o usuário, as soluções possíveis, o mercado e a tecnologia.\n\n## 5. Sobre tecnologia\n\n- É possível desenvolver?\n- Quais tecnologias seriam necessárias?\n- Qual seria a complexidade?\n\n### Elementos visuais associados ao tema tecnologia\n\nRepresentação de um laptop com código, um smartphone com ícone de engrenagem e uma nuvem conectada a um banco de dados.\n\n### Relação de fatores relacionados à tecnologia\n\nViabilidade Técnica → Tempo de Desenvolvimento → Custo e Recursos\n\n## Considerações finais\n\nResponder essas perguntas com clareza é fundamental para criar soluções úteis, viáveis e relevantes.\n\nA concepção bem feita aumenta as chances de sucesso do produto e reduz riscos e retrabalhos.",
+          "metadata": {
+            "pasta_aula": "aula_01_introducao",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 864,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "5f7a877f0a1ab3f2052c14d5",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "introducao",
+            "aula": "01",
+            "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+            "pagina": 25,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.4645286521596528,
+          "cobertura_lexical": 0.34400409958175643
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": true,
+      "resultado": {
+        "resposta": "Os três pilares da concepção de produto são **USUÁRIO**, **NEGÓCIO** e **TECNOLOGIA** [F1]. Cada pilar responde a um conjunto de perguntas específicas:\n\n- **USUÁRIO**: Foca nas pessoas, em suas necessidades, dores, comportamentos e experiências. A solução deve ser desejável, útil e fácil de utilizar. [F1]\n- **NEGÓCIO**: Garante que a solução gere valor para o mercado e possa ser sustentável ao longo do tempo. A solução deve possuir valor, público, sustentabilidade e oportunidade. [F1]\n- **TECNOLOGIA**: Assegura que a solução pode ser construída com os recursos e tecnologias disponíveis. A solução deve ser possível de desenvolver, tecnicamente viável e possível de manter. [F1]\n\nEsses pilares também são apresentados de forma equivalente como os princípios de **desejável**, **viável** e **útil** [F2].",
+        "fontes": [
+          {
+            "pasta_aula": "aula_01_introducao",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 933,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "c15879a184e90b7fba91d0c8",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "introducao",
+            "aula": "01",
+            "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+            "pagina": 26,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null,
+            "referencia": "F1",
+            "similaridade": 0.6889154089790144
+          },
+          {
+            "pasta_aula": "aula_01_introducao",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 493,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "c08bd0f7616b21bb621a2a1c",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "introducao",
+            "aula": "01",
+            "arquivo": "Aula 01 - Projeto de Ideao de Software.pdf",
+            "pagina": 18,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null,
+            "referencia": "F2",
+            "similaridade": 0.7267249822616577
+          }
+        ],
+        "fallback": false,
+        "motivo": null,
+        "blocos_sem_fonte_removidos": 0,
+        "reformulacoes": 0
+      },
+      "tentativas": [
+        {
+          "mensagem_pergunta_e_contexto": "PERGUNTA ORIGINAL:\nQuais são os três pilares da concepção de produto?\n\nCONSULTA UTILIZADA:\nQuais são os três pilares da concepção de produto?\n\nCONSULTAS ANTERIORES (JSON):\n[\"Quais são os três pilares da concepção de produto?\"]\n\nCONTEXTO (JSON):\n[{\"referencia\": \"F1\", \"metadata\": {\"pasta_aula\": \"aula_01_introducao\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 933, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"c15879a184e90b7fba91d0c8\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"introducao\", \"aula\": \"01\", \"arquivo\": \"Aula 01 - Projeto de Ideao de Software.pdf\", \"pagina\": 26, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Os três pilares da concepção de produto\\n\\nUma proposta de produto digital pode ser analisada a partir de **três perspectivas** fundamentais:\\n\\n## USUÁRIO\\n\\n**A solução é:**\\n- desejável?\\n- útil?\\n- fácil de utilizar?\\n\\n**Descrição:** Foca nas pessoas, em suas necessidades, dores, comportamentos e experiências.\\n\\n## NEGÓCIO\\n\\n**A solução possui:**\\n- valor?\\n- público?\\n- sustentabilidade?\\n- oportunidade?\\n\\n**Descrição:** Garante que a solução gere valor para o mercado e possa ser sustentável ao longo do tempo.\\n\\n## TECNOLOGIA\\n\\n**A solução é:**\\n- possível de desenvolver?\\n- tecnicamente viável?\\n- possível de manter?\\n\\n**Descrição:** Assegura que a solução pode ser construída com os recursos e tecnologias disponíveis.\\n\\n## Considerações finais\\n\\nResponder essas perguntas com clareza é fundamental para criar soluções úteis, viáveis e relevantes.\\n\\nA concepção bem feita aumenta as chances de sucesso do produto e reduz riscos e retrabalhos.\"}, {\"referencia\": \"F2\", \"metadata\": {\"pasta_aula\": \"aula_01_introducao\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 493, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"c08bd0f7616b21bb621a2a1c\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"introducao\", \"aula\": \"01\", \"arquivo\": \"Aula 01 - Projeto de Ideao de Software.pdf\", \"pagina\": 18, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# A concepção de produto\\n\\nA concepção de produto não é apenas ter uma ideia, mas entender profundamente o problema e criar uma solução que seja **desejável, viável e útil**.\\n\\nA concepção de produto é representada pela combinação de três elementos:\\n\\n- **Desejável** + **Viável** + **Útil**\\n\\nDefinições dos elementos:\\n\\n- **Desejável**: Resolve uma necessidade real do usuário.\\n- **Viável**: Pode ser desenvolvida com os recursos existentes.\\n- **Útil**: Entrega valor e melhora a vida do usuário.\"}, {\"referencia\": \"F3\", \"metadata\": {\"pasta_aula\": \"aula_01_introducao\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 458, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"c3c56f6edb7df91a13e6ee4f\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"introducao\", \"aula\": \"01\", \"arquivo\": \"Aula 01 - Projeto de Ideao de Software.pdf\", \"pagina\": 34, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"**PENSAR PROBLEMAS**\\nEntender profundamente os desafios das pessoas\\n\\nO conceito central de \\\"Pensar Problemas\\\" se desdobra em três pilares:\\n\\n*   **COLABORAÇÃO**\\n    *   Trabalhar juntos, compartilhar ideias e construir soluções em equipe.\\n\\n*   **EMPATIA**\\n    *   Colocar-se no lugar das pessoas para compreender suas necessidades, dores e motivações.\\n\\n*   **EXPERIMENTAÇÃO**\\n    *   Testar ideias, aprender com os erros e iterar para gerar soluções melhores.\"}, {\"referencia\": \"F4\", \"metadata\": {\"pasta_aula\": \"aula_01_introducao\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 968, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 3, \"caracteres_texto_original\": 0, \"chunk_id\": \"b957efdf7e53baf358fdf0a9\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"introducao\", \"aula\": \"01\", \"arquivo\": \"Aula 01 - Projeto de Ideao de Software.pdf\", \"pagina\": 16, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Concepção de Produtos\\n\\nA **concepção de produto** representa o conjunto de atividades utilizadas para **transformar uma necessidade ou oportunidade em uma proposta de produto**.\\n\\nÉ a fase na qual analisamos, pesquisamos, criamos, testamos ideias e estruturamos a solução para **entregar valor** ao usuário e ao mercado.\\n\\n## O processo de concepção\\n\\nO processo é composto por 6 etapas sequenciais:\\n\\n1. **Investigar**\\n   - Entender o contexto, os usuários e o problema.\\n\\n2. **Definir**\\n   - Definir o problema principal e o público alvo.\\n\\n3. **Idear**\\n   - Gerar ideias e possíveis soluções criativas.\\n\\n4. **Planejar**\\n   - Estruturar a solução, funcionalidades e prioridades.\\n\\n5. **Representar**\\n   - Criar modelos, fluxos e protótipos para visualizar a solução.\\n\\n6. **Validar**\\n   - Testar com usuários e validar se a solução entrega valor.\\n\\n### Relações visuais do processo\\n\\nO fluxo segue a sequência:\\nInvestigar → Definir → Idear → Planejar → Representar → Validar\"}, {\"referencia\": \"F5\", \"metadata\": {\"pasta_aula\": \"aula_01_introducao\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 864, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"5f7a877f0a1ab3f2052c14d5\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"introducao\", \"aula\": \"01\", \"arquivo\": \"Aula 01 - Projeto de Ideao de Software.pdf\", \"pagina\": 25, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Perguntas essenciais da concepção de produtos\\n\\nAntes de desenvolver qualquer software, precisamos fazer as perguntas certas. Essas perguntas ajudam a entender o problema, o usuário, as soluções possíveis, o mercado e a tecnologia.\\n\\n## 5. Sobre tecnologia\\n\\n- É possível desenvolver?\\n- Quais tecnologias seriam necessárias?\\n- Qual seria a complexidade?\\n\\n### Elementos visuais associados ao tema tecnologia\\n\\nRepresentação de um laptop com código, um smartphone com ícone de engrenagem e uma nuvem conectada a um banco de dados.\\n\\n### Relação de fatores relacionados à tecnologia\\n\\nViabilidade Técnica → Tempo de Desenvolvimento → Custo e Recursos\\n\\n## Considerações finais\\n\\nResponder essas perguntas com clareza é fundamental para criar soluções úteis, viáveis e relevantes.\\n\\nA concepção bem feita aumenta as chances de sucesso do produto e reduz riscos e retrabalhos.\"}]",
+          "saida_modelo": "{\"suficiente\": true, \"resposta\": \"Os três pilares da concepção de produto são **USUÁRIO**, **NEGÓCIO** e **TECNOLOGIA** [F1]. Cada pilar responde a um conjunto de perguntas específicas:\\n\\n- **USUÁRIO**: Foca nas pessoas, em suas necessidades, dores, comportamentos e experiências. A solução deve ser desejável, útil e fácil de utilizar. [F1]\\n- **NEGÓCIO**: Garante que a solução gere valor para o mercado e possa ser sustentável ao longo do tempo. A solução deve possuir valor, público, sustentabilidade e oportunidade. [F1]\\n- **TECNOLOGIA**: Assegura que a solução pode ser construída com os recursos e tecnologias disponíveis. A solução deve ser possível de desenvolver, tecnicamente viável e possível de manter. [F1]\\n\\nEsses pilares também são apresentados de forma equivalente como os princípios de **desejável**, **viável** e **útil** [F2].\"}"
+        }
+      ],
+      "conceitos_ausentes": [],
+      "prompt_sha256": "61376439b99581fc0b2d2954377664254f536404781f2076088e266988688ec4",
+      "trechos_citados": [
+        {
+          "referencia": "F1",
+          "conteudo": "# Os três pilares da concepção de produto\n\nUma proposta de produto digital pode ser analisada a partir de **três perspectivas** fundamentais:\n\n## USUÁRIO\n\n**A solução é:**\n- desejável?\n- útil?\n- fácil de utilizar?\n\n**Descrição:** Foca nas pessoas, em suas necessidades, dores, comportamentos e experiências.\n\n## NEGÓCIO\n\n**A solução possui:**\n- valor?\n- público?\n- sustentabilidade?\n- oportunidade?\n\n**Descrição:** Garante que a solução gere valor para o mercado e possa ser sustentável ao longo do tempo.\n\n## TECNOLOGIA\n\n**A solução é:**\n- possível de desenvolver?\n- tecnicamente viável?\n- possível de manter?\n\n**Descrição:** Assegura que a solução pode ser construída com os recursos e tecnologias disponíveis.\n\n## Considerações finais\n\nResponder essas perguntas com clareza é fundamental para criar soluções úteis, viáveis e relevantes.\n\nA concepção bem feita aumenta as chances de sucesso do produto e reduz riscos e retrabalhos."
+        },
+        {
+          "referencia": "F2",
+          "conteudo": "# A concepção de produto\n\nA concepção de produto não é apenas ter uma ideia, mas entender profundamente o problema e criar uma solução que seja **desejável, viável e útil**.\n\nA concepção de produto é representada pela combinação de três elementos:\n\n- **Desejável** + **Viável** + **Útil**\n\nDefinições dos elementos:\n\n- **Desejável**: Resolve uma necessidade real do usuário.\n- **Viável**: Pode ser desenvolvida com os recursos existentes.\n- **Útil**: Entrega valor e melhora a vida do usuário."
+        }
+      ],
+      "evidencia_citada": true,
+      "revisao_semantica": "pendente",
+      "verificacao_automatica": true
+    },
+    {
+      "id": "proposta_valor",
+      "pergunta": "Como estruturar a proposta única de valor no Lean Canvas?",
+      "filtro_assunto": null,
+      "aula_esperada": "02",
+      "paginas_esperadas": [
+        15,
+        16,
+        17
+      ],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "2663f1e2fb34df7b7ba8012b",
+          "conteudo": "# Bloco 3: Proposta Única de Valor\n\nA Proposta Única de Valor comunica o principal benefício oferecido pelo produto.\n\n## Uma boa proposta de valor deve:\n\n- Destacar o benefício principal\n- Relacionar-se a um problema real\n- Utilizar linguagem compreensível\n- Demonstrar relevância\n- Apresentar a transformação esperada\n\n## Relações entre os elementos do diagrama\n\nPROBLEMA\n→ DOR DO USUÁRIO\n→ SOLUÇÃO\n→ Por que o usuário escolheria esta solução?\n→ TRANSFORMAÇÃO\n→ BENEFÍCIO\n→ RESULTADO MELHOR",
+          "metadata": {
+            "pasta_aula": "aula_02_lean_canvas",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 491,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "2663f1e2fb34df7b7ba8012b",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 15,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.5428114967700415,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "6308994bffea8ed8df81da84",
+          "conteudo": "# Proposta de valor: erro comum\n\n## Exemplo inadequado\n\n“Aplicativo multiplataforma desenvolvido com tecnologias modernas, banco de dados em nuvem e inteligência artificial.”\n\nElementos visuais associados: dispositivos (computador e celular), nuvem, banco de dados, código (`</>`) e ícone de IA.\n\nCategoria indicada: **Características técnicas**.\n\n## Proposta de valor\n\nPerguntas que orientam a proposta de valor:\n\n- Qual problema será resolvido?\n- Quem será atendido?\n- Qual benefício será proporcionado?\n- Qual mudança ocorrerá na vida do usuário?\n\n## Mensagem final\n\n**Tecnologia é um meio, não a proposta de valor.**",
+          "metadata": {
+            "pasta_aula": "aula_02_lean_canvas",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 620,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "6308994bffea8ed8df81da84",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 17,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.4373632539104463,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "346c74ac9e26e8619101ce07",
+          "conteudo": "# Erros comuns\n\n## Lean Canvas\n\n### Estrutura do Lean Canvas (conforme representado no quadro)\n- Problema\n- Solução\n- Proposta de valor\n- Vantagem competitiva\n- Segmentos de clientes\n- Canais\n- Relacionamento\n- Fontes de receita\n- Estrutura de custos\n- Métricas-chave\n\n### Erros comuns\n- Começar pela solução\n- Definir um público muito amplo\n- Confundir problema com falta de tecnologia\n- Criar uma proposta de valor técnica\n- Incluir funcionalidades em excesso\n- Considerar hipóteses como fatos\n- Não realizar validações\n- Não atualizar o quadro\n- Utilizar textos longos e pouco objetivos\n\n### Diretriz\nO Lean Canvas deve ser objetivo, validado e atualizado.",
+          "metadata": {
+            "pasta_aula": "aula_02_lean_canvas",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 659,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "346c74ac9e26e8619101ce07",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 38,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.7445244567237986,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "599c4df9619830fe775e23e5",
+          "conteudo": "# Estrutura do Lean Canvas\n\nO Lean Canvas é formado por nove blocos:\n\n1. **Problema**\n2. **Segmentos de clientes**\n3. **Proposta Única de Valor**\n4. **Solução**\n5. **Canais**\n6. **Fontes de receita**\n7. **Estrutura de custos**\n8. **Métricas-chave**\n9. **Vantagem injusta**\n\nCada bloco representa uma dimensão importante da ideia.",
+          "metadata": {
+            "pasta_aula": "aula_02_lean_canvas",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 329,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "599c4df9619830fe775e23e5",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 8,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.839213505913035,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "91731a868598bd60b8460ae0",
+          "conteudo": "# Principais objetivos\n\nO Lean Canvas tem como objetivos:\n\n- Organizar uma ideia\n- Identificar problemas relevantes\n- Definir os segmentos de clientes\n- Analisar riscos e incertezas\n- Formular hipóteses\n- Apoiar pesquisas com usuários\n- Orientar experimentos\n- Definir uma proposta de valor\n- Apoiar a criação do MVP\n- Facilitar a comunicação da equipe",
+          "metadata": {
+            "pasta_aula": "aula_02_lean_canvas",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 352,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "91731a868598bd60b8460ae0",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 7,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.8086314924327876,
+          "cobertura_lexical": 1.0
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": true,
+      "resultado": {
+        "resposta": "- Destaque o benefício principal do produto. [F1]\n- Relacione a proposta a um problema real do usuário. [F1]\n- Utilize linguagem compreensível e demonstre relevância. [F1]\n- Apresente a transformação esperada na vida do usuário. [F1]\n- Responda às perguntas: Qual problema será resolvido? Quem será atendido? Qual benefício será proporcionado? Qual mudança ocorrerá na vida do usuário? [F2]\n- Evite o erro comum de criar uma proposta de valor técnica, focada em características tecnológicas. Lembre-se: tecnologia é um meio, não a proposta de valor. [F2]\n- Evite textos longos e pouco objetivos; o Lean Canvas deve ser objetivo, validado e atualizado. [F3]",
+        "fontes": [
+          {
+            "pasta_aula": "aula_02_lean_canvas",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 491,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "2663f1e2fb34df7b7ba8012b",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 15,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null,
+            "referencia": "F1",
+            "similaridade": 0.5428114967700415
+          },
+          {
+            "pasta_aula": "aula_02_lean_canvas",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 620,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "6308994bffea8ed8df81da84",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 17,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null,
+            "referencia": "F2",
+            "similaridade": 0.4373632539104463
+          },
+          {
+            "pasta_aula": "aula_02_lean_canvas",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 659,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "346c74ac9e26e8619101ce07",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "lean_canvas",
+            "aula": "02",
+            "arquivo": "Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf",
+            "pagina": 38,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null,
+            "referencia": "F3",
+            "similaridade": 0.7445244567237986
+          }
+        ],
+        "fallback": false,
+        "motivo": null,
+        "blocos_sem_fonte_removidos": 1,
+        "reformulacoes": 0
+      },
+      "tentativas": [
+        {
+          "mensagem_pergunta_e_contexto": "PERGUNTA ORIGINAL:\nComo estruturar a proposta única de valor no Lean Canvas?\n\nCONSULTA UTILIZADA:\nComo estruturar a proposta única de valor no Lean Canvas?\n\nCONSULTAS ANTERIORES (JSON):\n[\"Como estruturar a proposta única de valor no Lean Canvas?\"]\n\nCONTEXTO (JSON):\n[{\"referencia\": \"F1\", \"metadata\": {\"pasta_aula\": \"aula_02_lean_canvas\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 491, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"2663f1e2fb34df7b7ba8012b\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"lean_canvas\", \"aula\": \"02\", \"arquivo\": \"Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf\", \"pagina\": 15, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Bloco 3: Proposta Única de Valor\\n\\nA Proposta Única de Valor comunica o principal benefício oferecido pelo produto.\\n\\n## Uma boa proposta de valor deve:\\n\\n- Destacar o benefício principal\\n- Relacionar-se a um problema real\\n- Utilizar linguagem compreensível\\n- Demonstrar relevância\\n- Apresentar a transformação esperada\\n\\n## Relações entre os elementos do diagrama\\n\\nPROBLEMA\\n→ DOR DO USUÁRIO\\n→ SOLUÇÃO\\n→ Por que o usuário escolheria esta solução?\\n→ TRANSFORMAÇÃO\\n→ BENEFÍCIO\\n→ RESULTADO MELHOR\"}, {\"referencia\": \"F2\", \"metadata\": {\"pasta_aula\": \"aula_02_lean_canvas\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 620, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"6308994bffea8ed8df81da84\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"lean_canvas\", \"aula\": \"02\", \"arquivo\": \"Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf\", \"pagina\": 17, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Proposta de valor: erro comum\\n\\n## Exemplo inadequado\\n\\n“Aplicativo multiplataforma desenvolvido com tecnologias modernas, banco de dados em nuvem e inteligência artificial.”\\n\\nElementos visuais associados: dispositivos (computador e celular), nuvem, banco de dados, código (`</>`) e ícone de IA.\\n\\nCategoria indicada: **Características técnicas**.\\n\\n## Proposta de valor\\n\\nPerguntas que orientam a proposta de valor:\\n\\n- Qual problema será resolvido?\\n- Quem será atendido?\\n- Qual benefício será proporcionado?\\n- Qual mudança ocorrerá na vida do usuário?\\n\\n## Mensagem final\\n\\n**Tecnologia é um meio, não a proposta de valor.**\"}, {\"referencia\": \"F3\", \"metadata\": {\"pasta_aula\": \"aula_02_lean_canvas\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 659, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"346c74ac9e26e8619101ce07\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"lean_canvas\", \"aula\": \"02\", \"arquivo\": \"Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf\", \"pagina\": 38, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Erros comuns\\n\\n## Lean Canvas\\n\\n### Estrutura do Lean Canvas (conforme representado no quadro)\\n- Problema\\n- Solução\\n- Proposta de valor\\n- Vantagem competitiva\\n- Segmentos de clientes\\n- Canais\\n- Relacionamento\\n- Fontes de receita\\n- Estrutura de custos\\n- Métricas-chave\\n\\n### Erros comuns\\n- Começar pela solução\\n- Definir um público muito amplo\\n- Confundir problema com falta de tecnologia\\n- Criar uma proposta de valor técnica\\n- Incluir funcionalidades em excesso\\n- Considerar hipóteses como fatos\\n- Não realizar validações\\n- Não atualizar o quadro\\n- Utilizar textos longos e pouco objetivos\\n\\n### Diretriz\\nO Lean Canvas deve ser objetivo, validado e atualizado.\"}, {\"referencia\": \"F4\", \"metadata\": {\"pasta_aula\": \"aula_02_lean_canvas\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 329, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"599c4df9619830fe775e23e5\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"lean_canvas\", \"aula\": \"02\", \"arquivo\": \"Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf\", \"pagina\": 8, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Estrutura do Lean Canvas\\n\\nO Lean Canvas é formado por nove blocos:\\n\\n1. **Problema**\\n2. **Segmentos de clientes**\\n3. **Proposta Única de Valor**\\n4. **Solução**\\n5. **Canais**\\n6. **Fontes de receita**\\n7. **Estrutura de custos**\\n8. **Métricas-chave**\\n9. **Vantagem injusta**\\n\\nCada bloco representa uma dimensão importante da ideia.\"}, {\"referencia\": \"F5\", \"metadata\": {\"pasta_aula\": \"aula_02_lean_canvas\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 352, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"91731a868598bd60b8460ae0\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"lean_canvas\", \"aula\": \"02\", \"arquivo\": \"Aula 02- Projeto de Ideao de Software - LEAN CANVAS.pdf\", \"pagina\": 7, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Principais objetivos\\n\\nO Lean Canvas tem como objetivos:\\n\\n- Organizar uma ideia\\n- Identificar problemas relevantes\\n- Definir os segmentos de clientes\\n- Analisar riscos e incertezas\\n- Formular hipóteses\\n- Apoiar pesquisas com usuários\\n- Orientar experimentos\\n- Definir uma proposta de valor\\n- Apoiar a criação do MVP\\n- Facilitar a comunicação da equipe\"}]",
+          "saida_modelo": "{\n  \"suficiente\": true,\n  \"resposta\": \"Para estruturar a proposta única de valor no Lean Canvas, siga estas orientações:\\n\\n- Destaque o benefício principal do produto. [F1]\\n- Relacione a proposta a um problema real do usuário. [F1]\\n- Utilize linguagem compreensível e demonstre relevância. [F1]\\n- Apresente a transformação esperada na vida do usuário. [F1]\\n- Responda às perguntas: Qual problema será resolvido? Quem será atendido? Qual benefício será proporcionado? Qual mudança ocorrerá na vida do usuário? [F2]\\n- Evite o erro comum de criar uma proposta de valor técnica, focada em características tecnológicas. Lembre-se: tecnologia é um meio, não a proposta de valor. [F2]\\n- Evite textos longos e pouco objetivos; o Lean Canvas deve ser objetivo, validado e atualizado. [F3]\"\n}"
+        }
+      ],
+      "conceitos_ausentes": [],
+      "prompt_sha256": "61376439b99581fc0b2d2954377664254f536404781f2076088e266988688ec4",
+      "trechos_citados": [
+        {
+          "referencia": "F1",
+          "conteudo": "# Bloco 3: Proposta Única de Valor\n\nA Proposta Única de Valor comunica o principal benefício oferecido pelo produto.\n\n## Uma boa proposta de valor deve:\n\n- Destacar o benefício principal\n- Relacionar-se a um problema real\n- Utilizar linguagem compreensível\n- Demonstrar relevância\n- Apresentar a transformação esperada\n\n## Relações entre os elementos do diagrama\n\nPROBLEMA\n→ DOR DO USUÁRIO\n→ SOLUÇÃO\n→ Por que o usuário escolheria esta solução?\n→ TRANSFORMAÇÃO\n→ BENEFÍCIO\n→ RESULTADO MELHOR"
+        },
+        {
+          "referencia": "F2",
+          "conteudo": "# Proposta de valor: erro comum\n\n## Exemplo inadequado\n\n“Aplicativo multiplataforma desenvolvido com tecnologias modernas, banco de dados em nuvem e inteligência artificial.”\n\nElementos visuais associados: dispositivos (computador e celular), nuvem, banco de dados, código (`</>`) e ícone de IA.\n\nCategoria indicada: **Características técnicas**.\n\n## Proposta de valor\n\nPerguntas que orientam a proposta de valor:\n\n- Qual problema será resolvido?\n- Quem será atendido?\n- Qual benefício será proporcionado?\n- Qual mudança ocorrerá na vida do usuário?\n\n## Mensagem final\n\n**Tecnologia é um meio, não a proposta de valor.**"
+        },
+        {
+          "referencia": "F3",
+          "conteudo": "# Erros comuns\n\n## Lean Canvas\n\n### Estrutura do Lean Canvas (conforme representado no quadro)\n- Problema\n- Solução\n- Proposta de valor\n- Vantagem competitiva\n- Segmentos de clientes\n- Canais\n- Relacionamento\n- Fontes de receita\n- Estrutura de custos\n- Métricas-chave\n\n### Erros comuns\n- Começar pela solução\n- Definir um público muito amplo\n- Confundir problema com falta de tecnologia\n- Criar uma proposta de valor técnica\n- Incluir funcionalidades em excesso\n- Considerar hipóteses como fatos\n- Não realizar validações\n- Não atualizar o quadro\n- Utilizar textos longos e pouco objetivos\n\n### Diretriz\nO Lean Canvas deve ser objetivo, validado e atualizado."
+        }
+      ],
+      "evidencia_citada": true,
+      "revisao_semantica": "pendente",
+      "verificacao_automatica": true
+    },
+    {
+      "id": "hierarquia",
+      "pergunta": "Como funciona a estrutura hierárquica de navegação?",
+      "filtro_assunto": "mapa_de_navegacao_e_wireframe",
+      "aula_esperada": "04",
+      "paginas_esperadas": [
+        7
+      ],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "375b93553bad20e0bb2d1853",
+          "conteudo": "# Estrutura hierárquica\n\nA navegação parte de uma tela principal para telas secundárias.\n\n## Estrutura de navegação\n\nPágina inicial\n→ Cursos\n   → Detalhes do curso\n   → Conteúdos\n→ Perfil\n   → Dados pessoais\n   → Configurações\n\nEssa estrutura é semelhante a uma árvore.",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 269,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "375b93553bad20e0bb2d1853",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 7,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.671400785869433,
+          "cobertura_lexical": 0.48786061300622696
+        },
+        {
+          "chunk_id": "666d89a013a43908b4ea35b3",
+          "conteudo": "# Estrutura híbrida\n\nCombina diferentes modelos de navegação.\n\n## Modelos de navegação\n\n### Hierárquica\norganiza áreas e telas em níveis.\n\n### Sequencial\nconduz o usuário por etapas.\n\n### Em rede\noferece diferentes caminhos de acesso.\n\n## Estrutura híbrida\nintegra os três modelos conforme as necessidades do sistema.\n\nÉ comum em sistemas complexos: algumas áreas seguem uma hierarquia, enquanto determinadas tarefas exigem uma sequência de etapas.",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 448,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "666d89a013a43908b4ea35b3",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 10,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.6629530784147777,
+          "cobertura_lexical": 0.48786061300622696
+        },
+        {
+          "chunk_id": "a11ea116800ca9bf4f6c7dc6",
+          "conteudo": "# O que é um wireframe?\n\nRepresentação visual simplificada da interface de um software, site ou aplicativo.\n\nO wireframe abrange os seguintes aspectos:\n\n- **Posição dos elementos**\n- **Organização do conteúdo**\n- **Funcionalidades disponíveis**\n- **Interação com a interface**\n- **Caminhos de navegação**\n\nO wireframe funciona como um esqueleto da interface.",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 358,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "a11ea116800ca9bf4f6c7dc6",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 17,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.3240906579656586,
+          "cobertura_lexical": 0.5136867539153934
+        },
+        {
+          "chunk_id": "79f3f8caffa509ac0a5d3622",
+          "conteudo": "# Relação com protótipos\n\n## Mapa de navegação\n\nEstrutura hierárquica representada:\n\n- Nível superior: elemento central com ícone de casa (tela inicial).\n- Nível intermediário: três elementos derivados do nível superior:\n  - elemento com ícone de lista/linhas;\n  - elemento com ícone de imagem;\n  - elemento com ícone de lista com marcadores.\n- Nível inferior: quatro elementos derivados do nível intermediário:\n  - elemento com ícone de lista/linhas;\n  - elemento com ícone de lista com marcadores;\n  - elemento com ícone de imagem;\n  - elemento com ícone de lista/linhas.\n\n## Protótipos\n\nRepresentação de dois dispositivos:\n\n- Notebook: exibe uma tela com elementos de wireframe, incluindo barras laterais, área central com imagem e blocos inferiores.\n- Smartphone: exibe uma tela com elementos de wireframe, incluindo barras, área com imagem e botão.\n\nLegendas associadas:\n\n- Wireframes — Baixa fidelidade\n- Protótipos interativos\n\n## Relação entre mapa de navegação e protótipos",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 982,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 2,
+            "caracteres_texto_original": 0,
+            "chunk_id": "79f3f8caffa509ac0a5d3622",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 13,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.5451336665491423,
+          "cobertura_lexical": 0.48786061300622696
+        },
+        {
+          "chunk_id": "1a9e2defba00d6a5c36953d3",
+          "conteudo": "# O que é um mapa de navegação?\n\nÉ uma representação visual da estrutura de um software, site ou aplicativo.\n\nO mapa de navegação abrange os seguintes elementos:\n\n- principais telas ou páginas;\n- organização das funcionalidades;\n- conexões entre as telas;\n- caminhos que o usuário pode percorrer;\n- possibilidades de acesso, avanço e retorno.\n\n**O mapa de navegação mostra como as telas se organizam e se conectam.**",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 416,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "1a9e2defba00d6a5c36953d3",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 2,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.6521209063674112,
+          "cobertura_lexical": 0.10092828707827042
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": true,
+      "resultado": {
+        "resposta": "A estrutura hierárquica de navegação organiza as telas em níveis, partindo de uma tela principal para telas secundárias, de forma semelhante a uma árvore. [F1]\n\n- A navegação começa na página inicial e se ramifica para áreas como Cursos e Perfil. [F1]\n- Dentro de Cursos, há subníveis como Detalhes do curso e Conteúdos. [F1]\n- Dentro de Perfil, há subníveis como Dados pessoais e Configurações. [F1]\n\nEsse modelo hierárquico é um dos três modelos de navegação, sendo os outros o sequencial (que conduz o usuário por etapas) e o em rede (que oferece diferentes caminhos de acesso). [F2]\n\nEm sistemas complexos, é comum usar uma estrutura híbrida, que integra os três modelos conforme as necessidades: algumas áreas seguem uma hierarquia, enquanto determinadas tarefas exigem uma sequência de etapas. [F2]",
+        "fontes": [
+          {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 269,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "375b93553bad20e0bb2d1853",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 7,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null,
+            "referencia": "F1",
+            "similaridade": 0.671400785869433
+          },
+          {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 448,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "666d89a013a43908b4ea35b3",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 10,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null,
+            "referencia": "F2",
+            "similaridade": 0.6629530784147777
+          }
+        ],
+        "fallback": false,
+        "motivo": null,
+        "blocos_sem_fonte_removidos": 0,
+        "reformulacoes": 0
+      },
+      "tentativas": [
+        {
+          "mensagem_pergunta_e_contexto": "PERGUNTA ORIGINAL:\nComo funciona a estrutura hierárquica de navegação?\n\nCONSULTA UTILIZADA:\nComo funciona a estrutura hierárquica de navegação?\n\nCONSULTAS ANTERIORES (JSON):\n[\"Como funciona a estrutura hierárquica de navegação?\"]\n\nCONTEXTO (JSON):\n[{\"referencia\": \"F1\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 269, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"375b93553bad20e0bb2d1853\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 7, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Estrutura hierárquica\\n\\nA navegação parte de uma tela principal para telas secundárias.\\n\\n## Estrutura de navegação\\n\\nPágina inicial\\n→ Cursos\\n   → Detalhes do curso\\n   → Conteúdos\\n→ Perfil\\n   → Dados pessoais\\n   → Configurações\\n\\nEssa estrutura é semelhante a uma árvore.\"}, {\"referencia\": \"F2\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 448, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"666d89a013a43908b4ea35b3\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 10, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Estrutura híbrida\\n\\nCombina diferentes modelos de navegação.\\n\\n## Modelos de navegação\\n\\n### Hierárquica\\norganiza áreas e telas em níveis.\\n\\n### Sequencial\\nconduz o usuário por etapas.\\n\\n### Em rede\\noferece diferentes caminhos de acesso.\\n\\n## Estrutura híbrida\\nintegra os três modelos conforme as necessidades do sistema.\\n\\nÉ comum em sistemas complexos: algumas áreas seguem uma hierarquia, enquanto determinadas tarefas exigem uma sequência de etapas.\"}, {\"referencia\": \"F3\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 358, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"a11ea116800ca9bf4f6c7dc6\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 17, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# O que é um wireframe?\\n\\nRepresentação visual simplificada da interface de um software, site ou aplicativo.\\n\\nO wireframe abrange os seguintes aspectos:\\n\\n- **Posição dos elementos**\\n- **Organização do conteúdo**\\n- **Funcionalidades disponíveis**\\n- **Interação com a interface**\\n- **Caminhos de navegação**\\n\\nO wireframe funciona como um esqueleto da interface.\"}, {\"referencia\": \"F4\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 982, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 2, \"caracteres_texto_original\": 0, \"chunk_id\": \"79f3f8caffa509ac0a5d3622\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 13, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Relação com protótipos\\n\\n## Mapa de navegação\\n\\nEstrutura hierárquica representada:\\n\\n- Nível superior: elemento central com ícone de casa (tela inicial).\\n- Nível intermediário: três elementos derivados do nível superior:\\n  - elemento com ícone de lista/linhas;\\n  - elemento com ícone de imagem;\\n  - elemento com ícone de lista com marcadores.\\n- Nível inferior: quatro elementos derivados do nível intermediário:\\n  - elemento com ícone de lista/linhas;\\n  - elemento com ícone de lista com marcadores;\\n  - elemento com ícone de imagem;\\n  - elemento com ícone de lista/linhas.\\n\\n## Protótipos\\n\\nRepresentação de dois dispositivos:\\n\\n- Notebook: exibe uma tela com elementos de wireframe, incluindo barras laterais, área central com imagem e blocos inferiores.\\n- Smartphone: exibe uma tela com elementos de wireframe, incluindo barras, área com imagem e botão.\\n\\nLegendas associadas:\\n\\n- Wireframes — Baixa fidelidade\\n- Protótipos interativos\\n\\n## Relação entre mapa de navegação e protótipos\"}, {\"referencia\": \"F5\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 416, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"1a9e2defba00d6a5c36953d3\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 2, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# O que é um mapa de navegação?\\n\\nÉ uma representação visual da estrutura de um software, site ou aplicativo.\\n\\nO mapa de navegação abrange os seguintes elementos:\\n\\n- principais telas ou páginas;\\n- organização das funcionalidades;\\n- conexões entre as telas;\\n- caminhos que o usuário pode percorrer;\\n- possibilidades de acesso, avanço e retorno.\\n\\n**O mapa de navegação mostra como as telas se organizam e se conectam.**\"}]",
+          "saida_modelo": "{\n  \"suficiente\": true,\n  \"resposta\": \"A estrutura hierárquica de navegação organiza as telas em níveis, partindo de uma tela principal para telas secundárias, de forma semelhante a uma árvore. [F1]\\n\\n- A navegação começa na página inicial e se ramifica para áreas como Cursos e Perfil. [F1]\\n- Dentro de Cursos, há subníveis como Detalhes do curso e Conteúdos. [F1]\\n- Dentro de Perfil, há subníveis como Dados pessoais e Configurações. [F1]\\n\\nEsse modelo hierárquico é um dos três modelos de navegação, sendo os outros o sequencial (que conduz o usuário por etapas) e o em rede (que oferece diferentes caminhos de acesso). [F2]\\n\\nEm sistemas complexos, é comum usar uma estrutura híbrida, que integra os três modelos conforme as necessidades: algumas áreas seguem uma hierarquia, enquanto determinadas tarefas exigem uma sequência de etapas. [F2]\"\n}"
+        }
+      ],
+      "conceitos_ausentes": [],
+      "prompt_sha256": "61376439b99581fc0b2d2954377664254f536404781f2076088e266988688ec4",
+      "trechos_citados": [
+        {
+          "referencia": "F1",
+          "conteudo": "# Estrutura hierárquica\n\nA navegação parte de uma tela principal para telas secundárias.\n\n## Estrutura de navegação\n\nPágina inicial\n→ Cursos\n   → Detalhes do curso\n   → Conteúdos\n→ Perfil\n   → Dados pessoais\n   → Configurações\n\nEssa estrutura é semelhante a uma árvore."
+        },
+        {
+          "referencia": "F2",
+          "conteudo": "# Estrutura híbrida\n\nCombina diferentes modelos de navegação.\n\n## Modelos de navegação\n\n### Hierárquica\norganiza áreas e telas em níveis.\n\n### Sequencial\nconduz o usuário por etapas.\n\n### Em rede\noferece diferentes caminhos de acesso.\n\n## Estrutura híbrida\nintegra os três modelos conforme as necessidades do sistema.\n\nÉ comum em sistemas complexos: algumas áreas seguem uma hierarquia, enquanto determinadas tarefas exigem uma sequência de etapas."
+        }
+      ],
+      "evidencia_citada": true,
+      "revisao_semantica": "pendente",
+      "verificacao_automatica": true
+    },
+    {
+      "id": "mockup_prototipo",
+      "pergunta": "Qual é a diferença entre wireframe, mockup e protótipo?",
+      "filtro_assunto": null,
+      "aula_esperada": "04",
+      "paginas_esperadas": [
+        26
+      ],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "6b51a697aeaf59e4edcbb1f9",
+          "conteudo": "# Wireframe × mockup × protótipo\n\n## Wireframe\n- Representa a estrutura\n- Utiliza elementos simples\n- Prioriza organização e conteúdo\n- Pode não ser interativo\n- É usado no planejamento inicial\n\n## Mockup\n- Representa a aparência\n- Aplica cores e identidade visual\n- Prioriza o design visual\n- Geralmente é estático\n- Mostra como a interface ficará\n\n## Protótipo\n- Simula a interação\n- Permite executar tarefas\n- Prioriza o comportamento\n- Geralmente é interativo\n- Mostra como a interface funcionará\n\n## Relação entre os conceitos\nEstrutura → Aparência → Funcionamento",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 569,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "6b51a697aeaf59e4edcbb1f9",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 26,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.6212749110892479,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "c075db87ff8a5d12015106e2",
+          "conteudo": "## Observação final\n\nCom cores, tipografia, imagens e identidade visual completas, o artefato se aproxima de um mockup ou protótipo.",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 132,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 3,
+            "caracteres_texto_original": 0,
+            "chunk_id": "c075db87ff8a5d12015106e2",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 25,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 3,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.38745880797750964,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "4683dfff37530173e8ee14fa",
+          "conteudo": "**Mockup ou protótipo de alta fidelidade** (à direita)\n→ Barra superior com três círculos coloridos\n→ Área de imagem (fotografia de montanhas)\n→ Título: \"Soluções digitais para o seu futuro\"\n→ Texto: \"Transforme ideias em experiências incríveis com design e tecnologia.\"\n→ Botão \"Começar agora →\"\n→ Indicadores de paginação (quatro pontos)\n→ Seção \"Nossos serviços\"\n   → Card 1: Design de interfaces\n      → Descrição: \"Experiências intuitivas e eficientes.\"\n      → Link \"Saiba mais →\"\n   → Card 2: Desenvolvimento\n      → Descrição: \"Soluções robustas e escaláveis.\"\n      → Link \"Saiba mais →\"\n   → Card 3: Consultoria\n      → Descrição: \"Estratégia para crescer mais.\"\n      → Link \"Saiba mais →\"\n→ Seção de destaque\n   → Imagem (notebook sobre mesa)\n   → Título: \"Tecnologia que aproxima pessoas\"\n   → Texto: \"Do planejamento ao resultado.\"\n   → Botão \"Saiba mais →\"\n\n## Observação final",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 892,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 3,
+            "caracteres_texto_original": 0,
+            "chunk_id": "4683dfff37530173e8ee14fa",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 25,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 2,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.4275098188215609,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "67c9a43bb7d90c5e1f208ab6",
+          "conteudo": "Legendas associadas:\n\n- Wireframes — Baixa fidelidade\n- Protótipos interativos\n\n## Relação entre mapa de navegação e protótipos\n\nUma seta indica a transição do mapa de navegação para os protótipos.\n\n## Elementos do processo\n\n- Definição de menus\n- Organização dos conteúdos\n- Planejamento das interações\n\n## Observação\n\nCada tela identificada no mapa poderá ser representada no protótipo.",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 388,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 2,
+            "caracteres_texto_original": 0,
+            "chunk_id": "67c9a43bb7d90c5e1f208ab6",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 13,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 2,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.5650292298180334,
+          "cobertura_lexical": 0.398229823322349
+        },
+        {
+          "chunk_id": "6264fd55bfa681706882c4ad",
+          "conteudo": "# Vantagens do wireframe\n\nO material apresenta um conjunto de vantagens associadas ao uso de wireframes, organizadas em duas fileiras de tópicos, interligadas por um fluxo central.\n\n**Vantagens listadas:**\n\n*   Desenvolver ideias rapidamente\n*   Alterações com baixo custo\n*   Comparar diferentes soluções\n*   Obter feedback antecipado\n*   Identificar problemas de usabilidade\n*   Validar a organização do conteúdo\n*   Melhorar a comunicação da equipe\n*   Envolver usuários no processo\n*   Planejar o protótipo\n*   Reduzir riscos antes da implementação\n\n**Fluxo central representado:**\n\nIdeia (lâmpada) → Wireframe (representação de tela) → Validação (prancheta com check) → Proteção/Segurança (escudo com check)\n\n**Conclusão do material:**\n\n\"Ideiar, validar e melhorar antes de desenvolver.\"",
+          "metadata": {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 792,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "6264fd55bfa681706882c4ad",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 29,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.6584997976720466,
+          "cobertura_lexical": 0.398229823322349
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": true,
+      "resultado": {
+        "resposta": "- **Wireframe**: representa a estrutura, utiliza elementos simples, prioriza organização e conteúdo, pode não ser interativo e é usado no planejamento inicial. [F1]\n- **Mockup**: representa a aparência, aplica cores e identidade visual, prioriza o design visual, geralmente é estático e mostra como a interface ficará. [F1]\n- **Protótipo**: simula a interação, permite executar tarefas, prioriza o comportamento, geralmente é interativo e mostra como a interface funcionará. [F1]\n\nA relação entre os conceitos é: Estrutura → Aparência → Funcionamento. [F1]",
+        "fontes": [
+          {
+            "pasta_aula": "aula_04_mapa_de_navegacao_e_wireframe",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 569,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "6b51a697aeaf59e4edcbb1f9",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "mapa_de_navegacao_e_wireframe",
+            "aula": "04",
+            "arquivo": "Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf",
+            "pagina": 26,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null,
+            "referencia": "F1",
+            "similaridade": 0.6212749110892479
+          }
+        ],
+        "fallback": false,
+        "motivo": null,
+        "blocos_sem_fonte_removidos": 1,
+        "reformulacoes": 0
+      },
+      "tentativas": [
+        {
+          "mensagem_pergunta_e_contexto": "PERGUNTA ORIGINAL:\nQual é a diferença entre wireframe, mockup e protótipo?\n\nCONSULTA UTILIZADA:\nQual é a diferença entre wireframe, mockup e protótipo?\n\nCONSULTAS ANTERIORES (JSON):\n[\"Qual é a diferença entre wireframe, mockup e protótipo?\"]\n\nCONTEXTO (JSON):\n[{\"referencia\": \"F1\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 569, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"6b51a697aeaf59e4edcbb1f9\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 26, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Wireframe × mockup × protótipo\\n\\n## Wireframe\\n- Representa a estrutura\\n- Utiliza elementos simples\\n- Prioriza organização e conteúdo\\n- Pode não ser interativo\\n- É usado no planejamento inicial\\n\\n## Mockup\\n- Representa a aparência\\n- Aplica cores e identidade visual\\n- Prioriza o design visual\\n- Geralmente é estático\\n- Mostra como a interface ficará\\n\\n## Protótipo\\n- Simula a interação\\n- Permite executar tarefas\\n- Prioriza o comportamento\\n- Geralmente é interativo\\n- Mostra como a interface funcionará\\n\\n## Relação entre os conceitos\\nEstrutura → Aparência → Funcionamento\"}, {\"referencia\": \"F2\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 132, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 3, \"caracteres_texto_original\": 0, \"chunk_id\": \"c075db87ff8a5d12015106e2\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 25, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 3, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"## Observação final\\n\\nCom cores, tipografia, imagens e identidade visual completas, o artefato se aproxima de um mockup ou protótipo.\"}, {\"referencia\": \"F3\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 892, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 3, \"caracteres_texto_original\": 0, \"chunk_id\": \"4683dfff37530173e8ee14fa\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 25, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 2, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"**Mockup ou protótipo de alta fidelidade** (à direita)\\n→ Barra superior com três círculos coloridos\\n→ Área de imagem (fotografia de montanhas)\\n→ Título: \\\"Soluções digitais para o seu futuro\\\"\\n→ Texto: \\\"Transforme ideias em experiências incríveis com design e tecnologia.\\\"\\n→ Botão \\\"Começar agora →\\\"\\n→ Indicadores de paginação (quatro pontos)\\n→ Seção \\\"Nossos serviços\\\"\\n   → Card 1: Design de interfaces\\n      → Descrição: \\\"Experiências intuitivas e eficientes.\\\"\\n      → Link \\\"Saiba mais →\\\"\\n   → Card 2: Desenvolvimento\\n      → Descrição: \\\"Soluções robustas e escaláveis.\\\"\\n      → Link \\\"Saiba mais →\\\"\\n   → Card 3: Consultoria\\n      → Descrição: \\\"Estratégia para crescer mais.\\\"\\n      → Link \\\"Saiba mais →\\\"\\n→ Seção de destaque\\n   → Imagem (notebook sobre mesa)\\n   → Título: \\\"Tecnologia que aproxima pessoas\\\"\\n   → Texto: \\\"Do planejamento ao resultado.\\\"\\n   → Botão \\\"Saiba mais →\\\"\\n\\n## Observação final\"}, {\"referencia\": \"F4\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 388, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 2, \"caracteres_texto_original\": 0, \"chunk_id\": \"67c9a43bb7d90c5e1f208ab6\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 13, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 2, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"Legendas associadas:\\n\\n- Wireframes — Baixa fidelidade\\n- Protótipos interativos\\n\\n## Relação entre mapa de navegação e protótipos\\n\\nUma seta indica a transição do mapa de navegação para os protótipos.\\n\\n## Elementos do processo\\n\\n- Definição de menus\\n- Organização dos conteúdos\\n- Planejamento das interações\\n\\n## Observação\\n\\nCada tela identificada no mapa poderá ser representada no protótipo.\"}, {\"referencia\": \"F5\", \"metadata\": {\"pasta_aula\": \"aula_04_mapa_de_navegacao_e_wireframe\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 792, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"6264fd55bfa681706882c4ad\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"mapa_de_navegacao_e_wireframe\", \"aula\": \"04\", \"arquivo\": \"Aula 04- Projeto de Ideao de Software - Mapa de Navegao e Wireframe.pdf\", \"pagina\": 29, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Vantagens do wireframe\\n\\nO material apresenta um conjunto de vantagens associadas ao uso de wireframes, organizadas em duas fileiras de tópicos, interligadas por um fluxo central.\\n\\n**Vantagens listadas:**\\n\\n*   Desenvolver ideias rapidamente\\n*   Alterações com baixo custo\\n*   Comparar diferentes soluções\\n*   Obter feedback antecipado\\n*   Identificar problemas de usabilidade\\n*   Validar a organização do conteúdo\\n*   Melhorar a comunicação da equipe\\n*   Envolver usuários no processo\\n*   Planejar o protótipo\\n*   Reduzir riscos antes da implementação\\n\\n**Fluxo central representado:**\\n\\nIdeia (lâmpada) → Wireframe (representação de tela) → Validação (prancheta com check) → Proteção/Segurança (escudo com check)\\n\\n**Conclusão do material:**\\n\\n\\\"Ideiar, validar e melhorar antes de desenvolver.\\\"\"}]",
+          "saida_modelo": "{\n  \"suficiente\": true,\n  \"resposta\": \"A diferença entre wireframe, mockup e protótipo está no foco de cada artefato, conforme descrito no material:\\n\\n- **Wireframe**: representa a estrutura, utiliza elementos simples, prioriza organização e conteúdo, pode não ser interativo e é usado no planejamento inicial. [F1]\\n- **Mockup**: representa a aparência, aplica cores e identidade visual, prioriza o design visual, geralmente é estático e mostra como a interface ficará. [F1]\\n- **Protótipo**: simula a interação, permite executar tarefas, prioriza o comportamento, geralmente é interativo e mostra como a interface funcionará. [F1]\\n\\nA relação entre os conceitos é: Estrutura → Aparência → Funcionamento. [F1]\"\n}"
+        }
+      ],
+      "conceitos_ausentes": [],
+      "prompt_sha256": "61376439b99581fc0b2d2954377664254f536404781f2076088e266988688ec4",
+      "trechos_citados": [
+        {
+          "referencia": "F1",
+          "conteudo": "# Wireframe × mockup × protótipo\n\n## Wireframe\n- Representa a estrutura\n- Utiliza elementos simples\n- Prioriza organização e conteúdo\n- Pode não ser interativo\n- É usado no planejamento inicial\n\n## Mockup\n- Representa a aparência\n- Aplica cores e identidade visual\n- Prioriza o design visual\n- Geralmente é estático\n- Mostra como a interface ficará\n\n## Protótipo\n- Simula a interação\n- Permite executar tarefas\n- Prioriza o comportamento\n- Geralmente é interativo\n- Mostra como a interface funcionará\n\n## Relação entre os conceitos\nEstrutura → Aparência → Funcionamento"
+        }
+      ],
+      "evidencia_citada": true,
+      "revisao_semantica": "pendente",
+      "verificacao_automatica": true
+    },
+    {
+      "id": "atualizar_csd",
+      "pergunta": "Como atualizar a matriz CSD depois de uma investigação?",
+      "filtro_assunto": "matriz_csd",
+      "aula_esperada": "05",
+      "paginas_esperadas": [
+        18
+      ],
+      "contexto_recuperado": [
+        {
+          "chunk_id": "2c7ea8c6d04acd1a2cd66682",
+          "conteudo": "# Como atualizar a matriz\n\n## Suposição inicial\n“Os estudantes preferem um calendário mensal.”\n\n## Investigação fictícia\nEm um teste com seis estudantes, quatro localizaram a próxima entrega mais rapidamente usando uma lista ordenada por prazo.\n\n## Atualização\n- Registrar o resultado como evidência daquele teste.\n- Revisar a hipótese sobre o calendário.\n- Investigar em quais tarefas o calendário pode ser útil.\n\n## Atenção\nA pesquisa pode apoiar, refutar ou deixar uma hipótese inconclusiva.\n\n---\nUX/UI Design • Prof.ª Jeneffer Ferreira\n19/22",
+          "metadata": {
+            "pasta_aula": "aula_05_matriz_csd",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 545,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "2c7ea8c6d04acd1a2cd66682",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "matriz_csd",
+            "aula": "05",
+            "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+            "pagina": 18,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.41780309624066825,
+          "cobertura_lexical": 1.0
+        },
+        {
+          "chunk_id": "76810010e557839535f29944",
+          "conteudo": "# Como preencher a Matriz CSD\n\n1. **Definir o desafio**\n   Qual problema será discutido?\n\n2. **Delimitar o contexto**\n   Quem é o público e qual é a situação de uso?\n\n3. **Reunir informações**\n   Consultar materiais e evidências disponíveis.\n\n4. **Registrar os itens**\n   Escrever uma ideia por cartão.\n\n5. **Classificar**\n   Distribuir os cartões entre C, S e D.\n\n6. **Discutir**\n   Verificar clareza e classificação.\n\n7. **Priorizar**\n   Escolher as incertezas mais importantes.\n\n8. **Planejar a investigação**\n   Definir como obter evidências.\n\nUX/UI Design • Prof.ª Jennefer Ferreira\n12/22",
+          "metadata": {
+            "pasta_aula": "aula_05_matriz_csd",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 593,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "76810010e557839535f29944",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "matriz_csd",
+            "aula": "05",
+            "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+            "pagina": 12,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.5920080299382228,
+          "cobertura_lexical": 0.34466357565255445
+        },
+        {
+          "chunk_id": "3402b42b5ceae2941bd0b5b6",
+          "conteudo": "# Objetivos da aula\n\nAo final da aula, você deverá ser capaz de:\n\n- Compreender o que é a Matriz CSD.\n- Diferenciar certezas, suposições e dúvidas.\n- Preencher a matriz a partir de um problema de design.\n- Identificar informações que precisam de investigação.\n- Utilizar a matriz para orientar pesquisas e decisões de UX/UI.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n2/22",
+          "metadata": {
+            "pasta_aula": "aula_05_matriz_csd",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 370,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "3402b42b5ceae2941bd0b5b6",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "matriz_csd",
+            "aula": "05",
+            "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+            "pagina": 2,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.4418794977104832,
+          "cobertura_lexical": 0.34466357565255445
+        },
+        {
+          "chunk_id": "545d4325a50876f255a81c7e",
+          "conteudo": "# Como escrever uma suposição\n\nUma suposição deve permitir investigação.\n\n## Formulação vaga\n\n“O aplicativo precisa ser melhor.”\n\n## Formulação investigável\n\n“Acreditamos que os usuários abandonam o cadastro porque não compreendem quais campos são obrigatórios.”\n\n## Como investigar\n\n- Observar usuários preenchendo o formulário.\n- Identificar em quais campos encontram dificuldades.\n- Testar uma versão com indicações mais claras.\n\nA hipótese também pode ser refutada.\n\nUX/UI Design • Prof.ª Jeneffer Ferreira\n\n9/22",
+          "metadata": {
+            "pasta_aula": "aula_05_matriz_csd",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 516,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "545d4325a50876f255a81c7e",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "matriz_csd",
+            "aula": "05",
+            "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+            "pagina": 9,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.29350285847476665,
+          "cobertura_lexical": 0.34466357565255445
+        },
+        {
+          "chunk_id": "494977a35165c48237ef6ccd",
+          "conteudo": "# Estrutura da matriz\n\nA página apresenta uma matriz estruturada em três categorias, cada uma com um ícone representativo, um título, uma pergunta orientadora e uma descrição:\n\n- **CERTEZAS** (ícone de check)\n  - O que sabemos com base em evidências?\n  - Informações documentadas ou observadas.\n\n- **SUPOSIÇÕES** (ícone de lâmpada)\n  - O que acreditamos, mas precisamos verificar?\n  - Hipóteses sobre o problema e os usuários.\n\n- **DÚVIDAS** (ícone de interrogação)\n  - O que precisamos descobrir?\n  - Perguntas que orientam a investigação.\n\n---\n\nUX/UI Design • Prof.ª Jenefler Ferreira\n5/22",
+          "metadata": {
+            "pasta_aula": "aula_05_matriz_csd",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 591,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "494977a35165c48237ef6ccd",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "matriz_csd",
+            "aula": "05",
+            "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+            "pagina": 5,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null
+          },
+          "similaridade": 0.30699063262315507,
+          "cobertura_lexical": 0.34466357565255445
+        }
+      ],
+      "fontes_conferidas": true,
+      "evidencia_no_top5": true,
+      "resultado": {
+        "resposta": "- Registrar o resultado como evidência daquele teste. [F1]\n- Revisar a hipótese sobre o tema investigado. [F1]\n- Investigar em quais tarefas o tema pode ser útil. [F1]\n\nAlém disso, lembre-se de que a pesquisa pode apoiar, refutar ou deixar uma hipótese inconclusiva, o que influencia como a suposição é atualizada na matriz. [F1]",
+        "fontes": [
+          {
+            "pasta_aula": "aula_05_matriz_csd",
+            "modelo_visual": "deepseek/deepseek-v4.1-flash",
+            "chunk_caracteres": 545,
+            "motivos_deteccao": [
+              "sem_texto_extraivel"
+            ],
+            "total_chunks_pagina": 1,
+            "caracteres_texto_original": 0,
+            "chunk_id": "2c7ea8c6d04acd1a2cd66682",
+            "periodo": "03",
+            "disciplina": "projeto_de_ideacao_de_software",
+            "assunto": "matriz_csd",
+            "aula": "05",
+            "arquivo": "Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf",
+            "pagina": 18,
+            "tipo_arquivo": "pdf",
+            "tipo_extracao": "multimodal",
+            "chunk_index": 1,
+            "material_id": null,
+            "periodo_id": null,
+            "disciplina_id": null,
+            "assunto_id": null,
+            "tipo_material": null,
+            "titulo_material": null,
+            "referencia": "F1",
+            "similaridade": 0.41780309624066825
+          }
+        ],
+        "fallback": false,
+        "motivo": null,
+        "blocos_sem_fonte_removidos": 1,
+        "reformulacoes": 0
+      },
+      "tentativas": [
+        {
+          "mensagem_pergunta_e_contexto": "PERGUNTA ORIGINAL:\nComo atualizar a matriz CSD depois de uma investigação?\n\nCONSULTA UTILIZADA:\nComo atualizar a matriz CSD depois de uma investigação?\n\nCONSULTAS ANTERIORES (JSON):\n[\"Como atualizar a matriz CSD depois de uma investigação?\"]\n\nCONTEXTO (JSON):\n[{\"referencia\": \"F1\", \"metadata\": {\"pasta_aula\": \"aula_05_matriz_csd\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 545, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"2c7ea8c6d04acd1a2cd66682\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"matriz_csd\", \"aula\": \"05\", \"arquivo\": \"Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf\", \"pagina\": 18, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Como atualizar a matriz\\n\\n## Suposição inicial\\n“Os estudantes preferem um calendário mensal.”\\n\\n## Investigação fictícia\\nEm um teste com seis estudantes, quatro localizaram a próxima entrega mais rapidamente usando uma lista ordenada por prazo.\\n\\n## Atualização\\n- Registrar o resultado como evidência daquele teste.\\n- Revisar a hipótese sobre o calendário.\\n- Investigar em quais tarefas o calendário pode ser útil.\\n\\n## Atenção\\nA pesquisa pode apoiar, refutar ou deixar uma hipótese inconclusiva.\\n\\n---\\nUX/UI Design • Prof.ª Jeneffer Ferreira\\n19/22\"}, {\"referencia\": \"F2\", \"metadata\": {\"pasta_aula\": \"aula_05_matriz_csd\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 593, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"76810010e557839535f29944\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"matriz_csd\", \"aula\": \"05\", \"arquivo\": \"Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf\", \"pagina\": 12, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Como preencher a Matriz CSD\\n\\n1. **Definir o desafio**\\n   Qual problema será discutido?\\n\\n2. **Delimitar o contexto**\\n   Quem é o público e qual é a situação de uso?\\n\\n3. **Reunir informações**\\n   Consultar materiais e evidências disponíveis.\\n\\n4. **Registrar os itens**\\n   Escrever uma ideia por cartão.\\n\\n5. **Classificar**\\n   Distribuir os cartões entre C, S e D.\\n\\n6. **Discutir**\\n   Verificar clareza e classificação.\\n\\n7. **Priorizar**\\n   Escolher as incertezas mais importantes.\\n\\n8. **Planejar a investigação**\\n   Definir como obter evidências.\\n\\nUX/UI Design • Prof.ª Jennefer Ferreira\\n12/22\"}, {\"referencia\": \"F3\", \"metadata\": {\"pasta_aula\": \"aula_05_matriz_csd\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 370, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"3402b42b5ceae2941bd0b5b6\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"matriz_csd\", \"aula\": \"05\", \"arquivo\": \"Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf\", \"pagina\": 2, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Objetivos da aula\\n\\nAo final da aula, você deverá ser capaz de:\\n\\n- Compreender o que é a Matriz CSD.\\n- Diferenciar certezas, suposições e dúvidas.\\n- Preencher a matriz a partir de um problema de design.\\n- Identificar informações que precisam de investigação.\\n- Utilizar a matriz para orientar pesquisas e decisões de UX/UI.\\n\\nUX/UI Design • Prof.ª Jeneffer Ferreira\\n2/22\"}, {\"referencia\": \"F4\", \"metadata\": {\"pasta_aula\": \"aula_05_matriz_csd\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 516, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"545d4325a50876f255a81c7e\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"matriz_csd\", \"aula\": \"05\", \"arquivo\": \"Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf\", \"pagina\": 9, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Como escrever uma suposição\\n\\nUma suposição deve permitir investigação.\\n\\n## Formulação vaga\\n\\n“O aplicativo precisa ser melhor.”\\n\\n## Formulação investigável\\n\\n“Acreditamos que os usuários abandonam o cadastro porque não compreendem quais campos são obrigatórios.”\\n\\n## Como investigar\\n\\n- Observar usuários preenchendo o formulário.\\n- Identificar em quais campos encontram dificuldades.\\n- Testar uma versão com indicações mais claras.\\n\\nA hipótese também pode ser refutada.\\n\\nUX/UI Design • Prof.ª Jeneffer Ferreira\\n\\n9/22\"}, {\"referencia\": \"F5\", \"metadata\": {\"pasta_aula\": \"aula_05_matriz_csd\", \"modelo_visual\": \"deepseek/deepseek-v4.1-flash\", \"chunk_caracteres\": 591, \"motivos_deteccao\": [\"sem_texto_extraivel\"], \"total_chunks_pagina\": 1, \"caracteres_texto_original\": 0, \"chunk_id\": \"494977a35165c48237ef6ccd\", \"periodo\": \"03\", \"disciplina\": \"projeto_de_ideacao_de_software\", \"assunto\": \"matriz_csd\", \"aula\": \"05\", \"arquivo\": \"Aula 05- Projeto de Ideao de Software - Matriz CSD.pdf\", \"pagina\": 5, \"tipo_arquivo\": \"pdf\", \"tipo_extracao\": \"multimodal\", \"chunk_index\": 1, \"material_id\": null, \"periodo_id\": null, \"disciplina_id\": null, \"assunto_id\": null, \"tipo_material\": null, \"titulo_material\": null}, \"conteudo\": \"# Estrutura da matriz\\n\\nA página apresenta uma matriz estruturada em três categorias, cada uma com um ícone representativo, um título, uma pergunta orientadora e uma descrição:\\n\\n- **CERTEZAS** (ícone de check)\\n  - O que sabemos com base em evidências?\\n  - Informações documentadas ou observadas.\\n\\n- **SUPOSIÇÕES** (ícone de lâmpada)\\n  - O que acreditamos, mas precisamos verificar?\\n  - Hipóteses sobre o problema e os usuários.\\n\\n- **DÚVIDAS** (ícone de interrogação)\\n  - O que precisamos descobrir?\\n  - Perguntas que orientam a investigação.\\n\\n---\\n\\nUX/UI Design • Prof.ª Jenefler Ferreira\\n5/22\"}]",
+          "saida_modelo": "{\n  \"suficiente\": true,\n  \"resposta\": \"Para atualizar a matriz CSD após uma investigação, siga os passos indicados no material:\\n\\n- Registrar o resultado como evidência daquele teste. [F1]\\n- Revisar a hipótese sobre o tema investigado. [F1]\\n- Investigar em quais tarefas o tema pode ser útil. [F1]\\n\\nAlém disso, lembre-se de que a pesquisa pode apoiar, refutar ou deixar uma hipótese inconclusiva, o que influencia como a suposição é atualizada na matriz. [F1]\"\n}"
+        }
+      ],
+      "conceitos_ausentes": [],
+      "prompt_sha256": "61376439b99581fc0b2d2954377664254f536404781f2076088e266988688ec4",
+      "trechos_citados": [
+        {
+          "referencia": "F1",
+          "conteudo": "# Como atualizar a matriz\n\n## Suposição inicial\n“Os estudantes preferem um calendário mensal.”\n\n## Investigação fictícia\nEm um teste com seis estudantes, quatro localizaram a próxima entrega mais rapidamente usando uma lista ordenada por prazo.\n\n## Atualização\n- Registrar o resultado como evidência daquele teste.\n- Revisar a hipótese sobre o calendário.\n- Investigar em quais tarefas o calendário pode ser útil.\n\n## Atenção\nA pesquisa pode apoiar, refutar ou deixar uma hipótese inconclusiva.\n\n---\nUX/UI Design • Prof.ª Jeneffer Ferreira\n19/22"
+        }
+      ],
+      "evidencia_citada": true,
+      "revisao_semantica": "pendente",
+      "verificacao_automatica": true
+    }
+  ]
+}

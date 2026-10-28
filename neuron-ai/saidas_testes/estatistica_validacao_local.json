@@ -1,0 +1,15 @@
+{
+  "mapa_instalado": true,
+  "assuntos": 31,
+  "paginas_textuais_cobertas": 63,
+  "paginas_apos_mesclagem": 59,
+  "chunks_locais": 59,
+  "associacao_assuntos": "conferida",
+  "previa_parcial_rejeitada_para_indexacao": true,
+  "questoes_originais_distintas": 9,
+  "vinculos_origem": 15,
+  "hashes_materiais": "conferidos",
+  "indexacao_realizada": false,
+  "paginas_visuais_pendentes": 103,
+  "autorizacao_envio_openrouter": "pendente_confirmacao_explicita"
+}

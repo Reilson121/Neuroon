@@ -1,0 +1,374 @@
+{
+  "status": "referencias_preparadas_e_integradas",
+  "versao": 1,
+  "autorizacao_professor": {
+    "status": "declarada_pelo_usuario",
+    "data": "2026-10-27",
+    "evidencia": "e autorizada pelo professor",
+    "materiais": [
+      "Exercissios 1 Unidade.docx",
+      "prova anterior de estátisitica.pdf"
+    ]
+  },
+  "gabarito_oficial_professor": "nao_confirmado",
+  "convencao_quartis_padrao": "indice_zero_n_menos_1_interpolacao_linear",
+  "observacao": "Transcrição acadêmica conferida; preservar origens e subitens. Não contém nomes ou notas do discente da prova.",
+  "questoes": [
+    {
+      "referencia_local": "estatistica_q01",
+      "disciplina": "estatistica",
+      "assunto_principal_proposto": "medidas_de_tendencia_central",
+      "origem_questao": "material_academico",
+      "gerada_por_ia": false,
+      "enunciado": "O que representa a mediana?",
+      "formato_original": "multipla_escolha",
+      "alternativas": {
+        "a": "O valor que mais se repete.",
+        "b": "O valor central dos dados ordenados.",
+        "c": "A média ponderada.",
+        "d": "A soma dos valores dividida pelo total.",
+        "e": "O menor valor do conjunto."
+      },
+      "origens": [
+        {
+          "arquivo": "prova anterior de estátisitica.pdf",
+          "titulo_material": "prova anterior de estátisitica.pdf",
+          "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+          "tipo_material": "PROVA_ANTIGA",
+          "pagina": 1,
+          "numero_questao": "1"
+        },
+        {
+          "arquivo": "Exercissios 1 Unidade.docx",
+          "titulo_material": "Exercissios 1 Unidade.docx",
+          "sha256": "3ffb7eca3dc614949b57d637480c12f8a86632ba564b67d787ba8f7e382b860f",
+          "tipo_material": "LISTA_EXERCICIOS",
+          "pagina": null,
+          "numero_questao": "1"
+        }
+      ],
+      "cadastro_backend": "nao_realizado",
+      "disponibilidade_pratica": "pendente_validacoes_backend",
+      "gabarito_material": {
+        "alternativa": "b",
+        "arquivo": "Exercissios 1 Unidade.docx",
+        "oficial_professor": null,
+        "situacao": "contido_na_lista_autoria_nao_confirmada"
+      }
+    },
+    {
+      "referencia_local": "estatistica_q02",
+      "disciplina": "estatistica",
+      "assunto_principal_proposto": "medidas_de_dispersao_e_posicao",
+      "origem_questao": "material_academico",
+      "gerada_por_ia": false,
+      "enunciado": "A amplitude de um conjunto de dados é:",
+      "formato_original": "multipla_escolha",
+      "alternativas": {
+        "a": "A diferença entre média e moda.",
+        "b": "A diferença entre o maior e o menor valor.",
+        "c": "O desvio padrão.",
+        "d": "A soma de todos os valores.",
+        "e": "O intervalo interquartílico."
+      },
+      "origens": [
+        {
+          "arquivo": "prova anterior de estátisitica.pdf",
+          "titulo_material": "prova anterior de estátisitica.pdf",
+          "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+          "tipo_material": "PROVA_ANTIGA",
+          "pagina": 1,
+          "numero_questao": "2"
+        },
+        {
+          "arquivo": "Exercissios 1 Unidade.docx",
+          "titulo_material": "Exercissios 1 Unidade.docx",
+          "sha256": "3ffb7eca3dc614949b57d637480c12f8a86632ba564b67d787ba8f7e382b860f",
+          "tipo_material": "LISTA_EXERCICIOS",
+          "pagina": null,
+          "numero_questao": "2"
+        }
+      ],
+      "cadastro_backend": "nao_realizado",
+      "disponibilidade_pratica": "pendente_validacoes_backend",
+      "gabarito_material": {
+        "alternativa": "b",
+        "arquivo": "Exercissios 1 Unidade.docx",
+        "oficial_professor": null,
+        "situacao": "contido_na_lista_autoria_nao_confirmada"
+      }
+    },
+    {
+      "referencia_local": "estatistica_q03",
+      "disciplina": "estatistica",
+      "assunto_principal_proposto": "probabilidade_condicional_e_independencia",
+      "origem_questao": "material_academico",
+      "gerada_por_ia": false,
+      "enunciado": "A probabilidade condicional P(A|B) significa:",
+      "formato_original": "multipla_escolha",
+      "alternativas": {
+        "a": "A probabilidade de A acontecer dado que B ocorreu.",
+        "b": "A soma das probabilidades de A e B.",
+        "c": "Sempre a probabilidade de B.",
+        "d": "A independência entre A e B.",
+        "e": "A probabilidade de nenhum ocorrer."
+      },
+      "origens": [
+        {
+          "arquivo": "prova anterior de estátisitica.pdf",
+          "titulo_material": "prova anterior de estátisitica.pdf",
+          "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+          "tipo_material": "PROVA_ANTIGA",
+          "pagina": 1,
+          "numero_questao": "3"
+        }
+      ],
+      "cadastro_backend": "nao_realizado",
+      "disponibilidade_pratica": "pendente_validacoes_backend",
+      "gabarito_material": null
+    },
+    {
+      "referencia_local": "estatistica_q04",
+      "disciplina": "estatistica",
+      "assunto_principal_proposto": "fundamentos_de_probabilidade",
+      "origem_questao": "material_academico",
+      "gerada_por_ia": false,
+      "enunciado": "O que é o espaço amostral em um lançamento de duas moedas?",
+      "formato_original": "multipla_escolha",
+      "alternativas": {
+        "a": "{C, K}",
+        "b": "{CC, CK, KC, KK}",
+        "c": "{0,1}",
+        "d": "{1,2}",
+        "e": "Apenas os resultados favoráveis."
+      },
+      "origens": [
+        {
+          "arquivo": "prova anterior de estátisitica.pdf",
+          "titulo_material": "prova anterior de estátisitica.pdf",
+          "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+          "tipo_material": "PROVA_ANTIGA",
+          "pagina": 1,
+          "numero_questao": "4"
+        }
+      ],
+      "cadastro_backend": "nao_realizado",
+      "disponibilidade_pratica": "pendente_validacoes_backend",
+      "gabarito_material": null
+    },
+    {
+      "referencia_local": "estatistica_q05",
+      "disciplina": "estatistica",
+      "assunto_principal_proposto": "medidas_de_dispersao_e_posicao",
+      "origem_questao": "material_academico",
+      "gerada_por_ia": false,
+      "enunciado": "Em termos de interpretação, o desvio-padrão mede:",
+      "formato_original": "multipla_escolha",
+      "alternativas": {
+        "a": "A variação conjunta de duas variáveis.",
+        "b": "A dispersão média em torno da média.",
+        "c": "A tendência central.",
+        "d": "A probabilidade de um evento.",
+        "e": "O valor central."
+      },
+      "origens": [
+        {
+          "arquivo": "prova anterior de estátisitica.pdf",
+          "titulo_material": "prova anterior de estátisitica.pdf",
+          "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+          "tipo_material": "PROVA_ANTIGA",
+          "pagina": 1,
+          "numero_questao": "5"
+        },
+        {
+          "arquivo": "Exercissios 1 Unidade.docx",
+          "titulo_material": "Exercissios 1 Unidade.docx",
+          "sha256": "3ffb7eca3dc614949b57d637480c12f8a86632ba564b67d787ba8f7e382b860f",
+          "tipo_material": "LISTA_EXERCICIOS",
+          "pagina": null,
+          "numero_questao": "5"
+        }
+      ],
+      "cadastro_backend": "nao_realizado",
+      "disponibilidade_pratica": "pendente_validacoes_backend",
+      "gabarito_material": {
+        "alternativa": "b",
+        "arquivo": "Exercissios 1 Unidade.docx",
+        "oficial_professor": null,
+        "situacao": "contido_na_lista_autoria_nao_confirmada"
+      }
+    },
+    {
+      "referencia_local": "estatistica_q06",
+      "disciplina": "estatistica",
+      "assunto_principal_proposto": "correlacao_e_associacao",
+      "origem_questao": "material_academico",
+      "gerada_por_ia": false,
+      "enunciado": "A covariância próxima de zero indica que:",
+      "formato_original": "multipla_escolha",
+      "alternativas": {
+        "a": "Existe forte correlação positiva.",
+        "b": "Existe forte correlação negativa.",
+        "c": "Não há relação linear clara entre as variáveis.",
+        "d": "Uma variável determina a outra.",
+        "e": "As variáveis são mutuamente exclusivas."
+      },
+      "origens": [
+        {
+          "arquivo": "prova anterior de estátisitica.pdf",
+          "titulo_material": "prova anterior de estátisitica.pdf",
+          "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+          "tipo_material": "PROVA_ANTIGA",
+          "pagina": 1,
+          "numero_questao": "6"
+        },
+        {
+          "arquivo": "Exercissios 1 Unidade.docx",
+          "titulo_material": "Exercissios 1 Unidade.docx",
+          "sha256": "3ffb7eca3dc614949b57d637480c12f8a86632ba564b67d787ba8f7e382b860f",
+          "tipo_material": "LISTA_EXERCICIOS",
+          "pagina": null,
+          "numero_questao": "6"
+        }
+      ],
+      "cadastro_backend": "nao_realizado",
+      "disponibilidade_pratica": "pendente_validacoes_backend",
+      "gabarito_material": {
+        "alternativa": "c",
+        "arquivo": "Exercissios 1 Unidade.docx",
+        "oficial_professor": null,
+        "situacao": "contido_na_lista_autoria_nao_confirmada"
+      }
+    },
+    {
+      "referencia_local": "estatistica_q07",
+      "disciplina": "estatistica",
+      "assunto_principal_proposto": "medidas_de_tendencia_central",
+      "origem_questao": "material_academico",
+      "gerada_por_ia": false,
+      "enunciado": "(Cálculo) Dados: [2, 4, 6, 8, 10].",
+      "formato_original": "calculo_aberto",
+      "alternativas": null,
+      "origens": [
+        {
+          "arquivo": "prova anterior de estátisitica.pdf",
+          "titulo_material": "prova anterior de estátisitica.pdf",
+          "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+          "tipo_material": "PROVA_ANTIGA",
+          "pagina": 2,
+          "numero_questao": "7"
+        },
+        {
+          "arquivo": "Exercissios 1 Unidade.docx",
+          "titulo_material": "Exercissios 1 Unidade.docx",
+          "sha256": "3ffb7eca3dc614949b57d637480c12f8a86632ba564b67d787ba8f7e382b860f",
+          "tipo_material": "LISTA_EXERCICIOS",
+          "pagina": null,
+          "numero_questao": "7"
+        }
+      ],
+      "cadastro_backend": "nao_realizado",
+      "disponibilidade_pratica": "pendente_validacoes_backend",
+      "gabarito_material": null,
+      "assuntos_secundarios_propostos": [
+        "medidas_de_dispersao_e_posicao"
+      ],
+      "subitens": {
+        "a": "Calcule a média e a mediana.",
+        "b": "Calcule a variância populacional e o desvio-padrão populacional."
+      },
+      "resolucao_contida_na_lista": {
+        "oficial_professor": null,
+        "media": 6,
+        "mediana": 6,
+        "variancia_populacional": 8,
+        "desvio_padrao": "sqrt(8) ≈ 2,83"
+      },
+      "observacao_transcricao": "O valor 6 foi conferido na imagem; a camada de texto do PDF o omite."
+    },
+    {
+      "referencia_local": "estatistica_q08",
+      "disciplina": "estatistica",
+      "assunto_principal_proposto": "analise_combinatoria",
+      "origem_questao": "material_academico",
+      "gerada_por_ia": false,
+      "enunciado": "(Cálculo) Quantos arranjos simples de 3 elementos podem ser feitos a partir de 15 observações?",
+      "formato_original": "calculo_aberto",
+      "alternativas": null,
+      "origens": [
+        {
+          "arquivo": "prova anterior de estátisitica.pdf",
+          "titulo_material": "prova anterior de estátisitica.pdf",
+          "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+          "tipo_material": "PROVA_ANTIGA",
+          "pagina": 2,
+          "numero_questao": "8"
+        }
+      ],
+      "cadastro_backend": "nao_realizado",
+      "disponibilidade_pratica": "pendente_validacoes_backend",
+      "gabarito_material": null
+    },
+    {
+      "referencia_local": "estatistica_q09",
+      "disciplina": "estatistica",
+      "assunto_principal_proposto": "medidas_de_dispersao_e_posicao",
+      "origem_questao": "material_academico",
+      "gerada_por_ia": false,
+      "enunciado": "(Cálculo) Conjunto de dados: [2, 3, 5, 7, 9, 11, 13, 15].",
+      "formato_original": "calculo_aberto",
+      "alternativas": null,
+      "origens": [
+        {
+          "arquivo": "prova anterior de estátisitica.pdf",
+          "titulo_material": "prova anterior de estátisitica.pdf",
+          "sha256": "4c02e239bc0ed050195381dd8b4079edaf4ff8a83810e80aec9d1c9c7cab612e",
+          "tipo_material": "PROVA_ANTIGA",
+          "pagina": 2,
+          "numero_questao": "9"
+        },
+        {
+          "arquivo": "Exercissios 1 Unidade.docx",
+          "titulo_material": "Exercissios 1 Unidade.docx",
+          "sha256": "3ffb7eca3dc614949b57d637480c12f8a86632ba564b67d787ba8f7e382b860f",
+          "tipo_material": "LISTA_EXERCICIOS",
+          "pagina": null,
+          "numero_questao": "9"
+        }
+      ],
+      "cadastro_backend": "nao_realizado",
+      "disponibilidade_pratica": "pendente_validacoes_backend",
+      "gabarito_material": null,
+      "texto_formativo": "O monitoramento de tempos de login em sistemas computacionais fornece informações valiosas sobre o desempenho da infraestrutura de rede. Quando há valores muito discrepantes, como picos de lentidão, os quartis ajudam a separar o comportamento típico do atípico. O IQR permite avaliar a estabilidade da maioria dos usuários, sem que valores extremos prejudiquem a interpretação.",
+      "subitens": {
+        "a": "Calcule Q1, Q2 e Q3.",
+        "b": "Encontre o IQR."
+      },
+      "resolucao_contida_na_lista": {
+        "oficial_professor": null,
+        "convencao": "posicao_1_base_n_mais_1",
+        "q1": 3.5,
+        "q2": 8,
+        "q3": 12.5,
+        "iqr": 9
+      },
+      "revisao_ia_identificada": {
+        "oficial_professor": false,
+        "convencao_padrao_neuron": "indice_zero_n_menos_1_interpolacao_linear",
+        "q1": 4.5,
+        "q2": 8,
+        "q3": 11.5,
+        "iqr": 7,
+        "aviso": "Outra convenção; não substituir silenciosamente a resolução original."
+      }
+    }
+  ],
+  "integracao_backend": {
+    "concluida": true,
+    "questoes_distintas": 9,
+    "vinculos_origem": 15,
+    "originais_multipla_escolha": 6,
+    "relatorio": "saidas_testes/estatistica_validacao_final.json",
+    "observacao": "Campos de cadastro e disponibilidade dentro das questoes registram a preparacao inicial; disponibilidade efetiva governada exclusivamente pelo cadastro relacional."
+  }
+}

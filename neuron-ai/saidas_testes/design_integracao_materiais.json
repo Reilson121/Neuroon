@@ -1,0 +1,86 @@
+{
+  "materiais": {
+    "10": {
+      "chunks_antes": 17,
+      "chunks_depois": 17,
+      "removidos": 0,
+      "atualizados": 17,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 17
+    },
+    "11": {
+      "chunks_antes": 43,
+      "chunks_depois": 43,
+      "removidos": 0,
+      "atualizados": 43,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 43
+    },
+    "12": {
+      "chunks_antes": 43,
+      "chunks_depois": 43,
+      "removidos": 0,
+      "atualizados": 43,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 43
+    },
+    "13": {
+      "chunks_antes": 54,
+      "chunks_depois": 54,
+      "removidos": 0,
+      "atualizados": 54,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 54
+    },
+    "14": {
+      "chunks_antes": 37,
+      "chunks_depois": 37,
+      "removidos": 0,
+      "atualizados": 37,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 37
+    },
+    "15": {
+      "chunks_antes": 35,
+      "chunks_depois": 35,
+      "removidos": 0,
+      "atualizados": 35,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 35
+    },
+    "7": {
+      "chunks_antes": 85,
+      "chunks_depois": 85,
+      "removidos": 0,
+      "atualizados": 85,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 85
+    },
+    "8": {
+      "chunks_antes": 30,
+      "chunks_depois": 30,
+      "removidos": 0,
+      "atualizados": 30,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 30
+    },
+    "9": {
+      "chunks_antes": 19,
+      "chunks_depois": 19,
+      "removidos": 0,
+      "atualizados": 19,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 19
+    }
+  },
+  "outras_disciplinas_preservadas": true
+}
