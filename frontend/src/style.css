@@ -30,3 +30,7 @@ body{min-width:0}.home-welcome>div{min-width:0}.home-welcome h1{overflow-wrap:an
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 
 a.secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 18px;border-radius:11px;font-weight:700;text-decoration:none;flex-shrink:0}.source a{font-weight:700}@media(max-width:700px){.material>a.secondary{margin-left:55px}}
+
+/* Cadastro e administração de usuários. */
+.user-fields{border:0;padding:0;margin:18px 0;min-width:0}.user-fields small{display:block;margin-top:-8px}.user-form,.users-list{margin-top:20px}.user-form{max-width:650px}.user-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.users-list ul{list-style:none;padding:0;margin:0}.users-list li{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid var(--border)}.users-list li>div:first-child{min-width:0}.users-list li span,.users-list li small{display:block;overflow-wrap:anywhere}.users-list nav{margin-top:20px}.danger{background:#a82c3c}.danger:hover{background:#872031}.mobile-nav{overflow-x:auto}.mobile-nav button{flex-shrink:0}
+@media(max-width:700px){.users-list li{align-items:flex-start;flex-direction:column}.user-actions button{min-height:44px}.user-form input{font-size:16px}}

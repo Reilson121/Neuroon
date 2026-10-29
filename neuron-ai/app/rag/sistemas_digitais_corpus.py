@@ -6,6 +6,8 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[2]
 DISCIPLINA = 'sistemas_digitais'
+# Endereço físico original preservado para manter referências e hashes do corpus.
+# O período curricular é definido pelo catálogo; a integração o normaliza para 02.
 PASTA = RAIZ / 'materiais_academicos/periodo_03' / DISCIPLINA
 JSON_CHUNKS = RAIZ / 'saidas_testes/sistemas_digitais_completa.json'
 MATERIAIS = [
@@ -70,7 +72,7 @@ def carregar_validado():
 
 def preparar_material(material, assuntos):
     if (material.get('disciplina_slug') != DISCIPLINA or material['tipo'] != 'SLIDE_AULA'
-            or material['periodo_numero'] != 3 or not all(material[k] for k in
+            or material['periodo_numero'] != 2 or not all(material[k] for k in
                 ('ativo', 'disciplina_ativa', 'periodo_ativo', 'fonte_monitor_virtual'))):
         raise ValueError('Fonte de Sistemas Digitais indisponível.')
     dados = carregar_validado()
@@ -82,7 +84,7 @@ def preparar_material(material, assuntos):
         raise ValueError('Assunto incompatível com o PDF.')
     chunks = copy.deepcopy([c for c in dados['chunks'] if c['metadata']['arquivo'] == origem['arquivo']])
     for c in chunks:
-        c['metadata'].update(material_id=material['id'], periodo_id=material['periodo_id'],
+        c['metadata'].update(periodo='02', material_id=material['id'], periodo_id=material['periodo_id'],
             disciplina_id=material['disciplina_id'], assunto_id=assunto['id'],
             titulo_material=material['titulo'], fonte_monitor_virtual=True,
             autorizacao_professor=material['autorizacao_professor'], disponivel_para_pratica=False)

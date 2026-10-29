@@ -29,10 +29,10 @@ public class SecurityConfig {
  @Bean SessionAuthenticationStrategy sessionStrategy(CsrfTokenRepository csrf){
   return new CompositeSessionAuthenticationStrategy(List.of(new ChangeSessionIdAuthenticationStrategy(),new CsrfAuthenticationStrategy(csrf)));
  }
- @Bean SecurityFilterChain filterChain(HttpSecurity http, SecurityContextRepository contexts,CsrfTokenRepository csrf,VisitanteCleanup visitantes) throws Exception {
+ @Bean SecurityFilterChain filterChain(HttpSecurity http, SecurityContextRepository contexts,CsrfTokenRepository csrf,VisitanteCleanup visitantes,UsuarioRepository usuarios) throws Exception {
   http.csrf(c -> c.csrfTokenRepository(csrf))
    .securityContext(c -> c.securityContextRepository(contexts))
-   .authorizeHttpRequests(a -> a.requestMatchers("/api/v1/auth/login","/api/v1/auth/visitante","/api/v1/auth/csrf").permitAll()
+   .authorizeHttpRequests(a -> a.requestMatchers("/api/v1/auth/login","/api/v1/auth/cadastro","/api/v1/auth/visitante","/api/v1/auth/csrf").permitAll()
     .requestMatchers("/api/v1/admin/**").hasRole("ADMINISTRADOR")
     .requestMatchers("/api/v1/pratica/**").hasAnyRole("ESTUDANTE","ADMINISTRADOR")
     .requestMatchers("/api/v1/avaliacao-plataforma/**").hasRole("ESTUDANTE")
@@ -48,6 +48,21 @@ public class SecurityConfig {
        visitantes.remover(auth.getName());
       res.setStatus(204);
     }));
+  // Revalida a conta em cada requisição para bloquear também sessões já abertas após exclusão.
+  http.addFilterBefore(new org.springframework.web.filter.OncePerRequestFilter(){
+   @Override protected void doFilterInternal(jakarta.servlet.http.HttpServletRequest req,jakarta.servlet.http.HttpServletResponse res,jakarta.servlet.FilterChain chain)
+     throws jakarta.servlet.ServletException,java.io.IOException {
+    var auth=org.springframework.security.core.context.SecurityContextHolder.getContext().getAuthentication();
+    if(auth!=null&&auth.isAuthenticated()&&!(auth instanceof org.springframework.security.authentication.AnonymousAuthenticationToken)){
+     var conta=usuarios.findByEmailAndAtivoTrue(auth.getName());
+     if(conta.isEmpty()||(auth.getDetails() instanceof Long id&&!id.equals(conta.get().getId()))){
+      org.springframework.security.core.context.SecurityContextHolder.clearContext();
+      var session=req.getSession(false);if(session!=null)session.invalidate();
+     }
+    }
+    chain.doFilter(req,res);
+   }
+  },org.springframework.security.web.access.intercept.AuthorizationFilter.class);
   return http.build();
  }
 }

@@ -1,0 +1,14 @@
+# Dependências do serviço integrado; validar e fixar versões após o primeiro build.
+fastapi
+uvicorn[standard]
+python-dotenv
+psycopg[binary]
+openai
+httpx
+langchain-core
+langchain-community
+langchain-text-splitters
+sentence-transformers
+pypdf
+pymupdf
+python-pptx

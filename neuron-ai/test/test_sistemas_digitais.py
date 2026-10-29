@@ -3,7 +3,7 @@ import random
 import unittest
 import uuid
 from unittest.mock import Mock
-from app.rag.sistemas_digitais_corpus import carregar_validado, MATERIAIS
+from app.rag.sistemas_digitais_corpus import carregar_validado, preparar_material, MATERIAIS
 from app.practice.digital_bank import BANCOS
 from app.practice.digital_engine import gerar, construir, verificar
 from app.practice.service import PracticeService, PracticeError
@@ -26,6 +26,21 @@ class SistemasDigitaisTests(unittest.TestCase):
         self.assertEqual(len({a['pdf_sha256'] for a in self.corpus['arquivos']}),12)
         self.assertEqual(self.corpus['total_paginas'],189)
         self.assertEqual({c['metadata']['assunto'] for c in self.corpus['chunks']},set(BANCOS))
+
+    def test_integracao_exige_segundo_periodo_e_preserva_ids_do_corpus(self):
+        origem=self.corpus['arquivos'][0]
+        material=dict(id=81,disciplina_id=42,periodo_id=27,periodo_numero=2,
+            disciplina_slug='sistemas_digitais',tipo='SLIDE_AULA',ativo=True,
+            disciplina_ativa=True,periodo_ativo=True,fonte_monitor_virtual=True,
+            referencia_externa='local:'+origem['pdf'],assunto_id=61,
+            titulo='Sistemas analógicos e digitais',autorizacao_professor=False)
+        assuntos={origem['assunto']:dict(id=61,ativo=True,disciplina_id=42)}
+        chunks=preparar_material(material,assuntos)
+        originais=[c for c in self.corpus['chunks'] if c['metadata']['arquivo']==origem['arquivo']]
+        self.assertEqual([c['chunk_id'] for c in chunks],[c['chunk_id'] for c in originais])
+        self.assertTrue(all(c['metadata']['periodo']=='02' and c['metadata']['periodo_id']==27 for c in chunks))
+        material['periodo_numero']=3
+        with self.assertRaises(ValueError): preparar_material(material,assuntos)
 
     def test_todos_conceitos_tem_fonte_e_resolucao(self):
         for slug,modelos in BANCOS.items():

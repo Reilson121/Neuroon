@@ -1,0 +1,105 @@
+name: neuron
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: neuron
+      POSTGRES_USER: neuron
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Preencha DB_PASSWORD}
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U neuron -d neuron']
+      interval: 10s
+      timeout: 5s
+      retries: 12
+  backend:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.backend
+    restart: unless-stopped
+    environment:
+      NEURON_BIND_ADDRESS: 0.0.0.0
+      DB_URL: jdbc:postgresql://db:5432/neuron
+      DB_USER: neuron
+      DB_PASSWORD: ${DB_PASSWORD:?Preencha DB_PASSWORD}
+      AI_SERVICE_URL: http://ai:8000
+      NEURON_INTERNAL_TOKEN: ${NEURON_INTERNAL_TOKEN:?Preencha o token interno}
+      NEURON_SECURE_COOKIE: 'true'
+      SERVER_FORWARD_HEADERS_STRATEGY: framework
+      NEURON_GUEST_ENABLED: 'false'
+      NEURON_MATERIALS_ROOT: /materiais
+      NEURON_BOOTSTRAP_ADMIN_EMAIL: ${NEURON_BOOTSTRAP_ADMIN_EMAIL:-}
+      NEURON_BOOTSTRAP_ADMIN_PASSWORD: ${NEURON_BOOTSTRAP_ADMIN_PASSWORD:-}
+    volumes:
+      - ../neuron-ai/materiais_academicos:/materiais:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, bash, -c, 'exec 3<>/dev/tcp/127.0.0.1/8080; printf "GET /api/v1/auth/csrf HTTP/1.0\r\nHost: localhost\r\n\r\n" >&3; head -n 1 <&3 | grep -q " 200 "']
+      interval: 15s
+      timeout: 5s
+      retries: 20
+      start_period: 60s
+  index-schema:
+    image: pgvector/pgvector:pg17
+    environment:
+      PGPASSWORD: ${DB_PASSWORD:?Preencha DB_PASSWORD}
+    volumes:
+      - ../neuron-ai/sql/001_chunk_documento.sql:/schema.sql:ro
+    entrypoint: [psql, -h, db, -U, neuron, -d, neuron, -v, ON_ERROR_STOP=1, -f, /schema.sql]
+    depends_on:
+      backend:
+        condition: service_healthy
+  ai:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.ai
+    restart: unless-stopped
+    environment:
+      DB_HOST: db
+      DB_PORT: '5432'
+      DB_NAME: neuron
+      DB_USER: neuron
+      DB_PASSWORD: ${DB_PASSWORD:?Preencha DB_PASSWORD}
+      NEURON_INTERNAL_TOKEN: ${NEURON_INTERNAL_TOKEN:?Preencha o token interno}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:?Preencha a chave OpenRouter}
+      OPENROUTER_MODEL: ${OPENROUTER_MODEL:?Selecione o modelo OpenRouter}
+      NEURON_PRELOAD_MONITOR: '1'
+    volumes:
+      - huggingface:/cache/huggingface
+      - ../neuron-ai/materiais_academicos:/app/materiais_academicos:ro
+    depends_on:
+      index-schema:
+        condition: service_completed_successfully
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 20s
+      timeout: 5s
+      retries: 30
+      start_period: 180s
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.web
+    restart: unless-stopped
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:?Preencha o endereço público HTTPS}
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      backend:
+        condition: service_healthy
+      ai:
+        condition: service_healthy
+volumes:
+  postgres:
+  huggingface:
+  caddy_data:
+  caddy_config:

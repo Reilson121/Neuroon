@@ -7,6 +7,7 @@ O Monitor Virtual usa RAG (geração de respostas com consulta aos materiais): r
 ## Funcionalidades
 
 - Acesso com autenticação por sessão e perfis de estudante e administrador.
+- Cadastro de estudantes e gerenciamento administrativo de usuários (consulta, edição e exclusão com preservação do histórico).
 - Consulta de períodos, disciplinas, assuntos e materiais acadêmicos.
 - Monitor Virtual com referências de arquivo e página, contexto de conversa e histórico persistente por usuário, disciplina e assunto.
 - Exemplos didáticos em tabelas e diagramas textuais, identificados como conteúdo criado pela IA e associados às fontes do conceito.
@@ -281,6 +282,8 @@ Os scripts de validação de integração são separados dos testes acima e pode
 - A configuração descrita é de desenvolvimento local. O build da interface é gerado em `frontend/dist`; sua hospedagem e o encaminhamento da API precisam ser definidos para publicação.
 
 ## Documentação
+
+- [Cadastro e gerenciamento de usuários](docs/USUARIOS.md)
 
 - [Interface, responsividade, histórico e avaliação](docs/FRONTEND_E_HISTORICO.md)
 - [Chat conversacional com RAG e contexto](docs/CHAT_CONVERSACIONAL_RAG.md)

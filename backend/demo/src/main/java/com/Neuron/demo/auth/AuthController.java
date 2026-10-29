@@ -22,10 +22,13 @@ public class AuthController {
  private final SecurityContextRepository contexts;
  private final SessionAuthenticationStrategy sessionStrategy;
  private final UsuarioRepository usuarios;
+ private final UsuarioService cadastro;
  @Value("${neuron.guest.enabled:false}") private boolean guestEnabled;
  public record LoginRequest(@NotBlank @Email @Size(max=255) String email,@NotBlank @Size(max=200) String senha){}
  public record UsuarioResponse(Long id,String nome,String email,String perfil){}
  public record CsrfResponse(String headerName,String token){}
+ @PostMapping("/cadastro") @ResponseStatus(org.springframework.http.HttpStatus.CREATED)
+ public UsuarioService.Resposta cadastrar(@Valid @RequestBody UsuarioService.Criar r){return cadastro.criar(r);}
  @GetMapping("/csrf") CsrfResponse csrf(CsrfToken token){return new CsrfResponse(token.getHeaderName(),token.getToken());}
  @PostMapping("/login") UsuarioResponse login(@Valid @RequestBody LoginRequest r,HttpServletRequest req,HttpServletResponse res){
   Authentication auth=authenticationManager.authenticate(UsernamePasswordAuthenticationToken.unauthenticated(r.email().trim().toLowerCase(java.util.Locale.ROOT),r.senha()));
@@ -44,6 +47,9 @@ public class AuthController {
   return iniciarSessao(auth,req,res);
  }
  private UsuarioResponse iniciarSessao(Authentication auth,HttpServletRequest req,HttpServletResponse res){
+  // Vincula a sessão ao registro original mesmo se o email for alterado e reutilizado.
+  if(auth instanceof AbstractAuthenticationToken token)
+   token.setDetails(usuarios.findByEmailAndAtivoTrue(auth.getName()).orElseThrow().getId());
   sessionStrategy.onAuthentication(auth,req,res);
   var context=SecurityContextHolder.createEmptyContext();context.setAuthentication(auth);
   SecurityContextHolder.setContext(context);contexts.saveContext(context,req,res);

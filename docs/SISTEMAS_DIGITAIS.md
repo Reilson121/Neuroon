@@ -1,6 +1,10 @@
 # Sistemas Digitais
 
-O catálogo contém 12 assuntos e 12 PDFs únicos do terceiro período. As duas cópias idênticas dos Downloads não são importadas. A disciplina possui prova, mas a prova e a lista ainda não foram fornecidas. Nenhum material desses tipos é inventado ou cadastrado.
+O catálogo contém 12 assuntos e 12 PDFs únicos do **2º período**. As duas cópias idênticas dos Downloads não são importadas. A disciplina possui prova, mas a prova e a lista ainda não foram fornecidas. Nenhum material desses tipos é inventado ou cadastrado.
+
+A migration V9 corrige a classificação original da V7, movendo somente Sistemas Digitais para o segundo período e atualizando o período dos 353 trechos no índice. IDs, textos, embeddings, assuntos, materiais e conversas são preservados. As demais disciplinas continuam no terceiro período. A interface busca o catálogo pela API e acompanha essa mudança sem IDs fixos.
+
+Os PDFs e o corpus bruto continuam no endereço físico original `materiais_academicos/periodo_03/sistemas_digitais` para preservar as referências existentes. Esse endereço de armazenamento não define o período curricular. O preparo para indexação exige o segundo período e normaliza os metadados para `02`, inclusive em futuras reindexações. O script de preparação exporta uma proposta SQL em `saidas_testes` e não sobrescreve migrations aplicadas.
 
 ## Monitor Virtual
 
@@ -28,9 +32,21 @@ python -m scripts.servicos_local migrar
 python -m scripts.integrar_materiais_sistemas_digitais
 ```
 
-A migration V7 adiciona o catálogo sem modificar outras disciplinas. A integração usa o sincronizador existente com escopo por PDF. Reinicie os serviços locais após atualizar o código.
+A migration V7 adiciona o catálogo; a V9 corrige o período sem modificar outras disciplinas. A integração usa o sincronizador existente com escopo por PDF. Reinicie os serviços locais após atualizar o código.
 
 ## Validação realizada
+
+Em 29/10/2026, a V9 foi aplicada ao banco local. A conferência HTTP em
+`scripts.validar_backend_sistemas_digitais` confirmou a disciplina somente no
+segundo período, 12 assuntos, abertura autenticada dos 12 PDFs, os 353 trechos
+com período `02` e uma sessão real de prática atravessando Spring e FastAPI.
+A conta temporária foi removida. O relatório está em
+`output/verificacao-sistemas-digitais.json`, na raiz de NEURON.
+Sete testes Python e três testes da interface passaram, incluindo troca do
+terceiro para o segundo período, filtro de assuntos, link do PDF e envio dos
+IDs corretos à prática. A validação local gerou e corrigiu 105 questões.
+Nenhuma chamada ao provedor pago foi feita; uma resposta nova do Monitor
+com geração de linguagem não foi testada nesta conferência.
 
 - Catálogo V7 aplicado e 12 PDFs indexados, com 353 trechos vinculados aos materiais e assuntos corretos.
 - Busca do Monitor conferida separadamente nos 12 assuntos.

@@ -1,0 +1,16 @@
+.git
+**/.env
+**/.env.*
+**/.venv*
+**/node_modules
+**/dist
+**/build
+**/build-*
+**/.gradle
+**/__pycache__
+**/tmp
+**/*.zip
+output
+.run-logs
+neuron-ai/materiais_academicos
+deploy/backups

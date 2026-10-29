@@ -1,0 +1,15 @@
+{
+  "aprovado": true,
+  "periodo": 2,
+  "assuntos": 12,
+  "pdfs": 12,
+  "trechos": 353,
+  "checks": [
+    "Sistemas Digitais somente no segundo período pela API",
+    "12 assuntos e abertura autenticada dos 12 PDFs",
+    "353 trechos vinculados ao segundo período",
+    "Prática real: interface pública → Spring → serviço de IA → banco"
+  ],
+  "conta_temporaria_removida": true,
+  "provedor_pago_utilizado": false
+}

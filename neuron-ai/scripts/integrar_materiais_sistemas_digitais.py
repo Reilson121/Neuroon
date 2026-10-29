@@ -11,7 +11,7 @@ def integrar(store=None):
     materiais,assuntos=catalogo(store,DISCIPLINA)
     esperados={'local:'+a['pdf'] for a in dados['arquivos']}
     if len(materiais)!=12 or {m['referencia_externa'] for m in materiais}!=esperados:
-        raise ValueError('Aplique a migration V7 antes da integração.')
+        raise ValueError('Aplique as migrations V7 e V9 antes da integração.')
     for m in materiais:
         if permitido(m): preparar_material(m,assuntos)
     # O mesmo modelo atende ao lote todo, evitando recarregá-lo a cada PDF.

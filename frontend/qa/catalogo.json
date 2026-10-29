@@ -1,0 +1,973 @@
+{
+  "periodos": [
+    {
+      "id": 6,
+      "numero": 2,
+      "nome": "2º período"
+    },
+    {
+      "id": 1,
+      "numero": 3,
+      "nome": "3º período"
+    }
+  ],
+  "disciplinas": [
+    {
+      "id": 10,
+      "nome": "Design de Artefatos Digitais",
+      "descricao": "Fundamentos, interfaces, diagramação e Design Thinking, com oito aulas e material complementar da Matriz CSD.",
+      "possuiProva": false,
+      "periodoId": 1,
+      "slug": "design_de_artefatos_digitais"
+    },
+    {
+      "id": 1,
+      "nome": "Estatística",
+      "descricao": "Conteúdo organizado por assunto a partir dos slides fornecidos.",
+      "possuiProva": true,
+      "periodoId": 1,
+      "slug": "estatistica"
+    },
+    {
+      "id": 9,
+      "nome": "Estrutura de Dados Avançada",
+      "descricao": "Árvores, heaps, ordenação e grafos, com referências às Aulas 0, 1 e 2.",
+      "possuiProva": false,
+      "periodoId": 1,
+      "slug": "estrutura_de_dados_avancada"
+    },
+    {
+      "id": 11,
+      "nome": "Projeto de Ideação de Software",
+      "descricao": "Ideação, Lean Canvas, histórias de usuário, navegação, wireframes e Matriz CSD, com cinco aulas.",
+      "possuiProva": false,
+      "periodoId": 1,
+      "slug": "projeto_de_ideacao_de_software"
+    },
+    {
+      "id": 12,
+      "nome": "Sistemas Digitais",
+      "descricao": "Monitor e prática de IA com os materiais disponíveis. Lista e prova ainda não fornecidas.",
+      "possuiProva": true,
+      "periodoId": 6,
+      "slug": "sistemas_digitais"
+    }
+  ],
+  "assuntos": [
+    {
+      "id": 1,
+      "nome": "Fundamentos de probabilidade",
+      "descricao": null,
+      "ordem": 1,
+      "disciplinaId": 1
+    },
+    {
+      "id": 39,
+      "nome": "Apresentação e ementa",
+      "descricao": null,
+      "ordem": 1,
+      "disciplinaId": 9
+    },
+    {
+      "id": 53,
+      "nome": "Introdução ao Design",
+      "descricao": null,
+      "ordem": 1,
+      "disciplinaId": 10
+    },
+    {
+      "id": 62,
+      "nome": "Introdução",
+      "descricao": null,
+      "ordem": 1,
+      "disciplinaId": 11
+    },
+    {
+      "id": 67,
+      "nome": "Sistemas analógicos e digitais",
+      "descricao": null,
+      "ordem": 1,
+      "disciplinaId": 12
+    },
+    {
+      "id": 2,
+      "nome": "Análise combinatória",
+      "descricao": null,
+      "ordem": 2,
+      "disciplinaId": 1
+    },
+    {
+      "id": 40,
+      "nome": "Revisão de estruturas em C",
+      "descricao": null,
+      "ordem": 2,
+      "disciplinaId": 9
+    },
+    {
+      "id": 54,
+      "nome": "Ferramentas visuais",
+      "descricao": null,
+      "ordem": 2,
+      "disciplinaId": 10
+    },
+    {
+      "id": 63,
+      "nome": "Lean Canvas",
+      "descricao": null,
+      "ordem": 2,
+      "disciplinaId": 11
+    },
+    {
+      "id": 68,
+      "nome": "Portas lógicas e circuitos digitais",
+      "descricao": null,
+      "ordem": 2,
+      "disciplinaId": 12
+    },
+    {
+      "id": 3,
+      "nome": "Probabilidade condicional e independência",
+      "descricao": null,
+      "ordem": 3,
+      "disciplinaId": 1
+    },
+    {
+      "id": 41,
+      "nome": "Conceitos de árvores",
+      "descricao": null,
+      "ordem": 3,
+      "disciplinaId": 9
+    },
+    {
+      "id": 55,
+      "nome": "Público-alvo",
+      "descricao": null,
+      "ordem": 3,
+      "disciplinaId": 10
+    },
+    {
+      "id": 64,
+      "nome": "Histórias de Usuário",
+      "descricao": null,
+      "ordem": 3,
+      "disciplinaId": 11
+    },
+    {
+      "id": 69,
+      "nome": "Álgebra booleana",
+      "descricao": null,
+      "ordem": 3,
+      "disciplinaId": 12
+    },
+    {
+      "id": 4,
+      "nome": "Introdução à Estatística e tipos de dados",
+      "descricao": null,
+      "ordem": 4,
+      "disciplinaId": 1
+    },
+    {
+      "id": 42,
+      "nome": "Árvores em Python",
+      "descricao": null,
+      "ordem": 4,
+      "disciplinaId": 9
+    },
+    {
+      "id": 56,
+      "nome": "Comportamento do consumidor",
+      "descricao": null,
+      "ordem": 4,
+      "disciplinaId": 10
+    },
+    {
+      "id": 65,
+      "nome": "Mapa de Navegação e Wireframe",
+      "descricao": null,
+      "ordem": 4,
+      "disciplinaId": 11
+    },
+    {
+      "id": 70,
+      "nome": "Circuitos lógicos",
+      "descricao": null,
+      "ordem": 4,
+      "disciplinaId": 12
+    },
+    {
+      "id": 5,
+      "nome": "Variáveis aleatórias e distribuições",
+      "descricao": null,
+      "ordem": 5,
+      "disciplinaId": 1
+    },
+    {
+      "id": 43,
+      "nome": "Aplicações de árvores",
+      "descricao": null,
+      "ordem": 5,
+      "disciplinaId": 9
+    },
+    {
+      "id": 57,
+      "nome": "Design de interface",
+      "descricao": null,
+      "ordem": 5,
+      "disciplinaId": 10
+    },
+    {
+      "id": 66,
+      "nome": "Matriz CSD",
+      "descricao": null,
+      "ordem": 5,
+      "disciplinaId": 11
+    },
+    {
+      "id": 71,
+      "nome": "Contadores",
+      "descricao": null,
+      "ordem": 5,
+      "disciplinaId": 12
+    },
+    {
+      "id": 6,
+      "nome": "Medidas de tendência central",
+      "descricao": null,
+      "ordem": 6,
+      "disciplinaId": 1
+    },
+    {
+      "id": 44,
+      "nome": "Filas de prioridade e heap",
+      "descricao": null,
+      "ordem": 6,
+      "disciplinaId": 9
+    },
+    {
+      "id": 58,
+      "nome": "Princípios de Design",
+      "descricao": null,
+      "ordem": 6,
+      "disciplinaId": 10
+    },
+    {
+      "id": 72,
+      "nome": "Lógica sequencial - Flip-flops e registradores",
+      "descricao": null,
+      "ordem": 6,
+      "disciplinaId": 12
+    },
+    {
+      "id": 7,
+      "nome": "Medidas de dispersão e posição",
+      "descricao": null,
+      "ordem": 7,
+      "disciplinaId": 1
+    },
+    {
+      "id": 45,
+      "nome": "Árvores binárias de busca",
+      "descricao": null,
+      "ordem": 7,
+      "disciplinaId": 9
+    },
+    {
+      "id": 59,
+      "nome": "Design de interface: diagramação",
+      "descricao": null,
+      "ordem": 7,
+      "disciplinaId": 10
+    },
+    {
+      "id": 73,
+      "nome": "Máquinas de estados finitos",
+      "descricao": null,
+      "ordem": 7,
+      "disciplinaId": 12
+    },
+    {
+      "id": 8,
+      "nome": "Valor esperado e momentos",
+      "descricao": null,
+      "ordem": 8,
+      "disciplinaId": 1
+    },
+    {
+      "id": 46,
+      "nome": "Árvores de decisão",
+      "descricao": null,
+      "ordem": 8,
+      "disciplinaId": 9
+    },
+    {
+      "id": 60,
+      "nome": "Design Thinking",
+      "descricao": null,
+      "ordem": 8,
+      "disciplinaId": 10
+    },
+    {
+      "id": 74,
+      "nome": "Memória ROM",
+      "descricao": null,
+      "ordem": 8,
+      "disciplinaId": 12
+    },
+    {
+      "id": 9,
+      "nome": "Correlação e associação",
+      "descricao": null,
+      "ordem": 9,
+      "disciplinaId": 1
+    },
+    {
+      "id": 47,
+      "nome": "Árvore trie",
+      "descricao": null,
+      "ordem": 9,
+      "disciplinaId": 9
+    },
+    {
+      "id": 61,
+      "nome": "Matriz CSD",
+      "descricao": null,
+      "ordem": 9,
+      "disciplinaId": 10
+    },
+    {
+      "id": 75,
+      "nome": "Memórias - ROM, RAM, FIFO e LIFO",
+      "descricao": null,
+      "ordem": 9,
+      "disciplinaId": 12
+    },
+    {
+      "id": 10,
+      "nome": "Distribuições de frequência",
+      "descricao": null,
+      "ordem": 10,
+      "disciplinaId": 1
+    },
+    {
+      "id": 48,
+      "nome": "Árvores balanceadas e AVL",
+      "descricao": null,
+      "ordem": 10,
+      "disciplinaId": 9
+    },
+    {
+      "id": 76,
+      "nome": "Circuitos lógicos sequenciais",
+      "descricao": null,
+      "ordem": 10,
+      "disciplinaId": 12
+    },
+    {
+      "id": 11,
+      "nome": "Representações gráficas",
+      "descricao": null,
+      "ordem": 11,
+      "disciplinaId": 1
+    },
+    {
+      "id": 49,
+      "nome": "Árvores red-black",
+      "descricao": null,
+      "ordem": 11,
+      "disciplinaId": 9
+    },
+    {
+      "id": 77,
+      "nome": "Introdução à eletrônica digital",
+      "descricao": null,
+      "ordem": 11,
+      "disciplinaId": 12
+    },
+    {
+      "id": 12,
+      "nome": "Planejamento e amostragem",
+      "descricao": null,
+      "ordem": 12,
+      "disciplinaId": 1
+    },
+    {
+      "id": 50,
+      "nome": "Árvore splay",
+      "descricao": null,
+      "ordem": 12,
+      "disciplinaId": 9
+    },
+    {
+      "id": 78,
+      "nome": "Projetos de circuitos sequenciais",
+      "descricao": null,
+      "ordem": 12,
+      "disciplinaId": 12
+    },
+    {
+      "id": 13,
+      "nome": "Reamostragem e bootstrap",
+      "descricao": null,
+      "ordem": 13,
+      "disciplinaId": 1
+    },
+    {
+      "id": 51,
+      "nome": "Algoritmos de ordenação",
+      "descricao": null,
+      "ordem": 13,
+      "disciplinaId": 9
+    },
+    {
+      "id": 14,
+      "nome": "Estimação e intervalos para a média",
+      "descricao": null,
+      "ordem": 14,
+      "disciplinaId": 1
+    },
+    {
+      "id": 52,
+      "nome": "Grafos",
+      "descricao": null,
+      "ordem": 14,
+      "disciplinaId": 9
+    },
+    {
+      "id": 15,
+      "nome": "Distribuição t e intervalos para a média",
+      "descricao": null,
+      "ordem": 15,
+      "disciplinaId": 1
+    },
+    {
+      "id": 16,
+      "nome": "Estimação e intervalos para proporções",
+      "descricao": null,
+      "ordem": 16,
+      "disciplinaId": 1
+    },
+    {
+      "id": 17,
+      "nome": "Qui-quadrado e intervalos para variância",
+      "descricao": null,
+      "ordem": 17,
+      "disciplinaId": 1
+    },
+    {
+      "id": 18,
+      "nome": "Distribuição binomial",
+      "descricao": null,
+      "ordem": 18,
+      "disciplinaId": 1
+    },
+    {
+      "id": 19,
+      "nome": "Distribuição geométrica",
+      "descricao": null,
+      "ordem": 19,
+      "disciplinaId": 1
+    },
+    {
+      "id": 20,
+      "nome": "Distribuição de Poisson",
+      "descricao": null,
+      "ordem": 20,
+      "disciplinaId": 1
+    },
+    {
+      "id": 21,
+      "nome": "Distribuição F e ANOVA",
+      "descricao": null,
+      "ordem": 21,
+      "disciplinaId": 1
+    },
+    {
+      "id": 22,
+      "nome": "Caudas longas e QQ-plot",
+      "descricao": null,
+      "ordem": 22,
+      "disciplinaId": 1
+    },
+    {
+      "id": 23,
+      "nome": "Normal, TCL e aproximação binomial",
+      "descricao": null,
+      "ordem": 23,
+      "disciplinaId": 1
+    },
+    {
+      "id": 24,
+      "nome": "Experimentos e testes de hipóteses",
+      "descricao": null,
+      "ordem": 24,
+      "disciplinaId": 1
+    },
+    {
+      "id": 25,
+      "nome": "Testes Z e t",
+      "descricao": null,
+      "ordem": 25,
+      "disciplinaId": 1
+    },
+    {
+      "id": 26,
+      "nome": "Teste qui-quadrado de independência",
+      "descricao": null,
+      "ordem": 26,
+      "disciplinaId": 1
+    },
+    {
+      "id": 27,
+      "nome": "Permutação e Monte Carlo",
+      "descricao": null,
+      "ordem": 27,
+      "disciplinaId": 1
+    },
+    {
+      "id": 28,
+      "nome": "Regressão linear simples e múltipla",
+      "descricao": null,
+      "ordem": 28,
+      "disciplinaId": 1
+    },
+    {
+      "id": 29,
+      "nome": "Avaliação de regressão",
+      "descricao": null,
+      "ordem": 29,
+      "disciplinaId": 1
+    },
+    {
+      "id": 30,
+      "nome": "Validação cruzada",
+      "descricao": null,
+      "ordem": 30,
+      "disciplinaId": 1
+    },
+    {
+      "id": 31,
+      "nome": "Seleção de modelos e stepwise",
+      "descricao": null,
+      "ordem": 31,
+      "disciplinaId": 1
+    }
+  ],
+  "materiais": [
+    {
+      "id": 23,
+      "disciplinaId": 12,
+      "assuntoId": 69,
+      "titulo": "Álgebra booleana",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 4,
+      "disciplinaId": 9,
+      "assuntoId": null,
+      "titulo": "Aula 0 — Estrutura de Dados Avançada",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 5,
+      "disciplinaId": 9,
+      "assuntoId": null,
+      "titulo": "Aula 1 — Estrutura de Dados Avançada",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 16,
+      "disciplinaId": 11,
+      "assuntoId": 62,
+      "titulo": "Aula 1 — Introdução",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 7,
+      "disciplinaId": 10,
+      "assuntoId": 53,
+      "titulo": "Aula 1 — Introdução ao Design",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 6,
+      "disciplinaId": 9,
+      "assuntoId": null,
+      "titulo": "Aula 2 — Estrutura de Dados Avançada",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 8,
+      "disciplinaId": 10,
+      "assuntoId": 54,
+      "titulo": "Aula 2 — Ferramentas visuais",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 17,
+      "disciplinaId": 11,
+      "assuntoId": 63,
+      "titulo": "Aula 2 — Lean Canvas",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 18,
+      "disciplinaId": 11,
+      "assuntoId": 64,
+      "titulo": "Aula 3 — Histórias de Usuário",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 9,
+      "disciplinaId": 10,
+      "assuntoId": 55,
+      "titulo": "Aula 3 — Público-alvo",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 10,
+      "disciplinaId": 10,
+      "assuntoId": 56,
+      "titulo": "Aula 4 — Comportamento do consumidor",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 19,
+      "disciplinaId": 11,
+      "assuntoId": 65,
+      "titulo": "Aula 4 — Mapa de Navegação e Wireframe",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 11,
+      "disciplinaId": 10,
+      "assuntoId": 57,
+      "titulo": "Aula 5 — Design de interface",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 20,
+      "disciplinaId": 11,
+      "assuntoId": 66,
+      "titulo": "Aula 5 — Matriz CSD",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 12,
+      "disciplinaId": 10,
+      "assuntoId": 58,
+      "titulo": "Aula 6 — Princípios de Design",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 13,
+      "disciplinaId": 10,
+      "assuntoId": 59,
+      "titulo": "Aula 7 — Design de interface: diagramação",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 14,
+      "disciplinaId": 10,
+      "assuntoId": 60,
+      "titulo": "Aula 8 — Design Thinking",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 24,
+      "disciplinaId": 12,
+      "assuntoId": 70,
+      "titulo": "Circuitos lógicos",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 30,
+      "disciplinaId": 12,
+      "assuntoId": 76,
+      "titulo": "Circuitos lógicos sequenciais",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 25,
+      "disciplinaId": 12,
+      "assuntoId": 71,
+      "titulo": "Contadores",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 1,
+      "disciplinaId": 1,
+      "assuntoId": null,
+      "titulo": "estatistica_novo.pdf",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 2,
+      "disciplinaId": 1,
+      "assuntoId": null,
+      "titulo": "Exercissios 1 Unidade.docx",
+      "tipo": "LISTA_EXERCICIOS",
+      "fonteMonitorVirtual": false,
+      "disponivelParaPratica": true,
+      "contemGabarito": true,
+      "autorizacaoProfessor": true,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 31,
+      "disciplinaId": 12,
+      "assuntoId": 77,
+      "titulo": "Introdução à eletrônica digital",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 26,
+      "disciplinaId": 12,
+      "assuntoId": 72,
+      "titulo": "Lógica sequencial - Flip-flops e registradores",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 27,
+      "disciplinaId": 12,
+      "assuntoId": 73,
+      "titulo": "Máquinas de estados finitos",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 15,
+      "disciplinaId": 10,
+      "assuntoId": 61,
+      "titulo": "Material complementar — Matriz CSD",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 28,
+      "disciplinaId": 12,
+      "assuntoId": 74,
+      "titulo": "Memória ROM",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 29,
+      "disciplinaId": 12,
+      "assuntoId": 75,
+      "titulo": "Memórias - ROM, RAM, FIFO e LIFO",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 22,
+      "disciplinaId": 12,
+      "assuntoId": 68,
+      "titulo": "Portas lógicas e circuitos digitais",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 32,
+      "disciplinaId": 12,
+      "assuntoId": 78,
+      "titulo": "Projetos de circuitos sequenciais",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 3,
+      "disciplinaId": 1,
+      "assuntoId": null,
+      "titulo": "prova anterior de estátisitica.pdf",
+      "tipo": "PROVA_ANTIGA",
+      "fonteMonitorVirtual": false,
+      "disponivelParaPratica": true,
+      "contemGabarito": false,
+      "autorizacaoProfessor": true,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 21,
+      "disciplinaId": 12,
+      "assuntoId": 67,
+      "titulo": "Sistemas analógicos e digitais",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    }
+  ]
+}
