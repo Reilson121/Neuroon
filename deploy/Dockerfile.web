@@ -6,6 +6,7 @@ RUN pnpm install --frozen-lockfile
 COPY frontend/index.html frontend/vite.config.js ./
 COPY frontend/src ./src
 COPY frontend/public ./public
+ENV VITE_GUEST_ENABLED=false
 RUN pnpm build
 
 FROM caddy:2-alpine

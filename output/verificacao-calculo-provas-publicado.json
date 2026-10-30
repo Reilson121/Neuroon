@@ -1,0 +1,270 @@
+{
+  "aprovado": true,
+  "checks": [
+    "Interface HTTPS contém os cinco modos de prova de Cálculo e a entrega do simulado",
+    "HTTPS: três práticas consecutivas de fatoração produzem 30 questões distintas",
+    "HTTPS: seleção livre, unidades, final e segunda chamada cobrem todos os assuntos previstos; final corrigida por completo",
+    "Simulado por conteúdos de Design continua disponível no HTTPS",
+    "Índice publicado: 28 tópicos, 43 combinações e 430 questões conferidas; 210 fatorações sem repetir"
+  ],
+  "interface_js": "/assets/index-mvp-3UXw.js",
+  "provas": [
+    {
+      "tipo": "ASSUNTOS",
+      "assuntos": 2,
+      "questoes": 10,
+      "correcoes": 1
+    },
+    {
+      "tipo": "UNIDADE_1",
+      "assuntos": 5,
+      "questoes": 10,
+      "correcoes": 1
+    },
+    {
+      "tipo": "UNIDADE_2",
+      "assuntos": 4,
+      "questoes": 10,
+      "correcoes": 1
+    },
+    {
+      "tipo": "FINAL",
+      "assuntos": 9,
+      "questoes": 10,
+      "correcoes": 10
+    },
+    {
+      "tipo": "SEGUNDA_CHAMADA",
+      "assuntos": 9,
+      "questoes": 10,
+      "correcoes": 1
+    }
+  ],
+  "cobertura_interna": {
+    "topicos": 28,
+    "combinacoes": 43,
+    "questoes_conferidas": 430,
+    "fatoracoes_sem_repetir": 210,
+    "cobertura": [
+      {
+        "topico": "composicao",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "composicao",
+        "tipo": "RACIONAL",
+        "questoes": 10
+      },
+      {
+        "topico": "composicao",
+        "tipo": "RADICAL",
+        "questoes": 10
+      },
+      {
+        "topico": "composicao_valor",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "inversa",
+        "tipo": "AFIM",
+        "questoes": 10
+      },
+      {
+        "topico": "inversa",
+        "tipo": "EXPONENCIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "soma_inversas",
+        "tipo": "AFIM",
+        "questoes": 10
+      },
+      {
+        "topico": "fatoracao",
+        "tipo": "RACIONAL",
+        "questoes": 10
+      },
+      {
+        "topico": "substituicao",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "substituicao",
+        "tipo": "RACIONAL",
+        "questoes": 10
+      },
+      {
+        "topico": "substituicao",
+        "tipo": "RADICAL",
+        "questoes": 10
+      },
+      {
+        "topico": "fatoracao_limite",
+        "tipo": "RACIONAL",
+        "questoes": 10
+      },
+      {
+        "topico": "racionalizacao",
+        "tipo": "RADICAL",
+        "questoes": 10
+      },
+      {
+        "topico": "infinito",
+        "tipo": "RACIONAL",
+        "questoes": 10
+      },
+      {
+        "topico": "infinito_ponto",
+        "tipo": "RACIONAL",
+        "questoes": 10
+      },
+      {
+        "topico": "confronto",
+        "tipo": "TRIGONOMETRICA",
+        "questoes": 10
+      },
+      {
+        "topico": "laterais",
+        "tipo": "POR_PARTES",
+        "questoes": 10
+      },
+      {
+        "topico": "definicao",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "potencia",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "potencia",
+        "tipo": "RADICAL",
+        "questoes": 10
+      },
+      {
+        "topico": "potencia",
+        "tipo": "RACIONAL",
+        "questoes": 10
+      },
+      {
+        "topico": "produto",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "produto",
+        "tipo": "TRIGONOMETRICA",
+        "questoes": 10
+      },
+      {
+        "topico": "produto",
+        "tipo": "EXPONENCIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "quociente",
+        "tipo": "RACIONAL",
+        "questoes": 10
+      },
+      {
+        "topico": "quociente",
+        "tipo": "TRIGONOMETRICA",
+        "questoes": 10
+      },
+      {
+        "topico": "quociente",
+        "tipo": "LOGARITMICA",
+        "questoes": 10
+      },
+      {
+        "topico": "cadeia",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "cadeia",
+        "tipo": "RADICAL",
+        "questoes": 10
+      },
+      {
+        "topico": "cadeia",
+        "tipo": "TRIGONOMETRICA",
+        "questoes": 10
+      },
+      {
+        "topico": "cadeia",
+        "tipo": "EXPONENCIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "cadeia",
+        "tipo": "LOGARITMICA",
+        "questoes": 10
+      },
+      {
+        "topico": "trigonometrica",
+        "tipo": "TRIGONOMETRICA",
+        "questoes": 10
+      },
+      {
+        "topico": "exponencial",
+        "tipo": "EXPONENCIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "logaritmica",
+        "tipo": "LOGARITMICA",
+        "questoes": 10
+      },
+      {
+        "topico": "hiperbolica",
+        "tipo": "HIPERBOLICA",
+        "questoes": 10
+      },
+      {
+        "topico": "implicita",
+        "tipo": "IMPLICITA",
+        "questoes": 10
+      },
+      {
+        "topico": "tangente",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "taxa",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "crescimento",
+        "tipo": "EXPONENCIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "relacionadas",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      },
+      {
+        "topico": "linearizacao",
+        "tipo": "RADICAL",
+        "questoes": 10
+      },
+      {
+        "topico": "diferencial",
+        "tipo": "POLINOMIAL",
+        "questoes": 10
+      }
+    ]
+  },
+  "formatacao_monitor_preservada": true,
+  "conta_temporaria_removida": true,
+  "dados_permanentes_preservados": true,
+  "catalogo_e_indice_preservados": true
+}

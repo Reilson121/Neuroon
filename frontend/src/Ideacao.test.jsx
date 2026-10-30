@@ -33,8 +33,8 @@ it('seleciona Ideação, filtra o assunto e conversa com fontes e histórico pel
  fireEvent.click(screen.getByRole('button',{name:'Enviar pergunta'}));
  expect(await screen.findByText(/O Lean Canvas organiza/)).toBeVisible();
  expect(conversar.mock.calls[0][0]).toMatchObject({disciplinaId:47,assuntoId:91,threadId:null});
- fireEvent.click(screen.getByText('1 fonte consultada'));
- expect(screen.getByRole('link',{name:'Abrir referência F1'})).toHaveAttribute('href','/api/v1/materiais/83/arquivo#page=12');
+ fireEvent.click(screen.getByText('De onde veio esta explicação?'));
+ expect(screen.getByRole('link',{name:/^Abrir material:/})).toHaveAttribute('href','/api/v1/materiais/83/arquivo#page=12');
  expect(requisitar).toHaveBeenCalledWith('/api/v1/monitor/conversas?disciplinaId=47&assuntoId=91',expect.any(Object));
  fireEvent.click(screen.getAllByRole('button',{name:'Praticar'})[0]);
  expect(await screen.findByText('Prática ainda não habilitada')).toBeVisible();

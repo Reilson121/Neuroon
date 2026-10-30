@@ -1,11 +1,12 @@
 """Recuperação de contexto no pgvector, sem chamar o modelo de linguagem."""
 
 import math
+import re
 
 
 # A busca lexical complementa o embedding para definições curtas nos slides.
 DISCIPLINAS_HIBRIDAS = {"design_de_artefatos_digitais", "projeto_de_ideacao_de_software",
-                       "estrutura_de_dados_avancada", "sistemas_digitais"}
+                       "estrutura_de_dados_avancada", "estrutura_de_dados", "sistemas_digitais", "calculo_para_computacao_1", "calculo_para_computacao_2"}
 
 
 class Retriever:
@@ -39,7 +40,15 @@ class Retriever:
             if disciplina.strip() == 'estrutura_de_dados_avancada':
                 from app.rag.ed_avancada_search import expandir_variantes
                 consulta_lexical = expandir_variantes(consulta_lexical)
-            if disciplina.strip() == "projeto_de_ideacao_de_software":
+            if disciplina.strip() == 'calculo_para_computacao_2':
+                from app.rag.integral_search import ordenar_evidencias
+                candidatos=self.store.buscar_hibridos(embedding,consulta_lexical,disciplina.strip(),assunto=filtros['assunto'],k=50)
+                linhas=ordenar_evidencias(candidatos,pergunta,k,assunto)
+            elif disciplina.strip() == 'calculo_para_computacao_1':
+                from app.rag.calculo_search import ordenar_evidencias
+                candidatos=self.store.buscar_hibridos(embedding,consulta_lexical,disciplina.strip(),assunto=filtros['assunto'],k=50)
+                linhas=ordenar_evidencias(candidatos,pergunta,k)
+            elif disciplina.strip() == "projeto_de_ideacao_de_software":
                 from app.rag.ideacao_search import expandir_siglas, ordenar_evidencias
                 consulta_lexical = expandir_siglas(consulta_lexical)
                 candidatos = self.store.buscar_hibridos(
@@ -48,6 +57,12 @@ class Retriever:
                 linhas = ordenar_evidencias(candidatos, pergunta.strip(), k)
             else:
                 linhas = self.store.buscar_hibridos(embedding, consulta_lexical, disciplina.strip(), **filtros)
+            if disciplina.strip()=='calculo_para_computacao_1':
+                questao=re.search(r'quest[aã]o\s+(\d{1,2})\b',pergunta,re.I)
+                if questao and 1<=int(questao[1])<=99 and re.search(r'prova|avalia[çc][aã]o|\bUP1\b',pergunta,re.I):
+                    diretas=self.store.buscar_questao_calculo(embedding,int(questao[1]),**filtros)
+                    ids={r['chunk_id'] for r in diretas}
+                    linhas=[*diretas,*[r for r in linhas if r['chunk_id'] not in ids]][:k]
         else:
             linhas = self.store.buscar_similares(embedding, disciplina.strip(), **filtros)
         resultados = []

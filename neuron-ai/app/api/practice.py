@@ -21,11 +21,17 @@ class PracticeRequest(BaseModel):
     usuario_id: Id
     disciplina_id: Id
     assunto_id: Id | None = None
+    assunto_ids: list[Id] = Field(default_factory=list, max_length=20)
     origem: Literal["LISTA", "PROVA", "MISTO"] = "MISTO"
     modo: Literal["CADASTRADAS", "GERADAS_IA"] = "CADASTRADAS"
     quantidade: int = Field(ge=1, le=10)
     material_ids: list[Id] = Field(max_length=100)
     excluir_fingerprints: list[str] = Field(default_factory=list, max_length=200)
+    tipo_questao: Literal['MISTO','CONCEITUAL','TESTE_MESA','LOGICA','ESTILO_PROFESSOR'] = 'MISTO'
+    nivel_contexto: Literal['DIRETO','COTIDIANO','DETALHADO'] = 'COTIDIANO'
+    unidade_calculo: Literal[0,1,2] = 0
+    topico_calculo: Annotated[str, Field(pattern=r'^[a-z_]{1,40}$|^MISTO$')] = 'MISTO'
+    tipo_funcao: Literal['MISTO','AFIM','POLINOMIAL','RACIONAL','RADICAL','POR_PARTES','TRIGONOMETRICA','EXPONENCIAL','LOGARITMICA','HIPERBOLICA','IMPLICITA'] = 'MISTO'
 
 
 class AnswerRequest(BaseModel):

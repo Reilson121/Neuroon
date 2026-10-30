@@ -1,0 +1,53 @@
+{
+  "periodo": 2,
+  "disciplina": "calculo_para_computacao_1",
+  "materiais": {
+    "43": {
+      "chunks_antes": 0,
+      "chunks_depois": 63,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 63,
+      "inseridos": 63,
+      "vinculos_relacionais_atualizados": 63
+    },
+    "44": {
+      "chunks_antes": 0,
+      "chunks_depois": 300,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 300,
+      "inseridos": 300,
+      "vinculos_relacionais_atualizados": 300
+    },
+    "45": {
+      "chunks_antes": 0,
+      "chunks_depois": 298,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 298,
+      "inseridos": 298,
+      "vinculos_relacionais_atualizados": 298
+    },
+    "46": {
+      "chunks_antes": 0,
+      "chunks_depois": 15,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 15,
+      "inseridos": 15,
+      "vinculos_relacionais_atualizados": 15
+    },
+    "47": {
+      "chunks_antes": 0,
+      "chunks_depois": 2,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 2,
+      "inseridos": 2,
+      "vinculos_relacionais_atualizados": 2
+    }
+  },
+  "chunks": 678,
+  "buscas_conferidas": 9
+}

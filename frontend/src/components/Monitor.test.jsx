@@ -19,7 +19,7 @@ describe('Histórico do Monitor Virtual',()=>{
   render(<Monitor {...props}/>);await pronto();await enviar('Pode explicar de forma mais didática e visual?');
   expect(screen.getByText(/TOPO -> C/).closest('pre')).toBeVisible();
   expect(screen.getByRole('table')).toBeVisible();
-  fireEvent.click(screen.getByText('1 fonte consultada'));expect(screen.getByText('Aula_0.pdf')).toBeVisible();
+  fireEvent.click(screen.getByText('De onde veio esta explicação?'));expect(screen.getByText('Aula_0.pdf')).toBeVisible();
   await enviar('Agora outro exemplo');expect(conversar.mock.calls[1][0].threadId).toBe('c1');
  });
  it('mantém várias perguntas e continua usando a conversa salva',async()=>{
@@ -34,7 +34,7 @@ describe('Histórico do Monitor Virtual',()=>{
   const primeira=render(<Monitor {...props}/>);await pronto();primeira.unmount();render(<Monitor {...props}/>);await pronto();
   fireEvent.click(screen.getByRole('button',{name:/Explique probabilidade/}));
   expect(await screen.findByText('Resposta salva')).toBeVisible();expect(screen.getByText('Pergunta salva')).toBeVisible();
-  fireEvent.click(screen.getByText('1 fonte consultada'));expect(screen.getByText('Aula 1.pdf')).toBeVisible();
+  fireEvent.click(screen.getByText('De onde veio esta explicação?'));expect(screen.getByText('Aula 1.pdf')).toBeVisible();
   fireEvent.click(screen.getByRole('button',{name:'Nova conversa'}));expect(screen.queryByText('Resposta salva')).not.toBeInTheDocument();expect(screen.getByRole('button',{name:/Explique probabilidade/})).toBeVisible();
  });
  it('recupera a pergunta quando o envio falha sem manter resposta incompleta',async()=>{

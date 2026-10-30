@@ -14,3 +14,4 @@ output
 .run-logs
 neuron-ai/materiais_academicos
 deploy/backups
+deploy/access

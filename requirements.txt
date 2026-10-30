@@ -6,3 +6,4 @@ pymupdf
 python-pptx
 langchain-text-splitters
 sentence-transformers
+sympy==1.14.0

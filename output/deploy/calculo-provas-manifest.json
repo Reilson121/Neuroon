@@ -1,0 +1,42 @@
+{
+  "backend/demo/src/main/java/com/Neuron/demo/pratica/PraticaService.java": {
+    "expected": "346b1668a1d6afee99ed31b2246497d5056a0c62ab69810d322d12cb19fc19af",
+    "sha256": "5244ce2a59bb4c89b76a62e6bbe58d8259cb939767bcf911789d4dd327d89109"
+  },
+  "frontend/src/App.jsx": {
+    "expected": "4b8d21963d5cf55781a76ba517ca89d02b11c612b4d2df963cec91fbd238f7fd",
+    "sha256": "83fd0c7450f3b28d655b8857e5340a5eed043e0ed76adebbf57cd653beb88e56"
+  },
+  "frontend/src/hooks/useSessaoPratica.js": {
+    "expected": "4affa921a384dc4e5e30fa398d788ac27d132e73133573172dead226cd3e438f",
+    "sha256": "df9de92519b0870ab24381cc6e8bd39d69509b047c890b070f3e6fd297004acb"
+  },
+  "frontend/src/components/DesignPratica.jsx": {
+    "expected": "676264379ea5d7f4d76224b8d1183ce53cbe5b4f851824404d35e29c09e9ac05",
+    "sha256": "4d91428825578cbeba0843716c72071e77ce84dbea52e6211d9ae8eb436f9ed6"
+  },
+  "frontend/src/components/CalculoFiltros.jsx": {
+    "expected": "82509dfc509d1e28a5ceeb357d69b16aebeb3909b539ff025dcecb4bc82d2cde",
+    "sha256": "9232d478e4dd57ba53916181eee212f382ab3e2d99604ccf951a01dd1ad4c70d"
+  },
+  "frontend/src/components/CalculoPratica.jsx": {
+    "expected": null,
+    "sha256": "a7c83badb45d0a099efc9af302c3e0ebe9f3cfb2da427f5a9d927bd3404c36a8"
+  },
+  "neuron-ai/app/practice/calculo_engine.py": {
+    "expected": "c78a258625b6d9a09f6ce051611c7377555ce32a56989552ff795c2fa40f96aa",
+    "sha256": "58dc16ee63d3549ef51b59bcf70f05753bd14f152c928027fbd15170882f7e60"
+  },
+  "neuron-ai/app/practice/repository.py": {
+    "expected": "35cf0d4cb9198658486a65f47d6852bcd245f75c80a16b54353aba0babe05d36",
+    "sha256": "a5c0bdef318887495ecbd9116e9974b47064f84f79bb08b0cfee3d27159ae4ad"
+  },
+  "neuron-ai/app/practice/service.py": {
+    "expected": "9f294ba6426b9ac83be731fdc25eae156d3e72ff38d643d1b9c5087431a65713",
+    "sha256": "0cce5233325e6aa68b7b409bd76c5c24d3e3897394f0d0389215df10c1aa4845"
+  },
+  "docs/CALCULO_COMPUTACAO_I.md": {
+    "expected": "86e8d9a26c5795cd390d53256ec7785e7ede6e2a25849adb1b9a4a66537d0c88",
+    "sha256": "007a547cf9edfb8b2f03beff42af0c14fbe1ebdeedce9229d0b4425891b00591"
+  }
+}

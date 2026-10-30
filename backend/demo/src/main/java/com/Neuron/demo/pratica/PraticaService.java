@@ -19,8 +19,13 @@ public class PraticaService {
  public enum Origem { LISTA, PROVA, MISTO }
  public enum Modo { CADASTRADAS, GERADAS_IA }
  public enum Alternativa { A, B, C, D, E }
- public record PraticaRequest(@NotNull @Positive Long disciplinaId,@Positive Long assuntoId,Origem origem,Modo modo,@NotNull @Min(1) @Max(10) Integer quantidade,Boolean revisarVistas){
-  public PraticaRequest {if(origem==null)origem=Origem.MISTO;if(modo==null)modo=Modo.CADASTRADAS;if(revisarVistas==null)revisarVistas=false;}
+ public enum TipoQuestao { MISTO, CONCEITUAL, TESTE_MESA, LOGICA, ESTILO_PROFESSOR }
+ public enum NivelContexto { DIRETO, COTIDIANO, DETALHADO }
+ public record PraticaRequest(@NotNull @Positive Long disciplinaId,@Positive Long assuntoId,Origem origem,Modo modo,@NotNull @Min(1) @Max(10) Integer quantidade,Boolean revisarVistas,TipoQuestao tipoQuestao,NivelContexto nivelContexto,@Min(0) @Max(2) Integer unidadeCalculo,@Pattern(regexp="^[a-z_]{1,40}$|^MISTO$") String topicoCalculo,@Pattern(regexp="MISTO|AFIM|POLINOMIAL|RACIONAL|RADICAL|POR_PARTES|TRIGONOMETRICA|EXPONENCIAL|LOGARITMICA|HIPERBOLICA|IMPLICITA") String tipoFuncao,@Size(max=20) List<@NotNull @Positive Long> assuntoIds){
+  public PraticaRequest(Long disciplinaId,Long assuntoId,Origem origem,Modo modo,Integer quantidade,Boolean revisarVistas,TipoQuestao tipoQuestao,NivelContexto nivelContexto,Integer unidadeCalculo,String topicoCalculo,String tipoFuncao){this(disciplinaId,assuntoId,origem,modo,quantidade,revisarVistas,tipoQuestao,nivelContexto,unidadeCalculo,topicoCalculo,tipoFuncao,List.of());}
+  public PraticaRequest(Long disciplinaId,Long assuntoId,Origem origem,Modo modo,Integer quantidade,Boolean revisarVistas,TipoQuestao tipoQuestao,NivelContexto nivelContexto){this(disciplinaId,assuntoId,origem,modo,quantidade,revisarVistas,tipoQuestao,nivelContexto,0,"MISTO","MISTO");}
+  public PraticaRequest(Long disciplinaId,Long assuntoId,Origem origem,Modo modo,Integer quantidade,Boolean revisarVistas){this(disciplinaId,assuntoId,origem,modo,quantidade,revisarVistas,TipoQuestao.MISTO,NivelContexto.COTIDIANO);}
+  public PraticaRequest {if(origem==null)origem=Origem.MISTO;if(modo==null)modo=Modo.CADASTRADAS;if(revisarVistas==null)revisarVistas=false;if(tipoQuestao==null)tipoQuestao=TipoQuestao.MISTO;if(nivelContexto==null)nivelContexto=NivelContexto.COTIDIANO;if(unidadeCalculo==null)unidadeCalculo=0;if(topicoCalculo==null)topicoCalculo="MISTO";if(tipoFuncao==null)tipoFuncao="MISTO";assuntoIds=assuntoIds==null?List.of():List.copyOf(assuntoIds);}
  }
  public record RespostaRequest(@NotBlank @Size(max=80) String questaoId,@NotNull Alternativa alternativa){}
  public record FonteResponse(Long materialId,String tituloMaterial,String arquivo,Integer pagina,String numeroQuestao){}
@@ -51,7 +56,10 @@ public class PraticaService {
    var ids=new HashSet<Long>();
    for(var m:materiais.findByDisciplinaIdAndAtivoTrueOrderByTituloAsc(d.getId())){
     if(m.getAssunto()!=null && !m.getAssunto().isAtivo())continue;
-    boolean teoria=modo==Modo.GERADAS_IA && origem==Origem.MISTO && "sistemas_digitais".equals(d.getSlug()) && m.isAtivo() && m.getTipo()==TipoMaterial.SLIDE_AULA && m.isFonteMonitorVirtual();
+    boolean calculo=("calculo_para_computacao_1".equals(d.getSlug()) && d.getPeriodo().getNumero()==2 || "calculo_para_computacao_2".equals(d.getSlug()) && d.getPeriodo().getNumero()==3);
+    boolean tipoTeoria=calculo ? Set.of(TipoMaterial.TRECHO_LIVRO,TipoMaterial.RESUMO).contains(m.getTipo()) : m.getTipo()==TipoMaterial.SLIDE_AULA;
+    boolean avancadaOuDesign=("estrutura_de_dados_avancada".equals(d.getSlug()) || "design_de_artefatos_digitais".equals(d.getSlug())) && d.getPeriodo().getNumero()==3;
+    boolean teoria=modo==Modo.GERADAS_IA && origem==Origem.MISTO && (calculo || avancadaOuDesign || "sistemas_digitais".equals(d.getSlug()) || "estrutura_de_dados".equals(d.getSlug()) && d.getPeriodo().getNumero()==2) && m.isAtivo() && tipoTeoria && m.isFonteMonitorVirtual();
     if((m.podeSerPratica() || teoria) && m.assuntoPertenceADisciplina() && (assuntoId==null || m.getAssunto()==null || assuntoId.equals(m.getAssunto().getId())) &&
        (origem==Origem.MISTO || origem==Origem.LISTA && m.getTipo()==TipoMaterial.LISTA_EXERCICIOS || origem==Origem.PROVA && m.getTipo()==TipoMaterial.PROVA_ANTIGA))ids.add(m.getId());
    }
@@ -59,11 +67,24 @@ public class PraticaService {
   });
  }
  public SessaoResponse iniciarSessao(PraticaRequest r,Authentication auth){
+  if(!r.assuntoIds().isEmpty())leitura.execute(status -> {
+   var d=catalogo.exigirDisciplina(r.disciplinaId());
+   boolean design="design_de_artefatos_digitais".equals(d.getSlug()) && d.getPeriodo().getNumero()==3;
+   boolean calculo=("calculo_para_computacao_1".equals(d.getSlug()) && d.getPeriodo().getNumero()==2 || "calculo_para_computacao_2".equals(d.getSlug()) && d.getPeriodo().getNumero()==3);
+   if(!(design || calculo) || r.modo()!=Modo.GERADAS_IA || r.origem()!=Origem.MISTO || r.assuntoId()!=null)
+    throw new ErroNegocio(400,"SELECAO_INVALIDA","A seleção de vários conteúdos está disponível nos simulados de Design e Cálculo.");
+   if(new HashSet<>(r.assuntoIds()).size()!=r.assuntoIds().size() || r.quantidade()<r.assuntoIds().size())
+    throw new ErroNegocio(400,"QUANTIDADE_INSUFICIENTE","Selecione conteúdos distintos e ao menos uma questão por conteúdo.");
+   r.assuntoIds().forEach(a -> catalogo.exigirAssunto(a,r.disciplinaId()));return null;
+  });
   var entrada=validar(r.disciplinaId(),r.assuntoId(),r.origem(),r.modo(),auth);limite.exigir(entrada.usuario(),"pratica_iniciar");
   UUID id=UUID.randomUUID();
   if(entrada.materiais().isEmpty())return new SessaoResponse(id,List.of(),"SEM_QUESTOES","Não há materiais autorizados e disponíveis para prática nesta seleção.");
   limparExpiradas();if(sessoes.size()>=capacidade)throw new ErroNegocio(429,"LIMITE_SESSOES","Aguarde antes de iniciar outra prática.");
   Map<String,Object> req=new HashMap<>();req.put("sessao_id",id.toString());req.put("usuario_id",entrada.usuario());req.put("disciplina_id",r.disciplinaId());req.put("assunto_id",r.assuntoId());req.put("origem",r.origem().name());req.put("modo",r.modo().name());req.put("quantidade",r.quantidade());req.put("material_ids",entrada.materiais());
+  req.put("tipo_questao",r.tipoQuestao().name());req.put("nivel_contexto",r.nivelContexto().name());
+  req.put("assunto_ids",r.assuntoIds());
+  req.put("unidade_calculo",r.unidadeCalculo());req.put("topico_calculo",r.topicoCalculo());req.put("tipo_funcao",r.tipoFuncao());
   Deque<String> vistas=recentes.computeIfAbsent(entrada.usuario(),k -> new ArrayDeque<>());
   synchronized(vistas){req.put("excluir_fingerprints",r.revisarVistas()?List.of():List.copyOf(vistas));}
   var resultado=ai.montarQuestoes(req);Object lista=resultado.get("questoes");

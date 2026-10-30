@@ -2,8 +2,9 @@ import {useCallback,useEffect,useRef,useState} from 'react';
 import {requisitar} from '../api.js';
 
 // Uma resposta só pode atualizar a seleção que originou sua requisição.
-export default function useSessaoPratica({disciplinaId,assuntoId,habilitada,modo,origem,quantidade}){
- const chave=JSON.stringify([disciplinaId,assuntoId??null,habilitada,modo,origem,quantidade]);
+export default function useSessaoPratica({disciplinaId,assuntoId,assuntoIds,habilitada,modo,origem,quantidade,tipoQuestao,nivelContexto,unidadeCalculo,topicoCalculo,tipoFuncao,chaveAtividade}){
+ const selecao=JSON.stringify(assuntoIds||[]);
+ const chave=JSON.stringify([disciplinaId,assuntoId??null,selecao,habilitada,modo,origem,quantidade,tipoQuestao,nivelContexto,unidadeCalculo,topicoCalculo,tipoFuncao,chaveAtividade]);
  const [estado,setEstado]=useState({chave,sessao:null,busy:false,erro:''});
  const sequencia=useRef(0),pendente=useRef(null);
  useEffect(()=>{
@@ -19,7 +20,7 @@ export default function useSessaoPratica({disciplinaId,assuntoId,habilitada,modo
   try{
    const sessao=await requisitar('/api/v1/pratica/sessoes',{
     method:'POST',signal:controller.signal,
-    body:{disciplinaId,assuntoId:assuntoId??null,modo,origem,quantidade,revisarVistas},
+    body:{disciplinaId,assuntoId:assuntoId??null,...(assuntoIds?{assuntoIds:JSON.parse(selecao)}:{}),modo,origem,quantidade,revisarVistas,...(tipoQuestao?{tipoQuestao,nivelContexto}:{}),...(unidadeCalculo!==undefined?{unidadeCalculo,topicoCalculo,tipoFuncao}:{})},
    });
    if(seq===sequencia.current&&!controller.signal.aborted)setEstado({chave,sessao,busy:false,erro:''});
   }catch(e){
@@ -27,6 +28,6 @@ export default function useSessaoPratica({disciplinaId,assuntoId,habilitada,modo
   }finally{
    if(seq===sequencia.current)pendente.current=null;
   }
- },[chave,disciplinaId,assuntoId,habilitada,modo,origem,quantidade]);
+ },[chave,selecao,disciplinaId,assuntoId,habilitada,modo,origem,quantidade,tipoQuestao,nivelContexto,unidadeCalculo,topicoCalculo,tipoFuncao]);
  return {...(estado.chave===chave?estado:{sessao:null,busy:false,erro:''}),iniciar};
 }

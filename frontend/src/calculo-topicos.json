@@ -1,0 +1,297 @@
+[
+  {
+    "id": "composicao",
+    "assunto": "funcoes_compostas",
+    "assuntoOrdem": 1,
+    "unidade": 1,
+    "nome": "Composição de funções",
+    "tipos": [
+      "POLINOMIAL",
+      "RACIONAL",
+      "RADICAL"
+    ]
+  },
+  {
+    "id": "composicao_valor",
+    "assunto": "funcoes_compostas",
+    "assuntoOrdem": 1,
+    "unidade": 1,
+    "nome": "Valor numérico da composição",
+    "tipos": [
+      "POLINOMIAL"
+    ]
+  },
+  {
+    "id": "inversa",
+    "assunto": "funcoes_inversas",
+    "assuntoOrdem": 2,
+    "unidade": 1,
+    "nome": "Cálculo da inversa",
+    "tipos": [
+      "AFIM",
+      "EXPONENCIAL"
+    ]
+  },
+  {
+    "id": "soma_inversas",
+    "assunto": "funcoes_inversas",
+    "assuntoOrdem": 2,
+    "unidade": 1,
+    "nome": "Soma de funções inversas",
+    "tipos": [
+      "AFIM"
+    ]
+  },
+  {
+    "id": "fatoracao",
+    "assunto": "simplificacao_algebrica",
+    "assuntoOrdem": 3,
+    "unidade": 1,
+    "nome": "Fatoração e simplificação",
+    "tipos": [
+      "RACIONAL"
+    ]
+  },
+  {
+    "id": "substituicao",
+    "assunto": "limites",
+    "assuntoOrdem": 4,
+    "unidade": 1,
+    "nome": "Limites por substituição",
+    "tipos": [
+      "POLINOMIAL",
+      "RACIONAL",
+      "RADICAL"
+    ]
+  },
+  {
+    "id": "fatoracao_limite",
+    "assunto": "limites",
+    "assuntoOrdem": 4,
+    "unidade": 1,
+    "nome": "Indeterminação 0/0 por fatoração",
+    "tipos": [
+      "RACIONAL"
+    ]
+  },
+  {
+    "id": "racionalizacao",
+    "assunto": "limites",
+    "assuntoOrdem": 4,
+    "unidade": 1,
+    "nome": "Indeterminação 0/0 por racionalização",
+    "tipos": [
+      "RADICAL"
+    ]
+  },
+  {
+    "id": "infinito",
+    "assunto": "limites",
+    "assuntoOrdem": 4,
+    "unidade": 1,
+    "nome": "Limites no infinito",
+    "tipos": [
+      "RACIONAL"
+    ]
+  },
+  {
+    "id": "infinito_ponto",
+    "assunto": "limites",
+    "assuntoOrdem": 4,
+    "unidade": 1,
+    "nome": "Limite infinito em um ponto",
+    "tipos": [
+      "RACIONAL"
+    ]
+  },
+  {
+    "id": "confronto",
+    "assunto": "limites",
+    "assuntoOrdem": 4,
+    "unidade": 1,
+    "nome": "Teorema do confronto",
+    "tipos": [
+      "TRIGONOMETRICA"
+    ]
+  },
+  {
+    "id": "laterais",
+    "assunto": "continuidade",
+    "assuntoOrdem": 5,
+    "unidade": 1,
+    "nome": "Limites laterais e continuidade",
+    "tipos": [
+      "POR_PARTES"
+    ]
+  },
+  {
+    "id": "definicao",
+    "assunto": "derivada_definicao",
+    "assuntoOrdem": 6,
+    "unidade": 2,
+    "nome": "Derivada pela definição",
+    "tipos": [
+      "POLINOMIAL"
+    ]
+  },
+  {
+    "id": "potencia",
+    "assunto": "regras_derivacao",
+    "assuntoOrdem": 7,
+    "unidade": 2,
+    "nome": "Constante, potência, soma e subtração",
+    "tipos": [
+      "POLINOMIAL",
+      "RADICAL",
+      "RACIONAL"
+    ]
+  },
+  {
+    "id": "produto",
+    "assunto": "regras_derivacao",
+    "assuntoOrdem": 7,
+    "unidade": 2,
+    "nome": "Regra do produto",
+    "tipos": [
+      "POLINOMIAL",
+      "TRIGONOMETRICA",
+      "EXPONENCIAL"
+    ]
+  },
+  {
+    "id": "quociente",
+    "assunto": "regras_derivacao",
+    "assuntoOrdem": 7,
+    "unidade": 2,
+    "nome": "Regra do quociente",
+    "tipos": [
+      "RACIONAL",
+      "TRIGONOMETRICA",
+      "LOGARITMICA"
+    ]
+  },
+  {
+    "id": "cadeia",
+    "assunto": "regras_derivacao",
+    "assuntoOrdem": 7,
+    "unidade": 2,
+    "nome": "Regra da cadeia",
+    "tipos": [
+      "POLINOMIAL",
+      "RADICAL",
+      "TRIGONOMETRICA",
+      "EXPONENCIAL",
+      "LOGARITMICA"
+    ]
+  },
+  {
+    "id": "trigonometrica",
+    "assunto": "regras_derivacao",
+    "assuntoOrdem": 7,
+    "unidade": 2,
+    "nome": "Derivadas trigonométricas",
+    "tipos": [
+      "TRIGONOMETRICA"
+    ]
+  },
+  {
+    "id": "exponencial",
+    "assunto": "regras_derivacao",
+    "assuntoOrdem": 7,
+    "unidade": 2,
+    "nome": "Derivadas exponenciais",
+    "tipos": [
+      "EXPONENCIAL"
+    ]
+  },
+  {
+    "id": "logaritmica",
+    "assunto": "regras_derivacao",
+    "assuntoOrdem": 7,
+    "unidade": 2,
+    "nome": "Derivadas logarítmicas",
+    "tipos": [
+      "LOGARITMICA"
+    ]
+  },
+  {
+    "id": "hiperbolica",
+    "assunto": "regras_derivacao",
+    "assuntoOrdem": 7,
+    "unidade": 2,
+    "nome": "Derivadas hiperbólicas",
+    "tipos": [
+      "HIPERBOLICA"
+    ]
+  },
+  {
+    "id": "implicita",
+    "assunto": "derivacao_implicita",
+    "assuntoOrdem": 8,
+    "unidade": 2,
+    "nome": "Derivação implícita",
+    "tipos": [
+      "IMPLICITA"
+    ]
+  },
+  {
+    "id": "tangente",
+    "assunto": "aplicacoes_derivada",
+    "assuntoOrdem": 9,
+    "unidade": 2,
+    "nome": "Reta tangente",
+    "tipos": [
+      "POLINOMIAL"
+    ]
+  },
+  {
+    "id": "taxa",
+    "assunto": "aplicacoes_derivada",
+    "assuntoOrdem": 9,
+    "unidade": 2,
+    "nome": "Taxa de variação instantânea",
+    "tipos": [
+      "POLINOMIAL"
+    ]
+  },
+  {
+    "id": "crescimento",
+    "assunto": "aplicacoes_derivada",
+    "assuntoOrdem": 9,
+    "unidade": 2,
+    "nome": "Crescimento e decaimento exponencial",
+    "tipos": [
+      "EXPONENCIAL"
+    ]
+  },
+  {
+    "id": "relacionadas",
+    "assunto": "aplicacoes_derivada",
+    "assuntoOrdem": 9,
+    "unidade": 2,
+    "nome": "Taxas relacionadas",
+    "tipos": [
+      "POLINOMIAL"
+    ]
+  },
+  {
+    "id": "linearizacao",
+    "assunto": "aplicacoes_derivada",
+    "assuntoOrdem": 9,
+    "unidade": 2,
+    "nome": "Aproximação linear",
+    "tipos": [
+      "RADICAL"
+    ]
+  },
+  {
+    "id": "diferencial",
+    "assunto": "aplicacoes_derivada",
+    "assuntoOrdem": 9,
+    "unidade": 2,
+    "nome": "Diferenciais",
+    "tipos": [
+      "POLINOMIAL"
+    ]
+  }
+]

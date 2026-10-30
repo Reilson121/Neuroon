@@ -92,6 +92,26 @@ class MonitorVirtualTest(unittest.TestCase):
         self.assertEqual(resultado["motivo"], "formato_invalido")
         self.assertEqual(resultado["fontes"], [])
 
+    def test_preserva_fracao_latex_e_fonte_no_mesmo_paragrafo(self):
+        texto = r"Portanto, $\lim_{x \to 1} \dfrac{x^2 - 1}{x - 1} = 2$. [F1]"
+        self.gerar.return_value = json.dumps({"suficiente": True, "resposta": texto})
+        resultado = self.monitor.responder("Explique esse limite", "calculo_para_computacao_1")
+        self.assertFalse(resultado["fallback"])
+        self.assertEqual(resultado["resposta"], texto)
+        sistema = self.gerar.call_args.args[0].to_messages()[0].content
+        self.assertIn(r"\dfrac{x^2 - 1}{x - 1}", sistema)
+        self.assertIn("escape cada barra invertida", sistema)
+
+    def test_fracao_destacada_conta_como_formula_ao_remover_bloco_sem_fonte(self):
+        self.gerar.return_value = json.dumps({
+            "suficiente": True,
+            "resposta": r"A razão é $\dfrac{a}{b}$. [F1]" + "\n\nObservação sem referência.",
+        })
+        resultado = self.monitor.responder("Qual é a fórmula?", "estatistica")
+        self.assertFalse(resultado["fallback"])
+        self.assertIn(r"\dfrac{a}{b}", resultado["resposta"])
+        self.assertEqual(resultado["blocos_sem_fonte_removidos"], 1)
+
     def test_falha_de_infraestrutura_nao_vira_falta_de_contexto(self):
         self.gerar.side_effect = RuntimeError("Serviço indisponível")
         with self.assertRaises(RuntimeError):

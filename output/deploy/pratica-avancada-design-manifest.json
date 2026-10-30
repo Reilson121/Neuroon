@@ -1,0 +1,22 @@
+{
+  "backend/demo/src/main/java/com/Neuron/demo/pratica/PraticaService.java": "346b1668a1d6afee99ed31b2246497d5056a0c62ab69810d322d12cb19fc19af",
+  "backend/demo/src/main/resources/db/migration/V12__pratica_ed_avancada_design.sql": "0637d955c21685c3bc03413bd4848d260863724a34d297bc45d345de5d477a73",
+  "frontend/src/App.jsx": "4b8d21963d5cf55781a76ba517ca89d02b11c612b4d2df963cec91fbd238f7fd",
+  "frontend/src/hooks/useSessaoPratica.js": "4affa921a384dc4e5e30fa398d788ac27d132e73133573172dead226cd3e438f",
+  "frontend/src/components/DesignPratica.jsx": "676264379ea5d7f4d76224b8d1183ce53cbe5b4f851824404d35e29c09e9ac05",
+  "frontend/src/style.css": "b06d572d3e77853077992711525a3f8e1d5255265ce07938b6b7c831eca9f61e",
+  "frontend/package.json": "24934be0721da3ca3b000586c72136cfe0a0f8604fddf4055f5133406d385910",
+  "frontend/pnpm-lock.yaml": "d793242c58989be4e6d4208188f652d27af6a712c992d2151e6748dc82269932",
+  "frontend/src/components/Texto.jsx": "3c3e48fc354c3ba6ad54ff318f53a43f9fa2ab8c855af05bc439267e880c1f33",
+  "frontend/src/components/Texto.css": "7ea1f423a0b7b897e982201486f9bfb5e1cbacf29e8628fe820d918199eaa77d",
+  "frontend/src/components/Monitor.jsx": "339485971056e1ae1dbf61fa3a1b5a6cd952c0f075a9e4b6fa16e3fa17e313c1",
+  "neuron-ai/app/api/practice.py": "7e7567b1cda63d7f3aa58c9227a69e5cea03a3bfa659e0efee610f10db91769b",
+  "neuron-ai/app/practice/math_engine.py": "5fabefd2a2db59953b42997c64dd133019822671ebeccb544184cbac9a8bc037",
+  "neuron-ai/app/practice/repository.py": "35cf0d4cb9198658486a65f47d6852bcd245f75c80a16b54353aba0babe05d36",
+  "neuron-ai/app/practice/service.py": "9f294ba6426b9ac83be731fdc25eae156d3e72ff38d643d1b9c5087431a65713",
+  "neuron-ai/app/practice/curated_engine.py": "3bcc7e4da6eb43328172744a2a6de5cb94d0a8948e633c2540d962896e7ef0e2",
+  "neuron-ai/app/practice/design_bank.py": "a08e0a57e691e6938d95ff67e1f59f03980a252ff6e8d6513279ec9d46dff0e2",
+  "neuron-ai/app/practice/design_engine.py": "9c4eac877a5bcdb4f976902c9392598f4ca3474dc1c843eb4f76be77616d21ab",
+  "neuron-ai/app/practice/ed_avancada_engine.py": "bd968a396af1e3abdcb123929018481ce7c4e9e8df4142620971ca28c1816122",
+  "docs/PRATICA_ED_AVANCADA_DESIGN.md": "934239b3fc2c1b97c5eefc22f47f75dbf6700859d66c6240ce04c115ce498a56"
+}

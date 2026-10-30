@@ -1,0 +1,594 @@
+{
+  "periodo": 2,
+  "topicos_conferidos": 28,
+  "amostras": [
+    {
+      "topico": "composicao",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 43,
+          "titulo_material": "01 Função Composta e Inversa",
+          "arquivo": "01 Função Composta e Inversa.pdf",
+          "pagina": 9,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "composicao_valor",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 43,
+          "titulo_material": "01 Função Composta e Inversa",
+          "arquivo": "01 Função Composta e Inversa.pdf",
+          "pagina": 4,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "inversa",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 43,
+          "titulo_material": "01 Função Composta e Inversa",
+          "arquivo": "01 Função Composta e Inversa.pdf",
+          "pagina": 25,
+          "numero_questao": null
+        }
+      ],
+      "passos": 6
+    },
+    {
+      "topico": "soma_inversas",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 43,
+          "titulo_material": "01 Função Composta e Inversa",
+          "arquivo": "01 Função Composta e Inversa.pdf",
+          "pagina": 21,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "fatoracao",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 46,
+          "titulo_material": "prova_calculo_transcrita",
+          "arquivo": "prova_calculo_transcrita.pdf",
+          "pagina": 1,
+          "numero_questao": null
+        }
+      ],
+      "passos": 4
+    },
+    {
+      "topico": "substituicao",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 44,
+          "titulo_material": "02 Limites e Derivadas",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 17,
+          "numero_questao": null
+        }
+      ],
+      "passos": 4
+    },
+    {
+      "topico": "fatoracao_limite",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 44,
+          "titulo_material": "02 Limites e Derivadas",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 22,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "racionalizacao",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 44,
+          "titulo_material": "02 Limites e Derivadas",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 22,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "infinito",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 44,
+          "titulo_material": "02 Limites e Derivadas",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 49,
+          "numero_questao": null
+        }
+      ],
+      "passos": 4
+    },
+    {
+      "topico": "infinito_ponto",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 44,
+          "titulo_material": "02 Limites e Derivadas",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 10,
+          "numero_questao": null
+        }
+      ],
+      "passos": 4
+    },
+    {
+      "topico": "confronto",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 44,
+          "titulo_material": "02 Limites e Derivadas",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 25,
+          "numero_questao": null
+        }
+      ],
+      "passos": 4
+    },
+    {
+      "topico": "laterais",
+      "unidade": 1,
+      "fontes": [
+        {
+          "material_id": 44,
+          "titulo_material": "02 Limites e Derivadas",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 38,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "definicao",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 44,
+          "titulo_material": "02 Limites e Derivadas",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 59,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "potencia",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 5,
+          "numero_questao": null
+        }
+      ],
+      "passos": 7
+    },
+    {
+      "topico": "produto",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 14,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "quociente",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 14,
+          "numero_questao": null
+        }
+      ],
+      "passos": 6
+    },
+    {
+      "topico": "cadeia",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 28,
+          "numero_questao": null
+        }
+      ],
+      "passos": 6
+    },
+    {
+      "topico": "trigonometrica",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 17,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "exponencial",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 7,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "logaritmica",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 43,
+          "numero_questao": null
+        }
+      ],
+      "passos": 6
+    },
+    {
+      "topico": "hiperbolica",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 78,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "implicita",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 33,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "tangente",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 44,
+          "titulo_material": "02 Limites e Derivadas",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 58,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "taxa",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 46,
+          "numero_questao": null
+        }
+      ],
+      "passos": 4
+    },
+    {
+      "topico": "crescimento",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 57,
+          "numero_questao": null
+        }
+      ],
+      "passos": 4
+    },
+    {
+      "topico": "relacionadas",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 66,
+          "numero_questao": null
+        }
+      ],
+      "passos": 4
+    },
+    {
+      "topico": "linearizacao",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 73,
+          "numero_questao": null
+        }
+      ],
+      "passos": 5
+    },
+    {
+      "topico": "diferencial",
+      "unidade": 2,
+      "fontes": [
+        {
+          "material_id": 45,
+          "titulo_material": "03 regras de derivação",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 72,
+          "numero_questao": null
+        }
+      ],
+      "passos": 4
+    }
+  ],
+  "monitor": [
+    {
+      "pergunta": "Explique a regra da cadeia e indique a tabela de apoio.",
+      "resposta": "A regra da cadeia é usada para derivar funções compostas. Se h(x) = f(g(x)), então h'(x) = f'(g(x)) · g'(x). [F1] Em outras palavras, deriva-se a função de fora, mantém-se a função de dentro e multiplica-se pela derivada da função de dentro. [F5] Essa regra pode ser aplicada em cadeias maiores, como y = f(u), u = g(x) e x = h(t), resultando em dy/dt = dy/du · du/dx · dx/dt. [F4] A tabela de apoio é a \"Tabela de Derivadas do Prof. Douglas Maioli\", que lista as derivadas básicas e as regras de derivação, incluindo a própria regra da cadeia. [F1]",
+      "fontes": [
+        {
+          "unidade": 2,
+          "assunto_id": 94,
+          "pdf_sha256": "7059ab78da0f13efee2b19427ecc76be16876cac4c6c07a64d954bd5fa8bcdd6",
+          "periodo_id": 6,
+          "material_id": 47,
+          "disciplina_id": 14,
+          "tipo_material": "RESUMO",
+          "metodo_preparo": "transcricao_conferida_visualmente",
+          "titulo_material": "Tabela de Derivadas do Prof. Douglas Maioli",
+          "chunk_caracteres": 616,
+          "total_chunks_pagina": 1,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "transcricao_conferida": true,
+          "disponivel_para_pratica": false,
+          "chunk_id": "9479becd59184e2fd13fc050",
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "assunto": "regras_derivacao",
+          "aula": null,
+          "arquivo": "Tabela de Derivadas do Prof. Douglas Maioli.pdf",
+          "pagina": 1,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "referencia": "F1",
+          "similaridade": 0.4768409559286497
+        },
+        {
+          "unidade": 2,
+          "assunto_id": 94,
+          "pdf_sha256": "0ccb80cf39f2bb90d444affd7abe01eee7c2fc5ff1f71d1c02241263a23630d0",
+          "periodo_id": 6,
+          "material_id": 45,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "03 regras de derivação",
+          "chunk_caracteres": 990,
+          "total_chunks_pagina": 3,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "chunk_id": "e8193ce5cc21865d361a0897",
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "assunto": "regras_derivacao",
+          "aula": null,
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 25,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 2,
+          "referencia": "F5",
+          "similaridade": 0.40718997185140615
+        },
+        {
+          "unidade": 2,
+          "assunto_id": 94,
+          "pdf_sha256": "0ccb80cf39f2bb90d444affd7abe01eee7c2fc5ff1f71d1c02241263a23630d0",
+          "periodo_id": 6,
+          "material_id": 45,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "03 regras de derivação",
+          "chunk_caracteres": 935,
+          "total_chunks_pagina": 3,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "chunk_id": "b6c21feceaa98f7f07ae7180",
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "assunto": "regras_derivacao",
+          "aula": null,
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 27,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 2,
+          "referencia": "F4",
+          "similaridade": 0.4218355165818093
+        }
+      ],
+      "fallback": false,
+      "motivo": null,
+      "blocos_sem_fonte_removidos": 0,
+      "reformulacoes": 0
+    },
+    {
+      "pergunta": "Como se calcula a função inversa?",
+      "resposta": "Para calcular a função inversa, o material apresenta uma regra prática em dois passos: [F1]\n\n1. **Permutar as variáveis**: trocar x por y e y por x na sentença que define a função. [F1]\n2. **Expressar y em função de x**: isolar y na equação obtida, respeitando as restrições de domínio e imagem. [F1]\n\nAlém disso, é importante lembrar que a função precisa ser bijetora para ter inversa, e que o domínio da inversa é a imagem da função original, e a imagem da inversa é o domínio da original. [F1]\n\n**Exemplo didático criado pela IA** (baseado no conceito de [F1]):\n\nPara f(x) = 2x - 1, escrevemos y = 2x - 1. Permutando: x = 2y - 1. Isolando y: y = (x + 1)/2. Portanto, f⁻¹(x) = (x + 1)/2. [F1]",
+      "fontes": [
+        {
+          "unidade": 1,
+          "assunto_id": 89,
+          "pdf_sha256": "125282c95efe26c7b159f4466554914bb733b9543af8385f2e2d7bab46623266",
+          "periodo_id": 6,
+          "material_id": 43,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "01 Função Composta e Inversa",
+          "chunk_caracteres": 946,
+          "total_chunks_pagina": 2,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "chunk_id": "61a5cbe04b38a50b81b0ecf5",
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "assunto": "funcoes_inversas",
+          "aula": null,
+          "arquivo": "01 Função Composta e Inversa.pdf",
+          "pagina": 23,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "referencia": "F1",
+          "similaridade": 0.6142566570196544
+        }
+      ],
+      "fallback": false,
+      "motivo": null,
+      "blocos_sem_fonte_removidos": 1,
+      "reformulacoes": 0
+    },
+    {
+      "pergunta": "O que a questão 8 da prova informa sobre continuidade em x = 1?",
+      "resposta": "A questão 8 da prova, item A, pede para verificar se a função definida por f(x) = (x² − 1)/(x − 1), para x ≠ 1, é contínua em x = 1. [F1] A transcrição não informa o valor de f(1), condição necessária para aplicar a definição de continuidade, que exige que f(a) esteja definida, que o limite exista e que ambos sejam iguais. [F4] Portanto, com os dados fornecidos, não é possível concluir a continuidade em x = 1, pois falta o valor da função nesse ponto. [F1]",
+      "fontes": [
+        {
+          "unidade": 1,
+          "assunto_id": 92,
+          "pdf_sha256": "c5b398d113be964625a5599facd58abc156704e8def51ffed0b2ab36f76cd650",
+          "periodo_id": 6,
+          "material_id": 46,
+          "disciplina_id": 14,
+          "tipo_material": "PROVA_ANTIGA",
+          "titulo_material": "prova_calculo_transcrita",
+          "chunk_caracteres": 628,
+          "total_chunks_pagina": 1,
+          "autorizacao_professor": true,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": true,
+          "chunk_id": "3de10b82446ac5c1d877fc5d",
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "assunto": "continuidade",
+          "aula": null,
+          "arquivo": "prova_calculo_transcrita.pdf",
+          "pagina": 2,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "referencia": "F1",
+          "similaridade": 0.45220921791223845
+        },
+        {
+          "unidade": 1,
+          "assunto_id": 92,
+          "pdf_sha256": "35b6f6006b7ecd586287b57a2abf58825c7dc2e87b49ec88c7e5ccbfff7e85ca",
+          "periodo_id": 6,
+          "material_id": 44,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "02 Limites e Derivadas",
+          "chunk_caracteres": 967,
+          "total_chunks_pagina": 4,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "chunk_id": "3ee570212865bd19a2153315",
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "assunto": "continuidade",
+          "aula": null,
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 35,
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1,
+          "referencia": "F4",
+          "similaridade": 0.6154044224683448
+        }
+      ],
+      "fallback": false,
+      "motivo": null,
+      "blocos_sem_fonte_removidos": 0,
+      "reformulacoes": 0
+    }
+  ]
+}

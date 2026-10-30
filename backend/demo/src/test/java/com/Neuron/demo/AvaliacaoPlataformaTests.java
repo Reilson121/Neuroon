@@ -60,4 +60,19 @@ class AvaliacaoPlataformaTests {
   mvc.perform(put(rota).with(user("admin@example.test").roles("ADMINISTRADOR")).with(csrf()).contentType("application/json").content("{\"nota\":5}"))
    .andExpect(status().isForbidden()).andExpect(jsonPath("$.codigo").value("ACESSO_NEGADO"));
  }
+ @Test void consultaPublicaResumeAvaliacoesSemExporEmail() throws Exception {
+  String admin="/api/v1/avaliacoes";
+  mvc.perform(get(admin)).andExpect(status().isOk());
+  mvc.perform(get(admin).with(user("aluno@example.test").roles("ESTUDANTE"))).andExpect(status().isOk());
+  mvc.perform(get(admin))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.total").value(0)).andExpect(jsonPath("$.media").isEmpty());
+  mvc.perform(put(rota).with(user("aluno@example.test").roles("ESTUDANTE")).with(csrf()).contentType("application/json").content("{\"nota\":5,\"comentario\":\"Ajudou\"}"));
+  mvc.perform(put(rota).with(user("outro@example.test").roles("ESTUDANTE")).with(csrf()).contentType("application/json").content("{\"nota\":4}"));
+  entityManager.flush();entityManager.clear();
+  mvc.perform(get(admin))
+   .andExpect(status().isOk()).andExpect(jsonPath("$.total").value(2)).andExpect(jsonPath("$.media").value(4.5))
+   .andExpect(jsonPath("$.comComentario").value(1)).andExpect(jsonPath("$.avaliacoes[0].nota").value(4))
+   .andExpect(jsonPath("$.avaliacoes[0].aluno").value("Conta de teste")).andExpect(jsonPath("$.avaliacoes[0].email").doesNotExist());
+  mvc.perform(get(admin+"?pagina=-1").with(user("admin@example.test").roles("ADMINISTRADOR"))).andExpect(status().isBadRequest());
+ }
 }

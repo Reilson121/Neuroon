@@ -1,14 +1,14 @@
 name: neuron
 services:
   db:
-    image: pgvector/pgvector:pg17
+    image: pgvector/pgvector:pg18
     restart: unless-stopped
     environment:
       POSTGRES_DB: neuron
       POSTGRES_USER: neuron
       POSTGRES_PASSWORD: ${DB_PASSWORD:?Preencha DB_PASSWORD}
     volumes:
-      - postgres:/var/lib/postgresql/data
+      - postgres:/var/lib/postgresql
     healthcheck:
       test: [CMD-SHELL, 'pg_isready -U neuron -d neuron']
       interval: 10s
@@ -30,8 +30,6 @@ services:
       SERVER_FORWARD_HEADERS_STRATEGY: framework
       NEURON_GUEST_ENABLED: 'false'
       NEURON_MATERIALS_ROOT: /materiais
-      NEURON_BOOTSTRAP_ADMIN_EMAIL: ${NEURON_BOOTSTRAP_ADMIN_EMAIL:-}
-      NEURON_BOOTSTRAP_ADMIN_PASSWORD: ${NEURON_BOOTSTRAP_ADMIN_PASSWORD:-}
     volumes:
       - ../neuron-ai/materiais_academicos:/materiais:ro
     depends_on:
@@ -44,7 +42,7 @@ services:
       retries: 20
       start_period: 60s
   index-schema:
-    image: pgvector/pgvector:pg17
+    image: pgvector/pgvector:pg18
     environment:
       PGPASSWORD: ${DB_PASSWORD:?Preencha DB_PASSWORD}
     volumes:

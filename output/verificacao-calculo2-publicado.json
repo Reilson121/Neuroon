@@ -1,0 +1,393 @@
+{
+  "aprovado": true,
+  "checks": [
+    "Interface HTTPS contém Cálculo II, tabela de integrais e simulados",
+    "Cálculo II disponível no 3º período, com oito assuntos e quatro PDFs conferidos por hash",
+    "Geração e correção pelo HTTPS em todas as combinações de tópicos e funções de integrais",
+    "Simulados por unidade, seleção livre, final e segunda chamada funcionam; complemento não entra automaticamente e unidade 1 recusa duplas",
+    "Interface HTTPS contém Cálculo II, tabela de integrais e simulados",
+    "Cálculo II disponível no 3º período, com oito assuntos e quatro PDFs conferidos por hash",
+    "IA real pelo site respondeu sobre integral simples, dupla e complemento opcional, com fontes",
+    "Prática de Cálculo I continua funcionando"
+  ],
+  "interface_js": "/assets/index-BnqRaEnR.js",
+  "disciplina_id": 15,
+  "topicos": [
+    {
+      "topico": "primitiva",
+      "tipo": "POLINOMIAL",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "integral_direta",
+      "tipo": "POLINOMIAL",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "integral_direta",
+      "tipo": "RADICAL",
+      "unidade": 1,
+      "passos": 6
+    },
+    {
+      "topico": "integral_direta",
+      "tipo": "RACIONAL",
+      "unidade": 1,
+      "passos": 6
+    },
+    {
+      "topico": "integral_direta",
+      "tipo": "TRIGONOMETRICA",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "integral_direta",
+      "tipo": "EXPONENCIAL",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "integral_definida",
+      "tipo": "POLINOMIAL",
+      "unidade": 1,
+      "passos": 6
+    },
+    {
+      "topico": "integral_definida",
+      "tipo": "RADICAL",
+      "unidade": 1,
+      "passos": 7
+    },
+    {
+      "topico": "integral_definida",
+      "tipo": "RACIONAL",
+      "unidade": 1,
+      "passos": 7
+    },
+    {
+      "topico": "integral_definida",
+      "tipo": "TRIGONOMETRICA",
+      "unidade": 1,
+      "passos": 6
+    },
+    {
+      "topico": "integral_definida",
+      "tipo": "EXPONENCIAL",
+      "unidade": 1,
+      "passos": 6
+    },
+    {
+      "topico": "dupla_retangulo",
+      "tipo": "POLINOMIAL",
+      "unidade": 2,
+      "passos": 9
+    },
+    {
+      "topico": "dupla_iterada",
+      "tipo": "POLINOMIAL",
+      "unidade": 2,
+      "passos": 9
+    },
+    {
+      "topico": "tripla_caixa",
+      "tipo": "POLINOMIAL",
+      "unidade": 2,
+      "passos": 12
+    },
+    {
+      "topico": "tripla_iterada",
+      "tipo": "POLINOMIAL",
+      "unidade": 2,
+      "passos": 12
+    },
+    {
+      "topico": "valor_multivariavel",
+      "tipo": "POLINOMIAL",
+      "unidade": 0,
+      "passos": 4
+    }
+  ],
+  "provas": [
+    {
+      "tipo": "ASSUNTOS",
+      "questoes": 10,
+      "assuntos": 2
+    },
+    {
+      "tipo": "UNIDADE_1",
+      "questoes": 10,
+      "assuntos": 3
+    },
+    {
+      "tipo": "UNIDADE_2",
+      "questoes": 10,
+      "assuntos": 4
+    },
+    {
+      "tipo": "FINAL",
+      "questoes": 10,
+      "assuntos": 7
+    },
+    {
+      "tipo": "SEGUNDA_CHAMADA",
+      "questoes": 10,
+      "assuntos": 7
+    }
+  ],
+  "conta_temporaria_removida": true,
+  "dados_permanentes_preservados": true,
+  "acrescimos": {
+    "materiais": 4,
+    "chunks": 216
+  },
+  "monitor": [
+    {
+      "pergunta": "Calcule a integral indefinida de 6x^2+4x-3, mostre os passos e indique a tabela de consulta.",
+      "resposta": "Vamos calcular a integral indefinida de $6x^2+4x-3$ passo a passo. [F1]\n\nA integral é: $\\int (6x^2+4x-3)\\,dx$. [F1] [F3]\n\nPela propriedade $\\int [af(x)+bg(x)]\\,dx = a\\int f(x)\\,dx+b\\int g(x)\\,dx$, separamos em três integrais: [F3]\n\n$\\int 6x^2\\,dx + \\int 4x\\,dx - \\int 3\\,dx$. [F3]\n\n- Para $\\int 6x^2\\,dx$, usamos a regra da potência $\\int x^p\\,dx = \\dfrac{x^{p+1}}{p+1}+C$ com $p=2$: [F3]\n\n$6\\cdot \\dfrac{x^{3}}{3} = 2x^3$. [F1] [F5]\n\n- Para $\\int 4x\\,dx$, $p=1$: [F3]\n\n$4\\cdot \\dfrac{x^{2}}{2} = 2x^2$. [F5]\n\n- Para $\\int 3\\,dx$, usamos $\\int k\\,dx = kx+C$: [F3]\n\n$3x$. [F3]\n\n$\\int (6x^2+4x-3)\\,dx = 2x^3 + 2x^2 - 3x + C$. [F5]\n\n**Tabela de consulta:** a consulta permitida é a **Tabela de Integrais - apoio NEURON**, que não é emitida pelo professor, mas serve como apoio autoral de estudo. [F2] [F3] Nela, use as regras de linearidade, potência e constante que aplicamos acima. [F3]\n\nExemplo visual didático criado pela IA, baseado no conceito em [F1] [F3] [F5].\n\n| Termo | Regra usada | Primitiva |\n|-------|-------------|-----------|\n| $\\int 6x^2\\,dx$ | Potência: $\\int x^p\\,dx = \\dfrac{x^{p+1}}{p+1}+C$ | $2x^3$ |\n| $\\int 4x\\,dx$ | Potência: $p=1$ | $2x^2$ |\n| $\\int 3\\,dx$ | Constante: $\\int k\\,dx = kx+C$ | $3x$ |\n| **Total** | **Linearidade** | $2x^3+2x^2-3x+C$ |\n[F1] [F3] [F5]",
+      "fontes": [
+        {
+          "referencia": "F1",
+          "chunk_id": "534020675fb15660d1c20b55",
+          "arquivo": "Tabela de Integrais - apoio NEURON.pdf",
+          "pagina": 2,
+          "assunto": "integrais_indefinidas",
+          "aula": null,
+          "similaridade": 0.7181785320692821,
+          "autoria": "Apoio autoral NEURON com IA",
+          "unidade": 1,
+          "assunto_id": 98,
+          "pdf_sha256": "1bb2db2a7cc0cb9c0b184d55f8f552656fab2952117a1b01c2e48c9e76e00502",
+          "periodo_id": 1,
+          "material_id": 51,
+          "complementar": false,
+          "disciplina_id": 15,
+          "prova_oficial": false,
+          "tipo_material": "RESUMO",
+          "titulo_material": "Tabela de Integrais - apoio NEURON",
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "03",
+          "disciplina": "calculo_para_computacao_2",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 0
+        },
+        {
+          "referencia": "F3",
+          "chunk_id": "913e1c887fa8b68062ff9838",
+          "arquivo": "Tabela de Integrais - apoio NEURON.pdf",
+          "pagina": 1,
+          "assunto": "integrais_indefinidas",
+          "aula": null,
+          "similaridade": 0.6577141284942627,
+          "autoria": "Apoio autoral NEURON com IA",
+          "unidade": 1,
+          "assunto_id": 98,
+          "pdf_sha256": "1bb2db2a7cc0cb9c0b184d55f8f552656fab2952117a1b01c2e48c9e76e00502",
+          "periodo_id": 1,
+          "material_id": 51,
+          "complementar": false,
+          "disciplina_id": 15,
+          "prova_oficial": false,
+          "tipo_material": "RESUMO",
+          "titulo_material": "Tabela de Integrais - apoio NEURON",
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "03",
+          "disciplina": "calculo_para_computacao_2",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 0
+        },
+        {
+          "referencia": "F5",
+          "chunk_id": "d2707b1873ad5afe984aec5c",
+          "arquivo": "Simulados abertos de Integrais - NEURON.pdf",
+          "pagina": 3,
+          "assunto": "integrais_indefinidas",
+          "aula": null,
+          "similaridade": 0.6096391081809998,
+          "autoria": "Apoio autoral NEURON com IA",
+          "unidade": 1,
+          "assunto_id": 98,
+          "pdf_sha256": "3da3f31769868f1f370bffd0b4c366c8c78740ab37cd9fa2e6ca08656fc7d6a9",
+          "periodo_id": 1,
+          "material_id": 50,
+          "complementar": false,
+          "disciplina_id": 15,
+          "prova_oficial": false,
+          "tipo_material": "RESUMO",
+          "titulo_material": "Simulados abertos de Integrais - NEURON",
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "03",
+          "disciplina": "calculo_para_computacao_2",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 0
+        },
+        {
+          "referencia": "F2",
+          "chunk_id": "a1bce0d189f25fd5a4efad72",
+          "arquivo": "Simulados abertos de Integrais - NEURON.pdf",
+          "pagina": 1,
+          "assunto": "integrais_indefinidas",
+          "aula": null,
+          "similaridade": 0.5893192291259766,
+          "autoria": "Apoio autoral NEURON com IA",
+          "unidade": 1,
+          "assunto_id": 98,
+          "pdf_sha256": "3da3f31769868f1f370bffd0b4c366c8c78740ab37cd9fa2e6ca08656fc7d6a9",
+          "periodo_id": 1,
+          "material_id": 50,
+          "complementar": false,
+          "disciplina_id": 15,
+          "prova_oficial": false,
+          "tipo_material": "RESUMO",
+          "titulo_material": "Simulados abertos de Integrais - NEURON",
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "03",
+          "disciplina": "calculo_para_computacao_2",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 0
+        }
+      ],
+      "segundos": 3.37
+    },
+    {
+      "pergunta": "Calcule a integral de x+2y com y de 0 a 2 e x de 0 a 1, na ordem dy dx. Mostre cada etapa.",
+      "resposta": "Vamos calcular a integral dupla $\\int_{0}^{1} \\int_{0}^{2} (x+2y) \\, dy \\, dx$ passo a passo. [F1]\n\n**Etapa 1: Integral interna em $y$**\nTratamos $x$ como constante e integramos $x+2y$ em relação a $y$: [F1]\n\n$\\int (x+2y) \\, dy = xy + y^2$ [F1]\n\nAplicamos os limites de $y=0$ a $y=2$: [F1]\n\n$[xy + y^2]_{0}^{2} = (2x + 4) - (0 + 0) = 2x + 4$ [F1]\n\n**Etapa 2: Integral externa em $x$**\nIntegramos o resultado $2x+4$ em relação a $x$: [F1]\n\n$\\int_{0}^{1} (2x+4) \\, dx = [x^2 + 4x]_{0}^{1}$ [F1]\n\nAplicamos os limites de $x=0$ a $x=1$: [F1]\n\n$[x^2 + 4x]_{0}^{1} = (1 + 4) - (0 + 0) = 5$ [F1]\n\n**Resultado final:** $\\int_{0}^{1} \\int_{0}^{2} (x+2y) \\, dy \\, dx = 5$ [F1]\n\nEste mesmo exercício aparece como item 1 do simulado aberto da 2ª unidade, confirmando o resultado. [F2]\n\n**Conferência:** na integral definida, usamos $F(b)-F(a)$ e não acrescentamos $+C$ ao resultado numérico. [F3] Além disso, ao integrar em $y$, $x$ é constante, por isso $\\int x \\, dy = xy$. [F1]\n\nExemplo visual didático criado pela IA, baseado no conceito em [F1].\n\n| Etapa | Operação | Resultado |\n|---|---|---|\n| Interna (dy) | $\\int (x+2y) \\, dy$ | $xy + y^2$ |\n| Aplicar y=0 a 2 | $[xy + y^2]_{0}^{2}$ | $2x + 4$ |\n| Externa (dx) | $\\int (2x+4) \\, dx$ | $x^2 + 4x$ |\n| Aplicar x=0 a 1 | $[x^2 + 4x]_{0}^{1}$ | $5$ |\n[F1]",
+      "fontes": [
+        {
+          "referencia": "F1",
+          "chunk_id": "a05d10fac0a07a8b9f2a88e1",
+          "arquivo": "Guia de Integrais - NEURON.pdf",
+          "pagina": 4,
+          "assunto": "integrais_duplas_retangulares",
+          "aula": null,
+          "similaridade": 0.703337782024543,
+          "autoria": "Apoio autoral NEURON com IA",
+          "unidade": 2,
+          "assunto_id": 100,
+          "pdf_sha256": "c2d490af641d67d4ac0833e76be707f93f8b7177678c57a095970aa84e2a6b72",
+          "periodo_id": 1,
+          "material_id": 49,
+          "complementar": false,
+          "disciplina_id": 15,
+          "prova_oficial": false,
+          "tipo_material": "RESUMO",
+          "titulo_material": "Guia de Integrais - NEURON",
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "03",
+          "disciplina": "calculo_para_computacao_2",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 0
+        },
+        {
+          "referencia": "F2",
+          "chunk_id": "9d56583a949a0099cc4f78e5",
+          "arquivo": "Simulados abertos de Integrais - NEURON.pdf",
+          "pagina": 2,
+          "assunto": "integrais_duplas_retangulares",
+          "aula": null,
+          "similaridade": 0.6204985380172774,
+          "autoria": "Apoio autoral NEURON com IA",
+          "unidade": 2,
+          "assunto_id": 100,
+          "pdf_sha256": "3da3f31769868f1f370bffd0b4c366c8c78740ab37cd9fa2e6ca08656fc7d6a9",
+          "periodo_id": 1,
+          "material_id": 50,
+          "complementar": false,
+          "disciplina_id": 15,
+          "prova_oficial": false,
+          "tipo_material": "RESUMO",
+          "titulo_material": "Simulados abertos de Integrais - NEURON",
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "03",
+          "disciplina": "calculo_para_computacao_2",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 0
+        },
+        {
+          "referencia": "F3",
+          "chunk_id": "582de16f58fcf7246c96c2eb",
+          "arquivo": "Tabela de Integrais - apoio NEURON.pdf",
+          "pagina": 2,
+          "assunto": "integrais_duplas_retangulares",
+          "aula": null,
+          "similaridade": 0.6488828465675486,
+          "autoria": "Apoio autoral NEURON com IA",
+          "unidade": 2,
+          "assunto_id": 100,
+          "pdf_sha256": "1bb2db2a7cc0cb9c0b184d55f8f552656fab2952117a1b01c2e48c9e76e00502",
+          "periodo_id": 1,
+          "material_id": 51,
+          "complementar": false,
+          "disciplina_id": 15,
+          "prova_oficial": false,
+          "tipo_material": "RESUMO",
+          "titulo_material": "Tabela de Integrais - apoio NEURON",
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "03",
+          "disciplina": "calculo_para_computacao_2",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 0
+        }
+      ],
+      "segundos": 2.44
+    },
+    {
+      "pergunta": "Explique o que é uma função de duas variáveis e calcule f(1,2) para f(x,y)=x^2+y.",
+      "resposta": "Uma função de duas variáveis é uma regra $f$ que associa a cada par $(x, y)$ de um conjunto $D \\subset \\mathbb{R}^2$ um único número real $f(x, y)$. O conjunto $D$ é o domínio, e a imagem é o conjunto dos valores assumidos: $\\text{Im}(f) = \\{f(x, y) : (x, y) \\in D\\}$. [F3]\n\n$f(1, 2) = 1^2 + 2 = 1 + 2 = 3$. [F3]",
+      "fontes": [
+        {
+          "referencia": "F3",
+          "chunk_id": "e7e703d3a6e40cdda10a2325",
+          "arquivo": "funçoes cde duas variaveis.pdf",
+          "pagina": 13,
+          "assunto": "base_multivariavel",
+          "aula": null,
+          "similaridade": 0.6318970165375496,
+          "autoria": "IA fornecida pelo aluno",
+          "unidade": 0,
+          "assunto_id": 104,
+          "pdf_sha256": "414d8929dddf35a6ff4670a3d219b2b263a9c5cbbc57be123adb9bfb43e98818",
+          "periodo_id": 1,
+          "material_id": 48,
+          "complementar": true,
+          "disciplina_id": 15,
+          "prova_oficial": false,
+          "tipo_material": "RESUMO",
+          "titulo_material": "funçoes cde duas variaveis",
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "03",
+          "disciplina": "calculo_para_computacao_2",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 0
+        }
+      ],
+      "segundos": 1.76
+    }
+  ]
+}

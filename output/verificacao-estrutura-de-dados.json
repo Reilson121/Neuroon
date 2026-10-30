@@ -1,0 +1,13 @@
+{
+  "aprovado": true,
+  "checks": [
+    "Disciplina básica no segundo período",
+    "Disciplina avançada preservada no terceiro período",
+    "Nove assuntos e dez PDFs pela API autenticada",
+    "Testes de mesa e correções completos nos nove assuntos",
+    "Somente as quatro originais disponíveis; resolução sem gabarito oficial"
+  ],
+  "provedor_real_testado": false,
+  "conta_temporaria_removida": true,
+  "amostra": null
+}

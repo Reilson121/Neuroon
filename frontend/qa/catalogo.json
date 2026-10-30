@@ -29,6 +29,14 @@
       "slug": "estatistica"
     },
     {
+      "id": 13,
+      "nome": "Estrutura de Dados",
+      "descricao": "C e estruturas básicas. UP1 parcial: quatro objetivas; duas abertas ausentes.",
+      "possuiProva": true,
+      "periodoId": 6,
+      "slug": "estrutura_de_dados"
+    },
+    {
       "id": 9,
       "nome": "Estrutura de Dados Avançada",
       "descricao": "Árvores, heaps, ordenação e grafos, com referências às Aulas 0, 1 e 2.",
@@ -90,6 +98,13 @@
       "disciplinaId": 12
     },
     {
+      "id": 79,
+      "nome": "Fundamentos da linguagem C",
+      "descricao": null,
+      "ordem": 1,
+      "disciplinaId": 13
+    },
+    {
       "id": 2,
       "nome": "Análise combinatória",
       "descricao": null,
@@ -123,6 +138,13 @@
       "descricao": null,
       "ordem": 2,
       "disciplinaId": 12
+    },
+    {
+      "id": 80,
+      "nome": "Expressões, decisões, repetições e escopo",
+      "descricao": null,
+      "ordem": 2,
+      "disciplinaId": 13
     },
     {
       "id": 3,
@@ -160,6 +182,13 @@
       "disciplinaId": 12
     },
     {
+      "id": 81,
+      "nome": "Estruturas de dados, vetores e matrizes",
+      "descricao": null,
+      "ordem": 3,
+      "disciplinaId": 13
+    },
+    {
       "id": 4,
       "nome": "Introdução à Estatística e tipos de dados",
       "descricao": null,
@@ -193,6 +222,13 @@
       "descricao": null,
       "ordem": 4,
       "disciplinaId": 12
+    },
+    {
+      "id": 82,
+      "nome": "Registros e typedef",
+      "descricao": null,
+      "ordem": 4,
+      "disciplinaId": 13
     },
     {
       "id": 5,
@@ -230,6 +266,13 @@
       "disciplinaId": 12
     },
     {
+      "id": 83,
+      "nome": "Ponteiros e passagem de endereços",
+      "descricao": null,
+      "ordem": 5,
+      "disciplinaId": 13
+    },
+    {
       "id": 6,
       "nome": "Medidas de tendência central",
       "descricao": null,
@@ -256,6 +299,13 @@
       "descricao": null,
       "ordem": 6,
       "disciplinaId": 12
+    },
+    {
+      "id": 84,
+      "nome": "Listas encadeadas",
+      "descricao": null,
+      "ordem": 6,
+      "disciplinaId": 13
     },
     {
       "id": 7,
@@ -286,6 +336,13 @@
       "disciplinaId": 12
     },
     {
+      "id": 85,
+      "nome": "Filas, fila circular e deque",
+      "descricao": null,
+      "ordem": 7,
+      "disciplinaId": 13
+    },
+    {
       "id": 8,
       "nome": "Valor esperado e momentos",
       "descricao": null,
@@ -314,6 +371,13 @@
       "disciplinaId": 12
     },
     {
+      "id": 86,
+      "nome": "Pilhas",
+      "descricao": null,
+      "ordem": 8,
+      "disciplinaId": 13
+    },
+    {
       "id": 9,
       "nome": "Correlação e associação",
       "descricao": null,
@@ -340,6 +404,13 @@
       "descricao": null,
       "ordem": 9,
       "disciplinaId": 12
+    },
+    {
+      "id": 87,
+      "nome": "Introdução a árvores e grafos",
+      "descricao": null,
+      "ordem": 9,
+      "disciplinaId": 13
     },
     {
       "id": 10,
@@ -827,6 +898,19 @@
       "arquivoLocalPresente": true
     },
     {
+      "id": 35,
+      "disciplinaId": 13,
+      "assuntoId": 81,
+      "titulo": "Estruturas de dados, vetores e matrizes",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
       "id": 2,
       "disciplinaId": 1,
       "assuntoId": null,
@@ -840,10 +924,75 @@
       "arquivoLocalPresente": true
     },
     {
+      "id": 34,
+      "disciplinaId": 13,
+      "assuntoId": 80,
+      "titulo": "Expressões, decisões, repetições e escopo",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 39,
+      "disciplinaId": 13,
+      "assuntoId": 85,
+      "titulo": "Filas, fila circular e deque",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 33,
+      "disciplinaId": 13,
+      "assuntoId": 79,
+      "titulo": "Fundamentos da linguagem C",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 41,
+      "disciplinaId": 13,
+      "assuntoId": 87,
+      "titulo": "Introdução a árvores e grafos",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
       "id": 31,
       "disciplinaId": 12,
       "assuntoId": 77,
       "titulo": "Introdução à eletrônica digital",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 38,
+      "disciplinaId": 13,
+      "assuntoId": 84,
+      "titulo": "Listas encadeadas",
       "tipo": "SLIDE_AULA",
       "fonteMonitorVirtual": true,
       "disponivelParaPratica": false,
@@ -918,6 +1067,32 @@
       "arquivoLocalPresente": true
     },
     {
+      "id": 40,
+      "disciplinaId": 13,
+      "assuntoId": 86,
+      "titulo": "Pilhas",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 37,
+      "disciplinaId": 13,
+      "assuntoId": 83,
+      "titulo": "Ponteiros e passagem de endereços",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
       "id": 22,
       "disciplinaId": 12,
       "assuntoId": 68,
@@ -957,6 +1132,19 @@
       "arquivoLocalPresente": true
     },
     {
+      "id": 36,
+      "disciplinaId": 13,
+      "assuntoId": 82,
+      "titulo": "Registros e typedef",
+      "tipo": "SLIDE_AULA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": false,
+      "contemGabarito": false,
+      "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
       "id": 21,
       "disciplinaId": 12,
       "assuntoId": 67,
@@ -966,6 +1154,19 @@
       "disponivelParaPratica": false,
       "contemGabarito": false,
       "autorizacaoProfessor": false,
+      "arquivoDisponivel": false,
+      "arquivoLocalPresente": true
+    },
+    {
+      "id": 42,
+      "disciplinaId": 13,
+      "assuntoId": null,
+      "titulo": "UP1 — prova transcrita (parcial)",
+      "tipo": "PROVA_ANTIGA",
+      "fonteMonitorVirtual": true,
+      "disponivelParaPratica": true,
+      "contemGabarito": false,
+      "autorizacaoProfessor": true,
       "arquivoDisponivel": false,
       "arquivoLocalPresente": true
     }

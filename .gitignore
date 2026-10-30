@@ -7,3 +7,4 @@ neuron-ai/tmp/backend_estatistica_validado.jar
 neuron-ai/tmp/gradle/estatistica.init.gradle
 .run-logs/
 frontend/.tmp/
+deploy/backups/

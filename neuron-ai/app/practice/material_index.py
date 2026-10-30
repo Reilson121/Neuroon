@@ -1,7 +1,8 @@
 """Índice derivado dos materiais aprovados; banco relacional governa acesso.
 
 Não aceita caminhos enviados pelo cliente. Usa os corpora locais conferidos
-de Estatística, Estrutura de Dados Avançada, Design de Artefatos Digitais e Projeto de Ideação de Software.
+de Estatística, Estrutura de Dados (2º período), Estrutura de Dados Avançada,
+Sistemas Digitais, Design de Artefatos Digitais e Projeto de Ideação de Software.
 """
 import copy
 import hashlib
@@ -17,7 +18,7 @@ MATERIAIS = ROOT / "materiais_academicos" / "periodo_03" / "estatistica"
 
 
 def catalogo(store, disciplina='estatistica'):
-    if disciplina not in {'estatistica', 'estrutura_de_dados_avancada', 'design_de_artefatos_digitais', 'projeto_de_ideacao_de_software', 'sistemas_digitais'}:
+    if disciplina not in {'calculo_para_computacao_2', 'calculo_para_computacao_1', 'estatistica', 'estrutura_de_dados', 'estrutura_de_dados_avancada', 'design_de_artefatos_digitais', 'projeto_de_ideacao_de_software', 'sistemas_digitais'}:
         raise ValueError('Disciplina sem corpus preparado.')
     with store._conectar() as c:
         c.execute("SET TRANSACTION READ ONLY")
@@ -34,7 +35,7 @@ def catalogo(store, disciplina='estatistica'):
 
 def permitido(m):
     base = m["ativo"] and m["disciplina_ativa"] and m["periodo_ativo"]
-    if m["tipo"] == "SLIDE_AULA":
+    if m["tipo"] == "SLIDE_AULA" or m.get('disciplina_slug') in {'calculo_para_computacao_1','calculo_para_computacao_2'} and m['tipo'] in {'TRECHO_LIVRO','RESUMO'}:
         return base and m["fonte_monitor_virtual"]
     return base and m["tipo"] in {"LISTA_EXERCICIOS", "PROVA_ANTIGA"} and m["possui_prova"] and m["autorizacao_professor"] and m["disponivel_para_pratica"]
 
@@ -110,7 +111,16 @@ def indexar(material_id, store=None, embedder=None):
     if m is None:
         raise ValueError("Material não preparado nesta integração.")
     # Escopo por arquivo evita apagar outros materiais do mesmo tipo.
-    if disciplina == 'sistemas_digitais':
+    if disciplina == 'calculo_para_computacao_2':
+        from app.rag.integral_corpus import preparar_material
+        chunks = preparar_material(m, assuntos)
+    elif disciplina == 'calculo_para_computacao_1':
+        from app.rag.calculo_corpus import preparar_material
+        chunks = preparar_material(m, assuntos)
+    elif disciplina == 'estrutura_de_dados':
+        from app.rag.ed_basica_corpus import preparar_material
+        chunks = preparar_material(m, assuntos)
+    elif disciplina == 'sistemas_digitais':
         from app.rag.sistemas_digitais_corpus import preparar_material
         chunks = preparar_material(m, assuntos)
     elif disciplina == 'estrutura_de_dados_avancada':

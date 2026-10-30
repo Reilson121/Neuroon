@@ -4,21 +4,31 @@ Plataforma de apoio ao estudo desenvolvida no Projeto Extensionista 2. Reúne ma
 
 O Monitor Virtual usa RAG (geração de respostas com consulta aos materiais): recupera trechos da disciplina e do assunto selecionados, elabora a explicação e apresenta as referências utilizadas. Quando não encontra conteúdo suficiente, informa essa limitação.
 
+A implantação do piloto está documentada em [Publicação e operação](deploy/README.md), com os procedimentos de Docker Compose, persistência e verificações realizadas. O passo a passo abaixo descreve a execução local.
+
 ## Funcionalidades
 
 - Acesso com autenticação por sessão e perfis de estudante e administrador.
 - Cadastro de estudantes e gerenciamento administrativo de usuários (consulta, edição e exclusão com preservação do histórico).
 - Consulta de períodos, disciplinas, assuntos e materiais acadêmicos.
 - Monitor Virtual com referências de arquivo e página, contexto de conversa e histórico persistente por usuário, disciplina e assunto.
+- Fontes agrupadas em **De onde veio esta explicação?**, com título, página e link para abrir o material quando disponíveis nos metadados.
+- Fórmulas renderizadas com KaTeX em mensagens e exercícios, incluindo frações, potências, raízes, limites e integrais com notação matemática delimitada.
 - Exemplos didáticos em tabelas e diagramas textuais, identificados como conteúdo criado pela IA e associados às fontes do conceito.
 - Prática de Estatística com questões dos materiais e questões inéditas geradas por IA, correção explicada e conferência matemática nas famílias implementadas.
 - Sistemas Digitais com 12 PDFs, Monitor Virtual e questões conceituais e contextualizadas de IA, com resolução em etapas. A lista e a prova ainda não foram fornecidas. Veja [a documentação](docs/SISTEMAS_DIGITAIS.md).
 - Abertura dos materiais e das fontes disponíveis pelo servidor.
+- Cálculo para Computação I no 2º período, com funções e limites na unidade 1 e derivadas na unidade 2; prática com filtros por regra e função, correções passo a passo e consulta à tabela de derivadas. Veja [a integração](docs/CALCULO_COMPUTACAO_I.md).
+- Simulados de Cálculo I e II por assuntos selecionados, por unidade, final e segunda chamada, com correção ao finalizar.
+- Cálculo para Computação II no 3º período: integrais de uma variável na primeira unidade, duplas e triplas diretas na segunda, tabela de integrais e simulados autorais. Funções de várias variáveis ficam como complemento opcional. Veja [a integração](docs/CALCULO_COMPUTACAO_II.md).
 - Controle administrativo da disponibilidade de materiais para prática.
-- Avaliação voluntária da plataforma, com nota de 1 a 5 e comentário opcional.
+- Estrutura de Dados Avançada com questões conceituais e testes de mesa diretos ou contextualizados; Design de Artefatos Digitais com 27 questões contextualizadas e simulados por conteúdos escolhidos. Veja [a documentação](docs/PRATICA_ED_AVANCADA_DESIGN.md).
+- Estrutura de Dados no 2º período, com dez PDFs, questões conceituais, lógica e testes de mesa em C; modos direto ou contextualizado, separados das questões originais da prova parcial. Veja [o guia da disciplina](neuron-ai/ESTRUTURA_DE_DADOS.md).
+- Avaliação voluntária da plataforma por estudantes, com nota de 1 a 5, comentário opcional e possibilidade de atualizar a resposta.
+- Consulta pública de avaliações em `/#avaliacoes`, com nome do aluno, nota, comentário, data no horário de Fortaleza, média e paginação de dez respostas. O formulário informa que a avaliação é pública; o envio exige conta de estudante autenticada.
 - Interface adaptada a computador, tablet e celular.
 
-O serviço de IA possui preparação de materiais para Estatística, Estrutura de Dados Avançada, Design de Artefatos Digitais, Projeto de Ideação de Software e Sistemas Digitais. O catálogo web depende das migrations e dos materiais integrados ao banco; a existência de um corpus no serviço de IA não significa que todas as funcionalidades estejam disponíveis para aquela disciplina na interface.
+O serviço de IA possui preparação de materiais para Estatística, Estrutura de Dados, Estrutura de Dados Avançada, Design de Artefatos Digitais, Projeto de Ideação de Software, Sistemas Digitais e Cálculo para Computação I e II. O catálogo web depende das migrations e dos materiais integrados ao banco; a existência de um corpus no serviço de IA não significa que todas as funcionalidades estejam disponíveis para aquela disciplina na interface.
 
 ## Arquitetura e tecnologias
 
@@ -31,9 +41,9 @@ Navegador → React / Vite → Spring Boot → FastAPI / RAG → OpenRouter
 
 | Componente | Tecnologias e responsabilidade |
 | --- | --- |
-| Interface | React, Vite, React Markdown e estilos responsivos |
+| Interface | React, Vite, React Markdown, remark-math, KaTeX e estilos responsivos |
 | API pública | Java, Spring Boot, Spring Security, JPA e Flyway; autenticação, permissões, catálogo e histórico |
-| Serviço de IA | Python, FastAPI, LangChain, Sentence Transformers e cliente OpenAI para acesso ao OpenRouter |
+| Serviço de IA | Python, FastAPI, LangChain, Sentence Transformers, SymPy e cliente OpenAI para acesso ao OpenRouter |
 | Persistência | PostgreSQL para dados acadêmicos e conversas; pgvector para busca vetorial nos materiais |
 | Verificação | JUnit/Spring Boot Test, Vitest/Testing Library e unittest |
 
@@ -55,6 +65,7 @@ NEURON/
 │   ├── sql/                   # Estrutura do índice vetorial
 │   └── test/                  # Testes Python
 ├── docs/                      # Documentação da integração e da interface
+├── deploy/                    # Dockerfiles, Compose e documentação de publicação
 └── requirements.txt           # Dependências Python da etapa inicial
 ```
 
@@ -191,14 +202,18 @@ Para encerrar um serviço iniciado nesse terminal, pressione **Ctrl+C**. Antes d
 
 Na instalação local, a tela inicial oferece **Explorar sem conta**. O visitante pode consultar disciplinas e materiais e conversar com o Monitor Virtual. Não pode administrar materiais, praticar questões nem avaliar a plataforma. Cada visita recebe uma sessão separada; o histórico é apagado ao sair ou na limpeza periódica após um dia. O inicializador habilita esse acesso somente no computador local. Ao iniciar o backend por outro método, ele permanece desabilitado até definir `NEURON_GUEST_ENABLED=true`.
 
-Não há senha padrão nem cadastro público de usuários. Para criar o administrador inicial, defina no `.env`, antes de iniciar o backend:
+Para criar uma conta de estudante, selecione **Criar uma conta** na tela de entrada e informe nome, email e senha. Após o cadastro, entre com os dados definidos. Administradores podem consultar, cadastrar, editar e excluir estudantes pela opção **Usuários**. A exclusão desativa o acesso e preserva conversas e avaliações. Consulte [Cadastro e gerenciamento de usuários](docs/USUARIOS.md) para as regras de acesso e validação.
+
+Não há senha padrão. Para criar o administrador inicial em uma instalação nova, defina no `.env`, antes de iniciar o backend:
 
 ```dotenv
 NEURON_BOOTSTRAP_ADMIN_EMAIL=SUBSTITUA_PELO_EMAIL_DO_ADMINISTRADOR
 NEURON_BOOTSTRAP_ADMIN_PASSWORD=SUBSTITUA_POR_UMA_SENHA_COM_12_OU_MAIS_CARACTERES
 ```
 
-O backend cria a conta se o e-mail ainda não existir. Após a criação, remova essas duas variáveis da configuração. Contas de estudantes precisam ser provisionadas separadamente; a administração completa de usuários ainda não está implementada.
+O backend cria a conta se o e-mail ainda não existir. Após a criação, remova essas duas variáveis da configuração. O cadastro público cria somente estudantes; contas administrativas são protegidas contra edição e exclusão pelo gerenciamento de usuários.
+
+Na implantação de produção documentada, o acesso de visitante está desativado e a entrada oferece login e cadastro de estudantes. A consulta de avaliações permanece pública.
 
 #### Por que a opção Praticar não aparece?
 
@@ -253,8 +268,8 @@ Execute cada grupo na pasta indicada:
 
 ```powershell
 # Em frontend/
-npm test -- --pool=threads --maxWorkers=1
-npm run build
+npm.cmd test -- --pool=threads --maxWorkers=1
+npm.cmd run build
 ```
 
 ```powershell
@@ -276,15 +291,23 @@ Os scripts de validação de integração são separados dos testes acima e pode
 
 - As conversas do Monitor são persistidas; as sessões de prática são temporárias e expiram, por padrão, em 60 minutos. O serviço de IA deve permanecer com um único worker para o estado atual da prática.
 - A API pública de chat utiliza eventos SSE, mas entrega o texto após a geração completa; ainda não transmite cada token diretamente do provedor.
-- A prática depende de materiais autorizados e das regras implementadas para Estatística; ela não está disponível automaticamente em todas as disciplinas.
+- A prática depende de materiais autorizados e das regras implementadas para cada disciplina; ela não está disponível automaticamente em todo o catálogo.
+- A renderização matemática depende de notação delimitada. Mensagens antigas com divisões escritas usando `/` não são convertidas automaticamente em frações.
 - A interface diferencia conteúdo acadêmico, questões inéditas de IA e observações produzidas pela IA. A presença de um gabarito não confirma sua autoria oficial.
 - Monitoria humana, mensagens com monitores humanos, agendamentos, upload genérico e administração completa do catálogo estão fora do escopo atual.
-- A configuração descrita é de desenvolvimento local. O build da interface é gerado em `frontend/dist`; sua hospedagem e o encaminhamento da API precisam ser definidos para publicação.
+- A configuração descrita neste passo a passo é de desenvolvimento local. O build da interface é gerado em `frontend/dist`. A implantação documentada usa Docker Compose e Caddy para servir a interface por HTTPS e encaminhar a API; banco e serviços internos ficam na rede Docker. Consulte [Publicação e operação](deploy/README.md).
 
 ## Documentação
 
 - [Cadastro e gerenciamento de usuários](docs/USUARIOS.md)
-
+- [Publicação e operação com Docker Compose](deploy/README.md)
+- [Estrutura de Dados do 2º período](neuron-ai/ESTRUTURA_DE_DADOS.md)
+- [Cálculo para Computação I: prática e simulados](docs/CALCULO_COMPUTACAO_I.md)
+- [Cálculo para Computação II: integrais e simulados](docs/CALCULO_COMPUTACAO_II.md)
+- [Prática de Estrutura de Dados Avançada e Design](docs/PRATICA_ED_AVANCADA_DESIGN.md)
+- [Integração de Sistemas Digitais](docs/SISTEMAS_DIGITAIS.md)
+- [Formatação matemática](docs/FORMATACAO_MATEMATICA_PUBLICADA.md)
+- [Apresentação das fontes do Monitor](docs/FONTES_LEGIVEIS_PUBLICADAS.md)
 - [Interface, responsividade, histórico e avaliação](docs/FRONTEND_E_HISTORICO.md)
 - [Chat conversacional com RAG e contexto](docs/CHAT_CONVERSACIONAL_RAG.md)
 - [Backend, segurança, prática e integração de Estatística](docs/BACKEND_ESTATISTICA.md)

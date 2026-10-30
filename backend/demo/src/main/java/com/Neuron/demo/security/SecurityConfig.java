@@ -33,6 +33,7 @@ public class SecurityConfig {
   http.csrf(c -> c.csrfTokenRepository(csrf))
    .securityContext(c -> c.securityContextRepository(contexts))
    .authorizeHttpRequests(a -> a.requestMatchers("/api/v1/auth/login","/api/v1/auth/cadastro","/api/v1/auth/visitante","/api/v1/auth/csrf").permitAll()
+    .requestMatchers(org.springframework.http.HttpMethod.GET,"/api/v1/avaliacoes").permitAll()
     .requestMatchers("/api/v1/admin/**").hasRole("ADMINISTRADOR")
     .requestMatchers("/api/v1/pratica/**").hasAnyRole("ESTUDANTE","ADMINISTRADOR")
     .requestMatchers("/api/v1/avaliacao-plataforma/**").hasRole("ESTUDANTE")

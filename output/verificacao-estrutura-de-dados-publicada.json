@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "Interface publicada contém os novos controles",
+    "Estrutura de Dados no segundo período; avançada preservada no terceiro",
+    "Nove assuntos e dez PDFs acessíveis por HTTPS autenticado",
+    "Prática e correção com tabelas e pseudocódigo nos nove assuntos",
+    "Prova parcial: quatro originais e resoluções corretamente identificadas",
+    "Contextualização real por IA concluída no site hospedado"
+  ],
+  "aprovado": true,
+  "disciplina_id": 13,
+  "ia_segundos": 1.36,
+  "amostra": {
+    "enunciado": "Em um sistema de gerenciamento de biblioteca, você precisa organizar o catálogo de livros de forma que cada registro possa ser acessado e atualizado sem copiar os dados, apenas referenciando o local onde estão armazenados, para economizar memória e facilitar alterações em várias partes do programa.\n\nResolva no papel: registre o estado após cada operação e escolha o resultado.\n\n```c\nint x = 15;\nint *p = &x;\n*p = *p + 13;\nprintf(\"%d\", x);\n```\n\nUse uma tabela no papel com as colunas: Etapa, x, *p.",
+    "resolucao": "p aponta para x; escrever por *p modifica o mesmo objeto x, sem mudar o endereço armazenado em p.\n\n### Teste de mesa resolvido\n\n| Etapa | x | *p |\n| --- | --- | --- |\n| Após p = &x | 15 | 15 |\n| Após atribuição | 28 | 28 |\n\n### Pseudocódigo de apoio\n\n```text\nx <- 15\np <- endereço de x\nvalor apontado por p <- valor apontado por p + 13\nescreva x\n```"
+  },
+  "conta_temporaria_removida": true
+}

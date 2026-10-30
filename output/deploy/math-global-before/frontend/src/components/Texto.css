@@ -1,0 +1,7 @@
+/* Let long formulas scroll without widening the conversation on small screens. */
+.katex-display{max-width:100%;overflow-x:auto;overflow-y:hidden;padding:.5em 0;margin:1em 0}
+.katex{font-size:1.15em;line-height:normal;overflow-wrap:normal;white-space:nowrap}
+.message-bubble:has(.katex),.question:has(.katex),.feedback:has(.katex){line-height:1.9}
+.message-bubble td:has(.katex),.question td:has(.katex){padding:12px 10px}
+.message-bubble .katex,.question .katex,.feedback .katex{display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:.25em 0}
+.formula-support{margin:12px 0}.formula-support summary{cursor:pointer;font-weight:700}.formula-support select{max-width:100%;margin:8px}.formula-support ul{max-height:180px;overflow:auto}.chat-panel>.formula-support{margin:8px 16px}

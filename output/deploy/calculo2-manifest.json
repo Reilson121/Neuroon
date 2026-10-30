@@ -1,0 +1,94 @@
+{
+  "backend/demo/src/main/java/com/Neuron/demo/pratica/PraticaService.java": {
+    "expected": "5244ce2a59bb4c89b76a62e6bbe58d8259cb939767bcf911789d4dd327d89109",
+    "sha256": "24b5c02e84258406a2205710c3ece1c4ed727dfc252aa08e9802c50fea6dceb4"
+  },
+  "backend/demo/src/main/resources/db/migration/V13__catalogo_calculo_2.sql": {
+    "expected": "7def80f80af128fdbcfd893159080359df431715422df6f9ebadee422113b0f7",
+    "sha256": "493be97160e51683f80084579e8cd39022df9dc9ee0980b425ff9aae967aa168"
+  },
+  "frontend/src/App.jsx": {
+    "expected": "83fd0c7450f3b28d655b8857e5340a5eed043e0ed76adebbf57cd653beb88e56",
+    "sha256": "79d44c8323802b93f0e895f3c0e709e10d0fd86dab59ee511a651be8691d9fea"
+  },
+  "frontend/src/components/CalculoFiltros.jsx": {
+    "expected": "9232d478e4dd57ba53916181eee212f382ab3e2d99604ccf951a01dd1ad4c70d",
+    "sha256": "5e8ad8135ddbc80462865eb138b4a51236e19d8fd9862aba82f4bb8322df628c"
+  },
+  "frontend/src/components/CalculoPratica.jsx": {
+    "expected": "a7c83badb45d0a099efc9af302c3e0ebe9f3cfb2da427f5a9d927bd3404c36a8",
+    "sha256": "ada47b2c331f6e13dd4fb3c4ad0dde1013edc2d33548ad6446af880133dec3e5"
+  },
+  "frontend/src/integral-topicos.json": {
+    "expected": "f5db35fe53e626ffdf4dff4f0640b39e7666ad123cb02c92cdce4f7196da9187",
+    "sha256": "9cd17a4e57146dec5f21bfe1be61e3dd4cc8dfaa8eccb986700987d13ecc496a"
+  },
+  "neuron-ai/app/practice/service.py": {
+    "expected": "0cce5233325e6aa68b7b409bd76c5c24d3e3897394f0d0389215df10c1aa4845",
+    "sha256": "1eafe109e2dcdfaf23270a345d8d37fc843932be2d9a549a4122979a13775faa"
+  },
+  "neuron-ai/app/practice/math_engine.py": {
+    "expected": "5fabefd2a2db59953b42997c64dd133019822671ebeccb544184cbac9a8bc037",
+    "sha256": "3998e3c48096c34b36294e09253c85c6c7024530db121a42e63c5675869b0ade"
+  },
+  "neuron-ai/app/practice/material_index.py": {
+    "expected": "a73090f85f8ab2ce332af3bdfe10108768726ff0347bb055cfe573abf57045d7",
+    "sha256": "1c99f83b08d20a31cd2a5b4dd9246f983c96f9af026e71ac6152f77d5610e82c"
+  },
+  "neuron-ai/app/practice/repository.py": {
+    "expected": "a5c0bdef318887495ecbd9116e9974b47064f84f79bb08b0cfee3d27159ae4ad",
+    "sha256": "42d7df40a3ff41c49778871d5d11a872f1635aa3a82b1d883697c692fa7a4f2b"
+  },
+  "neuron-ai/app/practice/integral_engine.py": {
+    "expected": "2ddd2bc6b1ad020538ee8490ff8d6b38756fa16de939180c72084d4e4a14a6cd",
+    "sha256": "2ddd2bc6b1ad020538ee8490ff8d6b38756fa16de939180c72084d4e4a14a6cd"
+  },
+  "neuron-ai/app/rag/monitor_virtual.py": {
+    "expected": "f0fa5f0e50a076aed8406a33d7cbda3fb9d5694bd37be013adf210e0aae9559a",
+    "sha256": "4e72560bfe61dcf771dd6c573fc177e182df7359502483668bc7e72cbdc910b5"
+  },
+  "neuron-ai/app/rag/retriever.py": {
+    "expected": "94a41ce7985645816db0a54c1fea87d1a8b6e63d0838675ac8d52a6b69b1708e",
+    "sha256": "9a788a7203893a232ae01e535a67e6e1617134d6977ad7c0d006284153b3125e"
+  },
+  "neuron-ai/app/rag/integral_corpus.py": {
+    "expected": "0421c7510e7885fc37a5514ed2df3f7cf14d0c19df5cd6798b33fd48c37d5a98",
+    "sha256": "0421c7510e7885fc37a5514ed2df3f7cf14d0c19df5cd6798b33fd48c37d5a98"
+  },
+  "neuron-ai/app/rag/integral_search.py": {
+    "expected": "3e68ce94e5fa0121bc9f40f7486f6b2bf01b81cc9b8430139320360ad45df441",
+    "sha256": "3e68ce94e5fa0121bc9f40f7486f6b2bf01b81cc9b8430139320360ad45df441"
+  },
+  "neuron-ai/scripts/integrar_materiais_calculo2.py": {
+    "expected": "26cc5927f7586815957344c579fa0d5c32d3a8f06be76cdf5e7ed4263e4e05b0",
+    "sha256": "5bb9b52ede5911e43ef7ee38420d30f6d69e863065aa7b144ca68c38801dc6fe"
+  },
+  "deploy/Dockerfile.ai": {
+    "expected": "580e24dfcf406e78a60f37d325440c402e319fbd72178c1fcaf187f629706b2d",
+    "sha256": "2fbeb284a657cfe2907b3facbfe7eb722a84888c42205ba81a846d9eca95699b"
+  },
+  "docs/CALCULO_COMPUTACAO_II.md": {
+    "expected": "55ed36fa299e5ed1e7cf9a880a12d63a720802c3bc387b0881392b69c5b0e44a",
+    "sha256": "55ed36fa299e5ed1e7cf9a880a12d63a720802c3bc387b0881392b69c5b0e44a"
+  },
+  "neuron-ai/materiais_academicos/periodo_03/calculo_para_computacao_2/corpus.json": {
+    "expected": "c4d07d1454bf257114683535c6c0936b7cfd3b72ab64e036255f5e18e42762d9",
+    "sha256": "c4d07d1454bf257114683535c6c0936b7cfd3b72ab64e036255f5e18e42762d9"
+  },
+  "neuron-ai/materiais_academicos/periodo_03/calculo_para_computacao_2/fun\u00e7oes cde duas variaveis.pdf": {
+    "expected": "414d8929dddf35a6ff4670a3d219b2b263a9c5cbbc57be123adb9bfb43e98818",
+    "sha256": "414d8929dddf35a6ff4670a3d219b2b263a9c5cbbc57be123adb9bfb43e98818"
+  },
+  "neuron-ai/materiais_academicos/periodo_03/calculo_para_computacao_2/Guia de Integrais - NEURON.pdf": {
+    "expected": "c2d490af641d67d4ac0833e76be707f93f8b7177678c57a095970aa84e2a6b72",
+    "sha256": "c2d490af641d67d4ac0833e76be707f93f8b7177678c57a095970aa84e2a6b72"
+  },
+  "neuron-ai/materiais_academicos/periodo_03/calculo_para_computacao_2/Simulados abertos de Integrais - NEURON.pdf": {
+    "expected": "3da3f31769868f1f370bffd0b4c366c8c78740ab37cd9fa2e6ca08656fc7d6a9",
+    "sha256": "3da3f31769868f1f370bffd0b4c366c8c78740ab37cd9fa2e6ca08656fc7d6a9"
+  },
+  "neuron-ai/materiais_academicos/periodo_03/calculo_para_computacao_2/Tabela de Integrais - apoio NEURON.pdf": {
+    "expected": "1bb2db2a7cc0cb9c0b184d55f8f552656fab2952117a1b01c2e48c9e76e00502",
+    "sha256": "1bb2db2a7cc0cb9c0b184d55f8f552656fab2952117a1b01c2e48c9e76e00502"
+  }
+}

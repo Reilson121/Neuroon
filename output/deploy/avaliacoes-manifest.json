@@ -1,0 +1,30 @@
+{
+  "frontend/src/App.jsx": {
+    "expected": "a35d6b005e6db4dbcf0bcdff200651003efffeabac3bc1a844e1da1518c56241",
+    "sha256": "6ccf503d6df4b9d6beb3d11e906b4168019abf912305e6d71e85dc9f82f438da"
+  },
+  "frontend/src/components/Avaliacao.jsx": {
+    "expected": "b44d2a1650e5ce1c22f4ec156544076b87e4d6772e846bf9042acc7e12476b4c",
+    "sha256": "d9e6a716747cd5cf9a251493e1c448fae2c8082258df9264f22739d394b86e3e"
+  },
+  "frontend/src/components/Avaliacoes.jsx": {
+    "expected": null,
+    "sha256": "02bb36cfe092da41816f4275dceb501d786ae6290df85a278389114311925ffb"
+  },
+  "frontend/src/components/Avaliacoes.css": {
+    "expected": null,
+    "sha256": "9116e5533312b1569917b3b5451e057341d07147af39b6f309d9d67e1af8fa9b"
+  },
+  "backend/demo/src/main/java/com/Neuron/demo/avaliacao/AvaliacoesController.java": {
+    "expected": null,
+    "sha256": "9fb2eb6f8bdc38f092392a1c2828084db0a87e64a0d6637e18508fb2514e2fbd"
+  },
+  "backend/demo/src/main/java/com/Neuron/demo/avaliacao/AvaliacaoPlataformaRepository.java": {
+    "expected": "772eac03bfbf38277abd54c2a2cf5edcd4518212d0dd298813aa897256286048",
+    "sha256": "4982e6217bdb052d948a9b5ac0d6039a874f7a8464d75e7ad524fe04362284db"
+  },
+  "backend/demo/src/main/java/com/Neuron/demo/security/SecurityConfig.java": {
+    "expected": "a9373726e141a7a61123a82c2b42a27eae502a0ebb26dc8eb7229849158e1efb",
+    "sha256": "f56d48801889e21a1dc7d0365b28b6471b2408599bb66bcd87e9630b78a81557"
+  }
+}

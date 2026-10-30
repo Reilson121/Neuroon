@@ -1,0 +1,412 @@
+{
+  "checks": [
+    "Interface publicada contém Cálculo, filtros por unidade/regra/função e acesso à tabela",
+    "Cálculo aparece no 2º período com nove assuntos; catálogo anterior preservado",
+    "Cinco PDFs acessíveis pelo HTTPS autenticado e conferidos por hash",
+    "28 tópicos públicos: geração, filtros, fontes e correções passo a passo conferidos",
+    "Filtro da 1ª unidade não gera derivadas da 2ª unidade",
+    "Monitor real pelo site respondeu sobre cadeia/tabela, inversa e questão 8 com fontes"
+  ],
+  "aprovado": true,
+  "disciplina_id": 14,
+  "topicos": [
+    {
+      "topico": "composicao",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "composicao_valor",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "inversa",
+      "unidade": 1,
+      "passos": 6
+    },
+    {
+      "topico": "soma_inversas",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "fatoracao",
+      "unidade": 1,
+      "passos": 4
+    },
+    {
+      "topico": "substituicao",
+      "unidade": 1,
+      "passos": 4
+    },
+    {
+      "topico": "fatoracao_limite",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "racionalizacao",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "infinito",
+      "unidade": 1,
+      "passos": 4
+    },
+    {
+      "topico": "infinito_ponto",
+      "unidade": 1,
+      "passos": 4
+    },
+    {
+      "topico": "confronto",
+      "unidade": 1,
+      "passos": 4
+    },
+    {
+      "topico": "laterais",
+      "unidade": 1,
+      "passos": 5
+    },
+    {
+      "topico": "definicao",
+      "unidade": 2,
+      "passos": 5
+    },
+    {
+      "topico": "potencia",
+      "unidade": 2,
+      "passos": 7
+    },
+    {
+      "topico": "produto",
+      "unidade": 2,
+      "passos": 5
+    },
+    {
+      "topico": "quociente",
+      "unidade": 2,
+      "passos": 6
+    },
+    {
+      "topico": "cadeia",
+      "unidade": 2,
+      "passos": 6
+    },
+    {
+      "topico": "trigonometrica",
+      "unidade": 2,
+      "passos": 5
+    },
+    {
+      "topico": "exponencial",
+      "unidade": 2,
+      "passos": 5
+    },
+    {
+      "topico": "logaritmica",
+      "unidade": 2,
+      "passos": 6
+    },
+    {
+      "topico": "hiperbolica",
+      "unidade": 2,
+      "passos": 5
+    },
+    {
+      "topico": "implicita",
+      "unidade": 2,
+      "passos": 5
+    },
+    {
+      "topico": "tangente",
+      "unidade": 2,
+      "passos": 5
+    },
+    {
+      "topico": "taxa",
+      "unidade": 2,
+      "passos": 4
+    },
+    {
+      "topico": "crescimento",
+      "unidade": 2,
+      "passos": 4
+    },
+    {
+      "topico": "relacionadas",
+      "unidade": 2,
+      "passos": 4
+    },
+    {
+      "topico": "linearizacao",
+      "unidade": 2,
+      "passos": 5
+    },
+    {
+      "topico": "diferencial",
+      "unidade": 2,
+      "passos": 4
+    }
+  ],
+  "monitor": [
+    {
+      "pergunta": "Explique a regra da cadeia e indique a tabela de apoio.",
+      "resposta": "A regra da cadeia é usada para derivar funções compostas. Se h(x) = f(g(x)), então h'(x) = f'(g(x)) * g'(x). [F1] Em outras palavras, deriva-se a função de fora, avaliada na função de dentro, e multiplica-se pela derivada da função de dentro. [F5] Essa regra pode ser aplicada em cadeias maiores, como y = f(u), u = t(x) e x = h(t), resultando em dy/dt = dy/du * du/dx * dx/dt. [F4] A tabela de apoio é a \"Tabela de Derivadas do Prof. Douglas Maioli\", que contém as derivadas básicas e as regras de derivação, incluindo a regra da cadeia. [F1]",
+      "fontes": [
+        {
+          "referencia": "F1",
+          "chunk_id": "9479becd59184e2fd13fc050",
+          "arquivo": "Tabela de Derivadas do Prof. Douglas Maioli.pdf",
+          "pagina": 1,
+          "assunto": "regras_derivacao",
+          "aula": null,
+          "similaridade": 0.4768411361229761,
+          "unidade": 2,
+          "assunto_id": 94,
+          "pdf_sha256": "7059ab78da0f13efee2b19427ecc76be16876cac4c6c07a64d954bd5fa8bcdd6",
+          "periodo_id": 6,
+          "material_id": 47,
+          "disciplina_id": 14,
+          "tipo_material": "RESUMO",
+          "metodo_preparo": "transcricao_conferida_visualmente",
+          "titulo_material": "Tabela de Derivadas do Prof. Douglas Maioli",
+          "chunk_caracteres": 616,
+          "total_chunks_pagina": 1,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "transcricao_conferida": true,
+          "disponivel_para_pratica": false,
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1
+        },
+        {
+          "referencia": "F5",
+          "chunk_id": "e8193ce5cc21865d361a0897",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 25,
+          "assunto": "regras_derivacao",
+          "aula": null,
+          "similaridade": 0.4071901738643646,
+          "unidade": 2,
+          "assunto_id": 94,
+          "pdf_sha256": "0ccb80cf39f2bb90d444affd7abe01eee7c2fc5ff1f71d1c02241263a23630d0",
+          "periodo_id": 6,
+          "material_id": 45,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "03 regras de derivação",
+          "chunk_caracteres": 990,
+          "total_chunks_pagina": 3,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 2
+        },
+        {
+          "referencia": "F4",
+          "chunk_id": "b6c21feceaa98f7f07ae7180",
+          "arquivo": "03 regras de derivação.pdf",
+          "pagina": 27,
+          "assunto": "regras_derivacao",
+          "aula": null,
+          "similaridade": 0.4218357456824635,
+          "unidade": 2,
+          "assunto_id": 94,
+          "pdf_sha256": "0ccb80cf39f2bb90d444affd7abe01eee7c2fc5ff1f71d1c02241263a23630d0",
+          "periodo_id": 6,
+          "material_id": 45,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "03 regras de derivação",
+          "chunk_caracteres": 935,
+          "total_chunks_pagina": 3,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 2
+        }
+      ],
+      "segundos": 2.08
+    },
+    {
+      "pergunta": "Como se calcula a função inversa?",
+      "resposta": "Para calcular a função inversa, o material apresenta uma regra prática em dois passos [F1]:\n\n1. **Permutar as variáveis**: trocar x por y e y por x na sentença que define a função. [F1]\n2. **Expressar y em função de x**: isolar y na equação resultante, obtendo a sentença de f⁻¹(x). [F1]\n\nAlém disso, é importante lembrar que a função precisa ser **bijetora** para possuir inversa [F2]. O domínio de f⁻¹ é a imagem de f, e a imagem de f⁻¹ é o domínio de f [F1].\n\n**Exemplo didático criado pela IA** (baseado no conceito de permutação e isolamento de [F1]):\n\nPara f(x) = 2x − 1:\n- Escreva y = 2x − 1.\n- Permute: x = 2y − 1.\n- Isole y: x + 1 = 2y → y = (x + 1)/2.\n- Logo, f⁻¹(x) = (x + 1)/2. [F1]\n\nEm funções com restrições de domínio, como f(x) = x² − 2x + 3 com x ≥ 1, após permutar e isolar, deve-se escolher o ramo que respeita a condição (por exemplo, y ≥ 1), resultando em f⁻¹(x) = 1 + √(x − 2). [F4]",
+      "fontes": [
+        {
+          "referencia": "F1",
+          "chunk_id": "61a5cbe04b38a50b81b0ecf5",
+          "arquivo": "01 Função Composta e Inversa.pdf",
+          "pagina": 23,
+          "assunto": "funcoes_inversas",
+          "aula": null,
+          "similaridade": 0.6142566204071045,
+          "unidade": 1,
+          "assunto_id": 89,
+          "pdf_sha256": "125282c95efe26c7b159f4466554914bb733b9543af8385f2e2d7bab46623266",
+          "periodo_id": 6,
+          "material_id": 43,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "01 Função Composta e Inversa",
+          "chunk_caracteres": 946,
+          "total_chunks_pagina": 2,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1
+        },
+        {
+          "referencia": "F2",
+          "chunk_id": "1132a838a30c13310c547c21",
+          "arquivo": "01 Função Composta e Inversa.pdf",
+          "pagina": 30,
+          "assunto": "funcoes_inversas",
+          "aula": null,
+          "similaridade": 0.589942455291748,
+          "unidade": 1,
+          "assunto_id": 89,
+          "pdf_sha256": "125282c95efe26c7b159f4466554914bb733b9543af8385f2e2d7bab46623266",
+          "periodo_id": 6,
+          "material_id": 43,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "01 Função Composta e Inversa",
+          "chunk_caracteres": 998,
+          "total_chunks_pagina": 2,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1
+        },
+        {
+          "referencia": "F4",
+          "chunk_id": "d085a991b0f711c56700ee00",
+          "arquivo": "01 Função Composta e Inversa.pdf",
+          "pagina": 32,
+          "assunto": "funcoes_inversas",
+          "aula": null,
+          "similaridade": 0.5703997015953064,
+          "unidade": 1,
+          "assunto_id": 89,
+          "pdf_sha256": "125282c95efe26c7b159f4466554914bb733b9543af8385f2e2d7bab46623266",
+          "periodo_id": 6,
+          "material_id": 43,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "01 Função Composta e Inversa",
+          "chunk_caracteres": 977,
+          "total_chunks_pagina": 2,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1
+        }
+      ],
+      "segundos": 2.66
+    },
+    {
+      "pergunta": "O que a questão 8 da prova informa sobre continuidade em x = 1?",
+      "resposta": "A questão 8 da prova é uma questão de verificação de continuidade, e o item A (transcrito) apresenta a seguinte função: f(x) = (x² − 1)/(x − 1), se x ≠ 1, e pede para verificar se ela é contínua em x = 1. [F1]\n\nVale notar que a transcrição não inclui a definição de f(1) no item A, ou seja, não está explícito o valor da função no ponto x = 1. Sem esse valor, não é possível concluir pela definição de continuidade, pois ela exige três condições: (1) f(1) definido, (2) limite de f(x) quando x → 1 existe, (3) limite = f(1). [F4]\n\nNa prática, para x ≠ 1, podemos simplificar a expressão: (x² − 1)/(x − 1) = x + 1, para x ≠ 1. Portanto, o limite quando x → 1 é 2. [F1] (cálculo didático da IA, com base na função fornecida)\n\nComo a transcrição não fornece o valor de f(1), a verificação fica incompleta: se f(1) = 2, a função seria contínua (após preencher a lacuna); se f(1) ≠ 2, haveria descontinuidade removível. [F4] (aplicação da definição)\n\nO item B da questão 8 pede para verificar continuidade em x = −1, mas também não foi transcrito na íntegra; há apenas a definição por partes com x² + 3x + 2 sobre x + 1, se x < −1, e 3x, se x > −1, sem a condição para x = −1. [F1]",
+      "fontes": [
+        {
+          "referencia": "F1",
+          "chunk_id": "3de10b82446ac5c1d877fc5d",
+          "arquivo": "prova_calculo_transcrita.pdf",
+          "pagina": 2,
+          "assunto": "continuidade",
+          "aula": null,
+          "similaridade": 0.452209228540567,
+          "unidade": 1,
+          "assunto_id": 92,
+          "pdf_sha256": "c5b398d113be964625a5599facd58abc156704e8def51ffed0b2ab36f76cd650",
+          "periodo_id": 6,
+          "material_id": 46,
+          "disciplina_id": 14,
+          "tipo_material": "PROVA_ANTIGA",
+          "titulo_material": "prova_calculo_transcrita",
+          "chunk_caracteres": 628,
+          "total_chunks_pagina": 1,
+          "autorizacao_professor": true,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": true,
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1
+        },
+        {
+          "referencia": "F4",
+          "chunk_id": "3ee570212865bd19a2153315",
+          "arquivo": "02 Limites e Derivadas.pdf",
+          "pagina": 35,
+          "assunto": "continuidade",
+          "aula": null,
+          "similaridade": 0.6154044408088256,
+          "unidade": 1,
+          "assunto_id": 92,
+          "pdf_sha256": "35b6f6006b7ecd586287b57a2abf58825c7dc2e87b49ec88c7e5ccbfff7e85ca",
+          "periodo_id": 6,
+          "material_id": 44,
+          "disciplina_id": 14,
+          "tipo_material": "TRECHO_LIVRO",
+          "titulo_material": "02 Limites e Derivadas",
+          "chunk_caracteres": 967,
+          "total_chunks_pagina": 4,
+          "autorizacao_professor": false,
+          "fonte_monitor_virtual": true,
+          "disponivel_para_pratica": false,
+          "periodo": "02",
+          "disciplina": "calculo_para_computacao_1",
+          "tipo_arquivo": "pdf",
+          "tipo_extracao": "textual",
+          "chunk_index": 1
+        }
+      ],
+      "segundos": 2.94
+    }
+  ],
+  "conta_temporaria_removida": true,
+  "dados_anteriores_preservados": false,
+  "contagens": {
+    "usuarios": 7,
+    "conversas": 12,
+    "mensagens": 60,
+    "materiais": 47,
+    "chunks": 2166
+  },
+  "dados_permanentes_preservados": true,
+  "limpeza_visitantes_expirados": {
+    "contas_permanentes_ausentes": 0,
+    "visitantes_expirados_removidos": 1,
+    "conversas_expiradas_removidas": 3,
+    "mensagens_expiradas_removidas": 8,
+    "divergencia_apenas_visitantes_expirados": true
+  }
+}

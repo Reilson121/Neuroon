@@ -1,0 +1,13 @@
+{
+  "aprovado": true,
+  "total_avaliacoes": 2,
+  "media": 4.5,
+  "verificacoes": [
+    "Consulta pública sem login",
+    "Campos públicos sem email ou senha",
+    "Rotas privadas continuam protegidas",
+    "Interface atualizada e aviso de publicação",
+    "Arquivos publicados conferidos e serviços saudáveis"
+  ],
+  "backup": "/opt/neuron/deploy/backups/avaliacoes-20261030T175232Z"
+}

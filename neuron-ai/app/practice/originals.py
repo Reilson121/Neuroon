@@ -16,6 +16,9 @@ EXPLICACOES = {
 
 
 def preparar_original(q):
+    if q.get('disciplina_slug') == 'estrutura_de_dados':
+        from app.practice.ed_basica_engine import preparar_original as preparar_ed
+        return preparar_ed(q)
     if q.get("formato_original") != "multipla_escolha":
         return None
     numero = int(q["referencia_local"].rsplit("q", 1)[1])

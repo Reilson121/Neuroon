@@ -1,0 +1,1516 @@
+[
+  {
+    "motor": "calculo",
+    "topico": "composicao",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Dadas $f\\left(x\\right) = 3 \\cdot x + 2$ e $g\\left(x\\right) = {x}^{2} - 5$, calcule $(f\\circ g)(x)$.",
+      "$(f\\circ g)(x)=f(g(x))$",
+      "Identifique a função externa $f\\left(x\\right) = 3 \\cdot x + 2$ e a interna $g\\left(x\\right) = {x}^{2} - 5$.",
+      "Substitua cada x de f por $g\\left(x\\right)$: $f(g(x))$ = $3 \\cdot \\left({x}^{2} - 5\\right) + 2$.",
+      "Efetue as operações: $3 \\cdot {x}^{2} - 13$.",
+      "Resultado: $3 \\cdot {x}^{2} - 13$.",
+      "Restrição: x real.",
+      "$3 \\cdot {x}^{2} - 15$",
+      "$3 \\cdot {x}^{2} - 13$",
+      "$3 \\cdot {x}^{2} - 11$",
+      "$3 \\cdot {x}^{2} - 12$",
+      "$3 \\cdot {x}^{2} - 14$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "composicao",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Dadas $f\\left(x\\right) = 3 \\cdot x + 2$ e $g\\left(x\\right) = \\dfrac{1}{\\left(x + 5\\right)}$, calcule $(f\\circ g)(x)$.",
+      "$(f\\circ g)(x)=f(g(x))$",
+      "Identifique a função externa $f\\left(x\\right) = 3 \\cdot x + 2$ e a interna $g\\left(x\\right) = \\dfrac{1}{\\left(x + 5\\right)}$.",
+      "Substitua cada x de f por $g\\left(x\\right)$: $f(g(x))$ = $3 \\cdot \\left(\\dfrac{1}{\\left(x + 5\\right)}\\right) + 2$.",
+      "Efetue as operações: $\\dfrac{\\left(2 \\cdot x + 13\\right)}{\\left(x + 5\\right)}$.",
+      "Resultado: $\\dfrac{\\left(2 \\cdot x + 13\\right)}{\\left(x + 5\\right)}$.",
+      "Restrição: $x \\ne -5$.",
+      "$\\dfrac{3}{\\left(x + 5\\right)}$",
+      "$\\dfrac{\\left(2 \\cdot x + 13\\right)}{\\left(x + 5\\right)}$",
+      "$\\dfrac{\\left(4 \\cdot x + 23\\right)}{\\left(x + 5\\right)}$",
+      "$\\dfrac{3 \\cdot \\left(x + 6\\right)}{\\left(x + 5\\right)}$",
+      "$\\dfrac{\\left(x + 8\\right)}{\\left(x + 5\\right)}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "composicao",
+    "tipo": "RADICAL",
+    "campos": [
+      "Dadas $f\\left(x\\right) = 3 \\cdot x + 2$ e $g\\left(x\\right) = \\sqrt{x + 5}$, calcule $(f\\circ g)(x)$.",
+      "$(f\\circ g)(x)=f(g(x))$",
+      "Identifique a função externa $f\\left(x\\right) = 3 \\cdot x + 2$ e a interna $g\\left(x\\right) = \\sqrt{x + 5}$.",
+      "Substitua cada x de f por $g\\left(x\\right)$: $f(g(x))$ = $3 \\cdot \\left(\\sqrt{x + 5}\\right) + 2$.",
+      "Efetue as operações: $3 \\cdot \\sqrt{x + 5} + 2$.",
+      "Resultado: $3 \\cdot \\sqrt{x + 5} + 2$.",
+      "Restrição: $x \\ge -5$.",
+      "$3 \\cdot \\sqrt{x + 5}$",
+      "$3 \\cdot \\sqrt{x + 5} + 2$",
+      "$3 \\cdot \\sqrt{x + 5} + 4$",
+      "$3 \\cdot \\sqrt{x + 5} + 3$",
+      "$3 \\cdot \\sqrt{x + 5} + 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "composicao_valor",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Dadas $f\\left(x\\right) = 3 \\cdot x + 2$ e $g\\left(x\\right) = {x}^{2} - 5$, calcule $f\\left(g\\left(5\\right)\\right)$.",
+      "$(f\\circ g)(x)=f(g(x))$",
+      "Calcule primeiro a interna: $g\\left(5\\right) = 20$.",
+      "Substitua esse resultado em f: $f\\left(20\\right) = 3 \\cdot \\left(20\\right) + 2$.",
+      "Efetue as operações: 62.",
+      "Resultado: 62.",
+      "Restrição: x real.",
+      "$60$",
+      "$62$",
+      "$64$",
+      "$63$",
+      "$61$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "inversa",
+    "tipo": "AFIM",
+    "campos": [
+      "Calcule a função inversa de $f\\left(x\\right) = 3 \\cdot x + 2$.",
+      "Trocar x e y e isolar y.",
+      "Escreva $y = 3 \\cdot x + 2$.",
+      "Troque x e y: $x = 3 \\cdot y + 2$.",
+      "Isole y: $y = \\dfrac{x}{3} - \\dfrac{2}{3}$.",
+      "Portanto, $f^{-1}\\left(x\\right) = \\dfrac{x}{3} - \\dfrac{2}{3}$.",
+      "Resultado: $\\dfrac{x}{3} - \\dfrac{2}{3}$.",
+      "Restrição: x real.",
+      "$\\dfrac{x}{3} - \\dfrac{8}{3}$",
+      "$\\dfrac{x}{3} - \\dfrac{2}{3}$",
+      "$\\dfrac{x}{3} + \\dfrac{4}{3}$",
+      "$\\dfrac{x}{3} + \\dfrac{1}{3}$",
+      "$\\dfrac{x}{3} - \\dfrac{5}{3}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "inversa",
+    "tipo": "EXPONENCIAL",
+    "campos": [
+      "Calcule a função inversa de $f\\left(x\\right) = 3 \\cdot \\exp\\left(x\\right) + 2$.",
+      "Trocar x e y e isolar y.",
+      "Escreva $y = 3 \\cdot \\exp\\left(x\\right) + 2$.",
+      "Troque x e y: $x = 3 \\cdot \\exp\\left(y\\right) + 2$.",
+      "Isole y: $y = \\ln\\left(\\dfrac{x}{3} - \\dfrac{2}{3}\\right)$.",
+      "Portanto, $f^{-1}\\left(x\\right) = \\ln\\left(\\dfrac{x}{3} - \\dfrac{2}{3}\\right)$.",
+      "Resultado: $\\ln\\left(\\dfrac{x}{3} - \\dfrac{2}{3}\\right)$.",
+      "Restrição: $x > 2$.",
+      "$\\ln\\left(\\dfrac{x}{3} - \\dfrac{2}{3}\\right) - 2$",
+      "$\\ln\\left(\\dfrac{x}{3} - \\dfrac{2}{3}\\right)$",
+      "$\\ln\\left(\\dfrac{x}{3} - \\dfrac{2}{3}\\right) + 2$",
+      "$\\ln\\left(\\dfrac{x}{3} - \\dfrac{2}{3}\\right) + 1$",
+      "$\\ln\\left(\\dfrac{x}{3} - \\dfrac{2}{3}\\right) - 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "soma_inversas",
+    "tipo": "AFIM",
+    "campos": [
+      "Dadas $f\\left(x\\right) = 3 \\cdot x$ e $g\\left(x\\right) = 2 \\cdot x + 5$, calcule $f^{-1}\\left(x\\right) + g^{-1}\\left(x\\right)$.",
+      "Trocar x e y, isolar y e somar as inversas.",
+      "Para f: $x = 3 \\cdot y$, então $f^{-1}\\left(x\\right) = \\dfrac{x}{3}$.",
+      "Para g: $x = 2 \\cdot y + 5$, então $g^{-1}\\left(x\\right) = \\dfrac{\\left(x - 5\\right)}{2}$.",
+      "Some: $\\dfrac{x}{3} + \\dfrac{\\left(x - 5\\right)}{2} = \\dfrac{5 \\cdot x}{6} - \\dfrac{5}{2}$.",
+      "Resultado: $\\dfrac{5 \\cdot x}{6} - \\dfrac{5}{2}$.",
+      "Restrição: x real.",
+      "$\\dfrac{5 \\cdot x}{6} - \\dfrac{9}{2}$",
+      "$\\dfrac{5 \\cdot x}{6} - \\dfrac{5}{2}$",
+      "$\\dfrac{5 \\cdot x}{6} - \\dfrac{1}{2}$",
+      "$\\dfrac{5 \\cdot x}{6} - \\dfrac{3}{2}$",
+      "$\\dfrac{5 \\cdot x}{6} - \\dfrac{7}{2}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "fatoracao",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Simplifique $\\dfrac{2 \\cdot x^{3} - 54}{x - 3}$, indicando a restrição do domínio.",
+      "Diferença de cubos: ${x}^{3} - {a}^{3} = \\left(x - a\\right)$ $\\left({x}^{2} + a \\cdot x + {a}^{2}\\right)$",
+      "Fatore o numerador: $2 \\cdot {x}^{3} - 54 = \\left(x - 3\\right) \\cdot \\left(2 \\cdot {x}^{2} + 6 \\cdot x + 18\\right)$.",
+      "Para $x \\ne 3$, cancele o fator $\\left(x - 3\\right)$: resta $2 \\cdot {x}^{2} + 6 \\cdot x + 18$.",
+      "Resultado: $2 \\cdot {x}^{2} + 6 \\cdot x + 18$.",
+      "Restrição: $x \\ne 3$.",
+      "$2 \\cdot {x}^{2} + 6 \\cdot x + 16$",
+      "$2 \\cdot {x}^{2} + 6 \\cdot x + 18$",
+      "$2 \\cdot {x}^{2} + 6 \\cdot x + 20$",
+      "$2 \\cdot {x}^{2} + 6 \\cdot x + 19$",
+      "$2 \\cdot {x}^{2} + 6 \\cdot x + 17$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "substituicao",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $\\lim_{x \\to 5}\\left(3 \\cdot x^{2} + 2 \\cdot x + 5\\right)$.",
+      "Substituição direta em função contínua no ponto.",
+      "Verifique o domínio em $x = 5$: a expressão está definida.",
+      "A função é contínua nesse ponto; substitua x por 5.",
+      "Calcule: 90.",
+      "Resultado: 90.",
+      "$88$",
+      "$90$",
+      "$92$",
+      "$91$",
+      "$89$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "substituicao",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Calcule $\\lim_{x \\to 5}\\left(\\dfrac{3 \\cdot x + 2}{x^{2} + 5}\\right)$.",
+      "Substituição direta em função contínua no ponto.",
+      "Verifique o domínio em $x = 5$: a expressão está definida.",
+      "A função é contínua nesse ponto; substitua x por 5.",
+      "Calcule: $\\dfrac{17}{30}$.",
+      "Resultado: $\\dfrac{17}{30}$.",
+      "$\\dfrac{-43}{30}$",
+      "$\\dfrac{17}{30}$",
+      "$\\dfrac{77}{30}$",
+      "$\\dfrac{47}{30}$",
+      "$\\dfrac{-13}{30}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "substituicao",
+    "tipo": "RADICAL",
+    "campos": [
+      "Calcule $\\lim_{x \\to 5} \\sqrt{x + 2}$.",
+      "Substituição direta em função contínua no ponto.",
+      "Verifique o domínio em $x = 5$: a expressão está definida.",
+      "A função é contínua nesse ponto; substitua x por 5.",
+      "Calcule: $\\sqrt{7}$.",
+      "Resultado: $\\sqrt{7}$.",
+      "$-2 + \\sqrt{7}$",
+      "$\\sqrt{7}$",
+      "$2 + \\sqrt{7}$",
+      "$1 + \\sqrt{7}$",
+      "$-1 + \\sqrt{7}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "fatoracao_limite",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Calcule $\\lim_{x \\to 3}\\left(\\dfrac{2 \\cdot x^{3} - 54}{x - 3}\\right)$.",
+      "Diferença de cubos: ${x}^{3} - {a}^{3} = \\left(x - a\\right)$ $\\left({x}^{2} + a \\cdot x + {a}^{2}\\right)$",
+      "A substituição $x = 3$ produz $\\dfrac{0}{0}$; isso é uma indeterminação, não o resultado.",
+      "Fatore o numerador: $2 \\cdot {x}^{3} - 54 = \\left(x - 3\\right) \\cdot \\left(2 \\cdot {x}^{2} + 6 \\cdot x + 18\\right)$.",
+      "Para $x \\ne 3$, cancele o fator $\\left(x - 3\\right)$: resta $2 \\cdot {x}^{2} + 6 \\cdot x + 18$.",
+      "Agora substitua $x = 3$ em $2 \\cdot {x}^{2} + 6 \\cdot x + 18$: 54.",
+      "Resultado: 54.",
+      "$52$",
+      "$54$",
+      "$56$",
+      "$55$",
+      "$53$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "racionalizacao",
+    "tipo": "RADICAL",
+    "campos": [
+      "Calcule $\\lim_{x \\to 7}\\left(\\dfrac{\\sqrt{x + 2} - 3}{x - 7}\\right)$.",
+      "$(\\sqrt{u}-a)(\\sqrt{u}+a)=u-a^2$",
+      "A substituição $x = 7$ dá $\\dfrac{0}{0}$.",
+      "Multiplique numerador e denominador pelo conjugado $\\sqrt{x + 2} + 3$.",
+      "O numerador vira $x - 7$. Cancele esse fator para $x \\ne 7$: fica $\\dfrac{1}{\\left(\\sqrt{x + 2} + 3\\right)}$.",
+      "Substitua: $\\dfrac{1}{\\left(3 + 3\\right)} = \\dfrac{1}{6}$.",
+      "Resultado: $\\dfrac{1}{6}$.",
+      "$\\dfrac{-11}{6}$",
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{13}{6}$",
+      "$\\dfrac{7}{6}$",
+      "$\\dfrac{-5}{6}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "infinito",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Calcule $\\lim_{x \\to \\infty}\\left(\\dfrac{3 \\cdot x^{2} + 2}{5 \\cdot x^{2} + 1}\\right)$.",
+      "Dividir numerador e denominador pela maior potência de x.",
+      "Divida por ${x}^{2}$: $\\dfrac{\\left(3 + \\dfrac{2}{{x}^{2}}\\right)}{\\left(5 + \\dfrac{1}{{x}^{2}}\\right)}$.",
+      "Quando $x \\to +\\infty$, $\\dfrac{1}{{x}^{2}} \\to 0$.",
+      "O limite é $\\dfrac{3}{5} = \\dfrac{3}{5}$.",
+      "Resultado: $\\dfrac{3}{5}$.",
+      "$\\dfrac{-7}{5}$",
+      "$\\dfrac{3}{5}$",
+      "$\\dfrac{13}{5}$",
+      "$\\dfrac{8}{5}$",
+      "$\\dfrac{-2}{5}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "infinito_ponto",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Calcule $\\lim_{x \\to 3}\\left(\\dfrac{2}{\\left(x - 3\\right)^{2}}\\right)$.",
+      "Uma constante positiva dividida por quantidade positiva que tende a zero cresce sem limite.",
+      "Quando $x \\to 3$, ${\\left(x - 3\\right)}^{2} \\to 0$.",
+      "Para $x \\ne 3$, o denominador é positivo, tanto pela esquerda quanto pela direita.",
+      "Como $2 > 0$, ambos os limites laterais são $+\\infty$.",
+      "Resultado: $+\\infty$.",
+      "O limite não existe e os limites laterais têm sinais opostos.",
+      "$+\\infty$",
+      "$1$",
+      "$-\\infty$",
+      "$0$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "confronto",
+    "tipo": "TRIGONOMETRICA",
+    "campos": [
+      "Calcule $\\lim_{x \\to 0}\\left(3 \\cdot x^{2} \\cdot \\sin{\\left(\\dfrac{2}{x} \\right)}\\right)$.",
+      "$-1\\le\\sin(u)\\le 1$",
+      "Para $x \\ne 0$, $-3 \\cdot {x}^{2} \\le 3 \\cdot {x}^{2} \\cdot \\sin\\left(\\dfrac{2}{x}\\right) \\le 3 \\cdot {x}^{2}$.",
+      "Os dois extremos tendem a 0 quando $x \\to 0$.",
+      "Pelo teorema do confronto, o limite é 0.",
+      "Resultado: 0.",
+      "$-2$",
+      "$0$",
+      "$2$",
+      "$1$",
+      "$-1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "laterais",
+    "tipo": "POR_PARTES",
+    "campos": [
+      "Considere $f\\left(x\\right) = 3 \\cdot x + 2$ se $x < 1$, $f\\left(1\\right) = 5$ e $f\\left(x\\right) = 3 \\cdot x + 2$ se $x > 1$. Calcule os limites laterais em 1 e verifique a continuidade.",
+      "$\\lim_{x\\to p^-}f(x)=\\lim_{x\\to p^+}f(x)=f(p)$",
+      "Pela esquerda: $3 \\cdot 1 + 2 = 5$.",
+      "Pela direita: $3 \\cdot 1 + 2 = 5$.",
+      "Valor no ponto: $f\\left(1\\right) = 5$.",
+      "Sim, é contínua.",
+      "Resultado: Sim, é contínua..",
+      "Não é possível calcular nenhum limite lateral.",
+      "Sim, é contínua.",
+      "Não, os dois limites laterais são infinitos.",
+      "Não, os limites laterais são diferentes.",
+      "Não, $f\\left(1\\right)$ não está definida."
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "definicao",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$ pela definição, para $f\\left(x\\right) = 3 \\cdot {x}^{2} + 2 \\cdot x + 5$.",
+      "$f'(x)=\\lim_{h\\to 0}\\dfrac{f(x+h)-f(x)}{h}$",
+      "Calcule $f\\left(x + h\\right) = 3 \\cdot {h}^{2} + 6 \\cdot h \\cdot x + 2 \\cdot h + 3 \\cdot {x}^{2} + 2 \\cdot x + 5$.",
+      "Subtraia $f\\left(x\\right)$: $3 \\cdot {h}^{2} + 6 \\cdot h \\cdot x + 2 \\cdot h$.",
+      "Divida por $h \\ne 0$: $3 \\cdot h + 6 \\cdot x + 2$.",
+      "Tome $h \\to 0$: $f^{\\prime}\\left(x\\right) = 6 \\cdot x + 2$.",
+      "Resultado: $6 \\cdot x + 2$.",
+      "$6 \\cdot x$",
+      "$6 \\cdot x + 2$",
+      "$6 \\cdot x + 4$",
+      "$6 \\cdot x + 3$",
+      "$6 \\cdot x + 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "potencia",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = 3 \\cdot {x}^{4} + 2 \\cdot x + 5$.",
+      "$\\dfrac{d}{dx}(kx^p)=kpx^{p-1}$",
+      "Reescreva em potências: $3 \\cdot {x}^{4} + 2 \\cdot x + 5$.",
+      "Mantenha o coeficiente de cada termo, multiplique pelo expoente e diminua o expoente em 1.",
+      "d/$dx\\left(5\\right) = 0$.",
+      "d/$dx\\left(2 \\cdot x\\right) = 2$.",
+      "d/$dx\\left(3 \\cdot {x}^{4}\\right) = 12 \\cdot {x}^{3}$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = 12 \\cdot {x}^{3} + 2$.",
+      "Resultado: $12 \\cdot {x}^{3} + 2$.",
+      "$12 \\cdot {x}^{3}$",
+      "$12 \\cdot {x}^{3} + 2$",
+      "$12 \\cdot {x}^{3} + 4$",
+      "$12 \\cdot {x}^{3} + 3$",
+      "$12 \\cdot {x}^{3} + 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "potencia",
+    "tipo": "RADICAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = 3 \\cdot \\sqrt{x} + 2$.",
+      "$\\dfrac{d}{dx}(kx^p)=kpx^{p-1}$",
+      "Reescreva em potências: $3 \\cdot \\sqrt{x} + 2$.",
+      "Mantenha o coeficiente de cada termo, multiplique pelo expoente e diminua o expoente em 1.",
+      "d/$dx\\left(2\\right) = 0$.",
+      "d/$dx\\left(3 \\cdot \\sqrt{x}\\right) = \\dfrac{3}{\\left(2 \\cdot \\sqrt{x}\\right)}$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\dfrac{3}{\\left(2 \\cdot \\sqrt{x}\\right)}$.",
+      "Resultado: $\\dfrac{3}{\\left(2 \\cdot \\sqrt{x}\\right)}$.",
+      "Restrição: $x > 0$.",
+      "$-2 + \\dfrac{3}{\\left(2 \\cdot \\sqrt{x}\\right)}$",
+      "$\\dfrac{3}{\\left(2 \\cdot \\sqrt{x}\\right)}$",
+      "$2 + \\dfrac{3}{\\left(2 \\cdot \\sqrt{x}\\right)}$",
+      "$1 + \\dfrac{3}{\\left(2 \\cdot \\sqrt{x}\\right)}$",
+      "$-1 + \\dfrac{3}{\\left(2 \\cdot \\sqrt{x}\\right)}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "potencia",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = 2 + \\dfrac{3}{{x}^{4}}$.",
+      "$\\dfrac{d}{dx}(kx^p)=kpx^{p-1}$",
+      "Reescreva em potências: $2 + \\dfrac{3}{{x}^{4}}$.",
+      "Mantenha o coeficiente de cada termo, multiplique pelo expoente e diminua o expoente em 1.",
+      "d/$dx\\left(2\\right) = 0$.",
+      "d/$dx\\left(\\dfrac{3}{{x}^{4}}\\right) = \\dfrac{-12}{{x}^{5}}$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\dfrac{-12}{{x}^{5}}$.",
+      "Resultado: $\\dfrac{-12}{{x}^{5}}$.",
+      "Restrição: $x \\ne 0$.",
+      "$-2 - \\dfrac{12}{{x}^{5}}$",
+      "$\\dfrac{-12}{{x}^{5}}$",
+      "$2 - \\dfrac{12}{{x}^{5}}$",
+      "$1 - \\dfrac{12}{{x}^{5}}$",
+      "$-1 - \\dfrac{12}{{x}^{5}}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "produto",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\left(3 \\cdot x + 2\\right) \\cdot \\left({x}^{4} + 5\\right)$.",
+      "$(uv)'=u'v+uv'$",
+      "Separe $u = 3 \\cdot x + 2$ e $v = {x}^{4} + 5$.",
+      "Calcule $u^{\\prime} = 3$ e $v^{\\prime} = 4 \\cdot {x}^{3}$.",
+      "Aplique o produto: $\\left(3\\right) \\cdot \\left({x}^{4} + 5\\right) + \\left(3 \\cdot x + 2\\right) \\cdot \\left(4 \\cdot {x}^{3}\\right)$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = 15 \\cdot {x}^{4} + 8 \\cdot {x}^{3} + 15$.",
+      "Resultado: $15 \\cdot {x}^{4} + 8 \\cdot {x}^{3} + 15$.",
+      "$15 \\cdot {x}^{4} + 8 \\cdot {x}^{3} + 13$",
+      "$15 \\cdot {x}^{4} + 8 \\cdot {x}^{3} + 15$",
+      "$15 \\cdot {x}^{4} + 8 \\cdot {x}^{3} + 17$",
+      "$15 \\cdot {x}^{4} + 8 \\cdot {x}^{3} + 16$",
+      "$15 \\cdot {x}^{4} + 8 \\cdot {x}^{3} + 14$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "produto",
+    "tipo": "TRIGONOMETRICA",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\left(3 \\cdot x + 2\\right) \\cdot \\sin\\left(x\\right)$.",
+      "$(uv)'=u'v+uv'$",
+      "Separe $u = 3 \\cdot x + 2$ e $v = \\sin\\left(x\\right)$.",
+      "Calcule $u^{\\prime} = 3$ e $v^{\\prime} = \\cos\\left(x\\right)$.",
+      "Aplique o produto: $\\left(3\\right) \\cdot \\left(\\sin\\left(x\\right)\\right) + \\left(3 \\cdot x + 2\\right) \\cdot \\left(\\cos\\left(x\\right)\\right)$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\left(3 \\cdot x + 2\\right) \\cdot \\cos\\left(x\\right) + 3 \\cdot \\sin\\left(x\\right)$.",
+      "Resultado: $\\left(3 \\cdot x + 2\\right) \\cdot \\cos\\left(x\\right) + 3 \\cdot \\sin\\left(x\\right)$.",
+      "$\\left(3 \\cdot x + 2\\right) \\cdot \\cos\\left(x\\right) + 3 \\cdot \\sin\\left(x\\right) - 2$",
+      "$\\left(3 \\cdot x + 2\\right) \\cdot \\cos\\left(x\\right) + 3 \\cdot \\sin\\left(x\\right)$",
+      "$\\left(3 \\cdot x + 2\\right) \\cdot \\cos\\left(x\\right) + 3 \\cdot \\sin\\left(x\\right) + 2$",
+      "$\\left(3 \\cdot x + 2\\right) \\cdot \\cos\\left(x\\right) + 3 \\cdot \\sin\\left(x\\right) + 1$",
+      "$\\left(3 \\cdot x + 2\\right) \\cdot \\cos\\left(x\\right) + 3 \\cdot \\sin\\left(x\\right) - 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "produto",
+    "tipo": "EXPONENCIAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\left(3 \\cdot x + 2\\right) \\cdot \\exp\\left(x\\right)$.",
+      "$(uv)'=u'v+uv'$",
+      "Separe $u = 3 \\cdot x + 2$ e $v = \\exp\\left(x\\right)$.",
+      "Calcule $u^{\\prime} = 3$ e $v^{\\prime} = \\exp\\left(x\\right)$.",
+      "Aplique o produto: $\\left(3\\right) \\cdot \\left(\\exp\\left(x\\right)\\right) + \\left(3 \\cdot x + 2\\right) \\cdot \\left(\\exp\\left(x\\right)\\right)$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\left(3 \\cdot x + 5\\right) \\cdot \\exp\\left(x\\right)$.",
+      "Resultado: $\\left(3 \\cdot x + 5\\right) \\cdot \\exp\\left(x\\right)$.",
+      "$\\left(3 \\cdot x + 5\\right) \\cdot \\exp\\left(x\\right) - 2$",
+      "$\\left(3 \\cdot x + 5\\right) \\cdot \\exp\\left(x\\right)$",
+      "$\\left(3 \\cdot x + 5\\right) \\cdot \\exp\\left(x\\right) + 2$",
+      "$\\left(3 \\cdot x + 5\\right) \\cdot \\exp\\left(x\\right) + 1$",
+      "$\\left(3 \\cdot x + 5\\right) \\cdot \\exp\\left(x\\right) - 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "quociente",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\dfrac{\\left(3 \\cdot {x}^{2} + 2\\right)}{\\left(x + 5\\right)}$.",
+      "$\\left(\\dfrac{u}{v}\\right)'=\\dfrac{u'v-uv'}{v^2}$",
+      "Separe $u = 3 \\cdot {x}^{2} + 2$ e $v = x + 5$.",
+      "Calcule $u^{\\prime} = 6 \\cdot x$ e $v^{\\prime} = 1$.",
+      "Substitua na regra: $\\dfrac{\\left(\\left(6 \\cdot x\\right) \\cdot \\left(x + 5\\right) - \\left(3 \\cdot {x}^{2} + 2\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\dfrac{\\left(-3 \\cdot {x}^{2} + 6 \\cdot x \\cdot \\left(x + 5\\right) - 2\\right)}{{\\left(x + 5\\right)}^{2}}$.",
+      "Resultado: $\\dfrac{\\left(-3 \\cdot {x}^{2} + 6 \\cdot x \\cdot \\left(x + 5\\right) - 2\\right)}{{\\left(x + 5\\right)}^{2}}$.",
+      "Restrição: $x \\ne -5$.",
+      "$\\dfrac{\\left({x}^{2} + 10 \\cdot x - 52\\right)}{\\left({x}^{2} + 10 \\cdot x + 25\\right)}$",
+      "$\\dfrac{\\left(-3 \\cdot {x}^{2} + 6 \\cdot x \\cdot \\left(x + 5\\right) - 2\\right)}{{\\left(x + 5\\right)}^{2}}$",
+      "$\\dfrac{\\left(5 \\cdot {x}^{2} + 50 \\cdot x + 48\\right)}{\\left({x}^{2} + 10 \\cdot x + 25\\right)}$",
+      "$\\dfrac{\\left(4 \\cdot {x}^{2} + 40 \\cdot x + 23\\right)}{\\left({x}^{2} + 10 \\cdot x + 25\\right)}$",
+      "$\\dfrac{\\left(2 \\cdot {x}^{2} + 20 \\cdot x - 27\\right)}{\\left({x}^{2} + 10 \\cdot x + 25\\right)}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "quociente",
+    "tipo": "TRIGONOMETRICA",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\dfrac{2 \\cdot \\sin\\left(x\\right)}{\\left(x + 5\\right)}$.",
+      "$\\left(\\dfrac{u}{v}\\right)'=\\dfrac{u'v-uv'}{v^2}$",
+      "Separe $u = 2 \\cdot \\sin\\left(x\\right)$ e $v = x + 5$.",
+      "Calcule $u^{\\prime} = 2 \\cdot \\cos\\left(x\\right)$ e $v^{\\prime} = 1$.",
+      "Substitua na regra: $\\dfrac{\\left(\\left(2 \\cdot \\cos\\left(x\\right)\\right) \\cdot \\left(x + 5\\right) - \\left(2 \\cdot \\sin\\left(x\\right)\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\dfrac{2 \\cdot \\left(\\left(x + 5\\right) \\cdot \\cos\\left(x\\right) - \\sin\\left(x\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$.",
+      "Resultado: $\\dfrac{2 \\cdot \\left(\\left(x + 5\\right) \\cdot \\cos\\left(x\\right) - \\sin\\left(x\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$.",
+      "Restrição: $x \\ne -5$.",
+      "$\\dfrac{2 \\cdot \\left(-{\\left(x + 5\\right)}^{2} + \\left(x + 5\\right) \\cdot \\cos\\left(x\\right) - \\sin\\left(x\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$",
+      "$\\dfrac{2 \\cdot \\left(\\left(x + 5\\right) \\cdot \\cos\\left(x\\right) - \\sin\\left(x\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$",
+      "$\\dfrac{2 \\cdot \\left({\\left(x + 5\\right)}^{2} + \\left(x + 5\\right) \\cdot \\cos\\left(x\\right) - \\sin\\left(x\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$",
+      "$\\dfrac{\\left({\\left(x + 5\\right)}^{2} + \\left(2 \\cdot x + 10\\right) \\cdot \\cos\\left(x\\right) - 2 \\cdot \\sin\\left(x\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$",
+      "$\\dfrac{\\left(-{\\left(x + 5\\right)}^{2} + \\left(2 \\cdot x + 10\\right) \\cdot \\cos\\left(x\\right) - 2 \\cdot \\sin\\left(x\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "quociente",
+    "tipo": "LOGARITMICA",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\dfrac{2 \\cdot \\ln\\left(x\\right)}{\\left(x + 5\\right)}$.",
+      "$\\left(\\dfrac{u}{v}\\right)'=\\dfrac{u'v-uv'}{v^2}$",
+      "Separe $u = 2 \\cdot \\ln\\left(x\\right)$ e $v = x + 5$.",
+      "Calcule $u^{\\prime} = \\dfrac{2}{x}$ e $v^{\\prime} = 1$.",
+      "Substitua na regra: $\\dfrac{\\left(\\left(\\dfrac{2}{x}\\right) \\cdot \\left(x + 5\\right) - \\left(2 \\cdot \\ln\\left(x\\right)\\right)\\right)}{{\\left(x + 5\\right)}^{2}}$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\dfrac{2 \\cdot \\left(-x \\cdot \\ln\\left(x\\right) + x + 5\\right)}{\\left(x \\cdot {\\left(x + 5\\right)}^{2}\\right)}$.",
+      "Resultado: $\\dfrac{2 \\cdot \\left(-x \\cdot \\ln\\left(x\\right) + x + 5\\right)}{\\left(x \\cdot {\\left(x + 5\\right)}^{2}\\right)}$.",
+      "Restrição: $x \\ne -5$; $x > 0$.",
+      "$\\dfrac{2 \\cdot \\left(-x \\cdot {\\left(x + 5\\right)}^{2} - x \\cdot \\ln\\left(x\\right) + x + 5\\right)}{\\left(x \\cdot {\\left(x + 5\\right)}^{2}\\right)}$",
+      "$\\dfrac{2 \\cdot \\left(-x \\cdot \\ln\\left(x\\right) + x + 5\\right)}{\\left(x \\cdot {\\left(x + 5\\right)}^{2}\\right)}$",
+      "$\\dfrac{2 \\cdot \\left(x \\cdot {\\left(x + 5\\right)}^{2} - x \\cdot \\ln\\left(x\\right) + x + 5\\right)}{\\left(x \\cdot {\\left(x + 5\\right)}^{2}\\right)}$",
+      "$\\dfrac{\\left(x \\cdot {\\left(x + 5\\right)}^{2} - 2 \\cdot x \\cdot \\ln\\left(x\\right) + 2 \\cdot x + 10\\right)}{\\left(x \\cdot {\\left(x + 5\\right)}^{2}\\right)}$",
+      "$\\dfrac{\\left(-x \\cdot {\\left(x + 5\\right)}^{2} - 2 \\cdot x \\cdot \\ln\\left(x\\right) + 2 \\cdot x + 10\\right)}{\\left(x \\cdot {\\left(x + 5\\right)}^{2}\\right)}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "cadeia",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = {\\left(3 \\cdot x + 2\\right)}^{4}$.",
+      "$\\dfrac{d}{dx}F(u(x))=F'(u(x))u'(x)$",
+      "Identifique a interna $u\\left(x\\right) = 3 \\cdot x + 2$ e a externa $F\\left(u\\right) = {u}^{4}$.",
+      "Derive a externa: $F^{\\prime}\\left(u\\right) = 4 \\cdot {u}^{3}$.",
+      "Derive a interna: $u^{\\prime}\\left(x\\right) = 3$.",
+      "Substitua u e multiplique: $\\left(4 \\cdot {\\left(3 \\cdot x + 2\\right)}^{3}\\right) \\cdot 3$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = 12 \\cdot {\\left(3 \\cdot x + 2\\right)}^{3}$.",
+      "Resultado: $12 \\cdot {\\left(3 \\cdot x + 2\\right)}^{3}$.",
+      "$12 \\cdot {\\left(3 \\cdot x + 2\\right)}^{3} - 2$",
+      "$12 \\cdot {\\left(3 \\cdot x + 2\\right)}^{3}$",
+      "$12 \\cdot {\\left(3 \\cdot x + 2\\right)}^{3} + 2$",
+      "$12 \\cdot {\\left(3 \\cdot x + 2\\right)}^{3} + 1$",
+      "$12 \\cdot {\\left(3 \\cdot x + 2\\right)}^{3} - 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "cadeia",
+    "tipo": "RADICAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\sqrt{3 \\cdot x + 2}$.",
+      "$\\dfrac{d}{dx}F(u(x))=F'(u(x))u'(x)$",
+      "Identifique a interna $u\\left(x\\right) = 3 \\cdot x + 2$ e a externa $F\\left(u\\right) = \\sqrt{u}$.",
+      "Derive a externa: $F^{\\prime}\\left(u\\right) = \\dfrac{1}{\\left(2 \\cdot \\sqrt{u}\\right)}$.",
+      "Derive a interna: $u^{\\prime}\\left(x\\right) = 3$.",
+      "Substitua u e multiplique: $\\left(\\dfrac{1}{\\left(2 \\cdot \\sqrt{3 \\cdot x + 2}\\right)}\\right) \\cdot 3$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\dfrac{3}{\\left(2 \\cdot \\sqrt{3 \\cdot x + 2}\\right)}$.",
+      "Resultado: $\\dfrac{3}{\\left(2 \\cdot \\sqrt{3 \\cdot x + 2}\\right)}$.",
+      "Restrição: $3 \\cdot x + 2 > 0$.",
+      "$-2 + \\dfrac{3}{\\left(2 \\cdot \\sqrt{3 \\cdot x + 2}\\right)}$",
+      "$\\dfrac{3}{\\left(2 \\cdot \\sqrt{3 \\cdot x + 2}\\right)}$",
+      "$2 + \\dfrac{3}{\\left(2 \\cdot \\sqrt{3 \\cdot x + 2}\\right)}$",
+      "$1 + \\dfrac{3}{\\left(2 \\cdot \\sqrt{3 \\cdot x + 2}\\right)}$",
+      "$-1 + \\dfrac{3}{\\left(2 \\cdot \\sqrt{3 \\cdot x + 2}\\right)}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "cadeia",
+    "tipo": "TRIGONOMETRICA",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\sin\\left(3 \\cdot x + 2\\right)$.",
+      "$\\dfrac{d}{dx}F(u(x))=F'(u(x))u'(x)$",
+      "Identifique a interna $u\\left(x\\right) = 3 \\cdot x + 2$ e a externa $F\\left(u\\right) = \\sin\\left(u\\right)$.",
+      "Derive a externa: $F^{\\prime}\\left(u\\right) = \\cos\\left(u\\right)$.",
+      "Derive a interna: $u^{\\prime}\\left(x\\right) = 3$.",
+      "Substitua u e multiplique: $\\left(\\cos\\left(3 \\cdot x + 2\\right)\\right) \\cdot 3$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = 3 \\cdot \\cos\\left(3 \\cdot x + 2\\right)$.",
+      "Resultado: $3 \\cdot \\cos\\left(3 \\cdot x + 2\\right)$.",
+      "$3 \\cdot \\cos\\left(3 \\cdot x + 2\\right) - 2$",
+      "$3 \\cdot \\cos\\left(3 \\cdot x + 2\\right)$",
+      "$3 \\cdot \\cos\\left(3 \\cdot x + 2\\right) + 2$",
+      "$3 \\cdot \\cos\\left(3 \\cdot x + 2\\right) + 1$",
+      "$3 \\cdot \\cos\\left(3 \\cdot x + 2\\right) - 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "cadeia",
+    "tipo": "EXPONENCIAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\exp\\left(3 \\cdot x + 2\\right)$.",
+      "$\\dfrac{d}{dx}F(u(x))=F'(u(x))u'(x)$",
+      "Identifique a interna $u\\left(x\\right) = 3 \\cdot x + 2$ e a externa $F\\left(u\\right) = \\exp\\left(u\\right)$.",
+      "Derive a externa: $F^{\\prime}\\left(u\\right) = \\exp\\left(u\\right)$.",
+      "Derive a interna: $u^{\\prime}\\left(x\\right) = 3$.",
+      "Substitua u e multiplique: $\\left(\\exp\\left(3 \\cdot x + 2\\right)\\right) \\cdot 3$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = 3 \\cdot \\exp\\left(3 \\cdot x + 2\\right)$.",
+      "Resultado: $3 \\cdot \\exp\\left(3 \\cdot x + 2\\right)$.",
+      "$3 \\cdot \\exp\\left(3 \\cdot x + 2\\right) - 2$",
+      "$3 \\cdot \\exp\\left(3 \\cdot x + 2\\right)$",
+      "$3 \\cdot \\exp\\left(3 \\cdot x + 2\\right) + 2$",
+      "$3 \\cdot \\exp\\left(3 \\cdot x + 2\\right) + 1$",
+      "$3 \\cdot \\exp\\left(3 \\cdot x + 2\\right) - 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "cadeia",
+    "tipo": "LOGARITMICA",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = \\ln\\left(3 \\cdot x + 2\\right)$.",
+      "$\\dfrac{d}{dx}F(u(x))=F'(u(x))u'(x)$",
+      "Identifique a interna $u\\left(x\\right) = 3 \\cdot x + 2$ e a externa $F\\left(u\\right) = \\ln\\left(u\\right)$.",
+      "Derive a externa: $F^{\\prime}\\left(u\\right) = \\dfrac{1}{u}$.",
+      "Derive a interna: $u^{\\prime}\\left(x\\right) = 3$.",
+      "Substitua u e multiplique: $\\left(\\dfrac{1}{\\left(3 \\cdot x + 2\\right)}\\right) \\cdot 3$.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\dfrac{3}{\\left(3 \\cdot x + 2\\right)}$.",
+      "Resultado: $\\dfrac{3}{\\left(3 \\cdot x + 2\\right)}$.",
+      "Restrição: $3 \\cdot x + 2 > 0$.",
+      "$\\dfrac{\\left(-6 \\cdot x - 1\\right)}{\\left(3 \\cdot x + 2\\right)}$",
+      "$\\dfrac{3}{\\left(3 \\cdot x + 2\\right)}$",
+      "$\\dfrac{\\left(6 \\cdot x + 7\\right)}{\\left(3 \\cdot x + 2\\right)}$",
+      "$\\dfrac{\\left(3 \\cdot x + 5\\right)}{\\left(3 \\cdot x + 2\\right)}$",
+      "$\\dfrac{\\left(1 - 3 \\cdot x\\right)}{\\left(3 \\cdot x + 2\\right)}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "trigonometrica",
+    "tipo": "TRIGONOMETRICA",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = 3 \\cdot \\cos\\left(x\\right) + 2$.",
+      "$(\\sin x)'=\\cos x;\\quad(\\cos x)'=-\\sin x;\\quad(\\tan x)'=\\sec^2x$",
+      "Identifique a função elementar e o fator constante 3.",
+      "Aplique a fórmula: sen′$\\left(x\\right) = \\cos\\left(x\\right)$; cos′$\\left(x\\right) = -\\sin\\left(x\\right)$; tg′$\\left(x\\right)$=sec^2$\\left(x\\right)$.",
+      "Multiplique a derivada pelo fator 3; a constante 2 deriva para zero.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = -3 \\cdot \\sin\\left(x\\right)$.",
+      "Resultado: $-3 \\cdot \\sin\\left(x\\right)$.",
+      "$-3 \\cdot \\sin\\left(x\\right) - 2$",
+      "$-3 \\cdot \\sin\\left(x\\right)$",
+      "$2 - 3 \\cdot \\sin\\left(x\\right)$",
+      "$1 - 3 \\cdot \\sin\\left(x\\right)$",
+      "$-3 \\cdot \\sin\\left(x\\right) - 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "exponencial",
+    "tipo": "EXPONENCIAL",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = 3 \\cdot \\exp\\left(x\\right) + 2$.",
+      "$(e^x)'=e^x$",
+      "Identifique a função elementar e o fator constante 3.",
+      "Aplique a fórmula: (e^x)′ = e^x",
+      "Multiplique a derivada pelo fator 3; a constante 2 deriva para zero.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = 3 \\cdot \\exp\\left(x\\right)$.",
+      "Resultado: $3 \\cdot \\exp\\left(x\\right)$.",
+      "$3 \\cdot \\exp\\left(x\\right) - 2$",
+      "$3 \\cdot \\exp\\left(x\\right)$",
+      "$3 \\cdot \\exp\\left(x\\right) + 2$",
+      "$3 \\cdot \\exp\\left(x\\right) + 1$",
+      "$3 \\cdot \\exp\\left(x\\right) - 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "logaritmica",
+    "tipo": "LOGARITMICA",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = 3 \\cdot \\ln\\left(x\\right) + 2$.",
+      "$(\\ln x)'=\\dfrac{1}{x}$",
+      "Identifique a função elementar e o fator constante 3.",
+      "Aplique a fórmula: $\\left(\\ln\\left(x\\right)\\right)$′ = $\\dfrac{1}{x}$",
+      "Multiplique a derivada pelo fator 3; a constante 2 deriva para zero.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = \\dfrac{3}{x}$.",
+      "Resultado: $\\dfrac{3}{x}$.",
+      "Restrição: $x > 0$.",
+      "$-2 + \\dfrac{3}{x}$",
+      "$\\dfrac{3}{x}$",
+      "$2 + \\dfrac{3}{x}$",
+      "$\\dfrac{\\left(x + 3\\right)}{x}$",
+      "$\\dfrac{\\left(3 - x\\right)}{x}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "hiperbolica",
+    "tipo": "HIPERBOLICA",
+    "campos": [
+      "Calcule $f^{\\prime}\\left(x\\right)$, para $f\\left(x\\right) = 3 \\cdot \\cosh\\left(x\\right) + 2$.",
+      "$(\\sinh x)'=\\cosh x;\\quad(\\cosh x)'=\\sinh x$",
+      "Identifique a função elementar e o fator constante 3.",
+      "Aplique a fórmula: senh′$\\left(x\\right) = \\cosh\\left(x\\right)$; cosh′$\\left(x\\right)$=senh$\\left(x\\right)$.",
+      "Multiplique a derivada pelo fator 3; a constante 2 deriva para zero.",
+      "Simplifique: $f^{\\prime}\\left(x\\right) = 3 \\cdot \\sinh\\left(x\\right)$.",
+      "Resultado: $3 \\cdot \\sinh\\left(x\\right)$.",
+      "$3 \\cdot \\sinh\\left(x\\right) - 2$",
+      "$3 \\cdot \\sinh\\left(x\\right)$",
+      "$3 \\cdot \\sinh\\left(x\\right) + 2$",
+      "$3 \\cdot \\sinh\\left(x\\right) + 1$",
+      "$3 \\cdot \\sinh\\left(x\\right) - 1$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "implicita",
+    "tipo": "IMPLICITA",
+    "campos": [
+      "Calcule $\\dfrac{dy}{dx}$ para ${x}^{2} + {y}^{2} = 13$, considerando $y \\ne 0$.",
+      "$\\dfrac{d}{dx}(y^2)=2y\\dfrac{dy}{dx}$",
+      "Derive ambos os lados em relação a x: $2 \\cdot x + \\dfrac{2 \\cdot y \\cdot dy}{dx} = 0$.",
+      "Isole o termo com $\\dfrac{dy}{dx}$: $\\dfrac{2 \\cdot y \\cdot dy}{dx} = -2 \\cdot x$.",
+      "Divida por $2 \\cdot y\\left(y \\ne 0\\right)$: $\\dfrac{dy}{dx} = \\dfrac{-x}{y}$.",
+      "Resultado: $\\dfrac{-x}{y}$.",
+      "Restrição: $y \\ne 0$, sobre a curva dada.",
+      "$\\dfrac{-x}{y} - 2$",
+      "$\\dfrac{-x}{y}$",
+      "$\\dfrac{-x}{y} + 2$",
+      "$\\dfrac{\\left(-x + y\\right)}{y}$",
+      "$\\dfrac{\\left(-x - y\\right)}{y}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "tangente",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule a equação da reta tangente a $f\\left(x\\right) = 3 \\cdot {x}^{2} + 2 \\cdot x + 5$ em $x = 5$. Informe y em função de x.",
+      "$y-f(p)=f'(p)(x-p)$",
+      "Derive $f\\left(x\\right) = 3 \\cdot {x}^{2} + 2 \\cdot x + 5$: $f^{\\prime}\\left(x\\right) = 6 \\cdot x + 2$.",
+      "Em $x = 5$, $f^{\\prime}\\left(5\\right) = 32$.",
+      "O ponto é (5, 90).",
+      "Substitua na fórmula: $y - 90 = 32 \\cdot \\left(x - 5\\right)$.",
+      "Resultado: $32 \\cdot x - 70$.",
+      "$32 \\cdot x - 72$",
+      "$32 \\cdot x - 70$",
+      "$32 \\cdot x - 68$",
+      "$32 \\cdot x - 69$",
+      "$32 \\cdot x - 71$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "taxa",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule a taxa de variação instantânea de $f\\left(x\\right) = 3 \\cdot {x}^{2} + 2 \\cdot x + 5$ em $x = 5$.",
+      "$\\mathrm{taxa\\ instant\\hat{a}nea}=f'(p)$",
+      "Derive $f\\left(x\\right) = 3 \\cdot {x}^{2} + 2 \\cdot x + 5$: $f^{\\prime}\\left(x\\right) = 6 \\cdot x + 2$.",
+      "Em $x = 5$, $f^{\\prime}\\left(5\\right) = 32$.",
+      "Substitua na derivada: $6 \\cdot 5 + 2 = 32$.",
+      "Resultado: 32.",
+      "$30$",
+      "$32$",
+      "$34$",
+      "$33$",
+      "$31$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "crescimento",
+    "tipo": "EXPONENCIAL",
+    "campos": [
+      "Para $P\\left(t\\right) = 2$*etp$\\left(\\dfrac{t}{4}\\right)$, calcule $P^{\\prime}\\left(0\\right)$.",
+      "$P'(t)=kP(t),\\quad P(t)=P_0e^{kt}$",
+      "A constante de taxa é $k = \\dfrac{1}{4}$.",
+      "$P\\left(0\\right) = 2$.",
+      "Logo $P^{\\prime}\\left(0\\right) = \\left(\\dfrac{1}{4}\\right) \\cdot 2 = \\dfrac{1}{2}$.",
+      "Resultado: $\\dfrac{1}{2}$.",
+      "$\\dfrac{-3}{2}$",
+      "$\\dfrac{1}{2}$",
+      "$\\dfrac{5}{2}$",
+      "$\\dfrac{3}{2}$",
+      "$\\dfrac{-1}{2}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "relacionadas",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Um quadrado tem lado $l\\left(t\\right)$. No instante considerado, $l = 3$ cm e dl/dt = 2 cm/s. Calcule dA/dt em cm^2/s.",
+      "$A=l^2;\\quad\\dfrac{dA}{dt}=2l\\dfrac{dl}{dt}$",
+      "Relacione as grandezas: $A\\left(t\\right) = {l\\left(t\\right)}^{2}$.",
+      "Derive em relação ao tempo usando a cadeia: dA/dt = $2 \\cdot l$*dl/dt.",
+      "Substitua: $2 \\cdot 3 \\cdot 2 = 12$ cm^2/s.",
+      "Resultado: 12.",
+      "$10$",
+      "$12$",
+      "$14$",
+      "$13$",
+      "$11$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "linearizacao",
+    "tipo": "RADICAL",
+    "campos": [
+      "Use a linearização de $f\\left(x\\right) = \\sqrt{x}$ em $x = 9$ para aproximar $\\sqrt{\\dfrac{451}{50}}$.",
+      "$L(x)=f(p)+f'(p)(x-p)$",
+      "$f\\left(9\\right) = 3$.",
+      "$f^{\\prime}\\left(x\\right) = \\dfrac{1}{\\left(2 \\cdot \\sqrt{x}\\right)}$; $f^{\\prime}\\left(9\\right) = \\dfrac{1}{6}$.",
+      "L$\\left(x\\right) = 3 + \\dfrac{\\left(x - 9\\right)}{6}$.",
+      "L$\\left(\\dfrac{451}{50}\\right) = \\dfrac{901}{300}$. É aproximação, não igualdade com a raiz exata.",
+      "Resultado: $\\dfrac{901}{300}$.",
+      "$\\dfrac{301}{300}$",
+      "$\\dfrac{901}{300}$",
+      "$\\dfrac{1501}{300}$",
+      "$\\dfrac{1201}{300}$",
+      "$\\dfrac{601}{300}$"
+    ]
+  },
+  {
+    "motor": "calculo",
+    "topico": "diferencial",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule dy para $f\\left(x\\right) = 3 \\cdot {x}^{2} + 2 \\cdot x + 5$, $x = 5$ e $dx = \\dfrac{1}{10}$.",
+      "$dy=f'(x)\\,dx$",
+      "Derive $f\\left(x\\right) = 3 \\cdot {x}^{2} + 2 \\cdot x + 5$: $f^{\\prime}\\left(x\\right) = 6 \\cdot x + 2$.",
+      "Em $x = 5$, $f^{\\prime}\\left(5\\right) = 32$.",
+      "Substitua dx: $dy = 32 \\cdot \\left(\\dfrac{1}{10}\\right) = \\dfrac{16}{5}$.",
+      "Resultado: $\\dfrac{16}{5}$.",
+      "$\\dfrac{6}{5}$",
+      "$\\dfrac{16}{5}$",
+      "$\\dfrac{26}{5}$",
+      "$\\dfrac{21}{5}$",
+      "$\\dfrac{11}{5}$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "primitiva",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $\\int \\left(3 \\cdot x^{4} + 2 \\cdot x + 5\\right)\\, dx$.",
+      "$\\int x^p\\,dx=\\dfrac{x^{p+1}}{p+1}+C$, para $p\\ne-1$; linearidade e tabela de integrais.",
+      "Identifique o integrando: $3 \\cdot {x}^{4} + 2 \\cdot x + 5$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = \\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 5 \\cdot x$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = 3 \\cdot {x}^{4} + 2 \\cdot x + 5$.",
+      "Acrescente a constante C, pois a derivada de qualquer constante é zero.",
+      "Resultado: $\\dfrac{x \\cdot \\left(3 \\cdot {x}^{4} + 5 \\cdot x + 25\\right)}{5} + C$.",
+      "$\\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 3 \\cdot x + C$",
+      "$\\dfrac{x \\cdot \\left(3 \\cdot {x}^{4} + 5 \\cdot x + 25\\right)}{5} + C$",
+      "$\\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 7 \\cdot x + C$",
+      "$\\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 6 \\cdot x + C$",
+      "$\\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 4 \\cdot x + C$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_direta",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $\\int \\left(3 \\cdot x^{4} + 2 \\cdot x + 5\\right)\\, dx$.",
+      "$\\int x^p\\,dx=\\dfrac{x^{p+1}}{p+1}+C$, para $p\\ne-1$; linearidade e tabela de integrais.",
+      "Identifique o integrando: $3 \\cdot {x}^{4} + 2 \\cdot x + 5$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = \\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 5 \\cdot x$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = 3 \\cdot {x}^{4} + 2 \\cdot x + 5$.",
+      "Acrescente a constante C, pois a derivada de qualquer constante é zero.",
+      "Resultado: $\\dfrac{x \\cdot \\left(3 \\cdot {x}^{4} + 5 \\cdot x + 25\\right)}{5} + C$.",
+      "$\\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 3 \\cdot x + C$",
+      "$\\dfrac{x \\cdot \\left(3 \\cdot {x}^{4} + 5 \\cdot x + 25\\right)}{5} + C$",
+      "$\\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 7 \\cdot x + C$",
+      "$\\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 6 \\cdot x + C$",
+      "$\\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 4 \\cdot x + C$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_direta",
+    "tipo": "RADICAL",
+    "campos": [
+      "Calcule $\\int \\left(3 \\cdot \\sqrt{x} + 2\\right)\\, dx$.",
+      "$\\int x^p\\,dx=\\dfrac{x^{p+1}}{p+1}+C$, para $p\\ne-1$; linearidade e tabela de integrais.",
+      "Identifique o integrando: $3 \\cdot \\sqrt{x} + 2$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = 2 \\cdot {x}^{\\left(\\dfrac{3}{2}\\right)} + 2 \\cdot x$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = 3 \\cdot \\sqrt{x} + 2$.",
+      "Acrescente a constante C, pois a derivada de qualquer constante é zero.",
+      "Domínio real: $x \\ge 0$; use $\\sqrt{x} = {x}^{\\left(\\dfrac{1}{2}\\right)}$.",
+      "Resultado: $2 \\cdot {x}^{\\left(\\dfrac{3}{2}\\right)} + 2 \\cdot x + C$.",
+      "$2 \\cdot {x}^{\\left(\\dfrac{3}{2}\\right)} + C$",
+      "$2 \\cdot {x}^{\\left(\\dfrac{3}{2}\\right)} + 2 \\cdot x + C$",
+      "$2 \\cdot {x}^{\\left(\\dfrac{3}{2}\\right)} + 4 \\cdot x + C$",
+      "$2 \\cdot {x}^{\\left(\\dfrac{3}{2}\\right)} + 3 \\cdot x + C$",
+      "$2 \\cdot {x}^{\\left(\\dfrac{3}{2}\\right)} + x + C$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_direta",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Calcule $\\int \\dfrac{3}{x}\\, dx$ no intervalo $x>0$.",
+      "$\\int x^p\\,dx=\\dfrac{x^{p+1}}{p+1}+C$, para $p\\ne-1$; linearidade e tabela de integrais.",
+      "Identifique o integrando: $\\dfrac{3}{x}$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = 3 \\cdot \\ln\\left(x\\right)$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = \\dfrac{3}{x}$.",
+      "Acrescente a constante C, pois a derivada de qualquer constante é zero.",
+      "Domínio deste exercício: $x > 0$. Em geral $\\int\\dfrac{1}{x}\\,dx$ = $\\ln|x|$ $+C$ em cada intervalo sem zero.",
+      "Resultado: $3 \\cdot \\ln\\left(x\\right) + C$.",
+      "$-2 \\cdot x + 3 \\cdot \\ln\\left(x\\right) + C$",
+      "$3 \\cdot \\ln\\left(x\\right) + C$",
+      "$2 \\cdot x + 3 \\cdot \\ln\\left(x\\right) + C$",
+      "$x + 3 \\cdot \\ln\\left(x\\right) + C$",
+      "$-x + 3 \\cdot \\ln\\left(x\\right) + C$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_direta",
+    "tipo": "TRIGONOMETRICA",
+    "campos": [
+      "Calcule $\\int \\left(3 \\cdot \\sin{\\left(x \\right)} + 2 \\cdot \\cos{\\left(x \\right)}\\right)\\, dx$.",
+      "$\\int x^p\\,dx=\\dfrac{x^{p+1}}{p+1}+C$, para $p\\ne-1$; linearidade e tabela de integrais.",
+      "Identifique o integrando: $3 \\cdot \\sin\\left(x\\right) + 2 \\cdot \\cos\\left(x\\right)$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = 2 \\cdot \\sin\\left(x\\right) - 3 \\cdot \\cos\\left(x\\right)$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = 3 \\cdot \\sin\\left(x\\right) + 2 \\cdot \\cos\\left(x\\right)$.",
+      "Acrescente a constante C, pois a derivada de qualquer constante é zero.",
+      "Resultado: $2 \\cdot \\sin\\left(x\\right) - 3 \\cdot \\cos\\left(x\\right) + C$.",
+      "$-2 \\cdot x + 2 \\cdot \\sin\\left(x\\right) - 3 \\cdot \\cos\\left(x\\right) + C$",
+      "$2 \\cdot \\sin\\left(x\\right) - 3 \\cdot \\cos\\left(x\\right) + C$",
+      "$2 \\cdot x + 2 \\cdot \\sin\\left(x\\right) - 3 \\cdot \\cos\\left(x\\right) + C$",
+      "$x + 2 \\cdot \\sin\\left(x\\right) - 3 \\cdot \\cos\\left(x\\right) + C$",
+      "$-x + 2 \\cdot \\sin\\left(x\\right) - 3 \\cdot \\cos\\left(x\\right) + C$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_direta",
+    "tipo": "EXPONENCIAL",
+    "campos": [
+      "Calcule $\\int 3 \\cdot e^{x}\\, dx$.",
+      "$\\int x^p\\,dx=\\dfrac{x^{p+1}}{p+1}+C$, para $p\\ne-1$; linearidade e tabela de integrais.",
+      "Identifique o integrando: $3 \\cdot \\exp\\left(x\\right)$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = 3 \\cdot \\exp\\left(x\\right)$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = 3 \\cdot \\exp\\left(x\\right)$.",
+      "Acrescente a constante C, pois a derivada de qualquer constante é zero.",
+      "Resultado: $3 \\cdot \\exp\\left(x\\right) + C$.",
+      "$-2 \\cdot x + 3 \\cdot \\exp\\left(x\\right) + C$",
+      "$3 \\cdot \\exp\\left(x\\right) + C$",
+      "$2 \\cdot x + 3 \\cdot \\exp\\left(x\\right) + C$",
+      "$x + 3 \\cdot \\exp\\left(x\\right) + C$",
+      "$-x + 3 \\cdot \\exp\\left(x\\right) + C$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_definida",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $\\int\\limits_{0}^{2} \\left(3 \\cdot x^{4} + 2 \\cdot x + 5\\right)\\, dx$.",
+      "$\\int_a^b f(x)\\,dx=F(b)-F(a)$, para $f$ contínua em $[a,b]$.",
+      "Identifique o integrando: $3 \\cdot {x}^{4} + 2 \\cdot x + 5$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = \\dfrac{3 \\cdot {x}^{5}}{5} + {x}^{2} + 5 \\cdot x$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = 3 \\cdot {x}^{4} + 2 \\cdot x + 5$.",
+      "$F\\left(2\\right) = \\dfrac{166}{5}$; $F\\left(0\\right) = 0$.",
+      "Subtraia o valor inferior do superior: $\\dfrac{166}{5}$. A constante se cancela.",
+      "Resultado: $\\dfrac{166}{5}$.",
+      "$\\dfrac{156}{5}$",
+      "$\\dfrac{166}{5}$",
+      "$\\dfrac{176}{5}$",
+      "$\\dfrac{171}{5}$",
+      "$\\dfrac{161}{5}$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_definida",
+    "tipo": "RADICAL",
+    "campos": [
+      "Calcule $\\int\\limits_{0}^{2} \\left(3 \\cdot \\sqrt{x} + 2\\right)\\, dx$.",
+      "$\\int_a^b f(x)\\,dx=F(b)-F(a)$, para $f$ contínua em $[a,b]$.",
+      "Identifique o integrando: $3 \\cdot \\sqrt{x} + 2$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = 2 \\cdot {x}^{\\left(\\dfrac{3}{2}\\right)} + 2 \\cdot x$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = 3 \\cdot \\sqrt{x} + 2$.",
+      "$F\\left(2\\right) = 4 + 4 \\cdot \\sqrt{2}$; $F\\left(0\\right) = 0$.",
+      "Subtraia o valor inferior do superior: $4 + 4 \\cdot \\sqrt{2}$. A constante se cancela.",
+      "Domínio real: $x \\ge 0$; use $\\sqrt{x} = {x}^{\\left(\\dfrac{1}{2}\\right)}$.",
+      "Resultado: $4 + 4 \\cdot \\sqrt{2}$.",
+      "$2 + 4 \\cdot \\sqrt{2}$",
+      "$4 + 4 \\cdot \\sqrt{2}$",
+      "$4 \\cdot \\sqrt{2} + 6$",
+      "$5 + 4 \\cdot \\sqrt{2}$",
+      "$3 + 4 \\cdot \\sqrt{2}$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_definida",
+    "tipo": "RACIONAL",
+    "campos": [
+      "Calcule $\\int\\limits_{1}^{2} \\dfrac{3}{x}\\, dx$.",
+      "$\\int_a^b f(x)\\,dx=F(b)-F(a)$, para $f$ contínua em $[a,b]$.",
+      "Identifique o integrando: $\\dfrac{3}{x}$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = 3 \\cdot \\ln\\left(x\\right)$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = \\dfrac{3}{x}$.",
+      "$F\\left(2\\right) = 3 \\cdot \\ln\\left(2\\right)$; $F\\left(1\\right) = 0$.",
+      "Subtraia o valor inferior do superior: $\\ln\\left(8\\right)$. A constante se cancela.",
+      "Domínio deste exercício: $x > 0$. Em geral $\\int\\dfrac{1}{x}\\,dx$ = $\\ln|x|$ $+C$ em cada intervalo sem zero.",
+      "Resultado: $\\ln\\left(8\\right)$.",
+      "$-2 + \\ln\\left(8\\right)$",
+      "$\\ln\\left(8\\right)$",
+      "$2 + \\ln\\left(8\\right)$",
+      "$1 + \\ln\\left(8\\right)$",
+      "$-1 + \\ln\\left(8\\right)$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_definida",
+    "tipo": "TRIGONOMETRICA",
+    "campos": [
+      "Calcule $\\int\\limits_{0}^{2} \\left(3 \\cdot \\sin{\\left(x \\right)} + 2 \\cdot \\cos{\\left(x \\right)}\\right)\\, dx$.",
+      "$\\int_a^b f(x)\\,dx=F(b)-F(a)$, para $f$ contínua em $[a,b]$.",
+      "Identifique o integrando: $3 \\cdot \\sin\\left(x\\right) + 2 \\cdot \\cos\\left(x\\right)$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = 2 \\cdot \\sin\\left(x\\right) - 3 \\cdot \\cos\\left(x\\right)$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = 3 \\cdot \\sin\\left(x\\right) + 2 \\cdot \\cos\\left(x\\right)$.",
+      "$F\\left(2\\right) = -3 \\cdot \\cos\\left(2\\right) + 2 \\cdot \\sin\\left(2\\right)$; $F\\left(0\\right) = -3$.",
+      "Subtraia o valor inferior do superior: $-3 \\cdot \\cos\\left(2\\right) + 2 \\cdot \\sin\\left(2\\right) + 3$. A constante se cancela.",
+      "Resultado: $-3 \\cdot \\cos\\left(2\\right) + 2 \\cdot \\sin\\left(2\\right) + 3$.",
+      "$1 - 3 \\cdot \\cos\\left(2\\right) + 2 \\cdot \\sin\\left(2\\right)$",
+      "$-3 \\cdot \\cos\\left(2\\right) + 2 \\cdot \\sin\\left(2\\right) + 3$",
+      "$-3 \\cdot \\cos\\left(2\\right) + 2 \\cdot \\sin\\left(2\\right) + 5$",
+      "$-3 \\cdot \\cos\\left(2\\right) + 2 \\cdot \\sin\\left(2\\right) + 4$",
+      "$-3 \\cdot \\cos\\left(2\\right) + 2 \\cdot \\sin\\left(2\\right) + 2$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "integral_definida",
+    "tipo": "EXPONENCIAL",
+    "campos": [
+      "Calcule $\\int\\limits_{0}^{2} 3 \\cdot e^{x}\\, dx$.",
+      "$\\int_a^b f(x)\\,dx=F(b)-F(a)$, para $f$ contínua em $[a,b]$.",
+      "Identifique o integrando: $3 \\cdot \\exp\\left(x\\right)$.",
+      "Integre termo a termo pela tabela: $F\\left(x\\right) = 3 \\cdot \\exp\\left(x\\right)$.",
+      "Confira por derivação: $F^{\\prime}\\left(x\\right) = 3 \\cdot \\exp\\left(x\\right)$.",
+      "$F\\left(2\\right) = 3 \\cdot \\exp\\left(2\\right)$; $F\\left(0\\right) = 3$.",
+      "Subtraia o valor inferior do superior: $-3 + 3 \\cdot \\exp\\left(2\\right)$. A constante se cancela.",
+      "Resultado: $-3 + 3 \\cdot \\exp\\left(2\\right)$.",
+      "$-5 + 3 \\cdot \\exp\\left(2\\right)$",
+      "$-3 + 3 \\cdot \\exp\\left(2\\right)$",
+      "$-1 + 3 \\cdot \\exp\\left(2\\right)$",
+      "$-2 + 3 \\cdot \\exp\\left(2\\right)$",
+      "$-4 + 3 \\cdot \\exp\\left(2\\right)$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "dupla_retangulo",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $\\int\\limits_{0}^{1}\\int\\limits_{0}^{2} \\left(3 \\cdot x + 2 \\cdot y + 5\\right)\\, dy\\, dx$.",
+      "Integre de dentro para fora, conforme os diferenciais; as outras variáveis ficam constantes em cada etapa.",
+      "Ordem de integração: y, depois x.",
+      "Em relação a y, uma primitiva de $3 \\cdot x + 2 \\cdot y + 5$ é ${y}^{2} + y \\cdot \\left(3 \\cdot x + 5\\right)$.",
+      "Aplique os limites 0 e 2: $\\left(6 \\cdot x + 14\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: $6 \\cdot x + 14$.",
+      "Em relação a x, uma primitiva de $6 \\cdot x + 14$ é $3 \\cdot {x}^{2} + 14 \\cdot x$.",
+      "Aplique os limites 0 e 1: $\\left(17\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: 17.",
+      "As integrais internas são definidas; não acrescente constantes C nas etapas.",
+      "Resultado: 17.",
+      "$15$",
+      "$17$",
+      "$19$",
+      "$18$",
+      "$16$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "dupla_iterada",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $\\int\\limits_{0}^{2}\\int\\limits_{0}^{x} \\left(3 \\cdot x + 2 \\cdot y + 5\\right)\\, dy\\, dx$.",
+      "Integre de dentro para fora, conforme os diferenciais; as outras variáveis ficam constantes em cada etapa.",
+      "Ordem de integração: y, depois x.",
+      "Em relação a y, uma primitiva de $3 \\cdot x + 2 \\cdot y + 5$ é ${y}^{2} + y \\cdot \\left(3 \\cdot x + 5\\right)$.",
+      "Aplique os limites 0 e x: $\\left({x}^{2} + x \\cdot \\left(3 \\cdot x + 5\\right)\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: $x \\cdot \\left(4 \\cdot x + 5\\right)$.",
+      "Em relação a x, uma primitiva de $x \\cdot \\left(4 \\cdot x + 5\\right)$ é $\\dfrac{4 \\cdot {x}^{3}}{3} + \\dfrac{5 \\cdot {x}^{2}}{2}$.",
+      "Aplique os limites 0 e 2: $\\left(\\dfrac{62}{3}\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: $\\dfrac{62}{3}$.",
+      "As integrais internas são definidas; não acrescente constantes C nas etapas.",
+      "Resultado: $\\dfrac{62}{3}$.",
+      "$\\dfrac{56}{3}$",
+      "$\\dfrac{62}{3}$",
+      "$\\dfrac{68}{3}$",
+      "$\\dfrac{65}{3}$",
+      "$\\dfrac{59}{3}$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "tripla_caixa",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $\\int\\limits_{0}^{1}\\int\\limits_{0}^{2}\\int\\limits_{0}^{1} \\left(3 \\cdot x + 2 \\cdot y + 5 \\cdot z\\right)\\, dz\\, dy\\, dx$.",
+      "Integre de dentro para fora, conforme os diferenciais; as outras variáveis ficam constantes em cada etapa.",
+      "Ordem de integração: z, depois y, depois x.",
+      "Em relação a z, uma primitiva de $3 \\cdot x + 2 \\cdot y + 5 \\cdot z$ é $\\dfrac{5 \\cdot {z}^{2}}{2} + z \\cdot \\left(3 \\cdot x + 2 \\cdot y\\right)$.",
+      "Aplique os limites 0 e 1: $\\left(3 \\cdot x + 2 \\cdot y + \\dfrac{5}{2}\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: $3 \\cdot x + 2 \\cdot y + \\dfrac{5}{2}$.",
+      "Em relação a y, uma primitiva de $3 \\cdot x + 2 \\cdot y + \\dfrac{5}{2}$ é ${y}^{2} + y \\cdot \\left(3 \\cdot x + \\dfrac{5}{2}\\right)$.",
+      "Aplique os limites 0 e 2: $\\left(6 \\cdot x + 9\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: $6 \\cdot x + 9$.",
+      "Em relação a x, uma primitiva de $6 \\cdot x + 9$ é $3 \\cdot {x}^{2} + 9 \\cdot x$.",
+      "Aplique os limites 0 e 1: $\\left(12\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: 12.",
+      "As integrais internas são definidas; não acrescente constantes C nas etapas.",
+      "Resultado: 12.",
+      "$10$",
+      "$12$",
+      "$14$",
+      "$13$",
+      "$11$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "tripla_iterada",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Calcule $\\int\\limits_{0}^{1}\\int\\limits_{0}^{x}\\int\\limits_{0}^{x + y} \\left(3 \\cdot x + 2 \\cdot y + 5 \\cdot z\\right)\\, dz\\, dy\\, dx$.",
+      "Integre de dentro para fora, conforme os diferenciais; as outras variáveis ficam constantes em cada etapa.",
+      "Ordem de integração: z, depois y, depois x.",
+      "Em relação a z, uma primitiva de $3 \\cdot x + 2 \\cdot y + 5 \\cdot z$ é $\\dfrac{5 \\cdot {z}^{2}}{2} + z \\cdot \\left(3 \\cdot x + 2 \\cdot y\\right)$.",
+      "Aplique os limites 0 e $x + y$: $\\left(\\dfrac{5 \\cdot {\\left(x + y\\right)}^{2}}{2} + \\left(x + y\\right) \\cdot \\left(3 \\cdot x + 2 \\cdot y\\right)\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: $\\dfrac{\\left(x + y\\right) \\cdot \\left(11 \\cdot x + 9 \\cdot y\\right)}{2}$.",
+      "Em relação a y, uma primitiva de $\\dfrac{\\left(x + y\\right) \\cdot \\left(11 \\cdot x + 9 \\cdot y\\right)}{2}$ é $\\dfrac{11 \\cdot {x}^{2} \\cdot y}{2} + 5 \\cdot x \\cdot {y}^{2} + \\dfrac{3 \\cdot {y}^{3}}{2}$.",
+      "Aplique os limites 0 e x: $\\left(12 \\cdot {x}^{3}\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: $12 \\cdot {x}^{3}$.",
+      "Em relação a x, uma primitiva de $12 \\cdot {x}^{3}$ é $3 \\cdot {x}^{4}$.",
+      "Aplique os limites 0 e 1: $\\left(3\\right) - \\left(0\\right)$.",
+      "Resultado desta etapa: 3.",
+      "As integrais internas são definidas; não acrescente constantes C nas etapas.",
+      "Resultado: 3.",
+      "$1$",
+      "$3$",
+      "$5$",
+      "$4$",
+      "$2$"
+    ]
+  },
+  {
+    "motor": "integral",
+    "topico": "valor_multivariavel",
+    "tipo": "POLINOMIAL",
+    "campos": [
+      "Complemento opcional. Dada $f\\left(x , y , z\\right) = 3 \\cdot {x}^{2} + 2 \\cdot y + 5 \\cdot z$, calcule $f\\left(1 , 2 , 3\\right)$.",
+      "Substitua simultaneamente cada coordenada na variável correspondente.",
+      "$x = 1$, $y = 2$ e $z = 3$.",
+      "$f\\left(1 , 2 , 3\\right) = 3 \\cdot {1}^{2} + 2 \\cdot 2 + 5 \\cdot 3$.",
+      "Efetue as operações: 22.",
+      "Resultado: 22.",
+      "$20$",
+      "$22$",
+      "$24$",
+      "$23$",
+      "$21$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "espaco_amostral",
+    "tipo": "",
+    "campos": [
+      "Um resultado é uma sequência de escolhas. As etapas têm, respectivamente, [3, 2] opções. Todas as combinações são permitidas.\n\nQuantos resultados distintos há no espaço amostral?",
+      "total = produto do número de opções de cada etapa",
+      "Multiplique, não some, as possibilidades de etapas sucessivas.",
+      "Resultado: 6.",
+      "$25$",
+      "$7$",
+      "$10$",
+      "$120$",
+      "$6$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "uniao",
+    "tipo": "",
+    "campos": [
+      "São 30 registros: 5 têm A, 19 têm B e 2 têm ambos. Um registro é sorteado uniformemente.\n\nQual é a probabilidade de o registro ter A ou B, incluindo ambos?",
+      "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$",
+      "Contagem da união=$5 + 19 - 2 = 22$.",
+      "Resultado: $\\dfrac{11}{15}$.",
+      "$\\dfrac{11}{45}$",
+      "$\\dfrac{11}{30}$",
+      "$\\dfrac{4}{15}$",
+      "$0$",
+      "$\\dfrac{11}{15}$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "complemento",
+    "tipo": "",
+    "campos": [
+      "São 30 registros: 5 têm A, 19 têm B e 2 têm ambos. Um registro é sorteado uniformemente.\n\nQual é a probabilidade de o registro não ter A?",
+      "$P(A^{c})=1-P(A)$",
+      "Sem $A = 30 - 5 = 25$.",
+      "Resultado: $\\dfrac{5}{6}$.",
+      "$\\dfrac{5}{18}$",
+      "$\\dfrac{5}{12}$",
+      "$\\dfrac{1}{6}$",
+      "$0$",
+      "$\\dfrac{5}{6}$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "arranjo",
+    "tipo": "",
+    "campos": [
+      "Há 10 pessoas distintas disponíveis.\n\nDe quantas formas é possível preencher 2 funções diferentes, sem acumular funções?",
+      "$A_{n,k}=\\dfrac{n!}{(n-k)!}$",
+      "$n = 10$; elementos escolhidos=2.",
+      "A ordem importa nas funções e na fila; não importa em grupos sem funções.",
+      "$A\\left(10{,}2\\right) = \\dfrac{3628800}{40320} = 90$.",
+      "Resultado: 90.",
+      "$20$",
+      "$100$",
+      "$90$",
+      "$45$",
+      "$3628800$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "combinacao",
+    "tipo": "",
+    "campos": [
+      "Há 10 pessoas distintas disponíveis.\n\nQuantos grupos de 2 pessoas podem ser formados, sem função ou ordem entre integrantes?",
+      "$C_{n,k}=\\dfrac{n!}{k!(n-k)!}$",
+      "$n = 10$; elementos escolhidos=2.",
+      "A ordem importa nas funções e na fila; não importa em grupos sem funções.",
+      "$C\\left(10{,}2\\right) = \\dfrac{3628800}{\\left(2 \\cdot 40320\\right)} = 45$.",
+      "Resultado: 45.",
+      "$3628800$",
+      "$20$",
+      "$45$",
+      "$100$",
+      "$46$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "permutacao",
+    "tipo": "",
+    "campos": [
+      "Há 8 pessoas distintas disponíveis.\n\nDe quantas formas todas as pessoas podem ser ordenadas numa fila?",
+      "$P_n=n!$",
+      "$n = 8$; elementos escolhidos=8.",
+      "A ordem importa nas funções e na fila; não importa em grupos sem funções.",
+      "$8! = 8 \\cdot 7 \\cdot 6 \\cdot 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 = 40320$.",
+      "Resultado: 40320.",
+      "$16$",
+      "$64$",
+      "$40321$",
+      "$28$",
+      "$40320$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "condicional",
+    "tipo": "",
+    "campos": [
+      "São 30 registros: 5 têm A, 19 têm B e 2 têm ambos. Um registro é sorteado uniformemente.\n\nSabendo que o registro tem B, qual é a probabilidade de também ter A?",
+      "$P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)},\\quad P(B)>0$",
+      "O universo condicionado tem 19 registros; destes, 2 também têm A.",
+      "Resultado: $\\dfrac{2}{19}$.",
+      "$\\dfrac{2}{57}$",
+      "$\\dfrac{1}{19}$",
+      "$\\dfrac{17}{19}$",
+      "$\\dfrac{4}{19}$",
+      "$\\dfrac{2}{19}$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "sem_reposicao",
+    "tipo": "",
+    "campos": [
+      "Uma caixa tem 7 fichas azuis e 3 vermelhas. Retiram-se duas fichas uniformemente, em sequência, sem reposição.\n\nQual é a probabilidade de a primeira ser azul e a segunda vermelha?",
+      "$P(A\\cap V)=\\dfrac{n_A}{N}\\cdot\\dfrac{n_V}{N-1}$",
+      "Primeira retirada: $\\dfrac{7}{10}$.",
+      "Após retirar uma azul, permanecem 3 vermelhas entre 9 fichas.",
+      "Resultado: $\\dfrac{7}{30}$.",
+      "$\\dfrac{7}{90}$",
+      "$\\dfrac{7}{60}$",
+      "$\\dfrac{7}{30}$",
+      "$\\dfrac{23}{30}$",
+      "$\\dfrac{7}{15}$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "media",
+    "tipo": "",
+    "campos": [
+      "Dados observados: [3, 4, 5, 6, 13, 14, 19].\n\nQual é a média aritmética?",
+      "$\\bar{x}=\\dfrac{\\sum_{i=1}^{n}x_i}{n}$",
+      "Ordenando: [3, 4, 5, 6, 13, 14, 19].",
+      "Quantidade $n = 7$; soma=64; mínimo=3; máximo=19.",
+      "Média=$\\dfrac{64}{7} = \\dfrac{64}{7}$.",
+      "Resultado: $\\dfrac{64}{7}$.",
+      "$\\dfrac{71}{7}$",
+      "$\\dfrac{32}{7}$",
+      "$\\dfrac{78}{7}$",
+      "$\\dfrac{64}{7}$",
+      "$\\dfrac{128}{7}$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "mediana",
+    "tipo": "",
+    "campos": [
+      "Dados observados: [3, 4, 5, 6, 13, 14, 19].\n\nQual é a mediana?",
+      "mediana = valor central dos dados ordenados; para n par, média dos dois centrais",
+      "Ordenando: [3, 4, 5, 6, 13, 14, 19].",
+      "Quantidade $n = 7$; soma=64; mínimo=3; máximo=19.",
+      "Centro: 6 (n ímpar).",
+      "Resultado: 6.",
+      "$7$",
+      "$3$",
+      "$8$",
+      "$6$",
+      "$12$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "media_ponderada",
+    "tipo": "",
+    "campos": [
+      "Tabela de valores e frequências:\n| Valor | Frequência |\n|---|---|\n| 11 | 1 |\n| 2 | 4 |\n| 5 | 4 |\n| 10 | 1 |\n\nQual é a média, considerando as frequências?",
+      "$\\bar{x}=\\dfrac{\\sum_i x_i f_i}{\\sum_i f_i}$",
+      "Produtos: [11, 8, 20, 10].",
+      "Soma ponderada=49; soma das frequências=10.",
+      "Resultado: $\\dfrac{49}{10}$.",
+      "$\\dfrac{49}{20}$",
+      "$\\dfrac{49}{5}$",
+      "$\\dfrac{69}{10}$",
+      "$\\dfrac{49}{10}$",
+      "$\\dfrac{59}{10}$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "valor_ausente",
+    "tipo": "",
+    "campos": [
+      "Há 5 observações. São conhecidas [3, 4, 5, 6]; a média de todas deve ser 21.\n\nQual deve ser o valor da observação ausente?",
+      "$x_{\\mathrm{ausente}}=n\\bar{x}-\\sum x_{\\mathrm{conhecidos}}$",
+      "Soma necessária=$21 \\cdot 5 = 105$.",
+      "Soma conhecida=18.",
+      "Resultado: 87.",
+      "$\\dfrac{87}{2}$",
+      "$89$",
+      "$174$",
+      "$88$",
+      "$87$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "robustez",
+    "tipo": "",
+    "campos": [
+      "Dados observados: [3, 4, 5, 6, 13, 14, 19]. Substitua somente o maior valor por 76, mantendo os outros dados.\n\nO que acontece com a média e a mediana?",
+      "$\\bar{x}=\\dfrac{\\sum_i x_i}{n}$",
+      "Média antes=$\\dfrac{64}{7}$; depois=$\\dfrac{121}{7}$.",
+      "Mediana antes=6; depois=6.",
+      "Resultado: A mediana permanece igual e a média aumenta..",
+      "A média diminui e a mediana permanece igual.",
+      "As duas permanecem iguais.",
+      "As duas diminuem.",
+      "A média permanece igual e a mediana aumenta.",
+      "A mediana permanece igual e a média aumenta."
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "amplitude",
+    "tipo": "",
+    "campos": [
+      "Dados observados: [3, 4, 5, 6, 13, 14, 19].\n\nQual é a amplitude?",
+      "$R=x_{\\max}-x_{\\min}$",
+      "Ordenando: [3, 4, 5, 6, 13, 14, 19].",
+      "Quantidade $n = 7$; soma=64; mínimo=3; máximo=19.",
+      "$R = 19 - 3 = 16$.",
+      "Resultado: 16.",
+      "$17$",
+      "$8$",
+      "$18$",
+      "$16$",
+      "$32$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "variancia_populacional",
+    "tipo": "",
+    "campos": [
+      "Dados observados: [3, 4, 5, 6, 13, 14, 19]. Trate o conjunto como a população inteira.\n\nQual é a variância populacional?",
+      "$\\sigma^2=\\dfrac{\\sum_{i=1}^{N}(x_i-\\mu)^2}{N}$",
+      "Média=$\\dfrac{64}{7}$.",
+      "Quadrados dos desvios: ['$\\dfrac{1849}{49}$', '$\\dfrac{1296}{49}$', '$\\dfrac{841}{49}$', '$\\dfrac{484}{49}$', '$\\dfrac{729}{49}$', '$\\dfrac{1156}{49}$', '$\\dfrac{4761}{49}$'].",
+      "Soma dos quadrados=$\\dfrac{1588}{7}$; denominador=7.",
+      "Variância=$\\dfrac{1588}{49}$.",
+      "Resultado: $\\dfrac{1588}{49}$.",
+      "$\\dfrac{1637}{49}$",
+      "$\\dfrac{794}{49}$",
+      "$\\dfrac{1686}{49}$",
+      "$\\dfrac{1588}{49}$",
+      "$\\dfrac{3176}{49}$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "variancia_amostral",
+    "tipo": "",
+    "campos": [
+      "Dados observados: [3, 4, 5, 6, 13, 14, 19]. Trate o conjunto como uma amostra.\n\nQual é a variância amostral?",
+      "$s^2=\\dfrac{\\sum_{i=1}^{n}(x_i-\\bar{x})^2}{n-1}$",
+      "Média=$\\dfrac{64}{7}$.",
+      "Quadrados dos desvios: ['$\\dfrac{1849}{49}$', '$\\dfrac{1296}{49}$', '$\\dfrac{841}{49}$', '$\\dfrac{484}{49}$', '$\\dfrac{729}{49}$', '$\\dfrac{1156}{49}$', '$\\dfrac{4761}{49}$'].",
+      "Soma dos quadrados=$\\dfrac{1588}{7}$; denominador=6.",
+      "Variância=$\\dfrac{794}{21}$.",
+      "Resultado: $\\dfrac{794}{21}$.",
+      "$\\dfrac{815}{21}$",
+      "$\\dfrac{397}{21}$",
+      "$\\dfrac{836}{21}$",
+      "$\\dfrac{794}{21}$",
+      "$\\dfrac{1588}{21}$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "desvio_padrao",
+    "tipo": "",
+    "campos": [
+      "Dados observados: [3, 4, 5, 6, 13, 14, 19]. Trate o conjunto como a população inteira.\n\nQual é o desvio-padrão populacional, arredondado para duas casas decimais?",
+      "$\\sigma=\\sqrt{\\dfrac{\\sum_{i=1}^{N}(x_i-\\mu)^2}{N}}$",
+      "Média=$\\dfrac{64}{7}$.",
+      "Quadrados dos desvios: ['$\\dfrac{1849}{49}$', '$\\dfrac{1296}{49}$', '$\\dfrac{841}{49}$', '$\\dfrac{484}{49}$', '$\\dfrac{729}{49}$', '$\\dfrac{1156}{49}$', '$\\dfrac{4761}{49}$'].",
+      "Soma dos quadrados=$\\dfrac{1588}{7}$; denominador=7.",
+      "Variância=$\\dfrac{1588}{49}$.",
+      "Desvio-padrão=$\\sqrt{\\dfrac{1588}{49}} \\approx 5{,}69$.",
+      "Resultado: 5,69.",
+      "$6{,}69$",
+      "$2{,}85$",
+      "$7{,}69$",
+      "$5{,}69$",
+      "$11{,}39$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "iqr",
+    "tipo": "",
+    "campos": [
+      "Dados observados: [3, 4, 5, 6, 13, 14, 19]. Para os quartis, use $h = \\left(n - 1\\right)$q, com índice iniciado em zero e interpolação linear entre os valores vizinhos.\n\nQual é o intervalo interquartil (IQR)?",
+      "$h=(n-1)q$ (índice iniciado em zero, interpolação linear); $IQR=Q_3-Q_1$.",
+      "Dados ordenados=[3, 4, 5, 6, 13, 14, 19].",
+      "q=$\\dfrac{1}{4}$: $h = \\dfrac{3}{2}$; vizinhos nos índices 1 e 2; quartil=$\\dfrac{9}{2}$.",
+      "Interpolação: $4 + \\dfrac{1}{2} \\cdot \\left(5 - 4\\right) = \\dfrac{9}{2}$.",
+      "q=$\\dfrac{3}{4}$: $h = \\dfrac{9}{2}$; vizinhos nos índices 4 e 5; quartil=$\\dfrac{27}{2}$.",
+      "Interpolação: $13 + \\dfrac{1}{2} \\cdot \\left(14 - 13\\right) = \\dfrac{27}{2}$.",
+      "IQR=$\\dfrac{27}{2} - \\dfrac{9}{2} = 9$.",
+      "Resultado: 9.",
+      "$10$",
+      "$\\dfrac{9}{2}$",
+      "$11$",
+      "$9$",
+      "$18$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "correlacao",
+    "tipo": "",
+    "campos": [
+      "Tabela de observações:\n| X | Y |\n|---|---|\n| $-2$ | 0 |\n| $-1$ | 3 |\n| 0 | 6 |\n| 1 | 9 |\n| 2 | 12 |\n\nQual é o coeficiente de correlação de Pearson, arredondado para duas casas decimais?",
+      "$r=\\dfrac{\\sum_i(x_i-\\bar{x})(y_i-\\bar{y})}{(n-1)S_xS_y}$",
+      "MédiaX=0; médiaY=6.",
+      "Soma dos produtos=30; somas dos quadrados=10 e 90.",
+      "$r = \\dfrac{30}{\\sqrt{10 \\cdot 90}} = 1{,}00$.",
+      "Resultado: 1,00.",
+      "$0{,}00$",
+      "$-0{,}50$",
+      "$-1{,}00$",
+      "$0{,}50$",
+      "$1{,}00$"
+    ]
+  },
+  {
+    "motor": "estatistica",
+    "topico": "interpretacao_correlacao",
+    "tipo": "",
+    "campos": [
+      "Tabela de observações:\n| X | Y |\n|---|---|\n| $-2$ | 0 |\n| $-1$ | 3 |\n| 0 | 6 |\n| 1 | 9 |\n| 2 | 12 |\n\nQual interpretação é sustentada pelo coeficiente de correlação desses dados?",
+      "$r=\\dfrac{\\sum_i(x_i-\\bar{x})(y_i-\\bar{y})}{(n-1)S_xS_y}$",
+      "MédiaX=0; médiaY=6.",
+      "Soma dos produtos=30; somas dos quadrados=10 e 90.",
+      "$r = \\dfrac{30}{\\sqrt{10 \\cdot 90}} = 1{,}00$.",
+      "Resultado: Associação linear positiva perfeita nos dados..",
+      "Os dados comprovam uma relação causal.",
+      "Ausência de associação linear nos dados, sem garantir independência.",
+      "Associação linear negativa perfeita nos dados.",
+      "A independência entre as variáveis está garantida.",
+      "Associação linear positiva perfeita nos dados."
+    ]
+  }
+]

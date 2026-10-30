@@ -1,0 +1,25 @@
+{
+  "aprovado": true,
+  "checks": [
+    "Interface pública contém renderização matemática e consulta aos slides de Estatística",
+    "HTTPS Cálculo I: limite, raiz, fração, alternativas e correção chegam em LaTeX",
+    "HTTPS Estatística: os links de fórmulas usam o PDF original disponível e autenticado",
+    "HTTPS Estatística: questões dos materiais preservam alternativas e entregam fórmulas formatadas na correção",
+    "HTTPS Estatística: questão gerada por IA mantém as cinco observações e as duas colunas da tabela de correlação",
+    "Motores publicados: formatação conferida sem alterar o cálculo, a identificação ou o gabarito",
+    "Chat real de Estatística respondeu com fração LaTeX e fontes dos slides",
+    "HTTPS Cálculo II: integral, radical e alternativas em LaTeX"
+  ],
+  "interface_js": "/assets/index-BnqRaEnR.js",
+  "motores": {
+    "calculo": 43,
+    "integral": 16,
+    "estatistica": 20
+  },
+  "chat_estatistica": {
+    "resposta": "Nos slides, a probabilidade condicional é definida como [F1]:\n\nIsso significa a probabilidade de $A$ acontecer sabendo que $B$ já aconteceu. [F1]\n\nO exemplo dos slides: em uma turma, 40% são meninas e 10% são meninas que usam óculos. A chance de uma pessoa usar óculos sabendo que é menina é [F1]:\n\nA partir dessa fórmula, obtém-se a regra do produto [F2]:\n\nE, quando os eventos são independentes, vale [F3]:\n\nExemplo de independência: jogar dois dados, com $A$ = sair 6 no primeiro e $B$ = sair 3 no segundo, então $P(A \\cap B) = \\dfrac{1}{6} \\cdot \\dfrac{1}{6} = \\dfrac{1}{36}$. [F3]\n\nExemplo visual didático criado pela IA, baseado no conceito em [F1] [F2] [F3].\n\n| Evento | Probabilidade |\n|---|---|\n| $P(\\text{óculos} \\mid \\text{menina})$ | $\\dfrac{0{,}10}{0{,}40} = 0{,}25$ |\n| $P(\\text{menina} \\cap \\text{óculos})$ | $0{,}25 \\cdot 0{,}40 = 0{,}10$ |\n| $P(A \\cap B)$ com dados independentes | $\\dfrac{1}{6} \\cdot \\dfrac{1}{6} = \\dfrac{1}{36}$ |\n[F1] [F2] [F3]",
+    "fontes": 3
+  },
+  "calculo2_publico": true,
+  "conta_temporaria_removida": true
+}

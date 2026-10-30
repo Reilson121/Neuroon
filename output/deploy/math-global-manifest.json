@@ -1,0 +1,34 @@
+{
+  "neuron-ai/app/practice/math_presentation.py": {
+    "expected": "8a9cb287104b8b963716329451a8512db90d527e4a7a44a66db6db8b44a43630",
+    "sha256": "3d3298ccc01341736c85a401d9ab1e5007121b9d1d3bb1da884c80dc294a50c2"
+  },
+  "neuron-ai/app/practice/service.py": {
+    "expected": "dab4ca36d5b5c522a2a9ad3b015b2709e12f8b6a2be8f57c40102d2f1dd91fe6",
+    "sha256": "dab4ca36d5b5c522a2a9ad3b015b2709e12f8b6a2be8f57c40102d2f1dd91fe6"
+  },
+  "neuron-ai/app/rag/monitor_virtual.py": {
+    "expected": "34f030f10909835d1631e01e9e2b238704b856e0e6797dec8ca5523022e91c6c",
+    "sha256": "34f030f10909835d1631e01e9e2b238704b856e0e6797dec8ca5523022e91c6c"
+  },
+  "frontend/src/App.jsx": {
+    "expected": "a35d6b005e6db4dbcf0bcdff200651003efffeabac3bc1a844e1da1518c56241",
+    "sha256": "a35d6b005e6db4dbcf0bcdff200651003efffeabac3bc1a844e1da1518c56241"
+  },
+  "frontend/src/components/Monitor.jsx": {
+    "expected": "a7568962aee2bd4626fce52851817dac516d8c013916402961993cb333f98836",
+    "sha256": "a7568962aee2bd4626fce52851817dac516d8c013916402961993cb333f98836"
+  },
+  "frontend/src/components/ApoioEstatistica.jsx": {
+    "expected": "f12f0f25e39fa8d11434a51b6a11db9b9a781b6e7c9582d6442c9cd25c1a83b0",
+    "sha256": "f12f0f25e39fa8d11434a51b6a11db9b9a781b6e7c9582d6442c9cd25c1a83b0"
+  },
+  "frontend/src/estatistica-paginas.json": {
+    "expected": "3984ef90a1f79dc04f1a0c2f5d22752b43de0cc520d53985cc0ae0c8bac9360b",
+    "sha256": "3984ef90a1f79dc04f1a0c2f5d22752b43de0cc520d53985cc0ae0c8bac9360b"
+  },
+  "frontend/src/components/Texto.css": {
+    "expected": "81113875ebd7d8c6a501c774120a4d9321ed561bd1f18748c98e590079a7518c",
+    "sha256": "81113875ebd7d8c6a501c774120a4d9321ed561bd1f18748c98e590079a7518c"
+  }
+}

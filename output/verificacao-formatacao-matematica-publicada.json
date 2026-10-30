@@ -1,0 +1,10 @@
+{
+  "aprovado": true,
+  "interface_js": "/assets/index-BLiNqKJT.js",
+  "interface_css": "/assets/index-lW7PdEs-.css",
+  "monitor": {
+    "resposta": "1. **Tentativa direta**: substituindo $x = 1$, obtemos $\\dfrac{1^2 - 1}{1 - 1} = \\dfrac{0}{0}$, uma indeterminação. Não podemos concluir nada ainda. [F3]\n\n2. **Fatoração**: o numerador $x^2 - 1$ é uma diferença de quadrados e pode ser fatorado como $(x - 1)(x + 1)$. Assim:\n   $$\\dfrac{x^2 - 1}{x - 1} = \\dfrac{(x - 1)(x + 1)}{x - 1}.$$ [F3]\n\n3. **Simplificação**: para $x \\neq 1$, podemos cancelar o fator comum $x - 1$:\n   $$\\dfrac{(x - 1)(x + 1)}{x - 1} = x + 1.$$ [F3]\n\n4. **Cálculo do limite**: como o limite quando $x \\to 1$ não depende do valor da função em $x = 1$ (a função original não está definida em $x = 1$), podemos usar a expressão simplificada: [F3]\n   $$\\lim_{x \\to 1} \\dfrac{x^2 - 1}{x - 1} = \\lim_{x \\to 1} (x + 1) = 1 + 1 = 2.$$ [F3]",
+    "fontes": 1,
+    "fallback": false
+  }
+}

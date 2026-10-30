@@ -1,0 +1,15 @@
+{
+  "aprovado": true,
+  "interface_js": "/assets/index-BW_cqaxY.js",
+  "interface_css": "/assets/index-DWZ2cEpx.css",
+  "arquivos_conferidos": 5,
+  "testes_interface": 57,
+  "verificacoes": [
+    "Arquivos públicos HTTPS atualizados",
+    "Fontes legíveis e KaTeX no pacote publicado",
+    "Manifesto dos cinco arquivos conferido",
+    "API disponível e serviços saudáveis"
+  ],
+  "escopo": "Somente apresentação das fontes; IA, verificador, banco e históricos preservados.",
+  "backup": "/opt/neuron/deploy/backups/readable-sources-20261030T015408Z"
+}

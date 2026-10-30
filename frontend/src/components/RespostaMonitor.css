@@ -1,0 +1,11 @@
+.message-sources.readable-sources summary{font-size:12px;align-items:flex-start;min-height:40px;padding:4px 0;color:#34588c}
+.readable-sources summary>svg{margin-top:3px;flex-shrink:0}
+.readable-sources summary>span{flex:1;font-weight:600}
+.readable-sources summary small{display:block;font-size:10px;font-weight:400;color:#718096;margin-top:2px}
+.message-bubble .sources-explanation{font-size:11px;color:#576c89;line-height:1.65;margin:10px 0}
+.message-bubble .readable-source-list{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
+.readable-source-list li{display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:12px;background:#f5f8fd;border:1px solid #e0e9f5;border-radius:8px;min-width:0}
+.readable-source-list strong{font-size:12px;font-weight:600;overflow-wrap:anywhere}
+.readable-source-list li>span{font-size:11px;color:#576c89}
+.readable-source-list a{display:inline-flex;align-items:center;gap:6px;padding:8px 0;min-height:36px;font-size:12px;text-decoration:underline;text-underline-offset:3px}
+.readable-sources summary:focus-visible,.readable-source-list a:focus-visible{outline:2px solid #34588c;outline-offset:3px;border-radius:4px}

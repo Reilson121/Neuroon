@@ -1,0 +1,50 @@
+{
+  "aprovado": true,
+  "checks": [
+    "Interface pública contém prática avançada e configuração/entrega do simulado de Design",
+    "As duas disciplinas do terceiro período estão habilitadas no catálogo público",
+    "HTTPS: testes de mesa diretos e contextualizados com fontes e resolução em tabela",
+    "HTTPS: seleção de três conteúdos gera cinco questões de Design e corrige todas",
+    "HTTPS: conteúdos inexistentes ou de outra disciplina são recusados",
+    "Banco publicado: 13 assuntos avançados e nove de Design, três questões geradas e corrigidas por assunto"
+  ],
+  "cobertura_interna": {
+    "estrutura_de_dados_avancada": {
+      "assuntos": 13,
+      "questoes_conferidas": 39,
+      "cobertura": {
+        "revisao_estruturas_em_c": 3,
+        "conceitos_de_arvores": 3,
+        "arvores_em_python": 3,
+        "aplicacoes_de_arvores": 3,
+        "filas_de_prioridade_e_heap": 3,
+        "arvores_binarias_de_busca": 3,
+        "arvores_de_decisao": 3,
+        "arvore_trie": 3,
+        "arvores_balanceadas_e_avl": 3,
+        "arvores_red_black": 3,
+        "arvore_splay": 3,
+        "algoritmos_de_ordenacao": 3,
+        "grafos": 3
+      }
+    },
+    "design_de_artefatos_digitais": {
+      "assuntos": 9,
+      "questoes_conferidas": 27,
+      "cobertura": {
+        "introducao_ao_design": 3,
+        "ferramentas_visuais": 3,
+        "publico_alvo": 3,
+        "comportamento_do_consumidor": 3,
+        "design_de_interface": 3,
+        "principios_de_design": 3,
+        "design_de_interface_diagramacao": 3,
+        "design_thinking": 3,
+        "matriz_csd": 3
+      }
+    }
+  },
+  "conta_temporaria_removida": true,
+  "dados_permanentes_preservados": true,
+  "catalogo_e_indice_preservados": true
+}

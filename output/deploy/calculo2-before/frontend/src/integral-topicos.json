@@ -1,0 +1,90 @@
+[
+  {
+    "id": "primitiva",
+    "assunto": "primitivas",
+    "unidade": 1,
+    "nome": "Primitivas e constante de integração",
+    "tipos": [
+      "POLINOMIAL"
+    ],
+    "assuntoOrdem": 1
+  },
+  {
+    "id": "integral_direta",
+    "assunto": "integrais_indefinidas",
+    "unidade": 1,
+    "nome": "Integração direta pela tabela",
+    "tipos": [
+      "POLINOMIAL",
+      "RADICAL",
+      "RACIONAL",
+      "TRIGONOMETRICA",
+      "EXPONENCIAL"
+    ],
+    "assuntoOrdem": 2
+  },
+  {
+    "id": "integral_definida",
+    "assunto": "integrais_definidas",
+    "unidade": 1,
+    "nome": "Integral definida e F(b) - F(a)",
+    "tipos": [
+      "POLINOMIAL",
+      "RADICAL",
+      "RACIONAL",
+      "TRIGONOMETRICA",
+      "EXPONENCIAL"
+    ],
+    "assuntoOrdem": 3
+  },
+  {
+    "id": "dupla_retangulo",
+    "assunto": "integrais_duplas_retangulares",
+    "unidade": 2,
+    "nome": "Integral dupla em retângulo",
+    "tipos": [
+      "POLINOMIAL"
+    ],
+    "assuntoOrdem": 4
+  },
+  {
+    "id": "dupla_iterada",
+    "assunto": "integrais_duplas_iteradas",
+    "unidade": 2,
+    "nome": "Integral dupla com limite variável",
+    "tipos": [
+      "POLINOMIAL"
+    ],
+    "assuntoOrdem": 5
+  },
+  {
+    "id": "tripla_caixa",
+    "assunto": "integrais_triplas_retangulares",
+    "unidade": 2,
+    "nome": "Integral tripla em caixa",
+    "tipos": [
+      "POLINOMIAL"
+    ],
+    "assuntoOrdem": 6
+  },
+  {
+    "id": "tripla_iterada",
+    "assunto": "integrais_triplas_iteradas",
+    "unidade": 2,
+    "nome": "Integral tripla com limites variáveis",
+    "tipos": [
+      "POLINOMIAL"
+    ],
+    "assuntoOrdem": 7
+  },
+  {
+    "id": "valor_multivariavel",
+    "assunto": "base_multivariavel",
+    "unidade": 0,
+    "nome": "Complemento opcional: valor de função",
+    "tipos": [
+      "POLINOMIAL"
+    ],
+    "assuntoOrdem": 8
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "periodo": 3,
+  "disciplina": "calculo_para_computacao_2",
+  "materiais": {
+    "48": {
+      "chunks_antes": 148,
+      "chunks_depois": 148,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 0
+    },
+    "49": {
+      "chunks_antes": 12,
+      "chunks_depois": 12,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 0
+    },
+    "50": {
+      "chunks_antes": 28,
+      "chunks_depois": 28,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 0
+    },
+    "51": {
+      "chunks_antes": 28,
+      "chunks_depois": 28,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 0,
+      "inseridos": 0,
+      "vinculos_relacionais_atualizados": 0
+    }
+  },
+  "chunks": 216,
+  "buscas_conferidas": 8
+}

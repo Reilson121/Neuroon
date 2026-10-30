@@ -1,0 +1,97 @@
+{
+  "periodo": 2,
+  "disciplina": "estrutura_de_dados",
+  "materiais": {
+    "33": {
+      "chunks_antes": 0,
+      "chunks_depois": 30,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 30,
+      "inseridos": 30,
+      "vinculos_relacionais_atualizados": 30
+    },
+    "34": {
+      "chunks_antes": 0,
+      "chunks_depois": 36,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 36,
+      "inseridos": 36,
+      "vinculos_relacionais_atualizados": 36
+    },
+    "35": {
+      "chunks_antes": 0,
+      "chunks_depois": 20,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 20,
+      "inseridos": 20,
+      "vinculos_relacionais_atualizados": 20
+    },
+    "36": {
+      "chunks_antes": 0,
+      "chunks_depois": 13,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 13,
+      "inseridos": 13,
+      "vinculos_relacionais_atualizados": 13
+    },
+    "37": {
+      "chunks_antes": 0,
+      "chunks_depois": 21,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 21,
+      "inseridos": 21,
+      "vinculos_relacionais_atualizados": 21
+    },
+    "38": {
+      "chunks_antes": 0,
+      "chunks_depois": 15,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 15,
+      "inseridos": 15,
+      "vinculos_relacionais_atualizados": 15
+    },
+    "39": {
+      "chunks_antes": 0,
+      "chunks_depois": 12,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 12,
+      "inseridos": 12,
+      "vinculos_relacionais_atualizados": 12
+    },
+    "40": {
+      "chunks_antes": 0,
+      "chunks_depois": 9,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 9,
+      "inseridos": 9,
+      "vinculos_relacionais_atualizados": 9
+    },
+    "41": {
+      "chunks_antes": 0,
+      "chunks_depois": 20,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 20,
+      "inseridos": 20,
+      "vinculos_relacionais_atualizados": 20
+    },
+    "42": {
+      "chunks_antes": 0,
+      "chunks_depois": 4,
+      "removidos": 0,
+      "atualizados": 0,
+      "embeddings_recalculados": 4,
+      "inseridos": 4,
+      "vinculos_relacionais_atualizados": 4
+    }
+  },
+  "chunks": 180
+}

@@ -55,6 +55,29 @@ class RetrieverTest(unittest.TestCase):
         self.assertEqual(m["titulo_material"], "Slides")
         self.assertEqual(m["material_id"], 12)
 
+    def test_questao_citada_da_prova_de_calculo_tem_prioridade(self):
+        prova={**self.store.buscar_hibridos.return_value[0], 'chunk_id':'prova8',
+               'conteudo':'8) Verificar continuidade em x = 1.', 'pagina':2,
+               'arquivo':'prova_calculo_transcrita.pdf','disciplina':'calculo_para_computacao_1',
+               'assunto':'continuidade','similaridade':0.15,'cobertura_lexical':1.0}
+        self.store.buscar_questao_calculo.return_value=[prova]
+        r=self.retriever.recuperar('O que a questão 8 da prova informa?', 'calculo_para_computacao_1','continuidade',k=2)
+        self.store.buscar_questao_calculo.assert_called_once_with([1.0,0.0],8,assunto='continuidade',k=2)
+        self.assertEqual(r[0]['chunk_id'],'prova8')
+        self.assertEqual(r[0]['cobertura_lexical'],1.0)
+        self.assertEqual(len(r),2)
+
+    def test_nao_prioriza_provas_em_outros_contextos(self):
+        for pergunta,disciplina in [('Explique continuidade.','calculo_para_computacao_1'),
+                ('O que a questão 8 da prova informa?','estrutura_de_dados_avancada')]:
+            self.retriever.recuperar(pergunta,disciplina)
+        self.store.buscar_questao_calculo.assert_not_called()
+
+    def test_prova_indisponivel_nao_e_inventada(self):
+        self.store.buscar_questao_calculo.return_value=[]
+        r=self.retriever.recuperar('Questão 8 da prova?', 'calculo_para_computacao_1')
+        self.assertEqual([x['chunk_id'] for x in r],['abc'])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -2,8 +2,12 @@ FROM python:3.13-slim
 WORKDIR /app
 ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 HF_HOME=/cache/huggingface OMP_NUM_THREADS=1
 COPY deploy/requirements-ai.txt /tmp/requirements.txt
-RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu && pip install --no-cache-dir -r /tmp/requirements.txt
+RUN pip install --no-cache-dir torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu && pip install --no-cache-dir -r /tmp/requirements.txt
 RUN useradd --system --uid 10001 neuron && mkdir -p /cache/huggingface && chown -R neuron /cache
 COPY neuron-ai/app ./app
+COPY neuron-ai/saidas_testes/estrutura_de_dados_completa.json ./saidas_testes/estrutura_de_dados_completa.json
+COPY neuron-ai/scripts/integrar_materiais_ed_basica.py ./scripts/integrar_materiais_ed_basica.py
+COPY neuron-ai/scripts/integrar_materiais_calculo.py ./scripts/integrar_materiais_calculo.py
+COPY neuron-ai/scripts/integrar_materiais_calculo2.py ./scripts/integrar_materiais_calculo2.py
 USER neuron
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]

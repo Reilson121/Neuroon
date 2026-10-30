@@ -228,6 +228,21 @@ def construir(familia,rng):
 
 
 def verificar(q):
+    if q.get('spec', {}).get('motor') == 'estrutura_de_dados_avancada':
+        from app.practice.ed_avancada_engine import verificar as verificar_avancada
+        return verificar_avancada(q)
+    if q.get('spec', {}).get('motor') == 'design_de_artefatos_digitais':
+        from app.practice.design_engine import verificar as verificar_design
+        return verificar_design(q)
+    if q.get('spec', {}).get('motor') == 'integral':
+        from app.practice.integral_engine import verificar as verificar_integral
+        return verificar_integral(q)
+    if q.get('spec', {}).get('motor') == 'calculo':
+        from app.practice.calculo_engine import verificar as verificar_calculo
+        return verificar_calculo(q)
+    if q.get('spec', {}).get('motor') == 'estrutura_de_dados':
+        from app.practice.ed_basica_engine import verificar as verificar_ed
+        return verificar_ed(q)
     if q.get('spec', {}).get('motor') == 'sistemas_digitais':
         from app.practice.digital_engine import verificar as verificar_digitais
         return verificar_digitais(q)

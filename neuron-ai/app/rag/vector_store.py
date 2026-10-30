@@ -195,8 +195,11 @@ class VectorStore:
     @staticmethod
     def _filtro_monitor(conexao):
         filtro = """
-            AND COALESCE(tipo_material,metadata->>'tipo_material','SLIDE_AULA')
+            AND (COALESCE(tipo_material,metadata->>'tipo_material','SLIDE_AULA')
                 NOT IN ('LISTA_EXERCICIOS','PROVA_ANTIGA')
+                OR (disciplina='calculo_para_computacao_1'
+                    AND COALESCE(tipo_material,metadata->>'tipo_material')='PROVA_ANTIGA'
+                    AND COALESCE(material_id,(metadata->>'material_id')::bigint) IS NOT NULL))
             AND COALESCE(metadata->>'fonte_monitor_virtual','true') = 'true'
         """
         # O protótipo anterior não possui o núcleo relacional. Depois da
@@ -211,6 +214,8 @@ class VectorStore:
                     JOIN periodo p ON p.id=d.periodo_id
                     WHERE m.id=COALESCE(chunk_documento.material_id,(chunk_documento.metadata->>'material_id')::bigint)
                       AND m.ativo AND m.fonte_monitor_virtual AND d.ativo AND p.ativo
+                      AND (d.slug<>'calculo_para_computacao_1' OR
+                           (p.numero=2 AND (m.tipo<>'PROVA_ANTIGA' OR (m.autorizacao_professor AND m.disponivel_para_pratica))))
                       AND d.slug=chunk_documento.disciplina
                       AND (COALESCE(chunk_documento.assunto_id,(chunk_documento.metadata->>'assunto_id')::bigint) IS NULL
                            OR EXISTS (SELECT 1 FROM assunto a WHERE a.id=COALESCE(chunk_documento.assunto_id,(chunk_documento.metadata->>'assunto_id')::bigint)
@@ -287,3 +292,28 @@ class VectorStore:
                 cursor.execute(sql, params)
                 linhas = cursor.fetchall()
         return ordenar_hibrido(linhas, pergunta, k)
+
+    def buscar_questao_calculo(self, embedding, numero, assunto=None, k=5):
+        """Localiza a questão explicitamente citada na única prova recebida.
+
+        Usa as mesmas permissões atuais do Monitor; a numeração não depende
+        da similaridade semântica nem altera a elegibilidade do material.
+        """
+        from psycopg.rows import dict_row
+        if isinstance(numero,bool) or not isinstance(numero,int) or not 1<=numero<=99:
+            raise ValueError('Número de questão inválido.')
+        sql="""SELECT chunk_id,conteudo,periodo,disciplina,assunto,aula,arquivo,pagina,
+                      tipo_arquivo,tipo_extracao,chunk_index,material_id,periodo_id,
+                      disciplina_id,assunto_id,tipo_material,titulo_material,metadata,
+                      1-(embedding <=> %s::vector) AS similaridade
+               FROM chunk_documento WHERE disciplina='calculo_para_computacao_1'
+                 AND tipo_material='PROVA_ANTIGA' AND conteudo ~ %s"""
+        params=[self._vetor_para_texto(embedding),rf'(^|\n){numero}\)']
+        if assunto:
+            sql+=' AND assunto=%s';params.append(assunto)
+        with self._conectar() as conexao:
+            sql+=self._filtro_monitor(conexao)
+            sql+=' ORDER BY pagina,chunk_index LIMIT %s';params.append(k)
+            with conexao.cursor(row_factory=dict_row) as cur:
+                cur.execute(sql,params)
+                return [{**r,'cobertura_lexical':1.0} for r in cur.fetchall()]
